@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["version", "contractVersion", "source", "release", "registryHash", "icons"],
+  "properties": {
+    "version": { "type": "string" },
+    "contractVersion": { "const": "2.0" },
+    "source": { "type": "string" },
+    "release": {
+      "type": "object",
+      "required": ["compatibility", "geometryReviewRequired", "coordinatedPlatforms"],
+      "properties": {
+        "compatibility": { "const": "semantic-versioning" },
+        "geometryReviewRequired": { "const": true },
+        "coordinatedPlatforms": {
+          "type": "array",
+          "minItems": 2,
+          "items": { "enum": ["npm", "swift"] }
+        }
+      },
+      "additionalProperties": false
+    },
+    "registryHash": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "icons": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["id", "category", "viewBox", "nodes", "accessibility"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z][a-z0-9]*(\\.[a-z][a-z0-9]*)*$" },
+          "category": {
+            "enum": ["account", "action", "calendar", "content", "location", "navigation", "plant", "status", "utility", "weather"]
+          },
+          "lucide": { "type": "string" },
+          "custom": { "type": "boolean" },
+          "source": { "type": "string" },
+          "viewBox": { "const": "0 0 24 24" },
+          "nodes": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["type", "attrs"],
+              "properties": {
+                "type": {
+                  "enum": ["path", "line", "polyline", "polygon", "circle", "ellipse", "rect"]
+                },
+                "attrs": {
+                  "type": "object",
+                  "minProperties": 1,
+                  "additionalProperties": { "type": "string" }
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "rendering": {
+            "type": "object",
+            "properties": {
+              "fill": { "type": "string" },
+              "stroke": { "type": "string" },
+              "strokeWidth": { "type": "number", "exclusiveMinimum": 0 },
+              "lineCap": { "enum": ["butt", "round", "square"] },
+              "lineJoin": { "enum": ["miter", "round", "bevel"] },
+              "fillRule": { "enum": ["nonzero", "evenodd"] }
+            },
+            "additionalProperties": false
+          },
+          "accessibility": { "enum": ["decorative", "semantic", "status"] },
+          "accessibilityLabelKey": { "type": "string", "pattern": "^a11y\\.icons\\.[a-z][a-z0-9]*(\\.[a-z][a-z0-9]*)*$" },
+          "aliases": { "type": "array", "items": { "type": "string" } },
+          "deprecated": { "type": "boolean" },
+          "replacement": { "type": "string" }
+        },
+        "allOf": [
+          {
+            "if": { "properties": { "accessibility": { "const": "status" } } },
+            "then": { "required": ["accessibilityLabelKey"] }
+          }
+        ],
+        "additionalProperties": false
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "a11y": {
+    "icons": {
+      "status": {
+        "error": "Error",
+        "warning": "Warning",
+        "success": "Success",
+        "info": "Information",
+        "loading": "Loading",
+        "streak": "Streak"
+      }
+    }
+  }
+}

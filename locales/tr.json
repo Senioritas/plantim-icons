@@ -1,0 +1,14 @@
+{
+  "a11y": {
+    "icons": {
+      "status": {
+        "error": "Hata",
+        "warning": "Uyarı",
+        "success": "Başarılı",
+        "info": "Bilgi",
+        "loading": "Yükleniyor",
+        "streak": "Seri"
+      }
+    }
+  }
+}

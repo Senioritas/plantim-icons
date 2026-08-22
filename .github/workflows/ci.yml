@@ -1,0 +1,35 @@
+name: Plantim Icons CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22.18.0
+          cache: npm
+      - run: npm ci
+      - run: npm run icons:validate:node
+      - name: Verify generated adapters are committed
+        run: |
+          git diff --exit-code -- \
+            packages/plantim-icons/src \
+            packages/plantim-icons/dist \
+            packages/PlantimIcons/Sources
+
+  swift:
+    runs-on: macos-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - run: swift test --package-path packages/PlantimIcons

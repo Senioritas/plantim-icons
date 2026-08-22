@@ -1,0 +1,16 @@
+{
+  "name": "@plantim/icons-registry",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node bin/generate-icons.mjs && node bin/generate-swift-icons.mjs",
+    "check": "node bin/check-icon-contract.mjs",
+    "test": "node bin/test-icon-registry.mjs",
+    "check:accessibility": "node bin/check-icon-accessibility.mjs",
+    "check:galleries": "node bin/check-icon-galleries.mjs",
+    "check:package": "node bin/check-npm-package.mjs",
+    "check:api": "node bin/check-icon-package-api.mjs",
+    "check:size": "node bin/check-icon-package-size.mjs",
+    "diff": "node bin/diff-icon-registry.mjs"
+  }
+}
