@@ -56,8 +56,6 @@ jobs:
             packages/plantim-icons/dist \
             packages/PlantimIcons/Sources
 
-      - name: Publish with npm provenance
+      - name: Publish with npm Trusted Publishing
         working-directory: packages/plantim-icons
-        run: npm publish --provenance --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm publish --access public

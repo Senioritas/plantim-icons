@@ -30,10 +30,9 @@ trusted publisher to GitHub Actions with:
 - workflow: `.github/workflows/icons-release.yml`;
 - environment: none, unless the npm package is configured with one.
 
-Until that npm-side configuration is confirmed, `NPM_TOKEN` remains the
-explicit fallback secret. Do not print or commit the token. After Trusted
-Publishing is verified on a release, remove the fallback secret and the
-`NODE_AUTH_TOKEN` environment from the workflow in a reviewed change.
+The release workflow is configured for tokenless Trusted Publishing and does
+not use an `NPM_TOKEN` or `NODE_AUTH_TOKEN` fallback. Do not reintroduce a
+long-lived npm token without a documented security review.
 
 ## Versioning
 
