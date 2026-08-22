@@ -56,7 +56,8 @@
     "check": "node ../../design-tokens/bin/check-icon-contract.mjs",
     "check:package": "node ../../design-tokens/bin/check-npm-package.mjs",
     "check:api": "node ../../design-tokens/bin/check-icon-package-api.mjs",
-    "check:size": "node ../../design-tokens/bin/check-icon-package-size.mjs"
+    "check:size": "node ../../design-tokens/bin/check-icon-package-size.mjs",
+    "check:migrations": "node ../../design-tokens/bin/check-icon-migrations.mjs"
   },
   "devDependencies": {
     "typescript": "^6.0.2",
