@@ -1,6 +1,6 @@
 {
   "name": "@plantim/icons",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "private": false,
   "description": "Plantim's cross-platform semantic icon library.",
   "license": "MIT",
@@ -36,12 +36,18 @@
       "import": "./dist/metadata.js",
       "default": "./dist/metadata.js"
     },
+    "./navigation": {
+      "types": "./dist/navigation.d.ts",
+      "import": "./dist/navigation.js",
+      "default": "./dist/navigation.js"
+    },
     "./package.json": "./package.json"
   },
   "typesVersions": {
     "*": {
       "vue": ["dist/vue.d.ts"],
       "metadata": ["dist/metadata.d.ts"],
+      "navigation": ["dist/navigation.d.ts"],
       "*": ["dist/index.d.ts"]
     }
   },
