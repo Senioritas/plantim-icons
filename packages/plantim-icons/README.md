@@ -46,6 +46,29 @@ or a mutable registry. Use `PlantimIconName`, `PLANTIM_ICON_NAMES`, and
 for an icon that conveys meaning without adjacent text; decorative icons remain
 hidden from assistive technology by default.
 
+## Product navigation contract
+
+Shared Plantim surfaces are exported from `@plantim/icons/navigation`. The
+contract is generated from the same versioned workspace as the icon geometry,
+so Vue and SwiftUI use one assignment for Feed, Garden, Calendar, Chat, and
+Profile.
+
+```ts
+import { PlantimNavigation } from "@plantim/icons/navigation";
+
+PlantimNavigation.feed.icon; // "utility.activity"
+```
+
+Swift consumers use the generated equivalent:
+
+```swift
+PlantimIcon(PlantimNavigation.feed.icon)
+```
+
+Applications should bind shared surfaces through this contract instead of
+hard-coding icon IDs. The product contract hash is generated into both
+adapters and validated in CI.
+
 ## Consumer compatibility
 
 The package is ESM-only, requires Node.js 22.18 or newer for tooling, and has
