@@ -53,7 +53,12 @@ const packed = execFileSync("npm", ["pack", "--dry-run", "--json", "--ignore-scr
 });
 let packMetadata;
 try {
-  packMetadata = JSON.parse(packed.trim());
+  // npm 11 may print lifecycle output before its `--json` payload, even with
+  // `--ignore-scripts`. The pack metadata is the final JSON array.
+  const metadataStart = packed.lastIndexOf("\n[");
+  packMetadata = JSON.parse(
+    metadataStart === -1 ? packed.trim() : packed.slice(metadataStart + 1).trim(),
+  );
 } catch {
   assert.fail("npm pack did not return JSON metadata");
 }
