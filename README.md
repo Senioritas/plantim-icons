@@ -25,6 +25,18 @@ The canonical source is [`design-tokens/icons/registry.json`](design-tokens/icon
 Run `npm run icons:generate` after registry changes. Generated adapters must be
 committed and must have matching version and registry hash metadata.
 
+## Compatibility
+
+| Consumer or tool | Supported baseline |
+| --- | --- |
+| Vue consumer | Vue 3.0 or newer |
+| npm package runtime | Modern ESM-capable browser or Node runtime |
+| Repository tooling | Node 22.18+ and npm 11.12+ |
+| Swift package | iOS 18+ and macOS 12+ |
+
+The Lucide dependency is a pinned generator-only input. Applications consume
+Plantim semantic names and never import Lucide directly.
+
 ## Contributions and licensing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md), [governance](design-tokens/icons/governance.md),

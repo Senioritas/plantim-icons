@@ -1,0 +1,7 @@
+# Registry geometry, generated adapters, and release automation require
+# design-system ownership review.
+design-tokens/icons/ @utkucikmaz
+design-tokens/bin/ @utkucikmaz
+packages/ @utkucikmaz
+Package.swift @utkucikmaz
+.github/workflows/ @utkucikmaz

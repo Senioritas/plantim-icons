@@ -1,0 +1,19 @@
+name: Bug report
+description: Report incorrect rendering or package behavior.
+title: "bug: "
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Package version
+      placeholder: "2.0.0"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Include platform, runtime, expected behavior, and actual behavior.
+    validations:
+      required: true

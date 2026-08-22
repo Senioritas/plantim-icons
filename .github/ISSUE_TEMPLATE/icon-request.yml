@@ -1,0 +1,19 @@
+name: Icon proposal
+description: Propose a new semantic icon or a semantic correction.
+title: "icon: "
+labels: [icon-request]
+body:
+  - type: input
+    id: semantic-id
+    attributes:
+      label: Proposed semantic ID
+      placeholder: "weather.rain"
+    validations:
+      required: true
+  - type: textarea
+    id: meaning
+    attributes:
+      label: Meaning and usage
+      description: Explain the product meaning, platforms, and accessibility context.
+    validations:
+      required: true

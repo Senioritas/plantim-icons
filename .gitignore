@@ -1,5 +1,7 @@
 node_modules/
 **/.build/
 **/dist/*.map
+dist/gallery/
+test-results/
 *.tgz
 .DS_Store

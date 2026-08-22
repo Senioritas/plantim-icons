@@ -1,0 +1,12 @@
+name: Accessibility issue
+description: Report an icon accessibility or labeling problem.
+title: "a11y: "
+labels: [accessibility]
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Describe the control, platform, assistive technology, and expected announcement.
+    validations:
+      required: true
