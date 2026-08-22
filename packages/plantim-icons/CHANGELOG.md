@@ -12,3 +12,8 @@ renames, and accessibility changes require coordinated package releases.
 ## 1.0.0
 
 - Initial semantic Plantim icon registry and generated Vue adapter.
+# 2.0.1
+
+- Replace the SwiftUI `Canvas` renderer with a native `Shape` renderer so
+  semantic icons render reliably inside `TabView` and `Label` containers.
+- Preserve the canonical geometry, accessibility contract, and public API.

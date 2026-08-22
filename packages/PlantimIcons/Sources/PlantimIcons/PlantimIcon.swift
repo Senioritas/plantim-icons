@@ -2,8 +2,8 @@ import SwiftUI
 import Foundation
 
 public enum PlantimIconsMetadata {
-    public static let version = "2.0.0"
-    public static let registryHash = "7bd691a72d4547801898bf845183e01817bd70bbfc6dee2e535db3e0be4bdc7f"
+    public static let version = "2.0.1"
+    public static let registryHash = "dd50bd6712fa6917a5c8c9b3ba0ff65924ab44a12dc5812923238fa0eee2cbfb"
 }
 
 public enum PlantimIconName: String, CaseIterable, Sendable {
@@ -624,6 +624,17 @@ private let plantimIconAccessibility: [PlantimIconName: String] = [
     .plantThriving: "decorative"
 ]
 
+private struct PlantimIconShape: Shape {
+    let name: PlantimIconName
+
+    func path(in rect: CGRect) -> Path {
+        var path = Path()
+        plantimIconNodes[name, default: []].forEach { $0.add(to: &path) }
+        let scale = min(rect.width / 24, rect.height / 24)
+        return path.applying(CGAffineTransform(scaleX: scale, y: scale))
+    }
+}
+
 public struct PlantimIcon: View {
     public let name: PlantimIconName
     public var size: CGFloat
@@ -636,18 +647,15 @@ public struct PlantimIcon: View {
     }
 
     public var body: some View {
-        let canvas = Canvas { context, _ in
-            context.scaleBy(x: size / 24, y: size / 24)
-            var path = Path(); plantimIconNodes[name, default: []].forEach { $0.add(to: &path) }
-            context.stroke(path, with: .foreground, lineWidth: strokeWidth)
-        }
+        let icon = PlantimIconShape(name: name)
+            .stroke(style: StrokeStyle(lineWidth: strokeWidth, lineCap: .round, lineJoin: .round))
         .frame(width: size, height: size)
         if decorative {
-            canvas.accessibilityHidden(true)
+            icon.accessibilityHidden(true)
         } else if let accessibilityLabel {
-            canvas.accessibilityLabel(accessibilityLabel)
+            icon.accessibilityLabel(accessibilityLabel)
         } else {
-            canvas.accessibilityHidden(true)
+            icon.accessibilityHidden(true)
         }
     }
 }
