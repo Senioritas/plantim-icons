@@ -7,8 +7,8 @@ const workflow = fs.readFileSync(path.join(root, ".github/workflows/icons-releas
 const packageManifest = JSON.parse(fs.readFileSync(path.join(root, "packages/plantim-icons/package.json"), "utf8"));
 
 assert.match(workflow, /id-token:\s*write/, "release must request npm provenance identity");
-assert.match(workflow, /npm publish --provenance --access public/, "release must publish provenance");
-assert.match(workflow, /NODE_AUTH_TOKEN:\s*\$\{\{ secrets\.NPM_TOKEN \}\}/, "token fallback must be explicit until trusted publishing is configured");
+assert.match(workflow, /npm publish --access public/, "release must publish publicly");
+assert.doesNotMatch(workflow, /NODE_AUTH_TOKEN|NPM_TOKEN/, "trusted publishing workflow must not use a long-lived npm token");
 assert.doesNotMatch(workflow, /actions\/(?:checkout|setup-node)@v\d+(?:\s|$)/m, "release actions must be pinned to commits");
 assert.ok(fs.existsSync(path.join(root, "RELEASING.md")), "RELEASING.md is required");
 assert.ok(fs.existsSync(path.join(root, "TRADEMARKS.md")), "TRADEMARKS.md is required");
