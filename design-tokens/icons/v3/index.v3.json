@@ -1,0 +1,2786 @@
+{
+  "version": "3.0.0",
+  "derivedFrom": "2.0.1",
+  "count": 154,
+  "sizes": [
+    24,
+    48,
+    72
+  ],
+  "strokePolicy": "proportional",
+  "v3Hash": "d75d45a700852dc64f8dc05fb0c7a7df9c357b09de9961a55a9e8edd008af0f7",
+  "icons": [
+    {
+      "id": "utility.activity",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.activity.svg",
+        "sizes": {
+          "24": "sizes/utility.activity@24.svg",
+          "48": "sizes/utility.activity@48.svg",
+          "72": "sizes/utility.activity@72.svg"
+        }
+      }
+    },
+    {
+      "id": "status.error",
+      "category": "status",
+      "palette": {
+        "primary": "#D32F2F",
+        "secondary": "#EF9A9A",
+        "accent": "#D32F2F",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/status.error.svg",
+        "sizes": {
+          "24": "sizes/status.error@24.svg",
+          "48": "sizes/status.error@48.svg",
+          "72": "sizes/status.error@72.svg"
+        }
+      }
+    },
+    {
+      "id": "status.warning",
+      "category": "status",
+      "palette": {
+        "primary": "#F9A825",
+        "secondary": "#FFE082",
+        "accent": "#F9A825",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/status.warning.svg",
+        "sizes": {
+          "24": "sizes/status.warning@24.svg",
+          "48": "sizes/status.warning@48.svg",
+          "72": "sizes/status.warning@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.align.justify",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.align.justify.svg",
+        "sizes": {
+          "24": "sizes/utility.align.justify@24.svg",
+          "48": "sizes/utility.align.justify@48.svg",
+          "72": "sizes/utility.align.justify@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.arrow.down",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.arrow.down.svg",
+        "sizes": {
+          "24": "sizes/utility.arrow.down@24.svg",
+          "48": "sizes/utility.arrow.down@48.svg",
+          "72": "sizes/utility.arrow.down@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.arrow.down.to.dot",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.arrow.down.to.dot.svg",
+        "sizes": {
+          "24": "sizes/utility.arrow.down.to.dot@24.svg",
+          "48": "sizes/utility.arrow.down.to.dot@48.svg",
+          "72": "sizes/utility.arrow.down.to.dot@72.svg"
+        }
+      }
+    },
+    {
+      "id": "navigation.back",
+      "category": "navigation",
+      "palette": {
+        "primary": "#37474F",
+        "secondary": "#78909C",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/navigation.back.svg",
+        "sizes": {
+          "24": "sizes/navigation.back@24.svg",
+          "48": "sizes/navigation.back@48.svg",
+          "72": "sizes/navigation.back@72.svg"
+        }
+      }
+    },
+    {
+      "id": "navigation.forward",
+      "category": "navigation",
+      "palette": {
+        "primary": "#37474F",
+        "secondary": "#78909C",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/navigation.forward.svg",
+        "sizes": {
+          "24": "sizes/navigation.forward@24.svg",
+          "48": "sizes/navigation.forward@48.svg",
+          "72": "sizes/navigation.forward@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.arrow.up",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.arrow.up.svg",
+        "sizes": {
+          "24": "sizes/utility.arrow.up@24.svg",
+          "48": "sizes/utility.arrow.up@48.svg",
+          "72": "sizes/utility.arrow.up@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.arrow.up.from.dot",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.arrow.up.from.dot.svg",
+        "sizes": {
+          "24": "sizes/utility.arrow.up.from.dot@24.svg",
+          "48": "sizes/utility.arrow.up.from.dot@48.svg",
+          "72": "sizes/utility.arrow.up.from.dot@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.award",
+      "category": "utility",
+      "palette": {
+        "primary": "#F9A825",
+        "secondary": "#FFD54F",
+        "accent": "#FFF59D",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.award.svg",
+        "sizes": {
+          "24": "sizes/utility.award@24.svg",
+          "48": "sizes/utility.award@48.svg",
+          "72": "sizes/utility.award@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.baby",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.baby.svg",
+        "sizes": {
+          "24": "sizes/utility.baby@24.svg",
+          "48": "sizes/utility.baby@48.svg",
+          "72": "sizes/utility.baby@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.badge.check",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.badge.check.svg",
+        "sizes": {
+          "24": "sizes/utility.badge.check@24.svg",
+          "48": "sizes/utility.badge.check@48.svg",
+          "72": "sizes/utility.badge.check@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.bar.chart3",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.bar.chart3.svg",
+        "sizes": {
+          "24": "sizes/utility.bar.chart3@24.svg",
+          "48": "sizes/utility.bar.chart3@48.svg",
+          "72": "sizes/utility.bar.chart3@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.bell",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.bell.svg",
+        "sizes": {
+          "24": "sizes/utility.bell@24.svg",
+          "48": "sizes/utility.bell@48.svg",
+          "72": "sizes/utility.bell@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.bell.off",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.bell.off.svg",
+        "sizes": {
+          "24": "sizes/utility.bell.off@24.svg",
+          "48": "sizes/utility.bell.off@48.svg",
+          "72": "sizes/utility.bell.off@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.bot",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.bot.svg",
+        "sizes": {
+          "24": "sizes/utility.bot@24.svg",
+          "48": "sizes/utility.bot@48.svg",
+          "72": "sizes/utility.bot@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.brain",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.brain.svg",
+        "sizes": {
+          "24": "sizes/utility.brain@24.svg",
+          "48": "sizes/utility.brain@48.svg",
+          "72": "sizes/utility.brain@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.bug",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.bug.svg",
+        "sizes": {
+          "24": "sizes/utility.bug@24.svg",
+          "48": "sizes/utility.bug@48.svg",
+          "72": "sizes/utility.bug@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.cake",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.cake.svg",
+        "sizes": {
+          "24": "sizes/utility.cake@24.svg",
+          "48": "sizes/utility.cake@48.svg",
+          "72": "sizes/utility.cake@72.svg"
+        }
+      }
+    },
+    {
+      "id": "calendar.date",
+      "category": "calendar",
+      "palette": {
+        "primary": "#3949AB",
+        "secondary": "#7986CB",
+        "accent": "#E53935",
+        "bg": "#E8EAF6"
+      },
+      "files": {
+        "multicolor": "multicolor/calendar.date.svg",
+        "sizes": {
+          "24": "sizes/calendar.date@24.svg",
+          "48": "sizes/calendar.date@48.svg",
+          "72": "sizes/calendar.date@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.calendar.clock",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.calendar.clock.svg",
+        "sizes": {
+          "24": "sizes/utility.calendar.clock@24.svg",
+          "48": "sizes/utility.calendar.clock@48.svg",
+          "72": "sizes/utility.calendar.clock@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.calendar.days",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.calendar.days.svg",
+        "sizes": {
+          "24": "sizes/utility.calendar.days@24.svg",
+          "48": "sizes/utility.calendar.days@48.svg",
+          "72": "sizes/utility.calendar.days@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.camera",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.camera.svg",
+        "sizes": {
+          "24": "sizes/utility.camera@24.svg",
+          "48": "sizes/utility.camera@48.svg",
+          "72": "sizes/utility.camera@72.svg"
+        }
+      }
+    },
+    {
+      "id": "status.success",
+      "category": "status",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#A5D6A7",
+        "accent": "#2E7D32",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/status.success.svg",
+        "sizes": {
+          "24": "sizes/status.success@24.svg",
+          "48": "sizes/status.success@48.svg",
+          "72": "sizes/status.success@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.check.check",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.check.check.svg",
+        "sizes": {
+          "24": "sizes/utility.check.check@24.svg",
+          "48": "sizes/utility.check.check@48.svg",
+          "72": "sizes/utility.check.check@72.svg"
+        }
+      }
+    },
+    {
+      "id": "status.success.circle",
+      "category": "status",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#A5D6A7",
+        "accent": "#2E7D32",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/status.success.circle.svg",
+        "sizes": {
+          "24": "sizes/status.success.circle@24.svg",
+          "48": "sizes/status.success.circle@48.svg",
+          "72": "sizes/status.success.circle@72.svg"
+        }
+      }
+    },
+    {
+      "id": "status.success.circle.alt",
+      "category": "status",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#A5D6A7",
+        "accent": "#2E7D32",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/status.success.circle.alt.svg",
+        "sizes": {
+          "24": "sizes/status.success.circle.alt@24.svg",
+          "48": "sizes/status.success.circle.alt@48.svg",
+          "72": "sizes/status.success.circle.alt@72.svg"
+        }
+      }
+    },
+    {
+      "id": "navigation.expand",
+      "category": "navigation",
+      "palette": {
+        "primary": "#37474F",
+        "secondary": "#78909C",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/navigation.expand.svg",
+        "sizes": {
+          "24": "sizes/navigation.expand@24.svg",
+          "48": "sizes/navigation.expand@48.svg",
+          "72": "sizes/navigation.expand@72.svg"
+        }
+      }
+    },
+    {
+      "id": "navigation.previous",
+      "category": "navigation",
+      "palette": {
+        "primary": "#37474F",
+        "secondary": "#78909C",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/navigation.previous.svg",
+        "sizes": {
+          "24": "sizes/navigation.previous@24.svg",
+          "48": "sizes/navigation.previous@48.svg",
+          "72": "sizes/navigation.previous@72.svg"
+        }
+      }
+    },
+    {
+      "id": "navigation.next",
+      "category": "navigation",
+      "palette": {
+        "primary": "#37474F",
+        "secondary": "#78909C",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/navigation.next.svg",
+        "sizes": {
+          "24": "sizes/navigation.next@24.svg",
+          "48": "sizes/navigation.next@48.svg",
+          "72": "sizes/navigation.next@72.svg"
+        }
+      }
+    },
+    {
+      "id": "navigation.collapse",
+      "category": "navigation",
+      "palette": {
+        "primary": "#37474F",
+        "secondary": "#78909C",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/navigation.collapse.svg",
+        "sizes": {
+          "24": "sizes/navigation.collapse@24.svg",
+          "48": "sizes/navigation.collapse@48.svg",
+          "72": "sizes/navigation.collapse@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.chevrons.up.down",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.chevrons.up.down.svg",
+        "sizes": {
+          "24": "sizes/utility.chevrons.up.down@24.svg",
+          "48": "sizes/utility.chevrons.up.down@48.svg",
+          "72": "sizes/utility.chevrons.up.down@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.circle",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.circle.svg",
+        "sizes": {
+          "24": "sizes/utility.circle@24.svg",
+          "48": "sizes/utility.circle@48.svg",
+          "72": "sizes/utility.circle@72.svg"
+        }
+      }
+    },
+    {
+      "id": "calendar.time",
+      "category": "calendar",
+      "palette": {
+        "primary": "#3949AB",
+        "secondary": "#7986CB",
+        "accent": "#E53935",
+        "bg": "#E8EAF6"
+      },
+      "files": {
+        "multicolor": "multicolor/calendar.time.svg",
+        "sizes": {
+          "24": "sizes/calendar.time@24.svg",
+          "48": "sizes/calendar.time@48.svg",
+          "72": "sizes/calendar.time@72.svg"
+        }
+      }
+    },
+    {
+      "id": "weather.cloud",
+      "category": "weather",
+      "palette": {
+        "primary": "#0288D1",
+        "secondary": "#4FC3F7",
+        "accent": "#FFB300",
+        "bg": "#E1F5FE"
+      },
+      "files": {
+        "multicolor": "multicolor/weather.cloud.svg",
+        "sizes": {
+          "24": "sizes/weather.cloud@24.svg",
+          "48": "sizes/weather.cloud@48.svg",
+          "72": "sizes/weather.cloud@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.cloud.drizzle",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.cloud.drizzle.svg",
+        "sizes": {
+          "24": "sizes/utility.cloud.drizzle@24.svg",
+          "48": "sizes/utility.cloud.drizzle@48.svg",
+          "72": "sizes/utility.cloud.drizzle@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.cloud.fog",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.cloud.fog.svg",
+        "sizes": {
+          "24": "sizes/utility.cloud.fog@24.svg",
+          "48": "sizes/utility.cloud.fog@48.svg",
+          "72": "sizes/utility.cloud.fog@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.cloud.lightning",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.cloud.lightning.svg",
+        "sizes": {
+          "24": "sizes/utility.cloud.lightning@24.svg",
+          "48": "sizes/utility.cloud.lightning@48.svg",
+          "72": "sizes/utility.cloud.lightning@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.cloud.moon",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.cloud.moon.svg",
+        "sizes": {
+          "24": "sizes/utility.cloud.moon@24.svg",
+          "48": "sizes/utility.cloud.moon@48.svg",
+          "72": "sizes/utility.cloud.moon@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.cloud.rain",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.cloud.rain.svg",
+        "sizes": {
+          "24": "sizes/utility.cloud.rain@24.svg",
+          "48": "sizes/utility.cloud.rain@48.svg",
+          "72": "sizes/utility.cloud.rain@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.cloud.snow",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.cloud.snow.svg",
+        "sizes": {
+          "24": "sizes/utility.cloud.snow@24.svg",
+          "48": "sizes/utility.cloud.snow@48.svg",
+          "72": "sizes/utility.cloud.snow@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.cloud.sun",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.cloud.sun.svg",
+        "sizes": {
+          "24": "sizes/utility.cloud.sun@24.svg",
+          "48": "sizes/utility.cloud.sun@48.svg",
+          "72": "sizes/utility.cloud.sun@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.code",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.code.svg",
+        "sizes": {
+          "24": "sizes/utility.code@24.svg",
+          "48": "sizes/utility.code@48.svg",
+          "72": "sizes/utility.code@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.cookie",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.cookie.svg",
+        "sizes": {
+          "24": "sizes/utility.cookie@24.svg",
+          "48": "sizes/utility.cookie@48.svg",
+          "72": "sizes/utility.cookie@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.copy",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.copy.svg",
+        "sizes": {
+          "24": "sizes/utility.copy@24.svg",
+          "48": "sizes/utility.copy@48.svg",
+          "72": "sizes/utility.copy@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.crown",
+      "category": "utility",
+      "palette": {
+        "primary": "#F9A825",
+        "secondary": "#FFD54F",
+        "accent": "#FFF59D",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.crown.svg",
+        "sizes": {
+          "24": "sizes/utility.crown@24.svg",
+          "48": "sizes/utility.crown@48.svg",
+          "72": "sizes/utility.crown@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.database",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.database.svg",
+        "sizes": {
+          "24": "sizes/utility.database@24.svg",
+          "48": "sizes/utility.database@48.svg",
+          "72": "sizes/utility.database@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.dna",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.dna.svg",
+        "sizes": {
+          "24": "sizes/utility.dna@24.svg",
+          "48": "sizes/utility.dna@48.svg",
+          "72": "sizes/utility.dna@72.svg"
+        }
+      }
+    },
+    {
+      "id": "plant.watering",
+      "category": "plant",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#66BB6A",
+        "accent": "#FBC02D",
+        "bg": "#E8F5E9"
+      },
+      "files": {
+        "multicolor": "multicolor/plant.watering.svg",
+        "sizes": {
+          "24": "sizes/plant.watering@24.svg",
+          "48": "sizes/plant.watering@48.svg",
+          "72": "sizes/plant.watering@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.eye",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.eye.svg",
+        "sizes": {
+          "24": "sizes/utility.eye@24.svg",
+          "48": "sizes/utility.eye@48.svg",
+          "72": "sizes/utility.eye@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.eye.off",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.eye.off.svg",
+        "sizes": {
+          "24": "sizes/utility.eye.off@24.svg",
+          "48": "sizes/utility.eye.off@48.svg",
+          "72": "sizes/utility.eye.off@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.filter",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.filter.svg",
+        "sizes": {
+          "24": "sizes/utility.filter@24.svg",
+          "48": "sizes/utility.filter@48.svg",
+          "72": "sizes/utility.filter@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.flame",
+      "category": "utility",
+      "palette": {
+        "primary": "#F4511E",
+        "secondary": "#FF8A65",
+        "accent": "#FBC02D",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.flame.svg",
+        "sizes": {
+          "24": "sizes/utility.flame@24.svg",
+          "48": "sizes/utility.flame@48.svg",
+          "72": "sizes/utility.flame@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.flask.conical",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.flask.conical.svg",
+        "sizes": {
+          "24": "sizes/utility.flask.conical@24.svg",
+          "48": "sizes/utility.flask.conical@48.svg",
+          "72": "sizes/utility.flask.conical@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.flip.horizontal2",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.flip.horizontal2.svg",
+        "sizes": {
+          "24": "sizes/utility.flip.horizontal2@24.svg",
+          "48": "sizes/utility.flip.horizontal2@48.svg",
+          "72": "sizes/utility.flip.horizontal2@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.flower2",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.flower2.svg",
+        "sizes": {
+          "24": "sizes/utility.flower2@24.svg",
+          "48": "sizes/utility.flower2@48.svg",
+          "72": "sizes/utility.flower2@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.globe",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.globe.svg",
+        "sizes": {
+          "24": "sizes/utility.globe@24.svg",
+          "48": "sizes/utility.globe@48.svg",
+          "72": "sizes/utility.globe@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.grid2x2",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.grid2x2.svg",
+        "sizes": {
+          "24": "sizes/utility.grid2x2@24.svg",
+          "48": "sizes/utility.grid2x2@48.svg",
+          "72": "sizes/utility.grid2x2@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.hand",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.hand.svg",
+        "sizes": {
+          "24": "sizes/utility.hand@24.svg",
+          "48": "sizes/utility.hand@48.svg",
+          "72": "sizes/utility.hand@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.handshake",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.handshake.svg",
+        "sizes": {
+          "24": "sizes/utility.handshake@24.svg",
+          "48": "sizes/utility.handshake@48.svg",
+          "72": "sizes/utility.handshake@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.heart",
+      "category": "utility",
+      "palette": {
+        "primary": "#E53935",
+        "secondary": "#EF9A9A",
+        "accent": "#FFCDD2",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.heart.svg",
+        "sizes": {
+          "24": "sizes/utility.heart@24.svg",
+          "48": "sizes/utility.heart@48.svg",
+          "72": "sizes/utility.heart@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.help.circle",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.help.circle.svg",
+        "sizes": {
+          "24": "sizes/utility.help.circle@24.svg",
+          "48": "sizes/utility.help.circle@48.svg",
+          "72": "sizes/utility.help.circle@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.history",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.history.svg",
+        "sizes": {
+          "24": "sizes/utility.history@24.svg",
+          "48": "sizes/utility.history@48.svg",
+          "72": "sizes/utility.history@72.svg"
+        }
+      }
+    },
+    {
+      "id": "navigation.home",
+      "category": "navigation",
+      "palette": {
+        "primary": "#37474F",
+        "secondary": "#78909C",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/navigation.home.svg",
+        "sizes": {
+          "24": "sizes/navigation.home@24.svg",
+          "48": "sizes/navigation.home@48.svg",
+          "72": "sizes/navigation.home@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.image",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.image.svg",
+        "sizes": {
+          "24": "sizes/utility.image@24.svg",
+          "48": "sizes/utility.image@48.svg",
+          "72": "sizes/utility.image@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.inbox",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.inbox.svg",
+        "sizes": {
+          "24": "sizes/utility.inbox@24.svg",
+          "48": "sizes/utility.inbox@48.svg",
+          "72": "sizes/utility.inbox@72.svg"
+        }
+      }
+    },
+    {
+      "id": "status.info",
+      "category": "status",
+      "palette": {
+        "primary": "#1E88E5",
+        "secondary": "#90CAF9",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/status.info.svg",
+        "sizes": {
+          "24": "sizes/status.info@24.svg",
+          "48": "sizes/status.info@48.svg",
+          "72": "sizes/status.info@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.key",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.key.svg",
+        "sizes": {
+          "24": "sizes/utility.key@24.svg",
+          "48": "sizes/utility.key@48.svg",
+          "72": "sizes/utility.key@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.layout.grid",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.layout.grid.svg",
+        "sizes": {
+          "24": "sizes/utility.layout.grid@24.svg",
+          "48": "sizes/utility.layout.grid@48.svg",
+          "72": "sizes/utility.layout.grid@72.svg"
+        }
+      }
+    },
+    {
+      "id": "plant.growth",
+      "category": "plant",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#66BB6A",
+        "accent": "#FBC02D",
+        "bg": "#E8F5E9"
+      },
+      "files": {
+        "multicolor": "multicolor/plant.growth.svg",
+        "sizes": {
+          "24": "sizes/plant.growth@24.svg",
+          "48": "sizes/plant.growth@48.svg",
+          "72": "sizes/plant.growth@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.lightbulb",
+      "category": "utility",
+      "palette": {
+        "primary": "#F9A825",
+        "secondary": "#FFE082",
+        "accent": "#FFF59D",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.lightbulb.svg",
+        "sizes": {
+          "24": "sizes/utility.lightbulb@24.svg",
+          "48": "sizes/utility.lightbulb@48.svg",
+          "72": "sizes/utility.lightbulb@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.link",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.link.svg",
+        "sizes": {
+          "24": "sizes/utility.link@24.svg",
+          "48": "sizes/utility.link@48.svg",
+          "72": "sizes/utility.link@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.list",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.list.svg",
+        "sizes": {
+          "24": "sizes/utility.list@24.svg",
+          "48": "sizes/utility.list@48.svg",
+          "72": "sizes/utility.list@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.lock",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.lock.svg",
+        "sizes": {
+          "24": "sizes/utility.lock@24.svg",
+          "48": "sizes/utility.lock@48.svg",
+          "72": "sizes/utility.lock@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.log.out",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.log.out.svg",
+        "sizes": {
+          "24": "sizes/utility.log.out@24.svg",
+          "48": "sizes/utility.log.out@48.svg",
+          "72": "sizes/utility.log.out@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.mail",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.mail.svg",
+        "sizes": {
+          "24": "sizes/utility.mail@24.svg",
+          "48": "sizes/utility.mail@48.svg",
+          "72": "sizes/utility.mail@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.mail.check",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.mail.check.svg",
+        "sizes": {
+          "24": "sizes/utility.mail.check@24.svg",
+          "48": "sizes/utility.mail.check@48.svg",
+          "72": "sizes/utility.mail.check@72.svg"
+        }
+      }
+    },
+    {
+      "id": "location.pin",
+      "category": "location",
+      "palette": {
+        "primary": "#C2185B",
+        "secondary": "#F06292",
+        "accent": "#FBC02D",
+        "bg": "#FCE4EC"
+      },
+      "files": {
+        "multicolor": "multicolor/location.pin.svg",
+        "sizes": {
+          "24": "sizes/location.pin@24.svg",
+          "48": "sizes/location.pin@48.svg",
+          "72": "sizes/location.pin@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.menu",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.menu.svg",
+        "sizes": {
+          "24": "sizes/utility.menu@24.svg",
+          "48": "sizes/utility.menu@48.svg",
+          "72": "sizes/utility.menu@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.message.circle",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.message.circle.svg",
+        "sizes": {
+          "24": "sizes/utility.message.circle@24.svg",
+          "48": "sizes/utility.message.circle@48.svg",
+          "72": "sizes/utility.message.circle@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.message.square",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.message.square.svg",
+        "sizes": {
+          "24": "sizes/utility.message.square@24.svg",
+          "48": "sizes/utility.message.square@48.svg",
+          "72": "sizes/utility.message.square@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.minus",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.minus.svg",
+        "sizes": {
+          "24": "sizes/utility.minus@24.svg",
+          "48": "sizes/utility.minus@48.svg",
+          "72": "sizes/utility.minus@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.monitor.smartphone",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.monitor.smartphone.svg",
+        "sizes": {
+          "24": "sizes/utility.monitor.smartphone@24.svg",
+          "48": "sizes/utility.monitor.smartphone@48.svg",
+          "72": "sizes/utility.monitor.smartphone@72.svg"
+        }
+      }
+    },
+    {
+      "id": "weather.moon",
+      "category": "weather",
+      "palette": {
+        "primary": "#3949AB",
+        "secondary": "#7986CB",
+        "accent": "#FDD835",
+        "bg": "#E1F5FE"
+      },
+      "files": {
+        "multicolor": "multicolor/weather.moon.svg",
+        "sizes": {
+          "24": "sizes/weather.moon@24.svg",
+          "48": "sizes/weather.moon@48.svg",
+          "72": "sizes/weather.moon@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.moon.star",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.moon.star.svg",
+        "sizes": {
+          "24": "sizes/utility.moon.star@24.svg",
+          "48": "sizes/utility.moon.star@48.svg",
+          "72": "sizes/utility.moon.star@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.more.horizontal",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.more.horizontal.svg",
+        "sizes": {
+          "24": "sizes/utility.more.horizontal@24.svg",
+          "48": "sizes/utility.more.horizontal@48.svg",
+          "72": "sizes/utility.more.horizontal@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.move",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.move.svg",
+        "sizes": {
+          "24": "sizes/utility.move@24.svg",
+          "48": "sizes/utility.move@48.svg",
+          "72": "sizes/utility.move@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.orbit",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.orbit.svg",
+        "sizes": {
+          "24": "sizes/utility.orbit@24.svg",
+          "48": "sizes/utility.orbit@48.svg",
+          "72": "sizes/utility.orbit@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.panel.left",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.panel.left.svg",
+        "sizes": {
+          "24": "sizes/utility.panel.left@24.svg",
+          "48": "sizes/utility.panel.left@48.svg",
+          "72": "sizes/utility.panel.left@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.panel.left.close",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.panel.left.close.svg",
+        "sizes": {
+          "24": "sizes/utility.panel.left.close@24.svg",
+          "48": "sizes/utility.panel.left.close@48.svg",
+          "72": "sizes/utility.panel.left.close@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.panel.left.open",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.panel.left.open.svg",
+        "sizes": {
+          "24": "sizes/utility.panel.left.open@24.svg",
+          "48": "sizes/utility.panel.left.open@48.svg",
+          "72": "sizes/utility.panel.left.open@72.svg"
+        }
+      }
+    },
+    {
+      "id": "action.edit",
+      "category": "action",
+      "palette": {
+        "primary": "#37474F",
+        "secondary": "#78909C",
+        "accent": "#00897B",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/action.edit.svg",
+        "sizes": {
+          "24": "sizes/action.edit@24.svg",
+          "48": "sizes/action.edit@48.svg",
+          "72": "sizes/action.edit@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.pencil.line",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.pencil.line.svg",
+        "sizes": {
+          "24": "sizes/utility.pencil.line@24.svg",
+          "48": "sizes/utility.pencil.line@48.svg",
+          "72": "sizes/utility.pencil.line@72.svg"
+        }
+      }
+    },
+    {
+      "id": "action.add",
+      "category": "action",
+      "palette": {
+        "primary": "#37474F",
+        "secondary": "#78909C",
+        "accent": "#00897B",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/action.add.svg",
+        "sizes": {
+          "24": "sizes/action.add@24.svg",
+          "48": "sizes/action.add@48.svg",
+          "72": "sizes/action.add@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.plus.circle",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.plus.circle.svg",
+        "sizes": {
+          "24": "sizes/utility.plus.circle@24.svg",
+          "48": "sizes/utility.plus.circle@48.svg",
+          "72": "sizes/utility.plus.circle@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.quote",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.quote.svg",
+        "sizes": {
+          "24": "sizes/utility.quote@24.svg",
+          "48": "sizes/utility.quote@48.svg",
+          "72": "sizes/utility.quote@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.refresh.cw",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.refresh.cw.svg",
+        "sizes": {
+          "24": "sizes/utility.refresh.cw@24.svg",
+          "48": "sizes/utility.refresh.cw@48.svg",
+          "72": "sizes/utility.refresh.cw@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.rotate.ccw",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.rotate.ccw.svg",
+        "sizes": {
+          "24": "sizes/utility.rotate.ccw@24.svg",
+          "48": "sizes/utility.rotate.ccw@48.svg",
+          "72": "sizes/utility.rotate.ccw@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.rotate.cw",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.rotate.cw.svg",
+        "sizes": {
+          "24": "sizes/utility.rotate.cw@24.svg",
+          "48": "sizes/utility.rotate.cw@48.svg",
+          "72": "sizes/utility.rotate.cw@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.save",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.save.svg",
+        "sizes": {
+          "24": "sizes/utility.save@24.svg",
+          "48": "sizes/utility.save@48.svg",
+          "72": "sizes/utility.save@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.scale",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.scale.svg",
+        "sizes": {
+          "24": "sizes/utility.scale@24.svg",
+          "48": "sizes/utility.scale@48.svg",
+          "72": "sizes/utility.scale@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.scan.line",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.scan.line.svg",
+        "sizes": {
+          "24": "sizes/utility.scan.line@24.svg",
+          "48": "sizes/utility.scan.line@48.svg",
+          "72": "sizes/utility.scan.line@72.svg"
+        }
+      }
+    },
+    {
+      "id": "plant.pruning",
+      "category": "plant",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#66BB6A",
+        "accent": "#FBC02D",
+        "bg": "#E8F5E9"
+      },
+      "files": {
+        "multicolor": "multicolor/plant.pruning.svg",
+        "sizes": {
+          "24": "sizes/plant.pruning@24.svg",
+          "48": "sizes/plant.pruning@48.svg",
+          "72": "sizes/plant.pruning@72.svg"
+        }
+      }
+    },
+    {
+      "id": "action.search",
+      "category": "action",
+      "palette": {
+        "primary": "#37474F",
+        "secondary": "#78909C",
+        "accent": "#00897B",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/action.search.svg",
+        "sizes": {
+          "24": "sizes/action.search@24.svg",
+          "48": "sizes/action.search@48.svg",
+          "72": "sizes/action.search@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.settings",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.settings.svg",
+        "sizes": {
+          "24": "sizes/utility.settings@24.svg",
+          "48": "sizes/utility.settings@48.svg",
+          "72": "sizes/utility.settings@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.settings2",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.settings2.svg",
+        "sizes": {
+          "24": "sizes/utility.settings2@24.svg",
+          "48": "sizes/utility.settings2@48.svg",
+          "72": "sizes/utility.settings2@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.share2",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.share2.svg",
+        "sizes": {
+          "24": "sizes/utility.share2@24.svg",
+          "48": "sizes/utility.share2@48.svg",
+          "72": "sizes/utility.share2@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.shield",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.shield.svg",
+        "sizes": {
+          "24": "sizes/utility.shield@24.svg",
+          "48": "sizes/utility.shield@48.svg",
+          "72": "sizes/utility.shield@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.shield.check",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.shield.check.svg",
+        "sizes": {
+          "24": "sizes/utility.shield.check@24.svg",
+          "48": "sizes/utility.shield.check@48.svg",
+          "72": "sizes/utility.shield.check@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.sliders.horizontal",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.sliders.horizontal.svg",
+        "sizes": {
+          "24": "sizes/utility.sliders.horizontal@24.svg",
+          "48": "sizes/utility.sliders.horizontal@48.svg",
+          "72": "sizes/utility.sliders.horizontal@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.smartphone",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.smartphone.svg",
+        "sizes": {
+          "24": "sizes/utility.smartphone@24.svg",
+          "48": "sizes/utility.smartphone@48.svg",
+          "72": "sizes/utility.smartphone@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.snowflake",
+      "category": "utility",
+      "palette": {
+        "primary": "#4FC3F7",
+        "secondary": "#B3E5FC",
+        "accent": "#E1F5FE",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.snowflake.svg",
+        "sizes": {
+          "24": "sizes/utility.snowflake@24.svg",
+          "48": "sizes/utility.snowflake@48.svg",
+          "72": "sizes/utility.snowflake@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.sparkles",
+      "category": "utility",
+      "palette": {
+        "primary": "#F9A825",
+        "secondary": "#FFD54F",
+        "accent": "#FFF59D",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.sparkles.svg",
+        "sizes": {
+          "24": "sizes/utility.sparkles@24.svg",
+          "48": "sizes/utility.sparkles@48.svg",
+          "72": "sizes/utility.sparkles@72.svg"
+        }
+      }
+    },
+    {
+      "id": "plant.sprout",
+      "category": "plant",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#66BB6A",
+        "accent": "#FBC02D",
+        "bg": "#E8F5E9"
+      },
+      "files": {
+        "multicolor": "multicolor/plant.sprout.svg",
+        "sizes": {
+          "24": "sizes/plant.sprout@24.svg",
+          "48": "sizes/plant.sprout@48.svg",
+          "72": "sizes/plant.sprout@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.square",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.square.svg",
+        "sizes": {
+          "24": "sizes/utility.square@24.svg",
+          "48": "sizes/utility.square@48.svg",
+          "72": "sizes/utility.square@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.square.pen",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.square.pen.svg",
+        "sizes": {
+          "24": "sizes/utility.square.pen@24.svg",
+          "48": "sizes/utility.square.pen@48.svg",
+          "72": "sizes/utility.square.pen@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.star",
+      "category": "utility",
+      "palette": {
+        "primary": "#F9A825",
+        "secondary": "#FFD54F",
+        "accent": "#FFF59D",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.star.svg",
+        "sizes": {
+          "24": "sizes/utility.star@24.svg",
+          "48": "sizes/utility.star@48.svg",
+          "72": "sizes/utility.star@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.star.half",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.star.half.svg",
+        "sizes": {
+          "24": "sizes/utility.star.half@24.svg",
+          "48": "sizes/utility.star.half@48.svg",
+          "72": "sizes/utility.star.half@72.svg"
+        }
+      }
+    },
+    {
+      "id": "weather.sun",
+      "category": "weather",
+      "palette": {
+        "primary": "#F9A825",
+        "secondary": "#FFCA28",
+        "accent": "#FDD835",
+        "bg": "#E1F5FE"
+      },
+      "files": {
+        "multicolor": "multicolor/weather.sun.svg",
+        "sizes": {
+          "24": "sizes/weather.sun@24.svg",
+          "48": "sizes/weather.sun@48.svg",
+          "72": "sizes/weather.sun@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.sunrise",
+      "category": "utility",
+      "palette": {
+        "primary": "#F9A825",
+        "secondary": "#FFCA28",
+        "accent": "#FDD835",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.sunrise.svg",
+        "sizes": {
+          "24": "sizes/utility.sunrise@24.svg",
+          "48": "sizes/utility.sunrise@48.svg",
+          "72": "sizes/utility.sunrise@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.sunset",
+      "category": "utility",
+      "palette": {
+        "primary": "#EF6C00",
+        "secondary": "#FFB74D",
+        "accent": "#FDD835",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.sunset.svg",
+        "sizes": {
+          "24": "sizes/utility.sunset@24.svg",
+          "48": "sizes/utility.sunset@48.svg",
+          "72": "sizes/utility.sunset@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.swords",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.swords.svg",
+        "sizes": {
+          "24": "sizes/utility.swords@24.svg",
+          "48": "sizes/utility.swords@48.svg",
+          "72": "sizes/utility.swords@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.tag",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.tag.svg",
+        "sizes": {
+          "24": "sizes/utility.tag@24.svg",
+          "48": "sizes/utility.tag@48.svg",
+          "72": "sizes/utility.tag@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.thermometer",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.thermometer.svg",
+        "sizes": {
+          "24": "sizes/utility.thermometer@24.svg",
+          "48": "sizes/utility.thermometer@48.svg",
+          "72": "sizes/utility.thermometer@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.thumbs.down",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.thumbs.down.svg",
+        "sizes": {
+          "24": "sizes/utility.thumbs.down@24.svg",
+          "48": "sizes/utility.thumbs.down@48.svg",
+          "72": "sizes/utility.thumbs.down@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.thumbs.up",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.thumbs.up.svg",
+        "sizes": {
+          "24": "sizes/utility.thumbs.up@24.svg",
+          "48": "sizes/utility.thumbs.up@48.svg",
+          "72": "sizes/utility.thumbs.up@72.svg"
+        }
+      }
+    },
+    {
+      "id": "action.delete",
+      "category": "action",
+      "palette": {
+        "primary": "#37474F",
+        "secondary": "#78909C",
+        "accent": "#00897B",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/action.delete.svg",
+        "sizes": {
+          "24": "sizes/action.delete@24.svg",
+          "48": "sizes/action.delete@48.svg",
+          "72": "sizes/action.delete@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.trees",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.trees.svg",
+        "sizes": {
+          "24": "sizes/utility.trees@24.svg",
+          "48": "sizes/utility.trees@48.svg",
+          "72": "sizes/utility.trees@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.trending.down",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.trending.down.svg",
+        "sizes": {
+          "24": "sizes/utility.trending.down@24.svg",
+          "48": "sizes/utility.trending.down@48.svg",
+          "72": "sizes/utility.trending.down@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.trending.up",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.trending.up.svg",
+        "sizes": {
+          "24": "sizes/utility.trending.up@24.svg",
+          "48": "sizes/utility.trending.up@48.svg",
+          "72": "sizes/utility.trending.up@72.svg"
+        }
+      }
+    },
+    {
+      "id": "status.warning.alt",
+      "category": "status",
+      "palette": {
+        "primary": "#F9A825",
+        "secondary": "#FFE082",
+        "accent": "#F9A825",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/status.warning.alt.svg",
+        "sizes": {
+          "24": "sizes/status.warning.alt@24.svg",
+          "48": "sizes/status.warning.alt@48.svg",
+          "72": "sizes/status.warning.alt@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.trophy",
+      "category": "utility",
+      "palette": {
+        "primary": "#F9A825",
+        "secondary": "#FFD54F",
+        "accent": "#FFF59D",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.trophy.svg",
+        "sizes": {
+          "24": "sizes/utility.trophy@24.svg",
+          "48": "sizes/utility.trophy@48.svg",
+          "72": "sizes/utility.trophy@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.undo2",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.undo2.svg",
+        "sizes": {
+          "24": "sizes/utility.undo2@24.svg",
+          "48": "sizes/utility.undo2@48.svg",
+          "72": "sizes/utility.undo2@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.upload",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.upload.svg",
+        "sizes": {
+          "24": "sizes/utility.upload@24.svg",
+          "48": "sizes/utility.upload@48.svg",
+          "72": "sizes/utility.upload@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.upload.cloud",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.upload.cloud.svg",
+        "sizes": {
+          "24": "sizes/utility.upload.cloud@24.svg",
+          "48": "sizes/utility.upload.cloud@48.svg",
+          "72": "sizes/utility.upload.cloud@72.svg"
+        }
+      }
+    },
+    {
+      "id": "account.user",
+      "category": "account",
+      "palette": {
+        "primary": "#5E35B1",
+        "secondary": "#9575CD",
+        "accent": "#00897B",
+        "bg": "#EDE7F6"
+      },
+      "files": {
+        "multicolor": "multicolor/account.user.svg",
+        "sizes": {
+          "24": "sizes/account.user@24.svg",
+          "48": "sizes/account.user@48.svg",
+          "72": "sizes/account.user@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.user.check",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.user.check.svg",
+        "sizes": {
+          "24": "sizes/utility.user.check@24.svg",
+          "48": "sizes/utility.user.check@48.svg",
+          "72": "sizes/utility.user.check@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.user.minus",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.user.minus.svg",
+        "sizes": {
+          "24": "sizes/utility.user.minus@24.svg",
+          "48": "sizes/utility.user.minus@48.svg",
+          "72": "sizes/utility.user.minus@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.user.plus",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.user.plus.svg",
+        "sizes": {
+          "24": "sizes/utility.user.plus@24.svg",
+          "48": "sizes/utility.user.plus@48.svg",
+          "72": "sizes/utility.user.plus@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.user.x",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.user.x.svg",
+        "sizes": {
+          "24": "sizes/utility.user.x@24.svg",
+          "48": "sizes/utility.user.x@48.svg",
+          "72": "sizes/utility.user.x@72.svg"
+        }
+      }
+    },
+    {
+      "id": "account.users",
+      "category": "account",
+      "palette": {
+        "primary": "#5E35B1",
+        "secondary": "#9575CD",
+        "accent": "#00897B",
+        "bg": "#EDE7F6"
+      },
+      "files": {
+        "multicolor": "multicolor/account.users.svg",
+        "sizes": {
+          "24": "sizes/account.users@24.svg",
+          "48": "sizes/account.users@48.svg",
+          "72": "sizes/account.users@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.wind",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.wind.svg",
+        "sizes": {
+          "24": "sizes/utility.wind@24.svg",
+          "48": "sizes/utility.wind@48.svg",
+          "72": "sizes/utility.wind@72.svg"
+        }
+      }
+    },
+    {
+      "id": "navigation.close",
+      "category": "navigation",
+      "palette": {
+        "primary": "#37474F",
+        "secondary": "#78909C",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/navigation.close.svg",
+        "sizes": {
+          "24": "sizes/navigation.close@24.svg",
+          "48": "sizes/navigation.close@48.svg",
+          "72": "sizes/navigation.close@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.x.circle",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.x.circle.svg",
+        "sizes": {
+          "24": "sizes/utility.x.circle@24.svg",
+          "48": "sizes/utility.x.circle@48.svg",
+          "72": "sizes/utility.x.circle@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.zap",
+      "category": "utility",
+      "palette": {
+        "primary": "#F9A825",
+        "secondary": "#FFD54F",
+        "accent": "#FFF59D",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.zap.svg",
+        "sizes": {
+          "24": "sizes/utility.zap@24.svg",
+          "48": "sizes/utility.zap@48.svg",
+          "72": "sizes/utility.zap@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.zoom.in",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.zoom.in.svg",
+        "sizes": {
+          "24": "sizes/utility.zoom.in@24.svg",
+          "48": "sizes/utility.zoom.in@48.svg",
+          "72": "sizes/utility.zoom.in@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.zoom.out",
+      "category": "utility",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#90A4AE",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/utility.zoom.out.svg",
+        "sizes": {
+          "24": "sizes/utility.zoom.out@24.svg",
+          "48": "sizes/utility.zoom.out@48.svg",
+          "72": "sizes/utility.zoom.out@72.svg"
+        }
+      }
+    },
+    {
+      "id": "status.loading",
+      "category": "status",
+      "palette": {
+        "primary": "#455A64",
+        "secondary": "#B0BEC5",
+        "accent": "#1E88E5",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/status.loading.svg",
+        "sizes": {
+          "24": "sizes/status.loading@24.svg",
+          "48": "sizes/status.loading@48.svg",
+          "72": "sizes/status.loading@72.svg"
+        }
+      }
+    },
+    {
+      "id": "plant.seedling",
+      "category": "plant",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#66BB6A",
+        "accent": "#FBC02D",
+        "bg": "#E8F5E9"
+      },
+      "files": {
+        "multicolor": "multicolor/plant.seedling.svg",
+        "sizes": {
+          "24": "sizes/plant.seedling@24.svg",
+          "48": "sizes/plant.seedling@48.svg",
+          "72": "sizes/plant.seedling@72.svg"
+        }
+      }
+    },
+    {
+      "id": "plant.watering.can",
+      "category": "plant",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#66BB6A",
+        "accent": "#FBC02D",
+        "bg": "#E8F5E9"
+      },
+      "files": {
+        "multicolor": "multicolor/plant.watering.can.svg",
+        "sizes": {
+          "24": "sizes/plant.watering.can@24.svg",
+          "48": "sizes/plant.watering.can@48.svg",
+          "72": "sizes/plant.watering.can@72.svg"
+        }
+      }
+    },
+    {
+      "id": "plant.wilting",
+      "category": "plant",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#66BB6A",
+        "accent": "#FBC02D",
+        "bg": "#E8F5E9"
+      },
+      "files": {
+        "multicolor": "multicolor/plant.wilting.svg",
+        "sizes": {
+          "24": "sizes/plant.wilting@24.svg",
+          "48": "sizes/plant.wilting@48.svg",
+          "72": "sizes/plant.wilting@72.svg"
+        }
+      }
+    },
+    {
+      "id": "status.streak",
+      "category": "status",
+      "palette": {
+        "primary": "#F4511E",
+        "secondary": "#FF8A65",
+        "accent": "#FBC02D",
+        "bg": "#ECEFF1"
+      },
+      "files": {
+        "multicolor": "multicolor/status.streak.svg",
+        "sizes": {
+          "24": "sizes/status.streak@24.svg",
+          "48": "sizes/status.streak@48.svg",
+          "72": "sizes/status.streak@72.svg"
+        }
+      }
+    },
+    {
+      "id": "plant.thriving",
+      "category": "plant",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#66BB6A",
+        "accent": "#FBC02D",
+        "bg": "#E8F5E9"
+      },
+      "files": {
+        "multicolor": "multicolor/plant.thriving.svg",
+        "sizes": {
+          "24": "sizes/plant.thriving@24.svg",
+          "48": "sizes/plant.thriving@48.svg",
+          "72": "sizes/plant.thriving@72.svg"
+        }
+      }
+    }
+  ]
+}
