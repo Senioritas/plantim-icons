@@ -1,0 +1,68 @@
+{
+  "$comment": "Hand-authored v3 input. Drives multicolor + size generation. See README.md. Regenerate with: node design-tokens/bin/generate-v3-icons.mjs",
+  "version": "3.0.0",
+  "derivedFrom": "2.0.1",
+  "sizes": [24, 48, 72],
+  "strokePolicy": "proportional",
+  "baseStrokeWidth": 2,
+  "roleRules": {
+    "accentDotMaxRadius": 2,
+    "secondaryMinRadius": 8,
+    "tinyLineMaxLength": 0.5,
+    "dotPathMaxLength": 20
+  },
+  "categories": {
+    "plant":      { "primary": "#2E7D32", "secondary": "#66BB6A", "accent": "#FBC02D", "bg": "#E8F5E9", "containerTint": true,  "stemTwoTone": true },
+    "weather":    { "primary": "#0288D1", "secondary": "#4FC3F7", "accent": "#FFB300", "bg": "#E1F5FE", "containerTint": true,  "stemTwoTone": false },
+    "status":     { "primary": "#455A64", "secondary": "#90A4AE", "accent": "#D32F2F", "bg": "#ECEFF1", "containerTint": true,  "stemTwoTone": false },
+    "navigation": { "primary": "#37474F", "secondary": "#78909C", "accent": "#1E88E5", "bg": "#ECEFF1", "containerTint": false, "stemTwoTone": false },
+    "action":     { "primary": "#37474F", "secondary": "#78909C", "accent": "#00897B", "bg": "#ECEFF1", "containerTint": false, "stemTwoTone": false },
+    "account":    { "primary": "#5E35B1", "secondary": "#9575CD", "accent": "#00897B", "bg": "#EDE7F6", "containerTint": true,  "stemTwoTone": false },
+    "calendar":   { "primary": "#3949AB", "secondary": "#7986CB", "accent": "#E53935", "bg": "#E8EAF6", "containerTint": true,  "stemTwoTone": false },
+    "location":   { "primary": "#C2185B", "secondary": "#F06292", "accent": "#FBC02D", "bg": "#FCE4EC", "containerTint": true,  "stemTwoTone": false },
+    "utility":    { "primary": "#455A64", "secondary": "#90A4AE", "accent": "#1E88E5", "bg": "#ECEFF1", "containerTint": false, "stemTwoTone": false },
+    "content":    { "primary": "#455A64", "secondary": "#90A4AE", "accent": "#1E88E5", "bg": "#ECEFF1", "containerTint": false, "stemTwoTone": false }
+  },
+  "idOverrides": {
+    "status.success":             { "primary": "#2E7D32", "secondary": "#A5D6A7", "accent": "#2E7D32" },
+    "status.success.circle":      { "primary": "#2E7D32", "secondary": "#A5D6A7", "accent": "#2E7D32" },
+    "status.success.circle.alt":  { "primary": "#2E7D32", "secondary": "#A5D6A7", "accent": "#2E7D32" },
+    "status.warning":             { "primary": "#F9A825", "secondary": "#FFE082", "accent": "#F9A825" },
+    "status.warning.alt":         { "primary": "#F9A825", "secondary": "#FFE082", "accent": "#F9A825" },
+    "status.error":               { "primary": "#D32F2F", "secondary": "#EF9A9A", "accent": "#D32F2F" },
+    "status.info":                { "primary": "#1E88E5", "secondary": "#90CAF9", "accent": "#1E88E5" },
+    "status.loading":             { "primary": "#455A64", "secondary": "#B0BEC5", "accent": "#1E88E5" },
+    "status.streak":              { "primary": "#F4511E", "secondary": "#FF8A65", "accent": "#FBC02D" },
+    "weather.sun":                { "primary": "#F9A825", "secondary": "#FFCA28", "accent": "#FDD835" },
+    "weather.moon":               { "primary": "#3949AB", "secondary": "#7986CB", "accent": "#FDD835" },
+    "utility.flame":              { "primary": "#F4511E", "secondary": "#FF8A65", "accent": "#FBC02D" },
+    "utility.heart":              { "primary": "#E53935", "secondary": "#EF9A9A", "accent": "#FFCDD2" },
+    "utility.star":               { "primary": "#F9A825", "secondary": "#FFD54F", "accent": "#FFF59D" },
+    "utility.zap":                { "primary": "#F9A825", "secondary": "#FFD54F", "accent": "#FFF59D" },
+    "utility.crown":              { "primary": "#F9A825", "secondary": "#FFD54F", "accent": "#FFF59D" },
+    "utility.trophy":             { "primary": "#F9A825", "secondary": "#FFD54F", "accent": "#FFF59D" },
+    "utility.award":              { "primary": "#F9A825", "secondary": "#FFD54F", "accent": "#FFF59D" },
+    "utility.sparkles":           { "primary": "#F9A825", "secondary": "#FFD54F", "accent": "#FFF59D" },
+    "utility.lightbulb":          { "primary": "#F9A825", "secondary": "#FFE082", "accent": "#FFF59D" },
+    "utility.sunrise":            { "primary": "#F9A825", "secondary": "#FFCA28", "accent": "#FDD835" },
+    "utility.sunset":             { "primary": "#EF6C00", "secondary": "#FFB74D", "accent": "#FDD835" },
+    "utility.snowflake":          { "primary": "#4FC3F7", "secondary": "#B3E5FC", "accent": "#E1F5FE" }
+  },
+  "geometryOverrides": {
+    "$comment": "Corrections for clearly-broken v2 geometry (Codex artifacts). Each entry fully replaces the icon's nodes in v3 only; v2 registry.json is never modified. Removing an entry reverts v3 to faithful v2 derivation. See reports/plantim-icons-v3-report.pdf.",
+    "weather.sun": {
+      "reason": "v2 stored all 8 sun rays as zero-length dots (d=\"M12 4h.01\"), so the sun rendered as a dotted ring with no rays. Restored to correct Lucide ray strokes.",
+      "nodes": [
+        { "type": "circle", "attrs": { "cx": "12", "cy": "12", "r": "4" } },
+        { "type": "path", "attrs": { "d": "M12 2v2" } },
+        { "type": "path", "attrs": { "d": "M12 20v2" } },
+        { "type": "path", "attrs": { "d": "m4.93 4.93 1.41 1.41" } },
+        { "type": "path", "attrs": { "d": "m17.66 17.66 1.41 1.41" } },
+        { "type": "path", "attrs": { "d": "M2 12h2" } },
+        { "type": "path", "attrs": { "d": "M20 12h2" } },
+        { "type": "path", "attrs": { "d": "m6.34 17.66-1.41 1.41" } },
+        { "type": "path", "attrs": { "d": "m19.07 4.93-1.41 1.41" } }
+      ]
+    }
+  }
+}
