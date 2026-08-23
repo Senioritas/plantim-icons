@@ -1,14 +1,19 @@
 {
   "version": "3.0.0",
   "derivedFrom": "2.0.1",
-  "count": 154,
+  "count": 237,
+  "counts": {
+    "derived": 154,
+    "custom": 83,
+    "total": 237
+  },
   "sizes": [
     24,
     48,
     72
   ],
   "strokePolicy": "proportional",
-  "v3Hash": "d75d45a700852dc64f8dc05fb0c7a7df9c357b09de9961a55a9e8edd008af0f7",
+  "v3Hash": "0769e1d7a9768ae0b09851148e02a56e46f0ba2b953404f776d63f98f31d1b23",
   "icons": [
     {
       "id": "utility.activity",
@@ -2779,6 +2784,2254 @@
           "24": "sizes/plant.thriving@24.svg",
           "48": "sizes/plant.thriving@48.svg",
           "72": "sizes/plant.thriving@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.today.sun",
+      "category": "nav",
+      "palette": {
+        "primary": "#F9A825",
+        "secondary": "#FFCA28",
+        "accent": "#FDD835",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Today",
+      "label": "Sun (new day)",
+      "keywords": [
+        "today",
+        "day",
+        "sun",
+        "home"
+      ],
+      "files": {
+        "multicolor": "multicolor/nav.today.sun.svg",
+        "sizes": {
+          "24": "sizes/nav.today.sun@24.svg",
+          "48": "sizes/nav.today.sun@48.svg",
+          "72": "sizes/nav.today.sun@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.today.sunrise",
+      "category": "nav",
+      "palette": {
+        "primary": "#F9A825",
+        "secondary": "#FFCA28",
+        "accent": "#FDD835",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Today",
+      "label": "Sunrise",
+      "keywords": [
+        "today",
+        "sunrise",
+        "morning",
+        "day"
+      ],
+      "files": {
+        "multicolor": "multicolor/nav.today.sunrise.svg",
+        "sizes": {
+          "24": "sizes/nav.today.sunrise@24.svg",
+          "48": "sizes/nav.today.sunrise@48.svg",
+          "72": "sizes/nav.today.sunrise@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.today.leaf",
+      "category": "nav",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#66BB6A",
+        "accent": "#29B6F6",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Today",
+      "label": "Leaf & dew",
+      "keywords": [
+        "today",
+        "leaf",
+        "daily",
+        "garden"
+      ],
+      "files": {
+        "multicolor": "multicolor/nav.today.leaf.svg",
+        "sizes": {
+          "24": "sizes/nav.today.leaf@24.svg",
+          "48": "sizes/nav.today.leaf@48.svg",
+          "72": "sizes/nav.today.leaf@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.garden.beds",
+      "category": "nav",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#66BB6A",
+        "accent": "#FB8C00",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Garden (tab)",
+      "label": "Beds / rows",
+      "keywords": [
+        "garden",
+        "beds",
+        "rows",
+        "plot"
+      ],
+      "files": {
+        "multicolor": "multicolor/nav.garden.beds.svg",
+        "sizes": {
+          "24": "sizes/nav.garden.beds@24.svg",
+          "48": "sizes/nav.garden.beds@48.svg",
+          "72": "sizes/nav.garden.beds@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.garden.plot",
+      "category": "nav",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#66BB6A",
+        "accent": "#FB8C00",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Garden (tab)",
+      "label": "Plot map",
+      "keywords": [
+        "garden",
+        "plot",
+        "map",
+        "grid"
+      ],
+      "files": {
+        "multicolor": "multicolor/nav.garden.plot.svg",
+        "sizes": {
+          "24": "sizes/nav.garden.plot@24.svg",
+          "48": "sizes/nav.garden.plot@48.svg",
+          "72": "sizes/nav.garden.plot@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.garden.sprouts",
+      "category": "nav",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#66BB6A",
+        "accent": "#FB8C00",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Garden (tab)",
+      "label": "Sprouts",
+      "keywords": [
+        "garden",
+        "sprouts",
+        "plants",
+        "grow"
+      ],
+      "files": {
+        "multicolor": "multicolor/nav.garden.sprouts.svg",
+        "sizes": {
+          "24": "sizes/nav.garden.sprouts@24.svg",
+          "48": "sizes/nav.garden.sprouts@48.svg",
+          "72": "sizes/nav.garden.sprouts@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.plant.potted",
+      "category": "nav",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#66BB6A",
+        "accent": "#FB8C00",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Plant (tab)",
+      "label": "Potted plant",
+      "keywords": [
+        "plant",
+        "pot",
+        "potted",
+        "houseplant"
+      ],
+      "files": {
+        "multicolor": "multicolor/nav.plant.potted.svg",
+        "sizes": {
+          "24": "sizes/nav.plant.potted@24.svg",
+          "48": "sizes/nav.plant.potted@48.svg",
+          "72": "sizes/nav.plant.potted@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.plant.leaf",
+      "category": "nav",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#66BB6A",
+        "accent": "#FB8C00",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Plant (tab)",
+      "label": "Leaf",
+      "keywords": [
+        "plant",
+        "leaf",
+        "foliage"
+      ],
+      "files": {
+        "multicolor": "multicolor/nav.plant.leaf.svg",
+        "sizes": {
+          "24": "sizes/nav.plant.leaf@24.svg",
+          "48": "sizes/nav.plant.leaf@48.svg",
+          "72": "sizes/nav.plant.leaf@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.plant.sprout",
+      "category": "nav",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#66BB6A",
+        "accent": "#FB8C00",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Plant (tab)",
+      "label": "Sprout",
+      "keywords": [
+        "plant",
+        "sprout",
+        "young",
+        "seedling"
+      ],
+      "files": {
+        "multicolor": "multicolor/nav.plant.sprout.svg",
+        "sizes": {
+          "24": "sizes/nav.plant.sprout@24.svg",
+          "48": "sizes/nav.plant.sprout@48.svg",
+          "72": "sizes/nav.plant.sprout@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.calendar.plain",
+      "category": "nav",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#66BB6A",
+        "accent": "#FB8C00",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Calendar (tab)",
+      "label": "Calendar",
+      "keywords": [
+        "calendar",
+        "date",
+        "schedule"
+      ],
+      "files": {
+        "multicolor": "multicolor/nav.calendar.plain.svg",
+        "sizes": {
+          "24": "sizes/nav.calendar.plain@24.svg",
+          "48": "sizes/nav.calendar.plain@48.svg",
+          "72": "sizes/nav.calendar.plain@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.calendar.leaf",
+      "category": "nav",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#66BB6A",
+        "accent": "#FB8C00",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Calendar (tab)",
+      "label": "Care calendar",
+      "keywords": [
+        "calendar",
+        "care",
+        "leaf",
+        "schedule"
+      ],
+      "files": {
+        "multicolor": "multicolor/nav.calendar.leaf.svg",
+        "sizes": {
+          "24": "sizes/nav.calendar.leaf@24.svg",
+          "48": "sizes/nav.calendar.leaf@48.svg",
+          "72": "sizes/nav.calendar.leaf@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.calendar.check",
+      "category": "nav",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#66BB6A",
+        "accent": "#FB8C00",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Calendar (tab)",
+      "label": "Task done",
+      "keywords": [
+        "calendar",
+        "check",
+        "done",
+        "task"
+      ],
+      "files": {
+        "multicolor": "multicolor/nav.calendar.check.svg",
+        "sizes": {
+          "24": "sizes/nav.calendar.check@24.svg",
+          "48": "sizes/nav.calendar.check@48.svg",
+          "72": "sizes/nav.calendar.check@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.feed.stream",
+      "category": "nav",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#66BB6A",
+        "accent": "#FB8C00",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Feed (tab)",
+      "label": "Stream",
+      "keywords": [
+        "feed",
+        "stream",
+        "activity",
+        "list"
+      ],
+      "files": {
+        "multicolor": "multicolor/nav.feed.stream.svg",
+        "sizes": {
+          "24": "sizes/nav.feed.stream@24.svg",
+          "48": "sizes/nav.feed.stream@48.svg",
+          "72": "sizes/nav.feed.stream@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.feed.cards",
+      "category": "nav",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#66BB6A",
+        "accent": "#FB8C00",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Feed (tab)",
+      "label": "Cards",
+      "keywords": [
+        "feed",
+        "cards",
+        "posts",
+        "stack"
+      ],
+      "files": {
+        "multicolor": "multicolor/nav.feed.cards.svg",
+        "sizes": {
+          "24": "sizes/nav.feed.cards@24.svg",
+          "48": "sizes/nav.feed.cards@48.svg",
+          "72": "sizes/nav.feed.cards@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.feed.waves",
+      "category": "nav",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#66BB6A",
+        "accent": "#FB8C00",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Feed (tab)",
+      "label": "Waves (RSS)",
+      "keywords": [
+        "feed",
+        "rss",
+        "waves",
+        "subscribe"
+      ],
+      "files": {
+        "multicolor": "multicolor/nav.feed.waves.svg",
+        "sizes": {
+          "24": "sizes/nav.feed.waves@24.svg",
+          "48": "sizes/nav.feed.waves@48.svg",
+          "72": "sizes/nav.feed.waves@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.chat.bubble",
+      "category": "nav",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#66BB6A",
+        "accent": "#00897B",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Chat (tab)",
+      "label": "Bubble",
+      "keywords": [
+        "chat",
+        "message",
+        "bubble",
+        "talk"
+      ],
+      "files": {
+        "multicolor": "multicolor/nav.chat.bubble.svg",
+        "sizes": {
+          "24": "sizes/nav.chat.bubble@24.svg",
+          "48": "sizes/nav.chat.bubble@48.svg",
+          "72": "sizes/nav.chat.bubble@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.chat.leaf",
+      "category": "nav",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#66BB6A",
+        "accent": "#00897B",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Chat (tab)",
+      "label": "Garden chat",
+      "keywords": [
+        "chat",
+        "leaf",
+        "community",
+        "advice"
+      ],
+      "files": {
+        "multicolor": "multicolor/nav.chat.leaf.svg",
+        "sizes": {
+          "24": "sizes/nav.chat.leaf@24.svg",
+          "48": "sizes/nav.chat.leaf@48.svg",
+          "72": "sizes/nav.chat.leaf@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.chat.dots",
+      "category": "nav",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#66BB6A",
+        "accent": "#00897B",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Chat (tab)",
+      "label": "Typing",
+      "keywords": [
+        "chat",
+        "typing",
+        "dots",
+        "message"
+      ],
+      "files": {
+        "multicolor": "multicolor/nav.chat.dots.svg",
+        "sizes": {
+          "24": "sizes/nav.chat.dots@24.svg",
+          "48": "sizes/nav.chat.dots@48.svg",
+          "72": "sizes/nav.chat.dots@72.svg"
+        }
+      }
+    },
+    {
+      "id": "care.watering",
+      "category": "care",
+      "palette": {
+        "primary": "#0288D1",
+        "secondary": "#4FC3F7",
+        "accent": "#29B6F6",
+        "bg": "#E0F2F1"
+      },
+      "custom": true,
+      "group": "Care actions",
+      "label": "Watering",
+      "keywords": [
+        "water",
+        "watering",
+        "drop",
+        "hydrate",
+        "care"
+      ],
+      "files": {
+        "multicolor": "multicolor/care.watering.svg",
+        "sizes": {
+          "24": "sizes/care.watering@24.svg",
+          "48": "sizes/care.watering@48.svg",
+          "72": "sizes/care.watering@72.svg"
+        }
+      }
+    },
+    {
+      "id": "care.watering.alt",
+      "category": "care",
+      "palette": {
+        "primary": "#0288D1",
+        "secondary": "#4FC3F7",
+        "accent": "#29B6F6",
+        "bg": "#E0F2F1"
+      },
+      "custom": true,
+      "group": "Care actions",
+      "label": "Watering (can)",
+      "keywords": [
+        "water",
+        "watering can",
+        "care"
+      ],
+      "files": {
+        "multicolor": "multicolor/care.watering.alt.svg",
+        "sizes": {
+          "24": "sizes/care.watering.alt@24.svg",
+          "48": "sizes/care.watering.alt@48.svg",
+          "72": "sizes/care.watering.alt@72.svg"
+        }
+      }
+    },
+    {
+      "id": "care.fertilizing",
+      "category": "care",
+      "palette": {
+        "primary": "#7CB342",
+        "secondary": "#C5E1A5",
+        "accent": "#FBC02D",
+        "bg": "#E0F2F1"
+      },
+      "custom": true,
+      "group": "Care actions",
+      "label": "Fertilizing",
+      "keywords": [
+        "fertilize",
+        "fertilizing",
+        "nutrients",
+        "feed",
+        "care"
+      ],
+      "files": {
+        "multicolor": "multicolor/care.fertilizing.svg",
+        "sizes": {
+          "24": "sizes/care.fertilizing@24.svg",
+          "48": "sizes/care.fertilizing@48.svg",
+          "72": "sizes/care.fertilizing@72.svg"
+        }
+      }
+    },
+    {
+      "id": "care.fertilizing.alt",
+      "category": "care",
+      "palette": {
+        "primary": "#7CB342",
+        "secondary": "#C5E1A5",
+        "accent": "#FBC02D",
+        "bg": "#E0F2F1"
+      },
+      "custom": true,
+      "group": "Care actions",
+      "label": "Feed (bag)",
+      "keywords": [
+        "fertilizer",
+        "bag",
+        "plant food",
+        "care"
+      ],
+      "files": {
+        "multicolor": "multicolor/care.fertilizing.alt.svg",
+        "sizes": {
+          "24": "sizes/care.fertilizing.alt@24.svg",
+          "48": "sizes/care.fertilizing.alt@48.svg",
+          "72": "sizes/care.fertilizing.alt@72.svg"
+        }
+      }
+    },
+    {
+      "id": "care.repotting",
+      "category": "care",
+      "palette": {
+        "primary": "#6D4C41",
+        "secondary": "#A1887F",
+        "accent": "#7CB342",
+        "bg": "#E0F2F1"
+      },
+      "custom": true,
+      "group": "Care actions",
+      "label": "Repotting",
+      "keywords": [
+        "repot",
+        "repotting",
+        "transplant",
+        "pot",
+        "care"
+      ],
+      "files": {
+        "multicolor": "multicolor/care.repotting.svg",
+        "sizes": {
+          "24": "sizes/care.repotting@24.svg",
+          "48": "sizes/care.repotting@48.svg",
+          "72": "sizes/care.repotting@72.svg"
+        }
+      }
+    },
+    {
+      "id": "care.repotting.alt",
+      "category": "care",
+      "palette": {
+        "primary": "#6D4C41",
+        "secondary": "#A1887F",
+        "accent": "#7CB342",
+        "bg": "#E0F2F1"
+      },
+      "custom": true,
+      "group": "Care actions",
+      "label": "Repot (refresh)",
+      "keywords": [
+        "repot",
+        "refresh",
+        "renew",
+        "pot",
+        "care"
+      ],
+      "files": {
+        "multicolor": "multicolor/care.repotting.alt.svg",
+        "sizes": {
+          "24": "sizes/care.repotting.alt@24.svg",
+          "48": "sizes/care.repotting.alt@48.svg",
+          "72": "sizes/care.repotting.alt@72.svg"
+        }
+      }
+    },
+    {
+      "id": "care.pruning",
+      "category": "care",
+      "palette": {
+        "primary": "#558B2F",
+        "secondary": "#9CCC65",
+        "accent": "#FB8C00",
+        "bg": "#E0F2F1"
+      },
+      "custom": true,
+      "group": "Care actions",
+      "label": "Pruning",
+      "keywords": [
+        "prune",
+        "pruning",
+        "trim",
+        "cut",
+        "care"
+      ],
+      "files": {
+        "multicolor": "multicolor/care.pruning.svg",
+        "sizes": {
+          "24": "sizes/care.pruning@24.svg",
+          "48": "sizes/care.pruning@48.svg",
+          "72": "sizes/care.pruning@72.svg"
+        }
+      }
+    },
+    {
+      "id": "care.pruning.alt",
+      "category": "care",
+      "palette": {
+        "primary": "#558B2F",
+        "secondary": "#9CCC65",
+        "accent": "#FB8C00",
+        "bg": "#E0F2F1"
+      },
+      "custom": true,
+      "group": "Care actions",
+      "label": "Shears",
+      "keywords": [
+        "prune",
+        "shears",
+        "scissors",
+        "cut",
+        "care"
+      ],
+      "files": {
+        "multicolor": "multicolor/care.pruning.alt.svg",
+        "sizes": {
+          "24": "sizes/care.pruning.alt@24.svg",
+          "48": "sizes/care.pruning.alt@48.svg",
+          "72": "sizes/care.pruning.alt@72.svg"
+        }
+      }
+    },
+    {
+      "id": "care.log",
+      "category": "care",
+      "palette": {
+        "primary": "#00897B",
+        "secondary": "#4DB6AC",
+        "accent": "#FB8C00",
+        "bg": "#E0F2F1"
+      },
+      "custom": true,
+      "group": "Care actions",
+      "label": "Log care",
+      "keywords": [
+        "log",
+        "record",
+        "care",
+        "checklist",
+        "history"
+      ],
+      "files": {
+        "multicolor": "multicolor/care.log.svg",
+        "sizes": {
+          "24": "sizes/care.log@24.svg",
+          "48": "sizes/care.log@48.svg",
+          "72": "sizes/care.log@72.svg"
+        }
+      }
+    },
+    {
+      "id": "care.reminder",
+      "category": "care",
+      "palette": {
+        "primary": "#00897B",
+        "secondary": "#4DB6AC",
+        "accent": "#FB8C00",
+        "bg": "#E0F2F1"
+      },
+      "custom": true,
+      "group": "Care actions",
+      "label": "Reminder",
+      "keywords": [
+        "reminder",
+        "notify",
+        "bell",
+        "care",
+        "schedule"
+      ],
+      "files": {
+        "multicolor": "multicolor/care.reminder.svg",
+        "sizes": {
+          "24": "sizes/care.reminder@24.svg",
+          "48": "sizes/care.reminder@48.svg",
+          "72": "sizes/care.reminder@72.svg"
+        }
+      }
+    },
+    {
+      "id": "care.suggestion",
+      "category": "care",
+      "palette": {
+        "primary": "#F9A825",
+        "secondary": "#FFD54F",
+        "accent": "#FDD835",
+        "bg": "#E0F2F1"
+      },
+      "custom": true,
+      "group": "Care actions",
+      "label": "Suggestion",
+      "keywords": [
+        "suggestion",
+        "ai",
+        "tip",
+        "recommend",
+        "sparkles"
+      ],
+      "files": {
+        "multicolor": "multicolor/care.suggestion.svg",
+        "sizes": {
+          "24": "sizes/care.suggestion@24.svg",
+          "48": "sizes/care.suggestion@48.svg",
+          "72": "sizes/care.suggestion@72.svg"
+        }
+      }
+    },
+    {
+      "id": "plant.add",
+      "category": "lifecycle",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#A5D6A7",
+        "accent": "#43A047",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Plant lifecycle",
+      "label": "Add plant",
+      "keywords": [
+        "add",
+        "new plant",
+        "create",
+        "plus"
+      ],
+      "files": {
+        "multicolor": "multicolor/plant.add.svg",
+        "sizes": {
+          "24": "sizes/plant.add@24.svg",
+          "48": "sizes/plant.add@48.svg",
+          "72": "sizes/plant.add@72.svg"
+        }
+      }
+    },
+    {
+      "id": "plant.remove",
+      "category": "lifecycle",
+      "palette": {
+        "primary": "#C62828",
+        "secondary": "#EF9A9A",
+        "accent": "#E53935",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Plant lifecycle",
+      "label": "Remove plant",
+      "keywords": [
+        "remove",
+        "delete",
+        "minus",
+        "plant"
+      ],
+      "files": {
+        "multicolor": "multicolor/plant.remove.svg",
+        "sizes": {
+          "24": "sizes/plant.remove@24.svg",
+          "48": "sizes/plant.remove@48.svg",
+          "72": "sizes/plant.remove@72.svg"
+        }
+      }
+    },
+    {
+      "id": "plant.related",
+      "category": "lifecycle",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#A5D6A7",
+        "accent": "#FB8C00",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Plant lifecycle",
+      "label": "Related plants",
+      "keywords": [
+        "related",
+        "similar",
+        "link",
+        "connections"
+      ],
+      "files": {
+        "multicolor": "multicolor/plant.related.svg",
+        "sizes": {
+          "24": "sizes/plant.related@24.svg",
+          "48": "sizes/plant.related@48.svg",
+          "72": "sizes/plant.related@72.svg"
+        }
+      }
+    },
+    {
+      "id": "health.healthy",
+      "category": "health",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#A5D6A7",
+        "accent": "#2E7D32",
+        "bg": "#ECEFF1"
+      },
+      "custom": true,
+      "group": "Plant health",
+      "label": "Healthy",
+      "keywords": [
+        "healthy",
+        "good",
+        "check",
+        "thriving"
+      ],
+      "files": {
+        "multicolor": "multicolor/health.healthy.svg",
+        "sizes": {
+          "24": "sizes/health.healthy@24.svg",
+          "48": "sizes/health.healthy@48.svg",
+          "72": "sizes/health.healthy@72.svg"
+        }
+      }
+    },
+    {
+      "id": "health.attention",
+      "category": "health",
+      "palette": {
+        "primary": "#F9A825",
+        "secondary": "#FFE082",
+        "accent": "#F9A825",
+        "bg": "#ECEFF1"
+      },
+      "custom": true,
+      "group": "Plant health",
+      "label": "Needs attention",
+      "keywords": [
+        "attention",
+        "warning",
+        "check plant",
+        "caution"
+      ],
+      "files": {
+        "multicolor": "multicolor/health.attention.svg",
+        "sizes": {
+          "24": "sizes/health.attention@24.svg",
+          "48": "sizes/health.attention@48.svg",
+          "72": "sizes/health.attention@72.svg"
+        }
+      }
+    },
+    {
+      "id": "health.critical",
+      "category": "health",
+      "palette": {
+        "primary": "#D32F2F",
+        "secondary": "#EF9A9A",
+        "accent": "#D32F2F",
+        "bg": "#ECEFF1"
+      },
+      "custom": true,
+      "group": "Plant health",
+      "label": "Critical",
+      "keywords": [
+        "critical",
+        "danger",
+        "dying",
+        "alert"
+      ],
+      "files": {
+        "multicolor": "multicolor/health.critical.svg",
+        "sizes": {
+          "24": "sizes/health.critical@24.svg",
+          "48": "sizes/health.critical@48.svg",
+          "72": "sizes/health.critical@72.svg"
+        }
+      }
+    },
+    {
+      "id": "stage.seedling",
+      "category": "lifecycle",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#A5D6A7",
+        "accent": "#FB8C00",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Growth stages",
+      "label": "Seedling",
+      "keywords": [
+        "seedling",
+        "sprout",
+        "young",
+        "stage"
+      ],
+      "files": {
+        "multicolor": "multicolor/stage.seedling.svg",
+        "sizes": {
+          "24": "sizes/stage.seedling@24.svg",
+          "48": "sizes/stage.seedling@48.svg",
+          "72": "sizes/stage.seedling@72.svg"
+        }
+      }
+    },
+    {
+      "id": "stage.growing",
+      "category": "lifecycle",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#A5D6A7",
+        "accent": "#FB8C00",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Growth stages",
+      "label": "Growing",
+      "keywords": [
+        "growing",
+        "vegetative",
+        "medium",
+        "stage"
+      ],
+      "files": {
+        "multicolor": "multicolor/stage.growing.svg",
+        "sizes": {
+          "24": "sizes/stage.growing@24.svg",
+          "48": "sizes/stage.growing@48.svg",
+          "72": "sizes/stage.growing@72.svg"
+        }
+      }
+    },
+    {
+      "id": "stage.mature",
+      "category": "lifecycle",
+      "palette": {
+        "primary": "#2E7D32",
+        "secondary": "#A5D6A7",
+        "accent": "#FB8C00",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Growth stages",
+      "label": "Mature",
+      "keywords": [
+        "mature",
+        "full",
+        "grown",
+        "tree",
+        "stage"
+      ],
+      "files": {
+        "multicolor": "multicolor/stage.mature.svg",
+        "sizes": {
+          "24": "sizes/stage.mature@24.svg",
+          "48": "sizes/stage.mature@48.svg",
+          "72": "sizes/stage.mature@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.trowel",
+      "category": "garden",
+      "palette": {
+        "primary": "#558B2F",
+        "secondary": "#8D6E63",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Garden tools",
+      "label": "Trowel",
+      "keywords": [
+        "trowel",
+        "dig",
+        "scoop",
+        "hand tool"
+      ],
+      "files": {
+        "multicolor": "multicolor/garden.trowel.svg",
+        "sizes": {
+          "24": "sizes/garden.trowel@24.svg",
+          "48": "sizes/garden.trowel@48.svg",
+          "72": "sizes/garden.trowel@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.rake",
+      "category": "garden",
+      "palette": {
+        "primary": "#558B2F",
+        "secondary": "#8D6E63",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Garden tools",
+      "label": "Rake",
+      "keywords": [
+        "rake",
+        "leaves",
+        "tines",
+        "garden"
+      ],
+      "files": {
+        "multicolor": "multicolor/garden.rake.svg",
+        "sizes": {
+          "24": "sizes/garden.rake@24.svg",
+          "48": "sizes/garden.rake@48.svg",
+          "72": "sizes/garden.rake@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.spade",
+      "category": "garden",
+      "palette": {
+        "primary": "#558B2F",
+        "secondary": "#8D6E63",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Garden tools",
+      "label": "Spade",
+      "keywords": [
+        "spade",
+        "shovel",
+        "dig",
+        "d-grip"
+      ],
+      "files": {
+        "multicolor": "multicolor/garden.spade.svg",
+        "sizes": {
+          "24": "sizes/garden.spade@24.svg",
+          "48": "sizes/garden.spade@48.svg",
+          "72": "sizes/garden.spade@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.fork",
+      "category": "garden",
+      "palette": {
+        "primary": "#558B2F",
+        "secondary": "#8D6E63",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Garden tools",
+      "label": "Garden fork",
+      "keywords": [
+        "fork",
+        "tines",
+        "dig",
+        "soil"
+      ],
+      "files": {
+        "multicolor": "multicolor/garden.fork.svg",
+        "sizes": {
+          "24": "sizes/garden.fork@24.svg",
+          "48": "sizes/garden.fork@48.svg",
+          "72": "sizes/garden.fork@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.hoe",
+      "category": "garden",
+      "palette": {
+        "primary": "#558B2F",
+        "secondary": "#8D6E63",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Garden tools",
+      "label": "Hoe",
+      "keywords": [
+        "hoe",
+        "weed",
+        "till",
+        "garden"
+      ],
+      "files": {
+        "multicolor": "multicolor/garden.hoe.svg",
+        "sizes": {
+          "24": "sizes/garden.hoe@24.svg",
+          "48": "sizes/garden.hoe@48.svg",
+          "72": "sizes/garden.hoe@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.shears",
+      "category": "garden",
+      "palette": {
+        "primary": "#558B2F",
+        "secondary": "#8D6E63",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Garden tools",
+      "label": "Shears",
+      "keywords": [
+        "shears",
+        "secateurs",
+        "prune",
+        "cut"
+      ],
+      "files": {
+        "multicolor": "multicolor/garden.shears.svg",
+        "sizes": {
+          "24": "sizes/garden.shears@24.svg",
+          "48": "sizes/garden.shears@48.svg",
+          "72": "sizes/garden.shears@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.gloves",
+      "category": "garden",
+      "palette": {
+        "primary": "#558B2F",
+        "secondary": "#8D6E63",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Garden tools",
+      "label": "Gloves",
+      "keywords": [
+        "gloves",
+        "glove",
+        "hand",
+        "protection"
+      ],
+      "files": {
+        "multicolor": "multicolor/garden.gloves.svg",
+        "sizes": {
+          "24": "sizes/garden.gloves@24.svg",
+          "48": "sizes/garden.gloves@48.svg",
+          "72": "sizes/garden.gloves@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.seed-packet",
+      "category": "garden",
+      "palette": {
+        "primary": "#558B2F",
+        "secondary": "#8D6E63",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Garden tools",
+      "label": "Seed packet",
+      "keywords": [
+        "seed",
+        "packet",
+        "sprout",
+        "sow"
+      ],
+      "files": {
+        "multicolor": "multicolor/garden.seed-packet.svg",
+        "sizes": {
+          "24": "sizes/garden.seed-packet@24.svg",
+          "48": "sizes/garden.seed-packet@48.svg",
+          "72": "sizes/garden.seed-packet@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.pot",
+      "category": "garden",
+      "palette": {
+        "primary": "#558B2F",
+        "secondary": "#8D6E63",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Garden tools",
+      "label": "Plant pot",
+      "keywords": [
+        "pot",
+        "planter",
+        "terracotta",
+        "container"
+      ],
+      "files": {
+        "multicolor": "multicolor/garden.pot.svg",
+        "sizes": {
+          "24": "sizes/garden.pot@24.svg",
+          "48": "sizes/garden.pot@48.svg",
+          "72": "sizes/garden.pot@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.hose",
+      "category": "garden",
+      "palette": {
+        "primary": "#558B2F",
+        "secondary": "#8D6E63",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Garden tools",
+      "label": "Hose",
+      "keywords": [
+        "hose",
+        "water",
+        "nozzle",
+        "irrigation"
+      ],
+      "files": {
+        "multicolor": "multicolor/garden.hose.svg",
+        "sizes": {
+          "24": "sizes/garden.hose@24.svg",
+          "48": "sizes/garden.hose@48.svg",
+          "72": "sizes/garden.hose@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.sprinkler",
+      "category": "garden",
+      "palette": {
+        "primary": "#558B2F",
+        "secondary": "#8D6E63",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Garden tools",
+      "label": "Sprinkler",
+      "keywords": [
+        "sprinkler",
+        "water",
+        "spray",
+        "irrigation"
+      ],
+      "files": {
+        "multicolor": "multicolor/garden.sprinkler.svg",
+        "sizes": {
+          "24": "sizes/garden.sprinkler@24.svg",
+          "48": "sizes/garden.sprinkler@48.svg",
+          "72": "sizes/garden.sprinkler@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.greenhouse",
+      "category": "garden",
+      "palette": {
+        "primary": "#558B2F",
+        "secondary": "#8D6E63",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Garden tools",
+      "label": "Greenhouse",
+      "keywords": [
+        "greenhouse",
+        "glasshouse",
+        "grow",
+        "garden"
+      ],
+      "files": {
+        "multicolor": "multicolor/garden.greenhouse.svg",
+        "sizes": {
+          "24": "sizes/garden.greenhouse@24.svg",
+          "48": "sizes/garden.greenhouse@48.svg",
+          "72": "sizes/garden.greenhouse@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.compost",
+      "category": "garden",
+      "palette": {
+        "primary": "#558B2F",
+        "secondary": "#8D6E63",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Garden tools",
+      "label": "Compost",
+      "keywords": [
+        "compost",
+        "bin",
+        "recycle",
+        "leaf"
+      ],
+      "files": {
+        "multicolor": "multicolor/garden.compost.svg",
+        "sizes": {
+          "24": "sizes/garden.compost@24.svg",
+          "48": "sizes/garden.compost@48.svg",
+          "72": "sizes/garden.compost@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.wheelbarrow",
+      "category": "garden",
+      "palette": {
+        "primary": "#558B2F",
+        "secondary": "#8D6E63",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Garden tools",
+      "label": "Wheelbarrow",
+      "keywords": [
+        "wheelbarrow",
+        "cart",
+        "haul",
+        "garden"
+      ],
+      "files": {
+        "multicolor": "multicolor/garden.wheelbarrow.svg",
+        "sizes": {
+          "24": "sizes/garden.wheelbarrow@24.svg",
+          "48": "sizes/garden.wheelbarrow@48.svg",
+          "72": "sizes/garden.wheelbarrow@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.araceae",
+      "category": "family",
+      "palette": {
+        "primary": "#33691E",
+        "secondary": "#7CB342",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Plant families",
+      "label": "Araceae (aroids)",
+      "keywords": [
+        "aroid",
+        "araceae",
+        "monstera",
+        "philodendron",
+        "pothos"
+      ],
+      "files": {
+        "multicolor": "multicolor/family.araceae.svg",
+        "sizes": {
+          "24": "sizes/family.araceae@24.svg",
+          "48": "sizes/family.araceae@48.svg",
+          "72": "sizes/family.araceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.marantaceae",
+      "category": "family",
+      "palette": {
+        "primary": "#33691E",
+        "secondary": "#7CB342",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Plant families",
+      "label": "Marantaceae (prayer plants)",
+      "keywords": [
+        "prayer plant",
+        "marantaceae",
+        "maranta",
+        "calathea"
+      ],
+      "files": {
+        "multicolor": "multicolor/family.marantaceae.svg",
+        "sizes": {
+          "24": "sizes/family.marantaceae@24.svg",
+          "48": "sizes/family.marantaceae@48.svg",
+          "72": "sizes/family.marantaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.polypodiaceae",
+      "category": "family",
+      "palette": {
+        "primary": "#33691E",
+        "secondary": "#7CB342",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Plant families",
+      "label": "Polypodiaceae (ferns)",
+      "keywords": [
+        "fern",
+        "polypodiaceae",
+        "frond",
+        "pinnate"
+      ],
+      "files": {
+        "multicolor": "multicolor/family.polypodiaceae.svg",
+        "sizes": {
+          "24": "sizes/family.polypodiaceae@24.svg",
+          "48": "sizes/family.polypodiaceae@48.svg",
+          "72": "sizes/family.polypodiaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.nephrolepidaceae",
+      "category": "family",
+      "palette": {
+        "primary": "#33691E",
+        "secondary": "#7CB342",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Plant families",
+      "label": "Nephrolepidaceae (sword ferns)",
+      "keywords": [
+        "sword fern",
+        "boston fern",
+        "nephrolepis",
+        "frond"
+      ],
+      "files": {
+        "multicolor": "multicolor/family.nephrolepidaceae.svg",
+        "sizes": {
+          "24": "sizes/family.nephrolepidaceae@24.svg",
+          "48": "sizes/family.nephrolepidaceae@48.svg",
+          "72": "sizes/family.nephrolepidaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.cactaceae",
+      "category": "family",
+      "palette": {
+        "primary": "#33691E",
+        "secondary": "#7CB342",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Plant families",
+      "label": "Cactaceae (cacti)",
+      "keywords": [
+        "cactus",
+        "cacti",
+        "cactaceae",
+        "saguaro",
+        "spines"
+      ],
+      "files": {
+        "multicolor": "multicolor/family.cactaceae.svg",
+        "sizes": {
+          "24": "sizes/family.cactaceae@24.svg",
+          "48": "sizes/family.cactaceae@48.svg",
+          "72": "sizes/family.cactaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.crassulaceae",
+      "category": "family",
+      "palette": {
+        "primary": "#33691E",
+        "secondary": "#7CB342",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Plant families",
+      "label": "Crassulaceae (stonecrops)",
+      "keywords": [
+        "stonecrop",
+        "crassulaceae",
+        "echeveria",
+        "succulent",
+        "rosette"
+      ],
+      "files": {
+        "multicolor": "multicolor/family.crassulaceae.svg",
+        "sizes": {
+          "24": "sizes/family.crassulaceae@24.svg",
+          "48": "sizes/family.crassulaceae@48.svg",
+          "72": "sizes/family.crassulaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.asphodelaceae",
+      "category": "family",
+      "palette": {
+        "primary": "#33691E",
+        "secondary": "#7CB342",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Plant families",
+      "label": "Asphodelaceae (aloes)",
+      "keywords": [
+        "aloe",
+        "asphodelaceae",
+        "haworthia",
+        "succulent"
+      ],
+      "files": {
+        "multicolor": "multicolor/family.asphodelaceae.svg",
+        "sizes": {
+          "24": "sizes/family.asphodelaceae@24.svg",
+          "48": "sizes/family.asphodelaceae@48.svg",
+          "72": "sizes/family.asphodelaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.arecaceae",
+      "category": "family",
+      "palette": {
+        "primary": "#33691E",
+        "secondary": "#7CB342",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Plant families",
+      "label": "Arecaceae (palms)",
+      "keywords": [
+        "palm",
+        "arecaceae",
+        "fronds",
+        "trunk"
+      ],
+      "files": {
+        "multicolor": "multicolor/family.arecaceae.svg",
+        "sizes": {
+          "24": "sizes/family.arecaceae@24.svg",
+          "48": "sizes/family.arecaceae@48.svg",
+          "72": "sizes/family.arecaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.orchidaceae",
+      "category": "family",
+      "palette": {
+        "primary": "#33691E",
+        "secondary": "#7CB342",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Plant families",
+      "label": "Orchidaceae (orchids)",
+      "keywords": [
+        "orchid",
+        "orchidaceae",
+        "phalaenopsis",
+        "bloom"
+      ],
+      "files": {
+        "multicolor": "multicolor/family.orchidaceae.svg",
+        "sizes": {
+          "24": "sizes/family.orchidaceae@24.svg",
+          "48": "sizes/family.orchidaceae@48.svg",
+          "72": "sizes/family.orchidaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.bromeliaceae",
+      "category": "family",
+      "palette": {
+        "primary": "#33691E",
+        "secondary": "#7CB342",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Plant families",
+      "label": "Bromeliaceae (bromeliads)",
+      "keywords": [
+        "bromeliad",
+        "bromeliaceae",
+        "tillandsia",
+        "pineapple",
+        "rosette"
+      ],
+      "files": {
+        "multicolor": "multicolor/family.bromeliaceae.svg",
+        "sizes": {
+          "24": "sizes/family.bromeliaceae@24.svg",
+          "48": "sizes/family.bromeliaceae@48.svg",
+          "72": "sizes/family.bromeliaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.moraceae",
+      "category": "family",
+      "palette": {
+        "primary": "#33691E",
+        "secondary": "#7CB342",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Plant families",
+      "label": "Moraceae (figs)",
+      "keywords": [
+        "fig",
+        "moraceae",
+        "ficus",
+        "fiddle leaf",
+        "rubber plant"
+      ],
+      "files": {
+        "multicolor": "multicolor/family.moraceae.svg",
+        "sizes": {
+          "24": "sizes/family.moraceae@24.svg",
+          "48": "sizes/family.moraceae@48.svg",
+          "72": "sizes/family.moraceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.asparagaceae",
+      "category": "family",
+      "palette": {
+        "primary": "#33691E",
+        "secondary": "#7CB342",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Plant families",
+      "label": "Asparagaceae (snake plants)",
+      "keywords": [
+        "snake plant",
+        "asparagaceae",
+        "sansevieria",
+        "dracaena"
+      ],
+      "files": {
+        "multicolor": "multicolor/family.asparagaceae.svg",
+        "sizes": {
+          "24": "sizes/family.asparagaceae@24.svg",
+          "48": "sizes/family.asparagaceae@48.svg",
+          "72": "sizes/family.asparagaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.piperaceae",
+      "category": "family",
+      "palette": {
+        "primary": "#33691E",
+        "secondary": "#7CB342",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Plant families",
+      "label": "Piperaceae (peperomias)",
+      "keywords": [
+        "peperomia",
+        "piperaceae",
+        "round leaves",
+        "radiator plant"
+      ],
+      "files": {
+        "multicolor": "multicolor/family.piperaceae.svg",
+        "sizes": {
+          "24": "sizes/family.piperaceae@24.svg",
+          "48": "sizes/family.piperaceae@48.svg",
+          "72": "sizes/family.piperaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.begoniaceae",
+      "category": "family",
+      "palette": {
+        "primary": "#33691E",
+        "secondary": "#7CB342",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Plant families",
+      "label": "Begoniaceae (begonias)",
+      "keywords": [
+        "begonia",
+        "begoniaceae",
+        "asymmetric leaf",
+        "veins"
+      ],
+      "files": {
+        "multicolor": "multicolor/family.begoniaceae.svg",
+        "sizes": {
+          "24": "sizes/family.begoniaceae@24.svg",
+          "48": "sizes/family.begoniaceae@48.svg",
+          "72": "sizes/family.begoniaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.lamiaceae",
+      "category": "family",
+      "palette": {
+        "primary": "#33691E",
+        "secondary": "#7CB342",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Plant families",
+      "label": "Lamiaceae (mints/herbs)",
+      "keywords": [
+        "mint",
+        "herb",
+        "lamiaceae",
+        "basil",
+        "sprig"
+      ],
+      "files": {
+        "multicolor": "multicolor/family.lamiaceae.svg",
+        "sizes": {
+          "24": "sizes/family.lamiaceae@24.svg",
+          "48": "sizes/family.lamiaceae@48.svg",
+          "72": "sizes/family.lamiaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.apiaceae",
+      "category": "family",
+      "palette": {
+        "primary": "#33691E",
+        "secondary": "#7CB342",
+        "accent": "#FBC02D",
+        "bg": "#F1F8E9"
+      },
+      "custom": true,
+      "group": "Plant families",
+      "label": "Apiaceae (umbellifers)",
+      "keywords": [
+        "umbellifer",
+        "apiaceae",
+        "parsley",
+        "dill",
+        "umbel"
+      ],
+      "files": {
+        "multicolor": "multicolor/family.apiaceae.svg",
+        "sizes": {
+          "24": "sizes/family.apiaceae@24.svg",
+          "48": "sizes/family.apiaceae@48.svg",
+          "72": "sizes/family.apiaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "taxonomy.family",
+      "category": "genus",
+      "palette": {
+        "primary": "#1B5E20",
+        "secondary": "#66BB6A",
+        "accent": "#FBC02D",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Taxonomy & genus",
+      "label": "Family (rank)",
+      "keywords": [
+        "family",
+        "taxonomy",
+        "hierarchy",
+        "rank"
+      ],
+      "files": {
+        "multicolor": "multicolor/taxonomy.family.svg",
+        "sizes": {
+          "24": "sizes/taxonomy.family@24.svg",
+          "48": "sizes/taxonomy.family@48.svg",
+          "72": "sizes/taxonomy.family@72.svg"
+        }
+      }
+    },
+    {
+      "id": "taxonomy.genus",
+      "category": "genus",
+      "palette": {
+        "primary": "#1B5E20",
+        "secondary": "#66BB6A",
+        "accent": "#FBC02D",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Taxonomy & genus",
+      "label": "Genus (rank)",
+      "keywords": [
+        "genus",
+        "taxonomy",
+        "hierarchy",
+        "rank"
+      ],
+      "files": {
+        "multicolor": "multicolor/taxonomy.genus.svg",
+        "sizes": {
+          "24": "sizes/taxonomy.genus@24.svg",
+          "48": "sizes/taxonomy.genus@48.svg",
+          "72": "sizes/taxonomy.genus@72.svg"
+        }
+      }
+    },
+    {
+      "id": "taxonomy.species",
+      "category": "genus",
+      "palette": {
+        "primary": "#1B5E20",
+        "secondary": "#66BB6A",
+        "accent": "#FBC02D",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Taxonomy & genus",
+      "label": "Species (rank)",
+      "keywords": [
+        "species",
+        "taxonomy",
+        "label",
+        "specimen"
+      ],
+      "files": {
+        "multicolor": "multicolor/taxonomy.species.svg",
+        "sizes": {
+          "24": "sizes/taxonomy.species@24.svg",
+          "48": "sizes/taxonomy.species@48.svg",
+          "72": "sizes/taxonomy.species@72.svg"
+        }
+      }
+    },
+    {
+      "id": "genus.monstera",
+      "category": "genus",
+      "palette": {
+        "primary": "#1B5E20",
+        "secondary": "#66BB6A",
+        "accent": "#FBC02D",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Taxonomy & genus",
+      "label": "Monstera",
+      "keywords": [
+        "monstera",
+        "split leaf",
+        "houseplant"
+      ],
+      "files": {
+        "multicolor": "multicolor/genus.monstera.svg",
+        "sizes": {
+          "24": "sizes/genus.monstera@24.svg",
+          "48": "sizes/genus.monstera@48.svg",
+          "72": "sizes/genus.monstera@72.svg"
+        }
+      }
+    },
+    {
+      "id": "genus.ficus",
+      "category": "genus",
+      "palette": {
+        "primary": "#1B5E20",
+        "secondary": "#66BB6A",
+        "accent": "#FBC02D",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Taxonomy & genus",
+      "label": "Ficus",
+      "keywords": [
+        "ficus",
+        "fiddle leaf",
+        "fig",
+        "potted"
+      ],
+      "files": {
+        "multicolor": "multicolor/genus.ficus.svg",
+        "sizes": {
+          "24": "sizes/genus.ficus@24.svg",
+          "48": "sizes/genus.ficus@48.svg",
+          "72": "sizes/genus.ficus@72.svg"
+        }
+      }
+    },
+    {
+      "id": "genus.sansevieria",
+      "category": "genus",
+      "palette": {
+        "primary": "#1B5E20",
+        "secondary": "#66BB6A",
+        "accent": "#FBC02D",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Taxonomy & genus",
+      "label": "Sansevieria",
+      "keywords": [
+        "sansevieria",
+        "snake plant",
+        "potted"
+      ],
+      "files": {
+        "multicolor": "multicolor/genus.sansevieria.svg",
+        "sizes": {
+          "24": "sizes/genus.sansevieria@24.svg",
+          "48": "sizes/genus.sansevieria@48.svg",
+          "72": "sizes/genus.sansevieria@72.svg"
+        }
+      }
+    },
+    {
+      "id": "genus.pothos",
+      "category": "genus",
+      "palette": {
+        "primary": "#1B5E20",
+        "secondary": "#66BB6A",
+        "accent": "#FBC02D",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Taxonomy & genus",
+      "label": "Pothos",
+      "keywords": [
+        "pothos",
+        "vine",
+        "trailing",
+        "heart leaf"
+      ],
+      "files": {
+        "multicolor": "multicolor/genus.pothos.svg",
+        "sizes": {
+          "24": "sizes/genus.pothos@24.svg",
+          "48": "sizes/genus.pothos@48.svg",
+          "72": "sizes/genus.pothos@72.svg"
+        }
+      }
+    },
+    {
+      "id": "genus.aloe",
+      "category": "genus",
+      "palette": {
+        "primary": "#1B5E20",
+        "secondary": "#66BB6A",
+        "accent": "#FBC02D",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Taxonomy & genus",
+      "label": "Aloe",
+      "keywords": [
+        "aloe",
+        "succulent",
+        "rosette",
+        "potted"
+      ],
+      "files": {
+        "multicolor": "multicolor/genus.aloe.svg",
+        "sizes": {
+          "24": "sizes/genus.aloe@24.svg",
+          "48": "sizes/genus.aloe@48.svg",
+          "72": "sizes/genus.aloe@72.svg"
+        }
+      }
+    },
+    {
+      "id": "genus.orchid",
+      "category": "genus",
+      "palette": {
+        "primary": "#1B5E20",
+        "secondary": "#66BB6A",
+        "accent": "#FBC02D",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Taxonomy & genus",
+      "label": "Orchid",
+      "keywords": [
+        "orchid",
+        "bloom",
+        "flower",
+        "potted"
+      ],
+      "files": {
+        "multicolor": "multicolor/genus.orchid.svg",
+        "sizes": {
+          "24": "sizes/genus.orchid@24.svg",
+          "48": "sizes/genus.orchid@48.svg",
+          "72": "sizes/genus.orchid@72.svg"
+        }
+      }
+    },
+    {
+      "id": "genus.fern",
+      "category": "genus",
+      "palette": {
+        "primary": "#1B5E20",
+        "secondary": "#66BB6A",
+        "accent": "#FBC02D",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Taxonomy & genus",
+      "label": "Fern",
+      "keywords": [
+        "fern",
+        "frond",
+        "potted"
+      ],
+      "files": {
+        "multicolor": "multicolor/genus.fern.svg",
+        "sizes": {
+          "24": "sizes/genus.fern@24.svg",
+          "48": "sizes/genus.fern@48.svg",
+          "72": "sizes/genus.fern@72.svg"
+        }
+      }
+    },
+    {
+      "id": "genus.cactus",
+      "category": "genus",
+      "palette": {
+        "primary": "#1B5E20",
+        "secondary": "#66BB6A",
+        "accent": "#FBC02D",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Taxonomy & genus",
+      "label": "Cactus",
+      "keywords": [
+        "cactus",
+        "spines",
+        "potted",
+        "succulent"
+      ],
+      "files": {
+        "multicolor": "multicolor/genus.cactus.svg",
+        "sizes": {
+          "24": "sizes/genus.cactus@24.svg",
+          "48": "sizes/genus.cactus@48.svg",
+          "72": "sizes/genus.cactus@72.svg"
+        }
+      }
+    },
+    {
+      "id": "genus.succulent",
+      "category": "genus",
+      "palette": {
+        "primary": "#1B5E20",
+        "secondary": "#66BB6A",
+        "accent": "#FBC02D",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Taxonomy & genus",
+      "label": "Succulent",
+      "keywords": [
+        "succulent",
+        "rosette",
+        "potted"
+      ],
+      "files": {
+        "multicolor": "multicolor/genus.succulent.svg",
+        "sizes": {
+          "24": "sizes/genus.succulent@24.svg",
+          "48": "sizes/genus.succulent@48.svg",
+          "72": "sizes/genus.succulent@72.svg"
+        }
+      }
+    },
+    {
+      "id": "genus.palm",
+      "category": "genus",
+      "palette": {
+        "primary": "#1B5E20",
+        "secondary": "#66BB6A",
+        "accent": "#FBC02D",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Taxonomy & genus",
+      "label": "Palm",
+      "keywords": [
+        "palm",
+        "fronds",
+        "potted"
+      ],
+      "files": {
+        "multicolor": "multicolor/genus.palm.svg",
+        "sizes": {
+          "24": "sizes/genus.palm@24.svg",
+          "48": "sizes/genus.palm@48.svg",
+          "72": "sizes/genus.palm@72.svg"
+        }
+      }
+    },
+    {
+      "id": "genus.calathea",
+      "category": "genus",
+      "palette": {
+        "primary": "#1B5E20",
+        "secondary": "#66BB6A",
+        "accent": "#FBC02D",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Taxonomy & genus",
+      "label": "Calathea",
+      "keywords": [
+        "calathea",
+        "patterned leaf",
+        "prayer plant"
+      ],
+      "files": {
+        "multicolor": "multicolor/genus.calathea.svg",
+        "sizes": {
+          "24": "sizes/genus.calathea@24.svg",
+          "48": "sizes/genus.calathea@48.svg",
+          "72": "sizes/genus.calathea@72.svg"
+        }
+      }
+    },
+    {
+      "id": "genus.peperomia",
+      "category": "genus",
+      "palette": {
+        "primary": "#1B5E20",
+        "secondary": "#66BB6A",
+        "accent": "#FBC02D",
+        "bg": "#E8F5E9"
+      },
+      "custom": true,
+      "group": "Taxonomy & genus",
+      "label": "Peperomia",
+      "keywords": [
+        "peperomia",
+        "round leaves",
+        "potted"
+      ],
+      "files": {
+        "multicolor": "multicolor/genus.peperomia.svg",
+        "sizes": {
+          "24": "sizes/genus.peperomia@24.svg",
+          "48": "sizes/genus.peperomia@48.svg",
+          "72": "sizes/genus.peperomia@72.svg"
         }
       }
     }
