@@ -1,0 +1,7463 @@
+{
+  "schemaVersion": "1.0.0",
+  "registryVersion": "2.1.0",
+  "registryHash": "6e37c9e631574cc64b8172b3c63adafb794e18829adf58b7a72547fb4d0adbd7",
+  "iconCount": 154,
+  "renderMatrix": {
+    "sizes": [
+      16,
+      20,
+      24,
+      32,
+      48
+    ],
+    "colorSchemes": [
+      "light",
+      "dark"
+    ],
+    "contrast": [
+      "standard",
+      "increased"
+    ]
+  },
+  "icons": [
+    {
+      "id": "account.user",
+      "category": "account",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M18 20a6 6 0 0 0-12 0",
+              "key": "1qehca"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "10",
+              "key": "1h16sb",
+              "r": "4"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "12",
+              "key": "1mglay",
+              "r": "10"
+            },
+            "type": "circle"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "d159f5e04c17d785e576d04a6d904fefaab7bcb746394dfb3b5bfa667a48d32d"
+    },
+    {
+      "id": "account.users",
+      "category": "account",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M18 21a8 8 0 0 0-16 0",
+              "key": "3ypg7q"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "10",
+              "cy": "8",
+              "key": "o932ke",
+              "r": "5"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "d": "M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3",
+              "key": "10s06x"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "d29c934a108af165f453a539ca9c9fb28f99730e09da120a3888ab338b275646"
+    },
+    {
+      "id": "action.add",
+      "category": "action",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "12",
+              "key": "1mglay",
+              "r": "10"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "d": "M8 12h8",
+              "key": "1wcyev"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 8v8",
+              "key": "napkw2"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "49b757c715838885a5a86fc9e165be77f05a5440ec706db48f8db2f49e980d0a"
+    },
+    {
+      "id": "action.delete",
+      "category": "action",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M10 11v6",
+              "key": "nco0om"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M14 11v6",
+              "key": "outv1u"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6",
+              "key": "miytrc"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M3 6h18",
+              "key": "d0wm0j"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2",
+              "key": "e791ji"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "988489286fee3172ac8176e9df471a7b7c115dcca5c2b34425f47a6c0173eba0"
+    },
+    {
+      "id": "action.edit",
+      "category": "action",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M13 21h8",
+              "key": "1jsn5i"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m15 5 4 4",
+              "key": "1mk7zo"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z",
+              "key": "1a8usu"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "4f77e7cad83c8b5737b24173daee71385760e99b210f8794e0e459c2899e5c70"
+    },
+    {
+      "id": "action.search",
+      "category": "action",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "cx": "11",
+              "cy": "11",
+              "key": "4ej97u",
+              "r": "8"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "d": "m21 21-4.3-4.3",
+              "key": "1qie3q"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M11 7v4",
+              "key": "m2edmq"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M11 15h.01",
+              "key": "k85uqc"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "bc01697810c6f07a1c3a61eaaf16af81eb18808911a1aaef09d97d12a4987d35"
+    },
+    {
+      "id": "calendar.date",
+      "category": "calendar",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M11 14h1v4",
+              "key": "fy54vd"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M16 2v4",
+              "key": "4m81vk"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M3 10h18",
+              "key": "8toen8"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M8 2v4",
+              "key": "1cmpym"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "height": "18",
+              "key": "12vinp",
+              "rx": "2",
+              "width": "18",
+              "x": "3",
+              "y": "4"
+            },
+            "type": "rect"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "5ec5e22339f925ede0dd18532d8a9e8f86fdfdc2c6187df764ff845fa5b9db6c"
+    },
+    {
+      "id": "calendar.time",
+      "category": "calendar",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "12",
+              "key": "1mglay",
+              "r": "10"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "d": "M12 6v6l2-4",
+              "key": "miptyd"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "0bd26912c68b45fb89d43b538d5060141c44845022884e31d3726f723a89c69d"
+    },
+    {
+      "id": "location.pin",
+      "category": "location",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M17.97 9.304A8 8 0 0 0 2 10c0 4.69 4.887 9.562 7.022 11.468",
+              "key": "1fahp3"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M21.378 16.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z",
+              "key": "1817ys"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "10",
+              "cy": "10",
+              "key": "1ns7v1",
+              "r": "3"
+            },
+            "type": "circle"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "9a0b51e7e7b1a9e8dcc041959ed1a22818a00106ba5d2b20a87565be46094558"
+    },
+    {
+      "id": "navigation.back",
+      "category": "navigation",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "12",
+              "key": "1mglay",
+              "r": "10"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "d": "m12 8-4 4 4 4",
+              "key": "15vm53"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M16 12H8",
+              "key": "1fr5h0"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "e4a22e67aadd54b23053bbff70aee1b767176a6af5bd9f08c47daa4c7e11deee"
+    },
+    {
+      "id": "navigation.close",
+      "category": "navigation",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "12",
+              "key": "1mglay",
+              "r": "10"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "d": "m15 9-6 6",
+              "key": "1uzhvr"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m9 9 6 6",
+              "key": "z0biqf"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "8ed16f8b02d4375c837cc45426d9d1bd190d31408371d7ff92037ce5c2fe59f5"
+    },
+    {
+      "id": "navigation.collapse",
+      "category": "navigation",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "12",
+              "key": "1mglay",
+              "r": "10"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "d": "m8 14 4-4 4 4",
+              "key": "fy2ptz"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "4160e332291de957637ff3aefbb1eaf76709f91da692957ddbdea974c032993e"
+    },
+    {
+      "id": "navigation.expand",
+      "category": "navigation",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "12",
+              "key": "1mglay",
+              "r": "10"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "d": "m16 10-4 4-4-4",
+              "key": "894hmk"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "e229fba9751b5a90d19c7d23c930ac86a5c8ff984b7fbb70123c3494875df9a9"
+    },
+    {
+      "id": "navigation.forward",
+      "category": "navigation",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "12",
+              "key": "1mglay",
+              "r": "10"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "d": "m12 16 4-4-4-4",
+              "key": "1i9zcv"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M8 12h8",
+              "key": "1wcyev"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "73da015a46e06cb56abeb93e8ed39ac7ec33b861a4782fe34a4d334288469fec"
+    },
+    {
+      "id": "navigation.home",
+      "category": "navigation",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8",
+              "key": "5wwlr5"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z",
+              "key": "r6nss1"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "9a5effbecbc9d85c434da31ce56f67f766ece7cfc2829f24c688cecc2567929a"
+    },
+    {
+      "id": "navigation.next",
+      "category": "navigation",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "12",
+              "key": "1mglay",
+              "r": "10"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "d": "m10 8 4 4-4 4",
+              "key": "1wy4r4"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "dcdfebe9666a8ad96dc146f6fa1ba1f1359e8e74766dc8d11771e88c928bb5e3"
+    },
+    {
+      "id": "navigation.previous",
+      "category": "navigation",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "12",
+              "key": "1mglay",
+              "r": "10"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "d": "m14 16-4-4 4-4",
+              "key": "ojs7w8"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "8ed4b018a4f542c8a415930b3be139f8351f2fbf5a57dbd98a3bf37a36fed5a5"
+    },
+    {
+      "id": "plant.growth",
+      "category": "plant",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M2 22c1.25-.987 2.27-1.975 3.9-2.2a5.56 5.56 0 0 1 3.8 1.5 4 4 0 0 0 6.187-2.353 3.5 3.5 0 0 0 3.69-5.116A3.5 3.5 0 0 0 20.95 8 3.5 3.5 0 1 0 16 3.05a3.5 3.5 0 0 0-5.831 1.373 3.5 3.5 0 0 0-5.116 3.69 4 4 0 0 0-2.348 6.155C3.499 15.42 4.409 16.712 4.2 18.1 3.926 19.743 3.014 20.732 2 22",
+              "key": "1134nt"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M2 22 17 7",
+              "key": "1q7jp2"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "d133a1e6d5920e536e5d61abf1a8949bc7c68f2d6a4022271969bf13364a6681"
+    },
+    {
+      "id": "plant.pruning",
+      "category": "plant",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "key": "x74652",
+              "x1": "5",
+              "x2": "19",
+              "y1": "3",
+              "y2": "3"
+            },
+            "type": "line"
+          },
+          {
+            "attrs": {
+              "key": "31ivqu",
+              "x1": "3",
+              "x2": "3",
+              "y1": "5",
+              "y2": "19"
+            },
+            "type": "line"
+          },
+          {
+            "attrs": {
+              "key": "1am4cd",
+              "x1": "21",
+              "x2": "21",
+              "y1": "5",
+              "y2": "19"
+            },
+            "type": "line"
+          },
+          {
+            "attrs": {
+              "key": "sb02er",
+              "x1": "9",
+              "x2": "10",
+              "y1": "21",
+              "y2": "21"
+            },
+            "type": "line"
+          },
+          {
+            "attrs": {
+              "key": "1bvb1m",
+              "x1": "14",
+              "x2": "15",
+              "y1": "21",
+              "y2": "21"
+            },
+            "type": "line"
+          },
+          {
+            "attrs": {
+              "d": "M 3 5 A2 2 0 0 1 5 3",
+              "key": "dbypyf"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M 19 3 A2 2 0 0 1 21 5",
+              "key": "y6haui"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M 5 21 A2 2 0 0 1 3 19",
+              "key": "kb75wq"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M 21 19 A2 2 0 0 1 19 21",
+              "key": "1p3zbf"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "8.5",
+              "cy": "8.5",
+              "key": "cn5opk",
+              "r": "1.5"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "key": "mksg6j",
+              "x1": "9.56066",
+              "x2": "12",
+              "y1": "9.56066",
+              "y2": "12"
+            },
+            "type": "line"
+          },
+          {
+            "attrs": {
+              "key": "1lwi1d",
+              "x1": "17",
+              "x2": "14.82",
+              "y1": "17",
+              "y2": "14.82"
+            },
+            "type": "line"
+          },
+          {
+            "attrs": {
+              "cx": "8.5",
+              "cy": "15.5",
+              "key": "12hfy1",
+              "r": "1.5"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "key": "4jyfgs",
+              "x1": "9.56066",
+              "x2": "17",
+              "y1": "14.43934",
+              "y2": "7"
+            },
+            "type": "line"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "8358416abcfdb295b9f1d2b7595b8b35c5ceec8cdbc2c44e43f2b3f129e632ba"
+    },
+    {
+      "id": "plant.seedling",
+      "category": "plant",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M12 21V10"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M7 10c0-4 2.5-6 5-6s5 2 5 6"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M7 14c0 0 1-3 5-3"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "29d986010824506715cfe05e01aca1fc410f875874271e1de126248d546a12a2"
+    },
+    {
+      "id": "plant.sprout",
+      "category": "plant",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M14 9.536V7a4 4 0 0 1 4-4h1.5a.5.5 0 0 1 .5.5V5a4 4 0 0 1-4 4 4 4 0 0 0-4 4c0 2 1 3 1 5a5 5 0 0 1-1 3",
+              "key": "139s4v"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M4 9a5 5 0 0 1 8 4 5 5 0 0 1-8-4",
+              "key": "1dlkgp"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M5 21h14",
+              "key": "11awu3"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "5e87db33231895cf987500abe492c7fb6d08cad8935fe1435596df55da6072b2"
+    },
+    {
+      "id": "plant.thriving",
+      "category": "plant",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M12 21V12"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M5 12C5 7 8 4 12 4s7 3 7 8"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M9 16c0 0 1.5-3 3-3s3 3 3 3"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M7 9c0 0 2-1 5-1"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "778b315c56512f89f7b3bf31ef222b33a1c584dbaea5fb84906eb7ebdd7e6926"
+    },
+    {
+      "id": "plant.watering",
+      "category": "plant",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z",
+              "key": "1ptgy4"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97",
+              "key": "1sl1rz"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "ed45b71345527d388e1e1666062168c49365e7dc2e49ccc1f0297fa589ab2058"
+    },
+    {
+      "id": "plant.watering.can",
+      "category": "plant",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M3 18a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V8H3z"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M15 8h2a2 2 0 0 1 2 2v0"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M3 8V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "x1": "17",
+              "x2": "21",
+              "y1": "16",
+              "y2": "12"
+            },
+            "type": "line"
+          },
+          {
+            "attrs": {
+              "x1": "17",
+              "x2": "21",
+              "y1": "12",
+              "y2": "16"
+            },
+            "type": "line"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "87c31a01b8ff720394e3c146cf673d1abedb9a47cd7ae20b62dfcfb42309e53a"
+    },
+    {
+      "id": "plant.wilting",
+      "category": "plant",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M12 21V8"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 8C12 8 8 6 7 3c3 0 5 1 5 5z"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 8C12 8 16 6 17 3c-3 0-5 1-5 5z"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M9 14c-1 1-3 1-4 0"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M15 14c1 1 3 1 4 0"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "226543ec8148bb54ace071f577ee2750cd9aefbcce3f06a25865d06bc5ff1093"
+    },
+    {
+      "id": "status.error",
+      "category": "status",
+      "accessibility": "status",
+      "accessibilityLabelKey": "a11y.icons.status.error",
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "12",
+              "key": "1mglay",
+              "r": "10"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "key": "1pkeuh",
+              "x1": "12",
+              "x2": "12",
+              "y1": "8",
+              "y2": "12"
+            },
+            "type": "line"
+          },
+          {
+            "attrs": {
+              "key": "4dfq90",
+              "x1": "12",
+              "x2": "12.01",
+              "y1": "16",
+              "y2": "16"
+            },
+            "type": "line"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "226f3f9d71f32244dc2c6b10477dc6e80dbb20d1187eb876b0e0eb5970f611af"
+    },
+    {
+      "id": "status.info",
+      "category": "status",
+      "accessibility": "status",
+      "accessibilityLabelKey": "a11y.icons.status.info",
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "12",
+              "key": "1mglay",
+              "r": "10"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "d": "M12 16v-4",
+              "key": "1dtifu"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 8h.01",
+              "key": "e9boi3"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "492db3e4ae7541b122794727f9ba81feea669b0378f1ac71a6a78f88c9f33427"
+    },
+    {
+      "id": "status.loading",
+      "category": "status",
+      "accessibility": "status",
+      "accessibilityLabelKey": "a11y.icons.status.loading",
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M21 12a9 9 0 1 1-6.219-8.56"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "50aed0b6c109f66a45fc8f79de0898655be356235ffe8220593d536767cc8915"
+    },
+    {
+      "id": "status.streak",
+      "category": "status",
+      "accessibility": "status",
+      "accessibilityLabelKey": "a11y.icons.status.streak",
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M8.5 14.5A2.5 2.5 0 0 0 11 17c1.38 0 2.5-1.12 2.5-2.5 0-1.5-1.5-2.5-1.5-4.5 0 0 2 1 2 3.5A4 4 0 0 0 18 9.5c-2 0-3-1-4-3-1 2-4 2-5 6A4 4 0 0 0 8.5 14.5z"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "d4b826383184ba67fc0e204d0315aad1c183cac6985dd3156ac5ac34d84cdac9"
+    },
+    {
+      "id": "status.success",
+      "category": "status",
+      "accessibility": "status",
+      "accessibilityLabelKey": "a11y.icons.status.success",
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M21.801 10A10 10 0 1 1 17 3.335",
+              "key": "yps3ct"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m9 11 3 3L22 4",
+              "key": "1pflzl"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "6a91b91c00b398e323843ad2431334f419c572bc53d7c9a81eac43d3d0570462"
+    },
+    {
+      "id": "status.success.circle",
+      "category": "status",
+      "accessibility": "status",
+      "accessibilityLabelKey": "a11y.icons.status.success",
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M21.801 10A10 10 0 1 1 17 3.335",
+              "key": "yps3ct"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m9 11 3 3L22 4",
+              "key": "1pflzl"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "6a91b91c00b398e323843ad2431334f419c572bc53d7c9a81eac43d3d0570462"
+    },
+    {
+      "id": "status.success.circle.alt",
+      "category": "status",
+      "accessibility": "status",
+      "accessibilityLabelKey": "a11y.icons.status.success",
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "12",
+              "key": "1mglay",
+              "r": "10"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "d": "m9 12 2 2 4-4",
+              "key": "dzmm74"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "e5b6b5cc0a42ac394dee651eb96af3ed752476a3cfdbcf4274290d2b61d44b6c"
+    },
+    {
+      "id": "status.warning",
+      "category": "status",
+      "accessibility": "status",
+      "accessibilityLabelKey": "a11y.icons.status.warning",
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3",
+              "key": "wmoenq"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 9v4",
+              "key": "juzpu7"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 17h.01",
+              "key": "p32p05"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "541efc37cef96ebe8b086ad2e614bea1223d37ee81d29131d3e77c6932a99b89"
+    },
+    {
+      "id": "status.warning.alt",
+      "category": "status",
+      "accessibility": "status",
+      "accessibilityLabelKey": "a11y.icons.status.warning",
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3",
+              "key": "wmoenq"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 9v4",
+              "key": "juzpu7"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 17h.01",
+              "key": "p32p05"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "541efc37cef96ebe8b086ad2e614bea1223d37ee81d29131d3e77c6932a99b89"
+    },
+    {
+      "id": "utility.activity",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "height": "18",
+              "key": "afitv7",
+              "rx": "2",
+              "width": "18",
+              "x": "3",
+              "y": "3"
+            },
+            "type": "rect"
+          },
+          {
+            "attrs": {
+              "d": "M17 12h-2l-2 5-2-10-2 5H7",
+              "key": "15hlnc"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "d52d04cd86b1f5221fb3f8137f1df44317e9ed7ec45edd8c7718cc5acd699709"
+    },
+    {
+      "id": "utility.align.justify",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M3 5h18",
+              "key": "1u36vt"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M3 12h18",
+              "key": "1i2n21"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M3 19h18",
+              "key": "awlh7x"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "a51fe644b9a39bebee3a3a9d0b28d486a1bb34b1532d542b63095d916dd4ee53"
+    },
+    {
+      "id": "utility.arrow.down",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "m3 16 4 4 4-4",
+              "key": "1co6wj"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M7 20V4",
+              "key": "1yoxec"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M20 8h-5",
+              "key": "1vsyxs"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M15 10V6.5a2.5 2.5 0 0 1 5 0V10",
+              "key": "ag13bf"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M15 14h5l-5 6h5",
+              "key": "ur5jdg"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "ecdcf2705a2832954f1796d90ef6bec92e6781173627ae214565f1f565e3337a"
+    },
+    {
+      "id": "utility.arrow.down.to.dot",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M12 2v14",
+              "key": "jyx4ut"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m19 9-7 7-7-7",
+              "key": "1oe3oy"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "21",
+              "key": "o0uj5v",
+              "r": "1"
+            },
+            "type": "circle"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "02d17c50453798faff966d4cc94fee0afc3a086c5df747d1d5192904dc4a25f5"
+    },
+    {
+      "id": "utility.arrow.up",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "m3 8 4-4 4 4",
+              "key": "11wl7u"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M7 4v16",
+              "key": "1glfcx"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M20 8h-5",
+              "key": "1vsyxs"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M15 10V6.5a2.5 2.5 0 0 1 5 0V10",
+              "key": "ag13bf"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M15 14h5l-5 6h5",
+              "key": "ur5jdg"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "c916c2a3faf1bd33d955e3a846e4966a4deb855196395dea4b2d80868d8aa534"
+    },
+    {
+      "id": "utility.arrow.up.from.dot",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "m5 9 7-7 7 7",
+              "key": "1hw5ic"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 16V2",
+              "key": "ywoabb"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "21",
+              "key": "o0uj5v",
+              "r": "1"
+            },
+            "type": "circle"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "2376ebb0f9ede9d47170b988035c09a07398a4e7d4439cae82526496b77441ad"
+    },
+    {
+      "id": "utility.award",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526",
+              "key": "1yiouv"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "8",
+              "key": "1vp47v",
+              "r": "6"
+            },
+            "type": "circle"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "507be78a8e4d232ef7d274a0b7432f3c55adb49af028af63efbba8994680ce47"
+    },
+    {
+      "id": "utility.baby",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5",
+              "key": "1u7htd"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M15 12h.01",
+              "key": "1k8ypt"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M19.38 6.813A9 9 0 0 1 20.8 10.2a2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5s-.9 2.5-2 2.5c-.8 0-1.5-.4-1.5-1",
+              "key": "11xh7x"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M9 12h.01",
+              "key": "157uk2"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "3bdf9a7b5405f912bc943c055ebbc9f497547f6c78ce1deb1edb4af0ab9b3cba"
+    },
+    {
+      "id": "utility.badge.check",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z",
+              "key": "3c2336"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m9 12 2 2 4-4",
+              "key": "dzmm74"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "cff7bb5f1f8c3ab743c7637c722c20d59bdb71e89d2db950db3eabbdf3e243ce"
+    },
+    {
+      "id": "utility.bar.chart3",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M3 3v16a2 2 0 0 0 2 2h16",
+              "key": "c24i48"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M18 17V9",
+              "key": "2bz60n"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M13 17V5",
+              "key": "1frdt8"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M8 17v-3",
+              "key": "17ska0"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "7d9762937d5a963788a810a6fe2ab9a20653b87532dd5c2397e2a17414dd4113"
+    },
+    {
+      "id": "utility.bell",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M10.268 21a2 2 0 0 0 3.464 0",
+              "key": "vwvbt9"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M11.68 2.009A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673c-.824-.85-1.678-1.731-2.21-3.348",
+              "key": "xaq59h"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "18",
+              "cy": "5",
+              "key": "gq8acd",
+              "r": "3"
+            },
+            "type": "circle"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "51b8864ef56583205b1edbd0de4eaca08f0bcba33d40069d37d74cb0025f2560"
+    },
+    {
+      "id": "utility.bell.off",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M10.268 21a2 2 0 0 0 3.464 0",
+              "key": "vwvbt9"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M17 17H4a1 1 0 0 1-.74-1.673C4.59 13.956 6 12.499 6 8a6 6 0 0 1 .258-1.742",
+              "key": "178tsu"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m2 2 20 20",
+              "key": "1ooewy"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M8.668 3.01A6 6 0 0 1 18 8c0 2.687.77 4.653 1.707 6.05",
+              "key": "1hqiys"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "87693eafd8133666f1aa3a72f87483de5eb3033f652ca57ac4587e1f460e39e8"
+    },
+    {
+      "id": "utility.bot",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M12 6V2H8",
+              "key": "1155em"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M15 11v2",
+              "key": "i11awn"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M2 12h2",
+              "key": "1t8f8n"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M20 12h2",
+              "key": "1q8mjw"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M20 16a2 2 0 0 1-2 2H8.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 4 20.286V8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2z",
+              "key": "11gyqh"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M9 11v2",
+              "key": "1ueba0"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "78162c893e7936d7b4197d3104725bfbb0bf10619c5ba2c12a3e294271e207b3"
+    },
+    {
+      "id": "utility.brain",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z",
+              "key": "l5xja"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M9 13a4.5 4.5 0 0 0 3-4",
+              "key": "10igwf"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M6.003 5.125A3 3 0 0 0 6.401 6.5",
+              "key": "105sqy"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M3.477 10.896a4 4 0 0 1 .585-.396",
+              "key": "ql3yin"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M6 18a4 4 0 0 1-1.967-.516",
+              "key": "2e4loj"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 13h4",
+              "key": "1ku699"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 18h6a2 2 0 0 1 2 2v1",
+              "key": "105ag5"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 8h8",
+              "key": "1lhi5i"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M16 8V5a2 2 0 0 1 2-2",
+              "key": "u6izg6"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "16",
+              "cy": "13",
+              "key": "ry7gng",
+              "r": ".5"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "cx": "18",
+              "cy": "3",
+              "key": "1aiba7",
+              "r": ".5"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "cx": "20",
+              "cy": "21",
+              "key": "yhc1fs",
+              "r": ".5"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "cx": "20",
+              "cy": "8",
+              "key": "1e43v0",
+              "r": ".5"
+            },
+            "type": "circle"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "1987b3fad3d0eb2d8b581d32c0f17f1883fe3fd80094b45f233f25ad3bf8de9c"
+    },
+    {
+      "id": "utility.bug",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M12 20v-8",
+              "key": "i3yub9"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12.656 7H14a4 4 0 0 1 4 4v1.344",
+              "key": "vvueyn"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M14.12 3.88 16 2",
+              "key": "qol33r"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M17.123 17.123A6 6 0 0 1 6 14v-3a4 4 0 0 1 1.72-3.287",
+              "key": "1cu21y"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m2 2 20 20",
+              "key": "1ooewy"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M21 5a4 4 0 0 1-3.55 3.97",
+              "key": "5cxbf6"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M22 13h-3.344",
+              "key": "qb08am"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M3 21a4 4 0 0 1 3.81-4",
+              "key": "1fjd4g"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M3 5a4 4 0 0 0 3.55 3.97",
+              "key": "1d7oge"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M6 13H2",
+              "key": "82j7cp"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m8 2 1.88 1.88",
+              "key": "fmnt4t"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M9.712 4.06A3 3 0 0 1 15 6v1.13",
+              "key": "1bvup6"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "271088776357bf2bded0dc535d879642a845f3ee1fa988ea9bf4597f54c77581"
+    },
+    {
+      "id": "utility.cake",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M16 13H3",
+              "key": "1wpj08"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M16 17H3",
+              "key": "3lvfcd"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m7.2 7.9-3.388 2.5A2 2 0 0 0 3 12.01V20a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-8.654c0-2-2.44-6.026-6.44-8.026a1 1 0 0 0-1.082.057L10.4 5.6",
+              "key": "1gmhf7"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "9",
+              "cy": "7",
+              "key": "1305pl",
+              "r": "2"
+            },
+            "type": "circle"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "6f843979c3b321ee38323c338d1c04538d2e2a3adc2faa6e31437f31572b4036"
+    },
+    {
+      "id": "utility.calendar.clock",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M16 14v2.2l1.6 1",
+              "key": "fo4ql5"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M16 2v4",
+              "key": "4m81vk"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5",
+              "key": "1osxxc"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M3 10h5",
+              "key": "r794hk"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M8 2v4",
+              "key": "1cmpym"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "16",
+              "cy": "16",
+              "key": "qoo3c4",
+              "r": "6"
+            },
+            "type": "circle"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "edde7aa4dbfd3677e2bce0af2998b7d35d02362f27f8c10e0a1fd574adf41fdc"
+    },
+    {
+      "id": "utility.calendar.days",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M8 2v4",
+              "key": "1cmpym"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M16 2v4",
+              "key": "4m81vk"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "height": "18",
+              "key": "1hopcy",
+              "rx": "2",
+              "width": "18",
+              "x": "3",
+              "y": "4"
+            },
+            "type": "rect"
+          },
+          {
+            "attrs": {
+              "d": "M3 10h18",
+              "key": "8toen8"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M8 14h.01",
+              "key": "6423bh"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 14h.01",
+              "key": "1etili"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M16 14h.01",
+              "key": "1gbofw"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M8 18h.01",
+              "key": "lrp35t"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 18h.01",
+              "key": "mhygvu"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M16 18h.01",
+              "key": "kzsmim"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "b7865e38788ff2b9f78d218a8467b9c47aa53e30b640cf65f836bd1d033ca596"
+    },
+    {
+      "id": "utility.camera",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M13.997 4a2 2 0 0 1 1.76 1.05l.486.9A2 2 0 0 0 18.003 7H20a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1.997a2 2 0 0 0 1.759-1.048l.489-.904A2 2 0 0 1 10.004 4z",
+              "key": "18u6gg"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "13",
+              "key": "1vg3eu",
+              "r": "3"
+            },
+            "type": "circle"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "73f244e950c20e015d04729cd8e5e882969b08aa4375cec32e03db4b54e4bc92"
+    },
+    {
+      "id": "utility.check.check",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M18 6 7 17l-5-5",
+              "key": "116fxf"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m22 10-7.5 7.5L13 16",
+              "key": "ke71qq"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "e283ac97b56ef9656347b99b435a71bbf827c8b456403f1139a449be57a9f0d5"
+    },
+    {
+      "id": "utility.chevrons.up.down",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "m7 15 5 5 5-5",
+              "key": "1hf1tw"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m7 9 5-5 5 5",
+              "key": "sgt6xg"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "dc3edc8b9b569f2494ab82294b05adf75e49255ec4a098fa491eca76bfacd825"
+    },
+    {
+      "id": "utility.circle",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "12",
+              "key": "1mglay",
+              "r": "10"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "key": "1pkeuh",
+              "x1": "12",
+              "x2": "12",
+              "y1": "8",
+              "y2": "12"
+            },
+            "type": "line"
+          },
+          {
+            "attrs": {
+              "key": "4dfq90",
+              "x1": "12",
+              "x2": "12.01",
+              "y1": "16",
+              "y2": "16"
+            },
+            "type": "line"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "226f3f9d71f32244dc2c6b10477dc6e80dbb20d1187eb876b0e0eb5970f611af"
+    },
+    {
+      "id": "utility.cloud.drizzle",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242",
+              "key": "1pljnt"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M8 19v1",
+              "key": "1dk2by"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M8 14v1",
+              "key": "84yxot"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M16 19v1",
+              "key": "v220m7"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M16 14v1",
+              "key": "g12gj6"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 21v1",
+              "key": "q8vafk"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 16v1",
+              "key": "1mx6rx"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "840936d7bc34a5de8df77910c13e5d4dc519241e14d1892bcdf4c8f3b5b161af"
+    },
+    {
+      "id": "utility.cloud.fog",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242",
+              "key": "1pljnt"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M16 17H7",
+              "key": "pygtm1"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M17 21H9",
+              "key": "1u2q02"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "a180d19f153f8c345ea9e4b9c86d704b81573c20766fa4ce502e5b03c3807cd9"
+    },
+    {
+      "id": "utility.cloud.lightning",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M6 16.326A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 .5 8.973",
+              "key": "1cez44"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m13 12-3 5h4l-3 5",
+              "key": "1t22er"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "b24585cafb096416be4c11be2a791a64cdd6d81e3af760a8e26f2344e3131f82"
+    },
+    {
+      "id": "utility.cloud.moon",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M11 20v2",
+              "key": "174qtz"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M18.376 14.512a6 6 0 0 0 3.461-4.127c.148-.625-.659-.97-1.248-.714a4 4 0 0 1-5.259-5.26c.255-.589-.09-1.395-.716-1.248a6 6 0 0 0-4.594 5.36",
+              "key": "zwnc1e"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M3 20a5 5 0 1 1 8.9-4H13a3 3 0 0 1 2 5.24",
+              "key": "1qmrp3"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M7 19v2",
+              "key": "12npes"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "adf2c116e4eb31c7d23a33717201d06d8d4ebf8107b477dd102974222ea598c4"
+    },
+    {
+      "id": "utility.cloud.rain",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242",
+              "key": "1pljnt"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m9.2 22 3-7",
+              "key": "sb5f6j"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m9 13-3 7",
+              "key": "500co5"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m17 13-3 7",
+              "key": "8t2fiy"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "d679a795e5f384090c8286d5626c5543fa5d5a80543cc542ff533e0a3b49109a"
+    },
+    {
+      "id": "utility.cloud.snow",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242",
+              "key": "1pljnt"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M8 15h.01",
+              "key": "a7atzg"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M8 19h.01",
+              "key": "puxtts"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 17h.01",
+              "key": "p32p05"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 21h.01",
+              "key": "h35vbk"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M16 15h.01",
+              "key": "rnfrdf"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M16 19h.01",
+              "key": "1vcnzz"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "49bc4583206d0ea993c4359c01f62b3fa98acc7fe9cd800880a179b0f43211d0"
+    },
+    {
+      "id": "utility.cloud.sun",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M12 2v2",
+              "key": "tus03m"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m4.93 4.93 1.41 1.41",
+              "key": "149t6j"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M20 12h2",
+              "key": "1q8mjw"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m19.07 4.93-1.41 1.41",
+              "key": "1shlcs"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M15.947 12.65a4 4 0 0 0-5.925-4.128",
+              "key": "dpwdj0"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M3 20a5 5 0 1 1 8.9-4H13a3 3 0 0 1 2 5.24",
+              "key": "1qmrp3"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M11 20v2",
+              "key": "174qtz"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M7 19v2",
+              "key": "12npes"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "b6f5c6a944f3a34d7f892176812fe29411333a284c1672e9788beaa2280b3e70"
+    },
+    {
+      "id": "utility.code",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "m18 16 4-4-4-4",
+              "key": "1inbqp"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m6 8-4 4 4 4",
+              "key": "15zrgr"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m14.5 4-5 16",
+              "key": "e7oirm"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "af74a6be13731a7ab8163d9aed000cd2da573a936abe37841f93b26c5ad745d9"
+    },
+    {
+      "id": "utility.cookie",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5",
+              "key": "laymnq"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M8.5 8.5v.01",
+              "key": "ue8clq"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M16 15.5v.01",
+              "key": "14dtrp"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 12v.01",
+              "key": "u5ubse"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M11 17v.01",
+              "key": "1hyl5a"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M7 14v.01",
+              "key": "uct60s"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "d35cffbab6a9308243d9f22c457d376f7934bc0613d5792a436f34b532ff39e9"
+    },
+    {
+      "id": "utility.copy",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "m12 15 2 2 4-4",
+              "key": "2c609p"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "height": "14",
+              "key": "17jyea",
+              "rx": "2",
+              "ry": "2",
+              "width": "14",
+              "x": "8",
+              "y": "8"
+            },
+            "type": "rect"
+          },
+          {
+            "attrs": {
+              "d": "M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2",
+              "key": "zix9uf"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "c5bf8021526dea5f834cfbba065349d50da742fe9c3ecbc6dcb0d6c33b5a45e8"
+    },
+    {
+      "id": "utility.crown",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M11.562 3.266a.5.5 0 0 1 .876 0L15.39 8.87a1 1 0 0 0 1.516.294L21.183 5.5a.5.5 0 0 1 .798.519l-2.834 10.246a1 1 0 0 1-.956.734H5.81a1 1 0 0 1-.957-.734L2.02 6.02a.5.5 0 0 1 .798-.519l4.276 3.664a1 1 0 0 0 1.516-.294z",
+              "key": "1vdc57"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M5 21h14",
+              "key": "11awu3"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "0492930ea2a6bace210892e6ed3806a9b0fbe32699e7b2236e46e67921c84792"
+    },
+    {
+      "id": "utility.database",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "5",
+              "key": "msslwz",
+              "rx": "9",
+              "ry": "3"
+            },
+            "type": "ellipse"
+          },
+          {
+            "attrs": {
+              "d": "M3 12a9 3 0 0 0 5 2.69",
+              "key": "1ui2ym"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M21 9.3V5",
+              "key": "6k6cib"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M3 5v14a9 3 0 0 0 6.47 2.88",
+              "key": "i62tjy"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 12v4h4",
+              "key": "1bxaet"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M13 20a5 5 0 0 0 9-3 4.5 4.5 0 0 0-4.5-4.5c-1.33 0-2.54.54-3.41 1.41L12 16",
+              "key": "1f4ei9"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "3193c2eeb438ad3695eb9dd2a222e13f017d2cc60f4d499751b69ca1aad57109"
+    },
+    {
+      "id": "utility.dna",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M15 2c-1.35 1.5-2.092 3-2.5 4.5L14 8",
+              "key": "1bivrr"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m17 6-2.891-2.891",
+              "key": "xu6p2f"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M2 15c3.333-3 6.667-3 10-3",
+              "key": "nxix30"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m2 2 20 20",
+              "key": "1ooewy"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m20 9 .891.891",
+              "key": "3xwk7g"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M22 9c-1.5 1.35-3 2.092-4.5 2.5l-1-1",
+              "key": "18cutr"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M3.109 14.109 4 15",
+              "key": "q76aoh"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m6.5 12.5 1 1",
+              "key": "cs35ky"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m7 18 2.891 2.891",
+              "key": "1sisit"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M9 22c1.35-1.5 2.092-3 2.5-4.5L10 16",
+              "key": "rlvei3"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "89da38a1749cd4bafbff2d88017852c0f5f7fa1e1ed9e3cc2667ad37ca723d1e"
+    },
+    {
+      "id": "utility.eye",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "m15 18-.722-3.25",
+              "key": "1j64jw"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M2 8a10.645 10.645 0 0 0 20 0",
+              "key": "1e7gxb"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m20 15-1.726-2.05",
+              "key": "1cnuld"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m4 15 1.726-2.05",
+              "key": "1dsqqd"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m9 18 .722-3.25",
+              "key": "ypw2yx"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "2369e7e8b2eaeda7d58db9ac421b41a683b165b937f9b937849531797965cc6d"
+    },
+    {
+      "id": "utility.eye.off",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M10.733 5.076a10.744 10.744 0 0 1 11.205 6.575 1 1 0 0 1 0 .696 10.747 10.747 0 0 1-1.444 2.49",
+              "key": "ct8e1f"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M14.084 14.158a3 3 0 0 1-4.242-4.242",
+              "key": "151rxh"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M17.479 17.499a10.75 10.75 0 0 1-15.417-5.151 1 1 0 0 1 0-.696 10.75 10.75 0 0 1 4.446-5.143",
+              "key": "13bj9a"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m2 2 20 20",
+              "key": "1ooewy"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "360bfa3dd246c1321b22b833ca340495ec27567b51cce20376c061c8165dcc9b"
+    },
+    {
+      "id": "utility.filter",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M12.531 3H3a1 1 0 0 0-.742 1.67l7.225 7.989A2 2 0 0 1 10 14v6a1 1 0 0 0 .553.895l2 1A1 1 0 0 0 14 21v-7a2 2 0 0 1 .517-1.341l.427-.473",
+              "key": "ol2ft2"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m16.5 3.5 5 5",
+              "key": "15e6fa"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m21.5 3.5-5 5",
+              "key": "m0lwru"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "374ccde3478f1d54fbe76a445e54c50e3b1be03d94702019be3b4e36c44b6292"
+    },
+    {
+      "id": "utility.flame",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M12 2c1 3 2.5 3.5 3.5 4.5A5 5 0 0 1 17 10a5 5 0 1 1-10 0c0-.3 0-.6.1-.9a2 2 0 1 0 3.3-2C8 4.5 11 2 12 2Z",
+              "key": "1ir223"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m5 22 14-4",
+              "key": "1brv4h"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m5 18 14 4",
+              "key": "lgyyje"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "731c85a5234e6da0478f2d2d056d728e400c5ccb5e846bd004c024c47a6bef80"
+    },
+    {
+      "id": "utility.flask.conical",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M10 2v2.343",
+              "key": "15t272"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M14 2v6.343",
+              "key": "sxr80q"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m2 2 20 20",
+              "key": "1ooewy"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M20 20a2 2 0 0 1-2 2H6a2 2 0 0 1-1.755-2.96l5.227-9.563",
+              "key": "k0duyd"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M6.453 15H15",
+              "key": "1f0z33"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M8.5 2h7",
+              "key": "csnxdl"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "bcf64be6b53e20142c8a2c781ab5b783b972bf024c917c5ce0403ab207412d51"
+    },
+    {
+      "id": "utility.flip.horizontal2",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "m3 7 5 5-5 5V7",
+              "key": "couhi7"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m21 7-5 5 5 5V7",
+              "key": "6ouia7"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 20v2",
+              "key": "1lh1kg"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 14v2",
+              "key": "8jcxud"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 8v2",
+              "key": "1woqiv"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 2v2",
+              "key": "tus03m"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "293a8a8e2ad8ef549cdf21e9c41f198efabae97e42fdbde1c0c1e3d8b9d30901"
+    },
+    {
+      "id": "utility.flower2",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M12 5a3 3 0 1 1 3 3m-3-3a3 3 0 1 0-3 3m3-3v1M9 8a3 3 0 1 0 3 3M9 8h1m5 0a3 3 0 1 1-3 3m3-3h-1m-2 3v-1",
+              "key": "3pnvol"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "8",
+              "key": "1822b1",
+              "r": "2"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "d": "M12 10v12",
+              "key": "6ubwww"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 22c4.2 0 7-1.667 7-5-4.2 0-7 1.667-7 5Z",
+              "key": "9hd38g"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 22c-4.2 0-7-1.667-7-5 4.2 0 7 1.667 7 5Z",
+              "key": "ufn41s"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "6802daca6ea0966f589b1170e8b9f01fa7ef13967ae8faa26e91958d7cbeff7a"
+    },
+    {
+      "id": "utility.globe",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M21.54 15H17a2 2 0 0 0-2 2v4.54",
+              "key": "1djwo0"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M7 3.34V5a3 3 0 0 0 3 3a2 2 0 0 1 2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2c0-1.1.9-2 2-2h3.17",
+              "key": "1tzkfa"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M11 21.95V18a2 2 0 0 0-2-2a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05",
+              "key": "14pb5j"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "12",
+              "key": "1mglay",
+              "r": "10"
+            },
+            "type": "circle"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "4d64e59ed31caa0a1bf8e32a4ba5430671015f52181ad8bb08c2e41a4bf685b6"
+    },
+    {
+      "id": "utility.grid2x2",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M12 3v17a1 1 0 0 1-1 1H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1H3",
+              "key": "11za1p"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m16 19 2 2 4-4",
+              "key": "1b14m6"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "c4a2df6960742fe486347bc500da3c60ff11fc884005b563880b09b07f15a6a3"
+    },
+    {
+      "id": "utility.hand",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M18 11.5V9a2 2 0 0 0-2-2a2 2 0 0 0-2 2v1.4",
+              "key": "edstyy"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M14 10V8a2 2 0 0 0-2-2a2 2 0 0 0-2 2v2",
+              "key": "19wdwo"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M10 9.9V9a2 2 0 0 0-2-2a2 2 0 0 0-2 2v5",
+              "key": "1lugqo"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M6 14a2 2 0 0 0-2-2a2 2 0 0 0-2 2",
+              "key": "1hbeus"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M18 11a2 2 0 1 1 4 0v3a8 8 0 0 1-8 8h-4a8 8 0 0 1-8-8 2 2 0 1 1 4 0",
+              "key": "1etffm"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "23ac3c1b7a558406a4eddb0839ee93c49751bed0c3ebc6f39547d75838154013"
+    },
+    {
+      "id": "utility.handshake",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "m11 17 2 2a1 1 0 1 0 3-3",
+              "key": "efffak"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4",
+              "key": "9pr0kb"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m21 3 1 11h-2",
+              "key": "1tisrp"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3",
+              "key": "1uvwmv"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M3 4h8",
+              "key": "1ep09j"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "bae1ca2e0b87c1c027860067bfa7125853688a6be968c741f8455d9b5a432ffa"
+    },
+    {
+      "id": "utility.heart",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M12.409 5.824c-.702.792-1.15 1.496-1.415 2.166l2.153 2.156a.5.5 0 0 1 0 .707l-2.293 2.293a.5.5 0 0 0 0 .707L12 15",
+              "key": "idzbju"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M13.508 20.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5a5.5 5.5 0 0 1 9.591-3.677.6.6 0 0 0 .818.001A5.5 5.5 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5z",
+              "key": "1su70f"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "804498856ed049f2d0f1a28970ef31f61927b913b53b2ac813e4bf10bbb2e0d1"
+    },
+    {
+      "id": "utility.help.circle",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "12",
+              "key": "1mglay",
+              "r": "10"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "d": "M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3",
+              "key": "1u773s"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 17h.01",
+              "key": "p32p05"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "34386fd57c1096869b3f7307c2c84b1159180d34450b31b003a701d553e8c164"
+    },
+    {
+      "id": "utility.history",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8",
+              "key": "1357e3"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M3 3v5h5",
+              "key": "1xhq8a"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 7v5l4 2",
+              "key": "1fdv2h"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "89daa2944eafa7f28b9b3d7fd954a56b606542d05503240c8b8a81b533d4869c"
+    },
+    {
+      "id": "utility.image",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M10.3 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10l-3.1-3.1a2 2 0 0 0-2.814.014L6 21",
+              "key": "9csbqa"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m14 19 3 3v-5.5",
+              "key": "9ldu5r"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m17 22 3-3",
+              "key": "1nkfve"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "9",
+              "cy": "9",
+              "key": "af1f0g",
+              "r": "2"
+            },
+            "type": "circle"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "4d048ca0677ba6065f70e215781a251495a9f8c2c6323e3baeefcb13192d59a4"
+    },
+    {
+      "id": "utility.inbox",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "key": "o97t9d",
+              "points": "22 12 16 12 14 15 10 15 8 12 2 12"
+            },
+            "type": "polyline"
+          },
+          {
+            "attrs": {
+              "d": "M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z",
+              "key": "oot6mr"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "7cc8d0a16a256d4534d1f66fbfa7f15ad64d482b1c9811e08b991f12d3da77b2"
+    },
+    {
+      "id": "utility.key",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z",
+              "key": "1s6t7t"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "16.5",
+              "cy": "7.5",
+              "fill": "currentColor",
+              "key": "w0ekpg",
+              "r": ".5"
+            },
+            "type": "circle"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "096dd29dea957b31cf7ee2ac9377fb12b2cb95f03c6617a61e185b755038627f"
+    },
+    {
+      "id": "utility.layout.grid",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "height": "7",
+              "key": "1g98yp",
+              "rx": "1",
+              "width": "7",
+              "x": "3",
+              "y": "3"
+            },
+            "type": "rect"
+          },
+          {
+            "attrs": {
+              "height": "7",
+              "key": "6d4xhi",
+              "rx": "1",
+              "width": "7",
+              "x": "14",
+              "y": "3"
+            },
+            "type": "rect"
+          },
+          {
+            "attrs": {
+              "height": "7",
+              "key": "nxv5o0",
+              "rx": "1",
+              "width": "7",
+              "x": "14",
+              "y": "14"
+            },
+            "type": "rect"
+          },
+          {
+            "attrs": {
+              "height": "7",
+              "key": "1bb6yr",
+              "rx": "1",
+              "width": "7",
+              "x": "3",
+              "y": "14"
+            },
+            "type": "rect"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "85588a12c473433201331ed1b99b81a993555c2bd3df7208687de7d3d451d29e"
+    },
+    {
+      "id": "utility.lightbulb",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M16.8 11.2c.8-.9 1.2-2 1.2-3.2a6 6 0 0 0-9.3-5",
+              "key": "1fkcox"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m2 2 20 20",
+              "key": "1ooewy"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M6.3 6.3a4.67 4.67 0 0 0 1.2 5.2c.7.7 1.3 1.5 1.5 2.5",
+              "key": "10m8kw"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M9 18h6",
+              "key": "x1upvd"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M10 22h4",
+              "key": "ceow96"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "87820a437495acc835b8ec62319fbf083717023db376070012ebfd72117193ee"
+    },
+    {
+      "id": "utility.link",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M9 17H7A5 5 0 0 1 7 7",
+              "key": "10o201"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M15 7h2a5 5 0 0 1 4 8",
+              "key": "1d3206"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "key": "rvw6j4",
+              "x1": "8",
+              "x2": "12",
+              "y1": "12",
+              "y2": "12"
+            },
+            "type": "line"
+          },
+          {
+            "attrs": {
+              "key": "a6p6uj",
+              "x1": "2",
+              "x2": "22",
+              "y1": "2",
+              "y2": "22"
+            },
+            "type": "line"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "a557feadd39c9f3f168489188c93b8dc08604532020847e6176805149ddca8a2"
+    },
+    {
+      "id": "utility.list",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M21 5H11",
+              "key": "us1j55"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M21 12H11",
+              "key": "wd7e0v"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M21 19H11",
+              "key": "saa85w"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m7 8-4 4 4 4",
+              "key": "o5hrat"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "4232d6462c31a4d77d5c2bc805ef2f61a43274923d44114bf7c050611379d897"
+    },
+    {
+      "id": "utility.lock",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "16",
+              "key": "1au0dj",
+              "r": "1"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "height": "12",
+              "key": "l0tzu3",
+              "rx": "2",
+              "width": "18",
+              "x": "3",
+              "y": "10"
+            },
+            "type": "rect"
+          },
+          {
+            "attrs": {
+              "d": "M7 10V7a5 5 0 0 1 9.33-2.5",
+              "key": "car5b7"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "7914faddc4a841e0b821487bc92dbd6bf5dab193747fed6b0e52991abbe66d17"
+    },
+    {
+      "id": "utility.log.out",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "m16 17 5-5-5-5",
+              "key": "1bji2h"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M21 12H9",
+              "key": "dn1m92"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4",
+              "key": "1uf3rs"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "45ddd38cec78a037f2cbd0fa242eb02dde4cec4fb7056ed9088c26e43e7ebe73"
+    },
+    {
+      "id": "utility.mail",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M22 10.5V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12.5",
+              "key": "e61zoh"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7",
+              "key": "1ocrg3"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M18 15.28c.2-.4.5-.8.9-1a2.1 2.1 0 0 1 2.6.4c.3.4.5.8.5 1.3 0 1.3-2 2-2 2",
+              "key": "7z9rxb"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M20 22v.01",
+              "key": "12bgn6"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "7f9d2068a7cf0d50d1748f989552b33d0cc16937401f934b2663c7670b833328"
+    },
+    {
+      "id": "utility.mail.check",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M22 13V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h8",
+              "key": "12jkf8"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7",
+              "key": "1ocrg3"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m16 19 2 2 4-4",
+              "key": "1b14m6"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "e09509bb0ca033482abfad925dff09ecf13147488b7090fa809144b7a16310e6"
+    },
+    {
+      "id": "utility.menu",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "height": "18",
+              "key": "afitv7",
+              "rx": "2",
+              "width": "18",
+              "x": "3",
+              "y": "3"
+            },
+            "type": "rect"
+          },
+          {
+            "attrs": {
+              "d": "M7 8h10",
+              "key": "1jw688"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M7 12h10",
+              "key": "b7w52i"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M7 16h10",
+              "key": "wp8him"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "97f729d0f5cc3f99aa73025d4c48170d0a6bf9e1c12b7c404d0b7a8e73e0e29a"
+    },
+    {
+      "id": "utility.message.circle",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719",
+              "key": "1sd12s"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3",
+              "key": "1u773s"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 17h.01",
+              "key": "p32p05"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "2210f66e505c572ec3621203848e9a8eefbe9c92d7a33423c694313fc39a34a2"
+    },
+    {
+      "id": "utility.message.square",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.7.7 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z",
+              "key": "m0kn7k"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m9 11 2 2 4-4",
+              "key": "kz4plv"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "bf087a10751c7347b4f2ee3ed9cf99280a4c7df86320ebe373dfa0e8f4cc388f"
+    },
+    {
+      "id": "utility.minus",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "12",
+              "key": "1mglay",
+              "r": "10"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "d": "M8 12h8",
+              "key": "1wcyev"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "020bc23079272fd78a647484898e49b67dc565ea70fc8e7d05dbf424e612eb72"
+    },
+    {
+      "id": "utility.monitor.smartphone",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M18 8V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h8",
+              "key": "10dyio"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M10 19v-3.96 3.15",
+              "key": "1irgej"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M7 19h5",
+              "key": "qswx4l"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "height": "10",
+              "key": "1egngj",
+              "rx": "2",
+              "width": "6",
+              "x": "16",
+              "y": "12"
+            },
+            "type": "rect"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "315a1bbf977408692f6ea35048c69e011020bf383e867894a89550b2096387ea"
+    },
+    {
+      "id": "utility.moon.star",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M18 5h4",
+              "key": "1lhgn2"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M20 3v4",
+              "key": "1olli1"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401",
+              "key": "kfwtm"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "50ff91362e362485ebc9aaa7e197e9d4f0cbe81d94a1d48615ccfb35de5f32f4"
+    },
+    {
+      "id": "utility.more.horizontal",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "12",
+              "key": "41hilf",
+              "r": "1"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "cx": "19",
+              "cy": "12",
+              "key": "1wjl8i",
+              "r": "1"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "cx": "5",
+              "cy": "12",
+              "key": "1pcz8c",
+              "r": "1"
+            },
+            "type": "circle"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "aa65a6b35e164b1ff9efbab78bc3fdc1ac7cbe3e4c1823d334cb4d6895f3a1d9"
+    },
+    {
+      "id": "utility.move",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M5 3v16h16",
+              "key": "1mqmf9"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m5 19 6-6",
+              "key": "jh6hbb"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m2 6 3-3 3 3",
+              "key": "tkyvxa"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m18 16 3 3-3 3",
+              "key": "1d4glt"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "8a326fe793ea60f0cbad36ee331feb240aac0b502629dabb51bca78cc135c627"
+    },
+    {
+      "id": "utility.orbit",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M20.341 6.484A10 10 0 0 1 10.266 21.85",
+              "key": "1enhxb"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M3.659 17.516A10 10 0 0 1 13.74 2.152",
+              "key": "1crzgf"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "12",
+              "key": "1v7zrd",
+              "r": "3"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "cx": "19",
+              "cy": "5",
+              "key": "mhkx31",
+              "r": "2"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "cx": "5",
+              "cy": "19",
+              "key": "v8kfzx",
+              "r": "2"
+            },
+            "type": "circle"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "400422774f783629c06669530484e748d0d294f4ca35af0d81321d4c52f4401a"
+    },
+    {
+      "id": "utility.panel.left",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "height": "18",
+              "key": "afitv7",
+              "rx": "2",
+              "width": "18",
+              "x": "3",
+              "y": "3"
+            },
+            "type": "rect"
+          },
+          {
+            "attrs": {
+              "d": "M9 3v18",
+              "key": "fh3hqa"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m16 15-3-3 3-3",
+              "key": "14y99z"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "1b33eb5f350b20cfb020c50baae40455b8e5c5ba2a0b596e73f8ecc9c4ff8d63"
+    },
+    {
+      "id": "utility.panel.left.close",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "height": "18",
+              "key": "afitv7",
+              "rx": "2",
+              "width": "18",
+              "x": "3",
+              "y": "3"
+            },
+            "type": "rect"
+          },
+          {
+            "attrs": {
+              "d": "M9 3v18",
+              "key": "fh3hqa"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m16 15-3-3 3-3",
+              "key": "14y99z"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "1b33eb5f350b20cfb020c50baae40455b8e5c5ba2a0b596e73f8ecc9c4ff8d63"
+    },
+    {
+      "id": "utility.panel.left.open",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "height": "18",
+              "key": "afitv7",
+              "rx": "2",
+              "width": "18",
+              "x": "3",
+              "y": "3"
+            },
+            "type": "rect"
+          },
+          {
+            "attrs": {
+              "d": "M9 3v18",
+              "key": "fh3hqa"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m14 9 3 3-3 3",
+              "key": "8010ee"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "61b827d04349235215e7224e93c0889bce64c857e58331076be0e40441dd5fc8"
+    },
+    {
+      "id": "utility.pencil.line",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M13 21h8",
+              "key": "1jsn5i"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m15 5 4 4",
+              "key": "1mk7zo"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z",
+              "key": "1a8usu"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "4f77e7cad83c8b5737b24173daee71385760e99b210f8794e0e459c2899e5c70"
+    },
+    {
+      "id": "utility.plus.circle",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "12",
+              "key": "1mglay",
+              "r": "10"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "d": "M8 12h8",
+              "key": "1wcyev"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 8v8",
+              "key": "napkw2"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "49b757c715838885a5a86fc9e165be77f05a5440ec706db48f8db2f49e980d0a"
+    },
+    {
+      "id": "utility.quote",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z",
+              "key": "rib7q0"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z",
+              "key": "1ymkrd"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "957d5ba1cb3fb5e18d692e72ceb85087f87a3cf1f7066bbc671b060b38275941"
+    },
+    {
+      "id": "utility.refresh.cw",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M21 8L18.74 5.74A9.75 9.75 0 0 0 12 3C11 3 10.03 3.16 9.13 3.47",
+              "key": "1krf6h"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M8 16H3v5",
+              "key": "1cv678"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M3 12C3 9.51 4 7.26 5.64 5.64",
+              "key": "ruvoct"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m3 16 2.26 2.26A9.75 9.75 0 0 0 12 21c2.49 0 4.74-1 6.36-2.64",
+              "key": "19q130"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M21 12c0 1-.16 1.97-.47 2.87",
+              "key": "4w8emr"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M21 3v5h-5",
+              "key": "1q7to0"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M22 22 2 2",
+              "key": "1r8tn9"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "68f528f517da5b890c435cdc5c46d2247438b9d7101265549307c9d57a5530f0"
+    },
+    {
+      "id": "utility.rotate.ccw",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M12 7v6",
+              "key": "lw1j43"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 9h2",
+              "key": "1lpap9"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M3 12a9 9 0 1 0 9-9 9.74 9.74 0 0 0-6.74 2.74L3 8",
+              "key": "g2jlw"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M3 3v5h5",
+              "key": "1xhq8a"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "15",
+              "key": "1vpstw",
+              "r": "2"
+            },
+            "type": "circle"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "a39dc36e21ae3e2b8747c5fd1d33f8fa6feddb0e4034e7108e6c8abfe37fd6cf"
+    },
+    {
+      "id": "utility.rotate.cw",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8",
+              "key": "1p45f6"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M21 3v5h-5",
+              "key": "1q7to0"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "798af7aa99a115fb6cd23cd7b77181c95613b47a3cf3bc50983a1aa5380f0689"
+    },
+    {
+      "id": "utility.save",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M10 2v3a1 1 0 0 0 1 1h5",
+              "key": "1xspal"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M18 18v-6a1 1 0 0 0-1-1h-6a1 1 0 0 0-1 1v6",
+              "key": "1ra60u"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M18 22H4a2 2 0 0 1-2-2V6",
+              "key": "pblm9e"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M8 18a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9.172a2 2 0 0 1 1.414.586l2.828 2.828A2 2 0 0 1 22 6.828V16a2 2 0 0 1-2.01 2z",
+              "key": "1yve0x"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "4b891d7a6edd90e676f871416db463d11291b4562ba3ccfd584ed729fafe9c60"
+    },
+    {
+      "id": "utility.scale",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M5 7v11a1 1 0 0 0 1 1h11",
+              "key": "13dt1j"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M5.293 18.707 11 13",
+              "key": "ezgbsx"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "19",
+              "cy": "19",
+              "key": "17f5cg",
+              "r": "2"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "cx": "5",
+              "cy": "5",
+              "key": "1gwv83",
+              "r": "2"
+            },
+            "type": "circle"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "1be70a3ada19d4366674c2442300e5938b9f4cf8d80a021381ad578b908afb63"
+    },
+    {
+      "id": "utility.scan.line",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M3 7V5a2 2 0 0 1 2-2h2",
+              "key": "aa7l1z"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M17 3h2a2 2 0 0 1 2 2v2",
+              "key": "4qcy5o"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M21 17v2a2 2 0 0 1-2 2h-2",
+              "key": "6vwrx8"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M7 21H5a2 2 0 0 1-2-2v-2",
+              "key": "ioqczr"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M7 12h10",
+              "key": "b7w52i"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "9b1d89d0ed5cb7802d32b1fb0e12ed7c515a388c13a33c53d46432c34005db9c"
+    },
+    {
+      "id": "utility.settings",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M14 17H5",
+              "key": "gfn3mx"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M19 7h-9",
+              "key": "6i9tg"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "17",
+              "cy": "17",
+              "key": "18b49y",
+              "r": "3"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "cx": "7",
+              "cy": "7",
+              "key": "dfmy0x",
+              "r": "3"
+            },
+            "type": "circle"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "e82cc81700491aa1745d0035dffab9999c1067026f98933f06272d294287591d"
+    },
+    {
+      "id": "utility.settings2",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M14 17H5",
+              "key": "gfn3mx"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M19 7h-9",
+              "key": "6i9tg"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "17",
+              "cy": "17",
+              "key": "18b49y",
+              "r": "3"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "cx": "7",
+              "cy": "7",
+              "key": "dfmy0x",
+              "r": "3"
+            },
+            "type": "circle"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "e82cc81700491aa1745d0035dffab9999c1067026f98933f06272d294287591d"
+    },
+    {
+      "id": "utility.share2",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "cx": "18",
+              "cy": "5",
+              "key": "gq8acd",
+              "r": "3"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "cx": "6",
+              "cy": "12",
+              "key": "w7nqdw",
+              "r": "3"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "cx": "18",
+              "cy": "19",
+              "key": "1xt0gg",
+              "r": "3"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "key": "47mynk",
+              "x1": "8.59",
+              "x2": "15.42",
+              "y1": "13.51",
+              "y2": "17.49"
+            },
+            "type": "line"
+          },
+          {
+            "attrs": {
+              "key": "1n3mei",
+              "x1": "15.41",
+              "x2": "8.59",
+              "y1": "6.51",
+              "y2": "10.49"
+            },
+            "type": "line"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "09809adb5a67a4467b4ce780b680fe85db7176613e06c69bb826e82fd33ba6ea"
+    },
+    {
+      "id": "utility.shield",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z",
+              "key": "oel41y"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M9.1 9a3 3 0 0 1 5.82 1c0 2-3 3-3 3",
+              "key": "mhlwft"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 17h.01",
+              "key": "p32p05"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "1ab72547eeb1a52912e048b0130e699e22fa628342c55bdeded732c7f4af8dfd"
+    },
+    {
+      "id": "utility.shield.check",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z",
+              "key": "oel41y"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m9 12 2 2 4-4",
+              "key": "dzmm74"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "7676627a7f0ffa202b4e5157e25de403643561116dbec3844e6223e86403aa3c"
+    },
+    {
+      "id": "utility.sliders.horizontal",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M10 5H3",
+              "key": "1qgfaw"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 19H3",
+              "key": "yhmn1j"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M14 3v4",
+              "key": "1sua03"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M16 17v4",
+              "key": "1q0r14"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M21 12h-9",
+              "key": "1o4lsq"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M21 19h-5",
+              "key": "1rlt1p"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M21 5h-7",
+              "key": "1oszz2"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M8 10v4",
+              "key": "tgpxqk"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M8 12H3",
+              "key": "a7s4jb"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "e5fb49d420651e17e0d5e208ea326030de52e210ff86353873f6aad316b8f96d"
+    },
+    {
+      "id": "utility.smartphone",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "height": "12",
+              "key": "5nje8w",
+              "rx": "1",
+              "width": "7",
+              "x": "2",
+              "y": "6"
+            },
+            "type": "rect"
+          },
+          {
+            "attrs": {
+              "d": "M13 8.32a7.43 7.43 0 0 1 0 7.36",
+              "key": "1g306n"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M16.46 6.21a11.76 11.76 0 0 1 0 11.58",
+              "key": "uqvjvo"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M19.91 4.1a15.91 15.91 0 0 1 .01 15.8",
+              "key": "ujntz3"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "3f14ee3981cb3bc8194e7328586bd3bd4041946090ec356c878dbb50de1b9b9d"
+    },
+    {
+      "id": "utility.snowflake",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "m10 20-1.25-2.5L6 18",
+              "key": "18frcb"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M10 4 8.75 6.5 6 6",
+              "key": "7mghy3"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m14 20 1.25-2.5L18 18",
+              "key": "1chtki"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m14 4 1.25 2.5L18 6",
+              "key": "1b4wsy"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m17 21-3-6h-4",
+              "key": "15hhxa"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m17 3-3 6 1.5 3",
+              "key": "11697g"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M2 12h6.5L10 9",
+              "key": "kv9z4n"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m20 10-1.5 2 1.5 2",
+              "key": "1swlpi"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M22 12h-6.5L14 15",
+              "key": "1mxi28"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m4 10 1.5 2L4 14",
+              "key": "k9enpj"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m7 21 3-6-1.5-3",
+              "key": "j8hb9u"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m7 3 3 6h4",
+              "key": "1otusx"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "d85116392f501024a6818923a89cd9c025259c78ce3dc2e4535c8723e1c109fe"
+    },
+    {
+      "id": "utility.sparkles",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z",
+              "key": "1s2grr"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M20 2v4",
+              "key": "1rf3ol"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M22 4h-4",
+              "key": "gwowj6"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "4",
+              "cy": "20",
+              "key": "6kqj1y",
+              "r": "2"
+            },
+            "type": "circle"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "d8b4c2240a8d1aa53f66c468a8d58b94a574b34745c0f2923f6f1b8f29e72804"
+    },
+    {
+      "id": "utility.square",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "height": "18",
+              "key": "afitv7",
+              "rx": "2",
+              "width": "18",
+              "x": "3",
+              "y": "3"
+            },
+            "type": "rect"
+          },
+          {
+            "attrs": {
+              "d": "M17 12h-2l-2 5-2-10-2 5H7",
+              "key": "15hlnc"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "d52d04cd86b1f5221fb3f8137f1df44317e9ed7ec45edd8c7718cc5acd699709"
+    },
+    {
+      "id": "utility.square.pen",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7",
+              "key": "1m0v6g"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M18.375 2.625a1 1 0 0 1 3 3l-9.013 9.014a2 2 0 0 1-.853.505l-2.873.84a.5.5 0 0 1-.62-.62l.84-2.873a2 2 0 0 1 .506-.852z",
+              "key": "ohrbg2"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "c2671f8ff4dcf41661117dcaf19aecc6b13aef5ae4dd1b45db94d0ee1b3f17ef"
+    },
+    {
+      "id": "utility.star",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z",
+              "key": "1s2grr"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M20 2v4",
+              "key": "1rf3ol"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M22 4h-4",
+              "key": "gwowj6"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "4",
+              "cy": "20",
+              "key": "6kqj1y",
+              "r": "2"
+            },
+            "type": "circle"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "d8b4c2240a8d1aa53f66c468a8d58b94a574b34745c0f2923f6f1b8f29e72804"
+    },
+    {
+      "id": "utility.star.half",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M12 18.338a2.1 2.1 0 0 0-.987.244L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16l2.309-4.679A.53.53 0 0 1 12 2",
+              "key": "2ksp49"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "9b0bac85d6ec8453672ba7748c8e8914149509a9ed6a9598972359f16ba5a176"
+    },
+    {
+      "id": "utility.sunrise",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M12 2v8",
+              "key": "1q4o3n"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m4.93 10.93 1.41 1.41",
+              "key": "2a7f42"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M2 18h2",
+              "key": "j10viu"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M20 18h2",
+              "key": "wocana"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m19.07 10.93-1.41 1.41",
+              "key": "15zs5n"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M22 22H2",
+              "key": "19qnx5"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m8 6 4-4 4 4",
+              "key": "ybng9g"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M16 18a4 4 0 0 0-8 0",
+              "key": "1lzouq"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "7b943adac9c21c42fbbd84cffbb5a170de62d4473fbe9f17dd6d2ec52c326bd0"
+    },
+    {
+      "id": "utility.sunset",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M12 10V2",
+              "key": "16sf7g"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m4.93 10.93 1.41 1.41",
+              "key": "2a7f42"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M2 18h2",
+              "key": "j10viu"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M20 18h2",
+              "key": "wocana"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m19.07 10.93-1.41 1.41",
+              "key": "15zs5n"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M22 22H2",
+              "key": "19qnx5"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m16 6-4 4-4-4",
+              "key": "6wukr"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M16 18a4 4 0 0 0-8 0",
+              "key": "1lzouq"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "b5f0f3c862e1430d0d129c86ab157cc2f8772fe6cdc17fba096d07e31976a3df"
+    },
+    {
+      "id": "utility.swords",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "key": "1hfsw2",
+              "points": "14.5 17.5 3 6 3 3 6 3 17.5 14.5"
+            },
+            "type": "polyline"
+          },
+          {
+            "attrs": {
+              "key": "1vrmhu",
+              "x1": "13",
+              "x2": "19",
+              "y1": "19",
+              "y2": "13"
+            },
+            "type": "line"
+          },
+          {
+            "attrs": {
+              "key": "1bron3",
+              "x1": "16",
+              "x2": "20",
+              "y1": "16",
+              "y2": "20"
+            },
+            "type": "line"
+          },
+          {
+            "attrs": {
+              "key": "13pww6",
+              "x1": "19",
+              "x2": "21",
+              "y1": "21",
+              "y2": "19"
+            },
+            "type": "line"
+          },
+          {
+            "attrs": {
+              "key": "hbey2j",
+              "points": "14.5 6.5 18 3 21 3 21 6 17.5 9.5"
+            },
+            "type": "polyline"
+          },
+          {
+            "attrs": {
+              "key": "1hf58s",
+              "x1": "5",
+              "x2": "9",
+              "y1": "14",
+              "y2": "18"
+            },
+            "type": "line"
+          },
+          {
+            "attrs": {
+              "key": "pidxm4",
+              "x1": "7",
+              "x2": "4",
+              "y1": "17",
+              "y2": "20"
+            },
+            "type": "line"
+          },
+          {
+            "attrs": {
+              "key": "1pehsh",
+              "x1": "3",
+              "x2": "5",
+              "y1": "19",
+              "y2": "21"
+            },
+            "type": "line"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "33a65d66521564af54e67988f69422f804b723486fb696353577875017ec6840"
+    },
+    {
+      "id": "utility.tag",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z",
+              "key": "vktsd0"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "7.5",
+              "cy": "7.5",
+              "fill": "currentColor",
+              "key": "kqv944",
+              "r": ".5"
+            },
+            "type": "circle"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "885c8d0ade5cfa5c1bcba310cbc695807aa90ae4656130c2823d292fe6edc77f"
+    },
+    {
+      "id": "utility.thermometer",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "m10 20-1.25-2.5L6 18",
+              "key": "18frcb"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M10 4 8.75 6.5 6 6",
+              "key": "7mghy3"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M10.585 15H10",
+              "key": "4nqulp"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M2 12h6.5L10 9",
+              "key": "kv9z4n"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M20 14.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0z",
+              "key": "yu0u2z"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m4 10 1.5 2L4 14",
+              "key": "k9enpj"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m7 21 3-6-1.5-3",
+              "key": "j8hb9u"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m7 3 3 6h2",
+              "key": "1bbqgq"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "1652aadbcf1054938ef29ae47004af93e441fe874ca969b84c849038c13f3808"
+    },
+    {
+      "id": "utility.thumbs.down",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.76a2 2 0 0 0-1.79 1.11L12 22a3.13 3.13 0 0 1-3-3.88Z",
+              "key": "m61m77"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M17 14V2",
+              "key": "8ymqnk"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "2969903c364bee126d1ee0a322c0ff3ca81b923fed626c3dfa888333d1d4c907"
+    },
+    {
+      "id": "utility.thumbs.up",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z",
+              "key": "emmmcr"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M7 10v12",
+              "key": "1qc93n"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "8a3bd50ecbce49cf5d23f88164c7eabc3aba90708bcc34594c4610b3e5dd4745"
+    },
+    {
+      "id": "utility.trees",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M10 10v.2A3 3 0 0 1 8.9 16H5a3 3 0 0 1-1-5.8V10a3 3 0 0 1 6 0Z",
+              "key": "1l6gj6"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M7 16v6",
+              "key": "1a82de"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M13 19v3",
+              "key": "13sx9i"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 19h8.3a1 1 0 0 0 .7-1.7L18 14h.3a1 1 0 0 0 .7-1.7L16 9h.2a1 1 0 0 0 .8-1.7L13 3l-1.4 1.5",
+              "key": "1sj9kv"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "42dc89fa5800d219c2147e82238c26c1704bfd20670b8702e2d8e3ec90097b22"
+    },
+    {
+      "id": "utility.trending.down",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M16 17h6v-6",
+              "key": "t6n2it"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m22 17-8.5-8.5-5 5L2 7",
+              "key": "x473p"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "c1ffcefd81be952023df4cfee1e0df0badd8a7d8028d2865df67120cd48d0f9a"
+    },
+    {
+      "id": "utility.trending.up",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M14.828 14.828 21 21",
+              "key": "ar5fw7"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M21 16v5h-5",
+              "key": "1ck2sf"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m21 3-9 9-4-4-6 6",
+              "key": "1h02xo"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M21 8V3h-5",
+              "key": "1qoq8a"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "a48d5816d8d26cdd8fbfacd259ba28a216c2b01b8ab0a4bf9aa442ab496b7e9e"
+    },
+    {
+      "id": "utility.trophy",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M10 14.66v1.626a2 2 0 0 1-.976 1.696A5 5 0 0 0 7 21.978",
+              "key": "1n3hpd"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M14 14.66v1.626a2 2 0 0 0 .976 1.696A5 5 0 0 1 17 21.978",
+              "key": "rfe1zi"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M18 9h1.5a1 1 0 0 0 0-5H18",
+              "key": "7xy6bh"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M4 22h16",
+              "key": "57wxv0"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z",
+              "key": "1mhfuq"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M6 9H4.5a1 1 0 0 1 0-5H6",
+              "key": "tex48p"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "31efdf960b422b38a66ed5d3da6773d1fde209d5567571ae54a69f84b936e25d"
+    },
+    {
+      "id": "utility.undo2",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M9 14 4 9l5-5",
+              "key": "102s5s"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M4 9h10.5a5.5 5.5 0 0 1 5.5 5.5a5.5 5.5 0 0 1-5.5 5.5H11",
+              "key": "f3b9sd"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "b29febb7e062106f062756efc49ec263bd3715e5ad3517d351d977a3218484b7"
+    },
+    {
+      "id": "utility.upload",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M12 13v8",
+              "key": "1l5pq0"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242",
+              "key": "1pljnt"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m8 17 4-4 4 4",
+              "key": "1quai1"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "4946d47a24a6074013ca8478524f05572d02245dcb6806f6fecb8e8bf842a116"
+    },
+    {
+      "id": "utility.upload.cloud",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M12 13v8",
+              "key": "1l5pq0"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242",
+              "key": "1pljnt"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m8 17 4-4 4 4",
+              "key": "1quai1"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "4946d47a24a6074013ca8478524f05572d02245dcb6806f6fecb8e8bf842a116"
+    },
+    {
+      "id": "utility.user.check",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M2 21a8 8 0 0 1 13.292-6",
+              "key": "bjp14o"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "10",
+              "cy": "8",
+              "key": "o932ke",
+              "r": "5"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "d": "m16 19 2 2 4-4",
+              "key": "1b14m6"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "8057f68f2d91e26e504336c2e089c7d1ec724e0b24528dd586cb0a09b37c720f"
+    },
+    {
+      "id": "utility.user.minus",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M2 21a8 8 0 0 1 13.292-6",
+              "key": "bjp14o"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "10",
+              "cy": "8",
+              "key": "o932ke",
+              "r": "5"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "d": "M22 19h-6",
+              "key": "vcuq98"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "21d49998fbb5e7d7e49fbc7e243a1bf2d10cdf765e364c2b650b4368837d9c52"
+    },
+    {
+      "id": "utility.user.plus",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M2 21a8 8 0 0 1 13.292-6",
+              "key": "bjp14o"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "10",
+              "cy": "8",
+              "key": "o932ke",
+              "r": "5"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "d": "M19 16v6",
+              "key": "tddt3s"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M22 19h-6",
+              "key": "vcuq98"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "0b6463eca1f73b70db1fe73ab3342e36a76e9d06d308b66941f05ec184b0c3ba"
+    },
+    {
+      "id": "utility.user.x",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M2 21a8 8 0 0 1 11.873-7",
+              "key": "74fkxq"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "cx": "10",
+              "cy": "8",
+              "key": "o932ke",
+              "r": "5"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "d": "m17 17 5 5",
+              "key": "p7ous7"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m22 17-5 5",
+              "key": "gqnmv0"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "be86892ef4974ee7e28fad5d388ff4477367c0ec587f0a882ecfb9ffd2986589"
+    },
+    {
+      "id": "utility.wind",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M10 2v8",
+              "key": "d4bbey"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12.8 21.6A2 2 0 1 0 14 18H2",
+              "key": "19kp1d"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M17.5 10a2.5 2.5 0 1 1 2 4H2",
+              "key": "19kpjc"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m6 6 4 4 4-4",
+              "key": "k13n16"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "2fee198aa5dbe36693f216da07c476fdec8fc51cd67403b11ac3154af3527678"
+    },
+    {
+      "id": "utility.x.circle",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "12",
+              "key": "1mglay",
+              "r": "10"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "d": "m15 9-6 6",
+              "key": "1uzhvr"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m9 9 6 6",
+              "key": "z0biqf"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "8ed16f8b02d4375c837cc45426d9d1bd190d31408371d7ff92037ce5c2fe59f5"
+    },
+    {
+      "id": "utility.zap",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M10.513 4.856 13.12 2.17a.5.5 0 0 1 .86.46l-1.377 4.317",
+              "key": "193nxd"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M15.656 10H20a1 1 0 0 1 .78 1.63l-1.72 1.773",
+              "key": "27a7lr"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M16.273 16.273 10.88 21.83a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14H4a1 1 0 0 1-.78-1.63l4.507-4.643",
+              "key": "1e0qe9"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m2 2 20 20",
+              "key": "1ooewy"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "c5ae029538cc1bb94ee436019b5198737bb58d9db7b4a5f39299851e17358044"
+    },
+    {
+      "id": "utility.zoom.in",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "cx": "11",
+              "cy": "11",
+              "key": "4ej97u",
+              "r": "8"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "key": "13gj7c",
+              "x1": "21",
+              "x2": "16.65",
+              "y1": "21",
+              "y2": "16.65"
+            },
+            "type": "line"
+          },
+          {
+            "attrs": {
+              "key": "1vmskp",
+              "x1": "11",
+              "x2": "11",
+              "y1": "8",
+              "y2": "14"
+            },
+            "type": "line"
+          },
+          {
+            "attrs": {
+              "key": "durymu",
+              "x1": "8",
+              "x2": "14",
+              "y1": "11",
+              "y2": "11"
+            },
+            "type": "line"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "489dcfd9cf45481321f9b987e52d538bd66c3361a0852982cce2fbb04767bb2e"
+    },
+    {
+      "id": "utility.zoom.out",
+      "category": "utility",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "cx": "11",
+              "cy": "11",
+              "key": "4ej97u",
+              "r": "8"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "key": "13gj7c",
+              "x1": "21",
+              "x2": "16.65",
+              "y1": "21",
+              "y2": "16.65"
+            },
+            "type": "line"
+          },
+          {
+            "attrs": {
+              "key": "durymu",
+              "x1": "8",
+              "x2": "14",
+              "y1": "11",
+              "y2": "11"
+            },
+            "type": "line"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "9ecd6b712bbc5acf41972fcfe134932f218e7e2cc445962f4d6f7d6fdb574efa"
+    },
+    {
+      "id": "weather.cloud",
+      "category": "weather",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M12 13v8l-4-4",
+              "key": "1f5nwf"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "m12 21 4-4",
+              "key": "1lfcce"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M4.393 15.269A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.436 8.284",
+              "key": "ui1hmy"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "0064cd64b5e89a2d6b2890b0ebf149a9b98c50bc56ce6d48020fe8c74ed9a906"
+    },
+    {
+      "id": "weather.moon",
+      "category": "weather",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "d": "M18 5h4",
+              "key": "1lhgn2"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M20 3v4",
+              "key": "1olli1"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401",
+              "key": "kfwtm"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "50ff91362e362485ebc9aaa7e197e9d4f0cbe81d94a1d48615ccfb35de5f32f4"
+    },
+    {
+      "id": "weather.sun",
+      "category": "weather",
+      "accessibility": "decorative",
+      "accessibilityLabelKey": null,
+      "geometry": {
+        "nodes": [
+          {
+            "attrs": {
+              "cx": "12",
+              "cy": "12",
+              "key": "4exip2",
+              "r": "4"
+            },
+            "type": "circle"
+          },
+          {
+            "attrs": {
+              "d": "M12 4h.01",
+              "key": "1ujb9j"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M20 12h.01",
+              "key": "1ykeid"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M12 20h.01",
+              "key": "zekei9"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M4 12h.01",
+              "key": "158zrr"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M17.657 6.343h.01",
+              "key": "31pqzk"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M17.657 17.657h.01",
+              "key": "jehnf4"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M6.343 17.657h.01",
+              "key": "gdk6ow"
+            },
+            "type": "path"
+          },
+          {
+            "attrs": {
+              "d": "M6.343 6.343h.01",
+              "key": "1uurf0"
+            },
+            "type": "path"
+          }
+        ],
+        "rendering": {
+          "fill": "none",
+          "lineCap": "round",
+          "lineJoin": "round",
+          "stroke": "currentColor",
+          "strokeWidth": 2
+        },
+        "viewBox": "0 0 24 24"
+      },
+      "geometryHash": "4538549b9f3b4797e70fd2d43a7669c0c53d208e6e00ab054e2ea7cddf9503d3"
+    }
+  ]
+}
