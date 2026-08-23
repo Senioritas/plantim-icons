@@ -10579,12 +10579,9 @@
       "label": "Trowel",
       "nodes": [
         {
-          "type": "line",
+          "type": "path",
           "attrs": {
-            "x1": "19",
-            "y1": "3",
-            "x2": "14",
-            "y2": "8"
+            "d": "M20 4 14 10"
           },
           "role": "primary",
           "color": "#558B2F"
@@ -10592,7 +10589,15 @@
         {
           "type": "path",
           "attrs": {
-            "d": "M14 8 6 16c-1.5 1.5-3 2-4 2 0-1 .5-2.5 2-4l8-8z"
+            "d": "M16.5 5.5 18.5 7.5"
+          },
+          "role": "primary",
+          "color": "#558B2F"
+        },
+        {
+          "type": "path",
+          "attrs": {
+            "d": "M14 10c-3.2 0-6.4 3-8.5 8.5C11 16.4 14 13.2 14 10z"
           },
           "role": "primary",
           "color": "#558B2F"
@@ -13394,5 +13399,5 @@
       ]
     }
   },
-  "v3Hash": "0769e1d7a9768ae0b09851148e02a56e46f0ba2b953404f776d63f98f31d1b23"
+  "v3Hash": "61fc82579babf4b19a5a57ae706e6bbb9fce1e67229dc396bcbc45540f9ca35e"
 }
