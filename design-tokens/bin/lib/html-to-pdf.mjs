@@ -69,6 +69,8 @@ export async function htmlToPdf(html, outPath) {
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
 
   // Preferred path: the playwright package (matches how CI already renders galleries).
+  // Best-effort — if the package is absent OR its browser build isn't downloaded, fall
+  // back to a cached/system Chromium below.
   try {
     const { chromium } = await import("playwright");
     const browser = await chromium.launch();
@@ -77,10 +79,8 @@ export async function htmlToPdf(html, outPath) {
     await page.pdf({ path: outPath, printBackground: true, preferCSSPageSize: true });
     await browser.close();
     return "playwright";
-  } catch (err) {
-    const missing =
-      err?.code === "ERR_MODULE_NOT_FOUND" || /Cannot find package/.test(String(err?.message ?? err));
-    if (!missing) throw err; // playwright is present but genuinely failed
+  } catch {
+    /* fall through to the CLI Chromium fallback */
   }
 
   // Fallback: drive a cached/system Chromium directly.

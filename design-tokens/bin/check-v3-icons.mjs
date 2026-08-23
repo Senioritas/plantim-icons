@@ -28,8 +28,10 @@ if (v3.sourceRegistryHash !== registry.registryHash) {
   fail("v3 sourceRegistryHash does not match the current v2 registryHash — v3 is out of date.");
 }
 
-// 3. Counts line up with the v2 registry.
-const expectedCount = Object.keys(registry.icons).length;
+// 3. Counts line up: derived == v2 registry size; total is internally consistent.
+const expectedDerived = Object.keys(registry.icons).length;
+const expectedCount = v3.counts?.total ?? expectedDerived;
+if ((v3.counts?.derived ?? expectedDerived) !== expectedDerived) fail(`registry.v3.json counts.derived != ${expectedDerived}.`);
 if (Object.keys(v3.icons).length !== expectedCount) fail(`registry.v3.json has ${Object.keys(v3.icons).length} icons, expected ${expectedCount}.`);
 if (manifest.count !== expectedCount) fail(`index.v3.json count ${manifest.count} != ${expectedCount}.`);
 
@@ -67,8 +69,8 @@ for (const [name, icon] of Object.entries(v3.icons)) {
 countFiles("multicolor", expectedCount);
 countFiles("sizes", expectedCount * sizes.length);
 
-// 6. Overrides all resolve.
-const knownIds = new Set(Object.values(registry.icons).map((i) => i.id));
+// 6. Overrides all resolve against the full generated set (derived + custom).
+const knownIds = new Set(Object.values(v3.icons).map((i) => i.id));
 for (const id of Object.keys(palette.idOverrides ?? {})) {
   if (!knownIds.has(id)) fail(`palette idOverride "${id}" matches no icon.`);
 }
