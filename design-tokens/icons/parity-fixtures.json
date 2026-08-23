@@ -18,6 +18,14 @@
     "contrast": [
       "standard",
       "increased"
+    ],
+    "strokeVariants": [
+      "normal",
+      "emphasized"
+    ],
+    "accessibility": [
+      "decorative",
+      "accessible"
     ]
   },
   "icons": [
@@ -26,6 +34,31 @@
       "category": "account",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -70,6 +103,31 @@
       "category": "account",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -112,6 +170,31 @@
       "category": "action",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -154,6 +237,31 @@
       "category": "action",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -208,6 +316,31 @@
       "category": "action",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -248,6 +381,31 @@
       "category": "action",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -297,6 +455,31 @@
       "category": "calendar",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -355,6 +538,31 @@
       "category": "calendar",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -390,6 +598,31 @@
       "category": "location",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -432,6 +665,31 @@
       "category": "navigation",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -474,6 +732,31 @@
       "category": "navigation",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -516,6 +799,31 @@
       "category": "navigation",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -551,6 +859,31 @@
       "category": "navigation",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -586,6 +919,31 @@
       "category": "navigation",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -628,6 +986,31 @@
       "category": "navigation",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -661,6 +1044,31 @@
       "category": "navigation",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -696,6 +1104,31 @@
       "category": "navigation",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -731,6 +1164,31 @@
       "category": "plant",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -764,6 +1222,31 @@
       "category": "plant",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -909,6 +1392,31 @@
       "category": "plant",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -946,6 +1454,31 @@
       "category": "plant",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -986,6 +1519,31 @@
       "category": "plant",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -1029,6 +1587,31 @@
       "category": "plant",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -1062,6 +1645,31 @@
       "category": "plant",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -1117,6 +1725,31 @@
       "category": "plant",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -1166,6 +1799,31 @@
       "category": "status",
       "accessibility": "status",
       "accessibilityLabelKey": "a11y.icons.status.error",
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -1214,6 +1872,31 @@
       "category": "status",
       "accessibility": "status",
       "accessibilityLabelKey": "a11y.icons.status.info",
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -1256,6 +1939,31 @@
       "category": "status",
       "accessibility": "status",
       "accessibilityLabelKey": "a11y.icons.status.loading",
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -1281,6 +1989,31 @@
       "category": "status",
       "accessibility": "status",
       "accessibilityLabelKey": "a11y.icons.status.streak",
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -1306,6 +2039,31 @@
       "category": "status",
       "accessibility": "status",
       "accessibilityLabelKey": "a11y.icons.status.success",
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -1339,6 +2097,31 @@
       "category": "status",
       "accessibility": "status",
       "accessibilityLabelKey": "a11y.icons.status.success",
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -1372,6 +2155,31 @@
       "category": "status",
       "accessibility": "status",
       "accessibilityLabelKey": "a11y.icons.status.success",
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -1407,6 +2215,31 @@
       "category": "status",
       "accessibility": "status",
       "accessibilityLabelKey": "a11y.icons.status.warning",
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -1447,6 +2280,31 @@
       "category": "status",
       "accessibility": "status",
       "accessibilityLabelKey": "a11y.icons.status.warning",
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -1487,6 +2345,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -1524,6 +2407,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -1564,6 +2472,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -1618,6 +2551,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -1660,6 +2618,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -1714,6 +2697,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -1756,6 +2764,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -1791,6 +2824,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -1838,6 +2896,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -1871,6 +2954,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -1918,6 +3026,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -1960,6 +3093,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -2007,6 +3165,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -2068,6 +3251,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -2186,6 +3394,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -2289,6 +3522,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -2338,6 +3596,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -2401,6 +3684,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -2494,6 +3802,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -2529,6 +3862,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -2562,6 +3920,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -2595,6 +3978,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -2643,6 +4051,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -2711,6 +4144,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -2751,6 +4209,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -2784,6 +4267,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -2831,6 +4339,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -2878,6 +4411,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -2946,6 +4504,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -3021,6 +4604,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -3061,6 +4669,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -3122,6 +4755,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -3167,6 +4825,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -3200,6 +4883,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -3264,6 +4972,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -3353,6 +5086,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -3407,6 +5165,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -3454,6 +5237,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -3494,6 +5302,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -3534,6 +5367,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -3595,6 +5453,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -3656,6 +5539,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -3712,6 +5620,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -3761,6 +5694,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -3794,6 +5752,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -3848,6 +5831,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -3902,6 +5910,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -3935,6 +5968,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -3977,6 +6035,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -4017,6 +6100,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -4066,6 +6174,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -4099,6 +6232,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -4135,6 +6293,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -4198,6 +6381,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -4252,6 +6460,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -4305,6 +6538,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -4352,6 +6610,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -4398,6 +6681,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -4438,6 +6746,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -4485,6 +6818,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -4525,6 +6883,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -4576,6 +6959,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -4616,6 +7024,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -4649,6 +7082,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -4684,6 +7142,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -4735,6 +7218,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -4775,6 +7283,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -4821,6 +7354,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -4868,6 +7426,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -4928,6 +7511,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -4972,6 +7580,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -5016,6 +7649,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -5060,6 +7718,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -5100,6 +7783,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -5142,6 +7850,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -5175,6 +7908,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -5243,6 +8001,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -5299,6 +8082,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -5332,6 +8140,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -5379,6 +8212,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -5430,6 +8288,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -5484,6 +8367,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -5535,6 +8443,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -5586,6 +8519,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -5652,6 +8610,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -5692,6 +8675,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -5725,6 +8733,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -5807,6 +8840,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -5858,6 +8916,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -5961,6 +9044,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -6010,6 +9118,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -6047,6 +9180,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -6080,6 +9238,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -6129,6 +9312,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -6155,6 +9363,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -6230,6 +9463,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -6305,6 +9563,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -6398,6 +9681,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -6434,6 +9742,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -6509,6 +9842,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -6542,6 +9900,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -6575,6 +9958,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -6622,6 +10030,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -6655,6 +10088,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -6702,6 +10160,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -6763,6 +10246,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -6796,6 +10304,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -6836,6 +10369,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -6876,6 +10434,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -6918,6 +10501,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -6960,6 +10568,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -7009,6 +10642,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -7058,6 +10716,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -7105,6 +10788,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -7147,6 +10855,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -7194,6 +10927,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -7252,6 +11010,31 @@
       "category": "utility",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -7300,6 +11083,31 @@
       "category": "weather",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -7340,6 +11148,31 @@
       "category": "weather",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
@@ -7380,6 +11213,31 @@
       "category": "weather",
       "accessibility": "decorative",
       "accessibilityLabelKey": null,
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 2,
+      "sizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "colorSchemes": [
+        "light",
+        "dark"
+      ],
+      "contrast": [
+        "standard",
+        "increased"
+      ],
+      "strokeVariants": [
+        "normal",
+        "emphasized"
+      ],
+      "accessibilityExamples": [
+        "decorative",
+        "accessible"
+      ],
       "geometry": {
         "nodes": [
           {
