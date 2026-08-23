@@ -40,9 +40,11 @@ const hex = /^#[0-9A-Fa-f]{6}$/;
 
 // 4. Every icon: files exist, single <svg> root, valid colors.
 for (const [name, icon] of Object.entries(v3.icons)) {
-  const master = path.join(v3Dir, "multicolor", `${icon.id}.svg`);
-  if (!fs.existsSync(master)) fail(`${name}: missing multicolor/${icon.id}.svg`);
-  else assertSvg(master, name);
+  for (const style of ["outlined", "solid", "colored", "multicolor"]) {
+    const master = path.join(v3Dir, style, `${icon.id}.svg`);
+    if (!fs.existsSync(master)) fail(`${name}: missing ${style}/${icon.id}.svg`);
+    else assertSvg(master, `${name} (${style})`);
+  }
 
   for (const size of sizes) {
     const file = path.join(v3Dir, "sizes", `${icon.id}@${size}.svg`);
@@ -66,7 +68,7 @@ for (const [name, icon] of Object.entries(v3.icons)) {
 }
 
 // 5. File-count totals (no stale files).
-countFiles("multicolor", expectedCount);
+for (const style of ["outlined", "solid", "colored", "multicolor"]) countFiles(style, expectedCount);
 countFiles("sizes", expectedCount * sizes.length);
 
 // 6. Overrides all resolve against the full generated set (derived + custom).
@@ -93,5 +95,5 @@ if (errors.length) {
   process.exit(1);
 }
 console.log(
-  `v3 self-check passed: ${expectedCount} icons, ${expectedCount * (sizes.length + 1)} SVG files, hash OK.`,
+  `v3 self-check passed: ${expectedCount} icons, ${expectedCount * (sizes.length + 4)} SVG files (4 styles + ${sizes.length} sizes), hash OK.`,
 );

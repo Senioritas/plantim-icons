@@ -126,22 +126,44 @@ function serializeAttrs(attrs) {
     .join(" ");
 }
 
+/** Whether a node encloses an area that can be filled (used by the solid style). */
+export function isClosedNode(node) {
+  if (node.type === "rect" || node.type === "circle" || node.type === "ellipse" || node.type === "polygon") return true;
+  if (node.type === "path") return /z\s*$/i.test((node.attrs?.d || "").trim());
+  return false;
+}
+
 /**
- * Render a single multicolor SVG string at the requested pixel size.
+ * Render one SVG string at the requested size in one of four styles:
+ *  - outlined    : stroke=currentColor, no fill (theme-adaptive line)
+ *  - solid       : closed shapes filled with currentColor, everything stroked (heavier glyph)
+ *  - colored     : single category colour (resolved.primary), no fill
+ *  - multicolor  : per-node role colours + optional container tint (default)
  * viewBox stays "0 0 24 24"; only width/height (and stroke-width in crisp mode) change.
  */
-export function renderSvg({ icon, roles, containers, resolved, size, strokePolicy, baseStrokeWidth }) {
+export function renderSvg({ icon, roles, containers, resolved, size, strokePolicy, baseStrokeWidth, style = "multicolor" }) {
   const strokeWidth = strokeWidthForSize(size, strokePolicy, baseStrokeWidth);
   const lines = [
     `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="${icon.viewBox}" fill="none" stroke-linecap="round" stroke-linejoin="round">`,
   ];
   icon.nodes.forEach((node, i) => {
     const geom = serializeAttrs(cleanAttrs(node.attrs));
-    if (containers[i] && resolved.containerTint) {
-      lines.push(`  <${node.type} ${geom} fill="${resolved.bg}" stroke="none" />`);
+    if (style === "multicolor") {
+      if (containers[i] && resolved.containerTint) {
+        lines.push(`  <${node.type} ${geom} fill="${resolved.bg}" stroke="none" />`);
+      }
+      lines.push(`  <${node.type} ${geom} fill="none" stroke="${resolved[roles[i]]}" stroke-width="${strokeWidth}" />`);
+    } else if (style === "outlined") {
+      lines.push(`  <${node.type} ${geom} fill="none" stroke="currentColor" stroke-width="${strokeWidth}" />`);
+    } else if (style === "colored") {
+      lines.push(`  <${node.type} ${geom} fill="none" stroke="${resolved.primary}" stroke-width="${strokeWidth}" />`);
+    } else if (style === "solid") {
+      // Fill closed glyph shapes (leaves, drops, blobs) but NOT containers/frames
+      // (rings, rects, large circles) — filling those would hide inner detail.
+      const fill = isClosedNode(node) && !containers[i] ? "currentColor" : "none";
+      const sw = Math.round(strokeWidth * 1.25 * 1000) / 1000;
+      lines.push(`  <${node.type} ${geom} fill="${fill}" stroke="currentColor" stroke-width="${sw}" />`);
     }
-    const color = resolved[roles[i]];
-    lines.push(`  <${node.type} ${geom} fill="none" stroke="${color}" stroke-width="${strokeWidth}" />`);
   });
   lines.push("</svg>", "");
   return lines.join("\n");

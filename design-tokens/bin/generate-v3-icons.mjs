@@ -22,7 +22,9 @@ const root = path.resolve(import.meta.dirname, "..", "..");
 const registryPath = path.join(root, "design-tokens/icons/registry.json");
 const v3Dir = path.join(root, "design-tokens/icons/v3");
 const palettePath = path.join(v3Dir, "palette.json");
-const multicolorDir = path.join(v3Dir, "multicolor");
+const STYLES = ["outlined", "solid", "colored", "multicolor"];
+const styleDirs = Object.fromEntries(STYLES.map((s) => [s, path.join(v3Dir, s)]));
+const multicolorDir = styleDirs.multicolor;
 const sizesDir = path.join(v3Dir, "sizes");
 
 // --- Read + verify the v2 registry (same integrity guard as generate-icons.mjs) ---
@@ -52,10 +54,10 @@ for (const id of Object.keys(geometryOverrides)) {
 }
 
 // --- Reset output SVG dirs so removed icons never leave stale files behind ---
-fs.rmSync(multicolorDir, { recursive: true, force: true });
-fs.rmSync(sizesDir, { recursive: true, force: true });
-fs.mkdirSync(multicolorDir, { recursive: true });
-fs.mkdirSync(sizesDir, { recursive: true });
+for (const dir of [...Object.values(styleDirs), sizesDir]) {
+  fs.rmSync(dir, { recursive: true, force: true });
+  fs.mkdirSync(dir, { recursive: true });
+}
 
 const v3Icons = {};
 const manifestIcons = [];
@@ -84,13 +86,19 @@ function emitIcon(key, icon, extra = {}) {
   const { roles, containers } = assignRoles(icon, rules, resolved);
   const renderArgs = { icon, roles, containers, resolved, strokePolicy, baseStrokeWidth };
 
-  fs.writeFileSync(path.join(multicolorDir, `${icon.id}.svg`), renderSvg({ ...renderArgs, size: 24 }));
-  fileCount++;
+  // Four style masters at 24x24.
+  const styleFiles = {};
+  for (const style of STYLES) {
+    fs.writeFileSync(path.join(styleDirs[style], `${icon.id}.svg`), renderSvg({ ...renderArgs, size: 24, style }));
+    styleFiles[style] = `${style}/${icon.id}.svg`;
+    fileCount++;
+  }
 
+  // Multicolor size variants (24/48/72). Other styles scale via width/height/CSS.
   const sizeFiles = {};
   for (const size of sizes) {
     const file = `${icon.id}@${size}.svg`;
-    fs.writeFileSync(path.join(sizesDir, file), renderSvg({ ...renderArgs, size }));
+    fs.writeFileSync(path.join(sizesDir, file), renderSvg({ ...renderArgs, size, style: "multicolor" }));
     sizeFiles[String(size)] = `sizes/${file}`;
     fileCount++;
   }
@@ -125,7 +133,7 @@ function emitIcon(key, icon, extra = {}) {
     ...(extra.group ? { group: extra.group } : {}),
     ...(extra.label ? { label: extra.label } : {}),
     ...(extra.keywords ? { keywords: extra.keywords } : {}),
-    files: { multicolor: `multicolor/${icon.id}.svg`, sizes: sizeFiles },
+    files: { ...styleFiles, sizes: sizeFiles },
   });
 }
 
