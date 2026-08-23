@@ -125,8 +125,8 @@ const html = `<!doctype html><html><head><meta charset="utf-8"><style>
     v3Hash <code>${manifest.v3Hash.slice(0, 16)}…</code>
   </div>
   <div class="meta">
-    Scope: <b>${manifest.count} icons</b> × (1 multicolor master + ${manifest.sizes.length} sizes ${manifest.sizes.join("/")}px) =
-    <b>${manifest.count * (manifest.sizes.length + 1)} SVG files</b> · stroke policy <b>${manifest.strokePolicy}</b>.
+    Scope: <b>${manifest.count} icons</b> × (4 styles + ${manifest.sizes.length} multicolor sizes ${manifest.sizes.join("/")}px) =
+    <b>${manifest.count * (4 + manifest.sizes.length)} SVG files</b> · stroke policy <b>${manifest.strokePolicy}</b>.
   </div>
 
   <h2>Why this exists</h2>
@@ -167,6 +167,14 @@ const html = `<!doctype html><html><head><meta charset="utf-8"><style>
     </div>
     <p style="margin:4px 0 0;font-size:11.5px;color:#52606d">Outer ring → secondary + neutral tint disc · vertical stroke → primary (semantic red) · indicator dot → accent.</p>
   </div>
+
+  <h2>Four styles + animation</h2>
+  <p>Every icon renders in four styles from the same geometry: <b>outlined</b> (currentColor line),
+  <b>solid</b> (filled glyphs — frames/rings stay open so inner detail is never hidden), <b>colored</b>
+  (single category hue), and <b>multicolor</b> (per-role palette). A reusable stylesheet
+  (<code>animations.css</code>) adds spin / pulse / beat / bounce / wiggle / grow / draw animations
+  usable on any icon. All four styles, sizes, and animations are browsable and searchable in
+  <code>reports/plantim-icons-v3-catalog.html</code>.</p>
 
   <h2>New icons for Plantim (${manifest.counts.custom})</h2>
   <p>Grounded in the Plantim app codebase, v3 adds <b>${manifest.counts.custom} brand-new icons</b> on top of the
@@ -235,16 +243,16 @@ const html = `<!doctype html><html><head><meta charset="utf-8"><style>
   palette.json          hand-authored config (palette, sizes, roles, overrides)
   authored.mjs          ${manifest.counts.custom - 45} hand-authored new icons (tabs, care, lifecycle, health, stages)
   custom-src/           45 new SVG-authored icons (garden tools, families, genus) + icons.json
-  registry.v3.json      generated superset (geometry + role + color + sizes)
-  index.v3.json         generated manifest
-  multicolor/*.svg      ${manifest.count} colored masters
-  sizes/*@{24,48,72}.svg ${manifest.count * manifest.sizes.length} size files
+  animations.css        reusable animations (spin/pulse/beat/bounce/wiggle/grow/draw)
+  registry.v3.json, index.v3.json      generated superset + manifest
+  {outlined,solid,colored,multicolor}/*.svg   ${manifest.count} masters each (4 styles)
+  sizes/*@{24,48,72}.svg               ${manifest.count * manifest.sizes.length} multicolor size files
 design-tokens/bin/
   generate-v3-icons.mjs, lib/v3-transform.mjs, check-v3-icons.mjs
   generate-v3-report.mjs, generate-v3-catalog.mjs, generate-v3-html.mjs, lib/html-to-pdf.mjs
 reports/
   plantim-icons-v3-report.pdf, plantim-icons-v3-catalog.pdf
-  plantim-icons-v3-catalog.html   (searchable — open in any browser)</pre>
+  plantim-icons-v3-catalog.html   (all icons × 4 styles, searchable + animated)</pre>
 
   <h2>Next steps</h2>
   <ul class="tight">
