@@ -165,6 +165,17 @@ private let plantimIconAccessibility: [PlantimIconName: String] = [
 __ACCESSIBILITY_CASES__
 ]
 
+private struct PlantimIconShape: Shape {
+    let name: PlantimIconName
+
+    func path(in rect: CGRect) -> Path {
+        var path = Path()
+        plantimIconNodes[name, default: []].forEach { $0.add(to: &path) }
+        let scale = min(rect.width / 24, rect.height / 24)
+        return path.applying(CGAffineTransform(scaleX: scale, y: scale))
+    }
+}
+
 public struct PlantimIcon: View {
     public let name: PlantimIconName
     public var size: CGFloat
@@ -177,18 +188,15 @@ public struct PlantimIcon: View {
     }
 
     public var body: some View {
-        let canvas = Canvas { context, _ in
-            context.scaleBy(x: size / 24, y: size / 24)
-            var path = Path(); plantimIconNodes[name, default: []].forEach { $0.add(to: &path) }
-            context.stroke(path, with: .foreground, lineWidth: strokeWidth)
-        }
+        let icon = PlantimIconShape(name: name)
+            .stroke(style: StrokeStyle(lineWidth: strokeWidth, lineCap: .round, lineJoin: .round))
         .frame(width: size, height: size)
         if decorative {
-            canvas.accessibilityHidden(true)
+            icon.accessibilityHidden(true)
         } else if let accessibilityLabel {
-            canvas.accessibilityLabel(accessibilityLabel)
+            icon.accessibilityLabel(accessibilityLabel)
         } else {
-            canvas.accessibilityHidden(true)
+            icon.accessibilityHidden(true)
         }
     }
 }

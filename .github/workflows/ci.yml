@@ -9,6 +9,17 @@ permissions:
   contents: read
 
 jobs:
+  docker:
+    name: Docker validation
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+      - name: Build and run the reproducible validation image
+        run: |
+          docker build --pull -f docker/ci/Dockerfile -t plantim-icons-ci:${GITHUB_SHA} .
+          docker run --rm plantim-icons-ci:${GITHUB_SHA}
+
   validate:
     runs-on: ubuntu-latest
     timeout-minutes: 15
