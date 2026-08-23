@@ -28,7 +28,8 @@
     "icons:validate": "npm run icons:validate:node && swift test --package-path packages/PlantimIcons",
     "icons:publish:dry-run": "npm publish --workspace packages/plantim-icons --dry-run --access public",
     "icons:v3": "node design-tokens/bin/generate-v3-icons.mjs && node design-tokens/bin/check-v3-icons.mjs",
-    "icons:v3:pdf": "node design-tokens/bin/generate-v3-report.mjs && node design-tokens/bin/generate-v3-catalog.mjs"
+    "icons:v3:pdf": "node design-tokens/bin/generate-v3-report.mjs && node design-tokens/bin/generate-v3-catalog.mjs",
+    "icons:v3:html": "node design-tokens/bin/generate-v3-html.mjs"
   },
   "devDependencies": {
     "ajv": "^8.17.1",

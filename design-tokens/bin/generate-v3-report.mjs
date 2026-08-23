@@ -70,9 +70,13 @@ const bigSvg = (rel) => readSvg(rel).replace('width="24" height="24"', 'width="5
 const corrected = Object.values(v3.icons).filter((i) => i.geometryCorrected);
 
 // --- Palette table ---
-const CATEGORY_ORDER = ["plant", "weather", "status", "navigation", "action", "account", "calendar", "location", "utility"];
+const CATEGORY_ORDER = ["plant", "weather", "status", "navigation", "action", "account", "calendar", "location", "utility", "nav", "garden", "care", "lifecycle", "health", "family", "genus"];
 const cats = new Map();
 for (const i of manifest.icons) cats.set(i.category, (cats.get(i.category) || 0) + 1);
+const GROUP_ORDER = ["Today", "Garden (tab)", "Plant (tab)", "Calendar (tab)", "Feed (tab)", "Chat (tab)", "Care actions", "Plant lifecycle", "Plant health", "Growth stages", "Garden tools", "Plant families", "Taxonomy & genus"];
+const groupCounts = new Map();
+for (const i of manifest.icons) if (i.custom) groupCounts.set(i.group, (groupCounts.get(i.group) || 0) + 1);
+const groupRows = GROUP_ORDER.filter((g) => groupCounts.has(g)).map((g) => `<tr><td>${g}</td><td class="num">${groupCounts.get(g)}</td></tr>`).join("");
 const catRows = CATEGORY_ORDER.filter((c) => cats.has(c)).map((cat) => {
   const p = palette.categories[cat];
   return `<tr><td class="cat">${cat}</td>
@@ -164,6 +168,20 @@ const html = `<!doctype html><html><head><meta charset="utf-8"><style>
     <p style="margin:4px 0 0;font-size:11.5px;color:#52606d">Outer ring → secondary + neutral tint disc · vertical stroke → primary (semantic red) · indicator dot → accent.</p>
   </div>
 
+  <h2>New icons for Plantim (${manifest.counts.custom})</h2>
+  <p>Grounded in the Plantim app codebase, v3 adds <b>${manifest.counts.custom} brand-new icons</b> on top of the
+  ${manifest.counts.derived} derived from v2. Highlights: the <b>Today</b> tab no longer has to borrow the Home icon
+  (three alternatives provided); <b>fertilize</b> and <b>repot</b> — which both reused the leaf in v2 — get dedicated
+  icons; care types match the app's authoritative set (water, fertilize, prune, repot); and each of the
+  <b>16 plant families</b> enumerated in the app has its own botanical icon. Tab concepts each ship multiple
+  alternatives so a final icon can be chosen by comparison (see the showcase catalog).</p>
+  <table>
+    <tr><th>Group</th><th>Icons</th></tr>
+    ${groupRows}
+  </table>
+  <p style="font-size:11.5px;color:#616e7c">All new icons flow through the same multicolor + 24/48/72 pipeline and
+  are browsable/searchable in <code>reports/plantim-icons-v3-catalog.html</code>.</p>
+
   <h2>Findings — corrected v2 geometry</h2>
   <p>Reproducing v2 geometry surfaced a genuine defect, validating the distrust of the Codex-generated set.
   <b>${corrected.length} icon(s)</b> had clearly-broken geometry, corrected in v3 only (v2 registry untouched;
@@ -215,15 +233,18 @@ const html = `<!doctype html><html><head><meta charset="utf-8"><style>
   <h2>What was produced</h2>
   <pre>design-tokens/icons/v3/
   palette.json          hand-authored config (palette, sizes, roles, overrides)
+  authored.mjs          ${manifest.counts.custom - 45} hand-authored new icons (tabs, care, lifecycle, health, stages)
+  custom-src/           45 new SVG-authored icons (garden tools, families, genus) + icons.json
   registry.v3.json      generated superset (geometry + role + color + sizes)
   index.v3.json         generated manifest
   multicolor/*.svg      ${manifest.count} colored masters
   sizes/*@{24,48,72}.svg ${manifest.count * manifest.sizes.length} size files
 design-tokens/bin/
   generate-v3-icons.mjs, lib/v3-transform.mjs, check-v3-icons.mjs
-  generate-v3-report.mjs, generate-v3-catalog.mjs, lib/html-to-pdf.mjs
+  generate-v3-report.mjs, generate-v3-catalog.mjs, generate-v3-html.mjs, lib/html-to-pdf.mjs
 reports/
-  plantim-icons-v3-report.pdf, plantim-icons-v3-catalog.pdf</pre>
+  plantim-icons-v3-report.pdf, plantim-icons-v3-catalog.pdf
+  plantim-icons-v3-catalog.html   (searchable — open in any browser)</pre>
 
   <h2>Next steps</h2>
   <ul class="tight">
