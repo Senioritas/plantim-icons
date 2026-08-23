@@ -20,6 +20,17 @@ jobs:
           docker build --pull -f docker/ci/Dockerfile -t plantim-icons-ci:${GITHUB_SHA} .
           docker run --rm plantim-icons-ci:${GITHUB_SHA}
 
+      - name: Upload Docker validation evidence
+        if: failure()
+        uses: actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08 # v4.6.0
+        with:
+          name: icons-docker-validation-${{ github.run_id }}
+          path: |
+            docker/ci-artifacts
+            /tmp/plantim-icons-ci
+          if-no-files-found: ignore
+          retention-days: 14
+
   validate:
     runs-on: ubuntu-latest
     timeout-minutes: 15
@@ -41,9 +52,33 @@ jobs:
             packages/plantim-icons/dist \
             packages/PlantimIcons/Sources
 
+      - name: Upload web parity evidence
+        if: failure()
+        uses: actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08 # v4.6.0
+        with:
+          name: icons-web-parity-${{ github.run_id }}
+          path: |
+            gallery/web/test-results
+            gallery/web/playwright-report
+            design-tokens/icons/parity-fixtures.json
+            docs/icon-visual-parity.md
+          if-no-files-found: ignore
+          retention-days: 14
+
   swift:
     runs-on: macos-latest
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - run: swift test --package-path packages/PlantimIcons
+
+      - name: Upload Swift parity evidence
+        if: failure()
+        uses: actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08 # v4.6.0
+        with:
+          name: icons-ios-parity-${{ github.run_id }}
+          path: |
+            packages/PlantimIcons/.build
+            packages/PlantimIcons/Tests
+          if-no-files-found: ignore
+          retention-days: 14
