@@ -81,6 +81,8 @@ ${animCss}
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 10px; }
   .card { display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 14px 8px 10px; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; cursor: pointer; font: inherit; color: inherit; text-align: center; }
   .card:hover { border-color: #2E7D32; box-shadow: 0 2px 12px rgba(46,125,50,.14); }
+  /* A class rule for display:flex outranks the UA [hidden] rule, so filtering needs this. */
+  .card[hidden] { display: none !important; }
   .types { display: flex; gap: 10px; justify-content: center; align-items: flex-end; }
   .t { display: flex; flex-direction: column; align-items: center; gap: 5px; }
   .ic { color: var(--icon); display: flex; align-items: center; justify-content: center; height: calc(var(--sz) + 8px); }
