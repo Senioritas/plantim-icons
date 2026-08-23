@@ -7,6 +7,8 @@ const registry = JSON.parse(
   fs.readFileSync(path.join(root, "design-tokens/icons/registry.json"), "utf8"),
 );
 const expected = Object.values(registry.icons).map((icon) => icon.id).sort();
+const fixturePath = path.join(root, "design-tokens/icons/parity-fixtures.json");
+const fixture = JSON.parse(fs.readFileSync(fixturePath, "utf8"));
 
 const packageModule = await import(
   pathToFileURL(path.join(root, "packages/plantim-icons/dist/index.js")),
@@ -31,6 +33,16 @@ if (JSON.stringify(swiftNames) !== JSON.stringify(expected)) {
 }
 if (packageModule.PLANTIM_ICONS_REGISTRY_HASH !== swiftHash) {
   mismatches.push("web and Swift registry hashes differ");
+}
+if (fixture.registryHash !== registry.registryHash) {
+  mismatches.push("parity fixture registry hash differs from the canonical registry");
+}
+if (fixture.iconCount !== expected.length || fixture.icons.length !== expected.length) {
+  mismatches.push("parity fixture icon count differs from the canonical registry");
+}
+const fixtureNames = fixture.icons.map((icon) => icon.id).sort();
+if (JSON.stringify(fixtureNames) !== JSON.stringify(expected)) {
+  mismatches.push("parity fixture IDs differ from the canonical registry");
 }
 
 const gallerySpec = fs.readFileSync(path.join(root, "gallery/web/gallery.spec.ts"), "utf8");

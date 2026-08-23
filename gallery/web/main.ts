@@ -23,9 +23,16 @@ const Gallery = defineComponent({
           { class: "gallery__grid", "aria-label": "Registered Plantim icons" },
           names.map((name) =>
             h("article", { class: "icon-card", key: name }, [
-              h("div", { class: "icon-card__preview" }, [
-                h(PlantimIcon, { name, size: 32, title: name }),
-              ]),
+              h(
+                "div",
+                { class: "icon-card__preview", "aria-label": `${name} size matrix` },
+                [16, 20, 24, 32, 48].map((size) =>
+                  h("span", { class: "icon-sample", key: size }, [
+                    h(PlantimIcon, { name, size, title: `${name} ${size}px` }),
+                    h("small", `${size}`),
+                  ]),
+                ),
+              ),
               h("code", name),
             ]),
           ),
