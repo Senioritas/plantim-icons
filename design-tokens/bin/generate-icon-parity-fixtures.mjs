@@ -36,6 +36,13 @@ const icons = Object.values(registry.icons)
       category: icon.category,
       accessibility: icon.accessibility,
       accessibilityLabelKey: icon.accessibilityLabelKey ?? null,
+      viewBox: geometry.viewBox,
+      strokeWidth: geometry.rendering.strokeWidth,
+      sizes: [16, 20, 24, 32, 48],
+      colorSchemes: ["light", "dark"],
+      contrast: ["standard", "increased"],
+      strokeVariants: ["normal", "emphasized"],
+      accessibilityExamples: ["decorative", "accessible"],
       geometry,
       geometryHash: crypto.createHash("sha256").update(JSON.stringify(geometry)).digest("hex"),
     };
@@ -51,6 +58,8 @@ const fixture = {
     sizes: [16, 20, 24, 32, 48],
     colorSchemes: ["light", "dark"],
     contrast: ["standard", "increased"],
+    strokeVariants: ["normal", "emphasized"],
+    accessibility: ["decorative", "accessible"],
   },
   icons,
 };
