@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "ajv": "^8.17.1",
-    "@lucide/vue": "1.33.0",
+    "@lucide/vue": "1.39.0",
     "@playwright/test": "1.62.1",
     "@vitejs/plugin-vue": "6.0.8",
     "typescript": "^6.0.2",
