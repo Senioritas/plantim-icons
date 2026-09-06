@@ -44,7 +44,7 @@ export declare const PlantimIcon: import("vue").DefineComponent<import("vue").Ex
     title: StringConstructor;
     decorative: BooleanConstructor;
 }>> & Readonly<{}>, {
-    decorative: boolean;
     size: string | number;
     strokeWidth: number;
+    decorative: boolean;
 }, {}, {}, {}, string, import("vue").ComponentProvideOptions, true, {}, any>;
