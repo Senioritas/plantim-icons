@@ -56,7 +56,7 @@ public enum PlantimIconV4Name: String, CaseIterable, Sendable {
     case gardenHose = "garden.hose"
     case gardenPot = "garden.pot"
     case gardenRake = "garden.rake"
-    case gardenSeed-packet = "garden.seed-packet"
+    case gardenSeedPacket = "garden.seed-packet"
     case gardenShears = "garden.shears"
     case gardenSpade = "garden.spade"
     case gardenSprinkler = "garden.sprinkler"
@@ -1438,7 +1438,7 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
         duotonePrimary: ["primary"],
         multicolor: ["primary": .ink900]
     ),
-    .gardenSeed-packet: PlantimV4IconData(
+    .gardenSeedPacket: PlantimV4IconData(
         grades: [
             .micro: [
                 PlantimV4Layer("primary", [.path("M6 3h12a1 1 0 0 1 1 1v16a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1v-16a1 1 0 0 1 1 -1Z", false), .path("M12 17L12 12", false), .path("M12 12c-2 0-3-1-3-3 2 0 3 1 3 3z", false), .path("M12 13c2 0 3-1 3-3-2 0-3 1-3 3z", false)]),

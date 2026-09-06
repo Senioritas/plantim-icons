@@ -19,7 +19,8 @@ const GRADES = ["micro", "base", "display"];
 
 const swiftName = (id) => {
   const value = id
-    .split(".")
+    .split(/[.\-]/)
+    .filter(Boolean)
     .map((part) => part[0].toUpperCase() + part.slice(1))
     .join("");
   return value[0].toLowerCase() + value.slice(1);
