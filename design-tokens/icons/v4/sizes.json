@@ -1,0 +1,21 @@
+{
+  "version": "4.0.0",
+  "grades": {
+    "micro": { "strokeWidth": 2.4, "sizes": [16, 20] },
+    "base": { "strokeWidth": 2, "sizes": [24, 32] },
+    "display": { "strokeWidth": 1.6, "sizes": [48, 72] }
+  },
+  "sizes": {
+    "16": "micro",
+    "20": "micro",
+    "24": "base",
+    "32": "base",
+    "48": "display",
+    "72": "display"
+  },
+  "authoredGradesByTier": {
+    "P0": ["micro", "base", "display"],
+    "P1": ["micro", "base"],
+    "P2": ["base"]
+  }
+}

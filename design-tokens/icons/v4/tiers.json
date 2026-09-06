@@ -1,0 +1,965 @@
+{
+  "version": "4.0.0",
+  "source": {
+    "app": "reports/v4-app-icon-audit.md",
+    "quality": "reports/v4-v3-audit.md"
+  },
+  "counts": {
+    "P0": 9,
+    "P1": 134,
+    "P2": 94,
+    "keep": 103,
+    "refine": 63,
+    "redraw": 71
+  },
+  "icons": {
+    "account.user": {
+      "tier": "P0",
+      "verdict": "refine"
+    },
+    "account.users": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "action.add": {
+      "tier": "P0",
+      "verdict": "keep"
+    },
+    "action.delete": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "action.edit": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "action.search": {
+      "tier": "P1",
+      "verdict": "redraw"
+    },
+    "calendar.date": {
+      "tier": "P0",
+      "verdict": "refine"
+    },
+    "calendar.time": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "care.fertilizing": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "care.fertilizing.alt": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "care.log": {
+      "tier": "P2",
+      "verdict": "refine"
+    },
+    "care.pruning": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "care.pruning.alt": {
+      "tier": "P2",
+      "verdict": "refine"
+    },
+    "care.reminder": {
+      "tier": "P2",
+      "verdict": "refine"
+    },
+    "care.repotting": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "care.repotting.alt": {
+      "tier": "P2",
+      "verdict": "refine"
+    },
+    "care.suggestion": {
+      "tier": "P2",
+      "verdict": "refine"
+    },
+    "care.watering": {
+      "tier": "P2",
+      "verdict": "refine"
+    },
+    "care.watering.alt": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "family.apiaceae": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "family.araceae": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "family.arecaceae": {
+      "tier": "P2",
+      "verdict": "refine"
+    },
+    "family.asparagaceae": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "family.asphodelaceae": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "family.begoniaceae": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "family.bromeliaceae": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "family.cactaceae": {
+      "tier": "P2",
+      "verdict": "refine"
+    },
+    "family.crassulaceae": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "family.lamiaceae": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "family.marantaceae": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "family.moraceae": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "family.nephrolepidaceae": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "family.orchidaceae": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "family.piperaceae": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "family.polypodiaceae": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "garden.compost": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "garden.fork": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "garden.gloves": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "garden.greenhouse": {
+      "tier": "P2",
+      "verdict": "refine"
+    },
+    "garden.hoe": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "garden.hose": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "garden.pot": {
+      "tier": "P2",
+      "verdict": "keep"
+    },
+    "garden.rake": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "garden.seed-packet": {
+      "tier": "P2",
+      "verdict": "refine"
+    },
+    "garden.shears": {
+      "tier": "P2",
+      "verdict": "refine"
+    },
+    "garden.spade": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "garden.sprinkler": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "garden.trowel": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "garden.wheelbarrow": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "genus.aloe": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "genus.cactus": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "genus.calathea": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "genus.fern": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "genus.ficus": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "genus.monstera": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "genus.orchid": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "genus.palm": {
+      "tier": "P2",
+      "verdict": "refine"
+    },
+    "genus.peperomia": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "genus.pothos": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "genus.sansevieria": {
+      "tier": "P2",
+      "verdict": "refine"
+    },
+    "genus.succulent": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "health.attention": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "health.critical": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "health.healthy": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "location.pin": {
+      "tier": "P1",
+      "verdict": "redraw"
+    },
+    "nav.calendar.check": {
+      "tier": "P2",
+      "verdict": "keep"
+    },
+    "nav.calendar.leaf": {
+      "tier": "P2",
+      "verdict": "refine"
+    },
+    "nav.calendar.plain": {
+      "tier": "P2",
+      "verdict": "keep"
+    },
+    "nav.chat.bubble": {
+      "tier": "P2",
+      "verdict": "refine"
+    },
+    "nav.chat.dots": {
+      "tier": "P2",
+      "verdict": "refine"
+    },
+    "nav.chat.leaf": {
+      "tier": "P2",
+      "verdict": "refine"
+    },
+    "nav.feed.cards": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "nav.feed.stream": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "nav.feed.waves": {
+      "tier": "P2",
+      "verdict": "keep"
+    },
+    "nav.garden.beds": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "nav.garden.plot": {
+      "tier": "P2",
+      "verdict": "refine"
+    },
+    "nav.garden.sprouts": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "nav.plant.leaf": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "nav.plant.potted": {
+      "tier": "P2",
+      "verdict": "refine"
+    },
+    "nav.plant.sprout": {
+      "tier": "P2",
+      "verdict": "refine"
+    },
+    "nav.today.leaf": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "nav.today.sun": {
+      "tier": "P2",
+      "verdict": "keep"
+    },
+    "nav.today.sunrise": {
+      "tier": "P2",
+      "verdict": "refine"
+    },
+    "navigation.back": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "navigation.close": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "navigation.collapse": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "navigation.expand": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "navigation.forward": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "navigation.home": {
+      "tier": "P0",
+      "verdict": "refine"
+    },
+    "navigation.next": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "navigation.previous": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "plant.add": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "plant.growth": {
+      "tier": "P0",
+      "verdict": "redraw"
+    },
+    "plant.pruning": {
+      "tier": "P1",
+      "verdict": "redraw"
+    },
+    "plant.related": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "plant.remove": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "plant.seedling": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "plant.sprout": {
+      "tier": "P0",
+      "verdict": "redraw"
+    },
+    "plant.thriving": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "plant.watering": {
+      "tier": "P1",
+      "verdict": "redraw"
+    },
+    "plant.watering.can": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "plant.wilting": {
+      "tier": "P2",
+      "verdict": "refine"
+    },
+    "stage.growing": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "stage.mature": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "stage.seedling": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "status.error": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "status.info": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "status.loading": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "status.streak": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "status.success": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "status.success.circle": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "status.success.circle.alt": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "status.warning": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "status.warning.alt": {
+      "tier": "P2",
+      "verdict": "keep"
+    },
+    "taxonomy.family": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "taxonomy.genus": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "taxonomy.species": {
+      "tier": "P2",
+      "verdict": "redraw"
+    },
+    "utility.activity": {
+      "tier": "P0",
+      "verdict": "refine"
+    },
+    "utility.align.justify": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.arrow.down": {
+      "tier": "P2",
+      "verdict": "keep"
+    },
+    "utility.arrow.down.to.dot": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.arrow.up": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.arrow.up.from.dot": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.award": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.baby": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.badge.check": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.bar.chart3": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.bell": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.bell.off": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.bot": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.brain": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.bug": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.cake": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.calendar.clock": {
+      "tier": "P2",
+      "verdict": "refine"
+    },
+    "utility.calendar.days": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.camera": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.check.check": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.chevrons.up.down": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.circle": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.cloud.drizzle": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.cloud.fog": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.cloud.lightning": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.cloud.moon": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.cloud.rain": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.cloud.snow": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.cloud.sun": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.code": {
+      "tier": "P2",
+      "verdict": "keep"
+    },
+    "utility.cookie": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.copy": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.crown": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.database": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.dna": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.eye": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.eye.off": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.filter": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.flame": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.flask.conical": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.flip.horizontal2": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.flower2": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.globe": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.grid2x2": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.hand": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.handshake": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.heart": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.help.circle": {
+      "tier": "P2",
+      "verdict": "keep"
+    },
+    "utility.history": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.image": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.inbox": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.key": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.layout.grid": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.lightbulb": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.link": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.list": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.lock": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.log.out": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.mail": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.mail.check": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.menu": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.message.circle": {
+      "tier": "P0",
+      "verdict": "redraw"
+    },
+    "utility.message.square": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.minus": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.monitor.smartphone": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.moon.star": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.more.horizontal": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.move": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.orbit": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.panel.left": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.panel.left.close": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.panel.left.open": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.pencil.line": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.plus.circle": {
+      "tier": "P0",
+      "verdict": "keep"
+    },
+    "utility.quote": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.refresh.cw": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.rotate.ccw": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.rotate.cw": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.save": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.scale": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.scan.line": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.settings": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.settings2": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.share2": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.shield": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.shield.check": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.sliders.horizontal": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.smartphone": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.snowflake": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.sparkles": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.square": {
+      "tier": "P2",
+      "verdict": "keep"
+    },
+    "utility.square.pen": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.star": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.star.half": {
+      "tier": "P1",
+      "verdict": "redraw"
+    },
+    "utility.sunrise": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.sunset": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.swords": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.tag": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.thermometer": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.thumbs.down": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.thumbs.up": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.trees": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.trending.down": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.trending.up": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.trophy": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.undo2": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.upload": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.upload.cloud": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.user.check": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.user.minus": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.user.plus": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.user.x": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.wind": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.x.circle": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.zap": {
+      "tier": "P1",
+      "verdict": "refine"
+    },
+    "utility.zoom.in": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "utility.zoom.out": {
+      "tier": "P1",
+      "verdict": "keep"
+    },
+    "weather.cloud": {
+      "tier": "P1",
+      "verdict": "redraw"
+    },
+    "weather.moon": {
+      "tier": "P1",
+      "verdict": "redraw"
+    },
+    "weather.sun": {
+      "tier": "P1",
+      "verdict": "keep"
+    }
+  }
+}
