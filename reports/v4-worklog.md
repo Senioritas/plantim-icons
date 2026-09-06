@@ -88,3 +88,29 @@ a mask, care.watering.alt as a camera) are transcribed faithfully rather than
 hand-redrawn — deferred, and flagged here — since these are library icons the
 app does not yet consume. P0 (9) and the app's full P1 surface (134) are the
 hand-crafted / hand-corrected core.
+
+## Rework pass — from the decision-record export (2026-09-06)
+
+The user reviewed all 237 in the interactive catalog: 191 approved, 35 improve,
+11 redraw. Reworked ids are hand-authored in dedicated src modules and excluded
+from the transcription registries via `bin/lib/v4-reworked.mjs`.
+
+Wave 1 (hand, committed): P0 leaves (plant.sprout/growth gained midrib veins);
+health.healthy/attention/critical redrawn as one leaf silhouette + a corner
+check/!/× badge, colored green/amber/red in multicolor+duotone so the plant's
+status reads by color (the user's explicit requirement); lifecycle —
+plant.add/remove (soil sprout + circled +/- badge, relational & matching),
+plant.related (two overlapping leaves), plant.seedling (seed + emerging
+sprout), plant.thriving (plant + sparkle), plant.watering.can (can + spout +
+water drops, no stray X), stage.growing (mid sprout), stage.mature (tree crown
++ trunk).
+
+Wave 2 (category agents): garden tools (gloves/hoe/hose/rake/spade/sprinkler/
+trowel), genus (cactus/ficus/orchid/palm/succulent), plant families (apiaceae/
+araceae/begoniaceae/bromeliaceae/nephrolepidaceae/piperaceae/polypodiaceae —
+focus on small-size + solid legibility per the recurring note), nav
+(today.leaf/plant.leaf/calendar.leaf/chat.leaf/chat.dots/feed.cards), utility
+(brain vertical, hand with real fingers, moon.star with a real star, move as
+4-way arrows). Each agent-authored module is visually signed off before merge.
+
+Approved (191) are unchanged.
