@@ -37,14 +37,15 @@
     "icons:v3": "node design-tokens/bin/generate-v3-icons.mjs && node design-tokens/bin/check-v3-icons.mjs",
     "icons:v3:pdf": "node design-tokens/bin/generate-v3-report.mjs && node design-tokens/bin/generate-v3-catalog.mjs",
     "icons:v3:html": "node design-tokens/bin/generate-v3-html.mjs",
-    "icons:v4": "node design-tokens/bin/generate-v4-icons.mjs && node design-tokens/bin/check-v4-icons.mjs && npm run icons:v4:package",
+    "icons:v4": "node design-tokens/bin/generate-v4-icons.mjs && node design-tokens/bin/check-v4-icons.mjs && npm run icons:v4:package && npm run icons:v4:swift",
     "icons:v4:package": "node design-tokens/bin/generate-v4-package.mjs && npm --prefix packages/plantim-icons run build",
     "icons:v4:raster": "node design-tokens/bin/check-v4-raster.mjs",
     "icons:v4:sheets": "node design-tokens/bin/render-v4-sheets.mjs v4",
     "icons:v4:pdf": "node design-tokens/bin/generate-v4-report.mjs && node design-tokens/bin/generate-v4-catalog.mjs",
     "icons:v4:html": "node design-tokens/bin/generate-v4-html.mjs",
     "icons:v4:lottie": "node design-tokens/bin/generate-v4-lottie.mjs && node design-tokens/bin/check-v4-lottie.mjs",
-    "icons:v4:android": "node design-tokens/bin/generate-v4-android.mjs && node design-tokens/bin/check-v4-android.mjs"
+    "icons:v4:android": "node design-tokens/bin/generate-v4-android.mjs && node design-tokens/bin/check-v4-android.mjs",
+    "icons:v4:swift": "node design-tokens/bin/generate-v4-swift-icons.mjs"
   },
   "devDependencies": {
     "ajv": "^8.17.1",
