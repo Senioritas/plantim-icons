@@ -95,14 +95,38 @@ function pathBounds(d) {
       }
       case "T": { const ex = num(), ey = num(); x = rel ? x + ex : ex; y = rel ? y + ey : ey; track(x, y); break; }
       case "A": {
-        const rx = num(), ry = num(); num(); num(); num();
-        const ex = num(), ey = num();
+        let rx = num(), ry = num();
+        const phi = (num() * Math.PI) / 180, largeArc = num(), sweep = num();
+        const ex0 = num(), ey0 = num();
         const px = x, py = y;
-        x = rel ? x + ex : ex; y = rel ? y + ey : ey;
-        // approximate arc excursion by endpoint box inflated by the radii
-        track(Math.min(px, x) - rx, Math.min(py, y) - ry);
-        track(Math.max(px, x) + rx, Math.max(py, y) + ry);
-        track(x, y);
+        x = rel ? x + ex0 : ex0; y = rel ? y + ey0 : ey0;
+        // exact arc bbox via endpoint parametrization (SVG spec F.6.5)
+        rx = Math.abs(rx); ry = Math.abs(ry);
+        if (rx === 0 || ry === 0 || (px === x && py === y)) { track(x, y); break; }
+        const cosP = Math.cos(phi), sinP = Math.sin(phi);
+        const dx2 = (px - x) / 2, dy2 = (py - y) / 2;
+        const x1 = cosP * dx2 + sinP * dy2, y1 = -sinP * dx2 + cosP * dy2;
+        const lambda = (x1 * x1) / (rx * rx) + (y1 * y1) / (ry * ry);
+        if (lambda > 1) { const s = Math.sqrt(lambda); rx *= s; ry *= s; }
+        let sign = largeArc !== sweep ? 1 : -1;
+        const denom = rx * rx * y1 * y1 + ry * ry * x1 * x1;
+        const numer = Math.max(0, rx * rx * ry * ry - denom);
+        const co = sign * Math.sqrt(numer / denom);
+        const cxp = (co * rx * y1) / ry, cyp = (-co * ry * x1) / rx;
+        const cx = cosP * cxp - sinP * cyp + (px + x) / 2;
+        const cy = sinP * cxp + cosP * cyp + (py + y) / 2;
+        const angle = (ux, uy) => Math.atan2(uy, ux);
+        const theta1 = angle((x1 - cxp) / rx, (y1 - cyp) / ry);
+        let dTheta = angle((-x1 - cxp) / rx, (-y1 - cyp) / ry) - theta1;
+        if (!sweep && dTheta > 0) dTheta -= 2 * Math.PI;
+        if (sweep && dTheta < 0) dTheta += 2 * Math.PI;
+        track(px, py); track(x, y);
+        // sample the arc — 32 steps is plenty for a bounds gate
+        for (let s = 1; s < 32; s++) {
+          const t = theta1 + (dTheta * s) / 32;
+          track(cx + rx * Math.cos(t) * cosP - ry * Math.sin(t) * sinP,
+                cy + rx * Math.cos(t) * sinP + ry * Math.sin(t) * cosP);
+        }
         break;
       }
       case "Z": x = sx; y = sy; break;
@@ -183,8 +207,16 @@ for (const [id, icon] of Object.entries(registry.icons)) {
           err(`${rel}: caps/joins not round`);
         }
       } else {
-        if (!svg.includes(`fill-rule="evenodd"`)) err(`${rel}: solid missing evenodd`);
-        if (svg.includes("stroke-width")) err(`${rel}: solid must not stroke`);
+        const grade = sizesCfg.sizes[String(size)];
+        const solidDef = icon.solid[grade] ?? icon.solid.base;
+        if (solidDef.mode === "bold") {
+          if (!svg.includes(`stroke-width="${solidDef.strokeWidth}"`)) {
+            err(`${rel}: bold solid stroke-width != ${solidDef.strokeWidth}`);
+          }
+        } else {
+          if (!svg.includes(`fill-rule="evenodd"`)) err(`${rel}: solid missing evenodd`);
+          if (svg.includes("stroke-width")) err(`${rel}: solid must not stroke`);
+        }
       }
     }
   }

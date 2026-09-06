@@ -79,6 +79,9 @@ geometry heuristics. Roles: `primary` (the identity stroke), `secondary`
   flood-fills and fails on any accidental island. Identity details survive as
   counters (calendar date digit, camera lens, health state glyph) — a solid
   variant that erases identity is a defect, not a style.
+  **Line-only icons** (arrows, pulse, plus, chevrons) use `mode: "bold"`
+  solids: the same geometry stroked at 3–3.4 instead of a fill. Silhouette
+  sharing is structural there, so the raster gate skips bold-mode solids.
 - `duotone` — outline layers at two emphasis levels: `primary` layers at
   `currentColor`, all others at `currentColor` with `opacity="0.35"`. Pure
   mapping; no new geometry.

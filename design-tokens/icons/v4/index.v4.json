@@ -1,13 +1,218 @@
 {
   "version": "4.0.0",
-  "v4Hash": "c0c65b80dee3db92ddb2df6901759e46fae44321317ec12ce8a6b53747deb3a8",
+  "v4Hash": "467e42dfdc05a0d93e9b26d62c1d9a4e81591244adffcca1165662ea98bf6399",
   "counts": {
-    "total": 1,
-    "P0": 1,
+    "total": 9,
+    "P0": 9,
     "P1": 0,
     "P2": 0
   },
   "icons": [
+    {
+      "id": "account.user",
+      "category": "account",
+      "tier": "P0",
+      "verdict": "refine",
+      "label": "Profile",
+      "files": {
+        "outline": {
+          "16": "svg/outline/account.user@16.svg",
+          "20": "svg/outline/account.user@20.svg",
+          "24": "svg/outline/account.user@24.svg",
+          "32": "svg/outline/account.user@32.svg",
+          "48": "svg/outline/account.user@48.svg",
+          "72": "svg/outline/account.user@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/account.user@16.svg",
+          "20": "svg/solid/account.user@20.svg",
+          "24": "svg/solid/account.user@24.svg",
+          "32": "svg/solid/account.user@32.svg",
+          "48": "svg/solid/account.user@48.svg",
+          "72": "svg/solid/account.user@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/account.user@16.svg",
+          "20": "svg/duotone/account.user@20.svg",
+          "24": "svg/duotone/account.user@24.svg",
+          "32": "svg/duotone/account.user@32.svg",
+          "48": "svg/duotone/account.user@48.svg",
+          "72": "svg/duotone/account.user@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/account.user@16.svg",
+          "20": "svg/multicolor/account.user@20.svg",
+          "24": "svg/multicolor/account.user@24.svg",
+          "32": "svg/multicolor/account.user@32.svg",
+          "48": "svg/multicolor/account.user@48.svg",
+          "72": "svg/multicolor/account.user@72.svg"
+        }
+      }
+    },
+    {
+      "id": "action.add",
+      "category": "action",
+      "tier": "P0",
+      "verdict": "refine",
+      "label": "Add",
+      "files": {
+        "outline": {
+          "16": "svg/outline/action.add@16.svg",
+          "20": "svg/outline/action.add@20.svg",
+          "24": "svg/outline/action.add@24.svg",
+          "32": "svg/outline/action.add@32.svg",
+          "48": "svg/outline/action.add@48.svg",
+          "72": "svg/outline/action.add@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/action.add@16.svg",
+          "20": "svg/solid/action.add@20.svg",
+          "24": "svg/solid/action.add@24.svg",
+          "32": "svg/solid/action.add@32.svg",
+          "48": "svg/solid/action.add@48.svg",
+          "72": "svg/solid/action.add@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/action.add@16.svg",
+          "20": "svg/duotone/action.add@20.svg",
+          "24": "svg/duotone/action.add@24.svg",
+          "32": "svg/duotone/action.add@32.svg",
+          "48": "svg/duotone/action.add@48.svg",
+          "72": "svg/duotone/action.add@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/action.add@16.svg",
+          "20": "svg/multicolor/action.add@20.svg",
+          "24": "svg/multicolor/action.add@24.svg",
+          "32": "svg/multicolor/action.add@32.svg",
+          "48": "svg/multicolor/action.add@48.svg",
+          "72": "svg/multicolor/action.add@72.svg"
+        }
+      }
+    },
+    {
+      "id": "calendar.date",
+      "category": "calendar",
+      "tier": "P0",
+      "verdict": "refine",
+      "label": "Calendar",
+      "files": {
+        "outline": {
+          "16": "svg/outline/calendar.date@16.svg",
+          "20": "svg/outline/calendar.date@20.svg",
+          "24": "svg/outline/calendar.date@24.svg",
+          "32": "svg/outline/calendar.date@32.svg",
+          "48": "svg/outline/calendar.date@48.svg",
+          "72": "svg/outline/calendar.date@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/calendar.date@16.svg",
+          "20": "svg/solid/calendar.date@20.svg",
+          "24": "svg/solid/calendar.date@24.svg",
+          "32": "svg/solid/calendar.date@32.svg",
+          "48": "svg/solid/calendar.date@48.svg",
+          "72": "svg/solid/calendar.date@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/calendar.date@16.svg",
+          "20": "svg/duotone/calendar.date@20.svg",
+          "24": "svg/duotone/calendar.date@24.svg",
+          "32": "svg/duotone/calendar.date@32.svg",
+          "48": "svg/duotone/calendar.date@48.svg",
+          "72": "svg/duotone/calendar.date@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/calendar.date@16.svg",
+          "20": "svg/multicolor/calendar.date@20.svg",
+          "24": "svg/multicolor/calendar.date@24.svg",
+          "32": "svg/multicolor/calendar.date@32.svg",
+          "48": "svg/multicolor/calendar.date@48.svg",
+          "72": "svg/multicolor/calendar.date@72.svg"
+        }
+      }
+    },
+    {
+      "id": "navigation.home",
+      "category": "navigation",
+      "tier": "P0",
+      "verdict": "refine",
+      "label": "Today",
+      "files": {
+        "outline": {
+          "16": "svg/outline/navigation.home@16.svg",
+          "20": "svg/outline/navigation.home@20.svg",
+          "24": "svg/outline/navigation.home@24.svg",
+          "32": "svg/outline/navigation.home@32.svg",
+          "48": "svg/outline/navigation.home@48.svg",
+          "72": "svg/outline/navigation.home@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/navigation.home@16.svg",
+          "20": "svg/solid/navigation.home@20.svg",
+          "24": "svg/solid/navigation.home@24.svg",
+          "32": "svg/solid/navigation.home@32.svg",
+          "48": "svg/solid/navigation.home@48.svg",
+          "72": "svg/solid/navigation.home@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/navigation.home@16.svg",
+          "20": "svg/duotone/navigation.home@20.svg",
+          "24": "svg/duotone/navigation.home@24.svg",
+          "32": "svg/duotone/navigation.home@32.svg",
+          "48": "svg/duotone/navigation.home@48.svg",
+          "72": "svg/duotone/navigation.home@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/navigation.home@16.svg",
+          "20": "svg/multicolor/navigation.home@20.svg",
+          "24": "svg/multicolor/navigation.home@24.svg",
+          "32": "svg/multicolor/navigation.home@32.svg",
+          "48": "svg/multicolor/navigation.home@48.svg",
+          "72": "svg/multicolor/navigation.home@72.svg"
+        }
+      }
+    },
+    {
+      "id": "plant.growth",
+      "category": "plant",
+      "tier": "P0",
+      "verdict": "redraw",
+      "label": "Garden",
+      "files": {
+        "outline": {
+          "16": "svg/outline/plant.growth@16.svg",
+          "20": "svg/outline/plant.growth@20.svg",
+          "24": "svg/outline/plant.growth@24.svg",
+          "32": "svg/outline/plant.growth@32.svg",
+          "48": "svg/outline/plant.growth@48.svg",
+          "72": "svg/outline/plant.growth@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/plant.growth@16.svg",
+          "20": "svg/solid/plant.growth@20.svg",
+          "24": "svg/solid/plant.growth@24.svg",
+          "32": "svg/solid/plant.growth@32.svg",
+          "48": "svg/solid/plant.growth@48.svg",
+          "72": "svg/solid/plant.growth@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/plant.growth@16.svg",
+          "20": "svg/duotone/plant.growth@20.svg",
+          "24": "svg/duotone/plant.growth@24.svg",
+          "32": "svg/duotone/plant.growth@32.svg",
+          "48": "svg/duotone/plant.growth@48.svg",
+          "72": "svg/duotone/plant.growth@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/plant.growth@16.svg",
+          "20": "svg/multicolor/plant.growth@20.svg",
+          "24": "svg/multicolor/plant.growth@24.svg",
+          "32": "svg/multicolor/plant.growth@32.svg",
+          "48": "svg/multicolor/plant.growth@48.svg",
+          "72": "svg/multicolor/plant.growth@72.svg"
+        }
+      }
+    },
     {
       "id": "plant.sprout",
       "category": "plant",
@@ -46,6 +251,129 @@
           "32": "svg/multicolor/plant.sprout@32.svg",
           "48": "svg/multicolor/plant.sprout@48.svg",
           "72": "svg/multicolor/plant.sprout@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.activity",
+      "category": "utility",
+      "tier": "P0",
+      "verdict": "refine",
+      "label": "Feed",
+      "files": {
+        "outline": {
+          "16": "svg/outline/utility.activity@16.svg",
+          "20": "svg/outline/utility.activity@20.svg",
+          "24": "svg/outline/utility.activity@24.svg",
+          "32": "svg/outline/utility.activity@32.svg",
+          "48": "svg/outline/utility.activity@48.svg",
+          "72": "svg/outline/utility.activity@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/utility.activity@16.svg",
+          "20": "svg/solid/utility.activity@20.svg",
+          "24": "svg/solid/utility.activity@24.svg",
+          "32": "svg/solid/utility.activity@32.svg",
+          "48": "svg/solid/utility.activity@48.svg",
+          "72": "svg/solid/utility.activity@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/utility.activity@16.svg",
+          "20": "svg/duotone/utility.activity@20.svg",
+          "24": "svg/duotone/utility.activity@24.svg",
+          "32": "svg/duotone/utility.activity@32.svg",
+          "48": "svg/duotone/utility.activity@48.svg",
+          "72": "svg/duotone/utility.activity@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/utility.activity@16.svg",
+          "20": "svg/multicolor/utility.activity@20.svg",
+          "24": "svg/multicolor/utility.activity@24.svg",
+          "32": "svg/multicolor/utility.activity@32.svg",
+          "48": "svg/multicolor/utility.activity@48.svg",
+          "72": "svg/multicolor/utility.activity@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.message.circle",
+      "category": "utility",
+      "tier": "P0",
+      "verdict": "redraw",
+      "label": "Chat",
+      "files": {
+        "outline": {
+          "16": "svg/outline/utility.message.circle@16.svg",
+          "20": "svg/outline/utility.message.circle@20.svg",
+          "24": "svg/outline/utility.message.circle@24.svg",
+          "32": "svg/outline/utility.message.circle@32.svg",
+          "48": "svg/outline/utility.message.circle@48.svg",
+          "72": "svg/outline/utility.message.circle@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/utility.message.circle@16.svg",
+          "20": "svg/solid/utility.message.circle@20.svg",
+          "24": "svg/solid/utility.message.circle@24.svg",
+          "32": "svg/solid/utility.message.circle@32.svg",
+          "48": "svg/solid/utility.message.circle@48.svg",
+          "72": "svg/solid/utility.message.circle@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/utility.message.circle@16.svg",
+          "20": "svg/duotone/utility.message.circle@20.svg",
+          "24": "svg/duotone/utility.message.circle@24.svg",
+          "32": "svg/duotone/utility.message.circle@32.svg",
+          "48": "svg/duotone/utility.message.circle@48.svg",
+          "72": "svg/duotone/utility.message.circle@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/utility.message.circle@16.svg",
+          "20": "svg/multicolor/utility.message.circle@20.svg",
+          "24": "svg/multicolor/utility.message.circle@24.svg",
+          "32": "svg/multicolor/utility.message.circle@32.svg",
+          "48": "svg/multicolor/utility.message.circle@48.svg",
+          "72": "svg/multicolor/utility.message.circle@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.plus.circle",
+      "category": "utility",
+      "tier": "P0",
+      "verdict": "refine",
+      "label": "Add (circle)",
+      "files": {
+        "outline": {
+          "16": "svg/outline/utility.plus.circle@16.svg",
+          "20": "svg/outline/utility.plus.circle@20.svg",
+          "24": "svg/outline/utility.plus.circle@24.svg",
+          "32": "svg/outline/utility.plus.circle@32.svg",
+          "48": "svg/outline/utility.plus.circle@48.svg",
+          "72": "svg/outline/utility.plus.circle@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/utility.plus.circle@16.svg",
+          "20": "svg/solid/utility.plus.circle@20.svg",
+          "24": "svg/solid/utility.plus.circle@24.svg",
+          "32": "svg/solid/utility.plus.circle@32.svg",
+          "48": "svg/solid/utility.plus.circle@48.svg",
+          "72": "svg/solid/utility.plus.circle@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/utility.plus.circle@16.svg",
+          "20": "svg/duotone/utility.plus.circle@20.svg",
+          "24": "svg/duotone/utility.plus.circle@24.svg",
+          "32": "svg/duotone/utility.plus.circle@32.svg",
+          "48": "svg/duotone/utility.plus.circle@48.svg",
+          "72": "svg/duotone/utility.plus.circle@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/utility.plus.circle@16.svg",
+          "20": "svg/multicolor/utility.plus.circle@20.svg",
+          "24": "svg/multicolor/utility.plus.circle@24.svg",
+          "32": "svg/multicolor/utility.plus.circle@32.svg",
+          "48": "svg/multicolor/utility.plus.circle@48.svg",
+          "72": "svg/multicolor/utility.plus.circle@72.svg"
         }
       }
     }

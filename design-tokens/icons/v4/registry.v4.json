@@ -123,12 +123,904 @@
     }
   },
   "counts": {
-    "total": 1,
-    "P0": 1,
+    "total": 9,
+    "P0": 9,
     "P1": 0,
     "P2": 0
   },
   "icons": {
+    "account.user": {
+      "id": "account.user",
+      "tier": "P0",
+      "verdict": "refine",
+      "category": "account",
+      "label": "Profile",
+      "keywords": [
+        "user",
+        "profile",
+        "account",
+        "avatar"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v2": "account.user",
+        "v3": "account.user"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "ring",
+              "role": "container",
+              "nodes": [
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "12",
+                    "cy": "12",
+                    "r": "9.4"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "person",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "12",
+                    "cy": "9.4",
+                    "r": "3.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M5.6 18.9a7.9 7.9 0 0 1 12.8 0"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "ring",
+              "role": "container",
+              "nodes": [
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "12",
+                    "cy": "12",
+                    "r": "9.25"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "person",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "12",
+                    "cy": "9.6",
+                    "r": "3.3"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M5.9 18.7a7.7 7.7 0 0 1 12.2 0"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "ring",
+              "role": "container",
+              "nodes": [
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "12",
+                    "cy": "12",
+                    "r": "9.25"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "person",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "12",
+                    "cy": "9.6",
+                    "r": "3.3"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M5.9 18.7a7.7 7.7 0 0 1 12.2 0"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "paths": [
+            "M12 1.75C6.34 1.75 1.75 6.34 1.75 12c0 5.66 4.59 10.25 10.25 10.25S22.25 17.66 22.25 12 17.66 1.75 12 1.75Zm0 4.55a3.9 3.9 0 1 1 0 7.8 3.9 3.9 0 0 1 0-7.8Zm0 15a9.2 9.2 0 0 1-6.6-2.8 8.5 8.5 0 0 1 13.2 0 9.2 9.2 0 0 1-6.6 2.8Z"
+          ],
+          "counters": 2
+        },
+        "micro": {
+          "paths": [
+            "M12 1.5C6.2 1.5 1.5 6.2 1.5 12S6.2 22.5 12 22.5 22.5 17.8 22.5 12 17.8 1.5 12 1.5Zm0 4.4a4.1 4.1 0 1 1 0 8.2 4.1 4.1 0 0 1 0-8.2Zm0 15.1a9.4 9.4 0 0 1-6.8-2.9 8.7 8.7 0 0 1 13.6 0 9.4 9.4 0 0 1-6.8 2.9Z"
+          ],
+          "counters": 2
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "person"
+          ]
+        },
+        "multicolor": {
+          "ring": "ink.500",
+          "person": "leaf.700"
+        }
+      },
+      "animation": "profileNod",
+      "geometryHash": "29236164affb25b95afad2c27f64820ab6671e4c421664592eef7a68cafc4da1"
+    },
+    "action.add": {
+      "id": "action.add",
+      "tier": "P0",
+      "verdict": "refine",
+      "category": "action",
+      "label": "Add",
+      "keywords": [
+        "add",
+        "plus",
+        "new",
+        "create"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v2": "action.add",
+        "v3": "action.add"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "plus",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 5v14"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M5 12h14"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "plus",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 5.5v13"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M5.5 12h13"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "plus",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 5.5v13"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M5.5 12h13"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.2,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.4,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "plus"
+          ]
+        },
+        "multicolor": {
+          "plus": "leaf.700"
+        }
+      },
+      "animation": "addSpin",
+      "geometryHash": "21ce97ba91bff6f91640eb5bfc108c13a149f151691efc0b228b325493c049d2"
+    },
+    "calendar.date": {
+      "id": "calendar.date",
+      "tier": "P0",
+      "verdict": "refine",
+      "category": "calendar",
+      "label": "Calendar",
+      "keywords": [
+        "calendar",
+        "date",
+        "rhythm",
+        "schedule"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v2": "calendar.date",
+        "v3": "calendar.date"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "frame",
+              "role": "container",
+              "nodes": [
+                {
+                  "type": "rect",
+                  "attrs": {
+                    "x": "3.5",
+                    "y": "5.5",
+                    "width": "17",
+                    "height": "15",
+                    "rx": "3"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M3.5 10.8h17"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "rings",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8 3v4"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M16 3v4"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "date",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "12",
+                    "cy": "15.9",
+                    "r": "2"
+                  },
+                  "filled": true
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "frame",
+              "role": "container",
+              "nodes": [
+                {
+                  "type": "rect",
+                  "attrs": {
+                    "x": "3.5",
+                    "y": "5",
+                    "width": "17",
+                    "height": "15.5",
+                    "rx": "3"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M3.5 10.5h17"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "rings",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8 3v4"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M16 3v4"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "date",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "12",
+                    "cy": "15.7",
+                    "r": "1.7"
+                  },
+                  "filled": true
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "frame",
+              "role": "container",
+              "nodes": [
+                {
+                  "type": "rect",
+                  "attrs": {
+                    "x": "3.5",
+                    "y": "5",
+                    "width": "17",
+                    "height": "15.5",
+                    "rx": "3"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M3.5 10.5h17"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "rings",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8 3v4"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M16 3v4"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "date",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "9.4",
+                    "cy": "14.4",
+                    "r": "1.5"
+                  },
+                  "filled": true
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "14.6",
+                    "cy": "17",
+                    "r": "1.5"
+                  },
+                  "filled": true
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "paths": [
+            "M2.5 8a3 3 0 0 1 3-3h13a3 3 0 0 1 3 3v10.5a3 3 0 0 1-3 3h-13a3 3 0 0 1-3-3V8Zm2 3.3a.85.85 0 0 0 0 1.7h15a.85.85 0 0 0 0-1.7h-15Zm7.5 2.7a2.1 2.1 0 1 0 0 4.2 2.1 2.1 0 1 0 0-4.2Z",
+            "M7 2.5a1 1 0 0 1 2 0V7a1 1 0 0 1-2 0V2.5Z",
+            "M15 2.5a1 1 0 0 1 2 0V7a1 1 0 0 1-2 0V2.5Z"
+          ],
+          "counters": 2
+        },
+        "micro": {
+          "paths": [
+            "M2.5 8.5a3 3 0 0 1 3-3h13a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3h-13a3 3 0 0 1-3-3v-10Zm2.1 3.2a.95.95 0 0 0 0 1.9h14.8a.95.95 0 0 0 0-1.9H4.6Zm7.4 2.7a2.4 2.4 0 1 0 0 4.8 2.4 2.4 0 1 0 0-4.8Z",
+            "M6.9 2.4a1.1 1.1 0 0 1 2.2 0V7a1.1 1.1 0 0 1-2.2 0V2.4Z",
+            "M14.9 2.4a1.1 1.1 0 0 1 2.2 0V7a1.1 1.1 0 0 1-2.2 0V2.4Z"
+          ],
+          "counters": 2
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "frame",
+            "date"
+          ]
+        },
+        "multicolor": {
+          "frame": "ink.900",
+          "rings": "ink.500",
+          "date": "leaf.500"
+        }
+      },
+      "animation": "datePop",
+      "geometryHash": "f4ab84963e2fef63d4418f3df5e1aff642863e3450de0a60c144daf8ed41e78d"
+    },
+    "navigation.home": {
+      "id": "navigation.home",
+      "tier": "P0",
+      "verdict": "refine",
+      "category": "navigation",
+      "label": "Today",
+      "keywords": [
+        "home",
+        "today",
+        "house",
+        "start"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v2": "navigation.home",
+        "v3": "navigation.home"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "shell",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M3.6 10.5a2 2 0 0 1 .74-1.55l6.4-5.25a2 2 0 0 1 2.52 0l6.4 5.25a2 2 0 0 1 .74 1.55V19a2 2 0 0 1-2 2H5.6a2 2 0 0 1-2-2Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "door",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M10 21v-3.9a2 2 0 0 1 4 0V21"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "shell",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M3.9 10.4a2 2 0 0 1 .74-1.55l6.1-5a2 2 0 0 1 2.52 0l6.1 5a2 2 0 0 1 .74 1.55V19a2 2 0 0 1-2 2H5.9a2 2 0 0 1-2-2Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "door",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M10.2 21v-4.3a1.8 1.8 0 0 1 3.6 0V21"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "shell",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M3.9 10.4a2 2 0 0 1 .74-1.55l6.1-5a2 2 0 0 1 2.52 0l6.1 5a2 2 0 0 1 .74 1.55V19a2 2 0 0 1-2 2H5.9a2 2 0 0 1-2-2Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "door",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M10.2 21v-4.3a1.8 1.8 0 0 1 3.6 0V21"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "paths": [
+            "M13.55 3.06a2.9 2.9 0 0 0-3.1 0l-6.1 5A3 3 0 0 0 2.9 10.4V19a3 3 0 0 0 3 3h4.05v-4a2 2 0 0 1 4 0V22h4.05a3 3 0 0 0 3-3v-8.6a3 3 0 0 0-1.45-2.34l-6.1-5Z"
+          ],
+          "counters": 0
+        },
+        "micro": {
+          "paths": [
+            "M13.6 2.86a3 3 0 0 0-3.2 0L4 8.1a3 3 0 0 0-1.4 2.4V19a3 3 0 0 0 3 3h4.3v-3.8a2.1 2.1 0 0 1 4.2 0V22h4.3a3 3 0 0 0 3-3v-8.5A3 3 0 0 0 20 8.1L13.6 2.86Z"
+          ],
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "shell"
+          ]
+        },
+        "multicolor": {
+          "shell": "ink.900",
+          "door": "leaf.700"
+        }
+      },
+      "animation": "homeSettle",
+      "geometryHash": "51095aa7c07e64ae8685f9075e07e0c77e7593271a0c7bd455f74871a89895ea"
+    },
+    "plant.growth": {
+      "id": "plant.growth",
+      "tier": "P0",
+      "verdict": "redraw",
+      "category": "plant",
+      "label": "Garden",
+      "keywords": [
+        "garden",
+        "bed",
+        "grow",
+        "plants"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v2": "plant.growth",
+        "v3": "plant.growth"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "bed",
+              "role": "container",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M4 15.5h16v1.5a3.5 3.5 0 0 1-3.5 3.5h-9A3.5 3.5 0 0 1 4 17Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "stems",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8.8 15.5v-3"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M15.2 15.5V8.9"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaves",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8.8 12.5C7 12.9 4.7 12.1 4.2 10C4.1 9.5 4.1 9 4.2 8.5C6.8 8.1 8.7 10 8.8 12.5Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M15.2 8.9C17.1 9.3 19.4 8.5 19.9 6.3C20 5.8 20 5.3 19.9 4.8C17.3 4.4 15.3 6.3 15.2 8.9Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "bed",
+              "role": "container",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M4 15.5h16v2a3.5 3.5 0 0 1-3.5 3.5h-9A3.5 3.5 0 0 1 4 17.5Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "stems",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8.8 15.5V12"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M15.2 15.5V9.5"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaves",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8.8 12C6.9 12.4 4.6 11.6 4.1 9.4C4 8.9 4 8.4 4.1 7.9C6.7 7.5 8.7 9.4 8.8 12Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M15.2 9.5C17.1 9.9 19.4 9.1 19.9 6.9C20 6.4 20 5.9 19.9 5.4C17.3 5 15.3 6.9 15.2 9.5Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "bed",
+              "role": "container",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M4 15.5h16v2a3.5 3.5 0 0 1-3.5 3.5h-9A3.5 3.5 0 0 1 4 17.5Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M7 18.8h10"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "stems",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8.8 15.5V12"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M15.2 15.5V9.5"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaves",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8.8 12C6.9 12.4 4.6 11.6 4.1 9.4C4 8.9 4 8.4 4.1 7.9C6.7 7.5 8.7 9.4 8.8 12Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M15.2 9.5C17.1 9.9 19.4 9.1 19.9 6.9C20 6.4 20 5.9 19.9 5.4C17.3 5 15.3 6.9 15.2 9.5Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M6.2 9C7.3 9.8 8.3 10.8 8.8 12"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M17.8 6.5C16.7 7.3 15.7 8.3 15.2 9.5"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "paths": [
+            "M3 14.5h18v3A4.5 4.5 0 0 1 16.5 22h-9A4.5 4.5 0 0 1 3 17.5Z",
+            "M7.8 13.5h2V9.7h-2v3.8Z",
+            "M14.2 13.5h2V7.2h-2v6.3Z",
+            "M9.6 12.4C7.5 13.3 4.4 12.5 3.4 9.7C3.2 9 3.2 8.2 3.4 7.3C7 6.5 9.6 8.8 9.8 11.8A1 1 0 0 1 9.6 12.4Z",
+            "M14.4 9.9C16.5 10.8 19.6 10 20.6 7.2C20.8 6.5 20.8 5.7 20.6 4.8C17 4 14.4 6.3 14.2 9.3A1 1 0 0 0 14.4 9.9Z"
+          ],
+          "counters": 0
+        },
+        "micro": {
+          "paths": [
+            "M3 14.5h18v2.5A4.5 4.5 0 0 1 16.5 21.5h-9A4.5 4.5 0 0 1 3 17Z",
+            "M7.7 13.5h2.2V9.9H7.7v3.6Z",
+            "M14.1 13.5h2.2V6.8h-2.2v6.7Z",
+            "M9.8 12.9C7.5 13.9 4.3 13 3.3 10.2C3.1 9.5 3.1 8.6 3.3 7.7C7.1 6.9 9.9 9.2 10 12.3A1 1 0 0 1 9.8 12.9Z",
+            "M14.2 9.3C16.5 10.3 19.7 9.4 20.7 6.6C20.9 5.9 20.9 5 20.7 4.1C16.9 3.3 14.1 5.6 14 8.7A1 1 0 0 0 14.2 9.3Z"
+          ],
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "stems",
+            "leaves"
+          ]
+        },
+        "multicolor": {
+          "bed": "earth.600",
+          "stems": "leaf.700",
+          "leaves": "leaf.500"
+        }
+      },
+      "animation": "gardenSway",
+      "geometryHash": "94aa6cdd9263111b6c5345a3da6a00d6a064792dd94a8c26965b337c521fb388"
+    },
     "plant.sprout": {
       "id": "plant.sprout",
       "tier": "P0",
@@ -337,7 +1229,429 @@
       },
       "animation": "sproutGrow",
       "geometryHash": "125aac1d6099964d7e891205abe2ea223bdfc8fc7b2f36bfb3b463cc07023b48"
+    },
+    "utility.activity": {
+      "id": "utility.activity",
+      "tier": "P0",
+      "verdict": "refine",
+      "category": "utility",
+      "label": "Feed",
+      "keywords": [
+        "activity",
+        "feed",
+        "pulse",
+        "updates"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v2": "utility.activity",
+        "v3": "utility.activity"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "pulse",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M2.5 12h3.6L9 5.5l5.6 13 2.9-6.5h4"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "pulse",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M2.8 12h3.7L9.3 5.2l5.4 13.6 2.8-6.8h3.7"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "pulse",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M2.8 12h3.7L9.3 5.2l5.4 13.6 2.8-6.8h3.7"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "pulse"
+          ]
+        },
+        "multicolor": {
+          "pulse": "leaf.700"
+        }
+      },
+      "animation": "pulseBeat",
+      "geometryHash": "e6b20a279080c02e3ac5acfb9355f44c8ae9aa6932c8b4198e1773685a15f1a9"
+    },
+    "utility.message.circle": {
+      "id": "utility.message.circle",
+      "tier": "P0",
+      "verdict": "redraw",
+      "category": "utility",
+      "label": "Chat",
+      "keywords": [
+        "chat",
+        "message",
+        "bubble",
+        "conversation"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v2": "utility.message.circle",
+        "v3": "utility.message.circle"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "bubble",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8.1 19.6A8.5 8.5 0 1 0 4.35 15.9L3.1 20.9Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "bubble",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8.1 19.6A8.5 8.5 0 1 0 4.35 15.9L3.1 20.9Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "dots",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "8.1",
+                    "cy": "12",
+                    "r": "1.15"
+                  },
+                  "filled": true
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "11.9",
+                    "cy": "12",
+                    "r": "1.15"
+                  },
+                  "filled": true
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "15.7",
+                    "cy": "12",
+                    "r": "1.15"
+                  },
+                  "filled": true
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "bubble",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8.1 19.6A8.5 8.5 0 1 0 4.35 15.9L3.1 20.9Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "dots",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "8.1",
+                    "cy": "12",
+                    "r": "1.15"
+                  },
+                  "filled": true
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "11.9",
+                    "cy": "12",
+                    "r": "1.15"
+                  },
+                  "filled": true
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "15.7",
+                    "cy": "12",
+                    "r": "1.15"
+                  },
+                  "filled": true
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "paths": [
+            "M11.9 21.5a9.5 9.5 0 1 0 0-19 9.5 9.5 0 0 0 0 19ZM8.1 10.7a1.3 1.3 0 1 1 0 2.6 1.3 1.3 0 0 1 0-2.6Zm3.8 0a1.3 1.3 0 1 1 0 2.6 1.3 1.3 0 0 1 0-2.6Zm3.8 0a1.3 1.3 0 1 1 0 2.6 1.3 1.3 0 0 1 0-2.6Z",
+            "M8.4 19.3 3.1 20.9 4.5 15.6C5.4 17.1 6.8 18.4 8.4 19.3Z"
+          ],
+          "counters": 3
+        },
+        "micro": {
+          "paths": [
+            "M11.9 21.7a9.7 9.7 0 1 0 0-19.4 9.7 9.7 0 0 0 0 19.4Z",
+            "M8.4 19.4 3 21.1 4.4 15.5C5.3 17.1 6.8 18.5 8.4 19.4Z"
+          ],
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "bubble"
+          ]
+        },
+        "multicolor": {
+          "bubble": "leaf.700",
+          "dots": "leaf.300"
+        }
+      },
+      "animation": "chatPop",
+      "geometryHash": "1421b4c2a431b57703fc9fd4897e881880e02bf6cd9bb8f291ab9c4496c77949"
+    },
+    "utility.plus.circle": {
+      "id": "utility.plus.circle",
+      "tier": "P0",
+      "verdict": "refine",
+      "category": "utility",
+      "label": "Add (circle)",
+      "keywords": [
+        "add",
+        "plus",
+        "circle",
+        "create"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v2": "utility.plus.circle",
+        "v3": "utility.plus.circle"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "ring",
+              "role": "container",
+              "nodes": [
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "12",
+                    "cy": "12",
+                    "r": "9.4"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "plus",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 7.6v8.8"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M7.6 12h8.8"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "ring",
+              "role": "container",
+              "nodes": [
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "12",
+                    "cy": "12",
+                    "r": "9.25"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "plus",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 8v8"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8 12h8"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "ring",
+              "role": "container",
+              "nodes": [
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "12",
+                    "cy": "12",
+                    "r": "9.25"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "plus",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 8v8"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8 12h8"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "paths": [
+            "M12 1.75C6.34 1.75 1.75 6.34 1.75 12c0 5.66 4.59 10.25 10.25 10.25S22.25 17.66 22.25 12 17.66 1.75 12 1.75Zm-1.1 6.05a1.1 1.1 0 0 1 2.2 0v3.1h3.1a1.1 1.1 0 0 1 0 2.2h-3.1v3.1a1.1 1.1 0 0 1-2.2 0v-3.1H7.8a1.1 1.1 0 0 1 0-2.2h3.1V7.8Z"
+          ],
+          "counters": 1
+        },
+        "micro": {
+          "paths": [
+            "M12 1.5C6.2 1.5 1.5 6.2 1.5 12S6.2 22.5 12 22.5 22.5 17.8 22.5 12 17.8 1.5 12 1.5Zm-1.2 5.9a1.2 1.2 0 0 1 2.4 0v3.4h3.4a1.2 1.2 0 0 1 0 2.4h-3.4v3.4a1.2 1.2 0 0 1-2.4 0v-3.4H7.4a1.2 1.2 0 0 1 0-2.4h3.4V7.4Z"
+          ],
+          "counters": 1
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "plus"
+          ]
+        },
+        "multicolor": {
+          "ring": "leaf.700",
+          "plus": "leaf.500"
+        }
+      },
+      "animation": "ctaBloom",
+      "geometryHash": "1745cf2f7ed02f2959c46dd19b0b91af80cce795523f63a06a37f4877301d4e0"
     }
   },
-  "v4Hash": "c0c65b80dee3db92ddb2df6901759e46fae44321317ec12ce8a6b53747deb3a8"
+  "v4Hash": "467e42dfdc05a0d93e9b26d62c1d9a4e81591244adffcca1165662ea98bf6399"
 }

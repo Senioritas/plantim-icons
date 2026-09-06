@@ -86,17 +86,24 @@ export function icon(id, def) {
     throw new Error(`${id}: ${accessibility} icons need accessibilityLabelKey`);
   }
   if (!grades?.base?.length) throw new Error(`${id}: grades.base layers required`);
-  if (!solid?.base || !Array.isArray(solid.base.paths) || solid.base.paths.length === 0) {
-    throw new Error(`${id}: solid.base.paths required`);
-  }
-  if (!Number.isInteger(solid.base.counters) || solid.base.counters < 0) {
-    throw new Error(`${id}: solid.base.counters must be a non-negative integer`);
-  }
-  for (const g of ["micro", "display"]) {
-    if (solid[g] && !Number.isInteger(solid[g].counters)) {
-      throw new Error(`${id}: solid.${g}.counters must be declared`);
+  const validSolid = (s, g) => {
+    if (s.mode === "bold") {
+      // Line-only icons: solid = same geometry, heavier stroke. Silhouette
+      // sharing is structural, so raster gates skip bold-mode solids.
+      if (typeof s.strokeWidth !== "number" || s.strokeWidth <= 2) {
+        throw new Error(`${id}: solid.${g} bold mode needs strokeWidth > 2`);
+      }
+      if (s.counters !== 0) throw new Error(`${id}: bold-mode solid must declare counters: 0`);
+      return;
     }
-  }
+    if (!Array.isArray(s.paths) || s.paths.length === 0) throw new Error(`${id}: solid.${g}.paths required`);
+    if (!Number.isInteger(s.counters) || s.counters < 0) {
+      throw new Error(`${id}: solid.${g}.counters must be a non-negative integer`);
+    }
+  };
+  if (!solid?.base) throw new Error(`${id}: solid.base required`);
+  validSolid(solid.base, "base");
+  for (const g of ["micro", "display"]) if (solid[g]) validSolid(solid[g], g);
   const layerNames = new Set(grades.base.map((l) => l.name));
   if (layerNames.size !== grades.base.length) throw new Error(`${id}: duplicate layer names`);
   for (const g of ["micro", "display"]) {

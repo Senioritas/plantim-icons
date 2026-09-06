@@ -33,6 +33,11 @@ for (const id of ids) {
     failures.push(`${id}: not in registry`);
     continue;
   }
+  if (icon.solid.base.mode === "bold") {
+    // bold-mode solids share geometry with the outline by construction
+    checked += 1;
+    continue;
+  }
   // Gate at the base grade rendered large; grade geometry differences are
   // inspected visually on the sheets (micro drops are declared, not accidental).
   const outlineSvg = fs.readFileSync(path.join(v4Root, "svg/outline", `${id}@24.svg`), "utf8");

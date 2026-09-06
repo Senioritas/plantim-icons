@@ -71,8 +71,12 @@ export function renderSvg(iconDef, variant, size, grade, strokeWidth, tokens) {
     }
   } else if (variant === "solid") {
     const solid = gradeSolid(iconDef, grade);
-    for (const d of solid.paths) {
-      lines.push(`  <path d="${d}" fill="currentColor" fill-rule="evenodd" stroke="none" />`);
+    if (solid.mode === "bold") {
+      for (const l of layers) for (const n of l.nodes) lines.push(strokeNode(n, solid.strokeWidth, "currentColor"));
+    } else {
+      for (const d of solid.paths) {
+        lines.push(`  <path d="${d}" fill="currentColor" fill-rule="evenodd" stroke="none" />`);
+      }
     }
   } else {
     throw new Error(`unknown variant ${variant}`);
