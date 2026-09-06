@@ -1,0 +1,53 @@
+{
+  "version": "4.0.0",
+  "v4Hash": "c0c65b80dee3db92ddb2df6901759e46fae44321317ec12ce8a6b53747deb3a8",
+  "counts": {
+    "total": 1,
+    "P0": 1,
+    "P1": 0,
+    "P2": 0
+  },
+  "icons": [
+    {
+      "id": "plant.sprout",
+      "category": "plant",
+      "tier": "P0",
+      "verdict": "redraw",
+      "label": "Sprout",
+      "files": {
+        "outline": {
+          "16": "svg/outline/plant.sprout@16.svg",
+          "20": "svg/outline/plant.sprout@20.svg",
+          "24": "svg/outline/plant.sprout@24.svg",
+          "32": "svg/outline/plant.sprout@32.svg",
+          "48": "svg/outline/plant.sprout@48.svg",
+          "72": "svg/outline/plant.sprout@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/plant.sprout@16.svg",
+          "20": "svg/solid/plant.sprout@20.svg",
+          "24": "svg/solid/plant.sprout@24.svg",
+          "32": "svg/solid/plant.sprout@32.svg",
+          "48": "svg/solid/plant.sprout@48.svg",
+          "72": "svg/solid/plant.sprout@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/plant.sprout@16.svg",
+          "20": "svg/duotone/plant.sprout@20.svg",
+          "24": "svg/duotone/plant.sprout@24.svg",
+          "32": "svg/duotone/plant.sprout@32.svg",
+          "48": "svg/duotone/plant.sprout@48.svg",
+          "72": "svg/duotone/plant.sprout@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/plant.sprout@16.svg",
+          "20": "svg/multicolor/plant.sprout@20.svg",
+          "24": "svg/multicolor/plant.sprout@24.svg",
+          "32": "svg/multicolor/plant.sprout@32.svg",
+          "48": "svg/multicolor/plant.sprout@48.svg",
+          "72": "svg/multicolor/plant.sprout@72.svg"
+        }
+      }
+    }
+  ]
+}

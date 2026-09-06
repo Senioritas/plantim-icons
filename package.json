@@ -36,7 +36,10 @@
     "icons:publish:dry-run": "npm publish --workspace packages/plantim-icons --dry-run --access public",
     "icons:v3": "node design-tokens/bin/generate-v3-icons.mjs && node design-tokens/bin/check-v3-icons.mjs",
     "icons:v3:pdf": "node design-tokens/bin/generate-v3-report.mjs && node design-tokens/bin/generate-v3-catalog.mjs",
-    "icons:v3:html": "node design-tokens/bin/generate-v3-html.mjs"
+    "icons:v3:html": "node design-tokens/bin/generate-v3-html.mjs",
+    "icons:v4": "node design-tokens/bin/generate-v4-icons.mjs && node design-tokens/bin/check-v4-icons.mjs",
+    "icons:v4:raster": "node design-tokens/bin/check-v4-raster.mjs",
+    "icons:v4:sheets": "node design-tokens/bin/render-v4-sheets.mjs v4"
   },
   "devDependencies": {
     "ajv": "^8.17.1",
