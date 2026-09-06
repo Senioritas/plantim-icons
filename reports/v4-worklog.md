@@ -53,3 +53,38 @@ contact sheets + iOS/Material tab-bar mocks -> zoomed inspection.
 Gate findings that drove rework: fake-open outlines (sprout leaves), silhouette
 leaks (house), arc mis-centering (bubble), undeclared counters (avatar).
 All 9 verified in tab-bar mocks (iOS + M3, light/dark, active/inactive).
+
+## Phase 4 — P1 (2026-09-06)
+
+The six parallel P1 crafting agents hit a shared session limit and returned no
+committed work, so I crafted all 134 P1 icons inline via a deterministic
+v2->v4 transcription pipeline (design-tokens/bin/lib/v2-to-v4.mjs +
+src/p1-registry.mjs):
+
+- **keep (91):** clean Lucide geometry lifted faithfully into v4's variant/
+  grade/token system — outline from v2 nodes, honest bold-weight solids,
+  semantic per-icon multicolor, micro+base grades (display derived).
+- **refine (36) / redraw (7):** corrected the v3-audit wrong-glyph defects.
+  Most were "the right glyph plus one offending node" (a slash, a plus, an
+  exclamation, a restore-arrow) fixed by dropping that node; a handful needed
+  replacement geometry (eye open, lock closed, heart whole, real 5-point star,
+  settings gear, plain shield, full flask/database/dna, plain wind); the three
+  true redraws were hand-drawn (plant.watering drop, plant.pruning shears,
+  location.pin). Every P1 category sheet inspected zoomed and iterated.
+
+## Phase 4 — P2 (2026-09-06)
+
+94 library-tier icons transcribed into v4 (src/p2-registry.mjs): the 11 v2
+icons the app doesn't use yet (clean Lucide), and the 83 v3-custom icons
+(families, genera, garden tools, care actions, growth stages, taxonomy).
+
+Honest scope note: the v3-custom set carries the geometry authored in v3. v4
+gives all of them uniform bold-weight solids, semantic per-category color, six
+optical size grades and cross-platform parity — a real, consistent improvement
+over v3 (e.g. the three health icons now read as distinct amber/red/green
+statuses instead of v3's identical blank lenses). The metaphor-level redraws
+the audit recommended for some v3-custom icons (e.g. genus.monstera reading as
+a mask, care.watering.alt as a camera) are transcribed faithfully rather than
+hand-redrawn — deferred, and flagged here — since these are library icons the
+app does not yet consume. P0 (9) and the app's full P1 surface (134) are the
+hand-crafted / hand-corrected core.

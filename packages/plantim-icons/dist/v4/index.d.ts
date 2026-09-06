@@ -1,6 +1,6 @@
 import { type PropType } from "vue";
 export declare const PLANTIM_ICONS_V4_VERSION: "4.0.0";
-export declare const PLANTIM_ICONS_V4_HASH: "8d5fe9b18f917e8c095caf0517d42e674ebd7e2672453b9ffe210c682a95530c";
+export declare const PLANTIM_ICONS_V4_HASH: "8918930f0901ef326303681d0b07a17a8d539f03b71776012e2defbe70af3284";
 export type PlantimIconV4Variant = "outline" | "solid" | "duotone" | "multicolor";
 export type PlantimIconV4Grade = "micro" | "base" | "display";
 export type PlantimIconV4Tier = "P0" | "P1" | "P2";

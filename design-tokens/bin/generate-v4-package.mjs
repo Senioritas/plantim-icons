@@ -31,7 +31,8 @@ const gradeOrder = ["micro", "base", "display"];
 
 function pascalCase(id) {
   return id
-    .split(".")
+    .split(/[.\-]/)
+    .filter(Boolean)
     .map((part) => part[0].toUpperCase() + part.slice(1))
     .join("");
 }

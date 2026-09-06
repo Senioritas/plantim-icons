@@ -1,11 +1,11 @@
 {
   "version": "4.0.0",
-  "v4Hash": "8d5fe9b18f917e8c095caf0517d42e674ebd7e2672453b9ffe210c682a95530c",
+  "v4Hash": "8918930f0901ef326303681d0b07a17a8d539f03b71776012e2defbe70af3284",
   "counts": {
-    "total": 143,
+    "total": 237,
     "P0": 9,
     "P1": 134,
-    "P2": 0
+    "P2": 94
   },
   "icons": [
     {
@@ -337,6 +337,2302 @@
       }
     },
     {
+      "id": "care.fertilizing",
+      "category": "care",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Fertilizing",
+      "files": {
+        "outline": {
+          "16": "svg/outline/care.fertilizing@16.svg",
+          "20": "svg/outline/care.fertilizing@20.svg",
+          "24": "svg/outline/care.fertilizing@24.svg",
+          "32": "svg/outline/care.fertilizing@32.svg",
+          "48": "svg/outline/care.fertilizing@48.svg",
+          "72": "svg/outline/care.fertilizing@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/care.fertilizing@16.svg",
+          "20": "svg/solid/care.fertilizing@20.svg",
+          "24": "svg/solid/care.fertilizing@24.svg",
+          "32": "svg/solid/care.fertilizing@32.svg",
+          "48": "svg/solid/care.fertilizing@48.svg",
+          "72": "svg/solid/care.fertilizing@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/care.fertilizing@16.svg",
+          "20": "svg/duotone/care.fertilizing@20.svg",
+          "24": "svg/duotone/care.fertilizing@24.svg",
+          "32": "svg/duotone/care.fertilizing@32.svg",
+          "48": "svg/duotone/care.fertilizing@48.svg",
+          "72": "svg/duotone/care.fertilizing@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/care.fertilizing@16.svg",
+          "20": "svg/multicolor/care.fertilizing@20.svg",
+          "24": "svg/multicolor/care.fertilizing@24.svg",
+          "32": "svg/multicolor/care.fertilizing@32.svg",
+          "48": "svg/multicolor/care.fertilizing@48.svg",
+          "72": "svg/multicolor/care.fertilizing@72.svg"
+        }
+      }
+    },
+    {
+      "id": "care.fertilizing.alt",
+      "category": "care",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Fertilizing Alt",
+      "files": {
+        "outline": {
+          "16": "svg/outline/care.fertilizing.alt@16.svg",
+          "20": "svg/outline/care.fertilizing.alt@20.svg",
+          "24": "svg/outline/care.fertilizing.alt@24.svg",
+          "32": "svg/outline/care.fertilizing.alt@32.svg",
+          "48": "svg/outline/care.fertilizing.alt@48.svg",
+          "72": "svg/outline/care.fertilizing.alt@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/care.fertilizing.alt@16.svg",
+          "20": "svg/solid/care.fertilizing.alt@20.svg",
+          "24": "svg/solid/care.fertilizing.alt@24.svg",
+          "32": "svg/solid/care.fertilizing.alt@32.svg",
+          "48": "svg/solid/care.fertilizing.alt@48.svg",
+          "72": "svg/solid/care.fertilizing.alt@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/care.fertilizing.alt@16.svg",
+          "20": "svg/duotone/care.fertilizing.alt@20.svg",
+          "24": "svg/duotone/care.fertilizing.alt@24.svg",
+          "32": "svg/duotone/care.fertilizing.alt@32.svg",
+          "48": "svg/duotone/care.fertilizing.alt@48.svg",
+          "72": "svg/duotone/care.fertilizing.alt@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/care.fertilizing.alt@16.svg",
+          "20": "svg/multicolor/care.fertilizing.alt@20.svg",
+          "24": "svg/multicolor/care.fertilizing.alt@24.svg",
+          "32": "svg/multicolor/care.fertilizing.alt@32.svg",
+          "48": "svg/multicolor/care.fertilizing.alt@48.svg",
+          "72": "svg/multicolor/care.fertilizing.alt@72.svg"
+        }
+      }
+    },
+    {
+      "id": "care.log",
+      "category": "care",
+      "tier": "P2",
+      "verdict": "refine",
+      "label": "Log",
+      "files": {
+        "outline": {
+          "16": "svg/outline/care.log@16.svg",
+          "20": "svg/outline/care.log@20.svg",
+          "24": "svg/outline/care.log@24.svg",
+          "32": "svg/outline/care.log@32.svg",
+          "48": "svg/outline/care.log@48.svg",
+          "72": "svg/outline/care.log@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/care.log@16.svg",
+          "20": "svg/solid/care.log@20.svg",
+          "24": "svg/solid/care.log@24.svg",
+          "32": "svg/solid/care.log@32.svg",
+          "48": "svg/solid/care.log@48.svg",
+          "72": "svg/solid/care.log@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/care.log@16.svg",
+          "20": "svg/duotone/care.log@20.svg",
+          "24": "svg/duotone/care.log@24.svg",
+          "32": "svg/duotone/care.log@32.svg",
+          "48": "svg/duotone/care.log@48.svg",
+          "72": "svg/duotone/care.log@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/care.log@16.svg",
+          "20": "svg/multicolor/care.log@20.svg",
+          "24": "svg/multicolor/care.log@24.svg",
+          "32": "svg/multicolor/care.log@32.svg",
+          "48": "svg/multicolor/care.log@48.svg",
+          "72": "svg/multicolor/care.log@72.svg"
+        }
+      }
+    },
+    {
+      "id": "care.pruning",
+      "category": "care",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Pruning",
+      "files": {
+        "outline": {
+          "16": "svg/outline/care.pruning@16.svg",
+          "20": "svg/outline/care.pruning@20.svg",
+          "24": "svg/outline/care.pruning@24.svg",
+          "32": "svg/outline/care.pruning@32.svg",
+          "48": "svg/outline/care.pruning@48.svg",
+          "72": "svg/outline/care.pruning@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/care.pruning@16.svg",
+          "20": "svg/solid/care.pruning@20.svg",
+          "24": "svg/solid/care.pruning@24.svg",
+          "32": "svg/solid/care.pruning@32.svg",
+          "48": "svg/solid/care.pruning@48.svg",
+          "72": "svg/solid/care.pruning@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/care.pruning@16.svg",
+          "20": "svg/duotone/care.pruning@20.svg",
+          "24": "svg/duotone/care.pruning@24.svg",
+          "32": "svg/duotone/care.pruning@32.svg",
+          "48": "svg/duotone/care.pruning@48.svg",
+          "72": "svg/duotone/care.pruning@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/care.pruning@16.svg",
+          "20": "svg/multicolor/care.pruning@20.svg",
+          "24": "svg/multicolor/care.pruning@24.svg",
+          "32": "svg/multicolor/care.pruning@32.svg",
+          "48": "svg/multicolor/care.pruning@48.svg",
+          "72": "svg/multicolor/care.pruning@72.svg"
+        }
+      }
+    },
+    {
+      "id": "care.pruning.alt",
+      "category": "care",
+      "tier": "P2",
+      "verdict": "refine",
+      "label": "Pruning Alt",
+      "files": {
+        "outline": {
+          "16": "svg/outline/care.pruning.alt@16.svg",
+          "20": "svg/outline/care.pruning.alt@20.svg",
+          "24": "svg/outline/care.pruning.alt@24.svg",
+          "32": "svg/outline/care.pruning.alt@32.svg",
+          "48": "svg/outline/care.pruning.alt@48.svg",
+          "72": "svg/outline/care.pruning.alt@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/care.pruning.alt@16.svg",
+          "20": "svg/solid/care.pruning.alt@20.svg",
+          "24": "svg/solid/care.pruning.alt@24.svg",
+          "32": "svg/solid/care.pruning.alt@32.svg",
+          "48": "svg/solid/care.pruning.alt@48.svg",
+          "72": "svg/solid/care.pruning.alt@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/care.pruning.alt@16.svg",
+          "20": "svg/duotone/care.pruning.alt@20.svg",
+          "24": "svg/duotone/care.pruning.alt@24.svg",
+          "32": "svg/duotone/care.pruning.alt@32.svg",
+          "48": "svg/duotone/care.pruning.alt@48.svg",
+          "72": "svg/duotone/care.pruning.alt@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/care.pruning.alt@16.svg",
+          "20": "svg/multicolor/care.pruning.alt@20.svg",
+          "24": "svg/multicolor/care.pruning.alt@24.svg",
+          "32": "svg/multicolor/care.pruning.alt@32.svg",
+          "48": "svg/multicolor/care.pruning.alt@48.svg",
+          "72": "svg/multicolor/care.pruning.alt@72.svg"
+        }
+      }
+    },
+    {
+      "id": "care.reminder",
+      "category": "care",
+      "tier": "P2",
+      "verdict": "refine",
+      "label": "Reminder",
+      "files": {
+        "outline": {
+          "16": "svg/outline/care.reminder@16.svg",
+          "20": "svg/outline/care.reminder@20.svg",
+          "24": "svg/outline/care.reminder@24.svg",
+          "32": "svg/outline/care.reminder@32.svg",
+          "48": "svg/outline/care.reminder@48.svg",
+          "72": "svg/outline/care.reminder@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/care.reminder@16.svg",
+          "20": "svg/solid/care.reminder@20.svg",
+          "24": "svg/solid/care.reminder@24.svg",
+          "32": "svg/solid/care.reminder@32.svg",
+          "48": "svg/solid/care.reminder@48.svg",
+          "72": "svg/solid/care.reminder@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/care.reminder@16.svg",
+          "20": "svg/duotone/care.reminder@20.svg",
+          "24": "svg/duotone/care.reminder@24.svg",
+          "32": "svg/duotone/care.reminder@32.svg",
+          "48": "svg/duotone/care.reminder@48.svg",
+          "72": "svg/duotone/care.reminder@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/care.reminder@16.svg",
+          "20": "svg/multicolor/care.reminder@20.svg",
+          "24": "svg/multicolor/care.reminder@24.svg",
+          "32": "svg/multicolor/care.reminder@32.svg",
+          "48": "svg/multicolor/care.reminder@48.svg",
+          "72": "svg/multicolor/care.reminder@72.svg"
+        }
+      }
+    },
+    {
+      "id": "care.repotting",
+      "category": "care",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Repotting",
+      "files": {
+        "outline": {
+          "16": "svg/outline/care.repotting@16.svg",
+          "20": "svg/outline/care.repotting@20.svg",
+          "24": "svg/outline/care.repotting@24.svg",
+          "32": "svg/outline/care.repotting@32.svg",
+          "48": "svg/outline/care.repotting@48.svg",
+          "72": "svg/outline/care.repotting@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/care.repotting@16.svg",
+          "20": "svg/solid/care.repotting@20.svg",
+          "24": "svg/solid/care.repotting@24.svg",
+          "32": "svg/solid/care.repotting@32.svg",
+          "48": "svg/solid/care.repotting@48.svg",
+          "72": "svg/solid/care.repotting@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/care.repotting@16.svg",
+          "20": "svg/duotone/care.repotting@20.svg",
+          "24": "svg/duotone/care.repotting@24.svg",
+          "32": "svg/duotone/care.repotting@32.svg",
+          "48": "svg/duotone/care.repotting@48.svg",
+          "72": "svg/duotone/care.repotting@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/care.repotting@16.svg",
+          "20": "svg/multicolor/care.repotting@20.svg",
+          "24": "svg/multicolor/care.repotting@24.svg",
+          "32": "svg/multicolor/care.repotting@32.svg",
+          "48": "svg/multicolor/care.repotting@48.svg",
+          "72": "svg/multicolor/care.repotting@72.svg"
+        }
+      }
+    },
+    {
+      "id": "care.repotting.alt",
+      "category": "care",
+      "tier": "P2",
+      "verdict": "refine",
+      "label": "Repotting Alt",
+      "files": {
+        "outline": {
+          "16": "svg/outline/care.repotting.alt@16.svg",
+          "20": "svg/outline/care.repotting.alt@20.svg",
+          "24": "svg/outline/care.repotting.alt@24.svg",
+          "32": "svg/outline/care.repotting.alt@32.svg",
+          "48": "svg/outline/care.repotting.alt@48.svg",
+          "72": "svg/outline/care.repotting.alt@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/care.repotting.alt@16.svg",
+          "20": "svg/solid/care.repotting.alt@20.svg",
+          "24": "svg/solid/care.repotting.alt@24.svg",
+          "32": "svg/solid/care.repotting.alt@32.svg",
+          "48": "svg/solid/care.repotting.alt@48.svg",
+          "72": "svg/solid/care.repotting.alt@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/care.repotting.alt@16.svg",
+          "20": "svg/duotone/care.repotting.alt@20.svg",
+          "24": "svg/duotone/care.repotting.alt@24.svg",
+          "32": "svg/duotone/care.repotting.alt@32.svg",
+          "48": "svg/duotone/care.repotting.alt@48.svg",
+          "72": "svg/duotone/care.repotting.alt@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/care.repotting.alt@16.svg",
+          "20": "svg/multicolor/care.repotting.alt@20.svg",
+          "24": "svg/multicolor/care.repotting.alt@24.svg",
+          "32": "svg/multicolor/care.repotting.alt@32.svg",
+          "48": "svg/multicolor/care.repotting.alt@48.svg",
+          "72": "svg/multicolor/care.repotting.alt@72.svg"
+        }
+      }
+    },
+    {
+      "id": "care.suggestion",
+      "category": "care",
+      "tier": "P2",
+      "verdict": "refine",
+      "label": "Suggestion",
+      "files": {
+        "outline": {
+          "16": "svg/outline/care.suggestion@16.svg",
+          "20": "svg/outline/care.suggestion@20.svg",
+          "24": "svg/outline/care.suggestion@24.svg",
+          "32": "svg/outline/care.suggestion@32.svg",
+          "48": "svg/outline/care.suggestion@48.svg",
+          "72": "svg/outline/care.suggestion@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/care.suggestion@16.svg",
+          "20": "svg/solid/care.suggestion@20.svg",
+          "24": "svg/solid/care.suggestion@24.svg",
+          "32": "svg/solid/care.suggestion@32.svg",
+          "48": "svg/solid/care.suggestion@48.svg",
+          "72": "svg/solid/care.suggestion@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/care.suggestion@16.svg",
+          "20": "svg/duotone/care.suggestion@20.svg",
+          "24": "svg/duotone/care.suggestion@24.svg",
+          "32": "svg/duotone/care.suggestion@32.svg",
+          "48": "svg/duotone/care.suggestion@48.svg",
+          "72": "svg/duotone/care.suggestion@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/care.suggestion@16.svg",
+          "20": "svg/multicolor/care.suggestion@20.svg",
+          "24": "svg/multicolor/care.suggestion@24.svg",
+          "32": "svg/multicolor/care.suggestion@32.svg",
+          "48": "svg/multicolor/care.suggestion@48.svg",
+          "72": "svg/multicolor/care.suggestion@72.svg"
+        }
+      }
+    },
+    {
+      "id": "care.watering",
+      "category": "care",
+      "tier": "P2",
+      "verdict": "refine",
+      "label": "Watering",
+      "files": {
+        "outline": {
+          "16": "svg/outline/care.watering@16.svg",
+          "20": "svg/outline/care.watering@20.svg",
+          "24": "svg/outline/care.watering@24.svg",
+          "32": "svg/outline/care.watering@32.svg",
+          "48": "svg/outline/care.watering@48.svg",
+          "72": "svg/outline/care.watering@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/care.watering@16.svg",
+          "20": "svg/solid/care.watering@20.svg",
+          "24": "svg/solid/care.watering@24.svg",
+          "32": "svg/solid/care.watering@32.svg",
+          "48": "svg/solid/care.watering@48.svg",
+          "72": "svg/solid/care.watering@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/care.watering@16.svg",
+          "20": "svg/duotone/care.watering@20.svg",
+          "24": "svg/duotone/care.watering@24.svg",
+          "32": "svg/duotone/care.watering@32.svg",
+          "48": "svg/duotone/care.watering@48.svg",
+          "72": "svg/duotone/care.watering@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/care.watering@16.svg",
+          "20": "svg/multicolor/care.watering@20.svg",
+          "24": "svg/multicolor/care.watering@24.svg",
+          "32": "svg/multicolor/care.watering@32.svg",
+          "48": "svg/multicolor/care.watering@48.svg",
+          "72": "svg/multicolor/care.watering@72.svg"
+        }
+      }
+    },
+    {
+      "id": "care.watering.alt",
+      "category": "care",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Watering Alt",
+      "files": {
+        "outline": {
+          "16": "svg/outline/care.watering.alt@16.svg",
+          "20": "svg/outline/care.watering.alt@20.svg",
+          "24": "svg/outline/care.watering.alt@24.svg",
+          "32": "svg/outline/care.watering.alt@32.svg",
+          "48": "svg/outline/care.watering.alt@48.svg",
+          "72": "svg/outline/care.watering.alt@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/care.watering.alt@16.svg",
+          "20": "svg/solid/care.watering.alt@20.svg",
+          "24": "svg/solid/care.watering.alt@24.svg",
+          "32": "svg/solid/care.watering.alt@32.svg",
+          "48": "svg/solid/care.watering.alt@48.svg",
+          "72": "svg/solid/care.watering.alt@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/care.watering.alt@16.svg",
+          "20": "svg/duotone/care.watering.alt@20.svg",
+          "24": "svg/duotone/care.watering.alt@24.svg",
+          "32": "svg/duotone/care.watering.alt@32.svg",
+          "48": "svg/duotone/care.watering.alt@48.svg",
+          "72": "svg/duotone/care.watering.alt@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/care.watering.alt@16.svg",
+          "20": "svg/multicolor/care.watering.alt@20.svg",
+          "24": "svg/multicolor/care.watering.alt@24.svg",
+          "32": "svg/multicolor/care.watering.alt@32.svg",
+          "48": "svg/multicolor/care.watering.alt@48.svg",
+          "72": "svg/multicolor/care.watering.alt@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.apiaceae",
+      "category": "family",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Apiaceae",
+      "files": {
+        "outline": {
+          "16": "svg/outline/family.apiaceae@16.svg",
+          "20": "svg/outline/family.apiaceae@20.svg",
+          "24": "svg/outline/family.apiaceae@24.svg",
+          "32": "svg/outline/family.apiaceae@32.svg",
+          "48": "svg/outline/family.apiaceae@48.svg",
+          "72": "svg/outline/family.apiaceae@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/family.apiaceae@16.svg",
+          "20": "svg/solid/family.apiaceae@20.svg",
+          "24": "svg/solid/family.apiaceae@24.svg",
+          "32": "svg/solid/family.apiaceae@32.svg",
+          "48": "svg/solid/family.apiaceae@48.svg",
+          "72": "svg/solid/family.apiaceae@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/family.apiaceae@16.svg",
+          "20": "svg/duotone/family.apiaceae@20.svg",
+          "24": "svg/duotone/family.apiaceae@24.svg",
+          "32": "svg/duotone/family.apiaceae@32.svg",
+          "48": "svg/duotone/family.apiaceae@48.svg",
+          "72": "svg/duotone/family.apiaceae@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/family.apiaceae@16.svg",
+          "20": "svg/multicolor/family.apiaceae@20.svg",
+          "24": "svg/multicolor/family.apiaceae@24.svg",
+          "32": "svg/multicolor/family.apiaceae@32.svg",
+          "48": "svg/multicolor/family.apiaceae@48.svg",
+          "72": "svg/multicolor/family.apiaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.araceae",
+      "category": "family",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Araceae",
+      "files": {
+        "outline": {
+          "16": "svg/outline/family.araceae@16.svg",
+          "20": "svg/outline/family.araceae@20.svg",
+          "24": "svg/outline/family.araceae@24.svg",
+          "32": "svg/outline/family.araceae@32.svg",
+          "48": "svg/outline/family.araceae@48.svg",
+          "72": "svg/outline/family.araceae@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/family.araceae@16.svg",
+          "20": "svg/solid/family.araceae@20.svg",
+          "24": "svg/solid/family.araceae@24.svg",
+          "32": "svg/solid/family.araceae@32.svg",
+          "48": "svg/solid/family.araceae@48.svg",
+          "72": "svg/solid/family.araceae@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/family.araceae@16.svg",
+          "20": "svg/duotone/family.araceae@20.svg",
+          "24": "svg/duotone/family.araceae@24.svg",
+          "32": "svg/duotone/family.araceae@32.svg",
+          "48": "svg/duotone/family.araceae@48.svg",
+          "72": "svg/duotone/family.araceae@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/family.araceae@16.svg",
+          "20": "svg/multicolor/family.araceae@20.svg",
+          "24": "svg/multicolor/family.araceae@24.svg",
+          "32": "svg/multicolor/family.araceae@32.svg",
+          "48": "svg/multicolor/family.araceae@48.svg",
+          "72": "svg/multicolor/family.araceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.arecaceae",
+      "category": "family",
+      "tier": "P2",
+      "verdict": "refine",
+      "label": "Arecaceae",
+      "files": {
+        "outline": {
+          "16": "svg/outline/family.arecaceae@16.svg",
+          "20": "svg/outline/family.arecaceae@20.svg",
+          "24": "svg/outline/family.arecaceae@24.svg",
+          "32": "svg/outline/family.arecaceae@32.svg",
+          "48": "svg/outline/family.arecaceae@48.svg",
+          "72": "svg/outline/family.arecaceae@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/family.arecaceae@16.svg",
+          "20": "svg/solid/family.arecaceae@20.svg",
+          "24": "svg/solid/family.arecaceae@24.svg",
+          "32": "svg/solid/family.arecaceae@32.svg",
+          "48": "svg/solid/family.arecaceae@48.svg",
+          "72": "svg/solid/family.arecaceae@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/family.arecaceae@16.svg",
+          "20": "svg/duotone/family.arecaceae@20.svg",
+          "24": "svg/duotone/family.arecaceae@24.svg",
+          "32": "svg/duotone/family.arecaceae@32.svg",
+          "48": "svg/duotone/family.arecaceae@48.svg",
+          "72": "svg/duotone/family.arecaceae@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/family.arecaceae@16.svg",
+          "20": "svg/multicolor/family.arecaceae@20.svg",
+          "24": "svg/multicolor/family.arecaceae@24.svg",
+          "32": "svg/multicolor/family.arecaceae@32.svg",
+          "48": "svg/multicolor/family.arecaceae@48.svg",
+          "72": "svg/multicolor/family.arecaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.asparagaceae",
+      "category": "family",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Asparagaceae",
+      "files": {
+        "outline": {
+          "16": "svg/outline/family.asparagaceae@16.svg",
+          "20": "svg/outline/family.asparagaceae@20.svg",
+          "24": "svg/outline/family.asparagaceae@24.svg",
+          "32": "svg/outline/family.asparagaceae@32.svg",
+          "48": "svg/outline/family.asparagaceae@48.svg",
+          "72": "svg/outline/family.asparagaceae@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/family.asparagaceae@16.svg",
+          "20": "svg/solid/family.asparagaceae@20.svg",
+          "24": "svg/solid/family.asparagaceae@24.svg",
+          "32": "svg/solid/family.asparagaceae@32.svg",
+          "48": "svg/solid/family.asparagaceae@48.svg",
+          "72": "svg/solid/family.asparagaceae@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/family.asparagaceae@16.svg",
+          "20": "svg/duotone/family.asparagaceae@20.svg",
+          "24": "svg/duotone/family.asparagaceae@24.svg",
+          "32": "svg/duotone/family.asparagaceae@32.svg",
+          "48": "svg/duotone/family.asparagaceae@48.svg",
+          "72": "svg/duotone/family.asparagaceae@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/family.asparagaceae@16.svg",
+          "20": "svg/multicolor/family.asparagaceae@20.svg",
+          "24": "svg/multicolor/family.asparagaceae@24.svg",
+          "32": "svg/multicolor/family.asparagaceae@32.svg",
+          "48": "svg/multicolor/family.asparagaceae@48.svg",
+          "72": "svg/multicolor/family.asparagaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.asphodelaceae",
+      "category": "family",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Asphodelaceae",
+      "files": {
+        "outline": {
+          "16": "svg/outline/family.asphodelaceae@16.svg",
+          "20": "svg/outline/family.asphodelaceae@20.svg",
+          "24": "svg/outline/family.asphodelaceae@24.svg",
+          "32": "svg/outline/family.asphodelaceae@32.svg",
+          "48": "svg/outline/family.asphodelaceae@48.svg",
+          "72": "svg/outline/family.asphodelaceae@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/family.asphodelaceae@16.svg",
+          "20": "svg/solid/family.asphodelaceae@20.svg",
+          "24": "svg/solid/family.asphodelaceae@24.svg",
+          "32": "svg/solid/family.asphodelaceae@32.svg",
+          "48": "svg/solid/family.asphodelaceae@48.svg",
+          "72": "svg/solid/family.asphodelaceae@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/family.asphodelaceae@16.svg",
+          "20": "svg/duotone/family.asphodelaceae@20.svg",
+          "24": "svg/duotone/family.asphodelaceae@24.svg",
+          "32": "svg/duotone/family.asphodelaceae@32.svg",
+          "48": "svg/duotone/family.asphodelaceae@48.svg",
+          "72": "svg/duotone/family.asphodelaceae@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/family.asphodelaceae@16.svg",
+          "20": "svg/multicolor/family.asphodelaceae@20.svg",
+          "24": "svg/multicolor/family.asphodelaceae@24.svg",
+          "32": "svg/multicolor/family.asphodelaceae@32.svg",
+          "48": "svg/multicolor/family.asphodelaceae@48.svg",
+          "72": "svg/multicolor/family.asphodelaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.begoniaceae",
+      "category": "family",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Begoniaceae",
+      "files": {
+        "outline": {
+          "16": "svg/outline/family.begoniaceae@16.svg",
+          "20": "svg/outline/family.begoniaceae@20.svg",
+          "24": "svg/outline/family.begoniaceae@24.svg",
+          "32": "svg/outline/family.begoniaceae@32.svg",
+          "48": "svg/outline/family.begoniaceae@48.svg",
+          "72": "svg/outline/family.begoniaceae@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/family.begoniaceae@16.svg",
+          "20": "svg/solid/family.begoniaceae@20.svg",
+          "24": "svg/solid/family.begoniaceae@24.svg",
+          "32": "svg/solid/family.begoniaceae@32.svg",
+          "48": "svg/solid/family.begoniaceae@48.svg",
+          "72": "svg/solid/family.begoniaceae@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/family.begoniaceae@16.svg",
+          "20": "svg/duotone/family.begoniaceae@20.svg",
+          "24": "svg/duotone/family.begoniaceae@24.svg",
+          "32": "svg/duotone/family.begoniaceae@32.svg",
+          "48": "svg/duotone/family.begoniaceae@48.svg",
+          "72": "svg/duotone/family.begoniaceae@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/family.begoniaceae@16.svg",
+          "20": "svg/multicolor/family.begoniaceae@20.svg",
+          "24": "svg/multicolor/family.begoniaceae@24.svg",
+          "32": "svg/multicolor/family.begoniaceae@32.svg",
+          "48": "svg/multicolor/family.begoniaceae@48.svg",
+          "72": "svg/multicolor/family.begoniaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.bromeliaceae",
+      "category": "family",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Bromeliaceae",
+      "files": {
+        "outline": {
+          "16": "svg/outline/family.bromeliaceae@16.svg",
+          "20": "svg/outline/family.bromeliaceae@20.svg",
+          "24": "svg/outline/family.bromeliaceae@24.svg",
+          "32": "svg/outline/family.bromeliaceae@32.svg",
+          "48": "svg/outline/family.bromeliaceae@48.svg",
+          "72": "svg/outline/family.bromeliaceae@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/family.bromeliaceae@16.svg",
+          "20": "svg/solid/family.bromeliaceae@20.svg",
+          "24": "svg/solid/family.bromeliaceae@24.svg",
+          "32": "svg/solid/family.bromeliaceae@32.svg",
+          "48": "svg/solid/family.bromeliaceae@48.svg",
+          "72": "svg/solid/family.bromeliaceae@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/family.bromeliaceae@16.svg",
+          "20": "svg/duotone/family.bromeliaceae@20.svg",
+          "24": "svg/duotone/family.bromeliaceae@24.svg",
+          "32": "svg/duotone/family.bromeliaceae@32.svg",
+          "48": "svg/duotone/family.bromeliaceae@48.svg",
+          "72": "svg/duotone/family.bromeliaceae@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/family.bromeliaceae@16.svg",
+          "20": "svg/multicolor/family.bromeliaceae@20.svg",
+          "24": "svg/multicolor/family.bromeliaceae@24.svg",
+          "32": "svg/multicolor/family.bromeliaceae@32.svg",
+          "48": "svg/multicolor/family.bromeliaceae@48.svg",
+          "72": "svg/multicolor/family.bromeliaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.cactaceae",
+      "category": "family",
+      "tier": "P2",
+      "verdict": "refine",
+      "label": "Cactaceae",
+      "files": {
+        "outline": {
+          "16": "svg/outline/family.cactaceae@16.svg",
+          "20": "svg/outline/family.cactaceae@20.svg",
+          "24": "svg/outline/family.cactaceae@24.svg",
+          "32": "svg/outline/family.cactaceae@32.svg",
+          "48": "svg/outline/family.cactaceae@48.svg",
+          "72": "svg/outline/family.cactaceae@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/family.cactaceae@16.svg",
+          "20": "svg/solid/family.cactaceae@20.svg",
+          "24": "svg/solid/family.cactaceae@24.svg",
+          "32": "svg/solid/family.cactaceae@32.svg",
+          "48": "svg/solid/family.cactaceae@48.svg",
+          "72": "svg/solid/family.cactaceae@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/family.cactaceae@16.svg",
+          "20": "svg/duotone/family.cactaceae@20.svg",
+          "24": "svg/duotone/family.cactaceae@24.svg",
+          "32": "svg/duotone/family.cactaceae@32.svg",
+          "48": "svg/duotone/family.cactaceae@48.svg",
+          "72": "svg/duotone/family.cactaceae@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/family.cactaceae@16.svg",
+          "20": "svg/multicolor/family.cactaceae@20.svg",
+          "24": "svg/multicolor/family.cactaceae@24.svg",
+          "32": "svg/multicolor/family.cactaceae@32.svg",
+          "48": "svg/multicolor/family.cactaceae@48.svg",
+          "72": "svg/multicolor/family.cactaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.crassulaceae",
+      "category": "family",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Crassulaceae",
+      "files": {
+        "outline": {
+          "16": "svg/outline/family.crassulaceae@16.svg",
+          "20": "svg/outline/family.crassulaceae@20.svg",
+          "24": "svg/outline/family.crassulaceae@24.svg",
+          "32": "svg/outline/family.crassulaceae@32.svg",
+          "48": "svg/outline/family.crassulaceae@48.svg",
+          "72": "svg/outline/family.crassulaceae@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/family.crassulaceae@16.svg",
+          "20": "svg/solid/family.crassulaceae@20.svg",
+          "24": "svg/solid/family.crassulaceae@24.svg",
+          "32": "svg/solid/family.crassulaceae@32.svg",
+          "48": "svg/solid/family.crassulaceae@48.svg",
+          "72": "svg/solid/family.crassulaceae@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/family.crassulaceae@16.svg",
+          "20": "svg/duotone/family.crassulaceae@20.svg",
+          "24": "svg/duotone/family.crassulaceae@24.svg",
+          "32": "svg/duotone/family.crassulaceae@32.svg",
+          "48": "svg/duotone/family.crassulaceae@48.svg",
+          "72": "svg/duotone/family.crassulaceae@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/family.crassulaceae@16.svg",
+          "20": "svg/multicolor/family.crassulaceae@20.svg",
+          "24": "svg/multicolor/family.crassulaceae@24.svg",
+          "32": "svg/multicolor/family.crassulaceae@32.svg",
+          "48": "svg/multicolor/family.crassulaceae@48.svg",
+          "72": "svg/multicolor/family.crassulaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.lamiaceae",
+      "category": "family",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Lamiaceae",
+      "files": {
+        "outline": {
+          "16": "svg/outline/family.lamiaceae@16.svg",
+          "20": "svg/outline/family.lamiaceae@20.svg",
+          "24": "svg/outline/family.lamiaceae@24.svg",
+          "32": "svg/outline/family.lamiaceae@32.svg",
+          "48": "svg/outline/family.lamiaceae@48.svg",
+          "72": "svg/outline/family.lamiaceae@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/family.lamiaceae@16.svg",
+          "20": "svg/solid/family.lamiaceae@20.svg",
+          "24": "svg/solid/family.lamiaceae@24.svg",
+          "32": "svg/solid/family.lamiaceae@32.svg",
+          "48": "svg/solid/family.lamiaceae@48.svg",
+          "72": "svg/solid/family.lamiaceae@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/family.lamiaceae@16.svg",
+          "20": "svg/duotone/family.lamiaceae@20.svg",
+          "24": "svg/duotone/family.lamiaceae@24.svg",
+          "32": "svg/duotone/family.lamiaceae@32.svg",
+          "48": "svg/duotone/family.lamiaceae@48.svg",
+          "72": "svg/duotone/family.lamiaceae@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/family.lamiaceae@16.svg",
+          "20": "svg/multicolor/family.lamiaceae@20.svg",
+          "24": "svg/multicolor/family.lamiaceae@24.svg",
+          "32": "svg/multicolor/family.lamiaceae@32.svg",
+          "48": "svg/multicolor/family.lamiaceae@48.svg",
+          "72": "svg/multicolor/family.lamiaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.marantaceae",
+      "category": "family",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Marantaceae",
+      "files": {
+        "outline": {
+          "16": "svg/outline/family.marantaceae@16.svg",
+          "20": "svg/outline/family.marantaceae@20.svg",
+          "24": "svg/outline/family.marantaceae@24.svg",
+          "32": "svg/outline/family.marantaceae@32.svg",
+          "48": "svg/outline/family.marantaceae@48.svg",
+          "72": "svg/outline/family.marantaceae@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/family.marantaceae@16.svg",
+          "20": "svg/solid/family.marantaceae@20.svg",
+          "24": "svg/solid/family.marantaceae@24.svg",
+          "32": "svg/solid/family.marantaceae@32.svg",
+          "48": "svg/solid/family.marantaceae@48.svg",
+          "72": "svg/solid/family.marantaceae@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/family.marantaceae@16.svg",
+          "20": "svg/duotone/family.marantaceae@20.svg",
+          "24": "svg/duotone/family.marantaceae@24.svg",
+          "32": "svg/duotone/family.marantaceae@32.svg",
+          "48": "svg/duotone/family.marantaceae@48.svg",
+          "72": "svg/duotone/family.marantaceae@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/family.marantaceae@16.svg",
+          "20": "svg/multicolor/family.marantaceae@20.svg",
+          "24": "svg/multicolor/family.marantaceae@24.svg",
+          "32": "svg/multicolor/family.marantaceae@32.svg",
+          "48": "svg/multicolor/family.marantaceae@48.svg",
+          "72": "svg/multicolor/family.marantaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.moraceae",
+      "category": "family",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Moraceae",
+      "files": {
+        "outline": {
+          "16": "svg/outline/family.moraceae@16.svg",
+          "20": "svg/outline/family.moraceae@20.svg",
+          "24": "svg/outline/family.moraceae@24.svg",
+          "32": "svg/outline/family.moraceae@32.svg",
+          "48": "svg/outline/family.moraceae@48.svg",
+          "72": "svg/outline/family.moraceae@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/family.moraceae@16.svg",
+          "20": "svg/solid/family.moraceae@20.svg",
+          "24": "svg/solid/family.moraceae@24.svg",
+          "32": "svg/solid/family.moraceae@32.svg",
+          "48": "svg/solid/family.moraceae@48.svg",
+          "72": "svg/solid/family.moraceae@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/family.moraceae@16.svg",
+          "20": "svg/duotone/family.moraceae@20.svg",
+          "24": "svg/duotone/family.moraceae@24.svg",
+          "32": "svg/duotone/family.moraceae@32.svg",
+          "48": "svg/duotone/family.moraceae@48.svg",
+          "72": "svg/duotone/family.moraceae@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/family.moraceae@16.svg",
+          "20": "svg/multicolor/family.moraceae@20.svg",
+          "24": "svg/multicolor/family.moraceae@24.svg",
+          "32": "svg/multicolor/family.moraceae@32.svg",
+          "48": "svg/multicolor/family.moraceae@48.svg",
+          "72": "svg/multicolor/family.moraceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.nephrolepidaceae",
+      "category": "family",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Nephrolepidaceae",
+      "files": {
+        "outline": {
+          "16": "svg/outline/family.nephrolepidaceae@16.svg",
+          "20": "svg/outline/family.nephrolepidaceae@20.svg",
+          "24": "svg/outline/family.nephrolepidaceae@24.svg",
+          "32": "svg/outline/family.nephrolepidaceae@32.svg",
+          "48": "svg/outline/family.nephrolepidaceae@48.svg",
+          "72": "svg/outline/family.nephrolepidaceae@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/family.nephrolepidaceae@16.svg",
+          "20": "svg/solid/family.nephrolepidaceae@20.svg",
+          "24": "svg/solid/family.nephrolepidaceae@24.svg",
+          "32": "svg/solid/family.nephrolepidaceae@32.svg",
+          "48": "svg/solid/family.nephrolepidaceae@48.svg",
+          "72": "svg/solid/family.nephrolepidaceae@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/family.nephrolepidaceae@16.svg",
+          "20": "svg/duotone/family.nephrolepidaceae@20.svg",
+          "24": "svg/duotone/family.nephrolepidaceae@24.svg",
+          "32": "svg/duotone/family.nephrolepidaceae@32.svg",
+          "48": "svg/duotone/family.nephrolepidaceae@48.svg",
+          "72": "svg/duotone/family.nephrolepidaceae@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/family.nephrolepidaceae@16.svg",
+          "20": "svg/multicolor/family.nephrolepidaceae@20.svg",
+          "24": "svg/multicolor/family.nephrolepidaceae@24.svg",
+          "32": "svg/multicolor/family.nephrolepidaceae@32.svg",
+          "48": "svg/multicolor/family.nephrolepidaceae@48.svg",
+          "72": "svg/multicolor/family.nephrolepidaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.orchidaceae",
+      "category": "family",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Orchidaceae",
+      "files": {
+        "outline": {
+          "16": "svg/outline/family.orchidaceae@16.svg",
+          "20": "svg/outline/family.orchidaceae@20.svg",
+          "24": "svg/outline/family.orchidaceae@24.svg",
+          "32": "svg/outline/family.orchidaceae@32.svg",
+          "48": "svg/outline/family.orchidaceae@48.svg",
+          "72": "svg/outline/family.orchidaceae@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/family.orchidaceae@16.svg",
+          "20": "svg/solid/family.orchidaceae@20.svg",
+          "24": "svg/solid/family.orchidaceae@24.svg",
+          "32": "svg/solid/family.orchidaceae@32.svg",
+          "48": "svg/solid/family.orchidaceae@48.svg",
+          "72": "svg/solid/family.orchidaceae@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/family.orchidaceae@16.svg",
+          "20": "svg/duotone/family.orchidaceae@20.svg",
+          "24": "svg/duotone/family.orchidaceae@24.svg",
+          "32": "svg/duotone/family.orchidaceae@32.svg",
+          "48": "svg/duotone/family.orchidaceae@48.svg",
+          "72": "svg/duotone/family.orchidaceae@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/family.orchidaceae@16.svg",
+          "20": "svg/multicolor/family.orchidaceae@20.svg",
+          "24": "svg/multicolor/family.orchidaceae@24.svg",
+          "32": "svg/multicolor/family.orchidaceae@32.svg",
+          "48": "svg/multicolor/family.orchidaceae@48.svg",
+          "72": "svg/multicolor/family.orchidaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.piperaceae",
+      "category": "family",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Piperaceae",
+      "files": {
+        "outline": {
+          "16": "svg/outline/family.piperaceae@16.svg",
+          "20": "svg/outline/family.piperaceae@20.svg",
+          "24": "svg/outline/family.piperaceae@24.svg",
+          "32": "svg/outline/family.piperaceae@32.svg",
+          "48": "svg/outline/family.piperaceae@48.svg",
+          "72": "svg/outline/family.piperaceae@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/family.piperaceae@16.svg",
+          "20": "svg/solid/family.piperaceae@20.svg",
+          "24": "svg/solid/family.piperaceae@24.svg",
+          "32": "svg/solid/family.piperaceae@32.svg",
+          "48": "svg/solid/family.piperaceae@48.svg",
+          "72": "svg/solid/family.piperaceae@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/family.piperaceae@16.svg",
+          "20": "svg/duotone/family.piperaceae@20.svg",
+          "24": "svg/duotone/family.piperaceae@24.svg",
+          "32": "svg/duotone/family.piperaceae@32.svg",
+          "48": "svg/duotone/family.piperaceae@48.svg",
+          "72": "svg/duotone/family.piperaceae@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/family.piperaceae@16.svg",
+          "20": "svg/multicolor/family.piperaceae@20.svg",
+          "24": "svg/multicolor/family.piperaceae@24.svg",
+          "32": "svg/multicolor/family.piperaceae@32.svg",
+          "48": "svg/multicolor/family.piperaceae@48.svg",
+          "72": "svg/multicolor/family.piperaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "family.polypodiaceae",
+      "category": "family",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Polypodiaceae",
+      "files": {
+        "outline": {
+          "16": "svg/outline/family.polypodiaceae@16.svg",
+          "20": "svg/outline/family.polypodiaceae@20.svg",
+          "24": "svg/outline/family.polypodiaceae@24.svg",
+          "32": "svg/outline/family.polypodiaceae@32.svg",
+          "48": "svg/outline/family.polypodiaceae@48.svg",
+          "72": "svg/outline/family.polypodiaceae@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/family.polypodiaceae@16.svg",
+          "20": "svg/solid/family.polypodiaceae@20.svg",
+          "24": "svg/solid/family.polypodiaceae@24.svg",
+          "32": "svg/solid/family.polypodiaceae@32.svg",
+          "48": "svg/solid/family.polypodiaceae@48.svg",
+          "72": "svg/solid/family.polypodiaceae@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/family.polypodiaceae@16.svg",
+          "20": "svg/duotone/family.polypodiaceae@20.svg",
+          "24": "svg/duotone/family.polypodiaceae@24.svg",
+          "32": "svg/duotone/family.polypodiaceae@32.svg",
+          "48": "svg/duotone/family.polypodiaceae@48.svg",
+          "72": "svg/duotone/family.polypodiaceae@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/family.polypodiaceae@16.svg",
+          "20": "svg/multicolor/family.polypodiaceae@20.svg",
+          "24": "svg/multicolor/family.polypodiaceae@24.svg",
+          "32": "svg/multicolor/family.polypodiaceae@32.svg",
+          "48": "svg/multicolor/family.polypodiaceae@48.svg",
+          "72": "svg/multicolor/family.polypodiaceae@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.compost",
+      "category": "garden",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Compost",
+      "files": {
+        "outline": {
+          "16": "svg/outline/garden.compost@16.svg",
+          "20": "svg/outline/garden.compost@20.svg",
+          "24": "svg/outline/garden.compost@24.svg",
+          "32": "svg/outline/garden.compost@32.svg",
+          "48": "svg/outline/garden.compost@48.svg",
+          "72": "svg/outline/garden.compost@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/garden.compost@16.svg",
+          "20": "svg/solid/garden.compost@20.svg",
+          "24": "svg/solid/garden.compost@24.svg",
+          "32": "svg/solid/garden.compost@32.svg",
+          "48": "svg/solid/garden.compost@48.svg",
+          "72": "svg/solid/garden.compost@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/garden.compost@16.svg",
+          "20": "svg/duotone/garden.compost@20.svg",
+          "24": "svg/duotone/garden.compost@24.svg",
+          "32": "svg/duotone/garden.compost@32.svg",
+          "48": "svg/duotone/garden.compost@48.svg",
+          "72": "svg/duotone/garden.compost@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/garden.compost@16.svg",
+          "20": "svg/multicolor/garden.compost@20.svg",
+          "24": "svg/multicolor/garden.compost@24.svg",
+          "32": "svg/multicolor/garden.compost@32.svg",
+          "48": "svg/multicolor/garden.compost@48.svg",
+          "72": "svg/multicolor/garden.compost@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.fork",
+      "category": "garden",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Fork",
+      "files": {
+        "outline": {
+          "16": "svg/outline/garden.fork@16.svg",
+          "20": "svg/outline/garden.fork@20.svg",
+          "24": "svg/outline/garden.fork@24.svg",
+          "32": "svg/outline/garden.fork@32.svg",
+          "48": "svg/outline/garden.fork@48.svg",
+          "72": "svg/outline/garden.fork@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/garden.fork@16.svg",
+          "20": "svg/solid/garden.fork@20.svg",
+          "24": "svg/solid/garden.fork@24.svg",
+          "32": "svg/solid/garden.fork@32.svg",
+          "48": "svg/solid/garden.fork@48.svg",
+          "72": "svg/solid/garden.fork@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/garden.fork@16.svg",
+          "20": "svg/duotone/garden.fork@20.svg",
+          "24": "svg/duotone/garden.fork@24.svg",
+          "32": "svg/duotone/garden.fork@32.svg",
+          "48": "svg/duotone/garden.fork@48.svg",
+          "72": "svg/duotone/garden.fork@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/garden.fork@16.svg",
+          "20": "svg/multicolor/garden.fork@20.svg",
+          "24": "svg/multicolor/garden.fork@24.svg",
+          "32": "svg/multicolor/garden.fork@32.svg",
+          "48": "svg/multicolor/garden.fork@48.svg",
+          "72": "svg/multicolor/garden.fork@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.gloves",
+      "category": "garden",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Gloves",
+      "files": {
+        "outline": {
+          "16": "svg/outline/garden.gloves@16.svg",
+          "20": "svg/outline/garden.gloves@20.svg",
+          "24": "svg/outline/garden.gloves@24.svg",
+          "32": "svg/outline/garden.gloves@32.svg",
+          "48": "svg/outline/garden.gloves@48.svg",
+          "72": "svg/outline/garden.gloves@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/garden.gloves@16.svg",
+          "20": "svg/solid/garden.gloves@20.svg",
+          "24": "svg/solid/garden.gloves@24.svg",
+          "32": "svg/solid/garden.gloves@32.svg",
+          "48": "svg/solid/garden.gloves@48.svg",
+          "72": "svg/solid/garden.gloves@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/garden.gloves@16.svg",
+          "20": "svg/duotone/garden.gloves@20.svg",
+          "24": "svg/duotone/garden.gloves@24.svg",
+          "32": "svg/duotone/garden.gloves@32.svg",
+          "48": "svg/duotone/garden.gloves@48.svg",
+          "72": "svg/duotone/garden.gloves@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/garden.gloves@16.svg",
+          "20": "svg/multicolor/garden.gloves@20.svg",
+          "24": "svg/multicolor/garden.gloves@24.svg",
+          "32": "svg/multicolor/garden.gloves@32.svg",
+          "48": "svg/multicolor/garden.gloves@48.svg",
+          "72": "svg/multicolor/garden.gloves@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.greenhouse",
+      "category": "garden",
+      "tier": "P2",
+      "verdict": "refine",
+      "label": "Greenhouse",
+      "files": {
+        "outline": {
+          "16": "svg/outline/garden.greenhouse@16.svg",
+          "20": "svg/outline/garden.greenhouse@20.svg",
+          "24": "svg/outline/garden.greenhouse@24.svg",
+          "32": "svg/outline/garden.greenhouse@32.svg",
+          "48": "svg/outline/garden.greenhouse@48.svg",
+          "72": "svg/outline/garden.greenhouse@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/garden.greenhouse@16.svg",
+          "20": "svg/solid/garden.greenhouse@20.svg",
+          "24": "svg/solid/garden.greenhouse@24.svg",
+          "32": "svg/solid/garden.greenhouse@32.svg",
+          "48": "svg/solid/garden.greenhouse@48.svg",
+          "72": "svg/solid/garden.greenhouse@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/garden.greenhouse@16.svg",
+          "20": "svg/duotone/garden.greenhouse@20.svg",
+          "24": "svg/duotone/garden.greenhouse@24.svg",
+          "32": "svg/duotone/garden.greenhouse@32.svg",
+          "48": "svg/duotone/garden.greenhouse@48.svg",
+          "72": "svg/duotone/garden.greenhouse@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/garden.greenhouse@16.svg",
+          "20": "svg/multicolor/garden.greenhouse@20.svg",
+          "24": "svg/multicolor/garden.greenhouse@24.svg",
+          "32": "svg/multicolor/garden.greenhouse@32.svg",
+          "48": "svg/multicolor/garden.greenhouse@48.svg",
+          "72": "svg/multicolor/garden.greenhouse@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.hoe",
+      "category": "garden",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Hoe",
+      "files": {
+        "outline": {
+          "16": "svg/outline/garden.hoe@16.svg",
+          "20": "svg/outline/garden.hoe@20.svg",
+          "24": "svg/outline/garden.hoe@24.svg",
+          "32": "svg/outline/garden.hoe@32.svg",
+          "48": "svg/outline/garden.hoe@48.svg",
+          "72": "svg/outline/garden.hoe@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/garden.hoe@16.svg",
+          "20": "svg/solid/garden.hoe@20.svg",
+          "24": "svg/solid/garden.hoe@24.svg",
+          "32": "svg/solid/garden.hoe@32.svg",
+          "48": "svg/solid/garden.hoe@48.svg",
+          "72": "svg/solid/garden.hoe@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/garden.hoe@16.svg",
+          "20": "svg/duotone/garden.hoe@20.svg",
+          "24": "svg/duotone/garden.hoe@24.svg",
+          "32": "svg/duotone/garden.hoe@32.svg",
+          "48": "svg/duotone/garden.hoe@48.svg",
+          "72": "svg/duotone/garden.hoe@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/garden.hoe@16.svg",
+          "20": "svg/multicolor/garden.hoe@20.svg",
+          "24": "svg/multicolor/garden.hoe@24.svg",
+          "32": "svg/multicolor/garden.hoe@32.svg",
+          "48": "svg/multicolor/garden.hoe@48.svg",
+          "72": "svg/multicolor/garden.hoe@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.hose",
+      "category": "garden",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Hose",
+      "files": {
+        "outline": {
+          "16": "svg/outline/garden.hose@16.svg",
+          "20": "svg/outline/garden.hose@20.svg",
+          "24": "svg/outline/garden.hose@24.svg",
+          "32": "svg/outline/garden.hose@32.svg",
+          "48": "svg/outline/garden.hose@48.svg",
+          "72": "svg/outline/garden.hose@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/garden.hose@16.svg",
+          "20": "svg/solid/garden.hose@20.svg",
+          "24": "svg/solid/garden.hose@24.svg",
+          "32": "svg/solid/garden.hose@32.svg",
+          "48": "svg/solid/garden.hose@48.svg",
+          "72": "svg/solid/garden.hose@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/garden.hose@16.svg",
+          "20": "svg/duotone/garden.hose@20.svg",
+          "24": "svg/duotone/garden.hose@24.svg",
+          "32": "svg/duotone/garden.hose@32.svg",
+          "48": "svg/duotone/garden.hose@48.svg",
+          "72": "svg/duotone/garden.hose@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/garden.hose@16.svg",
+          "20": "svg/multicolor/garden.hose@20.svg",
+          "24": "svg/multicolor/garden.hose@24.svg",
+          "32": "svg/multicolor/garden.hose@32.svg",
+          "48": "svg/multicolor/garden.hose@48.svg",
+          "72": "svg/multicolor/garden.hose@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.pot",
+      "category": "garden",
+      "tier": "P2",
+      "verdict": "keep",
+      "label": "Pot",
+      "files": {
+        "outline": {
+          "16": "svg/outline/garden.pot@16.svg",
+          "20": "svg/outline/garden.pot@20.svg",
+          "24": "svg/outline/garden.pot@24.svg",
+          "32": "svg/outline/garden.pot@32.svg",
+          "48": "svg/outline/garden.pot@48.svg",
+          "72": "svg/outline/garden.pot@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/garden.pot@16.svg",
+          "20": "svg/solid/garden.pot@20.svg",
+          "24": "svg/solid/garden.pot@24.svg",
+          "32": "svg/solid/garden.pot@32.svg",
+          "48": "svg/solid/garden.pot@48.svg",
+          "72": "svg/solid/garden.pot@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/garden.pot@16.svg",
+          "20": "svg/duotone/garden.pot@20.svg",
+          "24": "svg/duotone/garden.pot@24.svg",
+          "32": "svg/duotone/garden.pot@32.svg",
+          "48": "svg/duotone/garden.pot@48.svg",
+          "72": "svg/duotone/garden.pot@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/garden.pot@16.svg",
+          "20": "svg/multicolor/garden.pot@20.svg",
+          "24": "svg/multicolor/garden.pot@24.svg",
+          "32": "svg/multicolor/garden.pot@32.svg",
+          "48": "svg/multicolor/garden.pot@48.svg",
+          "72": "svg/multicolor/garden.pot@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.rake",
+      "category": "garden",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Rake",
+      "files": {
+        "outline": {
+          "16": "svg/outline/garden.rake@16.svg",
+          "20": "svg/outline/garden.rake@20.svg",
+          "24": "svg/outline/garden.rake@24.svg",
+          "32": "svg/outline/garden.rake@32.svg",
+          "48": "svg/outline/garden.rake@48.svg",
+          "72": "svg/outline/garden.rake@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/garden.rake@16.svg",
+          "20": "svg/solid/garden.rake@20.svg",
+          "24": "svg/solid/garden.rake@24.svg",
+          "32": "svg/solid/garden.rake@32.svg",
+          "48": "svg/solid/garden.rake@48.svg",
+          "72": "svg/solid/garden.rake@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/garden.rake@16.svg",
+          "20": "svg/duotone/garden.rake@20.svg",
+          "24": "svg/duotone/garden.rake@24.svg",
+          "32": "svg/duotone/garden.rake@32.svg",
+          "48": "svg/duotone/garden.rake@48.svg",
+          "72": "svg/duotone/garden.rake@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/garden.rake@16.svg",
+          "20": "svg/multicolor/garden.rake@20.svg",
+          "24": "svg/multicolor/garden.rake@24.svg",
+          "32": "svg/multicolor/garden.rake@32.svg",
+          "48": "svg/multicolor/garden.rake@48.svg",
+          "72": "svg/multicolor/garden.rake@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.seed-packet",
+      "category": "garden",
+      "tier": "P2",
+      "verdict": "refine",
+      "label": "Seed-Packet",
+      "files": {
+        "outline": {
+          "16": "svg/outline/garden.seed-packet@16.svg",
+          "20": "svg/outline/garden.seed-packet@20.svg",
+          "24": "svg/outline/garden.seed-packet@24.svg",
+          "32": "svg/outline/garden.seed-packet@32.svg",
+          "48": "svg/outline/garden.seed-packet@48.svg",
+          "72": "svg/outline/garden.seed-packet@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/garden.seed-packet@16.svg",
+          "20": "svg/solid/garden.seed-packet@20.svg",
+          "24": "svg/solid/garden.seed-packet@24.svg",
+          "32": "svg/solid/garden.seed-packet@32.svg",
+          "48": "svg/solid/garden.seed-packet@48.svg",
+          "72": "svg/solid/garden.seed-packet@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/garden.seed-packet@16.svg",
+          "20": "svg/duotone/garden.seed-packet@20.svg",
+          "24": "svg/duotone/garden.seed-packet@24.svg",
+          "32": "svg/duotone/garden.seed-packet@32.svg",
+          "48": "svg/duotone/garden.seed-packet@48.svg",
+          "72": "svg/duotone/garden.seed-packet@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/garden.seed-packet@16.svg",
+          "20": "svg/multicolor/garden.seed-packet@20.svg",
+          "24": "svg/multicolor/garden.seed-packet@24.svg",
+          "32": "svg/multicolor/garden.seed-packet@32.svg",
+          "48": "svg/multicolor/garden.seed-packet@48.svg",
+          "72": "svg/multicolor/garden.seed-packet@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.shears",
+      "category": "garden",
+      "tier": "P2",
+      "verdict": "refine",
+      "label": "Shears",
+      "files": {
+        "outline": {
+          "16": "svg/outline/garden.shears@16.svg",
+          "20": "svg/outline/garden.shears@20.svg",
+          "24": "svg/outline/garden.shears@24.svg",
+          "32": "svg/outline/garden.shears@32.svg",
+          "48": "svg/outline/garden.shears@48.svg",
+          "72": "svg/outline/garden.shears@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/garden.shears@16.svg",
+          "20": "svg/solid/garden.shears@20.svg",
+          "24": "svg/solid/garden.shears@24.svg",
+          "32": "svg/solid/garden.shears@32.svg",
+          "48": "svg/solid/garden.shears@48.svg",
+          "72": "svg/solid/garden.shears@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/garden.shears@16.svg",
+          "20": "svg/duotone/garden.shears@20.svg",
+          "24": "svg/duotone/garden.shears@24.svg",
+          "32": "svg/duotone/garden.shears@32.svg",
+          "48": "svg/duotone/garden.shears@48.svg",
+          "72": "svg/duotone/garden.shears@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/garden.shears@16.svg",
+          "20": "svg/multicolor/garden.shears@20.svg",
+          "24": "svg/multicolor/garden.shears@24.svg",
+          "32": "svg/multicolor/garden.shears@32.svg",
+          "48": "svg/multicolor/garden.shears@48.svg",
+          "72": "svg/multicolor/garden.shears@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.spade",
+      "category": "garden",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Spade",
+      "files": {
+        "outline": {
+          "16": "svg/outline/garden.spade@16.svg",
+          "20": "svg/outline/garden.spade@20.svg",
+          "24": "svg/outline/garden.spade@24.svg",
+          "32": "svg/outline/garden.spade@32.svg",
+          "48": "svg/outline/garden.spade@48.svg",
+          "72": "svg/outline/garden.spade@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/garden.spade@16.svg",
+          "20": "svg/solid/garden.spade@20.svg",
+          "24": "svg/solid/garden.spade@24.svg",
+          "32": "svg/solid/garden.spade@32.svg",
+          "48": "svg/solid/garden.spade@48.svg",
+          "72": "svg/solid/garden.spade@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/garden.spade@16.svg",
+          "20": "svg/duotone/garden.spade@20.svg",
+          "24": "svg/duotone/garden.spade@24.svg",
+          "32": "svg/duotone/garden.spade@32.svg",
+          "48": "svg/duotone/garden.spade@48.svg",
+          "72": "svg/duotone/garden.spade@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/garden.spade@16.svg",
+          "20": "svg/multicolor/garden.spade@20.svg",
+          "24": "svg/multicolor/garden.spade@24.svg",
+          "32": "svg/multicolor/garden.spade@32.svg",
+          "48": "svg/multicolor/garden.spade@48.svg",
+          "72": "svg/multicolor/garden.spade@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.sprinkler",
+      "category": "garden",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Sprinkler",
+      "files": {
+        "outline": {
+          "16": "svg/outline/garden.sprinkler@16.svg",
+          "20": "svg/outline/garden.sprinkler@20.svg",
+          "24": "svg/outline/garden.sprinkler@24.svg",
+          "32": "svg/outline/garden.sprinkler@32.svg",
+          "48": "svg/outline/garden.sprinkler@48.svg",
+          "72": "svg/outline/garden.sprinkler@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/garden.sprinkler@16.svg",
+          "20": "svg/solid/garden.sprinkler@20.svg",
+          "24": "svg/solid/garden.sprinkler@24.svg",
+          "32": "svg/solid/garden.sprinkler@32.svg",
+          "48": "svg/solid/garden.sprinkler@48.svg",
+          "72": "svg/solid/garden.sprinkler@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/garden.sprinkler@16.svg",
+          "20": "svg/duotone/garden.sprinkler@20.svg",
+          "24": "svg/duotone/garden.sprinkler@24.svg",
+          "32": "svg/duotone/garden.sprinkler@32.svg",
+          "48": "svg/duotone/garden.sprinkler@48.svg",
+          "72": "svg/duotone/garden.sprinkler@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/garden.sprinkler@16.svg",
+          "20": "svg/multicolor/garden.sprinkler@20.svg",
+          "24": "svg/multicolor/garden.sprinkler@24.svg",
+          "32": "svg/multicolor/garden.sprinkler@32.svg",
+          "48": "svg/multicolor/garden.sprinkler@48.svg",
+          "72": "svg/multicolor/garden.sprinkler@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.trowel",
+      "category": "garden",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Trowel",
+      "files": {
+        "outline": {
+          "16": "svg/outline/garden.trowel@16.svg",
+          "20": "svg/outline/garden.trowel@20.svg",
+          "24": "svg/outline/garden.trowel@24.svg",
+          "32": "svg/outline/garden.trowel@32.svg",
+          "48": "svg/outline/garden.trowel@48.svg",
+          "72": "svg/outline/garden.trowel@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/garden.trowel@16.svg",
+          "20": "svg/solid/garden.trowel@20.svg",
+          "24": "svg/solid/garden.trowel@24.svg",
+          "32": "svg/solid/garden.trowel@32.svg",
+          "48": "svg/solid/garden.trowel@48.svg",
+          "72": "svg/solid/garden.trowel@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/garden.trowel@16.svg",
+          "20": "svg/duotone/garden.trowel@20.svg",
+          "24": "svg/duotone/garden.trowel@24.svg",
+          "32": "svg/duotone/garden.trowel@32.svg",
+          "48": "svg/duotone/garden.trowel@48.svg",
+          "72": "svg/duotone/garden.trowel@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/garden.trowel@16.svg",
+          "20": "svg/multicolor/garden.trowel@20.svg",
+          "24": "svg/multicolor/garden.trowel@24.svg",
+          "32": "svg/multicolor/garden.trowel@32.svg",
+          "48": "svg/multicolor/garden.trowel@48.svg",
+          "72": "svg/multicolor/garden.trowel@72.svg"
+        }
+      }
+    },
+    {
+      "id": "garden.wheelbarrow",
+      "category": "garden",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Wheelbarrow",
+      "files": {
+        "outline": {
+          "16": "svg/outline/garden.wheelbarrow@16.svg",
+          "20": "svg/outline/garden.wheelbarrow@20.svg",
+          "24": "svg/outline/garden.wheelbarrow@24.svg",
+          "32": "svg/outline/garden.wheelbarrow@32.svg",
+          "48": "svg/outline/garden.wheelbarrow@48.svg",
+          "72": "svg/outline/garden.wheelbarrow@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/garden.wheelbarrow@16.svg",
+          "20": "svg/solid/garden.wheelbarrow@20.svg",
+          "24": "svg/solid/garden.wheelbarrow@24.svg",
+          "32": "svg/solid/garden.wheelbarrow@32.svg",
+          "48": "svg/solid/garden.wheelbarrow@48.svg",
+          "72": "svg/solid/garden.wheelbarrow@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/garden.wheelbarrow@16.svg",
+          "20": "svg/duotone/garden.wheelbarrow@20.svg",
+          "24": "svg/duotone/garden.wheelbarrow@24.svg",
+          "32": "svg/duotone/garden.wheelbarrow@32.svg",
+          "48": "svg/duotone/garden.wheelbarrow@48.svg",
+          "72": "svg/duotone/garden.wheelbarrow@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/garden.wheelbarrow@16.svg",
+          "20": "svg/multicolor/garden.wheelbarrow@20.svg",
+          "24": "svg/multicolor/garden.wheelbarrow@24.svg",
+          "32": "svg/multicolor/garden.wheelbarrow@32.svg",
+          "48": "svg/multicolor/garden.wheelbarrow@48.svg",
+          "72": "svg/multicolor/garden.wheelbarrow@72.svg"
+        }
+      }
+    },
+    {
+      "id": "genus.aloe",
+      "category": "genus",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Aloe",
+      "files": {
+        "outline": {
+          "16": "svg/outline/genus.aloe@16.svg",
+          "20": "svg/outline/genus.aloe@20.svg",
+          "24": "svg/outline/genus.aloe@24.svg",
+          "32": "svg/outline/genus.aloe@32.svg",
+          "48": "svg/outline/genus.aloe@48.svg",
+          "72": "svg/outline/genus.aloe@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/genus.aloe@16.svg",
+          "20": "svg/solid/genus.aloe@20.svg",
+          "24": "svg/solid/genus.aloe@24.svg",
+          "32": "svg/solid/genus.aloe@32.svg",
+          "48": "svg/solid/genus.aloe@48.svg",
+          "72": "svg/solid/genus.aloe@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/genus.aloe@16.svg",
+          "20": "svg/duotone/genus.aloe@20.svg",
+          "24": "svg/duotone/genus.aloe@24.svg",
+          "32": "svg/duotone/genus.aloe@32.svg",
+          "48": "svg/duotone/genus.aloe@48.svg",
+          "72": "svg/duotone/genus.aloe@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/genus.aloe@16.svg",
+          "20": "svg/multicolor/genus.aloe@20.svg",
+          "24": "svg/multicolor/genus.aloe@24.svg",
+          "32": "svg/multicolor/genus.aloe@32.svg",
+          "48": "svg/multicolor/genus.aloe@48.svg",
+          "72": "svg/multicolor/genus.aloe@72.svg"
+        }
+      }
+    },
+    {
+      "id": "genus.cactus",
+      "category": "genus",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Cactus",
+      "files": {
+        "outline": {
+          "16": "svg/outline/genus.cactus@16.svg",
+          "20": "svg/outline/genus.cactus@20.svg",
+          "24": "svg/outline/genus.cactus@24.svg",
+          "32": "svg/outline/genus.cactus@32.svg",
+          "48": "svg/outline/genus.cactus@48.svg",
+          "72": "svg/outline/genus.cactus@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/genus.cactus@16.svg",
+          "20": "svg/solid/genus.cactus@20.svg",
+          "24": "svg/solid/genus.cactus@24.svg",
+          "32": "svg/solid/genus.cactus@32.svg",
+          "48": "svg/solid/genus.cactus@48.svg",
+          "72": "svg/solid/genus.cactus@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/genus.cactus@16.svg",
+          "20": "svg/duotone/genus.cactus@20.svg",
+          "24": "svg/duotone/genus.cactus@24.svg",
+          "32": "svg/duotone/genus.cactus@32.svg",
+          "48": "svg/duotone/genus.cactus@48.svg",
+          "72": "svg/duotone/genus.cactus@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/genus.cactus@16.svg",
+          "20": "svg/multicolor/genus.cactus@20.svg",
+          "24": "svg/multicolor/genus.cactus@24.svg",
+          "32": "svg/multicolor/genus.cactus@32.svg",
+          "48": "svg/multicolor/genus.cactus@48.svg",
+          "72": "svg/multicolor/genus.cactus@72.svg"
+        }
+      }
+    },
+    {
+      "id": "genus.calathea",
+      "category": "genus",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Calathea",
+      "files": {
+        "outline": {
+          "16": "svg/outline/genus.calathea@16.svg",
+          "20": "svg/outline/genus.calathea@20.svg",
+          "24": "svg/outline/genus.calathea@24.svg",
+          "32": "svg/outline/genus.calathea@32.svg",
+          "48": "svg/outline/genus.calathea@48.svg",
+          "72": "svg/outline/genus.calathea@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/genus.calathea@16.svg",
+          "20": "svg/solid/genus.calathea@20.svg",
+          "24": "svg/solid/genus.calathea@24.svg",
+          "32": "svg/solid/genus.calathea@32.svg",
+          "48": "svg/solid/genus.calathea@48.svg",
+          "72": "svg/solid/genus.calathea@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/genus.calathea@16.svg",
+          "20": "svg/duotone/genus.calathea@20.svg",
+          "24": "svg/duotone/genus.calathea@24.svg",
+          "32": "svg/duotone/genus.calathea@32.svg",
+          "48": "svg/duotone/genus.calathea@48.svg",
+          "72": "svg/duotone/genus.calathea@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/genus.calathea@16.svg",
+          "20": "svg/multicolor/genus.calathea@20.svg",
+          "24": "svg/multicolor/genus.calathea@24.svg",
+          "32": "svg/multicolor/genus.calathea@32.svg",
+          "48": "svg/multicolor/genus.calathea@48.svg",
+          "72": "svg/multicolor/genus.calathea@72.svg"
+        }
+      }
+    },
+    {
+      "id": "genus.fern",
+      "category": "genus",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Fern",
+      "files": {
+        "outline": {
+          "16": "svg/outline/genus.fern@16.svg",
+          "20": "svg/outline/genus.fern@20.svg",
+          "24": "svg/outline/genus.fern@24.svg",
+          "32": "svg/outline/genus.fern@32.svg",
+          "48": "svg/outline/genus.fern@48.svg",
+          "72": "svg/outline/genus.fern@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/genus.fern@16.svg",
+          "20": "svg/solid/genus.fern@20.svg",
+          "24": "svg/solid/genus.fern@24.svg",
+          "32": "svg/solid/genus.fern@32.svg",
+          "48": "svg/solid/genus.fern@48.svg",
+          "72": "svg/solid/genus.fern@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/genus.fern@16.svg",
+          "20": "svg/duotone/genus.fern@20.svg",
+          "24": "svg/duotone/genus.fern@24.svg",
+          "32": "svg/duotone/genus.fern@32.svg",
+          "48": "svg/duotone/genus.fern@48.svg",
+          "72": "svg/duotone/genus.fern@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/genus.fern@16.svg",
+          "20": "svg/multicolor/genus.fern@20.svg",
+          "24": "svg/multicolor/genus.fern@24.svg",
+          "32": "svg/multicolor/genus.fern@32.svg",
+          "48": "svg/multicolor/genus.fern@48.svg",
+          "72": "svg/multicolor/genus.fern@72.svg"
+        }
+      }
+    },
+    {
+      "id": "genus.ficus",
+      "category": "genus",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Ficus",
+      "files": {
+        "outline": {
+          "16": "svg/outline/genus.ficus@16.svg",
+          "20": "svg/outline/genus.ficus@20.svg",
+          "24": "svg/outline/genus.ficus@24.svg",
+          "32": "svg/outline/genus.ficus@32.svg",
+          "48": "svg/outline/genus.ficus@48.svg",
+          "72": "svg/outline/genus.ficus@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/genus.ficus@16.svg",
+          "20": "svg/solid/genus.ficus@20.svg",
+          "24": "svg/solid/genus.ficus@24.svg",
+          "32": "svg/solid/genus.ficus@32.svg",
+          "48": "svg/solid/genus.ficus@48.svg",
+          "72": "svg/solid/genus.ficus@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/genus.ficus@16.svg",
+          "20": "svg/duotone/genus.ficus@20.svg",
+          "24": "svg/duotone/genus.ficus@24.svg",
+          "32": "svg/duotone/genus.ficus@32.svg",
+          "48": "svg/duotone/genus.ficus@48.svg",
+          "72": "svg/duotone/genus.ficus@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/genus.ficus@16.svg",
+          "20": "svg/multicolor/genus.ficus@20.svg",
+          "24": "svg/multicolor/genus.ficus@24.svg",
+          "32": "svg/multicolor/genus.ficus@32.svg",
+          "48": "svg/multicolor/genus.ficus@48.svg",
+          "72": "svg/multicolor/genus.ficus@72.svg"
+        }
+      }
+    },
+    {
+      "id": "genus.monstera",
+      "category": "genus",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Monstera",
+      "files": {
+        "outline": {
+          "16": "svg/outline/genus.monstera@16.svg",
+          "20": "svg/outline/genus.monstera@20.svg",
+          "24": "svg/outline/genus.monstera@24.svg",
+          "32": "svg/outline/genus.monstera@32.svg",
+          "48": "svg/outline/genus.monstera@48.svg",
+          "72": "svg/outline/genus.monstera@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/genus.monstera@16.svg",
+          "20": "svg/solid/genus.monstera@20.svg",
+          "24": "svg/solid/genus.monstera@24.svg",
+          "32": "svg/solid/genus.monstera@32.svg",
+          "48": "svg/solid/genus.monstera@48.svg",
+          "72": "svg/solid/genus.monstera@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/genus.monstera@16.svg",
+          "20": "svg/duotone/genus.monstera@20.svg",
+          "24": "svg/duotone/genus.monstera@24.svg",
+          "32": "svg/duotone/genus.monstera@32.svg",
+          "48": "svg/duotone/genus.monstera@48.svg",
+          "72": "svg/duotone/genus.monstera@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/genus.monstera@16.svg",
+          "20": "svg/multicolor/genus.monstera@20.svg",
+          "24": "svg/multicolor/genus.monstera@24.svg",
+          "32": "svg/multicolor/genus.monstera@32.svg",
+          "48": "svg/multicolor/genus.monstera@48.svg",
+          "72": "svg/multicolor/genus.monstera@72.svg"
+        }
+      }
+    },
+    {
+      "id": "genus.orchid",
+      "category": "genus",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Orchid",
+      "files": {
+        "outline": {
+          "16": "svg/outline/genus.orchid@16.svg",
+          "20": "svg/outline/genus.orchid@20.svg",
+          "24": "svg/outline/genus.orchid@24.svg",
+          "32": "svg/outline/genus.orchid@32.svg",
+          "48": "svg/outline/genus.orchid@48.svg",
+          "72": "svg/outline/genus.orchid@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/genus.orchid@16.svg",
+          "20": "svg/solid/genus.orchid@20.svg",
+          "24": "svg/solid/genus.orchid@24.svg",
+          "32": "svg/solid/genus.orchid@32.svg",
+          "48": "svg/solid/genus.orchid@48.svg",
+          "72": "svg/solid/genus.orchid@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/genus.orchid@16.svg",
+          "20": "svg/duotone/genus.orchid@20.svg",
+          "24": "svg/duotone/genus.orchid@24.svg",
+          "32": "svg/duotone/genus.orchid@32.svg",
+          "48": "svg/duotone/genus.orchid@48.svg",
+          "72": "svg/duotone/genus.orchid@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/genus.orchid@16.svg",
+          "20": "svg/multicolor/genus.orchid@20.svg",
+          "24": "svg/multicolor/genus.orchid@24.svg",
+          "32": "svg/multicolor/genus.orchid@32.svg",
+          "48": "svg/multicolor/genus.orchid@48.svg",
+          "72": "svg/multicolor/genus.orchid@72.svg"
+        }
+      }
+    },
+    {
+      "id": "genus.palm",
+      "category": "genus",
+      "tier": "P2",
+      "verdict": "refine",
+      "label": "Palm",
+      "files": {
+        "outline": {
+          "16": "svg/outline/genus.palm@16.svg",
+          "20": "svg/outline/genus.palm@20.svg",
+          "24": "svg/outline/genus.palm@24.svg",
+          "32": "svg/outline/genus.palm@32.svg",
+          "48": "svg/outline/genus.palm@48.svg",
+          "72": "svg/outline/genus.palm@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/genus.palm@16.svg",
+          "20": "svg/solid/genus.palm@20.svg",
+          "24": "svg/solid/genus.palm@24.svg",
+          "32": "svg/solid/genus.palm@32.svg",
+          "48": "svg/solid/genus.palm@48.svg",
+          "72": "svg/solid/genus.palm@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/genus.palm@16.svg",
+          "20": "svg/duotone/genus.palm@20.svg",
+          "24": "svg/duotone/genus.palm@24.svg",
+          "32": "svg/duotone/genus.palm@32.svg",
+          "48": "svg/duotone/genus.palm@48.svg",
+          "72": "svg/duotone/genus.palm@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/genus.palm@16.svg",
+          "20": "svg/multicolor/genus.palm@20.svg",
+          "24": "svg/multicolor/genus.palm@24.svg",
+          "32": "svg/multicolor/genus.palm@32.svg",
+          "48": "svg/multicolor/genus.palm@48.svg",
+          "72": "svg/multicolor/genus.palm@72.svg"
+        }
+      }
+    },
+    {
+      "id": "genus.peperomia",
+      "category": "genus",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Peperomia",
+      "files": {
+        "outline": {
+          "16": "svg/outline/genus.peperomia@16.svg",
+          "20": "svg/outline/genus.peperomia@20.svg",
+          "24": "svg/outline/genus.peperomia@24.svg",
+          "32": "svg/outline/genus.peperomia@32.svg",
+          "48": "svg/outline/genus.peperomia@48.svg",
+          "72": "svg/outline/genus.peperomia@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/genus.peperomia@16.svg",
+          "20": "svg/solid/genus.peperomia@20.svg",
+          "24": "svg/solid/genus.peperomia@24.svg",
+          "32": "svg/solid/genus.peperomia@32.svg",
+          "48": "svg/solid/genus.peperomia@48.svg",
+          "72": "svg/solid/genus.peperomia@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/genus.peperomia@16.svg",
+          "20": "svg/duotone/genus.peperomia@20.svg",
+          "24": "svg/duotone/genus.peperomia@24.svg",
+          "32": "svg/duotone/genus.peperomia@32.svg",
+          "48": "svg/duotone/genus.peperomia@48.svg",
+          "72": "svg/duotone/genus.peperomia@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/genus.peperomia@16.svg",
+          "20": "svg/multicolor/genus.peperomia@20.svg",
+          "24": "svg/multicolor/genus.peperomia@24.svg",
+          "32": "svg/multicolor/genus.peperomia@32.svg",
+          "48": "svg/multicolor/genus.peperomia@48.svg",
+          "72": "svg/multicolor/genus.peperomia@72.svg"
+        }
+      }
+    },
+    {
+      "id": "genus.pothos",
+      "category": "genus",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Pothos",
+      "files": {
+        "outline": {
+          "16": "svg/outline/genus.pothos@16.svg",
+          "20": "svg/outline/genus.pothos@20.svg",
+          "24": "svg/outline/genus.pothos@24.svg",
+          "32": "svg/outline/genus.pothos@32.svg",
+          "48": "svg/outline/genus.pothos@48.svg",
+          "72": "svg/outline/genus.pothos@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/genus.pothos@16.svg",
+          "20": "svg/solid/genus.pothos@20.svg",
+          "24": "svg/solid/genus.pothos@24.svg",
+          "32": "svg/solid/genus.pothos@32.svg",
+          "48": "svg/solid/genus.pothos@48.svg",
+          "72": "svg/solid/genus.pothos@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/genus.pothos@16.svg",
+          "20": "svg/duotone/genus.pothos@20.svg",
+          "24": "svg/duotone/genus.pothos@24.svg",
+          "32": "svg/duotone/genus.pothos@32.svg",
+          "48": "svg/duotone/genus.pothos@48.svg",
+          "72": "svg/duotone/genus.pothos@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/genus.pothos@16.svg",
+          "20": "svg/multicolor/genus.pothos@20.svg",
+          "24": "svg/multicolor/genus.pothos@24.svg",
+          "32": "svg/multicolor/genus.pothos@32.svg",
+          "48": "svg/multicolor/genus.pothos@48.svg",
+          "72": "svg/multicolor/genus.pothos@72.svg"
+        }
+      }
+    },
+    {
+      "id": "genus.sansevieria",
+      "category": "genus",
+      "tier": "P2",
+      "verdict": "refine",
+      "label": "Sansevieria",
+      "files": {
+        "outline": {
+          "16": "svg/outline/genus.sansevieria@16.svg",
+          "20": "svg/outline/genus.sansevieria@20.svg",
+          "24": "svg/outline/genus.sansevieria@24.svg",
+          "32": "svg/outline/genus.sansevieria@32.svg",
+          "48": "svg/outline/genus.sansevieria@48.svg",
+          "72": "svg/outline/genus.sansevieria@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/genus.sansevieria@16.svg",
+          "20": "svg/solid/genus.sansevieria@20.svg",
+          "24": "svg/solid/genus.sansevieria@24.svg",
+          "32": "svg/solid/genus.sansevieria@32.svg",
+          "48": "svg/solid/genus.sansevieria@48.svg",
+          "72": "svg/solid/genus.sansevieria@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/genus.sansevieria@16.svg",
+          "20": "svg/duotone/genus.sansevieria@20.svg",
+          "24": "svg/duotone/genus.sansevieria@24.svg",
+          "32": "svg/duotone/genus.sansevieria@32.svg",
+          "48": "svg/duotone/genus.sansevieria@48.svg",
+          "72": "svg/duotone/genus.sansevieria@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/genus.sansevieria@16.svg",
+          "20": "svg/multicolor/genus.sansevieria@20.svg",
+          "24": "svg/multicolor/genus.sansevieria@24.svg",
+          "32": "svg/multicolor/genus.sansevieria@32.svg",
+          "48": "svg/multicolor/genus.sansevieria@48.svg",
+          "72": "svg/multicolor/genus.sansevieria@72.svg"
+        }
+      }
+    },
+    {
+      "id": "genus.succulent",
+      "category": "genus",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Succulent",
+      "files": {
+        "outline": {
+          "16": "svg/outline/genus.succulent@16.svg",
+          "20": "svg/outline/genus.succulent@20.svg",
+          "24": "svg/outline/genus.succulent@24.svg",
+          "32": "svg/outline/genus.succulent@32.svg",
+          "48": "svg/outline/genus.succulent@48.svg",
+          "72": "svg/outline/genus.succulent@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/genus.succulent@16.svg",
+          "20": "svg/solid/genus.succulent@20.svg",
+          "24": "svg/solid/genus.succulent@24.svg",
+          "32": "svg/solid/genus.succulent@32.svg",
+          "48": "svg/solid/genus.succulent@48.svg",
+          "72": "svg/solid/genus.succulent@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/genus.succulent@16.svg",
+          "20": "svg/duotone/genus.succulent@20.svg",
+          "24": "svg/duotone/genus.succulent@24.svg",
+          "32": "svg/duotone/genus.succulent@32.svg",
+          "48": "svg/duotone/genus.succulent@48.svg",
+          "72": "svg/duotone/genus.succulent@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/genus.succulent@16.svg",
+          "20": "svg/multicolor/genus.succulent@20.svg",
+          "24": "svg/multicolor/genus.succulent@24.svg",
+          "32": "svg/multicolor/genus.succulent@32.svg",
+          "48": "svg/multicolor/genus.succulent@48.svg",
+          "72": "svg/multicolor/genus.succulent@72.svg"
+        }
+      }
+    },
+    {
+      "id": "health.attention",
+      "category": "health",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Attention",
+      "files": {
+        "outline": {
+          "16": "svg/outline/health.attention@16.svg",
+          "20": "svg/outline/health.attention@20.svg",
+          "24": "svg/outline/health.attention@24.svg",
+          "32": "svg/outline/health.attention@32.svg",
+          "48": "svg/outline/health.attention@48.svg",
+          "72": "svg/outline/health.attention@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/health.attention@16.svg",
+          "20": "svg/solid/health.attention@20.svg",
+          "24": "svg/solid/health.attention@24.svg",
+          "32": "svg/solid/health.attention@32.svg",
+          "48": "svg/solid/health.attention@48.svg",
+          "72": "svg/solid/health.attention@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/health.attention@16.svg",
+          "20": "svg/duotone/health.attention@20.svg",
+          "24": "svg/duotone/health.attention@24.svg",
+          "32": "svg/duotone/health.attention@32.svg",
+          "48": "svg/duotone/health.attention@48.svg",
+          "72": "svg/duotone/health.attention@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/health.attention@16.svg",
+          "20": "svg/multicolor/health.attention@20.svg",
+          "24": "svg/multicolor/health.attention@24.svg",
+          "32": "svg/multicolor/health.attention@32.svg",
+          "48": "svg/multicolor/health.attention@48.svg",
+          "72": "svg/multicolor/health.attention@72.svg"
+        }
+      }
+    },
+    {
+      "id": "health.critical",
+      "category": "health",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Critical",
+      "files": {
+        "outline": {
+          "16": "svg/outline/health.critical@16.svg",
+          "20": "svg/outline/health.critical@20.svg",
+          "24": "svg/outline/health.critical@24.svg",
+          "32": "svg/outline/health.critical@32.svg",
+          "48": "svg/outline/health.critical@48.svg",
+          "72": "svg/outline/health.critical@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/health.critical@16.svg",
+          "20": "svg/solid/health.critical@20.svg",
+          "24": "svg/solid/health.critical@24.svg",
+          "32": "svg/solid/health.critical@32.svg",
+          "48": "svg/solid/health.critical@48.svg",
+          "72": "svg/solid/health.critical@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/health.critical@16.svg",
+          "20": "svg/duotone/health.critical@20.svg",
+          "24": "svg/duotone/health.critical@24.svg",
+          "32": "svg/duotone/health.critical@32.svg",
+          "48": "svg/duotone/health.critical@48.svg",
+          "72": "svg/duotone/health.critical@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/health.critical@16.svg",
+          "20": "svg/multicolor/health.critical@20.svg",
+          "24": "svg/multicolor/health.critical@24.svg",
+          "32": "svg/multicolor/health.critical@32.svg",
+          "48": "svg/multicolor/health.critical@48.svg",
+          "72": "svg/multicolor/health.critical@72.svg"
+        }
+      }
+    },
+    {
+      "id": "health.healthy",
+      "category": "health",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Healthy",
+      "files": {
+        "outline": {
+          "16": "svg/outline/health.healthy@16.svg",
+          "20": "svg/outline/health.healthy@20.svg",
+          "24": "svg/outline/health.healthy@24.svg",
+          "32": "svg/outline/health.healthy@32.svg",
+          "48": "svg/outline/health.healthy@48.svg",
+          "72": "svg/outline/health.healthy@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/health.healthy@16.svg",
+          "20": "svg/solid/health.healthy@20.svg",
+          "24": "svg/solid/health.healthy@24.svg",
+          "32": "svg/solid/health.healthy@32.svg",
+          "48": "svg/solid/health.healthy@48.svg",
+          "72": "svg/solid/health.healthy@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/health.healthy@16.svg",
+          "20": "svg/duotone/health.healthy@20.svg",
+          "24": "svg/duotone/health.healthy@24.svg",
+          "32": "svg/duotone/health.healthy@32.svg",
+          "48": "svg/duotone/health.healthy@48.svg",
+          "72": "svg/duotone/health.healthy@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/health.healthy@16.svg",
+          "20": "svg/multicolor/health.healthy@20.svg",
+          "24": "svg/multicolor/health.healthy@24.svg",
+          "32": "svg/multicolor/health.healthy@32.svg",
+          "48": "svg/multicolor/health.healthy@48.svg",
+          "72": "svg/multicolor/health.healthy@72.svg"
+        }
+      }
+    },
+    {
       "id": "location.pin",
       "category": "location",
       "tier": "P1",
@@ -374,6 +2670,744 @@
           "32": "svg/multicolor/location.pin@32.svg",
           "48": "svg/multicolor/location.pin@48.svg",
           "72": "svg/multicolor/location.pin@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.calendar.check",
+      "category": "nav",
+      "tier": "P2",
+      "verdict": "keep",
+      "label": "Calendar Check",
+      "files": {
+        "outline": {
+          "16": "svg/outline/nav.calendar.check@16.svg",
+          "20": "svg/outline/nav.calendar.check@20.svg",
+          "24": "svg/outline/nav.calendar.check@24.svg",
+          "32": "svg/outline/nav.calendar.check@32.svg",
+          "48": "svg/outline/nav.calendar.check@48.svg",
+          "72": "svg/outline/nav.calendar.check@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/nav.calendar.check@16.svg",
+          "20": "svg/solid/nav.calendar.check@20.svg",
+          "24": "svg/solid/nav.calendar.check@24.svg",
+          "32": "svg/solid/nav.calendar.check@32.svg",
+          "48": "svg/solid/nav.calendar.check@48.svg",
+          "72": "svg/solid/nav.calendar.check@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/nav.calendar.check@16.svg",
+          "20": "svg/duotone/nav.calendar.check@20.svg",
+          "24": "svg/duotone/nav.calendar.check@24.svg",
+          "32": "svg/duotone/nav.calendar.check@32.svg",
+          "48": "svg/duotone/nav.calendar.check@48.svg",
+          "72": "svg/duotone/nav.calendar.check@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/nav.calendar.check@16.svg",
+          "20": "svg/multicolor/nav.calendar.check@20.svg",
+          "24": "svg/multicolor/nav.calendar.check@24.svg",
+          "32": "svg/multicolor/nav.calendar.check@32.svg",
+          "48": "svg/multicolor/nav.calendar.check@48.svg",
+          "72": "svg/multicolor/nav.calendar.check@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.calendar.leaf",
+      "category": "nav",
+      "tier": "P2",
+      "verdict": "refine",
+      "label": "Calendar Leaf",
+      "files": {
+        "outline": {
+          "16": "svg/outline/nav.calendar.leaf@16.svg",
+          "20": "svg/outline/nav.calendar.leaf@20.svg",
+          "24": "svg/outline/nav.calendar.leaf@24.svg",
+          "32": "svg/outline/nav.calendar.leaf@32.svg",
+          "48": "svg/outline/nav.calendar.leaf@48.svg",
+          "72": "svg/outline/nav.calendar.leaf@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/nav.calendar.leaf@16.svg",
+          "20": "svg/solid/nav.calendar.leaf@20.svg",
+          "24": "svg/solid/nav.calendar.leaf@24.svg",
+          "32": "svg/solid/nav.calendar.leaf@32.svg",
+          "48": "svg/solid/nav.calendar.leaf@48.svg",
+          "72": "svg/solid/nav.calendar.leaf@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/nav.calendar.leaf@16.svg",
+          "20": "svg/duotone/nav.calendar.leaf@20.svg",
+          "24": "svg/duotone/nav.calendar.leaf@24.svg",
+          "32": "svg/duotone/nav.calendar.leaf@32.svg",
+          "48": "svg/duotone/nav.calendar.leaf@48.svg",
+          "72": "svg/duotone/nav.calendar.leaf@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/nav.calendar.leaf@16.svg",
+          "20": "svg/multicolor/nav.calendar.leaf@20.svg",
+          "24": "svg/multicolor/nav.calendar.leaf@24.svg",
+          "32": "svg/multicolor/nav.calendar.leaf@32.svg",
+          "48": "svg/multicolor/nav.calendar.leaf@48.svg",
+          "72": "svg/multicolor/nav.calendar.leaf@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.calendar.plain",
+      "category": "nav",
+      "tier": "P2",
+      "verdict": "keep",
+      "label": "Calendar Plain",
+      "files": {
+        "outline": {
+          "16": "svg/outline/nav.calendar.plain@16.svg",
+          "20": "svg/outline/nav.calendar.plain@20.svg",
+          "24": "svg/outline/nav.calendar.plain@24.svg",
+          "32": "svg/outline/nav.calendar.plain@32.svg",
+          "48": "svg/outline/nav.calendar.plain@48.svg",
+          "72": "svg/outline/nav.calendar.plain@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/nav.calendar.plain@16.svg",
+          "20": "svg/solid/nav.calendar.plain@20.svg",
+          "24": "svg/solid/nav.calendar.plain@24.svg",
+          "32": "svg/solid/nav.calendar.plain@32.svg",
+          "48": "svg/solid/nav.calendar.plain@48.svg",
+          "72": "svg/solid/nav.calendar.plain@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/nav.calendar.plain@16.svg",
+          "20": "svg/duotone/nav.calendar.plain@20.svg",
+          "24": "svg/duotone/nav.calendar.plain@24.svg",
+          "32": "svg/duotone/nav.calendar.plain@32.svg",
+          "48": "svg/duotone/nav.calendar.plain@48.svg",
+          "72": "svg/duotone/nav.calendar.plain@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/nav.calendar.plain@16.svg",
+          "20": "svg/multicolor/nav.calendar.plain@20.svg",
+          "24": "svg/multicolor/nav.calendar.plain@24.svg",
+          "32": "svg/multicolor/nav.calendar.plain@32.svg",
+          "48": "svg/multicolor/nav.calendar.plain@48.svg",
+          "72": "svg/multicolor/nav.calendar.plain@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.chat.bubble",
+      "category": "nav",
+      "tier": "P2",
+      "verdict": "refine",
+      "label": "Chat Bubble",
+      "files": {
+        "outline": {
+          "16": "svg/outline/nav.chat.bubble@16.svg",
+          "20": "svg/outline/nav.chat.bubble@20.svg",
+          "24": "svg/outline/nav.chat.bubble@24.svg",
+          "32": "svg/outline/nav.chat.bubble@32.svg",
+          "48": "svg/outline/nav.chat.bubble@48.svg",
+          "72": "svg/outline/nav.chat.bubble@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/nav.chat.bubble@16.svg",
+          "20": "svg/solid/nav.chat.bubble@20.svg",
+          "24": "svg/solid/nav.chat.bubble@24.svg",
+          "32": "svg/solid/nav.chat.bubble@32.svg",
+          "48": "svg/solid/nav.chat.bubble@48.svg",
+          "72": "svg/solid/nav.chat.bubble@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/nav.chat.bubble@16.svg",
+          "20": "svg/duotone/nav.chat.bubble@20.svg",
+          "24": "svg/duotone/nav.chat.bubble@24.svg",
+          "32": "svg/duotone/nav.chat.bubble@32.svg",
+          "48": "svg/duotone/nav.chat.bubble@48.svg",
+          "72": "svg/duotone/nav.chat.bubble@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/nav.chat.bubble@16.svg",
+          "20": "svg/multicolor/nav.chat.bubble@20.svg",
+          "24": "svg/multicolor/nav.chat.bubble@24.svg",
+          "32": "svg/multicolor/nav.chat.bubble@32.svg",
+          "48": "svg/multicolor/nav.chat.bubble@48.svg",
+          "72": "svg/multicolor/nav.chat.bubble@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.chat.dots",
+      "category": "nav",
+      "tier": "P2",
+      "verdict": "refine",
+      "label": "Chat Dots",
+      "files": {
+        "outline": {
+          "16": "svg/outline/nav.chat.dots@16.svg",
+          "20": "svg/outline/nav.chat.dots@20.svg",
+          "24": "svg/outline/nav.chat.dots@24.svg",
+          "32": "svg/outline/nav.chat.dots@32.svg",
+          "48": "svg/outline/nav.chat.dots@48.svg",
+          "72": "svg/outline/nav.chat.dots@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/nav.chat.dots@16.svg",
+          "20": "svg/solid/nav.chat.dots@20.svg",
+          "24": "svg/solid/nav.chat.dots@24.svg",
+          "32": "svg/solid/nav.chat.dots@32.svg",
+          "48": "svg/solid/nav.chat.dots@48.svg",
+          "72": "svg/solid/nav.chat.dots@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/nav.chat.dots@16.svg",
+          "20": "svg/duotone/nav.chat.dots@20.svg",
+          "24": "svg/duotone/nav.chat.dots@24.svg",
+          "32": "svg/duotone/nav.chat.dots@32.svg",
+          "48": "svg/duotone/nav.chat.dots@48.svg",
+          "72": "svg/duotone/nav.chat.dots@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/nav.chat.dots@16.svg",
+          "20": "svg/multicolor/nav.chat.dots@20.svg",
+          "24": "svg/multicolor/nav.chat.dots@24.svg",
+          "32": "svg/multicolor/nav.chat.dots@32.svg",
+          "48": "svg/multicolor/nav.chat.dots@48.svg",
+          "72": "svg/multicolor/nav.chat.dots@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.chat.leaf",
+      "category": "nav",
+      "tier": "P2",
+      "verdict": "refine",
+      "label": "Chat Leaf",
+      "files": {
+        "outline": {
+          "16": "svg/outline/nav.chat.leaf@16.svg",
+          "20": "svg/outline/nav.chat.leaf@20.svg",
+          "24": "svg/outline/nav.chat.leaf@24.svg",
+          "32": "svg/outline/nav.chat.leaf@32.svg",
+          "48": "svg/outline/nav.chat.leaf@48.svg",
+          "72": "svg/outline/nav.chat.leaf@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/nav.chat.leaf@16.svg",
+          "20": "svg/solid/nav.chat.leaf@20.svg",
+          "24": "svg/solid/nav.chat.leaf@24.svg",
+          "32": "svg/solid/nav.chat.leaf@32.svg",
+          "48": "svg/solid/nav.chat.leaf@48.svg",
+          "72": "svg/solid/nav.chat.leaf@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/nav.chat.leaf@16.svg",
+          "20": "svg/duotone/nav.chat.leaf@20.svg",
+          "24": "svg/duotone/nav.chat.leaf@24.svg",
+          "32": "svg/duotone/nav.chat.leaf@32.svg",
+          "48": "svg/duotone/nav.chat.leaf@48.svg",
+          "72": "svg/duotone/nav.chat.leaf@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/nav.chat.leaf@16.svg",
+          "20": "svg/multicolor/nav.chat.leaf@20.svg",
+          "24": "svg/multicolor/nav.chat.leaf@24.svg",
+          "32": "svg/multicolor/nav.chat.leaf@32.svg",
+          "48": "svg/multicolor/nav.chat.leaf@48.svg",
+          "72": "svg/multicolor/nav.chat.leaf@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.feed.cards",
+      "category": "nav",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Feed Cards",
+      "files": {
+        "outline": {
+          "16": "svg/outline/nav.feed.cards@16.svg",
+          "20": "svg/outline/nav.feed.cards@20.svg",
+          "24": "svg/outline/nav.feed.cards@24.svg",
+          "32": "svg/outline/nav.feed.cards@32.svg",
+          "48": "svg/outline/nav.feed.cards@48.svg",
+          "72": "svg/outline/nav.feed.cards@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/nav.feed.cards@16.svg",
+          "20": "svg/solid/nav.feed.cards@20.svg",
+          "24": "svg/solid/nav.feed.cards@24.svg",
+          "32": "svg/solid/nav.feed.cards@32.svg",
+          "48": "svg/solid/nav.feed.cards@48.svg",
+          "72": "svg/solid/nav.feed.cards@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/nav.feed.cards@16.svg",
+          "20": "svg/duotone/nav.feed.cards@20.svg",
+          "24": "svg/duotone/nav.feed.cards@24.svg",
+          "32": "svg/duotone/nav.feed.cards@32.svg",
+          "48": "svg/duotone/nav.feed.cards@48.svg",
+          "72": "svg/duotone/nav.feed.cards@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/nav.feed.cards@16.svg",
+          "20": "svg/multicolor/nav.feed.cards@20.svg",
+          "24": "svg/multicolor/nav.feed.cards@24.svg",
+          "32": "svg/multicolor/nav.feed.cards@32.svg",
+          "48": "svg/multicolor/nav.feed.cards@48.svg",
+          "72": "svg/multicolor/nav.feed.cards@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.feed.stream",
+      "category": "nav",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Feed Stream",
+      "files": {
+        "outline": {
+          "16": "svg/outline/nav.feed.stream@16.svg",
+          "20": "svg/outline/nav.feed.stream@20.svg",
+          "24": "svg/outline/nav.feed.stream@24.svg",
+          "32": "svg/outline/nav.feed.stream@32.svg",
+          "48": "svg/outline/nav.feed.stream@48.svg",
+          "72": "svg/outline/nav.feed.stream@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/nav.feed.stream@16.svg",
+          "20": "svg/solid/nav.feed.stream@20.svg",
+          "24": "svg/solid/nav.feed.stream@24.svg",
+          "32": "svg/solid/nav.feed.stream@32.svg",
+          "48": "svg/solid/nav.feed.stream@48.svg",
+          "72": "svg/solid/nav.feed.stream@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/nav.feed.stream@16.svg",
+          "20": "svg/duotone/nav.feed.stream@20.svg",
+          "24": "svg/duotone/nav.feed.stream@24.svg",
+          "32": "svg/duotone/nav.feed.stream@32.svg",
+          "48": "svg/duotone/nav.feed.stream@48.svg",
+          "72": "svg/duotone/nav.feed.stream@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/nav.feed.stream@16.svg",
+          "20": "svg/multicolor/nav.feed.stream@20.svg",
+          "24": "svg/multicolor/nav.feed.stream@24.svg",
+          "32": "svg/multicolor/nav.feed.stream@32.svg",
+          "48": "svg/multicolor/nav.feed.stream@48.svg",
+          "72": "svg/multicolor/nav.feed.stream@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.feed.waves",
+      "category": "nav",
+      "tier": "P2",
+      "verdict": "keep",
+      "label": "Feed Waves",
+      "files": {
+        "outline": {
+          "16": "svg/outline/nav.feed.waves@16.svg",
+          "20": "svg/outline/nav.feed.waves@20.svg",
+          "24": "svg/outline/nav.feed.waves@24.svg",
+          "32": "svg/outline/nav.feed.waves@32.svg",
+          "48": "svg/outline/nav.feed.waves@48.svg",
+          "72": "svg/outline/nav.feed.waves@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/nav.feed.waves@16.svg",
+          "20": "svg/solid/nav.feed.waves@20.svg",
+          "24": "svg/solid/nav.feed.waves@24.svg",
+          "32": "svg/solid/nav.feed.waves@32.svg",
+          "48": "svg/solid/nav.feed.waves@48.svg",
+          "72": "svg/solid/nav.feed.waves@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/nav.feed.waves@16.svg",
+          "20": "svg/duotone/nav.feed.waves@20.svg",
+          "24": "svg/duotone/nav.feed.waves@24.svg",
+          "32": "svg/duotone/nav.feed.waves@32.svg",
+          "48": "svg/duotone/nav.feed.waves@48.svg",
+          "72": "svg/duotone/nav.feed.waves@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/nav.feed.waves@16.svg",
+          "20": "svg/multicolor/nav.feed.waves@20.svg",
+          "24": "svg/multicolor/nav.feed.waves@24.svg",
+          "32": "svg/multicolor/nav.feed.waves@32.svg",
+          "48": "svg/multicolor/nav.feed.waves@48.svg",
+          "72": "svg/multicolor/nav.feed.waves@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.garden.beds",
+      "category": "nav",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Garden Beds",
+      "files": {
+        "outline": {
+          "16": "svg/outline/nav.garden.beds@16.svg",
+          "20": "svg/outline/nav.garden.beds@20.svg",
+          "24": "svg/outline/nav.garden.beds@24.svg",
+          "32": "svg/outline/nav.garden.beds@32.svg",
+          "48": "svg/outline/nav.garden.beds@48.svg",
+          "72": "svg/outline/nav.garden.beds@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/nav.garden.beds@16.svg",
+          "20": "svg/solid/nav.garden.beds@20.svg",
+          "24": "svg/solid/nav.garden.beds@24.svg",
+          "32": "svg/solid/nav.garden.beds@32.svg",
+          "48": "svg/solid/nav.garden.beds@48.svg",
+          "72": "svg/solid/nav.garden.beds@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/nav.garden.beds@16.svg",
+          "20": "svg/duotone/nav.garden.beds@20.svg",
+          "24": "svg/duotone/nav.garden.beds@24.svg",
+          "32": "svg/duotone/nav.garden.beds@32.svg",
+          "48": "svg/duotone/nav.garden.beds@48.svg",
+          "72": "svg/duotone/nav.garden.beds@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/nav.garden.beds@16.svg",
+          "20": "svg/multicolor/nav.garden.beds@20.svg",
+          "24": "svg/multicolor/nav.garden.beds@24.svg",
+          "32": "svg/multicolor/nav.garden.beds@32.svg",
+          "48": "svg/multicolor/nav.garden.beds@48.svg",
+          "72": "svg/multicolor/nav.garden.beds@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.garden.plot",
+      "category": "nav",
+      "tier": "P2",
+      "verdict": "refine",
+      "label": "Garden Plot",
+      "files": {
+        "outline": {
+          "16": "svg/outline/nav.garden.plot@16.svg",
+          "20": "svg/outline/nav.garden.plot@20.svg",
+          "24": "svg/outline/nav.garden.plot@24.svg",
+          "32": "svg/outline/nav.garden.plot@32.svg",
+          "48": "svg/outline/nav.garden.plot@48.svg",
+          "72": "svg/outline/nav.garden.plot@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/nav.garden.plot@16.svg",
+          "20": "svg/solid/nav.garden.plot@20.svg",
+          "24": "svg/solid/nav.garden.plot@24.svg",
+          "32": "svg/solid/nav.garden.plot@32.svg",
+          "48": "svg/solid/nav.garden.plot@48.svg",
+          "72": "svg/solid/nav.garden.plot@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/nav.garden.plot@16.svg",
+          "20": "svg/duotone/nav.garden.plot@20.svg",
+          "24": "svg/duotone/nav.garden.plot@24.svg",
+          "32": "svg/duotone/nav.garden.plot@32.svg",
+          "48": "svg/duotone/nav.garden.plot@48.svg",
+          "72": "svg/duotone/nav.garden.plot@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/nav.garden.plot@16.svg",
+          "20": "svg/multicolor/nav.garden.plot@20.svg",
+          "24": "svg/multicolor/nav.garden.plot@24.svg",
+          "32": "svg/multicolor/nav.garden.plot@32.svg",
+          "48": "svg/multicolor/nav.garden.plot@48.svg",
+          "72": "svg/multicolor/nav.garden.plot@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.garden.sprouts",
+      "category": "nav",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Garden Sprouts",
+      "files": {
+        "outline": {
+          "16": "svg/outline/nav.garden.sprouts@16.svg",
+          "20": "svg/outline/nav.garden.sprouts@20.svg",
+          "24": "svg/outline/nav.garden.sprouts@24.svg",
+          "32": "svg/outline/nav.garden.sprouts@32.svg",
+          "48": "svg/outline/nav.garden.sprouts@48.svg",
+          "72": "svg/outline/nav.garden.sprouts@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/nav.garden.sprouts@16.svg",
+          "20": "svg/solid/nav.garden.sprouts@20.svg",
+          "24": "svg/solid/nav.garden.sprouts@24.svg",
+          "32": "svg/solid/nav.garden.sprouts@32.svg",
+          "48": "svg/solid/nav.garden.sprouts@48.svg",
+          "72": "svg/solid/nav.garden.sprouts@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/nav.garden.sprouts@16.svg",
+          "20": "svg/duotone/nav.garden.sprouts@20.svg",
+          "24": "svg/duotone/nav.garden.sprouts@24.svg",
+          "32": "svg/duotone/nav.garden.sprouts@32.svg",
+          "48": "svg/duotone/nav.garden.sprouts@48.svg",
+          "72": "svg/duotone/nav.garden.sprouts@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/nav.garden.sprouts@16.svg",
+          "20": "svg/multicolor/nav.garden.sprouts@20.svg",
+          "24": "svg/multicolor/nav.garden.sprouts@24.svg",
+          "32": "svg/multicolor/nav.garden.sprouts@32.svg",
+          "48": "svg/multicolor/nav.garden.sprouts@48.svg",
+          "72": "svg/multicolor/nav.garden.sprouts@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.plant.leaf",
+      "category": "nav",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Plant Leaf",
+      "files": {
+        "outline": {
+          "16": "svg/outline/nav.plant.leaf@16.svg",
+          "20": "svg/outline/nav.plant.leaf@20.svg",
+          "24": "svg/outline/nav.plant.leaf@24.svg",
+          "32": "svg/outline/nav.plant.leaf@32.svg",
+          "48": "svg/outline/nav.plant.leaf@48.svg",
+          "72": "svg/outline/nav.plant.leaf@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/nav.plant.leaf@16.svg",
+          "20": "svg/solid/nav.plant.leaf@20.svg",
+          "24": "svg/solid/nav.plant.leaf@24.svg",
+          "32": "svg/solid/nav.plant.leaf@32.svg",
+          "48": "svg/solid/nav.plant.leaf@48.svg",
+          "72": "svg/solid/nav.plant.leaf@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/nav.plant.leaf@16.svg",
+          "20": "svg/duotone/nav.plant.leaf@20.svg",
+          "24": "svg/duotone/nav.plant.leaf@24.svg",
+          "32": "svg/duotone/nav.plant.leaf@32.svg",
+          "48": "svg/duotone/nav.plant.leaf@48.svg",
+          "72": "svg/duotone/nav.plant.leaf@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/nav.plant.leaf@16.svg",
+          "20": "svg/multicolor/nav.plant.leaf@20.svg",
+          "24": "svg/multicolor/nav.plant.leaf@24.svg",
+          "32": "svg/multicolor/nav.plant.leaf@32.svg",
+          "48": "svg/multicolor/nav.plant.leaf@48.svg",
+          "72": "svg/multicolor/nav.plant.leaf@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.plant.potted",
+      "category": "nav",
+      "tier": "P2",
+      "verdict": "refine",
+      "label": "Plant Potted",
+      "files": {
+        "outline": {
+          "16": "svg/outline/nav.plant.potted@16.svg",
+          "20": "svg/outline/nav.plant.potted@20.svg",
+          "24": "svg/outline/nav.plant.potted@24.svg",
+          "32": "svg/outline/nav.plant.potted@32.svg",
+          "48": "svg/outline/nav.plant.potted@48.svg",
+          "72": "svg/outline/nav.plant.potted@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/nav.plant.potted@16.svg",
+          "20": "svg/solid/nav.plant.potted@20.svg",
+          "24": "svg/solid/nav.plant.potted@24.svg",
+          "32": "svg/solid/nav.plant.potted@32.svg",
+          "48": "svg/solid/nav.plant.potted@48.svg",
+          "72": "svg/solid/nav.plant.potted@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/nav.plant.potted@16.svg",
+          "20": "svg/duotone/nav.plant.potted@20.svg",
+          "24": "svg/duotone/nav.plant.potted@24.svg",
+          "32": "svg/duotone/nav.plant.potted@32.svg",
+          "48": "svg/duotone/nav.plant.potted@48.svg",
+          "72": "svg/duotone/nav.plant.potted@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/nav.plant.potted@16.svg",
+          "20": "svg/multicolor/nav.plant.potted@20.svg",
+          "24": "svg/multicolor/nav.plant.potted@24.svg",
+          "32": "svg/multicolor/nav.plant.potted@32.svg",
+          "48": "svg/multicolor/nav.plant.potted@48.svg",
+          "72": "svg/multicolor/nav.plant.potted@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.plant.sprout",
+      "category": "nav",
+      "tier": "P2",
+      "verdict": "refine",
+      "label": "Plant Sprout",
+      "files": {
+        "outline": {
+          "16": "svg/outline/nav.plant.sprout@16.svg",
+          "20": "svg/outline/nav.plant.sprout@20.svg",
+          "24": "svg/outline/nav.plant.sprout@24.svg",
+          "32": "svg/outline/nav.plant.sprout@32.svg",
+          "48": "svg/outline/nav.plant.sprout@48.svg",
+          "72": "svg/outline/nav.plant.sprout@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/nav.plant.sprout@16.svg",
+          "20": "svg/solid/nav.plant.sprout@20.svg",
+          "24": "svg/solid/nav.plant.sprout@24.svg",
+          "32": "svg/solid/nav.plant.sprout@32.svg",
+          "48": "svg/solid/nav.plant.sprout@48.svg",
+          "72": "svg/solid/nav.plant.sprout@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/nav.plant.sprout@16.svg",
+          "20": "svg/duotone/nav.plant.sprout@20.svg",
+          "24": "svg/duotone/nav.plant.sprout@24.svg",
+          "32": "svg/duotone/nav.plant.sprout@32.svg",
+          "48": "svg/duotone/nav.plant.sprout@48.svg",
+          "72": "svg/duotone/nav.plant.sprout@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/nav.plant.sprout@16.svg",
+          "20": "svg/multicolor/nav.plant.sprout@20.svg",
+          "24": "svg/multicolor/nav.plant.sprout@24.svg",
+          "32": "svg/multicolor/nav.plant.sprout@32.svg",
+          "48": "svg/multicolor/nav.plant.sprout@48.svg",
+          "72": "svg/multicolor/nav.plant.sprout@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.today.leaf",
+      "category": "nav",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Today Leaf",
+      "files": {
+        "outline": {
+          "16": "svg/outline/nav.today.leaf@16.svg",
+          "20": "svg/outline/nav.today.leaf@20.svg",
+          "24": "svg/outline/nav.today.leaf@24.svg",
+          "32": "svg/outline/nav.today.leaf@32.svg",
+          "48": "svg/outline/nav.today.leaf@48.svg",
+          "72": "svg/outline/nav.today.leaf@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/nav.today.leaf@16.svg",
+          "20": "svg/solid/nav.today.leaf@20.svg",
+          "24": "svg/solid/nav.today.leaf@24.svg",
+          "32": "svg/solid/nav.today.leaf@32.svg",
+          "48": "svg/solid/nav.today.leaf@48.svg",
+          "72": "svg/solid/nav.today.leaf@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/nav.today.leaf@16.svg",
+          "20": "svg/duotone/nav.today.leaf@20.svg",
+          "24": "svg/duotone/nav.today.leaf@24.svg",
+          "32": "svg/duotone/nav.today.leaf@32.svg",
+          "48": "svg/duotone/nav.today.leaf@48.svg",
+          "72": "svg/duotone/nav.today.leaf@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/nav.today.leaf@16.svg",
+          "20": "svg/multicolor/nav.today.leaf@20.svg",
+          "24": "svg/multicolor/nav.today.leaf@24.svg",
+          "32": "svg/multicolor/nav.today.leaf@32.svg",
+          "48": "svg/multicolor/nav.today.leaf@48.svg",
+          "72": "svg/multicolor/nav.today.leaf@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.today.sun",
+      "category": "nav",
+      "tier": "P2",
+      "verdict": "keep",
+      "label": "Today Sun",
+      "files": {
+        "outline": {
+          "16": "svg/outline/nav.today.sun@16.svg",
+          "20": "svg/outline/nav.today.sun@20.svg",
+          "24": "svg/outline/nav.today.sun@24.svg",
+          "32": "svg/outline/nav.today.sun@32.svg",
+          "48": "svg/outline/nav.today.sun@48.svg",
+          "72": "svg/outline/nav.today.sun@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/nav.today.sun@16.svg",
+          "20": "svg/solid/nav.today.sun@20.svg",
+          "24": "svg/solid/nav.today.sun@24.svg",
+          "32": "svg/solid/nav.today.sun@32.svg",
+          "48": "svg/solid/nav.today.sun@48.svg",
+          "72": "svg/solid/nav.today.sun@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/nav.today.sun@16.svg",
+          "20": "svg/duotone/nav.today.sun@20.svg",
+          "24": "svg/duotone/nav.today.sun@24.svg",
+          "32": "svg/duotone/nav.today.sun@32.svg",
+          "48": "svg/duotone/nav.today.sun@48.svg",
+          "72": "svg/duotone/nav.today.sun@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/nav.today.sun@16.svg",
+          "20": "svg/multicolor/nav.today.sun@20.svg",
+          "24": "svg/multicolor/nav.today.sun@24.svg",
+          "32": "svg/multicolor/nav.today.sun@32.svg",
+          "48": "svg/multicolor/nav.today.sun@48.svg",
+          "72": "svg/multicolor/nav.today.sun@72.svg"
+        }
+      }
+    },
+    {
+      "id": "nav.today.sunrise",
+      "category": "nav",
+      "tier": "P2",
+      "verdict": "refine",
+      "label": "Today Sunrise",
+      "files": {
+        "outline": {
+          "16": "svg/outline/nav.today.sunrise@16.svg",
+          "20": "svg/outline/nav.today.sunrise@20.svg",
+          "24": "svg/outline/nav.today.sunrise@24.svg",
+          "32": "svg/outline/nav.today.sunrise@32.svg",
+          "48": "svg/outline/nav.today.sunrise@48.svg",
+          "72": "svg/outline/nav.today.sunrise@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/nav.today.sunrise@16.svg",
+          "20": "svg/solid/nav.today.sunrise@20.svg",
+          "24": "svg/solid/nav.today.sunrise@24.svg",
+          "32": "svg/solid/nav.today.sunrise@32.svg",
+          "48": "svg/solid/nav.today.sunrise@48.svg",
+          "72": "svg/solid/nav.today.sunrise@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/nav.today.sunrise@16.svg",
+          "20": "svg/duotone/nav.today.sunrise@20.svg",
+          "24": "svg/duotone/nav.today.sunrise@24.svg",
+          "32": "svg/duotone/nav.today.sunrise@32.svg",
+          "48": "svg/duotone/nav.today.sunrise@48.svg",
+          "72": "svg/duotone/nav.today.sunrise@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/nav.today.sunrise@16.svg",
+          "20": "svg/multicolor/nav.today.sunrise@20.svg",
+          "24": "svg/multicolor/nav.today.sunrise@24.svg",
+          "32": "svg/multicolor/nav.today.sunrise@32.svg",
+          "48": "svg/multicolor/nav.today.sunrise@48.svg",
+          "72": "svg/multicolor/nav.today.sunrise@72.svg"
         }
       }
     },
@@ -706,6 +3740,47 @@
       }
     },
     {
+      "id": "plant.add",
+      "category": "lifecycle",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Add",
+      "files": {
+        "outline": {
+          "16": "svg/outline/plant.add@16.svg",
+          "20": "svg/outline/plant.add@20.svg",
+          "24": "svg/outline/plant.add@24.svg",
+          "32": "svg/outline/plant.add@32.svg",
+          "48": "svg/outline/plant.add@48.svg",
+          "72": "svg/outline/plant.add@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/plant.add@16.svg",
+          "20": "svg/solid/plant.add@20.svg",
+          "24": "svg/solid/plant.add@24.svg",
+          "32": "svg/solid/plant.add@32.svg",
+          "48": "svg/solid/plant.add@48.svg",
+          "72": "svg/solid/plant.add@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/plant.add@16.svg",
+          "20": "svg/duotone/plant.add@20.svg",
+          "24": "svg/duotone/plant.add@24.svg",
+          "32": "svg/duotone/plant.add@32.svg",
+          "48": "svg/duotone/plant.add@48.svg",
+          "72": "svg/duotone/plant.add@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/plant.add@16.svg",
+          "20": "svg/multicolor/plant.add@20.svg",
+          "24": "svg/multicolor/plant.add@24.svg",
+          "32": "svg/multicolor/plant.add@32.svg",
+          "48": "svg/multicolor/plant.add@48.svg",
+          "72": "svg/multicolor/plant.add@72.svg"
+        }
+      }
+    },
+    {
       "id": "plant.growth",
       "category": "plant",
       "tier": "P0",
@@ -788,6 +3863,129 @@
       }
     },
     {
+      "id": "plant.related",
+      "category": "lifecycle",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Related",
+      "files": {
+        "outline": {
+          "16": "svg/outline/plant.related@16.svg",
+          "20": "svg/outline/plant.related@20.svg",
+          "24": "svg/outline/plant.related@24.svg",
+          "32": "svg/outline/plant.related@32.svg",
+          "48": "svg/outline/plant.related@48.svg",
+          "72": "svg/outline/plant.related@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/plant.related@16.svg",
+          "20": "svg/solid/plant.related@20.svg",
+          "24": "svg/solid/plant.related@24.svg",
+          "32": "svg/solid/plant.related@32.svg",
+          "48": "svg/solid/plant.related@48.svg",
+          "72": "svg/solid/plant.related@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/plant.related@16.svg",
+          "20": "svg/duotone/plant.related@20.svg",
+          "24": "svg/duotone/plant.related@24.svg",
+          "32": "svg/duotone/plant.related@32.svg",
+          "48": "svg/duotone/plant.related@48.svg",
+          "72": "svg/duotone/plant.related@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/plant.related@16.svg",
+          "20": "svg/multicolor/plant.related@20.svg",
+          "24": "svg/multicolor/plant.related@24.svg",
+          "32": "svg/multicolor/plant.related@32.svg",
+          "48": "svg/multicolor/plant.related@48.svg",
+          "72": "svg/multicolor/plant.related@72.svg"
+        }
+      }
+    },
+    {
+      "id": "plant.remove",
+      "category": "lifecycle",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Remove",
+      "files": {
+        "outline": {
+          "16": "svg/outline/plant.remove@16.svg",
+          "20": "svg/outline/plant.remove@20.svg",
+          "24": "svg/outline/plant.remove@24.svg",
+          "32": "svg/outline/plant.remove@32.svg",
+          "48": "svg/outline/plant.remove@48.svg",
+          "72": "svg/outline/plant.remove@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/plant.remove@16.svg",
+          "20": "svg/solid/plant.remove@20.svg",
+          "24": "svg/solid/plant.remove@24.svg",
+          "32": "svg/solid/plant.remove@32.svg",
+          "48": "svg/solid/plant.remove@48.svg",
+          "72": "svg/solid/plant.remove@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/plant.remove@16.svg",
+          "20": "svg/duotone/plant.remove@20.svg",
+          "24": "svg/duotone/plant.remove@24.svg",
+          "32": "svg/duotone/plant.remove@32.svg",
+          "48": "svg/duotone/plant.remove@48.svg",
+          "72": "svg/duotone/plant.remove@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/plant.remove@16.svg",
+          "20": "svg/multicolor/plant.remove@20.svg",
+          "24": "svg/multicolor/plant.remove@24.svg",
+          "32": "svg/multicolor/plant.remove@32.svg",
+          "48": "svg/multicolor/plant.remove@48.svg",
+          "72": "svg/multicolor/plant.remove@72.svg"
+        }
+      }
+    },
+    {
+      "id": "plant.seedling",
+      "category": "plant",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Seedling",
+      "files": {
+        "outline": {
+          "16": "svg/outline/plant.seedling@16.svg",
+          "20": "svg/outline/plant.seedling@20.svg",
+          "24": "svg/outline/plant.seedling@24.svg",
+          "32": "svg/outline/plant.seedling@32.svg",
+          "48": "svg/outline/plant.seedling@48.svg",
+          "72": "svg/outline/plant.seedling@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/plant.seedling@16.svg",
+          "20": "svg/solid/plant.seedling@20.svg",
+          "24": "svg/solid/plant.seedling@24.svg",
+          "32": "svg/solid/plant.seedling@32.svg",
+          "48": "svg/solid/plant.seedling@48.svg",
+          "72": "svg/solid/plant.seedling@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/plant.seedling@16.svg",
+          "20": "svg/duotone/plant.seedling@20.svg",
+          "24": "svg/duotone/plant.seedling@24.svg",
+          "32": "svg/duotone/plant.seedling@32.svg",
+          "48": "svg/duotone/plant.seedling@48.svg",
+          "72": "svg/duotone/plant.seedling@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/plant.seedling@16.svg",
+          "20": "svg/multicolor/plant.seedling@20.svg",
+          "24": "svg/multicolor/plant.seedling@24.svg",
+          "32": "svg/multicolor/plant.seedling@32.svg",
+          "48": "svg/multicolor/plant.seedling@48.svg",
+          "72": "svg/multicolor/plant.seedling@72.svg"
+        }
+      }
+    },
+    {
       "id": "plant.sprout",
       "category": "plant",
       "tier": "P0",
@@ -829,6 +4027,47 @@
       }
     },
     {
+      "id": "plant.thriving",
+      "category": "plant",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Thriving",
+      "files": {
+        "outline": {
+          "16": "svg/outline/plant.thriving@16.svg",
+          "20": "svg/outline/plant.thriving@20.svg",
+          "24": "svg/outline/plant.thriving@24.svg",
+          "32": "svg/outline/plant.thriving@32.svg",
+          "48": "svg/outline/plant.thriving@48.svg",
+          "72": "svg/outline/plant.thriving@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/plant.thriving@16.svg",
+          "20": "svg/solid/plant.thriving@20.svg",
+          "24": "svg/solid/plant.thriving@24.svg",
+          "32": "svg/solid/plant.thriving@32.svg",
+          "48": "svg/solid/plant.thriving@48.svg",
+          "72": "svg/solid/plant.thriving@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/plant.thriving@16.svg",
+          "20": "svg/duotone/plant.thriving@20.svg",
+          "24": "svg/duotone/plant.thriving@24.svg",
+          "32": "svg/duotone/plant.thriving@32.svg",
+          "48": "svg/duotone/plant.thriving@48.svg",
+          "72": "svg/duotone/plant.thriving@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/plant.thriving@16.svg",
+          "20": "svg/multicolor/plant.thriving@20.svg",
+          "24": "svg/multicolor/plant.thriving@24.svg",
+          "32": "svg/multicolor/plant.thriving@32.svg",
+          "48": "svg/multicolor/plant.thriving@48.svg",
+          "72": "svg/multicolor/plant.thriving@72.svg"
+        }
+      }
+    },
+    {
       "id": "plant.watering",
       "category": "plant",
       "tier": "P1",
@@ -866,6 +4105,211 @@
           "32": "svg/multicolor/plant.watering@32.svg",
           "48": "svg/multicolor/plant.watering@48.svg",
           "72": "svg/multicolor/plant.watering@72.svg"
+        }
+      }
+    },
+    {
+      "id": "plant.watering.can",
+      "category": "plant",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Watering Can",
+      "files": {
+        "outline": {
+          "16": "svg/outline/plant.watering.can@16.svg",
+          "20": "svg/outline/plant.watering.can@20.svg",
+          "24": "svg/outline/plant.watering.can@24.svg",
+          "32": "svg/outline/plant.watering.can@32.svg",
+          "48": "svg/outline/plant.watering.can@48.svg",
+          "72": "svg/outline/plant.watering.can@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/plant.watering.can@16.svg",
+          "20": "svg/solid/plant.watering.can@20.svg",
+          "24": "svg/solid/plant.watering.can@24.svg",
+          "32": "svg/solid/plant.watering.can@32.svg",
+          "48": "svg/solid/plant.watering.can@48.svg",
+          "72": "svg/solid/plant.watering.can@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/plant.watering.can@16.svg",
+          "20": "svg/duotone/plant.watering.can@20.svg",
+          "24": "svg/duotone/plant.watering.can@24.svg",
+          "32": "svg/duotone/plant.watering.can@32.svg",
+          "48": "svg/duotone/plant.watering.can@48.svg",
+          "72": "svg/duotone/plant.watering.can@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/plant.watering.can@16.svg",
+          "20": "svg/multicolor/plant.watering.can@20.svg",
+          "24": "svg/multicolor/plant.watering.can@24.svg",
+          "32": "svg/multicolor/plant.watering.can@32.svg",
+          "48": "svg/multicolor/plant.watering.can@48.svg",
+          "72": "svg/multicolor/plant.watering.can@72.svg"
+        }
+      }
+    },
+    {
+      "id": "plant.wilting",
+      "category": "plant",
+      "tier": "P2",
+      "verdict": "refine",
+      "label": "Wilting",
+      "files": {
+        "outline": {
+          "16": "svg/outline/plant.wilting@16.svg",
+          "20": "svg/outline/plant.wilting@20.svg",
+          "24": "svg/outline/plant.wilting@24.svg",
+          "32": "svg/outline/plant.wilting@32.svg",
+          "48": "svg/outline/plant.wilting@48.svg",
+          "72": "svg/outline/plant.wilting@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/plant.wilting@16.svg",
+          "20": "svg/solid/plant.wilting@20.svg",
+          "24": "svg/solid/plant.wilting@24.svg",
+          "32": "svg/solid/plant.wilting@32.svg",
+          "48": "svg/solid/plant.wilting@48.svg",
+          "72": "svg/solid/plant.wilting@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/plant.wilting@16.svg",
+          "20": "svg/duotone/plant.wilting@20.svg",
+          "24": "svg/duotone/plant.wilting@24.svg",
+          "32": "svg/duotone/plant.wilting@32.svg",
+          "48": "svg/duotone/plant.wilting@48.svg",
+          "72": "svg/duotone/plant.wilting@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/plant.wilting@16.svg",
+          "20": "svg/multicolor/plant.wilting@20.svg",
+          "24": "svg/multicolor/plant.wilting@24.svg",
+          "32": "svg/multicolor/plant.wilting@32.svg",
+          "48": "svg/multicolor/plant.wilting@48.svg",
+          "72": "svg/multicolor/plant.wilting@72.svg"
+        }
+      }
+    },
+    {
+      "id": "stage.growing",
+      "category": "lifecycle",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Growing",
+      "files": {
+        "outline": {
+          "16": "svg/outline/stage.growing@16.svg",
+          "20": "svg/outline/stage.growing@20.svg",
+          "24": "svg/outline/stage.growing@24.svg",
+          "32": "svg/outline/stage.growing@32.svg",
+          "48": "svg/outline/stage.growing@48.svg",
+          "72": "svg/outline/stage.growing@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/stage.growing@16.svg",
+          "20": "svg/solid/stage.growing@20.svg",
+          "24": "svg/solid/stage.growing@24.svg",
+          "32": "svg/solid/stage.growing@32.svg",
+          "48": "svg/solid/stage.growing@48.svg",
+          "72": "svg/solid/stage.growing@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/stage.growing@16.svg",
+          "20": "svg/duotone/stage.growing@20.svg",
+          "24": "svg/duotone/stage.growing@24.svg",
+          "32": "svg/duotone/stage.growing@32.svg",
+          "48": "svg/duotone/stage.growing@48.svg",
+          "72": "svg/duotone/stage.growing@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/stage.growing@16.svg",
+          "20": "svg/multicolor/stage.growing@20.svg",
+          "24": "svg/multicolor/stage.growing@24.svg",
+          "32": "svg/multicolor/stage.growing@32.svg",
+          "48": "svg/multicolor/stage.growing@48.svg",
+          "72": "svg/multicolor/stage.growing@72.svg"
+        }
+      }
+    },
+    {
+      "id": "stage.mature",
+      "category": "lifecycle",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Mature",
+      "files": {
+        "outline": {
+          "16": "svg/outline/stage.mature@16.svg",
+          "20": "svg/outline/stage.mature@20.svg",
+          "24": "svg/outline/stage.mature@24.svg",
+          "32": "svg/outline/stage.mature@32.svg",
+          "48": "svg/outline/stage.mature@48.svg",
+          "72": "svg/outline/stage.mature@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/stage.mature@16.svg",
+          "20": "svg/solid/stage.mature@20.svg",
+          "24": "svg/solid/stage.mature@24.svg",
+          "32": "svg/solid/stage.mature@32.svg",
+          "48": "svg/solid/stage.mature@48.svg",
+          "72": "svg/solid/stage.mature@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/stage.mature@16.svg",
+          "20": "svg/duotone/stage.mature@20.svg",
+          "24": "svg/duotone/stage.mature@24.svg",
+          "32": "svg/duotone/stage.mature@32.svg",
+          "48": "svg/duotone/stage.mature@48.svg",
+          "72": "svg/duotone/stage.mature@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/stage.mature@16.svg",
+          "20": "svg/multicolor/stage.mature@20.svg",
+          "24": "svg/multicolor/stage.mature@24.svg",
+          "32": "svg/multicolor/stage.mature@32.svg",
+          "48": "svg/multicolor/stage.mature@48.svg",
+          "72": "svg/multicolor/stage.mature@72.svg"
+        }
+      }
+    },
+    {
+      "id": "stage.seedling",
+      "category": "lifecycle",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Seedling",
+      "files": {
+        "outline": {
+          "16": "svg/outline/stage.seedling@16.svg",
+          "20": "svg/outline/stage.seedling@20.svg",
+          "24": "svg/outline/stage.seedling@24.svg",
+          "32": "svg/outline/stage.seedling@32.svg",
+          "48": "svg/outline/stage.seedling@48.svg",
+          "72": "svg/outline/stage.seedling@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/stage.seedling@16.svg",
+          "20": "svg/solid/stage.seedling@20.svg",
+          "24": "svg/solid/stage.seedling@24.svg",
+          "32": "svg/solid/stage.seedling@32.svg",
+          "48": "svg/solid/stage.seedling@48.svg",
+          "72": "svg/solid/stage.seedling@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/stage.seedling@16.svg",
+          "20": "svg/duotone/stage.seedling@20.svg",
+          "24": "svg/duotone/stage.seedling@24.svg",
+          "32": "svg/duotone/stage.seedling@32.svg",
+          "48": "svg/duotone/stage.seedling@48.svg",
+          "72": "svg/duotone/stage.seedling@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/stage.seedling@16.svg",
+          "20": "svg/multicolor/stage.seedling@20.svg",
+          "24": "svg/multicolor/stage.seedling@24.svg",
+          "32": "svg/multicolor/stage.seedling@32.svg",
+          "48": "svg/multicolor/stage.seedling@48.svg",
+          "72": "svg/multicolor/stage.seedling@72.svg"
         }
       }
     },
@@ -989,6 +4433,47 @@
           "32": "svg/multicolor/status.loading@32.svg",
           "48": "svg/multicolor/status.loading@48.svg",
           "72": "svg/multicolor/status.loading@72.svg"
+        }
+      }
+    },
+    {
+      "id": "status.streak",
+      "category": "status",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Streak",
+      "files": {
+        "outline": {
+          "16": "svg/outline/status.streak@16.svg",
+          "20": "svg/outline/status.streak@20.svg",
+          "24": "svg/outline/status.streak@24.svg",
+          "32": "svg/outline/status.streak@32.svg",
+          "48": "svg/outline/status.streak@48.svg",
+          "72": "svg/outline/status.streak@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/status.streak@16.svg",
+          "20": "svg/solid/status.streak@20.svg",
+          "24": "svg/solid/status.streak@24.svg",
+          "32": "svg/solid/status.streak@32.svg",
+          "48": "svg/solid/status.streak@48.svg",
+          "72": "svg/solid/status.streak@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/status.streak@16.svg",
+          "20": "svg/duotone/status.streak@20.svg",
+          "24": "svg/duotone/status.streak@24.svg",
+          "32": "svg/duotone/status.streak@32.svg",
+          "48": "svg/duotone/status.streak@48.svg",
+          "72": "svg/duotone/status.streak@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/status.streak@16.svg",
+          "20": "svg/multicolor/status.streak@20.svg",
+          "24": "svg/multicolor/status.streak@24.svg",
+          "32": "svg/multicolor/status.streak@32.svg",
+          "48": "svg/multicolor/status.streak@48.svg",
+          "72": "svg/multicolor/status.streak@72.svg"
         }
       }
     },
@@ -1157,6 +4642,170 @@
       }
     },
     {
+      "id": "status.warning.alt",
+      "category": "status",
+      "tier": "P2",
+      "verdict": "keep",
+      "label": "Warning Alt",
+      "files": {
+        "outline": {
+          "16": "svg/outline/status.warning.alt@16.svg",
+          "20": "svg/outline/status.warning.alt@20.svg",
+          "24": "svg/outline/status.warning.alt@24.svg",
+          "32": "svg/outline/status.warning.alt@32.svg",
+          "48": "svg/outline/status.warning.alt@48.svg",
+          "72": "svg/outline/status.warning.alt@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/status.warning.alt@16.svg",
+          "20": "svg/solid/status.warning.alt@20.svg",
+          "24": "svg/solid/status.warning.alt@24.svg",
+          "32": "svg/solid/status.warning.alt@32.svg",
+          "48": "svg/solid/status.warning.alt@48.svg",
+          "72": "svg/solid/status.warning.alt@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/status.warning.alt@16.svg",
+          "20": "svg/duotone/status.warning.alt@20.svg",
+          "24": "svg/duotone/status.warning.alt@24.svg",
+          "32": "svg/duotone/status.warning.alt@32.svg",
+          "48": "svg/duotone/status.warning.alt@48.svg",
+          "72": "svg/duotone/status.warning.alt@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/status.warning.alt@16.svg",
+          "20": "svg/multicolor/status.warning.alt@20.svg",
+          "24": "svg/multicolor/status.warning.alt@24.svg",
+          "32": "svg/multicolor/status.warning.alt@32.svg",
+          "48": "svg/multicolor/status.warning.alt@48.svg",
+          "72": "svg/multicolor/status.warning.alt@72.svg"
+        }
+      }
+    },
+    {
+      "id": "taxonomy.family",
+      "category": "genus",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Family",
+      "files": {
+        "outline": {
+          "16": "svg/outline/taxonomy.family@16.svg",
+          "20": "svg/outline/taxonomy.family@20.svg",
+          "24": "svg/outline/taxonomy.family@24.svg",
+          "32": "svg/outline/taxonomy.family@32.svg",
+          "48": "svg/outline/taxonomy.family@48.svg",
+          "72": "svg/outline/taxonomy.family@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/taxonomy.family@16.svg",
+          "20": "svg/solid/taxonomy.family@20.svg",
+          "24": "svg/solid/taxonomy.family@24.svg",
+          "32": "svg/solid/taxonomy.family@32.svg",
+          "48": "svg/solid/taxonomy.family@48.svg",
+          "72": "svg/solid/taxonomy.family@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/taxonomy.family@16.svg",
+          "20": "svg/duotone/taxonomy.family@20.svg",
+          "24": "svg/duotone/taxonomy.family@24.svg",
+          "32": "svg/duotone/taxonomy.family@32.svg",
+          "48": "svg/duotone/taxonomy.family@48.svg",
+          "72": "svg/duotone/taxonomy.family@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/taxonomy.family@16.svg",
+          "20": "svg/multicolor/taxonomy.family@20.svg",
+          "24": "svg/multicolor/taxonomy.family@24.svg",
+          "32": "svg/multicolor/taxonomy.family@32.svg",
+          "48": "svg/multicolor/taxonomy.family@48.svg",
+          "72": "svg/multicolor/taxonomy.family@72.svg"
+        }
+      }
+    },
+    {
+      "id": "taxonomy.genus",
+      "category": "genus",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Genus",
+      "files": {
+        "outline": {
+          "16": "svg/outline/taxonomy.genus@16.svg",
+          "20": "svg/outline/taxonomy.genus@20.svg",
+          "24": "svg/outline/taxonomy.genus@24.svg",
+          "32": "svg/outline/taxonomy.genus@32.svg",
+          "48": "svg/outline/taxonomy.genus@48.svg",
+          "72": "svg/outline/taxonomy.genus@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/taxonomy.genus@16.svg",
+          "20": "svg/solid/taxonomy.genus@20.svg",
+          "24": "svg/solid/taxonomy.genus@24.svg",
+          "32": "svg/solid/taxonomy.genus@32.svg",
+          "48": "svg/solid/taxonomy.genus@48.svg",
+          "72": "svg/solid/taxonomy.genus@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/taxonomy.genus@16.svg",
+          "20": "svg/duotone/taxonomy.genus@20.svg",
+          "24": "svg/duotone/taxonomy.genus@24.svg",
+          "32": "svg/duotone/taxonomy.genus@32.svg",
+          "48": "svg/duotone/taxonomy.genus@48.svg",
+          "72": "svg/duotone/taxonomy.genus@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/taxonomy.genus@16.svg",
+          "20": "svg/multicolor/taxonomy.genus@20.svg",
+          "24": "svg/multicolor/taxonomy.genus@24.svg",
+          "32": "svg/multicolor/taxonomy.genus@32.svg",
+          "48": "svg/multicolor/taxonomy.genus@48.svg",
+          "72": "svg/multicolor/taxonomy.genus@72.svg"
+        }
+      }
+    },
+    {
+      "id": "taxonomy.species",
+      "category": "genus",
+      "tier": "P2",
+      "verdict": "redraw",
+      "label": "Species",
+      "files": {
+        "outline": {
+          "16": "svg/outline/taxonomy.species@16.svg",
+          "20": "svg/outline/taxonomy.species@20.svg",
+          "24": "svg/outline/taxonomy.species@24.svg",
+          "32": "svg/outline/taxonomy.species@32.svg",
+          "48": "svg/outline/taxonomy.species@48.svg",
+          "72": "svg/outline/taxonomy.species@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/taxonomy.species@16.svg",
+          "20": "svg/solid/taxonomy.species@20.svg",
+          "24": "svg/solid/taxonomy.species@24.svg",
+          "32": "svg/solid/taxonomy.species@32.svg",
+          "48": "svg/solid/taxonomy.species@48.svg",
+          "72": "svg/solid/taxonomy.species@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/taxonomy.species@16.svg",
+          "20": "svg/duotone/taxonomy.species@20.svg",
+          "24": "svg/duotone/taxonomy.species@24.svg",
+          "32": "svg/duotone/taxonomy.species@32.svg",
+          "48": "svg/duotone/taxonomy.species@48.svg",
+          "72": "svg/duotone/taxonomy.species@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/taxonomy.species@16.svg",
+          "20": "svg/multicolor/taxonomy.species@20.svg",
+          "24": "svg/multicolor/taxonomy.species@24.svg",
+          "32": "svg/multicolor/taxonomy.species@32.svg",
+          "48": "svg/multicolor/taxonomy.species@48.svg",
+          "72": "svg/multicolor/taxonomy.species@72.svg"
+        }
+      }
+    },
+    {
       "id": "utility.activity",
       "category": "utility",
       "tier": "P0",
@@ -1235,6 +4884,47 @@
           "32": "svg/multicolor/utility.align.justify@32.svg",
           "48": "svg/multicolor/utility.align.justify@48.svg",
           "72": "svg/multicolor/utility.align.justify@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.arrow.down",
+      "category": "utility",
+      "tier": "P2",
+      "verdict": "keep",
+      "label": "Arrow Down",
+      "files": {
+        "outline": {
+          "16": "svg/outline/utility.arrow.down@16.svg",
+          "20": "svg/outline/utility.arrow.down@20.svg",
+          "24": "svg/outline/utility.arrow.down@24.svg",
+          "32": "svg/outline/utility.arrow.down@32.svg",
+          "48": "svg/outline/utility.arrow.down@48.svg",
+          "72": "svg/outline/utility.arrow.down@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/utility.arrow.down@16.svg",
+          "20": "svg/solid/utility.arrow.down@20.svg",
+          "24": "svg/solid/utility.arrow.down@24.svg",
+          "32": "svg/solid/utility.arrow.down@32.svg",
+          "48": "svg/solid/utility.arrow.down@48.svg",
+          "72": "svg/solid/utility.arrow.down@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/utility.arrow.down@16.svg",
+          "20": "svg/duotone/utility.arrow.down@20.svg",
+          "24": "svg/duotone/utility.arrow.down@24.svg",
+          "32": "svg/duotone/utility.arrow.down@32.svg",
+          "48": "svg/duotone/utility.arrow.down@48.svg",
+          "72": "svg/duotone/utility.arrow.down@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/utility.arrow.down@16.svg",
+          "20": "svg/multicolor/utility.arrow.down@20.svg",
+          "24": "svg/multicolor/utility.arrow.down@24.svg",
+          "32": "svg/multicolor/utility.arrow.down@32.svg",
+          "48": "svg/multicolor/utility.arrow.down@48.svg",
+          "72": "svg/multicolor/utility.arrow.down@72.svg"
         }
       }
     },
@@ -1772,6 +5462,47 @@
       }
     },
     {
+      "id": "utility.calendar.clock",
+      "category": "utility",
+      "tier": "P2",
+      "verdict": "refine",
+      "label": "Calendar Clock",
+      "files": {
+        "outline": {
+          "16": "svg/outline/utility.calendar.clock@16.svg",
+          "20": "svg/outline/utility.calendar.clock@20.svg",
+          "24": "svg/outline/utility.calendar.clock@24.svg",
+          "32": "svg/outline/utility.calendar.clock@32.svg",
+          "48": "svg/outline/utility.calendar.clock@48.svg",
+          "72": "svg/outline/utility.calendar.clock@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/utility.calendar.clock@16.svg",
+          "20": "svg/solid/utility.calendar.clock@20.svg",
+          "24": "svg/solid/utility.calendar.clock@24.svg",
+          "32": "svg/solid/utility.calendar.clock@32.svg",
+          "48": "svg/solid/utility.calendar.clock@48.svg",
+          "72": "svg/solid/utility.calendar.clock@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/utility.calendar.clock@16.svg",
+          "20": "svg/duotone/utility.calendar.clock@20.svg",
+          "24": "svg/duotone/utility.calendar.clock@24.svg",
+          "32": "svg/duotone/utility.calendar.clock@32.svg",
+          "48": "svg/duotone/utility.calendar.clock@48.svg",
+          "72": "svg/duotone/utility.calendar.clock@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/utility.calendar.clock@16.svg",
+          "20": "svg/multicolor/utility.calendar.clock@20.svg",
+          "24": "svg/multicolor/utility.calendar.clock@24.svg",
+          "32": "svg/multicolor/utility.calendar.clock@32.svg",
+          "48": "svg/multicolor/utility.calendar.clock@48.svg",
+          "72": "svg/multicolor/utility.calendar.clock@72.svg"
+        }
+      }
+    },
+    {
       "id": "utility.calendar.days",
       "category": "utility",
       "tier": "P1",
@@ -2260,6 +5991,47 @@
           "32": "svg/multicolor/utility.cloud.sun@32.svg",
           "48": "svg/multicolor/utility.cloud.sun@48.svg",
           "72": "svg/multicolor/utility.cloud.sun@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.code",
+      "category": "utility",
+      "tier": "P2",
+      "verdict": "keep",
+      "label": "Code",
+      "files": {
+        "outline": {
+          "16": "svg/outline/utility.code@16.svg",
+          "20": "svg/outline/utility.code@20.svg",
+          "24": "svg/outline/utility.code@24.svg",
+          "32": "svg/outline/utility.code@32.svg",
+          "48": "svg/outline/utility.code@48.svg",
+          "72": "svg/outline/utility.code@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/utility.code@16.svg",
+          "20": "svg/solid/utility.code@20.svg",
+          "24": "svg/solid/utility.code@24.svg",
+          "32": "svg/solid/utility.code@32.svg",
+          "48": "svg/solid/utility.code@48.svg",
+          "72": "svg/solid/utility.code@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/utility.code@16.svg",
+          "20": "svg/duotone/utility.code@20.svg",
+          "24": "svg/duotone/utility.code@24.svg",
+          "32": "svg/duotone/utility.code@32.svg",
+          "48": "svg/duotone/utility.code@48.svg",
+          "72": "svg/duotone/utility.code@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/utility.code@16.svg",
+          "20": "svg/multicolor/utility.code@20.svg",
+          "24": "svg/multicolor/utility.code@24.svg",
+          "32": "svg/multicolor/utility.code@32.svg",
+          "48": "svg/multicolor/utility.code@48.svg",
+          "72": "svg/multicolor/utility.code@72.svg"
         }
       }
     },
@@ -2957,6 +6729,47 @@
           "32": "svg/multicolor/utility.heart@32.svg",
           "48": "svg/multicolor/utility.heart@48.svg",
           "72": "svg/multicolor/utility.heart@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.help.circle",
+      "category": "utility",
+      "tier": "P2",
+      "verdict": "keep",
+      "label": "Help Circle",
+      "files": {
+        "outline": {
+          "16": "svg/outline/utility.help.circle@16.svg",
+          "20": "svg/outline/utility.help.circle@20.svg",
+          "24": "svg/outline/utility.help.circle@24.svg",
+          "32": "svg/outline/utility.help.circle@32.svg",
+          "48": "svg/outline/utility.help.circle@48.svg",
+          "72": "svg/outline/utility.help.circle@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/utility.help.circle@16.svg",
+          "20": "svg/solid/utility.help.circle@20.svg",
+          "24": "svg/solid/utility.help.circle@24.svg",
+          "32": "svg/solid/utility.help.circle@32.svg",
+          "48": "svg/solid/utility.help.circle@48.svg",
+          "72": "svg/solid/utility.help.circle@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/utility.help.circle@16.svg",
+          "20": "svg/duotone/utility.help.circle@20.svg",
+          "24": "svg/duotone/utility.help.circle@24.svg",
+          "32": "svg/duotone/utility.help.circle@32.svg",
+          "48": "svg/duotone/utility.help.circle@48.svg",
+          "72": "svg/duotone/utility.help.circle@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/utility.help.circle@16.svg",
+          "20": "svg/multicolor/utility.help.circle@20.svg",
+          "24": "svg/multicolor/utility.help.circle@24.svg",
+          "32": "svg/multicolor/utility.help.circle@32.svg",
+          "48": "svg/multicolor/utility.help.circle@48.svg",
+          "72": "svg/multicolor/utility.help.circle@72.svg"
         }
       }
     },
@@ -4679,6 +8492,47 @@
           "32": "svg/multicolor/utility.sparkles@32.svg",
           "48": "svg/multicolor/utility.sparkles@48.svg",
           "72": "svg/multicolor/utility.sparkles@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.square",
+      "category": "utility",
+      "tier": "P2",
+      "verdict": "keep",
+      "label": "Square",
+      "files": {
+        "outline": {
+          "16": "svg/outline/utility.square@16.svg",
+          "20": "svg/outline/utility.square@20.svg",
+          "24": "svg/outline/utility.square@24.svg",
+          "32": "svg/outline/utility.square@32.svg",
+          "48": "svg/outline/utility.square@48.svg",
+          "72": "svg/outline/utility.square@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/utility.square@16.svg",
+          "20": "svg/solid/utility.square@20.svg",
+          "24": "svg/solid/utility.square@24.svg",
+          "32": "svg/solid/utility.square@32.svg",
+          "48": "svg/solid/utility.square@48.svg",
+          "72": "svg/solid/utility.square@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/utility.square@16.svg",
+          "20": "svg/duotone/utility.square@20.svg",
+          "24": "svg/duotone/utility.square@24.svg",
+          "32": "svg/duotone/utility.square@32.svg",
+          "48": "svg/duotone/utility.square@48.svg",
+          "72": "svg/duotone/utility.square@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/utility.square@16.svg",
+          "20": "svg/multicolor/utility.square@20.svg",
+          "24": "svg/multicolor/utility.square@24.svg",
+          "32": "svg/multicolor/utility.square@32.svg",
+          "48": "svg/multicolor/utility.square@48.svg",
+          "72": "svg/multicolor/utility.square@72.svg"
         }
       }
     },

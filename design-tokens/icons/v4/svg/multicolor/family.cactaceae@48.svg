@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 22V5" fill="none" stroke="#2E7D32" stroke-width="1.6" data-token="leaf.700" />
+  <path d="M12 15H8.5A2.5 2.5 0 0 1 6 12.5V10" fill="none" stroke="#2E7D32" stroke-width="1.6" data-token="leaf.700" />
+  <path d="M12 12h3.5A2.5 2.5 0 0 0 18 9.5V8" fill="none" stroke="#2E7D32" stroke-width="1.6" data-token="leaf.700" />
+  <path d="M9 22h6" fill="none" stroke="#2E7D32" stroke-width="1.6" data-token="leaf.700" />
+  <circle cx="12" cy="8" r="1.1" fill="#2E7D32" stroke="none" data-token="leaf.700" />
+  <circle cx="6" cy="8" r="1.1" fill="#2E7D32" stroke="none" data-token="leaf.700" />
+  <circle cx="18" cy="5" r="1.1" fill="#2E7D32" stroke="none" data-token="leaf.700" />
+</svg>

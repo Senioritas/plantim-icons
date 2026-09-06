@@ -86,6 +86,16 @@ const CATEGORY_TOKEN = {
   calendar: "ink.900",
   location: "bloom.500",
   utility: "ink.900",
+  // v3-only categories (P2)
+  care: "leaf.700",
+  family: "leaf.700",
+  garden: "ink.900",
+  genus: "leaf.700",
+  health: "status.success",
+  nav: "ink.900",
+  stage: "leaf.700",
+  lifecycle: "leaf.700",
+  taxonomy: "ink.900",
 };
 // Per-id multicolor overrides { primary, accent? } — semantic, hand-assigned.
 const TOKEN_OVERRIDES = {
@@ -141,6 +151,31 @@ const TOKEN_OVERRIDES = {
   "status.loading": { primary: "ink.500" },
   "status.streak": { primary: "sun.500" },
   "plant.watering": { primary: "water.600" },
+  // v3-only P2 semantic colors
+  "health.healthy": { primary: "status.success" },
+  "health.attention": { primary: "status.warning" },
+  "health.critical": { primary: "status.error" },
+  "care.watering": { primary: "water.600" },
+  "care.fertilizing": { primary: "leaf.500" },
+  "care.fertilizing.alt": { primary: "leaf.500" },
+  "care.pruning": { primary: "leaf.700" },
+  "care.pruning.alt": { primary: "leaf.700" },
+  "care.repotting": { primary: "earth.600" },
+  "care.repotting.alt": { primary: "earth.600" },
+  "care.suggestion": { primary: "sun.500" },
+  "care.reminder": { primary: "sun.500" },
+  "care.log": { primary: "ink.900" },
+  "care.watering.alt": { primary: "water.600" },
+  "garden.compost": { primary: "earth.600" },
+  "garden.pot": { primary: "earth.600" },
+  "garden.seed-packet": { primary: "leaf.500" },
+  "garden.greenhouse": { primary: "leaf.700" },
+  "garden.hose": { primary: "water.600" },
+  "garden.sprinkler": { primary: "water.600" },
+  "plant.seedling": { primary: "leaf.700" },
+  "plant.thriving": { primary: "leaf.700" },
+  "plant.wilting": { primary: "leaf.500" },
+  "plant.watering.can": { primary: "water.600" },
 };
 
 function labelFor(id) {

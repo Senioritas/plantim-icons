@@ -1,5 +1,5 @@
 // GENERATED FILE - do not edit by hand.
-// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 8d5fe9b18f917e8c095caf0517d42e674ebd7e2672453b9ffe210c682a95530c).
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 8918930f0901ef326303681d0b07a17a8d539f03b71776012e2defbe70af3284).
 // Regenerate with: npm run icons:v4:package
 export { PLANTIM_ICONS_V4_HASH, PLANTIM_ICONS_V4_VERSION } from "./index.js";
 export type { PlantimIconV4Tier } from "./index.js";
@@ -74,12 +74,530 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "label": "Time",
     "category": "calendar"
   },
+  "care.fertilizing": {
+    "id": "care.fertilizing",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Fertilizing",
+    "category": "care"
+  },
+  "care.fertilizing.alt": {
+    "id": "care.fertilizing.alt",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Fertilizing Alt",
+    "category": "care"
+  },
+  "care.log": {
+    "id": "care.log",
+    "tier": "P2",
+    "verdict": "refine",
+    "label": "Log",
+    "category": "care"
+  },
+  "care.pruning": {
+    "id": "care.pruning",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Pruning",
+    "category": "care"
+  },
+  "care.pruning.alt": {
+    "id": "care.pruning.alt",
+    "tier": "P2",
+    "verdict": "refine",
+    "label": "Pruning Alt",
+    "category": "care"
+  },
+  "care.reminder": {
+    "id": "care.reminder",
+    "tier": "P2",
+    "verdict": "refine",
+    "label": "Reminder",
+    "category": "care"
+  },
+  "care.repotting": {
+    "id": "care.repotting",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Repotting",
+    "category": "care"
+  },
+  "care.repotting.alt": {
+    "id": "care.repotting.alt",
+    "tier": "P2",
+    "verdict": "refine",
+    "label": "Repotting Alt",
+    "category": "care"
+  },
+  "care.suggestion": {
+    "id": "care.suggestion",
+    "tier": "P2",
+    "verdict": "refine",
+    "label": "Suggestion",
+    "category": "care"
+  },
+  "care.watering": {
+    "id": "care.watering",
+    "tier": "P2",
+    "verdict": "refine",
+    "label": "Watering",
+    "category": "care"
+  },
+  "care.watering.alt": {
+    "id": "care.watering.alt",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Watering Alt",
+    "category": "care"
+  },
+  "family.apiaceae": {
+    "id": "family.apiaceae",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Apiaceae",
+    "category": "family"
+  },
+  "family.araceae": {
+    "id": "family.araceae",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Araceae",
+    "category": "family"
+  },
+  "family.arecaceae": {
+    "id": "family.arecaceae",
+    "tier": "P2",
+    "verdict": "refine",
+    "label": "Arecaceae",
+    "category": "family"
+  },
+  "family.asparagaceae": {
+    "id": "family.asparagaceae",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Asparagaceae",
+    "category": "family"
+  },
+  "family.asphodelaceae": {
+    "id": "family.asphodelaceae",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Asphodelaceae",
+    "category": "family"
+  },
+  "family.begoniaceae": {
+    "id": "family.begoniaceae",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Begoniaceae",
+    "category": "family"
+  },
+  "family.bromeliaceae": {
+    "id": "family.bromeliaceae",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Bromeliaceae",
+    "category": "family"
+  },
+  "family.cactaceae": {
+    "id": "family.cactaceae",
+    "tier": "P2",
+    "verdict": "refine",
+    "label": "Cactaceae",
+    "category": "family"
+  },
+  "family.crassulaceae": {
+    "id": "family.crassulaceae",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Crassulaceae",
+    "category": "family"
+  },
+  "family.lamiaceae": {
+    "id": "family.lamiaceae",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Lamiaceae",
+    "category": "family"
+  },
+  "family.marantaceae": {
+    "id": "family.marantaceae",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Marantaceae",
+    "category": "family"
+  },
+  "family.moraceae": {
+    "id": "family.moraceae",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Moraceae",
+    "category": "family"
+  },
+  "family.nephrolepidaceae": {
+    "id": "family.nephrolepidaceae",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Nephrolepidaceae",
+    "category": "family"
+  },
+  "family.orchidaceae": {
+    "id": "family.orchidaceae",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Orchidaceae",
+    "category": "family"
+  },
+  "family.piperaceae": {
+    "id": "family.piperaceae",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Piperaceae",
+    "category": "family"
+  },
+  "family.polypodiaceae": {
+    "id": "family.polypodiaceae",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Polypodiaceae",
+    "category": "family"
+  },
+  "garden.compost": {
+    "id": "garden.compost",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Compost",
+    "category": "garden"
+  },
+  "garden.fork": {
+    "id": "garden.fork",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Fork",
+    "category": "garden"
+  },
+  "garden.gloves": {
+    "id": "garden.gloves",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Gloves",
+    "category": "garden"
+  },
+  "garden.greenhouse": {
+    "id": "garden.greenhouse",
+    "tier": "P2",
+    "verdict": "refine",
+    "label": "Greenhouse",
+    "category": "garden"
+  },
+  "garden.hoe": {
+    "id": "garden.hoe",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Hoe",
+    "category": "garden"
+  },
+  "garden.hose": {
+    "id": "garden.hose",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Hose",
+    "category": "garden"
+  },
+  "garden.pot": {
+    "id": "garden.pot",
+    "tier": "P2",
+    "verdict": "keep",
+    "label": "Pot",
+    "category": "garden"
+  },
+  "garden.rake": {
+    "id": "garden.rake",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Rake",
+    "category": "garden"
+  },
+  "garden.seed-packet": {
+    "id": "garden.seed-packet",
+    "tier": "P2",
+    "verdict": "refine",
+    "label": "Seed-Packet",
+    "category": "garden"
+  },
+  "garden.shears": {
+    "id": "garden.shears",
+    "tier": "P2",
+    "verdict": "refine",
+    "label": "Shears",
+    "category": "garden"
+  },
+  "garden.spade": {
+    "id": "garden.spade",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Spade",
+    "category": "garden"
+  },
+  "garden.sprinkler": {
+    "id": "garden.sprinkler",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Sprinkler",
+    "category": "garden"
+  },
+  "garden.trowel": {
+    "id": "garden.trowel",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Trowel",
+    "category": "garden"
+  },
+  "garden.wheelbarrow": {
+    "id": "garden.wheelbarrow",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Wheelbarrow",
+    "category": "garden"
+  },
+  "genus.aloe": {
+    "id": "genus.aloe",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Aloe",
+    "category": "genus"
+  },
+  "genus.cactus": {
+    "id": "genus.cactus",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Cactus",
+    "category": "genus"
+  },
+  "genus.calathea": {
+    "id": "genus.calathea",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Calathea",
+    "category": "genus"
+  },
+  "genus.fern": {
+    "id": "genus.fern",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Fern",
+    "category": "genus"
+  },
+  "genus.ficus": {
+    "id": "genus.ficus",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Ficus",
+    "category": "genus"
+  },
+  "genus.monstera": {
+    "id": "genus.monstera",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Monstera",
+    "category": "genus"
+  },
+  "genus.orchid": {
+    "id": "genus.orchid",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Orchid",
+    "category": "genus"
+  },
+  "genus.palm": {
+    "id": "genus.palm",
+    "tier": "P2",
+    "verdict": "refine",
+    "label": "Palm",
+    "category": "genus"
+  },
+  "genus.peperomia": {
+    "id": "genus.peperomia",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Peperomia",
+    "category": "genus"
+  },
+  "genus.pothos": {
+    "id": "genus.pothos",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Pothos",
+    "category": "genus"
+  },
+  "genus.sansevieria": {
+    "id": "genus.sansevieria",
+    "tier": "P2",
+    "verdict": "refine",
+    "label": "Sansevieria",
+    "category": "genus"
+  },
+  "genus.succulent": {
+    "id": "genus.succulent",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Succulent",
+    "category": "genus"
+  },
+  "health.attention": {
+    "id": "health.attention",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Attention",
+    "category": "health"
+  },
+  "health.critical": {
+    "id": "health.critical",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Critical",
+    "category": "health"
+  },
+  "health.healthy": {
+    "id": "health.healthy",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Healthy",
+    "category": "health"
+  },
   "location.pin": {
     "id": "location.pin",
     "tier": "P1",
     "verdict": "redraw",
     "label": "Pin",
     "category": "location"
+  },
+  "nav.calendar.check": {
+    "id": "nav.calendar.check",
+    "tier": "P2",
+    "verdict": "keep",
+    "label": "Calendar Check",
+    "category": "nav"
+  },
+  "nav.calendar.leaf": {
+    "id": "nav.calendar.leaf",
+    "tier": "P2",
+    "verdict": "refine",
+    "label": "Calendar Leaf",
+    "category": "nav"
+  },
+  "nav.calendar.plain": {
+    "id": "nav.calendar.plain",
+    "tier": "P2",
+    "verdict": "keep",
+    "label": "Calendar Plain",
+    "category": "nav"
+  },
+  "nav.chat.bubble": {
+    "id": "nav.chat.bubble",
+    "tier": "P2",
+    "verdict": "refine",
+    "label": "Chat Bubble",
+    "category": "nav"
+  },
+  "nav.chat.dots": {
+    "id": "nav.chat.dots",
+    "tier": "P2",
+    "verdict": "refine",
+    "label": "Chat Dots",
+    "category": "nav"
+  },
+  "nav.chat.leaf": {
+    "id": "nav.chat.leaf",
+    "tier": "P2",
+    "verdict": "refine",
+    "label": "Chat Leaf",
+    "category": "nav"
+  },
+  "nav.feed.cards": {
+    "id": "nav.feed.cards",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Feed Cards",
+    "category": "nav"
+  },
+  "nav.feed.stream": {
+    "id": "nav.feed.stream",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Feed Stream",
+    "category": "nav"
+  },
+  "nav.feed.waves": {
+    "id": "nav.feed.waves",
+    "tier": "P2",
+    "verdict": "keep",
+    "label": "Feed Waves",
+    "category": "nav"
+  },
+  "nav.garden.beds": {
+    "id": "nav.garden.beds",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Garden Beds",
+    "category": "nav"
+  },
+  "nav.garden.plot": {
+    "id": "nav.garden.plot",
+    "tier": "P2",
+    "verdict": "refine",
+    "label": "Garden Plot",
+    "category": "nav"
+  },
+  "nav.garden.sprouts": {
+    "id": "nav.garden.sprouts",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Garden Sprouts",
+    "category": "nav"
+  },
+  "nav.plant.leaf": {
+    "id": "nav.plant.leaf",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Plant Leaf",
+    "category": "nav"
+  },
+  "nav.plant.potted": {
+    "id": "nav.plant.potted",
+    "tier": "P2",
+    "verdict": "refine",
+    "label": "Plant Potted",
+    "category": "nav"
+  },
+  "nav.plant.sprout": {
+    "id": "nav.plant.sprout",
+    "tier": "P2",
+    "verdict": "refine",
+    "label": "Plant Sprout",
+    "category": "nav"
+  },
+  "nav.today.leaf": {
+    "id": "nav.today.leaf",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Today Leaf",
+    "category": "nav"
+  },
+  "nav.today.sun": {
+    "id": "nav.today.sun",
+    "tier": "P2",
+    "verdict": "keep",
+    "label": "Today Sun",
+    "category": "nav"
+  },
+  "nav.today.sunrise": {
+    "id": "nav.today.sunrise",
+    "tier": "P2",
+    "verdict": "refine",
+    "label": "Today Sunrise",
+    "category": "nav"
   },
   "navigation.back": {
     "id": "navigation.back",
@@ -138,6 +656,13 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "label": "Previous",
     "category": "navigation"
   },
+  "plant.add": {
+    "id": "plant.add",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Add",
+    "category": "lifecycle"
+  },
   "plant.growth": {
     "id": "plant.growth",
     "tier": "P0",
@@ -153,6 +678,27 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "label": "Pruning",
     "category": "plant"
   },
+  "plant.related": {
+    "id": "plant.related",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Related",
+    "category": "lifecycle"
+  },
+  "plant.remove": {
+    "id": "plant.remove",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Remove",
+    "category": "lifecycle"
+  },
+  "plant.seedling": {
+    "id": "plant.seedling",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Seedling",
+    "category": "plant"
+  },
   "plant.sprout": {
     "id": "plant.sprout",
     "tier": "P0",
@@ -161,12 +707,54 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "category": "plant",
     "animation": "sproutGrow"
   },
+  "plant.thriving": {
+    "id": "plant.thriving",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Thriving",
+    "category": "plant"
+  },
   "plant.watering": {
     "id": "plant.watering",
     "tier": "P1",
     "verdict": "redraw",
     "label": "Watering",
     "category": "plant"
+  },
+  "plant.watering.can": {
+    "id": "plant.watering.can",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Watering Can",
+    "category": "plant"
+  },
+  "plant.wilting": {
+    "id": "plant.wilting",
+    "tier": "P2",
+    "verdict": "refine",
+    "label": "Wilting",
+    "category": "plant"
+  },
+  "stage.growing": {
+    "id": "stage.growing",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Growing",
+    "category": "lifecycle"
+  },
+  "stage.mature": {
+    "id": "stage.mature",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Mature",
+    "category": "lifecycle"
+  },
+  "stage.seedling": {
+    "id": "stage.seedling",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Seedling",
+    "category": "lifecycle"
   },
   "status.error": {
     "id": "status.error",
@@ -187,6 +775,13 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "tier": "P1",
     "verdict": "keep",
     "label": "Loading",
+    "category": "status"
+  },
+  "status.streak": {
+    "id": "status.streak",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Streak",
     "category": "status"
   },
   "status.success": {
@@ -217,6 +812,34 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "label": "Warning",
     "category": "status"
   },
+  "status.warning.alt": {
+    "id": "status.warning.alt",
+    "tier": "P2",
+    "verdict": "keep",
+    "label": "Warning Alt",
+    "category": "status"
+  },
+  "taxonomy.family": {
+    "id": "taxonomy.family",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Family",
+    "category": "genus"
+  },
+  "taxonomy.genus": {
+    "id": "taxonomy.genus",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Genus",
+    "category": "genus"
+  },
+  "taxonomy.species": {
+    "id": "taxonomy.species",
+    "tier": "P2",
+    "verdict": "redraw",
+    "label": "Species",
+    "category": "genus"
+  },
   "utility.activity": {
     "id": "utility.activity",
     "tier": "P0",
@@ -230,6 +853,13 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "tier": "P1",
     "verdict": "keep",
     "label": "Align Justify",
+    "category": "utility"
+  },
+  "utility.arrow.down": {
+    "id": "utility.arrow.down",
+    "tier": "P2",
+    "verdict": "keep",
+    "label": "Arrow Down",
     "category": "utility"
   },
   "utility.arrow.down.to.dot": {
@@ -323,6 +953,13 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "label": "Cake",
     "category": "utility"
   },
+  "utility.calendar.clock": {
+    "id": "utility.calendar.clock",
+    "tier": "P2",
+    "verdict": "refine",
+    "label": "Calendar Clock",
+    "category": "utility"
+  },
   "utility.calendar.days": {
     "id": "utility.calendar.days",
     "tier": "P1",
@@ -405,6 +1042,13 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "tier": "P1",
     "verdict": "keep",
     "label": "Cloud Sun",
+    "category": "utility"
+  },
+  "utility.code": {
+    "id": "utility.code",
+    "tier": "P2",
+    "verdict": "keep",
+    "label": "Code",
     "category": "utility"
   },
   "utility.cookie": {
@@ -524,6 +1168,13 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "tier": "P1",
     "verdict": "refine",
     "label": "Heart",
+    "category": "utility"
+  },
+  "utility.help.circle": {
+    "id": "utility.help.circle",
+    "tier": "P2",
+    "verdict": "keep",
+    "label": "Help Circle",
     "category": "utility"
   },
   "utility.history": {
@@ -820,6 +1471,13 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "tier": "P1",
     "verdict": "refine",
     "label": "Sparkles",
+    "category": "utility"
+  },
+  "utility.square": {
+    "id": "utility.square",
+    "tier": "P2",
+    "verdict": "keep",
+    "label": "Square",
     "category": "utility"
   },
   "utility.square.pen": {
