@@ -1,0 +1,104 @@
+// GENERATED FILE - do not edit by hand.
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 8d5fe9b18f917e8c095caf0517d42e674ebd7e2672453b9ffe210c682a95530c).
+// Regenerate with: npm run icons:v4:package
+import type { PlantimIconV4Definition } from "../index.js";
+
+export const UtilityTrees: PlantimIconV4Definition = {
+  "id": "utility.trees",
+  "label": "Trees",
+  "tier": "P1",
+  "grades": {
+    "micro": {
+      "layers": [
+        {
+          "name": "primary",
+          "role": "primary",
+          "nodes": [
+            {
+              "type": "path",
+              "attrs": {
+                "d": "M10 10v.2A3 3 0 0 1 8.9 16H5a3 3 0 0 1-1-5.8V10a3 3 0 0 1 6 0Z"
+              }
+            },
+            {
+              "type": "path",
+              "attrs": {
+                "d": "M7 16v6"
+              }
+            },
+            {
+              "type": "path",
+              "attrs": {
+                "d": "M13 19v3"
+              }
+            },
+            {
+              "type": "path",
+              "attrs": {
+                "d": "M12 19h8.3a1 1 0 0 0 .7-1.7L18 14h.3a1 1 0 0 0 .7-1.7L16 9h.2a1 1 0 0 0 .8-1.7L13 3l-1.4 1.5"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "base": {
+      "layers": [
+        {
+          "name": "primary",
+          "role": "primary",
+          "nodes": [
+            {
+              "type": "path",
+              "attrs": {
+                "d": "M10 10v.2A3 3 0 0 1 8.9 16H5a3 3 0 0 1-1-5.8V10a3 3 0 0 1 6 0Z"
+              }
+            },
+            {
+              "type": "path",
+              "attrs": {
+                "d": "M7 16v6"
+              }
+            },
+            {
+              "type": "path",
+              "attrs": {
+                "d": "M13 19v3"
+              }
+            },
+            {
+              "type": "path",
+              "attrs": {
+                "d": "M12 19h8.3a1 1 0 0 0 .7-1.7L18 14h.3a1 1 0 0 0 .7-1.7L16 9h.2a1 1 0 0 0 .8-1.7L13 3l-1.4 1.5"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "solid": {
+    "micro": {
+      "mode": "bold",
+      "strokeWidth": 3.3,
+      "counters": 0
+    },
+    "base": {
+      "mode": "bold",
+      "strokeWidth": 3.1,
+      "counters": 0
+    }
+  },
+  "variants": {
+    "duotone": {
+      "primary": [
+        "primary"
+      ]
+    },
+    "multicolor": {
+      "primary": "leaf.700"
+    }
+  }
+};
+
+export default UtilityTrees;

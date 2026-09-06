@@ -1,5 +1,5 @@
 // GENERATED FILE - do not edit by hand.
-// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 467e42dfdc05a0d93e9b26d62c1d9a4e81591244adffcca1165662ea98bf6399).
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 8d5fe9b18f917e8c095caf0517d42e674ebd7e2672453b9ffe210c682a95530c).
 // Regenerate with: npm run icons:v4:package
 export { PLANTIM_ICONS_V4_HASH, PLANTIM_ICONS_V4_VERSION } from "./index.js";
 export type { PlantimIconV4Tier } from "./index.js";
@@ -23,6 +23,13 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "category": "account",
     "animation": "profileNod"
   },
+  "account.users": {
+    "id": "account.users",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Users",
+    "category": "account"
+  },
   "action.add": {
     "id": "action.add",
     "tier": "P0",
@@ -30,6 +37,27 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "label": "Add",
     "category": "action",
     "animation": "addSpin"
+  },
+  "action.delete": {
+    "id": "action.delete",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Delete",
+    "category": "action"
+  },
+  "action.edit": {
+    "id": "action.edit",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Edit",
+    "category": "action"
+  },
+  "action.search": {
+    "id": "action.search",
+    "tier": "P1",
+    "verdict": "redraw",
+    "label": "Search",
+    "category": "action"
   },
   "calendar.date": {
     "id": "calendar.date",
@@ -39,6 +67,55 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "category": "calendar",
     "animation": "datePop"
   },
+  "calendar.time": {
+    "id": "calendar.time",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Time",
+    "category": "calendar"
+  },
+  "location.pin": {
+    "id": "location.pin",
+    "tier": "P1",
+    "verdict": "redraw",
+    "label": "Pin",
+    "category": "location"
+  },
+  "navigation.back": {
+    "id": "navigation.back",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Back",
+    "category": "navigation"
+  },
+  "navigation.close": {
+    "id": "navigation.close",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Close",
+    "category": "navigation"
+  },
+  "navigation.collapse": {
+    "id": "navigation.collapse",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Collapse",
+    "category": "navigation"
+  },
+  "navigation.expand": {
+    "id": "navigation.expand",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Expand",
+    "category": "navigation"
+  },
+  "navigation.forward": {
+    "id": "navigation.forward",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Forward",
+    "category": "navigation"
+  },
   "navigation.home": {
     "id": "navigation.home",
     "tier": "P0",
@@ -46,6 +123,20 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "label": "Today",
     "category": "navigation",
     "animation": "homeSettle"
+  },
+  "navigation.next": {
+    "id": "navigation.next",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Next",
+    "category": "navigation"
+  },
+  "navigation.previous": {
+    "id": "navigation.previous",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Previous",
+    "category": "navigation"
   },
   "plant.growth": {
     "id": "plant.growth",
@@ -55,6 +146,13 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "category": "plant",
     "animation": "gardenSway"
   },
+  "plant.pruning": {
+    "id": "plant.pruning",
+    "tier": "P1",
+    "verdict": "redraw",
+    "label": "Pruning",
+    "category": "plant"
+  },
   "plant.sprout": {
     "id": "plant.sprout",
     "tier": "P0",
@@ -62,6 +160,62 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "label": "Sprout",
     "category": "plant",
     "animation": "sproutGrow"
+  },
+  "plant.watering": {
+    "id": "plant.watering",
+    "tier": "P1",
+    "verdict": "redraw",
+    "label": "Watering",
+    "category": "plant"
+  },
+  "status.error": {
+    "id": "status.error",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Error",
+    "category": "status"
+  },
+  "status.info": {
+    "id": "status.info",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Info",
+    "category": "status"
+  },
+  "status.loading": {
+    "id": "status.loading",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Loading",
+    "category": "status"
+  },
+  "status.success": {
+    "id": "status.success",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Success",
+    "category": "status"
+  },
+  "status.success.circle": {
+    "id": "status.success.circle",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Success Circle",
+    "category": "status"
+  },
+  "status.success.circle.alt": {
+    "id": "status.success.circle.alt",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Success Circle Alt",
+    "category": "status"
+  },
+  "status.warning": {
+    "id": "status.warning",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Warning",
+    "category": "status"
   },
   "utility.activity": {
     "id": "utility.activity",
@@ -71,6 +225,398 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "category": "utility",
     "animation": "pulseBeat"
   },
+  "utility.align.justify": {
+    "id": "utility.align.justify",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Align Justify",
+    "category": "utility"
+  },
+  "utility.arrow.down.to.dot": {
+    "id": "utility.arrow.down.to.dot",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Arrow Down To Dot",
+    "category": "utility"
+  },
+  "utility.arrow.up": {
+    "id": "utility.arrow.up",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Arrow Up",
+    "category": "utility"
+  },
+  "utility.arrow.up.from.dot": {
+    "id": "utility.arrow.up.from.dot",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Arrow Up From Dot",
+    "category": "utility"
+  },
+  "utility.award": {
+    "id": "utility.award",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Award",
+    "category": "utility"
+  },
+  "utility.baby": {
+    "id": "utility.baby",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Baby",
+    "category": "utility"
+  },
+  "utility.badge.check": {
+    "id": "utility.badge.check",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Badge Check",
+    "category": "utility"
+  },
+  "utility.bar.chart3": {
+    "id": "utility.bar.chart3",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Bar Chart3",
+    "category": "utility"
+  },
+  "utility.bell": {
+    "id": "utility.bell",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Bell",
+    "category": "utility"
+  },
+  "utility.bell.off": {
+    "id": "utility.bell.off",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Bell Off",
+    "category": "utility"
+  },
+  "utility.bot": {
+    "id": "utility.bot",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Bot",
+    "category": "utility"
+  },
+  "utility.brain": {
+    "id": "utility.brain",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Brain",
+    "category": "utility"
+  },
+  "utility.bug": {
+    "id": "utility.bug",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Bug",
+    "category": "utility"
+  },
+  "utility.cake": {
+    "id": "utility.cake",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Cake",
+    "category": "utility"
+  },
+  "utility.calendar.days": {
+    "id": "utility.calendar.days",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Calendar Days",
+    "category": "utility"
+  },
+  "utility.camera": {
+    "id": "utility.camera",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Camera",
+    "category": "utility"
+  },
+  "utility.check.check": {
+    "id": "utility.check.check",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Check Check",
+    "category": "utility"
+  },
+  "utility.chevrons.up.down": {
+    "id": "utility.chevrons.up.down",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Chevrons Up Down",
+    "category": "utility"
+  },
+  "utility.circle": {
+    "id": "utility.circle",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Circle",
+    "category": "utility"
+  },
+  "utility.cloud.drizzle": {
+    "id": "utility.cloud.drizzle",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Cloud Drizzle",
+    "category": "utility"
+  },
+  "utility.cloud.fog": {
+    "id": "utility.cloud.fog",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Cloud Fog",
+    "category": "utility"
+  },
+  "utility.cloud.lightning": {
+    "id": "utility.cloud.lightning",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Cloud Lightning",
+    "category": "utility"
+  },
+  "utility.cloud.moon": {
+    "id": "utility.cloud.moon",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Cloud Moon",
+    "category": "utility"
+  },
+  "utility.cloud.rain": {
+    "id": "utility.cloud.rain",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Cloud Rain",
+    "category": "utility"
+  },
+  "utility.cloud.snow": {
+    "id": "utility.cloud.snow",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Cloud Snow",
+    "category": "utility"
+  },
+  "utility.cloud.sun": {
+    "id": "utility.cloud.sun",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Cloud Sun",
+    "category": "utility"
+  },
+  "utility.cookie": {
+    "id": "utility.cookie",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Cookie",
+    "category": "utility"
+  },
+  "utility.copy": {
+    "id": "utility.copy",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Copy",
+    "category": "utility"
+  },
+  "utility.crown": {
+    "id": "utility.crown",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Crown",
+    "category": "utility"
+  },
+  "utility.database": {
+    "id": "utility.database",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Database",
+    "category": "utility"
+  },
+  "utility.dna": {
+    "id": "utility.dna",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Dna",
+    "category": "utility"
+  },
+  "utility.eye": {
+    "id": "utility.eye",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Eye",
+    "category": "utility"
+  },
+  "utility.eye.off": {
+    "id": "utility.eye.off",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Eye Off",
+    "category": "utility"
+  },
+  "utility.filter": {
+    "id": "utility.filter",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Filter",
+    "category": "utility"
+  },
+  "utility.flame": {
+    "id": "utility.flame",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Flame",
+    "category": "utility"
+  },
+  "utility.flask.conical": {
+    "id": "utility.flask.conical",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Flask Conical",
+    "category": "utility"
+  },
+  "utility.flip.horizontal2": {
+    "id": "utility.flip.horizontal2",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Flip Horizontal2",
+    "category": "utility"
+  },
+  "utility.flower2": {
+    "id": "utility.flower2",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Flower2",
+    "category": "utility"
+  },
+  "utility.globe": {
+    "id": "utility.globe",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Globe",
+    "category": "utility"
+  },
+  "utility.grid2x2": {
+    "id": "utility.grid2x2",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Grid2x2",
+    "category": "utility"
+  },
+  "utility.hand": {
+    "id": "utility.hand",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Hand",
+    "category": "utility"
+  },
+  "utility.handshake": {
+    "id": "utility.handshake",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Handshake",
+    "category": "utility"
+  },
+  "utility.heart": {
+    "id": "utility.heart",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Heart",
+    "category": "utility"
+  },
+  "utility.history": {
+    "id": "utility.history",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "History",
+    "category": "utility"
+  },
+  "utility.image": {
+    "id": "utility.image",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Image",
+    "category": "utility"
+  },
+  "utility.inbox": {
+    "id": "utility.inbox",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Inbox",
+    "category": "utility"
+  },
+  "utility.key": {
+    "id": "utility.key",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Key",
+    "category": "utility"
+  },
+  "utility.layout.grid": {
+    "id": "utility.layout.grid",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Layout Grid",
+    "category": "utility"
+  },
+  "utility.lightbulb": {
+    "id": "utility.lightbulb",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Lightbulb",
+    "category": "utility"
+  },
+  "utility.link": {
+    "id": "utility.link",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Link",
+    "category": "utility"
+  },
+  "utility.list": {
+    "id": "utility.list",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "List",
+    "category": "utility"
+  },
+  "utility.lock": {
+    "id": "utility.lock",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Lock",
+    "category": "utility"
+  },
+  "utility.log.out": {
+    "id": "utility.log.out",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Log Out",
+    "category": "utility"
+  },
+  "utility.mail": {
+    "id": "utility.mail",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Mail",
+    "category": "utility"
+  },
+  "utility.mail.check": {
+    "id": "utility.mail.check",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Mail Check",
+    "category": "utility"
+  },
+  "utility.menu": {
+    "id": "utility.menu",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Menu",
+    "category": "utility"
+  },
   "utility.message.circle": {
     "id": "utility.message.circle",
     "tier": "P0",
@@ -79,6 +625,83 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "category": "utility",
     "animation": "chatPop"
   },
+  "utility.message.square": {
+    "id": "utility.message.square",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Message Square",
+    "category": "utility"
+  },
+  "utility.minus": {
+    "id": "utility.minus",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Minus",
+    "category": "utility"
+  },
+  "utility.monitor.smartphone": {
+    "id": "utility.monitor.smartphone",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Monitor Smartphone",
+    "category": "utility"
+  },
+  "utility.moon.star": {
+    "id": "utility.moon.star",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Moon Star",
+    "category": "utility"
+  },
+  "utility.more.horizontal": {
+    "id": "utility.more.horizontal",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "More Horizontal",
+    "category": "utility"
+  },
+  "utility.move": {
+    "id": "utility.move",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Move",
+    "category": "utility"
+  },
+  "utility.orbit": {
+    "id": "utility.orbit",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Orbit",
+    "category": "utility"
+  },
+  "utility.panel.left": {
+    "id": "utility.panel.left",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Panel Left",
+    "category": "utility"
+  },
+  "utility.panel.left.close": {
+    "id": "utility.panel.left.close",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Panel Left Close",
+    "category": "utility"
+  },
+  "utility.panel.left.open": {
+    "id": "utility.panel.left.open",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Panel Left Open",
+    "category": "utility"
+  },
+  "utility.pencil.line": {
+    "id": "utility.pencil.line",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Pencil Line",
+    "category": "utility"
+  },
   "utility.plus.circle": {
     "id": "utility.plus.circle",
     "tier": "P0",
@@ -86,5 +709,320 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "label": "Add (circle)",
     "category": "utility",
     "animation": "ctaBloom"
+  },
+  "utility.quote": {
+    "id": "utility.quote",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Quote",
+    "category": "utility"
+  },
+  "utility.refresh.cw": {
+    "id": "utility.refresh.cw",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Refresh Cw",
+    "category": "utility"
+  },
+  "utility.rotate.ccw": {
+    "id": "utility.rotate.ccw",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Rotate Ccw",
+    "category": "utility"
+  },
+  "utility.rotate.cw": {
+    "id": "utility.rotate.cw",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Rotate Cw",
+    "category": "utility"
+  },
+  "utility.save": {
+    "id": "utility.save",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Save",
+    "category": "utility"
+  },
+  "utility.scale": {
+    "id": "utility.scale",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Scale",
+    "category": "utility"
+  },
+  "utility.scan.line": {
+    "id": "utility.scan.line",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Scan Line",
+    "category": "utility"
+  },
+  "utility.settings": {
+    "id": "utility.settings",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Settings",
+    "category": "utility"
+  },
+  "utility.settings2": {
+    "id": "utility.settings2",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Settings2",
+    "category": "utility"
+  },
+  "utility.share2": {
+    "id": "utility.share2",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Share2",
+    "category": "utility"
+  },
+  "utility.shield": {
+    "id": "utility.shield",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Shield",
+    "category": "utility"
+  },
+  "utility.shield.check": {
+    "id": "utility.shield.check",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Shield Check",
+    "category": "utility"
+  },
+  "utility.sliders.horizontal": {
+    "id": "utility.sliders.horizontal",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Sliders Horizontal",
+    "category": "utility"
+  },
+  "utility.smartphone": {
+    "id": "utility.smartphone",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Smartphone",
+    "category": "utility"
+  },
+  "utility.snowflake": {
+    "id": "utility.snowflake",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Snowflake",
+    "category": "utility"
+  },
+  "utility.sparkles": {
+    "id": "utility.sparkles",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Sparkles",
+    "category": "utility"
+  },
+  "utility.square.pen": {
+    "id": "utility.square.pen",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Square Pen",
+    "category": "utility"
+  },
+  "utility.star": {
+    "id": "utility.star",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Star",
+    "category": "utility"
+  },
+  "utility.star.half": {
+    "id": "utility.star.half",
+    "tier": "P1",
+    "verdict": "redraw",
+    "label": "Star Half",
+    "category": "utility"
+  },
+  "utility.sunrise": {
+    "id": "utility.sunrise",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Sunrise",
+    "category": "utility"
+  },
+  "utility.sunset": {
+    "id": "utility.sunset",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Sunset",
+    "category": "utility"
+  },
+  "utility.swords": {
+    "id": "utility.swords",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Swords",
+    "category": "utility"
+  },
+  "utility.tag": {
+    "id": "utility.tag",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Tag",
+    "category": "utility"
+  },
+  "utility.thermometer": {
+    "id": "utility.thermometer",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Thermometer",
+    "category": "utility"
+  },
+  "utility.thumbs.down": {
+    "id": "utility.thumbs.down",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Thumbs Down",
+    "category": "utility"
+  },
+  "utility.thumbs.up": {
+    "id": "utility.thumbs.up",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Thumbs Up",
+    "category": "utility"
+  },
+  "utility.trees": {
+    "id": "utility.trees",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Trees",
+    "category": "utility"
+  },
+  "utility.trending.down": {
+    "id": "utility.trending.down",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Trending Down",
+    "category": "utility"
+  },
+  "utility.trending.up": {
+    "id": "utility.trending.up",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Trending Up",
+    "category": "utility"
+  },
+  "utility.trophy": {
+    "id": "utility.trophy",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Trophy",
+    "category": "utility"
+  },
+  "utility.undo2": {
+    "id": "utility.undo2",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Undo2",
+    "category": "utility"
+  },
+  "utility.upload": {
+    "id": "utility.upload",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Upload",
+    "category": "utility"
+  },
+  "utility.upload.cloud": {
+    "id": "utility.upload.cloud",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Upload Cloud",
+    "category": "utility"
+  },
+  "utility.user.check": {
+    "id": "utility.user.check",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "User Check",
+    "category": "utility"
+  },
+  "utility.user.minus": {
+    "id": "utility.user.minus",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "User Minus",
+    "category": "utility"
+  },
+  "utility.user.plus": {
+    "id": "utility.user.plus",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "User Plus",
+    "category": "utility"
+  },
+  "utility.user.x": {
+    "id": "utility.user.x",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "User X",
+    "category": "utility"
+  },
+  "utility.wind": {
+    "id": "utility.wind",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Wind",
+    "category": "utility"
+  },
+  "utility.x.circle": {
+    "id": "utility.x.circle",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "X Circle",
+    "category": "utility"
+  },
+  "utility.zap": {
+    "id": "utility.zap",
+    "tier": "P1",
+    "verdict": "refine",
+    "label": "Zap",
+    "category": "utility"
+  },
+  "utility.zoom.in": {
+    "id": "utility.zoom.in",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Zoom In",
+    "category": "utility"
+  },
+  "utility.zoom.out": {
+    "id": "utility.zoom.out",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Zoom Out",
+    "category": "utility"
+  },
+  "weather.cloud": {
+    "id": "weather.cloud",
+    "tier": "P1",
+    "verdict": "redraw",
+    "label": "Cloud",
+    "category": "weather"
+  },
+  "weather.moon": {
+    "id": "weather.moon",
+    "tier": "P1",
+    "verdict": "redraw",
+    "label": "Moon",
+    "category": "weather"
+  },
+  "weather.sun": {
+    "id": "weather.sun",
+    "tier": "P1",
+    "verdict": "keep",
+    "label": "Sun",
+    "category": "weather"
   }
 }) as Readonly<Record<string, PlantimIconV4Metadata>>;

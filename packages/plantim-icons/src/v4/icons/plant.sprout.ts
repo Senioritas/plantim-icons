@@ -1,5 +1,5 @@
 // GENERATED FILE - do not edit by hand.
-// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 467e42dfdc05a0d93e9b26d62c1d9a4e81591244adffcca1165662ea98bf6399).
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 8d5fe9b18f917e8c095caf0517d42e674ebd7e2672453b9ffe210c682a95530c).
 // Regenerate with: npm run icons:v4:package
 import type { PlantimIconV4Definition } from "../index.js";
 
