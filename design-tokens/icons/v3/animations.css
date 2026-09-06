@@ -1,0 +1,48 @@
+/*
+ * Plantim Icons v3 — reusable icon animations.
+ *
+ * Usage: render any v3 icon inline (or via <img>/mask) and add one class to the <svg>:
+ *   <svg class="pt-anim-spin"> … </svg>          (great for status.loading)
+ *   <span class="pt-anim-beat"><!-- icon --></span>
+ * Classes may be placed on the <svg> or a wrapping element. The "draw" animation
+ * targets stroke geometry and works best on the outlined / colored styles.
+ *
+ * Speed: override --pt-anim-speed (default 1s) on the element or an ancestor.
+ * Motion is disabled automatically under prefers-reduced-motion.
+ */
+
+:root { --pt-anim-speed: 1s; }
+
+@keyframes pt-spin   { to { transform: rotate(360deg); } }
+@keyframes pt-pulse  { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+@keyframes pt-beat   { 0%, 100% { transform: scale(1); } 20% { transform: scale(1.2); } 40% { transform: scale(0.95); } 60% { transform: scale(1.1); } }
+@keyframes pt-bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-16%); } }
+@keyframes pt-wiggle { 0%, 100% { transform: rotate(0); } 25% { transform: rotate(-9deg); } 75% { transform: rotate(9deg); } }
+@keyframes pt-grow   { 0% { transform: scale(0.6); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
+@keyframes pt-draw   { to { stroke-dashoffset: 0; } }
+
+.pt-anim-spin,
+.pt-anim-beat,
+.pt-anim-bounce,
+.pt-anim-wiggle,
+.pt-anim-grow { transform-box: fill-box; transform-origin: center; }
+
+.pt-anim-spin   { animation: pt-spin   calc(var(--pt-anim-speed) * 1.1) linear infinite; }
+.pt-anim-pulse  { animation: pt-pulse  calc(var(--pt-anim-speed) * 1.3) ease-in-out infinite; }
+.pt-anim-beat   { animation: pt-beat   calc(var(--pt-anim-speed) * 1.1) ease-in-out infinite; }
+.pt-anim-bounce { animation: pt-bounce var(--pt-anim-speed) ease-in-out infinite; }
+.pt-anim-wiggle { animation: pt-wiggle calc(var(--pt-anim-speed) * 0.5) ease-in-out infinite; }
+.pt-anim-grow   { animation: pt-grow   calc(var(--pt-anim-speed) * 0.6) ease both; }
+
+/* Line-drawing effect — animates the stroke on any geometry element. */
+.pt-anim-draw :is(path, line, polyline, polygon, circle, rect, ellipse) {
+  stroke-dasharray: 120;
+  stroke-dashoffset: 120;
+  animation: pt-draw calc(var(--pt-anim-speed) * 1.4) ease forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class^="pt-anim-"],
+  [class*=" pt-anim-"] { animation: none !important; }
+  .pt-anim-draw :is(path, line, polyline, polygon, circle, rect, ellipse) { stroke-dashoffset: 0; }
+}

@@ -30,6 +30,9 @@ for (const file of [
   "dist/vue.js",
   "dist/vue.d.ts",
   "dist/metadata.js",
+  "dist/v4/index.js",
+  "dist/v4/index.d.ts",
+  "dist/v4/metadata.js",
 ]) {
   assert.ok(fs.existsSync(path.join(packageRoot, file)), `missing publish artifact: ${file}`);
 }
@@ -73,6 +76,7 @@ for (const file of [
   "dist/index.d.ts",
   "dist/vue.js",
   "dist/metadata.js",
+  "dist/v4/index.js",
 ]) {
   assert.ok(files.has(file), `publish tarball is missing ${file}`);
 }

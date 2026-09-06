@@ -1,0 +1,3 @@
+import type { PlantimIconV4Definition } from "../index.js";
+export declare const ActionSearch: PlantimIconV4Definition;
+export default ActionSearch;

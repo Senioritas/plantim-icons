@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Android-namespace attribute declarations for android-vector.xsd.
+  The viewport is pinned to the v4 24-grid: width/height 24dp, viewport 24.
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://schemas.android.com/apk/res/android"
+           targetNamespace="http://schemas.android.com/apk/res/android"
+           attributeFormDefault="qualified">
+
+  <xs:simpleType name="colorType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="#[0-9A-Fa-f]{6}|#[0-9A-Fa-f]{8}|@color/[a-z0-9_]+|@android:color/transparent"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="alphaType">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="1"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="strokeWidthType">
+    <xs:restriction base="xs:decimal">
+      <xs:minExclusive value="0"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:attribute name="width">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="24dp"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+
+  <xs:attribute name="height">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="24dp"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+
+  <xs:attribute name="viewportWidth">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="24"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+
+  <xs:attribute name="viewportHeight">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="24"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+
+  <xs:attribute name="pathData" type="xs:string"/>
+  <xs:attribute name="fillColor" type="tns:colorType"/>
+  <xs:attribute name="fillAlpha" type="tns:alphaType"/>
+  <xs:attribute name="strokeColor" type="tns:colorType"/>
+  <xs:attribute name="strokeAlpha" type="tns:alphaType"/>
+  <xs:attribute name="strokeWidth" type="tns:strokeWidthType"/>
+
+  <xs:attribute name="strokeLineCap">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="butt"/>
+        <xs:enumeration value="round"/>
+        <xs:enumeration value="square"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+
+  <xs:attribute name="strokeLineJoin">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="miter"/>
+        <xs:enumeration value="round"/>
+        <xs:enumeration value="bevel"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+
+  <xs:attribute name="fillType">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="evenOdd"/>
+        <xs:enumeration value="nonZero"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+</xs:schema>
