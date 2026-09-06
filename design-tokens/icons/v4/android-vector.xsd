@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Minimal schema for the generated Plantim v4 Android VectorDrawables.
+  Validated by design-tokens/bin/check-v4-android.mjs via xmllint.
+  Android-namespace attributes (including the fixed 24dp/24 viewport) are
+  declared in android-vector-attrs.xsd, imported below.
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:android="http://schemas.android.com/apk/res/android"
+           elementFormDefault="unqualified">
+
+  <xs:import namespace="http://schemas.android.com/apk/res/android"
+             schemaLocation="android-vector-attrs.xsd"/>
+
+  <xs:element name="vector">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="path" minOccurs="1" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute ref="android:pathData" use="required"/>
+            <xs:attribute ref="android:fillColor"/>
+            <xs:attribute ref="android:fillAlpha"/>
+            <xs:attribute ref="android:fillType"/>
+            <xs:attribute ref="android:strokeColor"/>
+            <xs:attribute ref="android:strokeWidth"/>
+            <xs:attribute ref="android:strokeAlpha"/>
+            <xs:attribute ref="android:strokeLineCap"/>
+            <xs:attribute ref="android:strokeLineJoin"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute ref="android:width" use="required"/>
+      <xs:attribute ref="android:height" use="required"/>
+      <xs:attribute ref="android:viewportWidth" use="required"/>
+      <xs:attribute ref="android:viewportHeight" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

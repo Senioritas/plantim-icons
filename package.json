@@ -43,7 +43,8 @@
     "icons:v4:sheets": "node design-tokens/bin/render-v4-sheets.mjs v4",
     "icons:v4:pdf": "node design-tokens/bin/generate-v4-report.mjs && node design-tokens/bin/generate-v4-catalog.mjs",
     "icons:v4:html": "node design-tokens/bin/generate-v4-html.mjs",
-    "icons:v4:lottie": "node design-tokens/bin/generate-v4-lottie.mjs && node design-tokens/bin/check-v4-lottie.mjs"
+    "icons:v4:lottie": "node design-tokens/bin/generate-v4-lottie.mjs && node design-tokens/bin/check-v4-lottie.mjs",
+    "icons:v4:android": "node design-tokens/bin/generate-v4-android.mjs && node design-tokens/bin/check-v4-android.mjs"
   },
   "devDependencies": {
     "ajv": "^8.17.1",
