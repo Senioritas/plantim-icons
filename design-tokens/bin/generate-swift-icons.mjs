@@ -1,9 +1,13 @@
 import fs from "node:fs";
 import path from "node:path";
+import crypto from "node:crypto";
 
 const root = path.resolve(import.meta.dirname, "../..");
 const registry = JSON.parse(
   fs.readFileSync(path.join(root, "design-tokens/icons/registry.json"), "utf8"),
+);
+const navigation = JSON.parse(
+  fs.readFileSync(path.join(root, "design-tokens/navigation/registry.json"), "utf8"),
 );
 const template = fs.readFileSync(
   path.join(root, "design-tokens/icons/swift-renderer.template.swift"),
@@ -62,6 +66,41 @@ const source = template
 for (const target of targets) {
   fs.mkdirSync(path.dirname(target), { recursive: true });
   fs.writeFileSync(target, source);
+}
+
+const navigationHash = crypto
+  .createHash("sha256")
+  .update(JSON.stringify(navigation.surfaces))
+  .digest("hex");
+const navigationSource = `import Foundation
+
+public enum PlantimNavigationSurface: String, CaseIterable, Sendable {
+${Object.keys(navigation.surfaces).map((surface) => `    case ${surface}`).join("\n")}
+}
+
+public struct PlantimNavigationItem: Sendable, Equatable {
+    public let id: PlantimNavigationSurface
+    public let route: String
+    public let labelKey: String
+    public let icon: PlantimIconName
+
+    public init(id: PlantimNavigationSurface, route: String, labelKey: String, icon: PlantimIconName) {
+        self.id = id
+        self.route = route
+        self.labelKey = labelKey
+        self.icon = icon
+    }
+}
+
+public enum PlantimNavigation {
+    public static let version = ${JSON.stringify(navigation.version)}
+    public static let registryHash = ${JSON.stringify(registry.registryHash)}
+    public static let productContractHash = ${JSON.stringify(navigationHash)}
+${Object.entries(navigation.surfaces).map(([surface, item]) => `    public static let ${surface} = PlantimNavigationItem(id: .${surface}, route: ${JSON.stringify(item.route)}, labelKey: ${JSON.stringify(item.labelKey)}, icon: .${swiftName(item.icon)})`).join("\n")}
+}
+`;
+for (const target of targets) {
+  fs.writeFileSync(path.join(path.dirname(target), "PlantimNavigation.swift"), navigationSource);
 }
 
 console.log(`Generated native Swift renderer for ${unique.length} icons.`);

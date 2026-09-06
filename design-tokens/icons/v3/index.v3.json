@@ -1,6 +1,6 @@
 {
   "version": "3.0.0",
-  "derivedFrom": "2.0.1",
+  "derivedFrom": "2.1.0",
   "count": 237,
   "counts": {
     "derived": 154,
@@ -13,7 +13,7 @@
     72
   ],
   "strokePolicy": "proportional",
-  "v3Hash": "61fc82579babf4b19a5a57ae706e6bbb9fce1e67229dc396bcbc45540f9ca35e",
+  "v3Hash": "c0e8cc980517836b517f3e283bf287604ec210c06b65b0e1610ba1dfc37882be",
   "icons": [
     {
       "id": "utility.activity",

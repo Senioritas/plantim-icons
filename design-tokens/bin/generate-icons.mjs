@@ -10,6 +10,7 @@ const lucideIndex = path.join(root, "node_modules/@lucide/vue/dist/esm/lucide-vu
 const packageRoot = path.join(root, "packages/plantim-icons/src");
 const swiftRoot = path.join(root, "packages/PlantimIcons/Sources/PlantimIcons");
 const customRoot = path.join(root, "design-tokens/icons/custom");
+const navigationPath = path.join(root, "design-tokens/navigation/registry.json");
 
 function kebab(name) {
   return name
@@ -165,6 +166,16 @@ const expectedHash = crypto
 if (registryHash !== expectedHash) {
   throw new Error("Authored icon registry hash is stale. Update it explicitly before generating.");
 }
+const navigation = JSON.parse(fs.readFileSync(navigationPath, "utf8"));
+for (const [surface, item] of Object.entries(navigation.surfaces)) {
+  if (!Object.values(registry.icons).some((icon) => icon.id === item.icon)) {
+    throw new Error(`Navigation surface ${surface} uses unknown icon ${item.icon}`);
+  }
+}
+const navigationHash = crypto
+  .createHash("sha256")
+  .update(JSON.stringify(navigation.surfaces))
+  .digest("hex");
 const names = Object.keys(registry.icons);
 fs.mkdirSync(packageRoot, { recursive: true });
 const vue = `import { defineComponent, h, type PropType } from "vue";\n\nexport type PlantimIconName = ${Object.values(
@@ -213,6 +224,14 @@ const metadata = Object.fromEntries(
 fs.writeFileSync(
   path.join(packageRoot, "metadata.ts"),
   `export { PLANTIM_ICONS_REGISTRY_HASH, PLANTIM_ICONS_VERSION } from "./index.js";\n\nexport type PlantimIconMetadata = { readonly id: string; readonly category: string; readonly accessibility: "decorative" | "semantic" | "status"; readonly accessibilityLabelKey?: string; readonly deprecated?: boolean; readonly replacement?: string };\n\nexport const PLANTIM_ICON_METADATA = Object.freeze(${JSON.stringify(metadata, null, 2)}) as Readonly<Record<string, PlantimIconMetadata>>;\n`,
+);
+
+const navigationEntries = Object.entries(navigation.surfaces)
+  .map(([surface, item]) => `  ${surface}: { id: ${JSON.stringify(surface)}, route: ${JSON.stringify(item.route)}, labelKey: ${JSON.stringify(item.labelKey)}, icon: ${JSON.stringify(item.icon)} }`)
+  .join(",\n");
+fs.writeFileSync(
+  path.join(packageRoot, "navigation.ts"),
+  `import type { PlantimIconName } from "./index.js";\n\nexport const PLANTIM_PRODUCT_CONTRACT_VERSION = ${JSON.stringify(navigation.version)} as const;\nexport const PLANTIM_PRODUCT_CONTRACT_HASH = ${JSON.stringify(navigationHash)} as const;\n\nexport type PlantimNavigationSurface = ${Object.keys(navigation.surfaces).map((surface) => JSON.stringify(surface)).join(" | ")};\nexport type PlantimNavigationItem = { readonly id: PlantimNavigationSurface; readonly route: string; readonly labelKey: string; readonly icon: PlantimIconName };\n\nexport const PlantimNavigation = Object.freeze({\n${navigationEntries}\n} as const satisfies Record<PlantimNavigationSurface, PlantimNavigationItem>);\n`,
 );
 
 const swiftCases = Object.values(registry.icons)

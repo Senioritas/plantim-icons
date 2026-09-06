@@ -1,0 +1,7 @@
+services:
+  icons-ci:
+    build:
+      context: .
+      dockerfile: docker/ci/Dockerfile
+    image: plantim-icons-ci:local
+    command: npm run icons:validate:node
