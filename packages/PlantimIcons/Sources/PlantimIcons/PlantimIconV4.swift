@@ -8,7 +8,7 @@ import AppKit
 
 public enum PlantimIconsV4Metadata {
     public static let version = "4.0.0"
-    public static let registryHash = "8918930f0901ef326303681d0b07a17a8d539f03b71776012e2defbe70af3284"
+    public static let registryHash = "5c17109caec158aa49b07c8f61ff61b5c9662d2af484748da61c1ce52112809c"
     public static let iconCount = 237
 }
 
@@ -976,40 +976,51 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
     .familyApiaceae: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M12 22V9", false), .path("M12 9 5 4", false), .path("M12 9l7-5", false), .path("M12 9 3 8", false), .path("M12 9l9-1", false), .path("M12 9 8 3", false), .path("M12 9l4-6", false)]),
+                PlantimV4Layer("stem", [.path("M12 21v-8", false)]),
+                PlantimV4Layer("stalks", [.path("M12 13 6 8", false), .path("M12 13V6", false), .path("M12 13 18 8", false)]),
+                PlantimV4Layer("flowers", [.circle(5.5, 7.5, 1.7, true), .circle(12, 5, 1.7, true), .circle(18.5, 7.5, 1.7, true)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M12 22V9", false), .path("M12 9 5 4", false), .path("M12 9l7-5", false), .path("M12 9 3 8", false), .path("M12 9l9-1", false), .path("M12 9 8 3", false), .path("M12 9l4-6", false)]),
+                PlantimV4Layer("stem", [.path("M12 21v-9", false)]),
+                PlantimV4Layer("stalks", [.path("M12 12 5 7", false), .path("M12 12 8.5 5.5", false), .path("M12 12v-6.5", false), .path("M12 12 15.5 5.5", false), .path("M12 12 19 7", false)]),
+                PlantimV4Layer("flowers", [.circle(4.5, 6.5, 1.4, true), .circle(8, 5, 1.4, true), .circle(12, 4.6, 1.4, true), .circle(16, 5, 1.4, true), .circle(19.5, 6.5, 1.4, true)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M12 22V9", false), .path("M12 9 5 4", false), .path("M12 9l7-5", false), .path("M12 9 3 8", false), .path("M12 9l9-1", false), .path("M12 9 8 3", false), .path("M12 9l4-6", false)]),
+                PlantimV4Layer("stem", [.path("M12 21v-9", false)]),
+                PlantimV4Layer("stalks", [.path("M12 12 5 7", false), .path("M12 12 8.5 5.5", false), .path("M12 12v-6.5", false), .path("M12 12 15.5 5.5", false), .path("M12 12 19 7", false)]),
+                PlantimV4Layer("flowers", [.circle(4.5, 6.5, 1.4, true), .circle(8, 5, 1.4, true), .circle(12, 4.6, 1.4, true), .circle(16, 5, 1.4, true), .circle(19.5, 6.5, 1.4, true)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .leaf700]
+        duotonePrimary: ["stem", "stalks", "flowers"],
+        multicolor: ["stem": .leaf700, "stalks": .leaf500, "flowers": .leaf700]
     ),
     .familyAraceae: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M12 22C7 18 3 14 3 9a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 5-4 9-9 13Z", false), .path("M12 6v9", false), .path("M7 9c1.5 1 2.5 2.5 3 4.5", false), .path("M17 9c-1.5 1-2.5 2.5-3 4.5", false)]),
+                PlantimV4Layer("stem", [.path("M12 21v-4", false)]),
+                PlantimV4Layer("leaf", [.path("M12 17C6.8 16 3 11.7 3 8C3 5.3 5.1 3.5 7.4 3.5C9.5 3.5 11.2 5 12 6.7C12.8 5 14.5 3.5 16.6 3.5C18.9 3.5 21 5.3 21 8C21 11.7 17.2 16 12 17Z", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M12 22C7 18 3 14 3 9a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 5-4 9-9 13Z", false), .path("M12 6v9", false), .path("M7 9c1.5 1 2.5 2.5 3 4.5", false), .path("M17 9c-1.5 1-2.5 2.5-3 4.5", false)]),
+                PlantimV4Layer("stem", [.path("M12 21v-4.5", false)]),
+                PlantimV4Layer("leaf", [.path("M12 16.5C7 15.5 3.5 11.5 3.5 8C3.5 5.5 5.5 4 7.5 4C9.5 4 11.2 5.4 12 7C12.8 5.4 14.5 4 16.5 4C18.5 4 20.5 5.5 20.5 8C20.5 11.5 17 15.5 12 16.5Z", false)]),
+                PlantimV4Layer("midrib", [.path("M12 15v-6", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M12 22C7 18 3 14 3 9a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 5-4 9-9 13Z", false), .path("M12 6v9", false), .path("M7 9c1.5 1 2.5 2.5 3 4.5", false), .path("M17 9c-1.5 1-2.5 2.5-3 4.5", false)]),
+                PlantimV4Layer("stem", [.path("M12 21v-4.5", false)]),
+                PlantimV4Layer("leaf", [.path("M12 16.5C7 15.5 3.5 11.5 3.5 8C3.5 5.5 5.5 4 7.5 4C9.5 4 11.2 5.4 12 7C12.8 5.4 14.5 4 16.5 4C18.5 4 20.5 5.5 20.5 8C20.5 11.5 17 15.5 12 16.5Z", false)]),
+                PlantimV4Layer("midrib", [.path("M12 15v-6", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .leaf700]
+        duotonePrimary: ["leaf", "midrib"],
+        multicolor: ["stem": .leaf700, "leaf": .leaf500, "midrib": .leaf700]
     ),
     .familyArecaceae: PlantimV4IconData(
         grades: [
@@ -1071,40 +1082,48 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
     .familyBegoniaceae: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M6 21c-3-4-3-9 1-13 4-4 10-5 15-2-4 3-6 8-9 11-2 2-4 3-7 4Z", false), .path("M6 21 18 5", false), .path("M11 13l2-4", false), .path("M13 16l3-5", false)]),
+                PlantimV4Layer("stem", [.path("M16 21C15 18.5 14 16.5 12.5 15", false)]),
+                PlantimV4Layer("leaf", [.path("M12.5 15C6 15.5 2 10.8 3.3 6.6C4.3 3.2 8.5 2.2 11.5 3.8C14.1 5.1 15 8 15.5 10.5C16 8 16.5 4.8 18 3C19.7 6.6 19.5 11.2 12.5 15Z", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M6 21c-3-4-3-9 1-13 4-4 10-5 15-2-4 3-6 8-9 11-2 2-4 3-7 4Z", false), .path("M6 21 18 5", false), .path("M11 13l2-4", false), .path("M13 16l3-5", false)]),
+                PlantimV4Layer("stem", [.path("M16 21C15 18.5 14 16.5 12.5 15", false)]),
+                PlantimV4Layer("leaf", [.path("M12.5 15C6.5 15.5 2.5 11 3.5 7C4.4 3.5 8.5 2.5 11.5 4C14 5.2 15 8 15.5 10.5C16 8 16.5 5 18 3C19.5 6.5 19.5 11 12.5 15Z", false)]),
+                PlantimV4Layer("midrib", [.path("M12.5 14.5C9.5 12 7 10 5 9", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M6 21c-3-4-3-9 1-13 4-4 10-5 15-2-4 3-6 8-9 11-2 2-4 3-7 4Z", false), .path("M6 21 18 5", false), .path("M11 13l2-4", false), .path("M13 16l3-5", false)]),
+                PlantimV4Layer("stem", [.path("M16 21C15 18.5 14 16.5 12.5 15", false)]),
+                PlantimV4Layer("leaf", [.path("M12.5 15C6.5 15.5 2.5 11 3.5 7C4.4 3.5 8.5 2.5 11.5 4C14 5.2 15 8 15.5 10.5C16 8 16.5 5 18 3C19.5 6.5 19.5 11 12.5 15Z", false)]),
+                PlantimV4Layer("midrib", [.path("M12.5 14.5C9.5 12 7 10 5 9", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .leaf700]
+        duotonePrimary: ["leaf", "midrib"],
+        multicolor: ["stem": .leaf700, "leaf": .leaf500, "midrib": .leaf700]
     ),
     .familyBromeliaceae: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M12 22c-4-3-6-8-6-13", false), .path("M12 22c4-3 6-8 6-13", false), .path("M12 22V11", false), .path("M9 8 8 3l2 3 2-4 2 4 2-3-1 5", false), .path("M9 13c1-1 5-1 6 0", false)]),
+                PlantimV4Layer("blades", [.path("M12 20C8 18 5 14 3.5 8C7 9 10 12 12 20Z", false), .path("M12 20C11 15 10.5 10 11 3.5C13 8 13.5 13 12 20Z", false), .path("M12 20C16 18 19 14 20.5 8C17 9 14 12 12 20Z", false)]),
+                PlantimV4Layer("base", [.path("M8 20h8", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M12 22c-4-3-6-8-6-13", false), .path("M12 22c4-3 6-8 6-13", false), .path("M12 22V11", false), .path("M9 8 8 3l2 3 2-4 2 4 2-3-1 5", false), .path("M9 13c1-1 5-1 6 0", false)]),
+                PlantimV4Layer("blades", [.path("M12 20C9 18 6 15 4 9C7 9.5 10 12 12 20Z", false), .path("M12 20C11 16 10.5 11 11 4C12.5 8 13 13 12 20Z", false), .path("M12 20C15 18 18 15 20 9C17 9.5 14 12 12 20Z", false), .path("M12 20C10.5 17 8.5 14.5 6.5 12C5.5 15 8 18 12 20Z", false), .path("M12 20C13.5 17 15.5 14.5 17.5 12C18.5 15 16 18 12 20Z", false)]),
+                PlantimV4Layer("base", [.path("M8 20h8", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M12 22c-4-3-6-8-6-13", false), .path("M12 22c4-3 6-8 6-13", false), .path("M12 22V11", false), .path("M9 8 8 3l2 3 2-4 2 4 2-3-1 5", false), .path("M9 13c1-1 5-1 6 0", false)]),
+                PlantimV4Layer("blades", [.path("M12 20C9 18 6 15 4 9C7 9.5 10 12 12 20Z", false), .path("M12 20C11 16 10.5 11 11 4C12.5 8 13 13 12 20Z", false), .path("M12 20C15 18 18 15 20 9C17 9.5 14 12 12 20Z", false), .path("M12 20C10.5 17 8.5 14.5 6.5 12C5.5 15 8 18 12 20Z", false), .path("M12 20C13.5 17 15.5 14.5 17.5 12C18.5 15 16 18 12 20Z", false)]),
+                PlantimV4Layer("base", [.path("M8 20h8", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .leaf700]
+        duotonePrimary: ["blades"],
+        multicolor: ["blades": .leaf500, "base": .leaf700]
     ),
     .familyCactaceae: PlantimV4IconData(
         grades: [
@@ -1207,21 +1226,24 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
     .familyNephrolepidaceae: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M4 21C4 12 9 5 20 4", false), .path("M6.5 15 4 16.5", false), .path("M8.5 11.5 6 12.5", false), .path("M11 8.5 8.5 9", false), .path("M14 6.5 11.5 6.5", false), .path("M17 5 15 4.5", false)]),
+                PlantimV4Layer("rachis", [.path("M12 21V5", false)]),
+                PlantimV4Layer("leaflets", [.path("M12 17.5 5.5 15", false), .path("M12 17.5 18.5 15", false), .path("M12 12.5 6 11", false), .path("M12 12.5 18 11", false), .path("M12 8 7.5 7", false), .path("M12 8 16.5 7", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M4 21C4 12 9 5 20 4", false), .path("M6.5 15 4 16.5", false), .path("M8.5 11.5 6 12.5", false), .path("M11 8.5 8.5 9", false), .path("M14 6.5 11.5 6.5", false), .path("M17 5 15 4.5", false)]),
+                PlantimV4Layer("rachis", [.path("M12 21V4", false)]),
+                PlantimV4Layer("leaflets", [.path("M12 18 5.5 15.5", false), .path("M12 18 18.5 15.5", false), .path("M12 14 6 12", false), .path("M12 14 18 12", false), .path("M12 10 6.8 8.8", false), .path("M12 10 17.2 8.8", false), .path("M12 6.5 8.5 5.5", false), .path("M12 6.5 15.5 5.5", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M4 21C4 12 9 5 20 4", false), .path("M6.5 15 4 16.5", false), .path("M8.5 11.5 6 12.5", false), .path("M11 8.5 8.5 9", false), .path("M14 6.5 11.5 6.5", false), .path("M17 5 15 4.5", false)]),
+                PlantimV4Layer("rachis", [.path("M12 21V4", false)]),
+                PlantimV4Layer("leaflets", [.path("M12 18 5.5 15.5", false), .path("M12 18 18.5 15.5", false), .path("M12 14 6 12", false), .path("M12 14 18 12", false), .path("M12 10 6.8 8.8", false), .path("M12 10 17.2 8.8", false), .path("M12 6.5 8.5 5.5", false), .path("M12 6.5 15.5 5.5", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .leaf700]
+        duotonePrimary: ["rachis", "leaflets"],
+        multicolor: ["rachis": .leaf700, "leaflets": .leaf500]
     ),
     .familyOrchidaceae: PlantimV4IconData(
         grades: [
@@ -1248,40 +1270,46 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
     .familyPiperaceae: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.circle(7, 7, 3.5, false), .circle(17, 8, 3.5, false), .circle(12, 14, 3.5, false), .path("M7 10.5v4", false), .path("M17 11.5V15", false), .path("M12 17.5V22", false), .path("M8 22h8", false)]),
+                PlantimV4Layer("stalks", [.path("M12 21 8 13", false), .path("M12 21 16 15", false)]),
+                PlantimV4Layer("leaves", [.path("M8 13C4.4 13 2.6 10.2 3.4 7.2C4.1 4.5 7 3.2 9.4 4.6C11.3 5.7 11.6 8.6 10 11C9.2 12.2 8.5 13 8 13Z", false), .path("M16 15C13.4 15 12 12.9 12.8 10.6C13.4 8.7 15.6 7.8 17.4 9C18.9 10 19.2 12.2 17.8 13.9C17 14.6 16.6 15 16 15Z", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.circle(7, 7, 3.5, false), .circle(17, 8, 3.5, false), .circle(12, 14, 3.5, false), .path("M7 10.5v4", false), .path("M17 11.5V15", false), .path("M12 17.5V22", false), .path("M8 22h8", false)]),
+                PlantimV4Layer("stalks", [.path("M12 21 8 12", false), .path("M12 21 16 14", false)]),
+                PlantimV4Layer("leaves", [.path("M8 12C4.7 12 3 9.6 3.5 7C4 4.6 6.2 3.2 8.6 4C10.6 4.7 11.6 7.2 10.7 9.6C10.1 11.2 9.3 12 8 12Z", false), .path("M16 14C13.6 14 12.4 12.2 12.9 10.2C13.3 8.5 15 7.6 16.8 8.3C18.3 8.9 19 10.8 18.2 12.5C17.7 13.6 17 14 16 14Z", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.circle(7, 7, 3.5, false), .circle(17, 8, 3.5, false), .circle(12, 14, 3.5, false), .path("M7 10.5v4", false), .path("M17 11.5V15", false), .path("M12 17.5V22", false), .path("M8 22h8", false)]),
+                PlantimV4Layer("stalks", [.path("M12 21 8 12", false), .path("M12 21 16 14", false)]),
+                PlantimV4Layer("leaves", [.path("M8 12C4.7 12 3 9.6 3.5 7C4 4.6 6.2 3.2 8.6 4C10.6 4.7 11.6 7.2 10.7 9.6C10.1 11.2 9.3 12 8 12Z", false), .path("M16 14C13.6 14 12.4 12.2 12.9 10.2C13.3 8.5 15 7.6 16.8 8.3C18.3 8.9 19 10.8 18.2 12.5C17.7 13.6 17 14 16 14Z", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .leaf700]
+        duotonePrimary: ["leaves"],
+        multicolor: ["stalks": .leaf700, "leaves": .leaf500]
     ),
     .familyPolypodiaceae: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M18 4 6 20", false), .path("M15.5 6.5 20 6", false), .path("M13 9.5 18 9", false), .path("M10.5 12.5 15.5 12", false), .path("M8 15.5 13 15", false), .path("M15.5 6.5 12 4", false), .path("M8 15.5 5 13", false)]),
+                PlantimV4Layer("rachis", [.path("M12 21V6", false)]),
+                PlantimV4Layer("blade", [.path("M12 18.5C7 18.5 3 16 3 11C6 12 8 13.5 9.5 16C8.5 11.5 6.5 9 3.5 8C7 8 9.5 9.5 11 12.5C10.5 8 10 6 12 4Z", false), .path("M12 18.5C17 18.5 21 16 21 11C18 12 16 13.5 14.5 16C15.5 11.5 17.5 9 20.5 8C17 8 14.5 9.5 13 12.5C13.5 8 14 6 12 4Z", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M18 4 6 20", false), .path("M15.5 6.5 20 6", false), .path("M13 9.5 18 9", false), .path("M10.5 12.5 15.5 12", false), .path("M8 15.5 13 15", false), .path("M15.5 6.5 12 4", false), .path("M8 15.5 5 13", false)]),
+                PlantimV4Layer("rachis", [.path("M12 21V6", false)]),
+                PlantimV4Layer("blade", [.path("M12 19C8 19 4 17 3.5 12.5C6 13 7.5 14 9 15.5C8 12 6 10 3.5 8.5C6.5 8.5 9 9.5 10.5 11.5C10 8 9 6 12 4Z", false), .path("M12 19C16 19 20 17 20.5 12.5C18 13 16.5 14 15 15.5C16 12 18 10 20.5 8.5C17.5 8.5 15 9.5 13.5 11.5C14 8 15 6 12 4Z", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M18 4 6 20", false), .path("M15.5 6.5 20 6", false), .path("M13 9.5 18 9", false), .path("M10.5 12.5 15.5 12", false), .path("M8 15.5 13 15", false), .path("M15.5 6.5 12 4", false), .path("M8 15.5 5 13", false)]),
+                PlantimV4Layer("rachis", [.path("M12 21V6", false)]),
+                PlantimV4Layer("blade", [.path("M12 19C8 19 4 17 3.5 12.5C6 13 7.5 14 9 15.5C8 12 6 10 3.5 8.5C6.5 8.5 9 9.5 10.5 11.5C10 8 9 6 12 4Z", false), .path("M12 19C16 19 20 17 20.5 12.5C18 13 16.5 14 15 15.5C16 12 18 10 20.5 8.5C17.5 8.5 15 9.5 13.5 11.5C14 8 15 6 12 4Z", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .leaf700]
+        duotonePrimary: ["rachis", "blade"],
+        multicolor: ["rachis": .leaf700, "blade": .leaf500]
     ),
     .gardenCompost: PlantimV4IconData(
         grades: [
@@ -1324,21 +1352,24 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
     .gardenGloves: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M8 11a4 4 0 0 1 8 0v5a3 3 0 0 1-3 3h-2a3 3 0 0 1-3-3z", false), .path("M16 12.5a2 2 0 0 1 .5 4", false), .path("M8 19h8v1.5H8z", false)]),
+                PlantimV4Layer("glove", [.path("M8 21a3 3 0 0 1-3-3v-4a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v2a5 5 0 0 1-3 4.6V21Z", false), .path("M9 12V7.5a1.3 1.3 0 0 1 2.6 0V12", false), .path("M11.6 12V6.5a1.3 1.3 0 0 1 2.6 0V12", false), .path("M5 16a2.5 2.5 0 0 1 0-5", false)]),
+                PlantimV4Layer("cuff", [.path("M7.5 21h6", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M8 11a4 4 0 0 1 8 0v5a3 3 0 0 1-3 3h-2a3 3 0 0 1-3-3z", false), .path("M16 12.5a2 2 0 0 1 .5 4", false), .path("M8 19h8v1.5H8z", false)]),
+                PlantimV4Layer("glove", [.path("M8 21a3 3 0 0 1-3-3v-4a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v2a5 5 0 0 1-3 4.6V21Z", false), .path("M9 12V7.5a1.3 1.3 0 0 1 2.6 0V12", false), .path("M11.6 12V6.5a1.3 1.3 0 0 1 2.6 0V12", false), .path("M5 16a2.5 2.5 0 0 1 0-5", false)]),
+                PlantimV4Layer("cuff", [.path("M7.5 21h6", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M8 11a4 4 0 0 1 8 0v5a3 3 0 0 1-3 3h-2a3 3 0 0 1-3-3z", false), .path("M16 12.5a2 2 0 0 1 .5 4", false), .path("M8 19h8v1.5H8z", false)]),
+                PlantimV4Layer("glove", [.path("M8 21a3 3 0 0 1-3-3v-4a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v2a5 5 0 0 1-3 4.6V21Z", false), .path("M9 12V7.5a1.3 1.3 0 0 1 2.6 0V12", false), .path("M11.6 12V6.5a1.3 1.3 0 0 1 2.6 0V12", false), .path("M5 16a2.5 2.5 0 0 1 0-5", false)]),
+                PlantimV4Layer("cuff", [.path("M7.5 21h6", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .ink900]
+        duotonePrimary: ["glove"],
+        multicolor: ["glove": .ink900, "cuff": .leaf500]
     ),
     .gardenGreenhouse: PlantimV4IconData(
         grades: [
@@ -1362,43 +1393,46 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
     .gardenHoe: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M20 4 8.5 15.5", false), .path("M4 15h6v3H4z", false), .path("M8.5 15.5 7 16.5", false)]),
+                PlantimV4Layer("handle", [.path("M18.5 4.5 8 15", false)]),
+                PlantimV4Layer("head", [.path("M8 15l-3.5 3.5a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0L13 17Z", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M20 4 8.5 15.5", false), .path("M4 15h6v3H4z", false), .path("M8.5 15.5 7 16.5", false)]),
+                PlantimV4Layer("handle", [.path("M18.5 4.5 8 15", false)]),
+                PlantimV4Layer("head", [.path("M8 15l-3.5 3.5a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0L13 17Z", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M20 4 8.5 15.5", false), .path("M4 15h6v3H4z", false), .path("M8.5 15.5 7 16.5", false)]),
+                PlantimV4Layer("handle", [.path("M18.5 4.5 8 15", false)]),
+                PlantimV4Layer("head", [.path("M8 15l-3.5 3.5a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0L13 17Z", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .ink900]
+        duotonePrimary: ["handle"],
+        multicolor: ["handle": .ink900, "head": .ink500]
     ),
     .gardenHose: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.circle(9, 14, 5, false), .path("M13 11l6-6", false), .path("M19 5c1 1 1 2 0 3", false)]),
-                PlantimV4Layer("accent", [.circle(9, 14, 1, false)]),
+                PlantimV4Layer("coil", [.path("M11 20a5 5 0 1 1 5-5v-1a3 3 0 0 1 3-3", false)]),
+                PlantimV4Layer("nozzle", [.path("M18 8l4 3-2.5 2.5L16 11Z", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.circle(9, 14, 5, false), .path("M13 11l6-6", false), .path("M19 5c1 1 1 2 0 3", false)]),
-                PlantimV4Layer("accent", [.circle(9, 14, 1, false)]),
+                PlantimV4Layer("coil", [.path("M11 20a5 5 0 1 1 5-5v-1a3 3 0 0 1 3-3", false)]),
+                PlantimV4Layer("nozzle", [.path("M18 8l4 3-2.5 2.5L16 11Z", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.circle(9, 14, 5, false), .path("M13 11l6-6", false), .path("M19 5c1 1 1 2 0 3", false)]),
-                PlantimV4Layer("accent", [.circle(9, 14, 1, false)]),
+                PlantimV4Layer("coil", [.path("M11 20a5 5 0 1 1 5-5v-1a3 3 0 0 1 3-3", false)]),
+                PlantimV4Layer("nozzle", [.path("M18 8l4 3-2.5 2.5L16 11Z", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .water600, "accent": .water600]
+        duotonePrimary: ["coil"],
+        multicolor: ["coil": .water600, "nozzle": .ink900]
     ),
     .gardenPot: PlantimV4IconData(
         grades: [
@@ -1422,21 +1456,24 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
     .gardenRake: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M19 3L9 13", false), .path("M4 18l5-5", false), .path("M3 15l6 6", false), .path("M4 14L7 17", false), .path("M7 11L10 14", false), .path("M10 17L13 20", false)]),
+                PlantimV4Layer("handle", [.path("M12 3v9", false)]),
+                PlantimV4Layer("head", [.path("M6 12h12", false), .path("M7 12v4", false), .path("M12 12v4", false), .path("M17 12v4", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M19 3L9 13", false), .path("M4 18l5-5", false), .path("M3 15l6 6", false), .path("M4 14L7 17", false), .path("M7 11L10 14", false), .path("M10 17L13 20", false)]),
+                PlantimV4Layer("handle", [.path("M12 3v9", false)]),
+                PlantimV4Layer("head", [.path("M6 12h12", false), .path("M6.5 12v3.5", false), .path("M9.25 12v3.5", false), .path("M12 12v3.5", false), .path("M14.75 12v3.5", false), .path("M17.5 12v3.5", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M19 3L9 13", false), .path("M4 18l5-5", false), .path("M3 15l6 6", false), .path("M4 14L7 17", false), .path("M7 11L10 14", false), .path("M10 17L13 20", false)]),
+                PlantimV4Layer("handle", [.path("M12 3v9", false)]),
+                PlantimV4Layer("head", [.path("M6 12h12", false), .path("M6.5 12v3.5", false), .path("M9.25 12v3.5", false), .path("M12 12v3.5", false), .path("M14.75 12v3.5", false), .path("M17.5 12v3.5", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .ink900]
+        duotonePrimary: ["handle"],
+        multicolor: ["handle": .ink900, "head": .ink500]
     ),
     .gardenSeedPacket: PlantimV4IconData(
         grades: [
@@ -1479,59 +1516,68 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
     .gardenSpade: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M8 3h8", false), .path("M8 3v3a4 4 0 0 0 4 4 4 4 0 0 0 4-4V3", false), .path("M12 10L12 15", false), .path("M8 15h8l-1 5a3 3 0 0 1-6 0z", false)]),
+                PlantimV4Layer("handle", [.path("M8 4h8", false), .path("M12 4v11", false)]),
+                PlantimV4Layer("blade", [.path("M9 15h6l-3 5.5Z", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M8 3h8", false), .path("M8 3v3a4 4 0 0 0 4 4 4 4 0 0 0 4-4V3", false), .path("M12 10L12 15", false), .path("M8 15h8l-1 5a3 3 0 0 1-6 0z", false)]),
+                PlantimV4Layer("handle", [.path("M8 4h8", false), .path("M12 4v11", false)]),
+                PlantimV4Layer("blade", [.path("M9 15h6l-3 5.5Z", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M8 3h8", false), .path("M8 3v3a4 4 0 0 0 4 4 4 4 0 0 0 4-4V3", false), .path("M12 10L12 15", false), .path("M8 15h8l-1 5a3 3 0 0 1-6 0z", false)]),
+                PlantimV4Layer("handle", [.path("M8 4h8", false), .path("M12 4v11", false)]),
+                PlantimV4Layer("blade", [.path("M9 15h6l-3 5.5Z", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .ink900]
+        duotonePrimary: ["handle"],
+        multicolor: ["handle": .ink900, "blade": .ink500]
     ),
     .gardenSprinkler: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M8 21h8", false), .path("M12 21L12 12", false), .path("M12 12c-3-2-5-2-8 0", false), .path("M12 12c3-2 5-2 8 0", false), .path("M12 12L12 6", false)]),
+                PlantimV4Layer("base", [.path("M8 21h8", false), .path("M12 21v-5", false), .path("M9.5 16h5l-1-2h-3Z", false)]),
+                PlantimV4Layer("water", [.path("M12 14c-2-1-3.5-3-3.5-6", false), .path("M12 14c2-1 3.5-3 3.5-6", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M8 21h8", false), .path("M12 21L12 12", false), .path("M12 12c-3-2-5-2-8 0", false), .path("M12 12c3-2 5-2 8 0", false), .path("M12 12L12 6", false)]),
+                PlantimV4Layer("base", [.path("M8 21h8", false), .path("M12 21v-5", false), .path("M9.5 16h5l-1-2h-3Z", false)]),
+                PlantimV4Layer("water", [.path("M12 14c-2.5-1-4-3-4.5-6", false), .path("M12 14c2.5-1 4-3 4.5-6", false), .path("M12 14V6", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M8 21h8", false), .path("M12 21L12 12", false), .path("M12 12c-3-2-5-2-8 0", false), .path("M12 12c3-2 5-2 8 0", false), .path("M12 12L12 6", false)]),
+                PlantimV4Layer("base", [.path("M8 21h8", false), .path("M12 21v-5", false), .path("M9.5 16h5l-1-2h-3Z", false)]),
+                PlantimV4Layer("water", [.path("M12 14c-2.5-1-4-3-4.5-6", false), .path("M12 14c2.5-1 4-3 4.5-6", false), .path("M12 14V6", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .water600]
+        duotonePrimary: ["base"],
+        multicolor: ["base": .ink900, "water": .water600]
     ),
     .gardenTrowel: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M20 4 14 10", false), .path("M16.5 5.5 18.5 7.5", false), .path("M14 10c-3.2 0-6.4 3-8.5 8.5C11 16.4 14 13.2 14 10z", false)]),
+                PlantimV4Layer("handle", [.path("M13.5 10.5 18 6", false), .path("M16 4l4 4-2 2-4-4Z", false)]),
+                PlantimV4Layer("blade", [.path("M4 20c-1-3 .5-7 3.5-8.5l4 4C10 18.5 6 20.5 4 20Z", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M20 4 14 10", false), .path("M16.5 5.5 18.5 7.5", false), .path("M14 10c-3.2 0-6.4 3-8.5 8.5C11 16.4 14 13.2 14 10z", false)]),
+                PlantimV4Layer("handle", [.path("M13.5 10.5 18 6", false), .path("M16 4l4 4-2 2-4-4Z", false)]),
+                PlantimV4Layer("blade", [.path("M4 20c-1-3 .5-7 3.5-8.5l4 4C10 18.5 6 20.5 4 20Z", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M20 4 14 10", false), .path("M16.5 5.5 18.5 7.5", false), .path("M14 10c-3.2 0-6.4 3-8.5 8.5C11 16.4 14 13.2 14 10z", false)]),
+                PlantimV4Layer("handle", [.path("M13.5 10.5 18 6", false), .path("M16 4l4 4-2 2-4-4Z", false)]),
+                PlantimV4Layer("blade", [.path("M4 20c-1-3 .5-7 3.5-8.5l4 4C10 18.5 6 20.5 4 20Z", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .ink900]
+        duotonePrimary: ["handle"],
+        multicolor: ["handle": .ink900, "blade": .ink500]
     ),
     .gardenWheelbarrow: PlantimV4IconData(
         grades: [
@@ -1574,21 +1620,24 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
     .genusCactus: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M8 16a4 4 0 0 1 8 0", false), .path("M12 6v6", false), .path("M9 9H7", false), .path("M15 9h2", false), .path("M12 4v1", false), .path("M7 16h10l-1 4H8l-1-4z", false)]),
+                PlantimV4Layer("body", [.path("M10 18V7a2 2 0 0 1 4 0v11", false), .path("M10 13H7.5V10.5", false), .path("M14 11.5h2.5V14", false)]),
+                PlantimV4Layer("pot", [.path("M9 18h6l-.6 3h-4.8Z", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M8 16a4 4 0 0 1 8 0", false), .path("M12 6v6", false), .path("M9 9H7", false), .path("M15 9h2", false), .path("M12 4v1", false), .path("M7 16h10l-1 4H8l-1-4z", false)]),
+                PlantimV4Layer("body", [.path("M10 18V6.5a2 2 0 0 1 4 0V18", false), .path("M10 13H8.3A1.8 1.8 0 0 1 6.5 11.2V9.5", false), .path("M14 11h1.7a1.8 1.8 0 0 1 1.8 1.8V15", false)]),
+                PlantimV4Layer("pot", [.path("M9 18h6l-.6 3h-4.8Z", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M8 16a4 4 0 0 1 8 0", false), .path("M12 6v6", false), .path("M9 9H7", false), .path("M15 9h2", false), .path("M12 4v1", false), .path("M7 16h10l-1 4H8l-1-4z", false)]),
+                PlantimV4Layer("body", [.path("M10 18V6.5a2 2 0 0 1 4 0V18", false), .path("M10 13H8.3A1.8 1.8 0 0 1 6.5 11.2V9.5", false), .path("M14 11h1.7a1.8 1.8 0 0 1 1.8 1.8V15", false)]),
+                PlantimV4Layer("pot", [.path("M9 18h6l-.6 3h-4.8Z", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .leaf700]
+        duotonePrimary: ["body"],
+        multicolor: ["body": .leaf700, "pot": .earth600]
     ),
     .genusCalathea: PlantimV4IconData(
         grades: [
@@ -1631,21 +1680,27 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
     .genusFicus: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M9 17V6", false), .path("M9 6c-2.5 0-4 1.5-4 3.5S6.5 13 9 13c2.5 0 4-1.5 4-3.5S11.5 6 9 6z", false), .path("M15 11c1.5 0 2.5 1 2.5 2.5S16.5 16 15 16", false), .path("M9 12c-1.2 0-2 .8-2 2s.8 2 2 2", false), .path("M6 17h8l-1 4H7l-1-4z", false)]),
+                PlantimV4Layer("trunk", [.path("M12 19v-7", false)]),
+                PlantimV4Layer("leaves", [.path("M12 12C9 12 6.5 10 6.5 6.5C10 6.5 12 8.5 12 12Z", false), .path("M12 12C15 12 17.5 10 17.5 6.5C14 6.5 12 8.5 12 12Z", false), .path("M12 9V4", false)]),
+                PlantimV4Layer("pot", [.path("M9 19h6l-.6 2.5h-4.8Z", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M9 17V6", false), .path("M9 6c-2.5 0-4 1.5-4 3.5S6.5 13 9 13c2.5 0 4-1.5 4-3.5S11.5 6 9 6z", false), .path("M15 11c1.5 0 2.5 1 2.5 2.5S16.5 16 15 16", false), .path("M9 12c-1.2 0-2 .8-2 2s.8 2 2 2", false), .path("M6 17h8l-1 4H7l-1-4z", false)]),
+                PlantimV4Layer("trunk", [.path("M12 19v-7", false)]),
+                PlantimV4Layer("leaves", [.path("M12 12C9 12 6.5 10 6.5 6.5C10 6.5 12 8.5 12 12Z", false), .path("M12 12C15 12 17.5 10 17.5 6.5C14 6.5 12 8.5 12 12Z", false), .path("M12 9C10 8 8.7 6 9.2 3.5C11.4 4 12.5 6.5 12 9Z", false), .path("M12 9C14 8 15.3 6 14.8 3.5C12.6 4 11.5 6.5 12 9Z", false)]),
+                PlantimV4Layer("pot", [.path("M9 19h6l-.6 2.5h-4.8Z", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M9 17V6", false), .path("M9 6c-2.5 0-4 1.5-4 3.5S6.5 13 9 13c2.5 0 4-1.5 4-3.5S11.5 6 9 6z", false), .path("M15 11c1.5 0 2.5 1 2.5 2.5S16.5 16 15 16", false), .path("M9 12c-1.2 0-2 .8-2 2s.8 2 2 2", false), .path("M6 17h8l-1 4H7l-1-4z", false)]),
+                PlantimV4Layer("trunk", [.path("M12 19v-7", false)]),
+                PlantimV4Layer("leaves", [.path("M12 12C9 12 6.5 10 6.5 6.5C10 6.5 12 8.5 12 12Z", false), .path("M12 12C15 12 17.5 10 17.5 6.5C14 6.5 12 8.5 12 12Z", false), .path("M12 9C10 8 8.7 6 9.2 3.5C11.4 4 12.5 6.5 12 9Z", false), .path("M12 9C14 8 15.3 6 14.8 3.5C12.6 4 11.5 6.5 12 9Z", false)]),
+                PlantimV4Layer("pot", [.path("M9 19h6l-.6 2.5h-4.8Z", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .leaf700]
+        duotonePrimary: ["trunk"],
+        multicolor: ["trunk": .earth600, "leaves": .leaf700, "pot": .earth600]
     ),
     .genusMonstera: PlantimV4IconData(
         grades: [
@@ -1669,43 +1724,49 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
     .genusOrchid: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M10 18C6 15 5 10 8 7", false), .circle(8, 6, 2, false), .path("M8 18h6l-1 3H9l-1-3z", false)]),
-                PlantimV4Layer("accent", [.circle(5, 8, 1.5, false), .circle(11, 8, 1.5, false)]),
+                PlantimV4Layer("stem", [.path("M12 21c0-4-1-6.5-3-8.5", false)]),
+                PlantimV4Layer("leaves", [.path("M12 21c-3 .2-5.2-1.6-5.4-4.6C9.6 16.2 11.8 18 12 21Z", false)]),
+                PlantimV4Layer("flower", [.circle(12, 6.5, 2.2, true), .circle(8.4, 6, 1.8, false), .circle(15.6, 6, 1.8, false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M10 18C6 15 5 10 8 7", false), .circle(8, 6, 2, false), .path("M8 18h6l-1 3H9l-1-3z", false)]),
-                PlantimV4Layer("accent", [.circle(5, 8, 1.5, false), .circle(11, 8, 1.5, false)]),
+                PlantimV4Layer("stem", [.path("M12 21c0-4-1-6.5-3-8.5", false)]),
+                PlantimV4Layer("leaves", [.path("M12 21c-3 .2-5.2-1.6-5.4-4.6C9.6 16.2 11.8 18 12 21Z", false), .path("M12 21c3 .2 5.2-1.6 5.4-4.6C14.4 16.2 12.2 18 12 21Z", false)]),
+                PlantimV4Layer("flower", [.circle(12, 7, 2, true), .circle(8.6, 5.4, 1.6, false), .circle(15.4, 5.4, 1.6, false), .circle(9.6, 9.4, 1.6, false), .circle(14.4, 9.4, 1.6, false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M10 18C6 15 5 10 8 7", false), .circle(8, 6, 2, false), .path("M8 18h6l-1 3H9l-1-3z", false)]),
-                PlantimV4Layer("accent", [.circle(5, 8, 1.5, false), .circle(11, 8, 1.5, false)]),
+                PlantimV4Layer("stem", [.path("M12 21c0-4-1-6.5-3-8.5", false)]),
+                PlantimV4Layer("leaves", [.path("M12 21c-3 .2-5.2-1.6-5.4-4.6C9.6 16.2 11.8 18 12 21Z", false), .path("M12 21c3 .2 5.2-1.6 5.4-4.6C14.4 16.2 12.2 18 12 21Z", false)]),
+                PlantimV4Layer("flower", [.circle(12, 7, 2, true), .circle(8.6, 5.4, 1.6, false), .circle(15.4, 5.4, 1.6, false), .circle(9.6, 9.4, 1.6, false), .circle(14.4, 9.4, 1.6, false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .leaf700, "accent": .leaf700]
+        duotonePrimary: ["stem"],
+        multicolor: ["stem": .leaf700, "leaves": .leaf700, "flower": .bloom500]
     ),
     .genusPalm: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M12 17V7", false), .path("M12 7C9 5 6 5 3 7c2.5 1 4 1.5 6 3", false), .path("M12 7c3-2 6-2 9 0-2.5 1-4 1.5-6 3", false), .path("M12 7c-1-2-1-4 0-6 1 2 1 4 0 6", false), .path("M8 17h8l-1 4H9l-1-4z", false)]),
+                PlantimV4Layer("trunk", [.path("M12 21v-9", false)]),
+                PlantimV4Layer("fronds", [.path("M12 12C8 11 5 8.5 4 5", false), .path("M12 12C16 11 19 8.5 20 5", false), .path("M12 12C11 8.5 11 5.5 12 3", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M12 17V7", false), .path("M12 7C9 5 6 5 3 7c2.5 1 4 1.5 6 3", false), .path("M12 7c3-2 6-2 9 0-2.5 1-4 1.5-6 3", false), .path("M12 7c-1-2-1-4 0-6 1 2 1 4 0 6", false), .path("M8 17h8l-1 4H9l-1-4z", false)]),
+                PlantimV4Layer("trunk", [.path("M12 21v-9", false)]),
+                PlantimV4Layer("fronds", [.path("M12 12C8.5 11 5.5 8 4.5 4.5", false), .path("M12 12C15.5 11 18.5 8 19.5 4.5", false), .path("M12 12C10.5 8.5 10 5.5 11 3", false), .path("M12 12C13.5 8.5 14 5.5 13 3", false), .path("M12 12C8.5 12.5 5.5 12 3.5 10.5", false), .path("M12 12C15.5 12.5 18.5 12 20.5 10.5", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M12 17V7", false), .path("M12 7C9 5 6 5 3 7c2.5 1 4 1.5 6 3", false), .path("M12 7c3-2 6-2 9 0-2.5 1-4 1.5-6 3", false), .path("M12 7c-1-2-1-4 0-6 1 2 1 4 0 6", false), .path("M8 17h8l-1 4H9l-1-4z", false)]),
+                PlantimV4Layer("trunk", [.path("M12 21v-9", false)]),
+                PlantimV4Layer("fronds", [.path("M12 12C8.5 11 5.5 8 4.5 4.5", false), .path("M12 12C15.5 11 18.5 8 19.5 4.5", false), .path("M12 12C10.5 8.5 10 5.5 11 3", false), .path("M12 12C13.5 8.5 14 5.5 13 3", false), .path("M12 12C8.5 12.5 5.5 12 3.5 10.5", false), .path("M12 12C15.5 12.5 18.5 12 20.5 10.5", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .leaf700]
+        duotonePrimary: ["trunk"],
+        multicolor: ["trunk": .earth600, "fronds": .leaf700]
     ),
     .genusPeperomia: PlantimV4IconData(
         grades: [
@@ -1767,81 +1828,90 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
     .genusSucculent: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M12 15c-2 0-4-2-4-5s2-4 4-4 4 1 4 4-2 5-4 5z", false), .path("M8 12c-1.5.3-3 0-4-1 1-1 2.5-1.3 4-1", false), .path("M16 12c1.5.3 3 0 4-1-1-1-2.5-1.3-4-1", false), .path("M8 15h8l-1 5H9l-1-5z", false)]),
+                PlantimV4Layer("rosette", [.path("M12 18V9", false), .path("M12 18C8.5 17 6.5 13.5 7 9.5", false), .path("M12 18C15.5 17 17.5 13.5 17 9.5", false)]),
+                PlantimV4Layer("pot", [.path("M9 18h6l-.6 3h-4.8Z", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M12 15c-2 0-4-2-4-5s2-4 4-4 4 1 4 4-2 5-4 5z", false), .path("M8 12c-1.5.3-3 0-4-1 1-1 2.5-1.3 4-1", false), .path("M16 12c1.5.3 3 0 4-1-1-1-2.5-1.3-4-1", false), .path("M8 15h8l-1 5H9l-1-5z", false)]),
+                PlantimV4Layer("rosette", [.path("M12 18V8", false), .path("M12 18C8.5 17 6.5 13.5 7 9.5", false), .path("M12 18C15.5 17 17.5 13.5 17 9.5", false), .path("M12 18C10 16 9 12.5 10 9", false), .path("M12 18C14 16 15 12.5 14 9", false)]),
+                PlantimV4Layer("pot", [.path("M9 18h6l-.6 3h-4.8Z", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M12 15c-2 0-4-2-4-5s2-4 4-4 4 1 4 4-2 5-4 5z", false), .path("M8 12c-1.5.3-3 0-4-1 1-1 2.5-1.3 4-1", false), .path("M16 12c1.5.3 3 0 4-1-1-1-2.5-1.3-4-1", false), .path("M8 15h8l-1 5H9l-1-5z", false)]),
+                PlantimV4Layer("rosette", [.path("M12 18V8", false), .path("M12 18C8.5 17 6.5 13.5 7 9.5", false), .path("M12 18C15.5 17 17.5 13.5 17 9.5", false), .path("M12 18C10 16 9 12.5 10 9", false), .path("M12 18C14 16 15 12.5 14 9", false)]),
+                PlantimV4Layer("pot", [.path("M9 18h6l-.6 3h-4.8Z", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .leaf700]
+        duotonePrimary: ["rosette"],
+        multicolor: ["rosette": .leaf700, "pot": .earth600]
     ),
     .healthAttention: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M5 19C5 12 10 6 19 6c0 9-7 13-14 13z", false), .path("M5 19 14 10", false), .path("M12 11.5L12 14", false)]),
-                PlantimV4Layer("accent", [.circle(12, 16.5, 1.1, true)]),
+                PlantimV4Layer("leaf", [.path("M17.5 3.5C9.5 4 4 9.5 4 17.5C12 17 17 11.5 17.5 3.5Z", false)]),
+                PlantimV4Layer("badge", [.path("M17.5 14.5v3.4", false), .circle(17.5, 20.4, 1, true)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M5 19C5 12 10 6 19 6c0 9-7 13-14 13z", false), .path("M5 19 14 10", false), .path("M12 11.5L12 14", false)]),
-                PlantimV4Layer("accent", [.circle(12, 16.5, 1.1, true)]),
+                PlantimV4Layer("leaf", [.path("M17.5 3.5C9.5 4 4 9.5 4 17.5C12 17 17 11.5 17.5 3.5Z", false), .path("M7.5 14 14 7.5", false)]),
+                PlantimV4Layer("badge", [.path("M17.5 14.5v3.4", false), .circle(17.5, 20.4, 1, true)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M5 19C5 12 10 6 19 6c0 9-7 13-14 13z", false), .path("M5 19 14 10", false), .path("M12 11.5L12 14", false)]),
-                PlantimV4Layer("accent", [.circle(12, 16.5, 1.1, true)]),
+                PlantimV4Layer("leaf", [.path("M17.5 3.5C9.5 4 4 9.5 4 17.5C12 17 17 11.5 17.5 3.5Z", false), .path("M7.5 14 14 7.5", false)]),
+                PlantimV4Layer("badge", [.path("M17.5 14.5v3.4", false), .circle(17.5, 20.4, 1, true)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .statusWarning, "accent": .statusWarning]
+        duotonePrimary: ["leaf", "badge"],
+        multicolor: ["leaf": .statusWarning, "badge": .statusWarning]
     ),
     .healthCritical: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M5 19C5 12 10 6 19 6c0 9-7 13-14 13z", false), .path("M10 12l4 4", false), .path("M14 12l-4 4", false)]),
+                PlantimV4Layer("leaf", [.path("M17.5 3.5C9.5 4 4 9.5 4 17.5C12 17 17 11.5 17.5 3.5Z", false)]),
+                PlantimV4Layer("badge", [.path("M15.4 15.4l4.2 4.2", false), .path("M19.6 15.4l-4.2 4.2", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M5 19C5 12 10 6 19 6c0 9-7 13-14 13z", false), .path("M10 12l4 4", false), .path("M14 12l-4 4", false)]),
+                PlantimV4Layer("leaf", [.path("M17.5 3.5C9.5 4 4 9.5 4 17.5C12 17 17 11.5 17.5 3.5Z", false), .path("M7.5 14 14 7.5", false)]),
+                PlantimV4Layer("badge", [.path("M15.4 15.4l4.2 4.2", false), .path("M19.6 15.4l-4.2 4.2", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M5 19C5 12 10 6 19 6c0 9-7 13-14 13z", false), .path("M10 12l4 4", false), .path("M14 12l-4 4", false)]),
+                PlantimV4Layer("leaf", [.path("M17.5 3.5C9.5 4 4 9.5 4 17.5C12 17 17 11.5 17.5 3.5Z", false), .path("M7.5 14 14 7.5", false)]),
+                PlantimV4Layer("badge", [.path("M15.4 15.4l4.2 4.2", false), .path("M19.6 15.4l-4.2 4.2", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .statusError]
+        duotonePrimary: ["leaf", "badge"],
+        multicolor: ["leaf": .statusError, "badge": .statusError]
     ),
     .healthHealthy: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M5 19C5 12 10 6 19 6c0 9-7 13-14 13z", false), .path("M5 19 14 10", false), .path("M9 14l2.5 2.5 4.5-5", false)]),
+                PlantimV4Layer("leaf", [.path("M17.5 3.5C9.5 4 4 9.5 4 17.5C12 17 17 11.5 17.5 3.5Z", false)]),
+                PlantimV4Layer("badge", [.path("M14.5 18l1.8 1.8 3.2-3.4", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M5 19C5 12 10 6 19 6c0 9-7 13-14 13z", false), .path("M5 19 14 10", false), .path("M9 14l2.5 2.5 4.5-5", false)]),
+                PlantimV4Layer("leaf", [.path("M17.5 3.5C9.5 4 4 9.5 4 17.5C12 17 17 11.5 17.5 3.5Z", false), .path("M7.5 14 14 7.5", false)]),
+                PlantimV4Layer("badge", [.path("M14.5 18l1.8 1.8 3.2-3.4", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M5 19C5 12 10 6 19 6c0 9-7 13-14 13z", false), .path("M5 19 14 10", false), .path("M9 14l2.5 2.5 4.5-5", false)]),
+                PlantimV4Layer("leaf", [.path("M17.5 3.5C9.5 4 4 9.5 4 17.5C12 17 17 11.5 17.5 3.5Z", false), .path("M7.5 14 14 7.5", false)]),
+                PlantimV4Layer("badge", [.path("M14.5 18l1.8 1.8 3.2-3.4", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .statusSuccess]
+        duotonePrimary: ["leaf", "badge"],
+        multicolor: ["leaf": .statusSuccess, "badge": .statusSuccess]
     ),
     .locationPin: PlantimV4IconData(
         grades: [
@@ -1884,21 +1954,27 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
     .navCalendarLeaf: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M5 4h14a2 2 0 0 1 2 2v13a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-13a2 2 0 0 1 2 -2Z", false), .path("M3 9L21 9", false), .path("M8 2L8 6", false), .path("M16 2L16 6", false), .path("M9 16.5c0-2.2 1.8-4 4.5-4 0 2.2-1.8 4-4.5 4z", false), .path("M9 16.5l3.5-3", false)]),
+                PlantimV4Layer("frame", [.path("M4 6.5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2V18a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z", false)]),
+                PlantimV4Layer("header", [.path("M4 8.6h16", false)]),
+                PlantimV4Layer("leaf", [.path("M12 10.6C9.273 12.039 8.4 14.094 8.4 15.287C8.4 16.602 9.873 17.794 12 18C14.127 17.794 15.6 16.602 15.6 15.287C15.6 14.094 14.727 12.039 12 10.6Z", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M5 4h14a2 2 0 0 1 2 2v13a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-13a2 2 0 0 1 2 -2Z", false), .path("M3 9L21 9", false), .path("M8 2L8 6", false), .path("M16 2L16 6", false), .path("M9 16.5c0-2.2 1.8-4 4.5-4 0 2.2-1.8 4-4.5 4z", false), .path("M9 16.5l3.5-3", false)]),
+                PlantimV4Layer("frame", [.path("M4 6.5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2V18a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z", false)]),
+                PlantimV4Layer("header", [.path("M4 8.5h16", false), .path("M8 3.5v3", false), .path("M16 3.5v3", false)]),
+                PlantimV4Layer("leaf", [.path("M12 10.4C9.424 11.8 8.6 13.8 8.6 14.96C8.6 16.24 9.991 17.4 12 17.6C14.009 17.4 15.4 16.24 15.4 14.96C15.4 13.8 14.576 11.8 12 10.4Z", false), .path("M12 16.4V12", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M5 4h14a2 2 0 0 1 2 2v13a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-13a2 2 0 0 1 2 -2Z", false), .path("M3 9L21 9", false), .path("M8 2L8 6", false), .path("M16 2L16 6", false), .path("M9 16.5c0-2.2 1.8-4 4.5-4 0 2.2-1.8 4-4.5 4z", false), .path("M9 16.5l3.5-3", false)]),
+                PlantimV4Layer("frame", [.path("M4 6.5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2V18a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z", false)]),
+                PlantimV4Layer("header", [.path("M4 8.5h16", false), .path("M8 3.5v3", false), .path("M16 3.5v3", false)]),
+                PlantimV4Layer("leaf", [.path("M12 10.4C9.424 11.8 8.6 13.8 8.6 14.96C8.6 16.24 9.991 17.4 12 17.6C14.009 17.4 15.4 16.24 15.4 14.96C15.4 13.8 14.576 11.8 12 10.4Z", false), .path("M12 16.4V12", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .ink900]
+        duotonePrimary: ["frame", "header"],
+        multicolor: ["frame": .ink900, "header": .ink900, "leaf": .leaf500]
     ),
     .navCalendarPlain: PlantimV4IconData(
         grades: [
@@ -1941,62 +2017,68 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
     .navChatDots: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z", false)]),
-                PlantimV4Layer("accent", [.circle(8.5, 10, 1, false), .circle(12, 10, 1, false), .circle(15.5, 10, 1, false)]),
+                PlantimV4Layer("bubble", [.path("M8.1 19.6A8.5 8.5 0 1 0 4.35 15.9L3.1 20.9Z", false)]),
+                PlantimV4Layer("dots", [.circle(8.2, 12, 1.6, true), .circle(12, 12, 1.6, true), .circle(15.8, 12, 1.6, true)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z", false)]),
-                PlantimV4Layer("accent", [.circle(8.5, 10, 1, false), .circle(12, 10, 1, false), .circle(15.5, 10, 1, false)]),
+                PlantimV4Layer("bubble", [.path("M8.1 19.6A8.5 8.5 0 1 0 4.35 15.9L3.1 20.9Z", false)]),
+                PlantimV4Layer("dots", [.circle(8.1, 12, 1.2, true), .circle(11.9, 12, 1.2, true), .circle(15.7, 12, 1.2, true)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z", false)]),
-                PlantimV4Layer("accent", [.circle(8.5, 10, 1, false), .circle(12, 10, 1, false), .circle(15.5, 10, 1, false)]),
+                PlantimV4Layer("bubble", [.path("M8.1 19.6A8.5 8.5 0 1 0 4.35 15.9L3.1 20.9Z", false)]),
+                PlantimV4Layer("dots", [.circle(8.1, 12, 1.2, true), .circle(11.9, 12, 1.2, true), .circle(15.7, 12, 1.2, true)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .ink900, "accent": .ink900]
+        duotonePrimary: ["bubble"],
+        multicolor: ["bubble": .leaf700, "dots": .leaf300]
     ),
     .navChatLeaf: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z", false), .path("M9 12c0-1.8 1.5-3.2 3.6-3.2 0 1.8-1.5 3.2-3.6 3.2z", false), .path("M9 12l2.6-2.2", false)]),
+                PlantimV4Layer("bubble", [.path("M8.1 19.6A8.5 8.5 0 1 0 4.35 15.9L3.1 20.9Z", false)]),
+                PlantimV4Layer("leaf", [.path("M12 7.2C9.576 8.6 8.8 10.6 8.8 11.76C8.8 13.04 10.109 14.2 12 14.4C13.891 14.2 15.2 13.04 15.2 11.76C15.2 10.6 14.424 8.6 12 7.2Z", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z", false), .path("M9 12c0-1.8 1.5-3.2 3.6-3.2 0 1.8-1.5 3.2-3.6 3.2z", false), .path("M9 12l2.6-2.2", false)]),
+                PlantimV4Layer("bubble", [.path("M8.1 19.6A8.5 8.5 0 1 0 4.35 15.9L3.1 20.9Z", false)]),
+                PlantimV4Layer("leaf", [.path("M12 7.2C9.727 8.561 9 10.506 9 11.633C9 12.878 10.227 14.006 12 14.2C13.773 14.006 15 12.878 15 11.633C15 10.506 14.273 8.561 12 7.2Z", false), .path("M12 13.4V9", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z", false), .path("M9 12c0-1.8 1.5-3.2 3.6-3.2 0 1.8-1.5 3.2-3.6 3.2z", false), .path("M9 12l2.6-2.2", false)]),
+                PlantimV4Layer("bubble", [.path("M8.1 19.6A8.5 8.5 0 1 0 4.35 15.9L3.1 20.9Z", false)]),
+                PlantimV4Layer("leaf", [.path("M12 7.2C9.727 8.561 9 10.506 9 11.633C9 12.878 10.227 14.006 12 14.2C13.773 14.006 15 12.878 15 11.633C15 10.506 14.273 8.561 12 7.2Z", false), .path("M12 13.4V9", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .ink900]
+        duotonePrimary: ["bubble"],
+        multicolor: ["bubble": .leaf700, "leaf": .leaf300]
     ),
     .navFeedCards: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M9 3.5h10a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2Z", false), .path("M5 7.5h10a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2Z", false), .path("M6 12.5L14 12.5", false), .path("M6 15.5L11 15.5", false)]),
+                PlantimV4Layer("back", [.path("M7.5 7h11a1.5 1.5 0 0 1 1.5 1.5v7.5", false)]),
+                PlantimV4Layer("front", [.rect(3.5, 9.5, 13, 10.5, 2, false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M9 3.5h10a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2Z", false), .path("M5 7.5h10a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2Z", false), .path("M6 12.5L14 12.5", false), .path("M6 15.5L11 15.5", false)]),
+                PlantimV4Layer("back", [.path("M7 6.5h12a1.5 1.5 0 0 1 1.5 1.5v8", false)]),
+                PlantimV4Layer("front", [.rect(3.5, 9, 13, 11, 2, false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M9 3.5h10a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2Z", false), .path("M5 7.5h10a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2Z", false), .path("M6 12.5L14 12.5", false), .path("M6 15.5L11 15.5", false)]),
+                PlantimV4Layer("back", [.path("M7 6.5h12a1.5 1.5 0 0 1 1.5 1.5v8", false)]),
+                PlantimV4Layer("front", [.rect(3.5, 9, 13, 11, 2, false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .ink900]
+        duotonePrimary: ["front"],
+        multicolor: ["front": .ink900, "back": .ink500]
     ),
     .navFeedStream: PlantimV4IconData(
         grades: [
@@ -2105,21 +2187,24 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
     .navPlantLeaf: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M4 20C4 12 12 4 20 4c0 8-8 16-16 16Z", false), .path("M4 20L20 4", false), .path("M9.5 14.5l3-.8", false), .path("M12.5 11.5l3-.8", false)]),
+                PlantimV4Layer("leaf", [.path("M12 3.6C7.4 6.9 5.9 11.6 5.9 14.4C5.9 17.5 8.4 20.2 12 20.7C15.6 20.2 18.1 17.5 18.1 14.4C18.1 11.6 16.6 6.9 12 3.6Z", false)]),
+                PlantimV4Layer("midrib", [.path("M12 18.8V7.2", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M4 20C4 12 12 4 20 4c0 8-8 16-16 16Z", false), .path("M4 20L20 4", false), .path("M9.5 14.5l3-.8", false), .path("M12.5 11.5l3-.8", false)]),
+                PlantimV4Layer("leaf", [.path("M12 3C7 6.5 5.4 11.5 5.4 14.4C5.4 17.6 8.1 20.5 12 21C15.9 20.5 18.6 17.6 18.6 14.4C18.6 11.5 17 6.5 12 3Z", false)]),
+                PlantimV4Layer("midrib", [.path("M12 19.5V6.5", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M4 20C4 12 12 4 20 4c0 8-8 16-16 16Z", false), .path("M4 20L20 4", false), .path("M9.5 14.5l3-.8", false), .path("M12.5 11.5l3-.8", false)]),
+                PlantimV4Layer("leaf", [.path("M12 3C7 6.5 5.4 11.5 5.4 14.4C5.4 17.6 8.1 20.5 12 21C15.9 20.5 18.6 17.6 18.6 14.4C18.6 11.5 17 6.5 12 3Z", false)]),
+                PlantimV4Layer("midrib", [.path("M12 19.5V6.5", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .ink900]
+        duotonePrimary: ["leaf"],
+        multicolor: ["leaf": .leaf700, "midrib": .leaf500]
     ),
     .navPlantPotted: PlantimV4IconData(
         grades: [
@@ -2162,24 +2247,24 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
     .navTodayLeaf: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M4 20C4 12 12 4 20 4c0 8-8 16-16 16Z", false), .path("M4 20L20 4", false)]),
-                PlantimV4Layer("accent", [.circle(14, 9, 1.6, false)]),
+                PlantimV4Layer("leaf", [.path("M12 3.6C7.4 6.9 5.9 11.6 5.9 14.4C5.9 17.5 8.4 20.2 12 20.7C15.6 20.2 18.1 17.5 18.1 14.4C18.1 11.6 16.6 6.9 12 3.6Z", false)]),
+                PlantimV4Layer("midrib", [.path("M12 18.8V7.2", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M4 20C4 12 12 4 20 4c0 8-8 16-16 16Z", false), .path("M4 20L20 4", false)]),
-                PlantimV4Layer("accent", [.circle(14, 9, 1.6, false)]),
+                PlantimV4Layer("leaf", [.path("M12 3C7 6.5 5.4 11.5 5.4 14.4C5.4 17.6 8.1 20.5 12 21C15.9 20.5 18.6 17.6 18.6 14.4C18.6 11.5 17 6.5 12 3Z", false)]),
+                PlantimV4Layer("midrib", [.path("M12 19.5V6.5", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M4 20C4 12 12 4 20 4c0 8-8 16-16 16Z", false), .path("M4 20L20 4", false)]),
-                PlantimV4Layer("accent", [.circle(14, 9, 1.6, false)]),
+                PlantimV4Layer("leaf", [.path("M12 3C7 6.5 5.4 11.5 5.4 14.4C5.4 17.6 8.1 20.5 12 21C15.9 20.5 18.6 17.6 18.6 14.4C18.6 11.5 17 6.5 12 3Z", false)]),
+                PlantimV4Layer("midrib", [.path("M12 19.5V6.5", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .ink900, "accent": .ink900]
+        duotonePrimary: ["leaf"],
+        multicolor: ["leaf": .leaf700, "midrib": .leaf500]
     ),
     .navTodaySun: PlantimV4IconData(
         grades: [
@@ -2377,21 +2462,30 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
     .plantAdd: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M5 13L13 13", false), .path("M6 13l1 7h5l1-7", false), .path("M9.5 13L9.5 9", false), .path("M9.5 10.5c-1-1-2.5-.8-3 .5", false), .path("M9.5 10.5c1-1 2.5-.8 3 .5", false), .path("M18 5L18 10", false), .path("M15.5 7.5L20.5 7.5", false)]),
+                PlantimV4Layer("ground", [.path("M3 21h11", false)]),
+                PlantimV4Layer("stem", [.path("M8.5 21v-6", false)]),
+                PlantimV4Layer("leaves", [.path("M8.5 15C6.7 15.4 4.7 14.4 4.3 11.9C6.6 11.5 8.4 12.7 8.5 15Z", false), .path("M8.5 15C10.3 15.4 12.3 14.4 12.7 11.9C10.4 11.5 8.6 12.7 8.5 15Z", false)]),
+                PlantimV4Layer("badge", [.circle(18, 6.5, 4.5, false), .path("M18 4.5v4", false), .path("M15.5 6.5h5", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M5 13L13 13", false), .path("M6 13l1 7h5l1-7", false), .path("M9.5 13L9.5 9", false), .path("M9.5 10.5c-1-1-2.5-.8-3 .5", false), .path("M9.5 10.5c1-1 2.5-.8 3 .5", false), .path("M18 5L18 10", false), .path("M15.5 7.5L20.5 7.5", false)]),
+                PlantimV4Layer("ground", [.path("M3 21h11", false)]),
+                PlantimV4Layer("stem", [.path("M8.5 21v-6", false)]),
+                PlantimV4Layer("leaves", [.path("M8.5 15C6.7 15.4 4.7 14.4 4.3 11.9C6.6 11.5 8.4 12.7 8.5 15Z", false), .path("M8.5 15C10.3 15.4 12.3 14.4 12.7 11.9C10.4 11.5 8.6 12.7 8.5 15Z", false)]),
+                PlantimV4Layer("badge", [.circle(18, 7, 4, false), .path("M18 5.2v3.6", false), .path("M16.2 7h3.6", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M5 13L13 13", false), .path("M6 13l1 7h5l1-7", false), .path("M9.5 13L9.5 9", false), .path("M9.5 10.5c-1-1-2.5-.8-3 .5", false), .path("M9.5 10.5c1-1 2.5-.8 3 .5", false), .path("M18 5L18 10", false), .path("M15.5 7.5L20.5 7.5", false)]),
+                PlantimV4Layer("ground", [.path("M3 21h11", false)]),
+                PlantimV4Layer("stem", [.path("M8.5 21v-6", false)]),
+                PlantimV4Layer("leaves", [.path("M8.5 15C6.7 15.4 4.7 14.4 4.3 11.9C6.6 11.5 8.4 12.7 8.5 15Z", false), .path("M8.5 15C10.3 15.4 12.3 14.4 12.7 11.9C10.4 11.5 8.6 12.7 8.5 15Z", false)]),
+                PlantimV4Layer("badge", [.circle(18, 7, 4, false), .path("M18 5.2v3.6", false), .path("M16.2 7h3.6", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .leaf700]
+        duotonePrimary: ["stem", "leaves", "badge"],
+        multicolor: ["ground": .earth600, "stem": .leaf700, "leaves": .leaf500, "badge": .leaf700]
     ),
     .plantGrowth: PlantimV4IconData(
         grades: [
@@ -2403,7 +2497,7 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
             .base: [
                 PlantimV4Layer("bed", [.path("M4 15.5h16v2a3.5 3.5 0 0 1-3.5 3.5h-9A3.5 3.5 0 0 1 4 17.5Z", false)]),
                 PlantimV4Layer("stems", [.path("M8.8 15.5V12", false), .path("M15.2 15.5V9.5", false)]),
-                PlantimV4Layer("leaves", [.path("M8.8 12C6.9 12.4 4.6 11.6 4.1 9.4C4 8.9 4 8.4 4.1 7.9C6.7 7.5 8.7 9.4 8.8 12Z", false), .path("M15.2 9.5C17.1 9.9 19.4 9.1 19.9 6.9C20 6.4 20 5.9 19.9 5.4C17.3 5 15.3 6.9 15.2 9.5Z", false)]),
+                PlantimV4Layer("leaves", [.path("M8.8 12C6.9 12.4 4.6 11.6 4.1 9.4C4 8.9 4 8.4 4.1 7.9C6.7 7.5 8.7 9.4 8.8 12Z", false), .path("M15.2 9.5C17.1 9.9 19.4 9.1 19.9 6.9C20 6.4 20 5.9 19.9 5.4C17.3 5 15.3 6.9 15.2 9.5Z", false), .path("M5.6 9C7 9.8 8.2 10.8 8.8 12", false), .path("M18.4 6.5C17 7.3 15.8 8.3 15.2 9.5", false)]),
             ],
             .display: [
                 PlantimV4Layer("bed", [.path("M4 15.5h16v2a3.5 3.5 0 0 1-3.5 3.5h-9A3.5 3.5 0 0 1 4 17.5Z", false), .path("M7 18.8h10", false)]),
@@ -2440,59 +2534,80 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
     .plantRelated: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M6 11C6 8 8 6 11 6c0 3-2 5-5 5z", false), .path("M18 14c0 3-2 5-5 5 0-3 2-5 5-5z", false), .path("M10.5 9.5l3 5", false)]),
+                PlantimV4Layer("back", [.path("M15.5 4C9.5 5 5.5 9.5 6 15.5C12 15 16 10.5 15.5 4Z", false)]),
+                PlantimV4Layer("front", [.path("M19 9C14.5 9.8 11.5 13.2 12 17.8C16.5 17 19.5 13.6 19 9Z", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M6 11C6 8 8 6 11 6c0 3-2 5-5 5z", false), .path("M18 14c0 3-2 5-5 5 0-3 2-5 5-5z", false), .path("M10.5 9.5l3 5", false)]),
+                PlantimV4Layer("back", [.path("M15.5 4C9.5 5 5.5 9.5 6 15.5C12 15 16 10.5 15.5 4Z", false), .path("M8.5 13 13.5 7", false)]),
+                PlantimV4Layer("front", [.path("M19 9C14.5 9.8 11.5 13.2 12 17.8C16.5 17 19.5 13.6 19 9Z", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M6 11C6 8 8 6 11 6c0 3-2 5-5 5z", false), .path("M18 14c0 3-2 5-5 5 0-3 2-5 5-5z", false), .path("M10.5 9.5l3 5", false)]),
+                PlantimV4Layer("back", [.path("M15.5 4C9.5 5 5.5 9.5 6 15.5C12 15 16 10.5 15.5 4Z", false), .path("M8.5 13 13.5 7", false)]),
+                PlantimV4Layer("front", [.path("M19 9C14.5 9.8 11.5 13.2 12 17.8C16.5 17 19.5 13.6 19 9Z", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .leaf700]
+        duotonePrimary: ["front"],
+        multicolor: ["back": .leaf300, "front": .leaf700]
     ),
     .plantRemove: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M5 13L13 13", false), .path("M6 13l1 7h5l1-7", false), .path("M9.5 13L9.5 9", false), .path("M9.5 10.5c-1-1-2.5-.8-3 .5", false), .path("M9.5 10.5c1-1 2.5-.8 3 .5", false), .path("M15.5 7.5L20.5 7.5", false)]),
+                PlantimV4Layer("ground", [.path("M3 21h11", false)]),
+                PlantimV4Layer("stem", [.path("M8.5 21v-6", false)]),
+                PlantimV4Layer("leaves", [.path("M8.5 15C6.7 15.4 4.7 14.4 4.3 11.9C6.6 11.5 8.4 12.7 8.5 15Z", false), .path("M8.5 15C10.3 15.4 12.3 14.4 12.7 11.9C10.4 11.5 8.6 12.7 8.5 15Z", false)]),
+                PlantimV4Layer("badge", [.circle(18, 6.5, 4.5, false), .path("M15.5 6.5h5", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M5 13L13 13", false), .path("M6 13l1 7h5l1-7", false), .path("M9.5 13L9.5 9", false), .path("M9.5 10.5c-1-1-2.5-.8-3 .5", false), .path("M9.5 10.5c1-1 2.5-.8 3 .5", false), .path("M15.5 7.5L20.5 7.5", false)]),
+                PlantimV4Layer("ground", [.path("M3 21h11", false)]),
+                PlantimV4Layer("stem", [.path("M8.5 21v-6", false)]),
+                PlantimV4Layer("leaves", [.path("M8.5 15C6.7 15.4 4.7 14.4 4.3 11.9C6.6 11.5 8.4 12.7 8.5 15Z", false), .path("M8.5 15C10.3 15.4 12.3 14.4 12.7 11.9C10.4 11.5 8.6 12.7 8.5 15Z", false)]),
+                PlantimV4Layer("badge", [.circle(18, 7, 4, false), .path("M16.2 7h3.6", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M5 13L13 13", false), .path("M6 13l1 7h5l1-7", false), .path("M9.5 13L9.5 9", false), .path("M9.5 10.5c-1-1-2.5-.8-3 .5", false), .path("M9.5 10.5c1-1 2.5-.8 3 .5", false), .path("M15.5 7.5L20.5 7.5", false)]),
+                PlantimV4Layer("ground", [.path("M3 21h11", false)]),
+                PlantimV4Layer("stem", [.path("M8.5 21v-6", false)]),
+                PlantimV4Layer("leaves", [.path("M8.5 15C6.7 15.4 4.7 14.4 4.3 11.9C6.6 11.5 8.4 12.7 8.5 15Z", false), .path("M8.5 15C10.3 15.4 12.3 14.4 12.7 11.9C10.4 11.5 8.6 12.7 8.5 15Z", false)]),
+                PlantimV4Layer("badge", [.circle(18, 7, 4, false), .path("M16.2 7h3.6", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .leaf700]
+        duotonePrimary: ["stem", "leaves", "badge"],
+        multicolor: ["ground": .earth600, "stem": .leaf700, "leaves": .leaf500, "badge": .statusError]
     ),
     .plantSeedling: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M12 21V10", false), .path("M7 10c0-4 2.5-6 5-6s5 2 5 6", false), .path("M7 14c0 0 1-3 5-3", false)]),
+                PlantimV4Layer("soil", [.path("M5 20h14", false)]),
+                PlantimV4Layer("stem", [.path("M12 20v-6", false)]),
+                PlantimV4Layer("leaf", [.path("M12 14C9.6 14 7.6 12 7.6 9.5C10 9.5 12 11.5 12 14Z", false)]),
+                PlantimV4Layer("seed", [.path("M9 20c0-1.7 1.3-3 3-3s3 1.3 3 3Z", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M12 21V10", false), .path("M7 10c0-4 2.5-6 5-6s5 2 5 6", false), .path("M7 14c0 0 1-3 5-3", false)]),
+                PlantimV4Layer("soil", [.path("M5 20h14", false)]),
+                PlantimV4Layer("stem", [.path("M12 20v-6", false)]),
+                PlantimV4Layer("leaf", [.path("M12 14C9.6 14 7.6 12 7.6 9.5C10 9.5 12 11.5 12 14Z", false)]),
+                PlantimV4Layer("seed", [.path("M9 20c0-1.7 1.3-3 3-3s3 1.3 3 3Z", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M12 21V10", false), .path("M7 10c0-4 2.5-6 5-6s5 2 5 6", false), .path("M7 14c0 0 1-3 5-3", false)]),
+                PlantimV4Layer("soil", [.path("M5 20h14", false)]),
+                PlantimV4Layer("stem", [.path("M12 20v-6", false)]),
+                PlantimV4Layer("leaf", [.path("M12 14C9.6 14 7.6 12 7.6 9.5C10 9.5 12 11.5 12 14Z", false)]),
+                PlantimV4Layer("seed", [.path("M9 20c0-1.7 1.3-3 3-3s3 1.3 3 3Z", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .leaf700]
+        duotonePrimary: ["stem", "leaf"],
+        multicolor: ["soil": .earth600, "stem": .leaf700, "leaf": .leaf500, "seed": .earth400]
     ),
     .plantSprout: PlantimV4IconData(
         grades: [
@@ -2504,7 +2619,7 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
             .base: [
                 PlantimV4Layer("ground", [.path("M5 21h14", false)]),
                 PlantimV4Layer("stem", [.path("M12 21v-8", false)]),
-                PlantimV4Layer("leaves", [.path("M12 13C9.6 13.9 6.2 13.2 5 10.3C4.5 9.2 4.6 8 4.8 7C8.5 6.3 11.7 8.9 12 13Z", false), .path("M12 13C14.4 13.9 17.8 13.2 19 10.3C19.5 9.2 19.4 8 19.2 7C15.5 6.3 12.3 8.9 12 13Z", false)]),
+                PlantimV4Layer("leaves", [.path("M12 13C9.6 13.9 6.2 13.2 5 10.3C4.5 9.2 4.6 8 4.8 7C8.5 6.3 11.7 8.9 12 13Z", false), .path("M12 13C14.4 13.9 17.8 13.2 19 10.3C19.5 9.2 19.4 8 19.2 7C15.5 6.3 12.3 8.9 12 13Z", false), .path("M6.6 8.2C8.4 9.3 10.8 11.1 12 13", false), .path("M17.4 8.2C15.6 9.3 13.2 11.1 12 13", false)]),
             ],
             .display: [
                 PlantimV4Layer("ground", [.path("M5 21h14", false)]),
@@ -2522,21 +2637,29 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
     .plantThriving: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M12 21V12", false), .path("M5 12C5 7 8 4 12 4s7 3 7 8", false), .path("M9 16c0 0 1.5-3 3-3s3 3 3 3", false), .path("M7 9c0 0 2-1 5-1", false)]),
+                PlantimV4Layer("ground", [.path("M6 21h12", false)]),
+                PlantimV4Layer("stem", [.path("M12 21V9", false)]),
+                PlantimV4Layer("leaves", [.path("M12 16C9.5 16.4 6.8 15 6.4 12C9 11.6 11.6 13 12 16Z", false), .path("M12 13C14.5 13.4 17.2 12 17.6 9C15 8.6 12.4 10 12 13Z", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M12 21V12", false), .path("M5 12C5 7 8 4 12 4s7 3 7 8", false), .path("M9 16c0 0 1.5-3 3-3s3 3 3 3", false), .path("M7 9c0 0 2-1 5-1", false)]),
+                PlantimV4Layer("ground", [.path("M6 21h12", false)]),
+                PlantimV4Layer("stem", [.path("M12 21V8", false)]),
+                PlantimV4Layer("leaves", [.path("M12 16C9.5 16.4 6.8 15 6.4 12C9 11.6 11.6 13 12 16Z", false), .path("M12 13C14.5 13.4 17.2 12 17.6 9C15 8.6 12.4 10 12 13Z", false), .path("M12 8.5C10 8 8.5 6 8.6 3.5C11 4 12.4 6 12 8.5Z", false)]),
+                PlantimV4Layer("spark", [.path("M18 3.5v3", false), .path("M16.5 5h3", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M12 21V12", false), .path("M5 12C5 7 8 4 12 4s7 3 7 8", false), .path("M9 16c0 0 1.5-3 3-3s3 3 3 3", false), .path("M7 9c0 0 2-1 5-1", false)]),
+                PlantimV4Layer("ground", [.path("M6 21h12", false)]),
+                PlantimV4Layer("stem", [.path("M12 21V8", false)]),
+                PlantimV4Layer("leaves", [.path("M12 16C9.5 16.4 6.8 15 6.4 12C9 11.6 11.6 13 12 16Z", false), .path("M12 13C14.5 13.4 17.2 12 17.6 9C15 8.6 12.4 10 12 13Z", false), .path("M12 8.5C10 8 8.5 6 8.6 3.5C11 4 12.4 6 12 8.5Z", false)]),
+                PlantimV4Layer("spark", [.path("M18 3.5v3", false), .path("M16.5 5h3", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .leaf700]
+        duotonePrimary: ["stem", "leaves"],
+        multicolor: ["ground": .earth600, "stem": .leaf700, "leaves": .leaf500, "spark": .sun500]
     ),
     .plantWatering: PlantimV4IconData(
         grades: [
@@ -2560,21 +2683,24 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
     .plantWateringCan: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M3 18a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V8H3z", false), .path("M15 8h2a2 2 0 0 1 2 2v0", false), .path("M3 8V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2", false), .path("M17 16L21 12", false), .path("M17 12L21 16", false)]),
+                PlantimV4Layer("can", [.path("M6 11h9a2 2 0 0 1 2 2v4a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3v-5a1 1 0 0 1 1-1Z", false), .path("M15 12l4-3v6", false)]),
+                PlantimV4Layer("water", [.path("M20.5 18v3", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M3 18a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V8H3z", false), .path("M15 8h2a2 2 0 0 1 2 2v0", false), .path("M3 8V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2", false), .path("M17 16L21 12", false), .path("M17 12L21 16", false)]),
+                PlantimV4Layer("can", [.path("M6 11h9a2 2 0 0 1 2 2v4a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3v-5a1 1 0 0 1 1-1Z", false), .path("M15 12l4-3v6", false), .path("M8 11V9a2 2 0 0 1 4 0v2", false)]),
+                PlantimV4Layer("water", [.path("M20 18v2.5", false), .path("M22 17v2.5", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M3 18a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V8H3z", false), .path("M15 8h2a2 2 0 0 1 2 2v0", false), .path("M3 8V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2", false), .path("M17 16L21 12", false), .path("M17 12L21 16", false)]),
+                PlantimV4Layer("can", [.path("M6 11h9a2 2 0 0 1 2 2v4a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3v-5a1 1 0 0 1 1-1Z", false), .path("M15 12l4-3v6", false), .path("M8 11V9a2 2 0 0 1 4 0v2", false)]),
+                PlantimV4Layer("water", [.path("M20 18v2.5", false), .path("M22 17v2.5", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .water600]
+        duotonePrimary: ["can"],
+        multicolor: ["can": .ink900, "water": .water600]
     ),
     .plantWilting: PlantimV4IconData(
         grades: [
@@ -2598,40 +2724,51 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
     .stageGrowing: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M5 20h14", false), .path("M12 20L12 10", false), .path("M12 15c-1.3-1.3-3.3-1-3.8.7", false), .path("M12 15c1.3-1.3 3.3-1 3.8.7", false), .path("M12 12c-1.1-1.1-2.8-.9-3.2.6", false), .path("M12 12c1.1-1.1 2.8-.9 3.2.6", false)]),
+                PlantimV4Layer("ground", [.path("M6 21h12", false)]),
+                PlantimV4Layer("stem", [.path("M12 21v-9", false)]),
+                PlantimV4Layer("leaves", [.path("M12 15C9.7 15.4 7.2 14 6.8 11.2C9.3 10.8 11.6 12.2 12 15Z", false), .path("M12 12C14.3 12.4 16.8 11 17.2 8.2C14.7 7.8 12.4 9.2 12 12Z", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M5 20h14", false), .path("M12 20L12 10", false), .path("M12 15c-1.3-1.3-3.3-1-3.8.7", false), .path("M12 15c1.3-1.3 3.3-1 3.8.7", false), .path("M12 12c-1.1-1.1-2.8-.9-3.2.6", false), .path("M12 12c1.1-1.1 2.8-.9 3.2.6", false)]),
+                PlantimV4Layer("ground", [.path("M6 21h12", false)]),
+                PlantimV4Layer("stem", [.path("M12 21v-9", false)]),
+                PlantimV4Layer("leaves", [.path("M12 15C9.7 15.4 7.2 14 6.8 11.2C9.3 10.8 11.6 12.2 12 15Z", false), .path("M12 12C14.3 12.4 16.8 11 17.2 8.2C14.7 7.8 12.4 9.2 12 12Z", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M5 20h14", false), .path("M12 20L12 10", false), .path("M12 15c-1.3-1.3-3.3-1-3.8.7", false), .path("M12 15c1.3-1.3 3.3-1 3.8.7", false), .path("M12 12c-1.1-1.1-2.8-.9-3.2.6", false), .path("M12 12c1.1-1.1 2.8-.9 3.2.6", false)]),
+                PlantimV4Layer("ground", [.path("M6 21h12", false)]),
+                PlantimV4Layer("stem", [.path("M12 21v-9", false)]),
+                PlantimV4Layer("leaves", [.path("M12 15C9.7 15.4 7.2 14 6.8 11.2C9.3 10.8 11.6 12.2 12 15Z", false), .path("M12 12C14.3 12.4 16.8 11 17.2 8.2C14.7 7.8 12.4 9.2 12 12Z", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .leaf700]
+        duotonePrimary: ["stem", "leaves"],
+        multicolor: ["ground": .earth600, "stem": .leaf700, "leaves": .leaf500]
     ),
     .stageMature: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M12 21L12 15", false), .path("M6.5 15a5.5 5.5 0 1 1 11 0z", false), .path("M8.5 21L15.5 21", false)]),
+                PlantimV4Layer("trunk", [.path("M12 21v-5", false)]),
+                PlantimV4Layer("canopy", [.path("M9 16a4 4 0 0 1-2.4-7.2A4.5 4.5 0 0 1 12 3.2a4.5 4.5 0 0 1 5.4 5.6A4 4 0 0 1 15 16Z", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M12 21L12 15", false), .path("M6.5 15a5.5 5.5 0 1 1 11 0z", false), .path("M8.5 21L15.5 21", false)]),
+                PlantimV4Layer("trunk", [.path("M12 21v-6", false)]),
+                PlantimV4Layer("canopy", [.path("M9 16a4 4 0 0 1-2.4-7.2A4.5 4.5 0 0 1 12 3.2a4.5 4.5 0 0 1 5.4 5.6A4 4 0 0 1 15 16Z", false)]),
+                PlantimV4Layer("ground", [.path("M8 21h8", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M12 21L12 15", false), .path("M6.5 15a5.5 5.5 0 1 1 11 0z", false), .path("M8.5 21L15.5 21", false)]),
+                PlantimV4Layer("trunk", [.path("M12 21v-6", false)]),
+                PlantimV4Layer("canopy", [.path("M9 16a4 4 0 0 1-2.4-7.2A4.5 4.5 0 0 1 12 3.2a4.5 4.5 0 0 1 5.4 5.6A4 4 0 0 1 15 16Z", false)]),
+                PlantimV4Layer("ground", [.path("M8 21h8", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .leaf700]
+        duotonePrimary: ["canopy", "trunk"],
+        multicolor: ["trunk": .earth600, "canopy": .leaf700, "ground": .earth400]
     ),
     .stageSeedling: PlantimV4IconData(
         grades: [
@@ -3151,24 +3288,24 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
     .utilityBrain: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z", false), .path("M9 13a4.5 4.5 0 0 0 3-4", false), .path("M6.003 5.125A3 3 0 0 0 6.401 6.5", false), .path("M3.477 10.896a4 4 0 0 1 .585-.396", false), .path("M6 18a4 4 0 0 1-1.967-.516", false), .path("M12 13h4", false), .path("M12 18h6a2 2 0 0 1 2 2v1", false), .path("M12 8h8", false), .path("M16 8V5a2 2 0 0 1 2-2", false)]),
-                PlantimV4Layer("accent", [.circle(16, 13, 0.5, false), .circle(18, 3, 0.5, false), .circle(20, 21, 0.5, false), .circle(20, 8, 0.5, false)]),
+                PlantimV4Layer("skull", [.path("M12 3.6C9.8 3.6 8.5 5.2 8.4 6.7C7 7.1 6.2 8.4 6.2 9.8C6.2 10.5 6.4 11.2 6.8 11.7C6.3 12.4 6 13.2 6 14.1C6 15.8 7.1 17.2 8.7 17.9C9 19.4 10.4 20.4 12 20.4C13.6 20.4 15 19.4 15.3 17.9C16.9 17.2 18 15.8 18 14.1C18 13.2 17.7 12.4 17.2 11.7C17.6 11.2 17.8 10.5 17.8 9.8C17.8 8.4 17 7.1 15.6 6.7C15.5 5.2 14.2 3.6 12 3.6Z", false)]),
+                PlantimV4Layer("folds", [.path("M12 4V20", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z", false), .path("M9 13a4.5 4.5 0 0 0 3-4", false), .path("M6.003 5.125A3 3 0 0 0 6.401 6.5", false), .path("M3.477 10.896a4 4 0 0 1 .585-.396", false), .path("M6 18a4 4 0 0 1-1.967-.516", false), .path("M12 13h4", false), .path("M12 18h6a2 2 0 0 1 2 2v1", false), .path("M12 8h8", false), .path("M16 8V5a2 2 0 0 1 2-2", false)]),
-                PlantimV4Layer("accent", [.circle(16, 13, 0.5, false), .circle(18, 3, 0.5, false), .circle(20, 21, 0.5, false), .circle(20, 8, 0.5, false)]),
+                PlantimV4Layer("skull", [.path("M12 3.4C9.7 3.4 8.4 5 8.3 6.5C6.8 6.9 6 8.3 6 9.7C6 10.5 6.3 11.2 6.7 11.7C6.1 12.4 5.8 13.3 5.8 14.2C5.8 15.9 6.9 17.4 8.6 18C8.9 19.6 10.3 20.6 12 20.6C13.7 20.6 15.1 19.6 15.4 18C17.1 17.4 18.2 15.9 18.2 14.2C18.2 13.3 17.9 12.4 17.3 11.7C17.7 11.2 18 10.5 18 9.7C18 8.3 17.2 6.9 15.7 6.5C15.6 5 14.3 3.4 12 3.4Z", false)]),
+                PlantimV4Layer("folds", [.path("M12 3.6V20.4", false), .path("M8.4 8.4C9.6 8.9 10.4 9.9 10.6 11", false), .path("M15.6 8.4C14.4 8.9 13.6 9.9 13.4 11", false), .path("M9 14.6C10 14.2 10.9 14.4 11.6 15.2", false), .path("M15 14.6C14 14.2 13.1 14.4 12.4 15.2", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z", false), .path("M9 13a4.5 4.5 0 0 0 3-4", false), .path("M6.003 5.125A3 3 0 0 0 6.401 6.5", false), .path("M3.477 10.896a4 4 0 0 1 .585-.396", false), .path("M6 18a4 4 0 0 1-1.967-.516", false), .path("M12 13h4", false), .path("M12 18h6a2 2 0 0 1 2 2v1", false), .path("M12 8h8", false), .path("M16 8V5a2 2 0 0 1 2-2", false)]),
-                PlantimV4Layer("accent", [.circle(16, 13, 0.5, false), .circle(18, 3, 0.5, false), .circle(20, 21, 0.5, false), .circle(20, 8, 0.5, false)]),
+                PlantimV4Layer("skull", [.path("M12 3.4C9.7 3.4 8.4 5 8.3 6.5C6.8 6.9 6 8.3 6 9.7C6 10.5 6.3 11.2 6.7 11.7C6.1 12.4 5.8 13.3 5.8 14.2C5.8 15.9 6.9 17.4 8.6 18C8.9 19.6 10.3 20.6 12 20.6C13.7 20.6 15.1 19.6 15.4 18C17.1 17.4 18.2 15.9 18.2 14.2C18.2 13.3 17.9 12.4 17.3 11.7C17.7 11.2 18 10.5 18 9.7C18 8.3 17.2 6.9 15.7 6.5C15.6 5 14.3 3.4 12 3.4Z", false)]),
+                PlantimV4Layer("folds", [.path("M12 3.6V20.4", false), .path("M8.4 8.4C9.6 8.9 10.4 9.9 10.6 11", false), .path("M15.6 8.4C14.4 8.9 13.6 9.9 13.4 11", false), .path("M9 14.6C10 14.2 10.9 14.4 11.6 15.2", false), .path("M15 14.6C14 14.2 13.1 14.4 12.4 15.2", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .bloom500, "accent": .bloom500]
+        duotonePrimary: ["skull"],
+        multicolor: ["skull": .bloom500, "folds": .bloom500]
     ),
     .utilityBug: PlantimV4IconData(
         grades: [
@@ -3752,21 +3889,21 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
     .utilityHand: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M18 11.5V9a2 2 0 0 0-2-2a2 2 0 0 0-2 2v1.4", false), .path("M14 10V8a2 2 0 0 0-2-2a2 2 0 0 0-2 2v2", false), .path("M10 9.9V9a2 2 0 0 0-2-2a2 2 0 0 0-2 2v5", false), .path("M6 14a2 2 0 0 0-2-2a2 2 0 0 0-2 2", false), .path("M18 11a2 2 0 1 1 4 0v3a8 8 0 0 1-8 8h-4a8 8 0 0 1-8-8 2 2 0 1 1 4 0", false)]),
+                PlantimV4Layer("hand", [.path("M6.6 13.2V6.6a1.4 1.4 0 0 1 2.8 0V11", false), .path("M9.4 10.4V4.8a1.4 1.4 0 0 1 2.8 0V10.4", false), .path("M12.2 10.4V4.4a1.4 1.4 0 0 1 2.8 0V11", false), .path("M15 11V6.2a1.4 1.4 0 0 1 2.8 0V15c0 3.2-2.3 5.9-5.8 5.9-2 0-3.6-.8-4.8-2.3L4.2 15.5a1.4 1.4 0 0 1 2.2-1.8Z", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M18 11.5V9a2 2 0 0 0-2-2a2 2 0 0 0-2 2v1.4", false), .path("M14 10V8a2 2 0 0 0-2-2a2 2 0 0 0-2 2v2", false), .path("M10 9.9V9a2 2 0 0 0-2-2a2 2 0 0 0-2 2v5", false), .path("M6 14a2 2 0 0 0-2-2a2 2 0 0 0-2 2", false), .path("M18 11a2 2 0 1 1 4 0v3a8 8 0 0 1-8 8h-4a8 8 0 0 1-8-8 2 2 0 1 1 4 0", false)]),
+                PlantimV4Layer("hand", [.path("M6.5 13V6.4a1.3 1.3 0 0 1 2.6 0V11", false), .path("M9.1 10.2V4.6a1.3 1.3 0 0 1 2.6 0V10.4", false), .path("M11.7 10.4V4.2a1.3 1.3 0 0 1 2.6 0V10.8", false), .path("M14.3 10.8V6a1.3 1.3 0 0 1 2.6 0V15c0 3.3-2.3 6-6 6-2 0-3.6-.8-4.8-2.3L4 15.4a1.35 1.35 0 0 1 2.1-1.7Z", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M18 11.5V9a2 2 0 0 0-2-2a2 2 0 0 0-2 2v1.4", false), .path("M14 10V8a2 2 0 0 0-2-2a2 2 0 0 0-2 2v2", false), .path("M10 9.9V9a2 2 0 0 0-2-2a2 2 0 0 0-2 2v5", false), .path("M6 14a2 2 0 0 0-2-2a2 2 0 0 0-2 2", false), .path("M18 11a2 2 0 1 1 4 0v3a8 8 0 0 1-8 8h-4a8 8 0 0 1-8-8 2 2 0 1 1 4 0", false)]),
+                PlantimV4Layer("hand", [.path("M6.5 13V6.4a1.3 1.3 0 0 1 2.6 0V11", false), .path("M9.1 10.2V4.6a1.3 1.3 0 0 1 2.6 0V10.4", false), .path("M11.7 10.4V4.2a1.3 1.3 0 0 1 2.6 0V10.8", false), .path("M14.3 10.8V6a1.3 1.3 0 0 1 2.6 0V15c0 3.3-2.3 6-6 6-2 0-3.6-.8-4.8-2.3L4 15.4a1.35 1.35 0 0 1 2.1-1.7Z", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .ink900]
+        duotonePrimary: ["hand"],
+        multicolor: ["hand": .ink900]
     ),
     .utilityHandshake: PlantimV4IconData(
         grades: [
@@ -4162,21 +4299,24 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
     .utilityMoonStar: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M18 5h4", false), .path("M20 3v4", false), .path("M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401", false)]),
+                PlantimV4Layer("moon", [.path("M20.5 15.6A8.6 8.6 0 1 1 9.6 4.4A6.9 6.9 0 0 0 20.5 15.6Z", false)]),
+                PlantimV4Layer("star", [.path("M18.2 2.8 19.3 5.25 22 5.55 20 7.4 20.55 10 18.2 8.65 15.85 10 16.4 7.4 14.4 5.55 17.1 5.25Z", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M18 5h4", false), .path("M20 3v4", false), .path("M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401", false)]),
+                PlantimV4Layer("moon", [.path("M20.5 15.2A8.4 8.4 0 1 1 10 4.2A6.6 6.6 0 0 0 20.5 15.2Z", false)]),
+                PlantimV4Layer("star", [.path("M18.2 3.2 19.15 5.35 21.5 5.6 19.75 7.2 20.25 9.5 18.2 8.3 16.15 9.5 16.65 7.2 14.9 5.6 17.25 5.35Z", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M18 5h4", false), .path("M20 3v4", false), .path("M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401", false)]),
+                PlantimV4Layer("moon", [.path("M20.5 15.2A8.4 8.4 0 1 1 10 4.2A6.6 6.6 0 0 0 20.5 15.2Z", false)]),
+                PlantimV4Layer("star", [.path("M18.2 3.2 19.15 5.35 21.5 5.6 19.75 7.2 20.25 9.5 18.2 8.3 16.15 9.5 16.65 7.2 14.9 5.6 17.25 5.35Z", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .sun300]
+        duotonePrimary: ["moon"],
+        multicolor: ["moon": .ink900, "star": .sun300]
     ),
     .utilityMoreHorizontal: PlantimV4IconData(
         grades: [
@@ -4200,21 +4340,24 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
     .utilityMove: PlantimV4IconData(
         grades: [
             .micro: [
-                PlantimV4Layer("primary", [.path("M5 3v16h16", false), .path("m5 19 6-6", false), .path("m2 6 3-3 3 3", false), .path("m18 16 3 3-3 3", false)]),
+                PlantimV4Layer("cross", [.path("M12 3.4V20.6", false), .path("M3.4 12H20.6", false)]),
+                PlantimV4Layer("heads", [.path("M8.8 6.2 12 3 15.2 6.2", false), .path("M8.8 17.8 12 21 15.2 17.8", false), .path("M6.2 8.8 3 12 6.2 15.2", false), .path("M17.8 8.8 21 12 17.8 15.2", false)]),
             ],
             .base: [
-                PlantimV4Layer("primary", [.path("M5 3v16h16", false), .path("m5 19 6-6", false), .path("m2 6 3-3 3 3", false), .path("m18 16 3 3-3 3", false)]),
+                PlantimV4Layer("cross", [.path("M12 3.2V20.8", false), .path("M3.2 12H20.8", false)]),
+                PlantimV4Layer("heads", [.path("M9 6 12 3 15 6", false), .path("M9 18 12 21 15 18", false), .path("M6 9 3 12 6 15", false), .path("M18 9 21 12 18 15", false)]),
             ],
             .display: [
-                PlantimV4Layer("primary", [.path("M5 3v16h16", false), .path("m5 19 6-6", false), .path("m2 6 3-3 3 3", false), .path("m18 16 3 3-3 3", false)]),
+                PlantimV4Layer("cross", [.path("M12 3.2V20.8", false), .path("M3.2 12H20.8", false)]),
+                PlantimV4Layer("heads", [.path("M9 6 12 3 15 6", false), .path("M9 18 12 21 15 18", false), .path("M6 9 3 12 6 15", false), .path("M18 9 21 12 18 15", false)]),
             ],
         ],
         solid: [
             .micro: .bold(3.3),
             .base: .bold(3.1),
         ],
-        duotonePrimary: ["primary"],
-        multicolor: ["primary": .ink900]
+        duotonePrimary: ["cross", "heads"],
+        multicolor: ["cross": .ink900, "heads": .ink900]
     ),
     .utilityOrbit: PlantimV4IconData(
         grades: [

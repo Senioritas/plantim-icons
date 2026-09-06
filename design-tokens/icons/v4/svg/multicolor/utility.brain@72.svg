@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 3.4C9.7 3.4 8.4 5 8.3 6.5C6.8 6.9 6 8.3 6 9.7C6 10.5 6.3 11.2 6.7 11.7C6.1 12.4 5.8 13.3 5.8 14.2C5.8 15.9 6.9 17.4 8.6 18C8.9 19.6 10.3 20.6 12 20.6C13.7 20.6 15.1 19.6 15.4 18C17.1 17.4 18.2 15.9 18.2 14.2C18.2 13.3 17.9 12.4 17.3 11.7C17.7 11.2 18 10.5 18 9.7C18 8.3 17.2 6.9 15.7 6.5C15.6 5 14.3 3.4 12 3.4Z" fill="none" stroke="#D81B60" stroke-width="1.6" data-token="bloom.500" />
+  <path d="M12 3.6V20.4" fill="none" stroke="#D81B60" stroke-width="1.6" data-token="bloom.500" />
+  <path d="M8.4 8.4C9.6 8.9 10.4 9.9 10.6 11" fill="none" stroke="#D81B60" stroke-width="1.6" data-token="bloom.500" />
+  <path d="M15.6 8.4C14.4 8.9 13.6 9.9 13.4 11" fill="none" stroke="#D81B60" stroke-width="1.6" data-token="bloom.500" />
+  <path d="M9 14.6C10 14.2 10.9 14.4 11.6 15.2" fill="none" stroke="#D81B60" stroke-width="1.6" data-token="bloom.500" />
+  <path d="M15 14.6C14 14.2 13.1 14.4 12.4 15.2" fill="none" stroke="#D81B60" stroke-width="1.6" data-token="bloom.500" />
+</svg>

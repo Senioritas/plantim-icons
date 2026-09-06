@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 21v-9" fill="none" stroke="#2E7D32" stroke-width="2" data-token="leaf.700" />
+  <path d="M12 12 5 7" fill="none" stroke="#43A047" stroke-width="2" data-token="leaf.500" />
+  <path d="M12 12 8.5 5.5" fill="none" stroke="#43A047" stroke-width="2" data-token="leaf.500" />
+  <path d="M12 12v-6.5" fill="none" stroke="#43A047" stroke-width="2" data-token="leaf.500" />
+  <path d="M12 12 15.5 5.5" fill="none" stroke="#43A047" stroke-width="2" data-token="leaf.500" />
+  <path d="M12 12 19 7" fill="none" stroke="#43A047" stroke-width="2" data-token="leaf.500" />
+  <circle cx="4.5" cy="6.5" r="1.4" fill="#2E7D32" stroke="none" data-token="leaf.700" />
+  <circle cx="8" cy="5" r="1.4" fill="#2E7D32" stroke="none" data-token="leaf.700" />
+  <circle cx="12" cy="4.6" r="1.4" fill="#2E7D32" stroke="none" data-token="leaf.700" />
+  <circle cx="16" cy="5" r="1.4" fill="#2E7D32" stroke="none" data-token="leaf.700" />
+  <circle cx="19.5" cy="6.5" r="1.4" fill="#2E7D32" stroke="none" data-token="leaf.700" />
+</svg>

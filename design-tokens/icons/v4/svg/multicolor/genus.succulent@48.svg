@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 18V8" fill="none" stroke="#2E7D32" stroke-width="1.6" data-token="leaf.700" />
+  <path d="M12 18C8.5 17 6.5 13.5 7 9.5" fill="none" stroke="#2E7D32" stroke-width="1.6" data-token="leaf.700" />
+  <path d="M12 18C15.5 17 17.5 13.5 17 9.5" fill="none" stroke="#2E7D32" stroke-width="1.6" data-token="leaf.700" />
+  <path d="M12 18C10 16 9 12.5 10 9" fill="none" stroke="#2E7D32" stroke-width="1.6" data-token="leaf.700" />
+  <path d="M12 18C14 16 15 12.5 14 9" fill="none" stroke="#2E7D32" stroke-width="1.6" data-token="leaf.700" />
+  <path d="M9 18h6l-.6 3h-4.8Z" fill="none" stroke="#6D4C41" stroke-width="1.6" data-token="earth.600" />
+</svg>

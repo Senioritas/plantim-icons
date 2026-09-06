@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 21v-9" fill="none" stroke="#6D4C41" stroke-width="2.4" data-token="earth.600" />
+  <path d="M12 12C8 11 5 8.5 4 5" fill="none" stroke="#2E7D32" stroke-width="2.4" data-token="leaf.700" />
+  <path d="M12 12C16 11 19 8.5 20 5" fill="none" stroke="#2E7D32" stroke-width="2.4" data-token="leaf.700" />
+  <path d="M12 12C11 8.5 11 5.5 12 3" fill="none" stroke="#2E7D32" stroke-width="2.4" data-token="leaf.700" />
+</svg>

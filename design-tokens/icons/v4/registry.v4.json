@@ -123,10 +123,10 @@
     }
   },
   "counts": {
-    "total": 208,
+    "total": 237,
     "P0": 9,
-    "P1": 130,
-    "P2": 69
+    "P1": 134,
+    "P2": 94
   },
   "icons": {
     "account.user": {
@@ -3135,6 +3135,496 @@
       },
       "geometryHash": "2a8cce641678e671b106f12647819e2be0dad958edacf9ea444f23a17715e374"
     },
+    "family.apiaceae": {
+      "id": "family.apiaceae",
+      "tier": "P2",
+      "verdict": "refine",
+      "category": "family",
+      "label": "Apiaceae",
+      "keywords": [
+        "family",
+        "apiaceae",
+        "carrot",
+        "parsley",
+        "umbel",
+        "flower"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v3": "family.apiaceae"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "stem",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21v-8"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "stalks",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 13 6 8"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 13V6"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 13 18 8"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "flowers",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "5.5",
+                    "cy": "7.5",
+                    "r": "1.7"
+                  },
+                  "filled": true
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "12",
+                    "cy": "5",
+                    "r": "1.7"
+                  },
+                  "filled": true
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "18.5",
+                    "cy": "7.5",
+                    "r": "1.7"
+                  },
+                  "filled": true
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "stem",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21v-9"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "stalks",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12 5 7"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12 8.5 5.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12v-6.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12 15.5 5.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12 19 7"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "flowers",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "4.5",
+                    "cy": "6.5",
+                    "r": "1.4"
+                  },
+                  "filled": true
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "8",
+                    "cy": "5",
+                    "r": "1.4"
+                  },
+                  "filled": true
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "12",
+                    "cy": "4.6",
+                    "r": "1.4"
+                  },
+                  "filled": true
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "16",
+                    "cy": "5",
+                    "r": "1.4"
+                  },
+                  "filled": true
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "19.5",
+                    "cy": "6.5",
+                    "r": "1.4"
+                  },
+                  "filled": true
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "stem",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21v-9"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "stalks",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12 5 7"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12 8.5 5.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12v-6.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12 15.5 5.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12 19 7"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "flowers",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "4.5",
+                    "cy": "6.5",
+                    "r": "1.4"
+                  },
+                  "filled": true
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "8",
+                    "cy": "5",
+                    "r": "1.4"
+                  },
+                  "filled": true
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "12",
+                    "cy": "4.6",
+                    "r": "1.4"
+                  },
+                  "filled": true
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "16",
+                    "cy": "5",
+                    "r": "1.4"
+                  },
+                  "filled": true
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "19.5",
+                    "cy": "6.5",
+                    "r": "1.4"
+                  },
+                  "filled": true
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "stem",
+            "stalks",
+            "flowers"
+          ]
+        },
+        "multicolor": {
+          "stem": "leaf.700",
+          "stalks": "leaf.500",
+          "flowers": "leaf.700"
+        }
+      },
+      "geometryHash": "ae1bdbff7a83831c5f452fed0b58d6e7df5211837167dffa398bb219762a3872"
+    },
+    "family.araceae": {
+      "id": "family.araceae",
+      "tier": "P2",
+      "verdict": "refine",
+      "category": "family",
+      "label": "Araceae",
+      "keywords": [
+        "family",
+        "araceae",
+        "monstera",
+        "philodendron",
+        "heart",
+        "leaf"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v3": "family.araceae"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "stem",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21v-4"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaf",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 17C6.8 16 3 11.7 3 8C3 5.3 5.1 3.5 7.4 3.5C9.5 3.5 11.2 5 12 6.7C12.8 5 14.5 3.5 16.6 3.5C18.9 3.5 21 5.3 21 8C21 11.7 17.2 16 12 17Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "stem",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21v-4.5"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaf",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 16.5C7 15.5 3.5 11.5 3.5 8C3.5 5.5 5.5 4 7.5 4C9.5 4 11.2 5.4 12 7C12.8 5.4 14.5 4 16.5 4C18.5 4 20.5 5.5 20.5 8C20.5 11.5 17 15.5 12 16.5Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "midrib",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 15v-6"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "stem",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21v-4.5"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaf",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 16.5C7 15.5 3.5 11.5 3.5 8C3.5 5.5 5.5 4 7.5 4C9.5 4 11.2 5.4 12 7C12.8 5.4 14.5 4 16.5 4C18.5 4 20.5 5.5 20.5 8C20.5 11.5 17 15.5 12 16.5Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "midrib",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 15v-6"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "leaf",
+            "midrib"
+          ]
+        },
+        "multicolor": {
+          "stem": "leaf.700",
+          "leaf": "leaf.500",
+          "midrib": "leaf.700"
+        }
+      },
+      "geometryHash": "029a6883c675dbf2781caa6418db079b111c63d07b33f8d769552300986181a2"
+    },
     "family.arecaceae": {
       "id": "family.arecaceae",
       "tier": "P2",
@@ -3623,6 +4113,357 @@
         }
       },
       "geometryHash": "a5d8877a20834d5e154746c7555c5fff6958a0c70ed85781a37961d04d868ee6"
+    },
+    "family.begoniaceae": {
+      "id": "family.begoniaceae",
+      "tier": "P2",
+      "verdict": "refine",
+      "category": "family",
+      "label": "Begoniaceae",
+      "keywords": [
+        "family",
+        "begoniaceae",
+        "begonia",
+        "asymmetric",
+        "leaf"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v3": "family.begoniaceae"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "stem",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M16 21C15 18.5 14 16.5 12.5 15"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaf",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12.5 15C6 15.5 2 10.8 3.3 6.6C4.3 3.2 8.5 2.2 11.5 3.8C14.1 5.1 15 8 15.5 10.5C16 8 16.5 4.8 18 3C19.7 6.6 19.5 11.2 12.5 15Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "stem",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M16 21C15 18.5 14 16.5 12.5 15"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaf",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12.5 15C6.5 15.5 2.5 11 3.5 7C4.4 3.5 8.5 2.5 11.5 4C14 5.2 15 8 15.5 10.5C16 8 16.5 5 18 3C19.5 6.5 19.5 11 12.5 15Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "midrib",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12.5 14.5C9.5 12 7 10 5 9"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "stem",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M16 21C15 18.5 14 16.5 12.5 15"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaf",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12.5 15C6.5 15.5 2.5 11 3.5 7C4.4 3.5 8.5 2.5 11.5 4C14 5.2 15 8 15.5 10.5C16 8 16.5 5 18 3C19.5 6.5 19.5 11 12.5 15Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "midrib",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12.5 14.5C9.5 12 7 10 5 9"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "leaf",
+            "midrib"
+          ]
+        },
+        "multicolor": {
+          "stem": "leaf.700",
+          "leaf": "leaf.500",
+          "midrib": "leaf.700"
+        }
+      },
+      "geometryHash": "3c03040c8c8c38deefa2f10469701742c599040cd993d441812131c4b1a5a98e"
+    },
+    "family.bromeliaceae": {
+      "id": "family.bromeliaceae",
+      "tier": "P2",
+      "verdict": "refine",
+      "category": "family",
+      "label": "Bromeliaceae",
+      "keywords": [
+        "family",
+        "bromeliaceae",
+        "bromeliad",
+        "pineapple",
+        "rosette",
+        "crown"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v3": "family.bromeliaceae"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "blades",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 20C8 18 5 14 3.5 8C7 9 10 12 12 20Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 20C11 15 10.5 10 11 3.5C13 8 13.5 13 12 20Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 20C16 18 19 14 20.5 8C17 9 14 12 12 20Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "base",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8 20h8"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "blades",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 20C9 18 6 15 4 9C7 9.5 10 12 12 20Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 20C11 16 10.5 11 11 4C12.5 8 13 13 12 20Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 20C15 18 18 15 20 9C17 9.5 14 12 12 20Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 20C10.5 17 8.5 14.5 6.5 12C5.5 15 8 18 12 20Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 20C13.5 17 15.5 14.5 17.5 12C18.5 15 16 18 12 20Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "base",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8 20h8"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "blades",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 20C9 18 6 15 4 9C7 9.5 10 12 12 20Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 20C11 16 10.5 11 11 4C12.5 8 13 13 12 20Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 20C15 18 18 15 20 9C17 9.5 14 12 12 20Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 20C10.5 17 8.5 14.5 6.5 12C5.5 15 8 18 12 20Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 20C13.5 17 15.5 14.5 17.5 12C18.5 15 16 18 12 20Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "base",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8 20h8"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "blades"
+          ]
+        },
+        "multicolor": {
+          "blades": "leaf.500",
+          "base": "leaf.700"
+        }
+      },
+      "geometryHash": "271fc7125c39728f73d8f0114fc428b66fcd00171b0a2a4c6b9aaab64287165d"
     },
     "family.cactaceae": {
       "id": "family.cactaceae",
@@ -4491,6 +5332,254 @@
       },
       "geometryHash": "233b7d37bca00d1501b31364683b4f8c017628c9af2ef53f5ceeb0b699c6c57f"
     },
+    "family.nephrolepidaceae": {
+      "id": "family.nephrolepidaceae",
+      "tier": "P2",
+      "verdict": "refine",
+      "category": "family",
+      "label": "Nephrolepidaceae",
+      "keywords": [
+        "family",
+        "nephrolepidaceae",
+        "fern",
+        "frond",
+        "boston",
+        "sword"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v3": "family.nephrolepidaceae"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "rachis",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21V5"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaflets",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 17.5 5.5 15"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 17.5 18.5 15"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12.5 6 11"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12.5 18 11"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 8 7.5 7"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 8 16.5 7"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "rachis",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21V4"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaflets",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 18 5.5 15.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 18 18.5 15.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 14 6 12"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 14 18 12"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 10 6.8 8.8"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 10 17.2 8.8"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 6.5 8.5 5.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 6.5 15.5 5.5"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "rachis",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21V4"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaflets",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 18 5.5 15.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 18 18.5 15.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 14 6 12"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 14 18 12"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 10 6.8 8.8"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 10 17.2 8.8"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 6.5 8.5 5.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 6.5 15.5 5.5"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "rachis",
+            "leaflets"
+          ]
+        },
+        "multicolor": {
+          "rachis": "leaf.700",
+          "leaflets": "leaf.500"
+        }
+      },
+      "geometryHash": "75c0110b00d2f10b5dee852d43eabf900c7279f4eaa2da48753a01643ae5295e"
+    },
     "family.orchidaceae": {
       "id": "family.orchidaceae",
       "tier": "P2",
@@ -4678,6 +5767,326 @@
         }
       },
       "geometryHash": "921d74094b853dd6b8400a86b30fa4986057ed4a7c3c20eed69f87ce6baca8a2"
+    },
+    "family.piperaceae": {
+      "id": "family.piperaceae",
+      "tier": "P2",
+      "verdict": "refine",
+      "category": "family",
+      "label": "Piperaceae",
+      "keywords": [
+        "family",
+        "piperaceae",
+        "peperomia",
+        "pepper",
+        "round",
+        "leaf"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v3": "family.piperaceae"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "stalks",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21 8 13"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21 16 15"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaves",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8 13C4.4 13 2.6 10.2 3.4 7.2C4.1 4.5 7 3.2 9.4 4.6C11.3 5.7 11.6 8.6 10 11C9.2 12.2 8.5 13 8 13Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M16 15C13.4 15 12 12.9 12.8 10.6C13.4 8.7 15.6 7.8 17.4 9C18.9 10 19.2 12.2 17.8 13.9C17 14.6 16.6 15 16 15Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "stalks",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21 8 12"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21 16 14"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaves",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8 12C4.7 12 3 9.6 3.5 7C4 4.6 6.2 3.2 8.6 4C10.6 4.7 11.6 7.2 10.7 9.6C10.1 11.2 9.3 12 8 12Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M16 14C13.6 14 12.4 12.2 12.9 10.2C13.3 8.5 15 7.6 16.8 8.3C18.3 8.9 19 10.8 18.2 12.5C17.7 13.6 17 14 16 14Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "stalks",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21 8 12"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21 16 14"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaves",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8 12C4.7 12 3 9.6 3.5 7C4 4.6 6.2 3.2 8.6 4C10.6 4.7 11.6 7.2 10.7 9.6C10.1 11.2 9.3 12 8 12Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M16 14C13.6 14 12.4 12.2 12.9 10.2C13.3 8.5 15 7.6 16.8 8.3C18.3 8.9 19 10.8 18.2 12.5C17.7 13.6 17 14 16 14Z"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "leaves"
+          ]
+        },
+        "multicolor": {
+          "stalks": "leaf.700",
+          "leaves": "leaf.500"
+        }
+      },
+      "geometryHash": "512bbd1bffc83a5473011c082da0009f246b421fbf1a0e395097174f58c86344"
+    },
+    "family.polypodiaceae": {
+      "id": "family.polypodiaceae",
+      "tier": "P2",
+      "verdict": "refine",
+      "category": "family",
+      "label": "Polypodiaceae",
+      "keywords": [
+        "family",
+        "polypodiaceae",
+        "fern",
+        "frond",
+        "lobed"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v3": "family.polypodiaceae"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "rachis",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21V6"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "blade",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 18.5C7 18.5 3 16 3 11C6 12 8 13.5 9.5 16C8.5 11.5 6.5 9 3.5 8C7 8 9.5 9.5 11 12.5C10.5 8 10 6 12 4Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 18.5C17 18.5 21 16 21 11C18 12 16 13.5 14.5 16C15.5 11.5 17.5 9 20.5 8C17 8 14.5 9.5 13 12.5C13.5 8 14 6 12 4Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "rachis",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21V6"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "blade",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 19C8 19 4 17 3.5 12.5C6 13 7.5 14 9 15.5C8 12 6 10 3.5 8.5C6.5 8.5 9 9.5 10.5 11.5C10 8 9 6 12 4Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 19C16 19 20 17 20.5 12.5C18 13 16.5 14 15 15.5C16 12 18 10 20.5 8.5C17.5 8.5 15 9.5 13.5 11.5C14 8 15 6 12 4Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "rachis",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21V6"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "blade",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 19C8 19 4 17 3.5 12.5C6 13 7.5 14 9 15.5C8 12 6 10 3.5 8.5C6.5 8.5 9 9.5 10.5 11.5C10 8 9 6 12 4Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 19C16 19 20 17 20.5 12.5C18 13 16.5 14 15 15.5C16 12 18 10 20.5 8.5C17.5 8.5 15 9.5 13.5 11.5C14 8 15 6 12 4Z"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "rachis",
+            "blade"
+          ]
+        },
+        "multicolor": {
+          "rachis": "leaf.700",
+          "blade": "leaf.500"
+        }
+      },
+      "geometryHash": "7f04effa5a020023f44e18ef652c0e28b9ba748bcaa05eed1b12214e34f4cce6"
     },
     "garden.compost": {
       "id": "garden.compost",
@@ -4969,6 +6378,191 @@
       },
       "geometryHash": "e6aa09f182f73414eb2f8cd7ee17ed3fcb7aaff35e10b1a2244312e46e89ce6d"
     },
+    "garden.gloves": {
+      "id": "garden.gloves",
+      "tier": "P2",
+      "verdict": "redraw",
+      "category": "garden",
+      "label": "Gardening gloves",
+      "keywords": [
+        "glove",
+        "gloves",
+        "hand",
+        "garden"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v3": "garden.gloves"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "glove",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8 21a3 3 0 0 1-3-3v-4a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v2a5 5 0 0 1-3 4.6V21Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9 12V7.5a1.3 1.3 0 0 1 2.6 0V12"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M11.6 12V6.5a1.3 1.3 0 0 1 2.6 0V12"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M5 16a2.5 2.5 0 0 1 0-5"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "cuff",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M7.5 21h6"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "glove",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8 21a3 3 0 0 1-3-3v-4a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v2a5 5 0 0 1-3 4.6V21Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9 12V7.5a1.3 1.3 0 0 1 2.6 0V12"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M11.6 12V6.5a1.3 1.3 0 0 1 2.6 0V12"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M5 16a2.5 2.5 0 0 1 0-5"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "cuff",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M7.5 21h6"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "glove",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8 21a3 3 0 0 1-3-3v-4a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v2a5 5 0 0 1-3 4.6V21Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9 12V7.5a1.3 1.3 0 0 1 2.6 0V12"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M11.6 12V6.5a1.3 1.3 0 0 1 2.6 0V12"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M5 16a2.5 2.5 0 0 1 0-5"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "cuff",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M7.5 21h6"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "glove"
+          ]
+        },
+        "multicolor": {
+          "glove": "ink.900",
+          "cuff": "leaf.500"
+        }
+      },
+      "geometryHash": "fcd8637679431a8da3f8fe1762f82dcb6ccc200fc15d267df5f0511a67fb4be0"
+    },
     "garden.greenhouse": {
       "id": "garden.greenhouse",
       "tier": "P2",
@@ -5095,6 +6689,266 @@
         }
       },
       "geometryHash": "3913d3d9d59fae564da1a583b52c54931844f04f3b8fe56cc9097d08383a7490"
+    },
+    "garden.hoe": {
+      "id": "garden.hoe",
+      "tier": "P2",
+      "verdict": "redraw",
+      "category": "garden",
+      "label": "Hoe",
+      "keywords": [
+        "hoe",
+        "tool",
+        "garden"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v3": "garden.hoe"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "handle",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M18.5 4.5 8 15"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "head",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8 15l-3.5 3.5a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0L13 17Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "handle",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M18.5 4.5 8 15"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "head",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8 15l-3.5 3.5a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0L13 17Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "handle",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M18.5 4.5 8 15"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "head",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8 15l-3.5 3.5a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0L13 17Z"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "handle"
+          ]
+        },
+        "multicolor": {
+          "handle": "ink.900",
+          "head": "ink.500"
+        }
+      },
+      "geometryHash": "4f47547236e4503d46e5826fd62993ce95f05f4eef484af21d3aba87d974f2f3"
+    },
+    "garden.hose": {
+      "id": "garden.hose",
+      "tier": "P2",
+      "verdict": "redraw",
+      "category": "garden",
+      "label": "Hose",
+      "keywords": [
+        "hose",
+        "water",
+        "garden"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v3": "garden.hose"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "coil",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M11 20a5 5 0 1 1 5-5v-1a3 3 0 0 1 3-3"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "nozzle",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M18 8l4 3-2.5 2.5L16 11Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "coil",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M11 20a5 5 0 1 1 5-5v-1a3 3 0 0 1 3-3"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "nozzle",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M18 8l4 3-2.5 2.5L16 11Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "coil",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M11 20a5 5 0 1 1 5-5v-1a3 3 0 0 1 3-3"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "nozzle",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M18 8l4 3-2.5 2.5L16 11Z"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "coil"
+          ]
+        },
+        "multicolor": {
+          "coil": "water.600",
+          "nozzle": "ink.900"
+        }
+      },
+      "geometryHash": "9dfa41e77467b30b4f0b6235aac07c92fd27f9510a5726f2af15643da3ff64a0"
     },
     "garden.pot": {
       "id": "garden.pot",
@@ -5258,6 +7112,214 @@
         }
       },
       "geometryHash": "5958b719fb1b4ce26317c0b0bd2a53e802cabc34cc92e54b1b3ce8bd64a5b507"
+    },
+    "garden.rake": {
+      "id": "garden.rake",
+      "tier": "P2",
+      "verdict": "redraw",
+      "category": "garden",
+      "label": "Rake",
+      "keywords": [
+        "rake",
+        "tool",
+        "garden"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v3": "garden.rake"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "handle",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 3v9"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "head",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M6 12h12"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M7 12v4"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12v4"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M17 12v4"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "handle",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 3v9"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "head",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M6 12h12"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M6.5 12v3.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9.25 12v3.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12v3.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M14.75 12v3.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M17.5 12v3.5"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "handle",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 3v9"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "head",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M6 12h12"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M6.5 12v3.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9.25 12v3.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12v3.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M14.75 12v3.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M17.5 12v3.5"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "handle"
+          ]
+        },
+        "multicolor": {
+          "handle": "ink.900",
+          "head": "ink.500"
+        }
+      },
+      "geometryHash": "531ce0d1097bde2a6bb9f14296620973dd5d1f1e87ce021c25e8d4d9a3f0e2e8"
     },
     "garden.seed-packet": {
       "id": "garden.seed-packet",
@@ -5561,6 +7623,501 @@
       },
       "geometryHash": "434c1d7293ab86ad54e784092e2d00ed62d41bd6b00da78ab60474af01087e5b"
     },
+    "garden.spade": {
+      "id": "garden.spade",
+      "tier": "P2",
+      "verdict": "redraw",
+      "category": "garden",
+      "label": "Spade",
+      "keywords": [
+        "spade",
+        "shovel",
+        "dig",
+        "garden"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v3": "garden.spade"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "handle",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8 4h8"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 4v11"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "blade",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9 15h6l-3 5.5Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "handle",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8 4h8"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 4v11"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "blade",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9 15h6l-3 5.5Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "handle",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8 4h8"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 4v11"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "blade",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9 15h6l-3 5.5Z"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "handle"
+          ]
+        },
+        "multicolor": {
+          "handle": "ink.900",
+          "blade": "ink.500"
+        }
+      },
+      "geometryHash": "01aeb39d11dd5fa5a76ae7bef27b971cee85676a041058ea0c1bc71f5b1b3355"
+    },
+    "garden.sprinkler": {
+      "id": "garden.sprinkler",
+      "tier": "P2",
+      "verdict": "redraw",
+      "category": "garden",
+      "label": "Sprinkler",
+      "keywords": [
+        "sprinkler",
+        "water",
+        "spray",
+        "garden"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v3": "garden.sprinkler"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "base",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8 21h8"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21v-5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9.5 16h5l-1-2h-3Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "water",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 14c-2-1-3.5-3-3.5-6"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 14c2-1 3.5-3 3.5-6"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "base",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8 21h8"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21v-5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9.5 16h5l-1-2h-3Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "water",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 14c-2.5-1-4-3-4.5-6"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 14c2.5-1 4-3 4.5-6"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 14V6"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "base",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8 21h8"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21v-5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9.5 16h5l-1-2h-3Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "water",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 14c-2.5-1-4-3-4.5-6"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 14c2.5-1 4-3 4.5-6"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 14V6"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "base"
+          ]
+        },
+        "multicolor": {
+          "base": "ink.900",
+          "water": "water.600"
+        }
+      },
+      "geometryHash": "7ea0ce1cbc5c39144c09c8a64a0e5ead39fae8b81fd7c3a2bef1d6773e88a4ff"
+    },
+    "garden.trowel": {
+      "id": "garden.trowel",
+      "tier": "P2",
+      "verdict": "redraw",
+      "category": "garden",
+      "label": "Trowel",
+      "keywords": [
+        "trowel",
+        "scoop",
+        "dig",
+        "garden"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v3": "garden.trowel"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "handle",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M13.5 10.5 18 6"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M16 4l4 4-2 2-4-4Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "blade",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M4 20c-1-3 .5-7 3.5-8.5l4 4C10 18.5 6 20.5 4 20Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "handle",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M13.5 10.5 18 6"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M16 4l4 4-2 2-4-4Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "blade",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M4 20c-1-3 .5-7 3.5-8.5l4 4C10 18.5 6 20.5 4 20Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "handle",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M13.5 10.5 18 6"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M16 4l4 4-2 2-4-4Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "blade",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M4 20c-1-3 .5-7 3.5-8.5l4 4C10 18.5 6 20.5 4 20Z"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "handle"
+          ]
+        },
+        "multicolor": {
+          "handle": "ink.900",
+          "blade": "ink.500"
+        }
+      },
+      "geometryHash": "e8804b72b4c5ba6263f4adb82f292a5750cfbb6adcaa2a33e7dae86e874bd921"
+    },
     "garden.wheelbarrow": {
       "id": "garden.wheelbarrow",
       "tier": "P2",
@@ -5838,6 +8395,172 @@
         }
       },
       "geometryHash": "e5464ccc00d26b5236ad2a4fd9695c181c09adba00968724285a30488cb2b1ad"
+    },
+    "genus.cactus": {
+      "id": "genus.cactus",
+      "tier": "P2",
+      "verdict": "redraw",
+      "category": "genus",
+      "label": "Cactus",
+      "keywords": [
+        "cactus",
+        "succulent",
+        "genus"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v3": "genus.cactus"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "body",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M10 18V7a2 2 0 0 1 4 0v11"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M10 13H7.5V10.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M14 11.5h2.5V14"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "pot",
+              "role": "container",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9 18h6l-.6 3h-4.8Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "body",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M10 18V6.5a2 2 0 0 1 4 0V18"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M10 13H8.3A1.8 1.8 0 0 1 6.5 11.2V9.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M14 11h1.7a1.8 1.8 0 0 1 1.8 1.8V15"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "pot",
+              "role": "container",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9 18h6l-.6 3h-4.8Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "body",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M10 18V6.5a2 2 0 0 1 4 0V18"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M10 13H8.3A1.8 1.8 0 0 1 6.5 11.2V9.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M14 11h1.7a1.8 1.8 0 0 1 1.8 1.8V15"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "pot",
+              "role": "container",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9 18h6l-.6 3h-4.8Z"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "body"
+          ]
+        },
+        "multicolor": {
+          "body": "leaf.700",
+          "pot": "earth.600"
+        }
+      },
+      "geometryHash": "63f9ffa10e75c2290d27f377eecbc148c6e7b5176469a24c779a930fb4cdfdb7"
     },
     "genus.calathea": {
       "id": "genus.calathea",
@@ -6201,6 +8924,222 @@
       },
       "geometryHash": "6cfcb39dfebc20590af81cd0dacef893acfecc38d7cabd18e57701d8839ec132"
     },
+    "genus.ficus": {
+      "id": "genus.ficus",
+      "tier": "P2",
+      "verdict": "redraw",
+      "category": "genus",
+      "label": "Ficus",
+      "keywords": [
+        "ficus",
+        "rubber",
+        "fig",
+        "genus"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v3": "genus.ficus"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "trunk",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 19v-7"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaves",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12C9 12 6.5 10 6.5 6.5C10 6.5 12 8.5 12 12Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12C15 12 17.5 10 17.5 6.5C14 6.5 12 8.5 12 12Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 9V4"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "pot",
+              "role": "container",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9 19h6l-.6 2.5h-4.8Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "trunk",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 19v-7"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaves",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12C9 12 6.5 10 6.5 6.5C10 6.5 12 8.5 12 12Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12C15 12 17.5 10 17.5 6.5C14 6.5 12 8.5 12 12Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 9C10 8 8.7 6 9.2 3.5C11.4 4 12.5 6.5 12 9Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 9C14 8 15.3 6 14.8 3.5C12.6 4 11.5 6.5 12 9Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "pot",
+              "role": "container",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9 19h6l-.6 2.5h-4.8Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "trunk",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 19v-7"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaves",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12C9 12 6.5 10 6.5 6.5C10 6.5 12 8.5 12 12Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12C15 12 17.5 10 17.5 6.5C14 6.5 12 8.5 12 12Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 9C10 8 8.7 6 9.2 3.5C11.4 4 12.5 6.5 12 9Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 9C14 8 15.3 6 14.8 3.5C12.6 4 11.5 6.5 12 9Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "pot",
+              "role": "container",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9 19h6l-.6 2.5h-4.8Z"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "trunk"
+          ]
+        },
+        "multicolor": {
+          "trunk": "earth.600",
+          "leaves": "leaf.700",
+          "pot": "earth.600"
+        }
+      },
+      "geometryHash": "bbc1634da85e2d0c87bb662f759dc0c2a9d92c27fe4baa5f0ee56b36302ee577"
+    },
     "genus.monstera": {
       "id": "genus.monstera",
       "tier": "P2",
@@ -6381,6 +9320,476 @@
         }
       },
       "geometryHash": "9270a92b11cb3235a776f5ee04c5ab101d586fab7427583a4c12319b8d2a1e58"
+    },
+    "genus.orchid": {
+      "id": "genus.orchid",
+      "tier": "P2",
+      "verdict": "redraw",
+      "category": "genus",
+      "label": "Orchid",
+      "keywords": [
+        "orchid",
+        "flower",
+        "genus"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v3": "genus.orchid"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "stem",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21c0-4-1-6.5-3-8.5"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaves",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21c-3 .2-5.2-1.6-5.4-4.6C9.6 16.2 11.8 18 12 21Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "flower",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "12",
+                    "cy": "6.5",
+                    "r": "2.2"
+                  },
+                  "filled": true
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "8.4",
+                    "cy": "6",
+                    "r": "1.8"
+                  }
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "15.6",
+                    "cy": "6",
+                    "r": "1.8"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "stem",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21c0-4-1-6.5-3-8.5"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaves",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21c-3 .2-5.2-1.6-5.4-4.6C9.6 16.2 11.8 18 12 21Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21c3 .2 5.2-1.6 5.4-4.6C14.4 16.2 12.2 18 12 21Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "flower",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "12",
+                    "cy": "7",
+                    "r": "2"
+                  },
+                  "filled": true
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "8.6",
+                    "cy": "5.4",
+                    "r": "1.6"
+                  }
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "15.4",
+                    "cy": "5.4",
+                    "r": "1.6"
+                  }
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "9.6",
+                    "cy": "9.4",
+                    "r": "1.6"
+                  }
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "14.4",
+                    "cy": "9.4",
+                    "r": "1.6"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "stem",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21c0-4-1-6.5-3-8.5"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaves",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21c-3 .2-5.2-1.6-5.4-4.6C9.6 16.2 11.8 18 12 21Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21c3 .2 5.2-1.6 5.4-4.6C14.4 16.2 12.2 18 12 21Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "flower",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "12",
+                    "cy": "7",
+                    "r": "2"
+                  },
+                  "filled": true
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "8.6",
+                    "cy": "5.4",
+                    "r": "1.6"
+                  }
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "15.4",
+                    "cy": "5.4",
+                    "r": "1.6"
+                  }
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "9.6",
+                    "cy": "9.4",
+                    "r": "1.6"
+                  }
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "14.4",
+                    "cy": "9.4",
+                    "r": "1.6"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "stem"
+          ]
+        },
+        "multicolor": {
+          "stem": "leaf.700",
+          "leaves": "leaf.700",
+          "flower": "bloom.500"
+        }
+      },
+      "geometryHash": "4cd6897c48dcfeaa59a95d0634cd59e73de099c2b8a886bc8b99c96487208111"
+    },
+    "genus.palm": {
+      "id": "genus.palm",
+      "tier": "P2",
+      "verdict": "refine",
+      "category": "genus",
+      "label": "Palm",
+      "keywords": [
+        "palm",
+        "tree",
+        "genus"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v3": "genus.palm"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "trunk",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21v-9"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "fronds",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12C8 11 5 8.5 4 5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12C16 11 19 8.5 20 5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12C11 8.5 11 5.5 12 3"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "trunk",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21v-9"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "fronds",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12C8.5 11 5.5 8 4.5 4.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12C15.5 11 18.5 8 19.5 4.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12C10.5 8.5 10 5.5 11 3"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12C13.5 8.5 14 5.5 13 3"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12C8.5 12.5 5.5 12 3.5 10.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12C15.5 12.5 18.5 12 20.5 10.5"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "trunk",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 21v-9"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "fronds",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12C8.5 11 5.5 8 4.5 4.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12C15.5 11 18.5 8 19.5 4.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12C10.5 8.5 10 5.5 11 3"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12C13.5 8.5 14 5.5 13 3"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12C8.5 12.5 5.5 12 3.5 10.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 12C15.5 12.5 18.5 12 20.5 10.5"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "trunk"
+          ]
+        },
+        "multicolor": {
+          "trunk": "earth.600",
+          "fronds": "leaf.700"
+        }
+      },
+      "geometryHash": "00ba3fdf95cda8a5fea9cfd458577e249ce2785e5dfd7e5688d894fe46a69058"
     },
     "genus.peperomia": {
       "id": "genus.peperomia",
@@ -6852,6 +10261,196 @@
         }
       },
       "geometryHash": "0249f4841613d6f18b09674784b2f8a5365827162a22a638a4c3659f5ac2d422"
+    },
+    "genus.succulent": {
+      "id": "genus.succulent",
+      "tier": "P2",
+      "verdict": "redraw",
+      "category": "genus",
+      "label": "Succulent",
+      "keywords": [
+        "succulent",
+        "rosette",
+        "genus"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v3": "genus.succulent"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "rosette",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 18V9"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 18C8.5 17 6.5 13.5 7 9.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 18C15.5 17 17.5 13.5 17 9.5"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "pot",
+              "role": "container",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9 18h6l-.6 3h-4.8Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "rosette",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 18V8"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 18C8.5 17 6.5 13.5 7 9.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 18C15.5 17 17.5 13.5 17 9.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 18C10 16 9 12.5 10 9"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 18C14 16 15 12.5 14 9"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "pot",
+              "role": "container",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9 18h6l-.6 3h-4.8Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "rosette",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 18V8"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 18C8.5 17 6.5 13.5 7 9.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 18C15.5 17 17.5 13.5 17 9.5"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 18C10 16 9 12.5 10 9"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 18C14 16 15 12.5 14 9"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "pot",
+              "role": "container",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9 18h6l-.6 3h-4.8Z"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "rosette"
+          ]
+        },
+        "multicolor": {
+          "rosette": "leaf.700",
+          "pot": "earth.600"
+        }
+      },
+      "geometryHash": "09639aa9d86ab4ac82cd0326153ed6e849d91940854cc2b99d67f2e19fbf5b8a"
     },
     "health.attention": {
       "id": "health.attention",
@@ -7612,6 +11211,211 @@
       },
       "geometryHash": "5e06193dae10ccc4cc1ad4454591c5bdcaca7ff659b85cb271e1b9b0a5721f4d"
     },
+    "nav.calendar.leaf": {
+      "id": "nav.calendar.leaf",
+      "tier": "P2",
+      "verdict": "refine",
+      "category": "nav",
+      "label": "Calendar (leaf)",
+      "keywords": [
+        "calendar",
+        "leaf",
+        "date",
+        "schedule"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v3": "nav.calendar.leaf"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "frame",
+              "role": "container",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M4 6.5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2V18a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "header",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M4 8.6h16"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaf",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 10.6C9.273 12.039 8.4 14.094 8.4 15.287C8.4 16.602 9.873 17.794 12 18C14.127 17.794 15.6 16.602 15.6 15.287C15.6 14.094 14.727 12.039 12 10.6Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "frame",
+              "role": "container",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M4 6.5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2V18a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "header",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M4 8.5h16"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8 3.5v3"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M16 3.5v3"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaf",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 10.4C9.424 11.8 8.6 13.8 8.6 14.96C8.6 16.24 9.991 17.4 12 17.6C14.009 17.4 15.4 16.24 15.4 14.96C15.4 13.8 14.576 11.8 12 10.4Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 16.4V12"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "frame",
+              "role": "container",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M4 6.5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2V18a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "header",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M4 8.5h16"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8 3.5v3"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M16 3.5v3"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaf",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 10.4C9.424 11.8 8.6 13.8 8.6 14.96C8.6 16.24 9.991 17.4 12 17.6C14.009 17.4 15.4 16.24 15.4 14.96C15.4 13.8 14.576 11.8 12 10.4Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 16.4V12"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "frame",
+            "header"
+          ]
+        },
+        "multicolor": {
+          "frame": "ink.900",
+          "header": "ink.900",
+          "leaf": "leaf.500"
+        }
+      },
+      "geometryHash": "6d5b9d77b76b4f4c9e420bcd9104aa32b393f1ac04005e8abdb22693a44c947c"
+    },
     "nav.calendar.plain": {
       "id": "nav.calendar.plain",
       "tier": "P2",
@@ -7883,6 +11687,487 @@
         }
       },
       "geometryHash": "5ccb97057fa157ae3b5742d0877cd6b5205a3ee4edc07437a214b46804fc9677"
+    },
+    "nav.chat.dots": {
+      "id": "nav.chat.dots",
+      "tier": "P2",
+      "verdict": "refine",
+      "category": "nav",
+      "label": "Chat (typing)",
+      "keywords": [
+        "chat",
+        "typing",
+        "dots",
+        "message",
+        "indicator"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v3": "nav.chat.dots"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "bubble",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8.1 19.6A8.5 8.5 0 1 0 4.35 15.9L3.1 20.9Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "dots",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "8.2",
+                    "cy": "12",
+                    "r": "1.6"
+                  },
+                  "filled": true
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "12",
+                    "cy": "12",
+                    "r": "1.6"
+                  },
+                  "filled": true
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "15.8",
+                    "cy": "12",
+                    "r": "1.6"
+                  },
+                  "filled": true
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "bubble",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8.1 19.6A8.5 8.5 0 1 0 4.35 15.9L3.1 20.9Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "dots",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "8.1",
+                    "cy": "12",
+                    "r": "1.2"
+                  },
+                  "filled": true
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "11.9",
+                    "cy": "12",
+                    "r": "1.2"
+                  },
+                  "filled": true
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "15.7",
+                    "cy": "12",
+                    "r": "1.2"
+                  },
+                  "filled": true
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "bubble",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8.1 19.6A8.5 8.5 0 1 0 4.35 15.9L3.1 20.9Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "dots",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "8.1",
+                    "cy": "12",
+                    "r": "1.2"
+                  },
+                  "filled": true
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "11.9",
+                    "cy": "12",
+                    "r": "1.2"
+                  },
+                  "filled": true
+                },
+                {
+                  "type": "circle",
+                  "attrs": {
+                    "cx": "15.7",
+                    "cy": "12",
+                    "r": "1.2"
+                  },
+                  "filled": true
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "bubble"
+          ]
+        },
+        "multicolor": {
+          "bubble": "leaf.700",
+          "dots": "leaf.300"
+        }
+      },
+      "geometryHash": "61c4ff332d568f4f8cd23488cef8645cb811eb7dc2ae37fb362fb40aecc98dee"
+    },
+    "nav.chat.leaf": {
+      "id": "nav.chat.leaf",
+      "tier": "P2",
+      "verdict": "refine",
+      "category": "nav",
+      "label": "Chat (leaf)",
+      "keywords": [
+        "chat",
+        "leaf",
+        "message",
+        "bubble"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v3": "nav.chat.leaf"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "bubble",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8.1 19.6A8.5 8.5 0 1 0 4.35 15.9L3.1 20.9Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaf",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 7.2C9.576 8.6 8.8 10.6 8.8 11.76C8.8 13.04 10.109 14.2 12 14.4C13.891 14.2 15.2 13.04 15.2 11.76C15.2 10.6 14.424 8.6 12 7.2Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "bubble",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8.1 19.6A8.5 8.5 0 1 0 4.35 15.9L3.1 20.9Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaf",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 7.2C9.727 8.561 9 10.506 9 11.633C9 12.878 10.227 14.006 12 14.2C13.773 14.006 15 12.878 15 11.633C15 10.506 14.273 8.561 12 7.2Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 13.4V9"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "bubble",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8.1 19.6A8.5 8.5 0 1 0 4.35 15.9L3.1 20.9Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "leaf",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 7.2C9.727 8.561 9 10.506 9 11.633C9 12.878 10.227 14.006 12 14.2C13.773 14.006 15 12.878 15 11.633C15 10.506 14.273 8.561 12 7.2Z"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 13.4V9"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "bubble"
+          ]
+        },
+        "multicolor": {
+          "bubble": "leaf.700",
+          "leaf": "leaf.300"
+        }
+      },
+      "geometryHash": "97a14559e9e27b5fc20f548c174a25a2b9d8068fe0b17b35ce1a0dab04c8aef0"
+    },
+    "nav.feed.cards": {
+      "id": "nav.feed.cards",
+      "tier": "P2",
+      "verdict": "redraw",
+      "category": "nav",
+      "label": "Feed (cards)",
+      "keywords": [
+        "feed",
+        "cards",
+        "stack",
+        "updates"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v3": "nav.feed.cards"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "back",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M7.5 7h11a1.5 1.5 0 0 1 1.5 1.5v7.5"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "front",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "rect",
+                  "attrs": {
+                    "x": "3.5",
+                    "y": "9.5",
+                    "width": "13",
+                    "height": "10.5",
+                    "rx": "2"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "back",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M7 6.5h12a1.5 1.5 0 0 1 1.5 1.5v8"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "front",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "rect",
+                  "attrs": {
+                    "x": "3.5",
+                    "y": "9",
+                    "width": "13",
+                    "height": "11",
+                    "rx": "2"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "back",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M7 6.5h12a1.5 1.5 0 0 1 1.5 1.5v8"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "front",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "rect",
+                  "attrs": {
+                    "x": "3.5",
+                    "y": "9",
+                    "width": "13",
+                    "height": "11",
+                    "rx": "2"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "front"
+          ]
+        },
+        "multicolor": {
+          "front": "ink.900",
+          "back": "ink.500"
+        }
+      },
+      "geometryHash": "8c96ff4cd5e13c4165fd1ea194560cc0a42d1f481caa91f9a4e3766402ee550e"
     },
     "nav.feed.stream": {
       "id": "nav.feed.stream",
@@ -8822,6 +13107,137 @@
       },
       "geometryHash": "15c9630fef78bcab8c2071d5daee010e4f7e8977b636f25130402486d00d6867"
     },
+    "nav.plant.leaf": {
+      "id": "nav.plant.leaf",
+      "tier": "P2",
+      "verdict": "redraw",
+      "category": "nav",
+      "label": "Plant (leaf)",
+      "keywords": [
+        "plant",
+        "leaf",
+        "nav",
+        "foliage"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v3": "nav.plant.leaf"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "leaf",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 3.6C7.4 6.9 5.9 11.6 5.9 14.4C5.9 17.5 8.4 20.2 12 20.7C15.6 20.2 18.1 17.5 18.1 14.4C18.1 11.6 16.6 6.9 12 3.6Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "midrib",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 18.8V7.2"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "leaf",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 3C7 6.5 5.4 11.5 5.4 14.4C5.4 17.6 8.1 20.5 12 21C15.9 20.5 18.6 17.6 18.6 14.4C18.6 11.5 17 6.5 12 3Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "midrib",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 19.5V6.5"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "leaf",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 3C7 6.5 5.4 11.5 5.4 14.4C5.4 17.6 8.1 20.5 12 21C15.9 20.5 18.6 17.6 18.6 14.4C18.6 11.5 17 6.5 12 3Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "midrib",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 19.5V6.5"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "leaf"
+          ]
+        },
+        "multicolor": {
+          "leaf": "leaf.700",
+          "midrib": "leaf.500"
+        }
+      },
+      "geometryHash": "b8a5c8069e26260ee649d0908322b432b955552c5f768d51bc60fbd79ba5bb57"
+    },
     "nav.plant.potted": {
       "id": "nav.plant.potted",
       "tier": "P2",
@@ -9129,6 +13545,137 @@
         }
       },
       "geometryHash": "3757a2c5fd25af3f4ee5a86158af90096671daad3c8f5e1a84ef83fab7674984"
+    },
+    "nav.today.leaf": {
+      "id": "nav.today.leaf",
+      "tier": "P2",
+      "verdict": "redraw",
+      "category": "nav",
+      "label": "Today (leaf)",
+      "keywords": [
+        "today",
+        "leaf",
+        "nav",
+        "home"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v3": "nav.today.leaf"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "leaf",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 3.6C7.4 6.9 5.9 11.6 5.9 14.4C5.9 17.5 8.4 20.2 12 20.7C15.6 20.2 18.1 17.5 18.1 14.4C18.1 11.6 16.6 6.9 12 3.6Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "midrib",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 18.8V7.2"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "leaf",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 3C7 6.5 5.4 11.5 5.4 14.4C5.4 17.6 8.1 20.5 12 21C15.9 20.5 18.6 17.6 18.6 14.4C18.6 11.5 17 6.5 12 3Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "midrib",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 19.5V6.5"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "leaf",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 3C7 6.5 5.4 11.5 5.4 14.4C5.4 17.6 8.1 20.5 12 21C15.9 20.5 18.6 17.6 18.6 14.4C18.6 11.5 17 6.5 12 3Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "midrib",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 19.5V6.5"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "leaf"
+          ]
+        },
+        "multicolor": {
+          "leaf": "leaf.700",
+          "midrib": "leaf.500"
+        }
+      },
+      "geometryHash": "b8a5c8069e26260ee649d0908322b432b955552c5f768d51bc60fbd79ba5bb57"
     },
     "nav.today.sun": {
       "id": "nav.today.sun",
@@ -16731,6 +21278,187 @@
       },
       "geometryHash": "ab6cfd3b305cf608747a28e637d193fbf12b9bd50de3f3ebc3c570b51b26e0da"
     },
+    "utility.brain": {
+      "id": "utility.brain",
+      "tier": "P1",
+      "verdict": "refine",
+      "category": "utility",
+      "label": "Brain",
+      "keywords": [
+        "brain",
+        "mind",
+        "think",
+        "ai",
+        "smart"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v2": "utility.brain",
+        "v3": "utility.brain"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "skull",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 3.6C9.8 3.6 8.5 5.2 8.4 6.7C7 7.1 6.2 8.4 6.2 9.8C6.2 10.5 6.4 11.2 6.8 11.7C6.3 12.4 6 13.2 6 14.1C6 15.8 7.1 17.2 8.7 17.9C9 19.4 10.4 20.4 12 20.4C13.6 20.4 15 19.4 15.3 17.9C16.9 17.2 18 15.8 18 14.1C18 13.2 17.7 12.4 17.2 11.7C17.6 11.2 17.8 10.5 17.8 9.8C17.8 8.4 17 7.1 15.6 6.7C15.5 5.2 14.2 3.6 12 3.6Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "folds",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 4V20"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "skull",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 3.4C9.7 3.4 8.4 5 8.3 6.5C6.8 6.9 6 8.3 6 9.7C6 10.5 6.3 11.2 6.7 11.7C6.1 12.4 5.8 13.3 5.8 14.2C5.8 15.9 6.9 17.4 8.6 18C8.9 19.6 10.3 20.6 12 20.6C13.7 20.6 15.1 19.6 15.4 18C17.1 17.4 18.2 15.9 18.2 14.2C18.2 13.3 17.9 12.4 17.3 11.7C17.7 11.2 18 10.5 18 9.7C18 8.3 17.2 6.9 15.7 6.5C15.6 5 14.3 3.4 12 3.4Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "folds",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 3.6V20.4"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8.4 8.4C9.6 8.9 10.4 9.9 10.6 11"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M15.6 8.4C14.4 8.9 13.6 9.9 13.4 11"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9 14.6C10 14.2 10.9 14.4 11.6 15.2"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M15 14.6C14 14.2 13.1 14.4 12.4 15.2"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "skull",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 3.4C9.7 3.4 8.4 5 8.3 6.5C6.8 6.9 6 8.3 6 9.7C6 10.5 6.3 11.2 6.7 11.7C6.1 12.4 5.8 13.3 5.8 14.2C5.8 15.9 6.9 17.4 8.6 18C8.9 19.6 10.3 20.6 12 20.6C13.7 20.6 15.1 19.6 15.4 18C17.1 17.4 18.2 15.9 18.2 14.2C18.2 13.3 17.9 12.4 17.3 11.7C17.7 11.2 18 10.5 18 9.7C18 8.3 17.2 6.9 15.7 6.5C15.6 5 14.3 3.4 12 3.4Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "folds",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 3.6V20.4"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8.4 8.4C9.6 8.9 10.4 9.9 10.6 11"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M15.6 8.4C14.4 8.9 13.6 9.9 13.4 11"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9 14.6C10 14.2 10.9 14.4 11.6 15.2"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M15 14.6C14 14.2 13.1 14.4 12.4 15.2"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "skull"
+          ]
+        },
+        "multicolor": {
+          "skull": "bloom.500",
+          "folds": "bloom.500"
+        }
+      },
+      "geometryHash": "76dbb3a20607b0d41cb88e5b470128771246cc8175893962a41dafb419143829"
+    },
     "utility.bug": {
       "id": "utility.bug",
       "tier": "P1",
@@ -21489,6 +26217,156 @@
       },
       "geometryHash": "388d30afb6d1d7de1da8eacc0accb67b6665137f26a112c3581c40cb70a8c50f"
     },
+    "utility.hand": {
+      "id": "utility.hand",
+      "tier": "P1",
+      "verdict": "keep",
+      "category": "utility",
+      "label": "Hand",
+      "keywords": [
+        "hand",
+        "palm",
+        "raise",
+        "fingers",
+        "stop"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v2": "utility.hand",
+        "v3": "utility.hand"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "hand",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M6.6 13.2V6.6a1.4 1.4 0 0 1 2.8 0V11"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9.4 10.4V4.8a1.4 1.4 0 0 1 2.8 0V10.4"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12.2 10.4V4.4a1.4 1.4 0 0 1 2.8 0V11"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M15 11V6.2a1.4 1.4 0 0 1 2.8 0V15c0 3.2-2.3 5.9-5.8 5.9-2 0-3.6-.8-4.8-2.3L4.2 15.5a1.4 1.4 0 0 1 2.2-1.8Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "hand",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M6.5 13V6.4a1.3 1.3 0 0 1 2.6 0V11"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9.1 10.2V4.6a1.3 1.3 0 0 1 2.6 0V10.4"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M11.7 10.4V4.2a1.3 1.3 0 0 1 2.6 0V10.8"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M14.3 10.8V6a1.3 1.3 0 0 1 2.6 0V15c0 3.3-2.3 6-6 6-2 0-3.6-.8-4.8-2.3L4 15.4a1.35 1.35 0 0 1 2.1-1.7Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "hand",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M6.5 13V6.4a1.3 1.3 0 0 1 2.6 0V11"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9.1 10.2V4.6a1.3 1.3 0 0 1 2.6 0V10.4"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M11.7 10.4V4.2a1.3 1.3 0 0 1 2.6 0V10.8"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M14.3 10.8V6a1.3 1.3 0 0 1 2.6 0V15c0 3.3-2.3 6-6 6-2 0-3.6-.8-4.8-2.3L4 15.4a1.35 1.35 0 0 1 2.1-1.7Z"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "hand"
+          ]
+        },
+        "multicolor": {
+          "hand": "ink.900"
+        }
+      },
+      "geometryHash": "b2c148d73357b62cca1d54f14a415916d784e849f58f689dc2b637df674a0795"
+    },
     "utility.handshake": {
       "id": "utility.handshake",
       "tier": "P1",
@@ -24166,6 +29044,139 @@
       },
       "geometryHash": "de2465ad570233aea59d0984a17f1e48f52a4ef6c4ccedea500af46bc16d0d2c"
     },
+    "utility.moon.star": {
+      "id": "utility.moon.star",
+      "tier": "P1",
+      "verdict": "refine",
+      "category": "utility",
+      "label": "Moon & star",
+      "keywords": [
+        "moon",
+        "star",
+        "night",
+        "sleep",
+        "dark"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v2": "utility.moon.star",
+        "v3": "utility.moon.star"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "moon",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M20.5 15.6A8.6 8.6 0 1 1 9.6 4.4A6.9 6.9 0 0 0 20.5 15.6Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "star",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M18.2 2.8 19.3 5.25 22 5.55 20 7.4 20.55 10 18.2 8.65 15.85 10 16.4 7.4 14.4 5.55 17.1 5.25Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "moon",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M20.5 15.2A8.4 8.4 0 1 1 10 4.2A6.6 6.6 0 0 0 20.5 15.2Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "star",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M18.2 3.2 19.15 5.35 21.5 5.6 19.75 7.2 20.25 9.5 18.2 8.3 16.15 9.5 16.65 7.2 14.9 5.6 17.25 5.35Z"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "moon",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M20.5 15.2A8.4 8.4 0 1 1 10 4.2A6.6 6.6 0 0 0 20.5 15.2Z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "star",
+              "role": "accent",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M18.2 3.2 19.15 5.35 21.5 5.6 19.75 7.2 20.25 9.5 18.2 8.3 16.15 9.5 16.65 7.2 14.9 5.6 17.25 5.35Z"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "moon"
+          ]
+        },
+        "multicolor": {
+          "moon": "ink.900",
+          "star": "sun.300"
+        }
+      },
+      "geometryHash": "111b4d9c6b3cbf496fc26394621e08f831dbdf8a33cbb086c16ca9c8c45928cc"
+    },
     "utility.more.horizontal": {
       "id": "utility.more.horizontal",
       "tier": "P1",
@@ -24311,6 +29322,212 @@
         }
       },
       "geometryHash": "a191efbd57c9370e7ba74ec7480470d48598653cf31fc1caf42d4d9690418ec3"
+    },
+    "utility.move": {
+      "id": "utility.move",
+      "tier": "P1",
+      "verdict": "keep",
+      "category": "utility",
+      "label": "Move",
+      "keywords": [
+        "move",
+        "drag",
+        "arrows",
+        "reposition",
+        "pan"
+      ],
+      "accessibility": "decorative",
+      "provenance": {
+        "v2": "utility.move",
+        "v3": "utility.move"
+      },
+      "grades": {
+        "micro": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "cross",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 3.4V20.6"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M3.4 12H20.6"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "heads",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8.8 6.2 12 3 15.2 6.2"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M8.8 17.8 12 21 15.2 17.8"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M6.2 8.8 3 12 6.2 15.2"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M17.8 8.8 21 12 17.8 15.2"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "base": {
+          "authored": true,
+          "layers": [
+            {
+              "name": "cross",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 3.2V20.8"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M3.2 12H20.8"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "heads",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9 6 12 3 15 6"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9 18 12 21 15 18"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M6 9 3 12 6 15"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M18 9 21 12 18 15"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "display": {
+          "authored": false,
+          "layers": [
+            {
+              "name": "cross",
+              "role": "primary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M12 3.2V20.8"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M3.2 12H20.8"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "heads",
+              "role": "secondary",
+              "nodes": [
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9 6 12 3 15 6"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M9 18 12 21 15 18"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M6 9 3 12 6 15"
+                  }
+                },
+                {
+                  "type": "path",
+                  "attrs": {
+                    "d": "M18 9 21 12 18 15"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "solid": {
+        "base": {
+          "mode": "bold",
+          "strokeWidth": 3.1,
+          "counters": 0
+        },
+        "micro": {
+          "mode": "bold",
+          "strokeWidth": 3.3,
+          "counters": 0
+        },
+        "display": null
+      },
+      "variants": {
+        "duotone": {
+          "primary": [
+            "cross",
+            "heads"
+          ]
+        },
+        "multicolor": {
+          "cross": "ink.900",
+          "heads": "ink.900"
+        }
+      },
+      "geometryHash": "10e7287c28559b940114bcddccf44d44286dd167993dcc27f0529aea243298a6"
     },
     "utility.orbit": {
       "id": "utility.orbit",
@@ -31794,5 +37011,5 @@
       "geometryHash": "c8adca5fd52a81c39ce950dbcf50bf48657905eac8cd4fa2138e30c4ed54f3ec"
     }
   },
-  "v4Hash": "5bb26078101916dcab888a399aaaa4dbef858532ec4bec3fd820d80f7f986011"
+  "v4Hash": "5c17109caec158aa49b07c8f61ff61b5c9662d2af484748da61c1ce52112809c"
 }

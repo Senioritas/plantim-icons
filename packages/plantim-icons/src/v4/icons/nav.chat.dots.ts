@@ -1,0 +1,135 @@
+// GENERATED FILE - do not edit by hand.
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 5c17109caec158aa49b07c8f61ff61b5c9662d2af484748da61c1ce52112809c).
+// Regenerate with: npm run icons:v4:package
+import type { PlantimIconV4Definition } from "../index.js";
+
+export const NavChatDots: PlantimIconV4Definition = {
+  "id": "nav.chat.dots",
+  "label": "Chat (typing)",
+  "tier": "P2",
+  "grades": {
+    "micro": {
+      "layers": [
+        {
+          "name": "bubble",
+          "role": "primary",
+          "nodes": [
+            {
+              "type": "path",
+              "attrs": {
+                "d": "M8.1 19.6A8.5 8.5 0 1 0 4.35 15.9L3.1 20.9Z"
+              }
+            }
+          ]
+        },
+        {
+          "name": "dots",
+          "role": "accent",
+          "nodes": [
+            {
+              "type": "circle",
+              "attrs": {
+                "cx": "8.2",
+                "cy": "12",
+                "r": "1.6"
+              },
+              "filled": true
+            },
+            {
+              "type": "circle",
+              "attrs": {
+                "cx": "12",
+                "cy": "12",
+                "r": "1.6"
+              },
+              "filled": true
+            },
+            {
+              "type": "circle",
+              "attrs": {
+                "cx": "15.8",
+                "cy": "12",
+                "r": "1.6"
+              },
+              "filled": true
+            }
+          ]
+        }
+      ]
+    },
+    "base": {
+      "layers": [
+        {
+          "name": "bubble",
+          "role": "primary",
+          "nodes": [
+            {
+              "type": "path",
+              "attrs": {
+                "d": "M8.1 19.6A8.5 8.5 0 1 0 4.35 15.9L3.1 20.9Z"
+              }
+            }
+          ]
+        },
+        {
+          "name": "dots",
+          "role": "accent",
+          "nodes": [
+            {
+              "type": "circle",
+              "attrs": {
+                "cx": "8.1",
+                "cy": "12",
+                "r": "1.2"
+              },
+              "filled": true
+            },
+            {
+              "type": "circle",
+              "attrs": {
+                "cx": "11.9",
+                "cy": "12",
+                "r": "1.2"
+              },
+              "filled": true
+            },
+            {
+              "type": "circle",
+              "attrs": {
+                "cx": "15.7",
+                "cy": "12",
+                "r": "1.2"
+              },
+              "filled": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "solid": {
+    "micro": {
+      "mode": "bold",
+      "strokeWidth": 3.3,
+      "counters": 0
+    },
+    "base": {
+      "mode": "bold",
+      "strokeWidth": 3.1,
+      "counters": 0
+    }
+  },
+  "variants": {
+    "duotone": {
+      "primary": [
+        "bubble"
+      ]
+    },
+    "multicolor": {
+      "bubble": "leaf.700",
+      "dots": "leaf.300"
+    }
+  }
+};
+
+export default NavChatDots;
