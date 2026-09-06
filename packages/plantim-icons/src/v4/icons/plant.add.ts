@@ -1,59 +1,79 @@
 // GENERATED FILE - do not edit by hand.
-// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 8918930f0901ef326303681d0b07a17a8d539f03b71776012e2defbe70af3284).
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 5bb26078101916dcab888a399aaaa4dbef858532ec4bec3fd820d80f7f986011).
 // Regenerate with: npm run icons:v4:package
 import type { PlantimIconV4Definition } from "../index.js";
 
 export const PlantAdd: PlantimIconV4Definition = {
   "id": "plant.add",
-  "label": "Add",
+  "label": "Add plant",
   "tier": "P2",
   "grades": {
     "micro": {
       "layers": [
         {
-          "name": "primary",
+          "name": "ground",
+          "role": "container",
+          "nodes": [
+            {
+              "type": "path",
+              "attrs": {
+                "d": "M3 21h11"
+              }
+            }
+          ]
+        },
+        {
+          "name": "stem",
           "role": "primary",
           "nodes": [
             {
               "type": "path",
               "attrs": {
-                "d": "M5 13L13 13"
+                "d": "M8.5 21v-6"
+              }
+            }
+          ]
+        },
+        {
+          "name": "leaves",
+          "role": "secondary",
+          "nodes": [
+            {
+              "type": "path",
+              "attrs": {
+                "d": "M8.5 15C6.7 15.4 4.7 14.4 4.3 11.9C6.6 11.5 8.4 12.7 8.5 15Z"
               }
             },
             {
               "type": "path",
               "attrs": {
-                "d": "M6 13l1 7h5l1-7"
+                "d": "M8.5 15C10.3 15.4 12.3 14.4 12.7 11.9C10.4 11.5 8.6 12.7 8.5 15Z"
+              }
+            }
+          ]
+        },
+        {
+          "name": "badge",
+          "role": "accent",
+          "nodes": [
+            {
+              "type": "circle",
+              "attrs": {
+                "cx": "18",
+                "cy": "6.5",
+                "r": "4.5"
               }
             },
             {
               "type": "path",
               "attrs": {
-                "d": "M9.5 13L9.5 9"
+                "d": "M18 4.5v4"
               }
             },
             {
               "type": "path",
               "attrs": {
-                "d": "M9.5 10.5c-1-1-2.5-.8-3 .5"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M9.5 10.5c1-1 2.5-.8 3 .5"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M18 5L18 10"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M15.5 7.5L20.5 7.5"
+                "d": "M15.5 6.5h5"
               }
             }
           ]
@@ -63,49 +83,69 @@ export const PlantAdd: PlantimIconV4Definition = {
     "base": {
       "layers": [
         {
-          "name": "primary",
+          "name": "ground",
+          "role": "container",
+          "nodes": [
+            {
+              "type": "path",
+              "attrs": {
+                "d": "M3 21h11"
+              }
+            }
+          ]
+        },
+        {
+          "name": "stem",
           "role": "primary",
           "nodes": [
             {
               "type": "path",
               "attrs": {
-                "d": "M5 13L13 13"
+                "d": "M8.5 21v-6"
+              }
+            }
+          ]
+        },
+        {
+          "name": "leaves",
+          "role": "secondary",
+          "nodes": [
+            {
+              "type": "path",
+              "attrs": {
+                "d": "M8.5 15C6.7 15.4 4.7 14.4 4.3 11.9C6.6 11.5 8.4 12.7 8.5 15Z"
               }
             },
             {
               "type": "path",
               "attrs": {
-                "d": "M6 13l1 7h5l1-7"
+                "d": "M8.5 15C10.3 15.4 12.3 14.4 12.7 11.9C10.4 11.5 8.6 12.7 8.5 15Z"
+              }
+            }
+          ]
+        },
+        {
+          "name": "badge",
+          "role": "accent",
+          "nodes": [
+            {
+              "type": "circle",
+              "attrs": {
+                "cx": "18",
+                "cy": "7",
+                "r": "4"
               }
             },
             {
               "type": "path",
               "attrs": {
-                "d": "M9.5 13L9.5 9"
+                "d": "M18 5.2v3.6"
               }
             },
             {
               "type": "path",
               "attrs": {
-                "d": "M9.5 10.5c-1-1-2.5-.8-3 .5"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M9.5 10.5c1-1 2.5-.8 3 .5"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M18 5L18 10"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M15.5 7.5L20.5 7.5"
+                "d": "M16.2 7h3.6"
               }
             }
           ]
@@ -128,11 +168,16 @@ export const PlantAdd: PlantimIconV4Definition = {
   "variants": {
     "duotone": {
       "primary": [
-        "primary"
+        "stem",
+        "leaves",
+        "badge"
       ]
     },
     "multicolor": {
-      "primary": "leaf.700"
+      "ground": "earth.600",
+      "stem": "leaf.700",
+      "leaves": "leaf.500",
+      "badge": "leaf.700"
     }
   }
 };

@@ -8,6 +8,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { transcribe } from "../../../bin/lib/v2-to-v4.mjs";
+import { REWORKED } from "../../../bin/lib/v4-reworked.mjs";
 
 const root = path.resolve(import.meta.dirname, "../../../..");
 const registry = JSON.parse(fs.readFileSync(path.join(root, "design-tokens/icons/registry.json"), "utf8"));
@@ -137,7 +138,7 @@ OVERRIDES["utility.settings"] = {
 const out = [];
 for (const [id, meta] of Object.entries(tiers.icons)) {
   if (meta.tier !== "P1") continue;
-  if (HAND_AUTHORED.has(id)) continue;
+  if (HAND_AUTHORED.has(id) || REWORKED.has(id)) continue;
   const entry = v2.get(id);
   if (!entry) continue; // P1 is all v2-backed; anything else handled elsewhere
   out.push(

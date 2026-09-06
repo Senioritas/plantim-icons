@@ -1,5 +1,5 @@
 // GENERATED FILE - do not edit by hand.
-// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 8918930f0901ef326303681d0b07a17a8d539f03b71776012e2defbe70af3284).
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 5bb26078101916dcab888a399aaaa4dbef858532ec4bec3fd820d80f7f986011).
 // Regenerate with: npm run icons:v4:package
 import type { PlantimIconV4Definition } from "../index.js";
 
@@ -106,6 +106,18 @@ export const PlantGrowth: PlantimIconV4Definition = {
               "type": "path",
               "attrs": {
                 "d": "M15.2 9.5C17.1 9.9 19.4 9.1 19.9 6.9C20 6.4 20 5.9 19.9 5.4C17.3 5 15.3 6.9 15.2 9.5Z"
+              }
+            },
+            {
+              "type": "path",
+              "attrs": {
+                "d": "M5.6 9C7 9.8 8.2 10.8 8.8 12"
+              }
+            },
+            {
+              "type": "path",
+              "attrs": {
+                "d": "M18.4 6.5C17 7.3 15.8 8.3 15.2 9.5"
               }
             }
           ]

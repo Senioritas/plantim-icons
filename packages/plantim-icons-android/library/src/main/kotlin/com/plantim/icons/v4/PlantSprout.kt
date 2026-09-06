@@ -69,6 +69,24 @@ private fun buildPlantSproutOutline(): ImageVector =
             curveTo(15.5f, 6.3f, 12.3f, 8.9f, 12f, 13f)
             close()
         }
+        path(
+            stroke = SolidColor(Color.Black),
+            strokeLineWidth = 2f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round,
+        ) {
+            moveTo(6.6f, 8.2f)
+            curveTo(8.4f, 9.3f, 10.8f, 11.1f, 12f, 13f)
+        }
+        path(
+            stroke = SolidColor(Color.Black),
+            strokeLineWidth = 2f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round,
+        ) {
+            moveTo(17.4f, 8.2f)
+            curveTo(15.6f, 9.3f, 13.2f, 11.1f, 12f, 13f)
+        }
     }.build()
 
 /** `plant.sprout` outline variant, micro grade. */
@@ -466,6 +484,24 @@ private fun buildPlantSproutDuotone(): ImageVector =
             curveTo(15.5f, 6.3f, 12.3f, 8.9f, 12f, 13f)
             close()
         }
+        path(
+            stroke = SolidColor(Color.Black),
+            strokeLineWidth = 2f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round,
+        ) {
+            moveTo(6.6f, 8.2f)
+            curveTo(8.4f, 9.3f, 10.8f, 11.1f, 12f, 13f)
+        }
+        path(
+            stroke = SolidColor(Color.Black),
+            strokeLineWidth = 2f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round,
+        ) {
+            moveTo(17.4f, 8.2f)
+            curveTo(15.6f, 9.3f, 13.2f, 11.1f, 12f, 13f)
+        }
     }.build()
 
 /** `plant.sprout` duotone variant, micro grade. */
@@ -668,6 +704,24 @@ private fun buildPlantSproutMulticolor(): ImageVector =
             curveTo(19.5f, 9.2f, 19.4f, 8f, 19.2f, 7f)
             curveTo(15.5f, 6.3f, 12.3f, 8.9f, 12f, 13f)
             close()
+        }
+        path(
+            stroke = SolidColor(Color(0xFF43A047)),
+            strokeLineWidth = 2f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round,
+        ) {
+            moveTo(6.6f, 8.2f)
+            curveTo(8.4f, 9.3f, 10.8f, 11.1f, 12f, 13f)
+        }
+        path(
+            stroke = SolidColor(Color(0xFF43A047)),
+            strokeLineWidth = 2f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round,
+        ) {
+            moveTo(17.4f, 8.2f)
+            curveTo(15.6f, 9.3f, 13.2f, 11.1f, 12f, 13f)
         }
     }.build()
 

@@ -6,39 +6,33 @@ export const HealthAttention = {
         "micro": {
             "layers": [
                 {
-                    "name": "primary",
+                    "name": "leaf",
                     "role": "primary",
                     "nodes": [
                         {
                             "type": "path",
                             "attrs": {
-                                "d": "M5 19C5 12 10 6 19 6c0 9-7 13-14 13z"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M5 19 14 10"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M12 11.5L12 14"
+                                "d": "M17.5 3.5C9.5 4 4 9.5 4 17.5C12 17 17 11.5 17.5 3.5Z"
                             }
                         }
                     ]
                 },
                 {
-                    "name": "accent",
+                    "name": "badge",
                     "role": "accent",
                     "nodes": [
                         {
+                            "type": "path",
+                            "attrs": {
+                                "d": "M17.5 14.5v3.4"
+                            }
+                        },
+                        {
                             "type": "circle",
                             "attrs": {
-                                "cx": "12",
-                                "cy": "16.5",
-                                "r": "1.1"
+                                "cx": "17.5",
+                                "cy": "20.4",
+                                "r": "1"
                             },
                             "filled": true
                         }
@@ -49,39 +43,39 @@ export const HealthAttention = {
         "base": {
             "layers": [
                 {
-                    "name": "primary",
+                    "name": "leaf",
                     "role": "primary",
                     "nodes": [
                         {
                             "type": "path",
                             "attrs": {
-                                "d": "M5 19C5 12 10 6 19 6c0 9-7 13-14 13z"
+                                "d": "M17.5 3.5C9.5 4 4 9.5 4 17.5C12 17 17 11.5 17.5 3.5Z"
                             }
                         },
                         {
                             "type": "path",
                             "attrs": {
-                                "d": "M5 19 14 10"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M12 11.5L12 14"
+                                "d": "M7.5 14 14 7.5"
                             }
                         }
                     ]
                 },
                 {
-                    "name": "accent",
+                    "name": "badge",
                     "role": "accent",
                     "nodes": [
                         {
+                            "type": "path",
+                            "attrs": {
+                                "d": "M17.5 14.5v3.4"
+                            }
+                        },
+                        {
                             "type": "circle",
                             "attrs": {
-                                "cx": "12",
-                                "cy": "16.5",
-                                "r": "1.1"
+                                "cx": "17.5",
+                                "cy": "20.4",
+                                "r": "1"
                             },
                             "filled": true
                         }
@@ -105,12 +99,13 @@ export const HealthAttention = {
     "variants": {
         "duotone": {
             "primary": [
-                "primary"
+                "leaf",
+                "badge"
             ]
         },
         "multicolor": {
-            "primary": "status.warning",
-            "accent": "status.warning"
+            "leaf": "status.warning",
+            "badge": "status.warning"
         }
     }
 };

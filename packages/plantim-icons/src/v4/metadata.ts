@@ -1,5 +1,5 @@
 // GENERATED FILE - do not edit by hand.
-// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 8918930f0901ef326303681d0b07a17a8d539f03b71776012e2defbe70af3284).
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 5bb26078101916dcab888a399aaaa4dbef858532ec4bec3fd820d80f7f986011).
 // Regenerate with: npm run icons:v4:package
 export { PLANTIM_ICONS_V4_HASH, PLANTIM_ICONS_V4_VERSION } from "./index.js";
 export type { PlantimIconV4Tier } from "./index.js";
@@ -151,20 +151,6 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "label": "Watering Alt",
     "category": "care"
   },
-  "family.apiaceae": {
-    "id": "family.apiaceae",
-    "tier": "P2",
-    "verdict": "redraw",
-    "label": "Apiaceae",
-    "category": "family"
-  },
-  "family.araceae": {
-    "id": "family.araceae",
-    "tier": "P2",
-    "verdict": "redraw",
-    "label": "Araceae",
-    "category": "family"
-  },
   "family.arecaceae": {
     "id": "family.arecaceae",
     "tier": "P2",
@@ -184,20 +170,6 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "tier": "P2",
     "verdict": "redraw",
     "label": "Asphodelaceae",
-    "category": "family"
-  },
-  "family.begoniaceae": {
-    "id": "family.begoniaceae",
-    "tier": "P2",
-    "verdict": "redraw",
-    "label": "Begoniaceae",
-    "category": "family"
-  },
-  "family.bromeliaceae": {
-    "id": "family.bromeliaceae",
-    "tier": "P2",
-    "verdict": "redraw",
-    "label": "Bromeliaceae",
     "category": "family"
   },
   "family.cactaceae": {
@@ -235,32 +207,11 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "label": "Moraceae",
     "category": "family"
   },
-  "family.nephrolepidaceae": {
-    "id": "family.nephrolepidaceae",
-    "tier": "P2",
-    "verdict": "redraw",
-    "label": "Nephrolepidaceae",
-    "category": "family"
-  },
   "family.orchidaceae": {
     "id": "family.orchidaceae",
     "tier": "P2",
     "verdict": "redraw",
     "label": "Orchidaceae",
-    "category": "family"
-  },
-  "family.piperaceae": {
-    "id": "family.piperaceae",
-    "tier": "P2",
-    "verdict": "redraw",
-    "label": "Piperaceae",
-    "category": "family"
-  },
-  "family.polypodiaceae": {
-    "id": "family.polypodiaceae",
-    "tier": "P2",
-    "verdict": "redraw",
-    "label": "Polypodiaceae",
     "category": "family"
   },
   "garden.compost": {
@@ -277,13 +228,6 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "label": "Fork",
     "category": "garden"
   },
-  "garden.gloves": {
-    "id": "garden.gloves",
-    "tier": "P2",
-    "verdict": "redraw",
-    "label": "Gloves",
-    "category": "garden"
-  },
   "garden.greenhouse": {
     "id": "garden.greenhouse",
     "tier": "P2",
@@ -291,32 +235,11 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "label": "Greenhouse",
     "category": "garden"
   },
-  "garden.hoe": {
-    "id": "garden.hoe",
-    "tier": "P2",
-    "verdict": "redraw",
-    "label": "Hoe",
-    "category": "garden"
-  },
-  "garden.hose": {
-    "id": "garden.hose",
-    "tier": "P2",
-    "verdict": "redraw",
-    "label": "Hose",
-    "category": "garden"
-  },
   "garden.pot": {
     "id": "garden.pot",
     "tier": "P2",
     "verdict": "keep",
     "label": "Pot",
-    "category": "garden"
-  },
-  "garden.rake": {
-    "id": "garden.rake",
-    "tier": "P2",
-    "verdict": "redraw",
-    "label": "Rake",
     "category": "garden"
   },
   "garden.seed-packet": {
@@ -333,27 +256,6 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "label": "Shears",
     "category": "garden"
   },
-  "garden.spade": {
-    "id": "garden.spade",
-    "tier": "P2",
-    "verdict": "redraw",
-    "label": "Spade",
-    "category": "garden"
-  },
-  "garden.sprinkler": {
-    "id": "garden.sprinkler",
-    "tier": "P2",
-    "verdict": "redraw",
-    "label": "Sprinkler",
-    "category": "garden"
-  },
-  "garden.trowel": {
-    "id": "garden.trowel",
-    "tier": "P2",
-    "verdict": "redraw",
-    "label": "Trowel",
-    "category": "garden"
-  },
   "garden.wheelbarrow": {
     "id": "garden.wheelbarrow",
     "tier": "P2",
@@ -366,13 +268,6 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "tier": "P2",
     "verdict": "redraw",
     "label": "Aloe",
-    "category": "genus"
-  },
-  "genus.cactus": {
-    "id": "genus.cactus",
-    "tier": "P2",
-    "verdict": "redraw",
-    "label": "Cactus",
     "category": "genus"
   },
   "genus.calathea": {
@@ -389,32 +284,11 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "label": "Fern",
     "category": "genus"
   },
-  "genus.ficus": {
-    "id": "genus.ficus",
-    "tier": "P2",
-    "verdict": "redraw",
-    "label": "Ficus",
-    "category": "genus"
-  },
   "genus.monstera": {
     "id": "genus.monstera",
     "tier": "P2",
     "verdict": "redraw",
     "label": "Monstera",
-    "category": "genus"
-  },
-  "genus.orchid": {
-    "id": "genus.orchid",
-    "tier": "P2",
-    "verdict": "redraw",
-    "label": "Orchid",
-    "category": "genus"
-  },
-  "genus.palm": {
-    "id": "genus.palm",
-    "tier": "P2",
-    "verdict": "refine",
-    "label": "Palm",
     "category": "genus"
   },
   "genus.peperomia": {
@@ -436,13 +310,6 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "tier": "P2",
     "verdict": "refine",
     "label": "Sansevieria",
-    "category": "genus"
-  },
-  "genus.succulent": {
-    "id": "genus.succulent",
-    "tier": "P2",
-    "verdict": "redraw",
-    "label": "Succulent",
     "category": "genus"
   },
   "health.attention": {
@@ -480,13 +347,6 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "label": "Calendar Check",
     "category": "nav"
   },
-  "nav.calendar.leaf": {
-    "id": "nav.calendar.leaf",
-    "tier": "P2",
-    "verdict": "refine",
-    "label": "Calendar Leaf",
-    "category": "nav"
-  },
   "nav.calendar.plain": {
     "id": "nav.calendar.plain",
     "tier": "P2",
@@ -499,27 +359,6 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "tier": "P2",
     "verdict": "refine",
     "label": "Chat Bubble",
-    "category": "nav"
-  },
-  "nav.chat.dots": {
-    "id": "nav.chat.dots",
-    "tier": "P2",
-    "verdict": "refine",
-    "label": "Chat Dots",
-    "category": "nav"
-  },
-  "nav.chat.leaf": {
-    "id": "nav.chat.leaf",
-    "tier": "P2",
-    "verdict": "refine",
-    "label": "Chat Leaf",
-    "category": "nav"
-  },
-  "nav.feed.cards": {
-    "id": "nav.feed.cards",
-    "tier": "P2",
-    "verdict": "redraw",
-    "label": "Feed Cards",
     "category": "nav"
   },
   "nav.feed.stream": {
@@ -557,13 +396,6 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "label": "Garden Sprouts",
     "category": "nav"
   },
-  "nav.plant.leaf": {
-    "id": "nav.plant.leaf",
-    "tier": "P2",
-    "verdict": "redraw",
-    "label": "Plant Leaf",
-    "category": "nav"
-  },
   "nav.plant.potted": {
     "id": "nav.plant.potted",
     "tier": "P2",
@@ -576,13 +408,6 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "tier": "P2",
     "verdict": "refine",
     "label": "Plant Sprout",
-    "category": "nav"
-  },
-  "nav.today.leaf": {
-    "id": "nav.today.leaf",
-    "tier": "P2",
-    "verdict": "redraw",
-    "label": "Today Leaf",
     "category": "nav"
   },
   "nav.today.sun": {
@@ -660,7 +485,7 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "id": "plant.add",
     "tier": "P2",
     "verdict": "redraw",
-    "label": "Add",
+    "label": "Add plant",
     "category": "lifecycle"
   },
   "plant.growth": {
@@ -682,14 +507,14 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "id": "plant.related",
     "tier": "P2",
     "verdict": "redraw",
-    "label": "Related",
+    "label": "Related plants",
     "category": "lifecycle"
   },
   "plant.remove": {
     "id": "plant.remove",
     "tier": "P2",
     "verdict": "redraw",
-    "label": "Remove",
+    "label": "Remove plant",
     "category": "lifecycle"
   },
   "plant.seedling": {
@@ -725,7 +550,7 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "id": "plant.watering.can",
     "tier": "P2",
     "verdict": "redraw",
-    "label": "Watering Can",
+    "label": "Watering can",
     "category": "plant"
   },
   "plant.wilting": {
@@ -930,13 +755,6 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "tier": "P1",
     "verdict": "refine",
     "label": "Bot",
-    "category": "utility"
-  },
-  "utility.brain": {
-    "id": "utility.brain",
-    "tier": "P1",
-    "verdict": "refine",
-    "label": "Brain",
     "category": "utility"
   },
   "utility.bug": {
@@ -1149,13 +967,6 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "label": "Grid2x2",
     "category": "utility"
   },
-  "utility.hand": {
-    "id": "utility.hand",
-    "tier": "P1",
-    "verdict": "keep",
-    "label": "Hand",
-    "category": "utility"
-  },
   "utility.handshake": {
     "id": "utility.handshake",
     "tier": "P1",
@@ -1297,25 +1108,11 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "label": "Monitor Smartphone",
     "category": "utility"
   },
-  "utility.moon.star": {
-    "id": "utility.moon.star",
-    "tier": "P1",
-    "verdict": "refine",
-    "label": "Moon Star",
-    "category": "utility"
-  },
   "utility.more.horizontal": {
     "id": "utility.more.horizontal",
     "tier": "P1",
     "verdict": "keep",
     "label": "More Horizontal",
-    "category": "utility"
-  },
-  "utility.move": {
-    "id": "utility.move",
-    "tier": "P1",
-    "verdict": "keep",
-    "label": "Move",
     "category": "utility"
   },
   "utility.orbit": {

@@ -6,31 +6,43 @@ export const PlantThriving = {
         "micro": {
             "layers": [
                 {
-                    "name": "primary",
+                    "name": "ground",
+                    "role": "container",
+                    "nodes": [
+                        {
+                            "type": "path",
+                            "attrs": {
+                                "d": "M6 21h12"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "stem",
                     "role": "primary",
                     "nodes": [
                         {
                             "type": "path",
                             "attrs": {
-                                "d": "M12 21V12"
+                                "d": "M12 21V9"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "leaves",
+                    "role": "secondary",
+                    "nodes": [
+                        {
+                            "type": "path",
+                            "attrs": {
+                                "d": "M12 16C9.5 16.4 6.8 15 6.4 12C9 11.6 11.6 13 12 16Z"
                             }
                         },
                         {
                             "type": "path",
                             "attrs": {
-                                "d": "M5 12C5 7 8 4 12 4s7 3 7 8"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M9 16c0 0 1.5-3 3-3s3 3 3 3"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M7 9c0 0 2-1 5-1"
+                                "d": "M12 13C14.5 13.4 17.2 12 17.6 9C15 8.6 12.4 10 12 13Z"
                             }
                         }
                     ]
@@ -40,31 +52,67 @@ export const PlantThriving = {
         "base": {
             "layers": [
                 {
-                    "name": "primary",
+                    "name": "ground",
+                    "role": "container",
+                    "nodes": [
+                        {
+                            "type": "path",
+                            "attrs": {
+                                "d": "M6 21h12"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "stem",
                     "role": "primary",
                     "nodes": [
                         {
                             "type": "path",
                             "attrs": {
-                                "d": "M12 21V12"
+                                "d": "M12 21V8"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "leaves",
+                    "role": "secondary",
+                    "nodes": [
+                        {
+                            "type": "path",
+                            "attrs": {
+                                "d": "M12 16C9.5 16.4 6.8 15 6.4 12C9 11.6 11.6 13 12 16Z"
                             }
                         },
                         {
                             "type": "path",
                             "attrs": {
-                                "d": "M5 12C5 7 8 4 12 4s7 3 7 8"
+                                "d": "M12 13C14.5 13.4 17.2 12 17.6 9C15 8.6 12.4 10 12 13Z"
                             }
                         },
                         {
                             "type": "path",
                             "attrs": {
-                                "d": "M9 16c0 0 1.5-3 3-3s3 3 3 3"
+                                "d": "M12 8.5C10 8 8.5 6 8.6 3.5C11 4 12.4 6 12 8.5Z"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "spark",
+                    "role": "accent",
+                    "nodes": [
+                        {
+                            "type": "path",
+                            "attrs": {
+                                "d": "M18 3.5v3"
                             }
                         },
                         {
                             "type": "path",
                             "attrs": {
-                                "d": "M7 9c0 0 2-1 5-1"
+                                "d": "M16.5 5h3"
                             }
                         }
                     ]
@@ -87,11 +135,15 @@ export const PlantThriving = {
     "variants": {
         "duotone": {
             "primary": [
-                "primary"
+                "stem",
+                "leaves"
             ]
         },
         "multicolor": {
-            "primary": "leaf.700"
+            "ground": "earth.600",
+            "stem": "leaf.700",
+            "leaves": "leaf.500",
+            "spark": "sun.500"
         }
     }
 };

@@ -1,10 +1,10 @@
 // GENERATED FILE - do not edit by hand.
-// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 8918930f0901ef326303681d0b07a17a8d539f03b71776012e2defbe70af3284).
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 5bb26078101916dcab888a399aaaa4dbef858532ec4bec3fd820d80f7f986011).
 // Regenerate with: npm run icons:v4:package
 import { defineComponent, h, type PropType } from "vue";
 
 export const PLANTIM_ICONS_V4_VERSION = "4.0.0" as const;
-export const PLANTIM_ICONS_V4_HASH = "8918930f0901ef326303681d0b07a17a8d539f03b71776012e2defbe70af3284" as const;
+export const PLANTIM_ICONS_V4_HASH = "5bb26078101916dcab888a399aaaa4dbef858532ec4bec3fd820d80f7f986011" as const;
 
 export type PlantimIconV4Variant = "outline" | "solid" | "duotone" | "multicolor";
 export type PlantimIconV4Grade = "micro" | "base" | "display";

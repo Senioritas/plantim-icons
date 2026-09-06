@@ -41,4 +41,18 @@
         android:strokeWidth="2"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
+    <path
+        android:pathData="M5.6 9C7 9.8 8.2 10.8 8.8 12"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="@color/plantim_v4_leaf_500"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M18.4 6.5C17 7.3 15.8 8.3 15.2 9.5"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="@color/plantim_v4_leaf_500"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
 </vector>

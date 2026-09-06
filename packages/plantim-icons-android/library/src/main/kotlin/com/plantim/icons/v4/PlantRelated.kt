@@ -32,9 +32,9 @@ private fun buildPlantRelatedOutline(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(6f, 11f)
-            curveTo(6f, 8f, 8f, 6f, 11f, 6f)
-            curveTo(11f, 9f, 9f, 11f, 6f, 11f)
+            moveTo(15.5f, 4f)
+            curveTo(9.5f, 5f, 5.5f, 9.5f, 6f, 15.5f)
+            curveTo(12f, 15f, 16f, 10.5f, 15.5f, 4f)
             close()
         }
         path(
@@ -43,10 +43,8 @@ private fun buildPlantRelatedOutline(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(18f, 14f)
-            curveTo(18f, 17f, 16f, 19f, 13f, 19f)
-            curveTo(13f, 16f, 15f, 14f, 18f, 14f)
-            close()
+            moveTo(8.5f, 13f)
+            lineTo(13.5f, 7f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -54,8 +52,10 @@ private fun buildPlantRelatedOutline(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(10.5f, 9.5f)
-            lineTo(13.5f, 14.5f)
+            moveTo(19f, 9f)
+            curveTo(14.5f, 9.8f, 11.5f, 13.2f, 12f, 17.8f)
+            curveTo(16.5f, 17f, 19.5f, 13.6f, 19f, 9f)
+            close()
         }
     }.build()
 
@@ -82,9 +82,9 @@ private fun buildPlantRelatedOutlineMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(6f, 11f)
-            curveTo(6f, 8f, 8f, 6f, 11f, 6f)
-            curveTo(11f, 9f, 9f, 11f, 6f, 11f)
+            moveTo(15.5f, 4f)
+            curveTo(9.5f, 5f, 5.5f, 9.5f, 6f, 15.5f)
+            curveTo(12f, 15f, 16f, 10.5f, 15.5f, 4f)
             close()
         }
         path(
@@ -93,19 +93,10 @@ private fun buildPlantRelatedOutlineMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(18f, 14f)
-            curveTo(18f, 17f, 16f, 19f, 13f, 19f)
-            curveTo(13f, 16f, 15f, 14f, 18f, 14f)
+            moveTo(19f, 9f)
+            curveTo(14.5f, 9.8f, 11.5f, 13.2f, 12f, 17.8f)
+            curveTo(16.5f, 17f, 19.5f, 13.6f, 19f, 9f)
             close()
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 2.4f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(10.5f, 9.5f)
-            lineTo(13.5f, 14.5f)
         }
     }.build()
 
@@ -132,9 +123,9 @@ private fun buildPlantRelatedOutlineDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(6f, 11f)
-            curveTo(6f, 8f, 8f, 6f, 11f, 6f)
-            curveTo(11f, 9f, 9f, 11f, 6f, 11f)
+            moveTo(15.5f, 4f)
+            curveTo(9.5f, 5f, 5.5f, 9.5f, 6f, 15.5f)
+            curveTo(12f, 15f, 16f, 10.5f, 15.5f, 4f)
             close()
         }
         path(
@@ -143,10 +134,8 @@ private fun buildPlantRelatedOutlineDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(18f, 14f)
-            curveTo(18f, 17f, 16f, 19f, 13f, 19f)
-            curveTo(13f, 16f, 15f, 14f, 18f, 14f)
-            close()
+            moveTo(8.5f, 13f)
+            lineTo(13.5f, 7f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -154,8 +143,10 @@ private fun buildPlantRelatedOutlineDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(10.5f, 9.5f)
-            lineTo(13.5f, 14.5f)
+            moveTo(19f, 9f)
+            curveTo(14.5f, 9.8f, 11.5f, 13.2f, 12f, 17.8f)
+            curveTo(16.5f, 17f, 19.5f, 13.6f, 19f, 9f)
+            close()
         }
     }.build()
 
@@ -182,9 +173,9 @@ private fun buildPlantRelatedSolid(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(6f, 11f)
-            curveTo(6f, 8f, 8f, 6f, 11f, 6f)
-            curveTo(11f, 9f, 9f, 11f, 6f, 11f)
+            moveTo(15.5f, 4f)
+            curveTo(9.5f, 5f, 5.5f, 9.5f, 6f, 15.5f)
+            curveTo(12f, 15f, 16f, 10.5f, 15.5f, 4f)
             close()
         }
         path(
@@ -193,10 +184,8 @@ private fun buildPlantRelatedSolid(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(18f, 14f)
-            curveTo(18f, 17f, 16f, 19f, 13f, 19f)
-            curveTo(13f, 16f, 15f, 14f, 18f, 14f)
-            close()
+            moveTo(8.5f, 13f)
+            lineTo(13.5f, 7f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -204,8 +193,10 @@ private fun buildPlantRelatedSolid(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(10.5f, 9.5f)
-            lineTo(13.5f, 14.5f)
+            moveTo(19f, 9f)
+            curveTo(14.5f, 9.8f, 11.5f, 13.2f, 12f, 17.8f)
+            curveTo(16.5f, 17f, 19.5f, 13.6f, 19f, 9f)
+            close()
         }
     }.build()
 
@@ -232,9 +223,9 @@ private fun buildPlantRelatedSolidMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(6f, 11f)
-            curveTo(6f, 8f, 8f, 6f, 11f, 6f)
-            curveTo(11f, 9f, 9f, 11f, 6f, 11f)
+            moveTo(15.5f, 4f)
+            curveTo(9.5f, 5f, 5.5f, 9.5f, 6f, 15.5f)
+            curveTo(12f, 15f, 16f, 10.5f, 15.5f, 4f)
             close()
         }
         path(
@@ -243,19 +234,10 @@ private fun buildPlantRelatedSolidMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(18f, 14f)
-            curveTo(18f, 17f, 16f, 19f, 13f, 19f)
-            curveTo(13f, 16f, 15f, 14f, 18f, 14f)
+            moveTo(19f, 9f)
+            curveTo(14.5f, 9.8f, 11.5f, 13.2f, 12f, 17.8f)
+            curveTo(16.5f, 17f, 19.5f, 13.6f, 19f, 9f)
             close()
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 3.3f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(10.5f, 9.5f)
-            lineTo(13.5f, 14.5f)
         }
     }.build()
 
@@ -282,9 +264,9 @@ private fun buildPlantRelatedSolidDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(6f, 11f)
-            curveTo(6f, 8f, 8f, 6f, 11f, 6f)
-            curveTo(11f, 9f, 9f, 11f, 6f, 11f)
+            moveTo(15.5f, 4f)
+            curveTo(9.5f, 5f, 5.5f, 9.5f, 6f, 15.5f)
+            curveTo(12f, 15f, 16f, 10.5f, 15.5f, 4f)
             close()
         }
         path(
@@ -293,10 +275,8 @@ private fun buildPlantRelatedSolidDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(18f, 14f)
-            curveTo(18f, 17f, 16f, 19f, 13f, 19f)
-            curveTo(13f, 16f, 15f, 14f, 18f, 14f)
-            close()
+            moveTo(8.5f, 13f)
+            lineTo(13.5f, 7f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -304,8 +284,10 @@ private fun buildPlantRelatedSolidDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(10.5f, 9.5f)
-            lineTo(13.5f, 14.5f)
+            moveTo(19f, 9f)
+            curveTo(14.5f, 9.8f, 11.5f, 13.2f, 12f, 17.8f)
+            curveTo(16.5f, 17f, 19.5f, 13.6f, 19f, 9f)
+            close()
         }
     }.build()
 
@@ -331,10 +313,11 @@ private fun buildPlantRelatedDuotone(): ImageVector =
             strokeLineWidth = 2f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
+            strokeAlpha = 0.35f,
         ) {
-            moveTo(6f, 11f)
-            curveTo(6f, 8f, 8f, 6f, 11f, 6f)
-            curveTo(11f, 9f, 9f, 11f, 6f, 11f)
+            moveTo(15.5f, 4f)
+            curveTo(9.5f, 5f, 5.5f, 9.5f, 6f, 15.5f)
+            curveTo(12f, 15f, 16f, 10.5f, 15.5f, 4f)
             close()
         }
         path(
@@ -342,11 +325,10 @@ private fun buildPlantRelatedDuotone(): ImageVector =
             strokeLineWidth = 2f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
+            strokeAlpha = 0.35f,
         ) {
-            moveTo(18f, 14f)
-            curveTo(18f, 17f, 16f, 19f, 13f, 19f)
-            curveTo(13f, 16f, 15f, 14f, 18f, 14f)
-            close()
+            moveTo(8.5f, 13f)
+            lineTo(13.5f, 7f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -354,8 +336,10 @@ private fun buildPlantRelatedDuotone(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(10.5f, 9.5f)
-            lineTo(13.5f, 14.5f)
+            moveTo(19f, 9f)
+            curveTo(14.5f, 9.8f, 11.5f, 13.2f, 12f, 17.8f)
+            curveTo(16.5f, 17f, 19.5f, 13.6f, 19f, 9f)
+            close()
         }
     }.build()
 
@@ -381,10 +365,11 @@ private fun buildPlantRelatedDuotoneMicro(): ImageVector =
             strokeLineWidth = 2.4f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
+            strokeAlpha = 0.35f,
         ) {
-            moveTo(6f, 11f)
-            curveTo(6f, 8f, 8f, 6f, 11f, 6f)
-            curveTo(11f, 9f, 9f, 11f, 6f, 11f)
+            moveTo(15.5f, 4f)
+            curveTo(9.5f, 5f, 5.5f, 9.5f, 6f, 15.5f)
+            curveTo(12f, 15f, 16f, 10.5f, 15.5f, 4f)
             close()
         }
         path(
@@ -393,19 +378,10 @@ private fun buildPlantRelatedDuotoneMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(18f, 14f)
-            curveTo(18f, 17f, 16f, 19f, 13f, 19f)
-            curveTo(13f, 16f, 15f, 14f, 18f, 14f)
+            moveTo(19f, 9f)
+            curveTo(14.5f, 9.8f, 11.5f, 13.2f, 12f, 17.8f)
+            curveTo(16.5f, 17f, 19.5f, 13.6f, 19f, 9f)
             close()
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 2.4f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(10.5f, 9.5f)
-            lineTo(13.5f, 14.5f)
         }
     }.build()
 
@@ -431,10 +407,11 @@ private fun buildPlantRelatedDuotoneDisplay(): ImageVector =
             strokeLineWidth = 1.6f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
+            strokeAlpha = 0.35f,
         ) {
-            moveTo(6f, 11f)
-            curveTo(6f, 8f, 8f, 6f, 11f, 6f)
-            curveTo(11f, 9f, 9f, 11f, 6f, 11f)
+            moveTo(15.5f, 4f)
+            curveTo(9.5f, 5f, 5.5f, 9.5f, 6f, 15.5f)
+            curveTo(12f, 15f, 16f, 10.5f, 15.5f, 4f)
             close()
         }
         path(
@@ -442,11 +419,10 @@ private fun buildPlantRelatedDuotoneDisplay(): ImageVector =
             strokeLineWidth = 1.6f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
+            strokeAlpha = 0.35f,
         ) {
-            moveTo(18f, 14f)
-            curveTo(18f, 17f, 16f, 19f, 13f, 19f)
-            curveTo(13f, 16f, 15f, 14f, 18f, 14f)
-            close()
+            moveTo(8.5f, 13f)
+            lineTo(13.5f, 7f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -454,8 +430,10 @@ private fun buildPlantRelatedDuotoneDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(10.5f, 9.5f)
-            lineTo(13.5f, 14.5f)
+            moveTo(19f, 9f)
+            curveTo(14.5f, 9.8f, 11.5f, 13.2f, 12f, 17.8f)
+            curveTo(16.5f, 17f, 19.5f, 13.6f, 19f, 9f)
+            close()
         }
     }.build()
 
@@ -477,15 +455,24 @@ private fun buildPlantRelatedMulticolor(): ImageVector =
         viewportHeight = 24f,
     ).apply {
         path(
-            stroke = SolidColor(Color(0xFF2E7D32)),
+            stroke = SolidColor(Color(0xFFA5D6A7)),
             strokeLineWidth = 2f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(6f, 11f)
-            curveTo(6f, 8f, 8f, 6f, 11f, 6f)
-            curveTo(11f, 9f, 9f, 11f, 6f, 11f)
+            moveTo(15.5f, 4f)
+            curveTo(9.5f, 5f, 5.5f, 9.5f, 6f, 15.5f)
+            curveTo(12f, 15f, 16f, 10.5f, 15.5f, 4f)
             close()
+        }
+        path(
+            stroke = SolidColor(Color(0xFFA5D6A7)),
+            strokeLineWidth = 2f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round,
+        ) {
+            moveTo(8.5f, 13f)
+            lineTo(13.5f, 7f)
         }
         path(
             stroke = SolidColor(Color(0xFF2E7D32)),
@@ -493,19 +480,10 @@ private fun buildPlantRelatedMulticolor(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(18f, 14f)
-            curveTo(18f, 17f, 16f, 19f, 13f, 19f)
-            curveTo(13f, 16f, 15f, 14f, 18f, 14f)
+            moveTo(19f, 9f)
+            curveTo(14.5f, 9.8f, 11.5f, 13.2f, 12f, 17.8f)
+            curveTo(16.5f, 17f, 19.5f, 13.6f, 19f, 9f)
             close()
-        }
-        path(
-            stroke = SolidColor(Color(0xFF2E7D32)),
-            strokeLineWidth = 2f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(10.5f, 9.5f)
-            lineTo(13.5f, 14.5f)
         }
     }.build()
 
@@ -527,14 +505,14 @@ private fun buildPlantRelatedMulticolorMicro(): ImageVector =
         viewportHeight = 24f,
     ).apply {
         path(
-            stroke = SolidColor(Color(0xFF2E7D32)),
+            stroke = SolidColor(Color(0xFFA5D6A7)),
             strokeLineWidth = 2.4f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(6f, 11f)
-            curveTo(6f, 8f, 8f, 6f, 11f, 6f)
-            curveTo(11f, 9f, 9f, 11f, 6f, 11f)
+            moveTo(15.5f, 4f)
+            curveTo(9.5f, 5f, 5.5f, 9.5f, 6f, 15.5f)
+            curveTo(12f, 15f, 16f, 10.5f, 15.5f, 4f)
             close()
         }
         path(
@@ -543,19 +521,10 @@ private fun buildPlantRelatedMulticolorMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(18f, 14f)
-            curveTo(18f, 17f, 16f, 19f, 13f, 19f)
-            curveTo(13f, 16f, 15f, 14f, 18f, 14f)
+            moveTo(19f, 9f)
+            curveTo(14.5f, 9.8f, 11.5f, 13.2f, 12f, 17.8f)
+            curveTo(16.5f, 17f, 19.5f, 13.6f, 19f, 9f)
             close()
-        }
-        path(
-            stroke = SolidColor(Color(0xFF2E7D32)),
-            strokeLineWidth = 2.4f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(10.5f, 9.5f)
-            lineTo(13.5f, 14.5f)
         }
     }.build()
 
@@ -577,15 +546,24 @@ private fun buildPlantRelatedMulticolorDisplay(): ImageVector =
         viewportHeight = 24f,
     ).apply {
         path(
-            stroke = SolidColor(Color(0xFF2E7D32)),
+            stroke = SolidColor(Color(0xFFA5D6A7)),
             strokeLineWidth = 1.6f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(6f, 11f)
-            curveTo(6f, 8f, 8f, 6f, 11f, 6f)
-            curveTo(11f, 9f, 9f, 11f, 6f, 11f)
+            moveTo(15.5f, 4f)
+            curveTo(9.5f, 5f, 5.5f, 9.5f, 6f, 15.5f)
+            curveTo(12f, 15f, 16f, 10.5f, 15.5f, 4f)
             close()
+        }
+        path(
+            stroke = SolidColor(Color(0xFFA5D6A7)),
+            strokeLineWidth = 1.6f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round,
+        ) {
+            moveTo(8.5f, 13f)
+            lineTo(13.5f, 7f)
         }
         path(
             stroke = SolidColor(Color(0xFF2E7D32)),
@@ -593,23 +571,14 @@ private fun buildPlantRelatedMulticolorDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(18f, 14f)
-            curveTo(18f, 17f, 16f, 19f, 13f, 19f)
-            curveTo(13f, 16f, 15f, 14f, 18f, 14f)
+            moveTo(19f, 9f)
+            curveTo(14.5f, 9.8f, 11.5f, 13.2f, 12f, 17.8f)
+            curveTo(16.5f, 17f, 19.5f, 13.6f, 19f, 9f)
             close()
-        }
-        path(
-            stroke = SolidColor(Color(0xFF2E7D32)),
-            strokeLineWidth = 1.6f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(10.5f, 9.5f)
-            lineTo(13.5f, 14.5f)
         }
     }.build()
 
-/** All grades and variants of `plant.related` ("Related", tier P2). */
+/** All grades and variants of `plant.related` ("Related plants", tier P2). */
 public val PlantRelated: PlantimIconV4
     get() = PlantimIconV4(
         id = "plant.related",

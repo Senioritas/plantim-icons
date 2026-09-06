@@ -32,12 +32,15 @@ private fun buildPlantWateringCanOutline(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(3f, 18f)
-            curveTo(3f, 18.552f, 3.448f, 19f, 4f, 19f)
-            lineTo(14f, 19f)
-            curveTo(14.552f, 19f, 15f, 18.552f, 15f, 18f)
-            lineTo(15f, 8f)
-            lineTo(3f, 8f)
+            moveTo(6f, 11f)
+            lineTo(15f, 11f)
+            curveTo(16.105f, 11f, 17f, 11.895f, 17f, 13f)
+            lineTo(17f, 17f)
+            curveTo(17f, 18.657f, 15.657f, 20f, 14f, 20f)
+            lineTo(8f, 20f)
+            curveTo(6.343f, 20f, 5f, 18.657f, 5f, 17f)
+            lineTo(5f, 12f)
+            curveTo(5f, 11.448f, 5.448f, 11f, 6f, 11f)
             close()
         }
         path(
@@ -46,10 +49,9 @@ private fun buildPlantWateringCanOutline(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(15f, 8f)
-            lineTo(17f, 8f)
-            curveTo(18.105f, 8f, 19f, 8.895f, 19f, 10f)
-            lineTo(19f, 10f)
+            moveTo(15f, 12f)
+            lineTo(19f, 9f)
+            lineTo(19f, 15f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -57,12 +59,11 @@ private fun buildPlantWateringCanOutline(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(3f, 8f)
-            lineTo(3f, 6f)
-            curveTo(3f, 4.895f, 3.895f, 4f, 5f, 4f)
-            lineTo(13f, 4f)
-            curveTo(14.105f, 4f, 15f, 4.895f, 15f, 6f)
-            lineTo(15f, 8f)
+            moveTo(8f, 11f)
+            lineTo(8f, 9f)
+            curveTo(8f, 7.895f, 8.895f, 7f, 10f, 7f)
+            curveTo(11.105f, 7f, 12f, 7.895f, 12f, 9f)
+            lineTo(12f, 11f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -70,8 +71,8 @@ private fun buildPlantWateringCanOutline(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(17f, 16f)
-            lineTo(21f, 12f)
+            moveTo(20f, 18f)
+            lineTo(20f, 20.5f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -79,8 +80,8 @@ private fun buildPlantWateringCanOutline(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(17f, 12f)
-            lineTo(21f, 16f)
+            moveTo(22f, 17f)
+            lineTo(22f, 19.5f)
         }
     }.build()
 
@@ -107,12 +108,15 @@ private fun buildPlantWateringCanOutlineMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(3f, 18f)
-            curveTo(3f, 18.552f, 3.448f, 19f, 4f, 19f)
-            lineTo(14f, 19f)
-            curveTo(14.552f, 19f, 15f, 18.552f, 15f, 18f)
-            lineTo(15f, 8f)
-            lineTo(3f, 8f)
+            moveTo(6f, 11f)
+            lineTo(15f, 11f)
+            curveTo(16.105f, 11f, 17f, 11.895f, 17f, 13f)
+            lineTo(17f, 17f)
+            curveTo(17f, 18.657f, 15.657f, 20f, 14f, 20f)
+            lineTo(8f, 20f)
+            curveTo(6.343f, 20f, 5f, 18.657f, 5f, 17f)
+            lineTo(5f, 12f)
+            curveTo(5f, 11.448f, 5.448f, 11f, 6f, 11f)
             close()
         }
         path(
@@ -121,10 +125,9 @@ private fun buildPlantWateringCanOutlineMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(15f, 8f)
-            lineTo(17f, 8f)
-            curveTo(18.105f, 8f, 19f, 8.895f, 19f, 10f)
-            lineTo(19f, 10f)
+            moveTo(15f, 12f)
+            lineTo(19f, 9f)
+            lineTo(19f, 15f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -132,30 +135,8 @@ private fun buildPlantWateringCanOutlineMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(3f, 8f)
-            lineTo(3f, 6f)
-            curveTo(3f, 4.895f, 3.895f, 4f, 5f, 4f)
-            lineTo(13f, 4f)
-            curveTo(14.105f, 4f, 15f, 4.895f, 15f, 6f)
-            lineTo(15f, 8f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 2.4f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(17f, 16f)
-            lineTo(21f, 12f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 2.4f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(17f, 12f)
-            lineTo(21f, 16f)
+            moveTo(20.5f, 18f)
+            lineTo(20.5f, 21f)
         }
     }.build()
 
@@ -182,12 +163,15 @@ private fun buildPlantWateringCanOutlineDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(3f, 18f)
-            curveTo(3f, 18.552f, 3.448f, 19f, 4f, 19f)
-            lineTo(14f, 19f)
-            curveTo(14.552f, 19f, 15f, 18.552f, 15f, 18f)
-            lineTo(15f, 8f)
-            lineTo(3f, 8f)
+            moveTo(6f, 11f)
+            lineTo(15f, 11f)
+            curveTo(16.105f, 11f, 17f, 11.895f, 17f, 13f)
+            lineTo(17f, 17f)
+            curveTo(17f, 18.657f, 15.657f, 20f, 14f, 20f)
+            lineTo(8f, 20f)
+            curveTo(6.343f, 20f, 5f, 18.657f, 5f, 17f)
+            lineTo(5f, 12f)
+            curveTo(5f, 11.448f, 5.448f, 11f, 6f, 11f)
             close()
         }
         path(
@@ -196,10 +180,9 @@ private fun buildPlantWateringCanOutlineDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(15f, 8f)
-            lineTo(17f, 8f)
-            curveTo(18.105f, 8f, 19f, 8.895f, 19f, 10f)
-            lineTo(19f, 10f)
+            moveTo(15f, 12f)
+            lineTo(19f, 9f)
+            lineTo(19f, 15f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -207,12 +190,11 @@ private fun buildPlantWateringCanOutlineDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(3f, 8f)
-            lineTo(3f, 6f)
-            curveTo(3f, 4.895f, 3.895f, 4f, 5f, 4f)
-            lineTo(13f, 4f)
-            curveTo(14.105f, 4f, 15f, 4.895f, 15f, 6f)
-            lineTo(15f, 8f)
+            moveTo(8f, 11f)
+            lineTo(8f, 9f)
+            curveTo(8f, 7.895f, 8.895f, 7f, 10f, 7f)
+            curveTo(11.105f, 7f, 12f, 7.895f, 12f, 9f)
+            lineTo(12f, 11f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -220,8 +202,8 @@ private fun buildPlantWateringCanOutlineDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(17f, 16f)
-            lineTo(21f, 12f)
+            moveTo(20f, 18f)
+            lineTo(20f, 20.5f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -229,8 +211,8 @@ private fun buildPlantWateringCanOutlineDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(17f, 12f)
-            lineTo(21f, 16f)
+            moveTo(22f, 17f)
+            lineTo(22f, 19.5f)
         }
     }.build()
 
@@ -257,12 +239,15 @@ private fun buildPlantWateringCanSolid(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(3f, 18f)
-            curveTo(3f, 18.552f, 3.448f, 19f, 4f, 19f)
-            lineTo(14f, 19f)
-            curveTo(14.552f, 19f, 15f, 18.552f, 15f, 18f)
-            lineTo(15f, 8f)
-            lineTo(3f, 8f)
+            moveTo(6f, 11f)
+            lineTo(15f, 11f)
+            curveTo(16.105f, 11f, 17f, 11.895f, 17f, 13f)
+            lineTo(17f, 17f)
+            curveTo(17f, 18.657f, 15.657f, 20f, 14f, 20f)
+            lineTo(8f, 20f)
+            curveTo(6.343f, 20f, 5f, 18.657f, 5f, 17f)
+            lineTo(5f, 12f)
+            curveTo(5f, 11.448f, 5.448f, 11f, 6f, 11f)
             close()
         }
         path(
@@ -271,10 +256,9 @@ private fun buildPlantWateringCanSolid(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(15f, 8f)
-            lineTo(17f, 8f)
-            curveTo(18.105f, 8f, 19f, 8.895f, 19f, 10f)
-            lineTo(19f, 10f)
+            moveTo(15f, 12f)
+            lineTo(19f, 9f)
+            lineTo(19f, 15f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -282,12 +266,11 @@ private fun buildPlantWateringCanSolid(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(3f, 8f)
-            lineTo(3f, 6f)
-            curveTo(3f, 4.895f, 3.895f, 4f, 5f, 4f)
-            lineTo(13f, 4f)
-            curveTo(14.105f, 4f, 15f, 4.895f, 15f, 6f)
-            lineTo(15f, 8f)
+            moveTo(8f, 11f)
+            lineTo(8f, 9f)
+            curveTo(8f, 7.895f, 8.895f, 7f, 10f, 7f)
+            curveTo(11.105f, 7f, 12f, 7.895f, 12f, 9f)
+            lineTo(12f, 11f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -295,8 +278,8 @@ private fun buildPlantWateringCanSolid(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(17f, 16f)
-            lineTo(21f, 12f)
+            moveTo(20f, 18f)
+            lineTo(20f, 20.5f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -304,8 +287,8 @@ private fun buildPlantWateringCanSolid(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(17f, 12f)
-            lineTo(21f, 16f)
+            moveTo(22f, 17f)
+            lineTo(22f, 19.5f)
         }
     }.build()
 
@@ -332,12 +315,15 @@ private fun buildPlantWateringCanSolidMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(3f, 18f)
-            curveTo(3f, 18.552f, 3.448f, 19f, 4f, 19f)
-            lineTo(14f, 19f)
-            curveTo(14.552f, 19f, 15f, 18.552f, 15f, 18f)
-            lineTo(15f, 8f)
-            lineTo(3f, 8f)
+            moveTo(6f, 11f)
+            lineTo(15f, 11f)
+            curveTo(16.105f, 11f, 17f, 11.895f, 17f, 13f)
+            lineTo(17f, 17f)
+            curveTo(17f, 18.657f, 15.657f, 20f, 14f, 20f)
+            lineTo(8f, 20f)
+            curveTo(6.343f, 20f, 5f, 18.657f, 5f, 17f)
+            lineTo(5f, 12f)
+            curveTo(5f, 11.448f, 5.448f, 11f, 6f, 11f)
             close()
         }
         path(
@@ -346,10 +332,9 @@ private fun buildPlantWateringCanSolidMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(15f, 8f)
-            lineTo(17f, 8f)
-            curveTo(18.105f, 8f, 19f, 8.895f, 19f, 10f)
-            lineTo(19f, 10f)
+            moveTo(15f, 12f)
+            lineTo(19f, 9f)
+            lineTo(19f, 15f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -357,30 +342,8 @@ private fun buildPlantWateringCanSolidMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(3f, 8f)
-            lineTo(3f, 6f)
-            curveTo(3f, 4.895f, 3.895f, 4f, 5f, 4f)
-            lineTo(13f, 4f)
-            curveTo(14.105f, 4f, 15f, 4.895f, 15f, 6f)
-            lineTo(15f, 8f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 3.3f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(17f, 16f)
-            lineTo(21f, 12f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 3.3f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(17f, 12f)
-            lineTo(21f, 16f)
+            moveTo(20.5f, 18f)
+            lineTo(20.5f, 21f)
         }
     }.build()
 
@@ -407,12 +370,15 @@ private fun buildPlantWateringCanSolidDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(3f, 18f)
-            curveTo(3f, 18.552f, 3.448f, 19f, 4f, 19f)
-            lineTo(14f, 19f)
-            curveTo(14.552f, 19f, 15f, 18.552f, 15f, 18f)
-            lineTo(15f, 8f)
-            lineTo(3f, 8f)
+            moveTo(6f, 11f)
+            lineTo(15f, 11f)
+            curveTo(16.105f, 11f, 17f, 11.895f, 17f, 13f)
+            lineTo(17f, 17f)
+            curveTo(17f, 18.657f, 15.657f, 20f, 14f, 20f)
+            lineTo(8f, 20f)
+            curveTo(6.343f, 20f, 5f, 18.657f, 5f, 17f)
+            lineTo(5f, 12f)
+            curveTo(5f, 11.448f, 5.448f, 11f, 6f, 11f)
             close()
         }
         path(
@@ -421,10 +387,9 @@ private fun buildPlantWateringCanSolidDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(15f, 8f)
-            lineTo(17f, 8f)
-            curveTo(18.105f, 8f, 19f, 8.895f, 19f, 10f)
-            lineTo(19f, 10f)
+            moveTo(15f, 12f)
+            lineTo(19f, 9f)
+            lineTo(19f, 15f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -432,12 +397,11 @@ private fun buildPlantWateringCanSolidDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(3f, 8f)
-            lineTo(3f, 6f)
-            curveTo(3f, 4.895f, 3.895f, 4f, 5f, 4f)
-            lineTo(13f, 4f)
-            curveTo(14.105f, 4f, 15f, 4.895f, 15f, 6f)
-            lineTo(15f, 8f)
+            moveTo(8f, 11f)
+            lineTo(8f, 9f)
+            curveTo(8f, 7.895f, 8.895f, 7f, 10f, 7f)
+            curveTo(11.105f, 7f, 12f, 7.895f, 12f, 9f)
+            lineTo(12f, 11f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -445,8 +409,8 @@ private fun buildPlantWateringCanSolidDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(17f, 16f)
-            lineTo(21f, 12f)
+            moveTo(20f, 18f)
+            lineTo(20f, 20.5f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -454,8 +418,8 @@ private fun buildPlantWateringCanSolidDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(17f, 12f)
-            lineTo(21f, 16f)
+            moveTo(22f, 17f)
+            lineTo(22f, 19.5f)
         }
     }.build()
 
@@ -482,12 +446,15 @@ private fun buildPlantWateringCanDuotone(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(3f, 18f)
-            curveTo(3f, 18.552f, 3.448f, 19f, 4f, 19f)
-            lineTo(14f, 19f)
-            curveTo(14.552f, 19f, 15f, 18.552f, 15f, 18f)
-            lineTo(15f, 8f)
-            lineTo(3f, 8f)
+            moveTo(6f, 11f)
+            lineTo(15f, 11f)
+            curveTo(16.105f, 11f, 17f, 11.895f, 17f, 13f)
+            lineTo(17f, 17f)
+            curveTo(17f, 18.657f, 15.657f, 20f, 14f, 20f)
+            lineTo(8f, 20f)
+            curveTo(6.343f, 20f, 5f, 18.657f, 5f, 17f)
+            lineTo(5f, 12f)
+            curveTo(5f, 11.448f, 5.448f, 11f, 6f, 11f)
             close()
         }
         path(
@@ -496,10 +463,9 @@ private fun buildPlantWateringCanDuotone(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(15f, 8f)
-            lineTo(17f, 8f)
-            curveTo(18.105f, 8f, 19f, 8.895f, 19f, 10f)
-            lineTo(19f, 10f)
+            moveTo(15f, 12f)
+            lineTo(19f, 9f)
+            lineTo(19f, 15f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -507,30 +473,31 @@ private fun buildPlantWateringCanDuotone(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(3f, 8f)
-            lineTo(3f, 6f)
-            curveTo(3f, 4.895f, 3.895f, 4f, 5f, 4f)
-            lineTo(13f, 4f)
-            curveTo(14.105f, 4f, 15f, 4.895f, 15f, 6f)
-            lineTo(15f, 8f)
+            moveTo(8f, 11f)
+            lineTo(8f, 9f)
+            curveTo(8f, 7.895f, 8.895f, 7f, 10f, 7f)
+            curveTo(11.105f, 7f, 12f, 7.895f, 12f, 9f)
+            lineTo(12f, 11f)
         }
         path(
             stroke = SolidColor(Color.Black),
             strokeLineWidth = 2f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
+            strokeAlpha = 0.35f,
         ) {
-            moveTo(17f, 16f)
-            lineTo(21f, 12f)
+            moveTo(20f, 18f)
+            lineTo(20f, 20.5f)
         }
         path(
             stroke = SolidColor(Color.Black),
             strokeLineWidth = 2f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
+            strokeAlpha = 0.35f,
         ) {
-            moveTo(17f, 12f)
-            lineTo(21f, 16f)
+            moveTo(22f, 17f)
+            lineTo(22f, 19.5f)
         }
     }.build()
 
@@ -557,12 +524,15 @@ private fun buildPlantWateringCanDuotoneMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(3f, 18f)
-            curveTo(3f, 18.552f, 3.448f, 19f, 4f, 19f)
-            lineTo(14f, 19f)
-            curveTo(14.552f, 19f, 15f, 18.552f, 15f, 18f)
-            lineTo(15f, 8f)
-            lineTo(3f, 8f)
+            moveTo(6f, 11f)
+            lineTo(15f, 11f)
+            curveTo(16.105f, 11f, 17f, 11.895f, 17f, 13f)
+            lineTo(17f, 17f)
+            curveTo(17f, 18.657f, 15.657f, 20f, 14f, 20f)
+            lineTo(8f, 20f)
+            curveTo(6.343f, 20f, 5f, 18.657f, 5f, 17f)
+            lineTo(5f, 12f)
+            curveTo(5f, 11.448f, 5.448f, 11f, 6f, 11f)
             close()
         }
         path(
@@ -571,41 +541,19 @@ private fun buildPlantWateringCanDuotoneMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(15f, 8f)
-            lineTo(17f, 8f)
-            curveTo(18.105f, 8f, 19f, 8.895f, 19f, 10f)
-            lineTo(19f, 10f)
+            moveTo(15f, 12f)
+            lineTo(19f, 9f)
+            lineTo(19f, 15f)
         }
         path(
             stroke = SolidColor(Color.Black),
             strokeLineWidth = 2.4f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
+            strokeAlpha = 0.35f,
         ) {
-            moveTo(3f, 8f)
-            lineTo(3f, 6f)
-            curveTo(3f, 4.895f, 3.895f, 4f, 5f, 4f)
-            lineTo(13f, 4f)
-            curveTo(14.105f, 4f, 15f, 4.895f, 15f, 6f)
-            lineTo(15f, 8f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 2.4f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(17f, 16f)
-            lineTo(21f, 12f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 2.4f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(17f, 12f)
-            lineTo(21f, 16f)
+            moveTo(20.5f, 18f)
+            lineTo(20.5f, 21f)
         }
     }.build()
 
@@ -632,12 +580,15 @@ private fun buildPlantWateringCanDuotoneDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(3f, 18f)
-            curveTo(3f, 18.552f, 3.448f, 19f, 4f, 19f)
-            lineTo(14f, 19f)
-            curveTo(14.552f, 19f, 15f, 18.552f, 15f, 18f)
-            lineTo(15f, 8f)
-            lineTo(3f, 8f)
+            moveTo(6f, 11f)
+            lineTo(15f, 11f)
+            curveTo(16.105f, 11f, 17f, 11.895f, 17f, 13f)
+            lineTo(17f, 17f)
+            curveTo(17f, 18.657f, 15.657f, 20f, 14f, 20f)
+            lineTo(8f, 20f)
+            curveTo(6.343f, 20f, 5f, 18.657f, 5f, 17f)
+            lineTo(5f, 12f)
+            curveTo(5f, 11.448f, 5.448f, 11f, 6f, 11f)
             close()
         }
         path(
@@ -646,10 +597,9 @@ private fun buildPlantWateringCanDuotoneDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(15f, 8f)
-            lineTo(17f, 8f)
-            curveTo(18.105f, 8f, 19f, 8.895f, 19f, 10f)
-            lineTo(19f, 10f)
+            moveTo(15f, 12f)
+            lineTo(19f, 9f)
+            lineTo(19f, 15f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -657,30 +607,31 @@ private fun buildPlantWateringCanDuotoneDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(3f, 8f)
-            lineTo(3f, 6f)
-            curveTo(3f, 4.895f, 3.895f, 4f, 5f, 4f)
-            lineTo(13f, 4f)
-            curveTo(14.105f, 4f, 15f, 4.895f, 15f, 6f)
-            lineTo(15f, 8f)
+            moveTo(8f, 11f)
+            lineTo(8f, 9f)
+            curveTo(8f, 7.895f, 8.895f, 7f, 10f, 7f)
+            curveTo(11.105f, 7f, 12f, 7.895f, 12f, 9f)
+            lineTo(12f, 11f)
         }
         path(
             stroke = SolidColor(Color.Black),
             strokeLineWidth = 1.6f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
+            strokeAlpha = 0.35f,
         ) {
-            moveTo(17f, 16f)
-            lineTo(21f, 12f)
+            moveTo(20f, 18f)
+            lineTo(20f, 20.5f)
         }
         path(
             stroke = SolidColor(Color.Black),
             strokeLineWidth = 1.6f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
+            strokeAlpha = 0.35f,
         ) {
-            moveTo(17f, 12f)
-            lineTo(21f, 16f)
+            moveTo(22f, 17f)
+            lineTo(22f, 19.5f)
         }
     }.build()
 
@@ -702,29 +653,43 @@ private fun buildPlantWateringCanMulticolor(): ImageVector =
         viewportHeight = 24f,
     ).apply {
         path(
-            stroke = SolidColor(Color(0xFF1E88E5)),
+            stroke = SolidColor(Color(0xFF263238)),
             strokeLineWidth = 2f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(3f, 18f)
-            curveTo(3f, 18.552f, 3.448f, 19f, 4f, 19f)
-            lineTo(14f, 19f)
-            curveTo(14.552f, 19f, 15f, 18.552f, 15f, 18f)
-            lineTo(15f, 8f)
-            lineTo(3f, 8f)
+            moveTo(6f, 11f)
+            lineTo(15f, 11f)
+            curveTo(16.105f, 11f, 17f, 11.895f, 17f, 13f)
+            lineTo(17f, 17f)
+            curveTo(17f, 18.657f, 15.657f, 20f, 14f, 20f)
+            lineTo(8f, 20f)
+            curveTo(6.343f, 20f, 5f, 18.657f, 5f, 17f)
+            lineTo(5f, 12f)
+            curveTo(5f, 11.448f, 5.448f, 11f, 6f, 11f)
             close()
         }
         path(
-            stroke = SolidColor(Color(0xFF1E88E5)),
+            stroke = SolidColor(Color(0xFF263238)),
             strokeLineWidth = 2f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(15f, 8f)
-            lineTo(17f, 8f)
-            curveTo(18.105f, 8f, 19f, 8.895f, 19f, 10f)
-            lineTo(19f, 10f)
+            moveTo(15f, 12f)
+            lineTo(19f, 9f)
+            lineTo(19f, 15f)
+        }
+        path(
+            stroke = SolidColor(Color(0xFF263238)),
+            strokeLineWidth = 2f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round,
+        ) {
+            moveTo(8f, 11f)
+            lineTo(8f, 9f)
+            curveTo(8f, 7.895f, 8.895f, 7f, 10f, 7f)
+            curveTo(11.105f, 7f, 12f, 7.895f, 12f, 9f)
+            lineTo(12f, 11f)
         }
         path(
             stroke = SolidColor(Color(0xFF1E88E5)),
@@ -732,12 +697,8 @@ private fun buildPlantWateringCanMulticolor(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(3f, 8f)
-            lineTo(3f, 6f)
-            curveTo(3f, 4.895f, 3.895f, 4f, 5f, 4f)
-            lineTo(13f, 4f)
-            curveTo(14.105f, 4f, 15f, 4.895f, 15f, 6f)
-            lineTo(15f, 8f)
+            moveTo(20f, 18f)
+            lineTo(20f, 20.5f)
         }
         path(
             stroke = SolidColor(Color(0xFF1E88E5)),
@@ -745,17 +706,8 @@ private fun buildPlantWateringCanMulticolor(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(17f, 16f)
-            lineTo(21f, 12f)
-        }
-        path(
-            stroke = SolidColor(Color(0xFF1E88E5)),
-            strokeLineWidth = 2f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(17f, 12f)
-            lineTo(21f, 16f)
+            moveTo(22f, 17f)
+            lineTo(22f, 19.5f)
         }
     }.build()
 
@@ -777,29 +729,31 @@ private fun buildPlantWateringCanMulticolorMicro(): ImageVector =
         viewportHeight = 24f,
     ).apply {
         path(
-            stroke = SolidColor(Color(0xFF1E88E5)),
+            stroke = SolidColor(Color(0xFF263238)),
             strokeLineWidth = 2.4f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(3f, 18f)
-            curveTo(3f, 18.552f, 3.448f, 19f, 4f, 19f)
-            lineTo(14f, 19f)
-            curveTo(14.552f, 19f, 15f, 18.552f, 15f, 18f)
-            lineTo(15f, 8f)
-            lineTo(3f, 8f)
+            moveTo(6f, 11f)
+            lineTo(15f, 11f)
+            curveTo(16.105f, 11f, 17f, 11.895f, 17f, 13f)
+            lineTo(17f, 17f)
+            curveTo(17f, 18.657f, 15.657f, 20f, 14f, 20f)
+            lineTo(8f, 20f)
+            curveTo(6.343f, 20f, 5f, 18.657f, 5f, 17f)
+            lineTo(5f, 12f)
+            curveTo(5f, 11.448f, 5.448f, 11f, 6f, 11f)
             close()
         }
         path(
-            stroke = SolidColor(Color(0xFF1E88E5)),
+            stroke = SolidColor(Color(0xFF263238)),
             strokeLineWidth = 2.4f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(15f, 8f)
-            lineTo(17f, 8f)
-            curveTo(18.105f, 8f, 19f, 8.895f, 19f, 10f)
-            lineTo(19f, 10f)
+            moveTo(15f, 12f)
+            lineTo(19f, 9f)
+            lineTo(19f, 15f)
         }
         path(
             stroke = SolidColor(Color(0xFF1E88E5)),
@@ -807,30 +761,8 @@ private fun buildPlantWateringCanMulticolorMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(3f, 8f)
-            lineTo(3f, 6f)
-            curveTo(3f, 4.895f, 3.895f, 4f, 5f, 4f)
-            lineTo(13f, 4f)
-            curveTo(14.105f, 4f, 15f, 4.895f, 15f, 6f)
-            lineTo(15f, 8f)
-        }
-        path(
-            stroke = SolidColor(Color(0xFF1E88E5)),
-            strokeLineWidth = 2.4f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(17f, 16f)
-            lineTo(21f, 12f)
-        }
-        path(
-            stroke = SolidColor(Color(0xFF1E88E5)),
-            strokeLineWidth = 2.4f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(17f, 12f)
-            lineTo(21f, 16f)
+            moveTo(20.5f, 18f)
+            lineTo(20.5f, 21f)
         }
     }.build()
 
@@ -852,29 +784,43 @@ private fun buildPlantWateringCanMulticolorDisplay(): ImageVector =
         viewportHeight = 24f,
     ).apply {
         path(
-            stroke = SolidColor(Color(0xFF1E88E5)),
+            stroke = SolidColor(Color(0xFF263238)),
             strokeLineWidth = 1.6f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(3f, 18f)
-            curveTo(3f, 18.552f, 3.448f, 19f, 4f, 19f)
-            lineTo(14f, 19f)
-            curveTo(14.552f, 19f, 15f, 18.552f, 15f, 18f)
-            lineTo(15f, 8f)
-            lineTo(3f, 8f)
+            moveTo(6f, 11f)
+            lineTo(15f, 11f)
+            curveTo(16.105f, 11f, 17f, 11.895f, 17f, 13f)
+            lineTo(17f, 17f)
+            curveTo(17f, 18.657f, 15.657f, 20f, 14f, 20f)
+            lineTo(8f, 20f)
+            curveTo(6.343f, 20f, 5f, 18.657f, 5f, 17f)
+            lineTo(5f, 12f)
+            curveTo(5f, 11.448f, 5.448f, 11f, 6f, 11f)
             close()
         }
         path(
-            stroke = SolidColor(Color(0xFF1E88E5)),
+            stroke = SolidColor(Color(0xFF263238)),
             strokeLineWidth = 1.6f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(15f, 8f)
-            lineTo(17f, 8f)
-            curveTo(18.105f, 8f, 19f, 8.895f, 19f, 10f)
-            lineTo(19f, 10f)
+            moveTo(15f, 12f)
+            lineTo(19f, 9f)
+            lineTo(19f, 15f)
+        }
+        path(
+            stroke = SolidColor(Color(0xFF263238)),
+            strokeLineWidth = 1.6f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round,
+        ) {
+            moveTo(8f, 11f)
+            lineTo(8f, 9f)
+            curveTo(8f, 7.895f, 8.895f, 7f, 10f, 7f)
+            curveTo(11.105f, 7f, 12f, 7.895f, 12f, 9f)
+            lineTo(12f, 11f)
         }
         path(
             stroke = SolidColor(Color(0xFF1E88E5)),
@@ -882,12 +828,8 @@ private fun buildPlantWateringCanMulticolorDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(3f, 8f)
-            lineTo(3f, 6f)
-            curveTo(3f, 4.895f, 3.895f, 4f, 5f, 4f)
-            lineTo(13f, 4f)
-            curveTo(14.105f, 4f, 15f, 4.895f, 15f, 6f)
-            lineTo(15f, 8f)
+            moveTo(20f, 18f)
+            lineTo(20f, 20.5f)
         }
         path(
             stroke = SolidColor(Color(0xFF1E88E5)),
@@ -895,21 +837,12 @@ private fun buildPlantWateringCanMulticolorDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(17f, 16f)
-            lineTo(21f, 12f)
-        }
-        path(
-            stroke = SolidColor(Color(0xFF1E88E5)),
-            strokeLineWidth = 1.6f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(17f, 12f)
-            lineTo(21f, 16f)
+            moveTo(22f, 17f)
+            lineTo(22f, 19.5f)
         }
     }.build()
 
-/** All grades and variants of `plant.watering.can` ("Watering Can", tier P2). */
+/** All grades and variants of `plant.watering.can` ("Watering can", tier P2). */
 public val PlantWateringCan: PlantimIconV4
     get() = PlantimIconV4(
         id = "plant.watering.can",

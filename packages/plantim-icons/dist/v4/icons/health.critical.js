@@ -6,25 +6,31 @@ export const HealthCritical = {
         "micro": {
             "layers": [
                 {
-                    "name": "primary",
+                    "name": "leaf",
                     "role": "primary",
                     "nodes": [
                         {
                             "type": "path",
                             "attrs": {
-                                "d": "M5 19C5 12 10 6 19 6c0 9-7 13-14 13z"
+                                "d": "M17.5 3.5C9.5 4 4 9.5 4 17.5C12 17 17 11.5 17.5 3.5Z"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "badge",
+                    "role": "accent",
+                    "nodes": [
+                        {
+                            "type": "path",
+                            "attrs": {
+                                "d": "M15.4 15.4l4.2 4.2"
                             }
                         },
                         {
                             "type": "path",
                             "attrs": {
-                                "d": "M10 12l4 4"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M14 12l-4 4"
+                                "d": "M19.6 15.4l-4.2 4.2"
                             }
                         }
                     ]
@@ -34,25 +40,37 @@ export const HealthCritical = {
         "base": {
             "layers": [
                 {
-                    "name": "primary",
+                    "name": "leaf",
                     "role": "primary",
                     "nodes": [
                         {
                             "type": "path",
                             "attrs": {
-                                "d": "M5 19C5 12 10 6 19 6c0 9-7 13-14 13z"
+                                "d": "M17.5 3.5C9.5 4 4 9.5 4 17.5C12 17 17 11.5 17.5 3.5Z"
                             }
                         },
                         {
                             "type": "path",
                             "attrs": {
-                                "d": "M10 12l4 4"
+                                "d": "M7.5 14 14 7.5"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "badge",
+                    "role": "accent",
+                    "nodes": [
+                        {
+                            "type": "path",
+                            "attrs": {
+                                "d": "M15.4 15.4l4.2 4.2"
                             }
                         },
                         {
                             "type": "path",
                             "attrs": {
-                                "d": "M14 12l-4 4"
+                                "d": "M19.6 15.4l-4.2 4.2"
                             }
                         }
                     ]
@@ -75,11 +93,13 @@ export const HealthCritical = {
     "variants": {
         "duotone": {
             "primary": [
-                "primary"
+                "leaf",
+                "badge"
             ]
         },
         "multicolor": {
-            "primary": "status.error"
+            "leaf": "status.error",
+            "badge": "status.error"
         }
     }
 };

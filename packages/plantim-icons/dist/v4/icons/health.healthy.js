@@ -6,25 +6,25 @@ export const HealthHealthy = {
         "micro": {
             "layers": [
                 {
-                    "name": "primary",
+                    "name": "leaf",
                     "role": "primary",
                     "nodes": [
                         {
                             "type": "path",
                             "attrs": {
-                                "d": "M5 19C5 12 10 6 19 6c0 9-7 13-14 13z"
+                                "d": "M17.5 3.5C9.5 4 4 9.5 4 17.5C12 17 17 11.5 17.5 3.5Z"
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "badge",
+                    "role": "accent",
+                    "nodes": [
                         {
                             "type": "path",
                             "attrs": {
-                                "d": "M5 19 14 10"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M9 14l2.5 2.5 4.5-5"
+                                "d": "M14.5 18l1.8 1.8 3.2-3.4"
                             }
                         }
                     ]
@@ -34,25 +34,31 @@ export const HealthHealthy = {
         "base": {
             "layers": [
                 {
-                    "name": "primary",
+                    "name": "leaf",
                     "role": "primary",
                     "nodes": [
                         {
                             "type": "path",
                             "attrs": {
-                                "d": "M5 19C5 12 10 6 19 6c0 9-7 13-14 13z"
+                                "d": "M17.5 3.5C9.5 4 4 9.5 4 17.5C12 17 17 11.5 17.5 3.5Z"
                             }
                         },
                         {
                             "type": "path",
                             "attrs": {
-                                "d": "M5 19 14 10"
+                                "d": "M7.5 14 14 7.5"
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "badge",
+                    "role": "accent",
+                    "nodes": [
                         {
                             "type": "path",
                             "attrs": {
-                                "d": "M9 14l2.5 2.5 4.5-5"
+                                "d": "M14.5 18l1.8 1.8 3.2-3.4"
                             }
                         }
                     ]
@@ -75,11 +81,13 @@ export const HealthHealthy = {
     "variants": {
         "duotone": {
             "primary": [
-                "primary"
+                "leaf",
+                "badge"
             ]
         },
         "multicolor": {
-            "primary": "status.success"
+            "leaf": "status.success",
+            "badge": "status.success"
         }
     }
 };

@@ -32,9 +32,9 @@ private fun buildHealthAttentionOutline(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 19f)
-            curveTo(5f, 12f, 10f, 6f, 19f, 6f)
-            curveTo(19f, 15f, 12f, 19f, 5f, 19f)
+            moveTo(17.5f, 3.5f)
+            curveTo(9.5f, 4f, 4f, 9.5f, 4f, 17.5f)
+            curveTo(12f, 17f, 17f, 11.5f, 17.5f, 3.5f)
             close()
         }
         path(
@@ -43,8 +43,8 @@ private fun buildHealthAttentionOutline(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 19f)
-            lineTo(14f, 10f)
+            moveTo(7.5f, 14f)
+            lineTo(14f, 7.5f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -52,18 +52,17 @@ private fun buildHealthAttentionOutline(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(12f, 11.5f)
-            lineTo(12f, 14f)
+            moveTo(17.5f, 14.5f)
+            lineTo(17.5f, 17.9f)
         }
         path(
             fill = SolidColor(Color.Black),
         ) {
-            moveTo(10.9f, 16.5f)
-            curveTo(10.9f, 15.892f, 11.392f, 15.4f, 12f, 15.4f)
-            curveTo(12.608f, 15.4f, 13.1f, 15.892f, 13.1f, 16.5f)
-            curveTo(13.1f, 16.893f, 12.89f, 17.256f, 12.55f, 17.453f)
-            curveTo(12.21f, 17.649f, 11.79f, 17.649f, 11.45f, 17.453f)
-            curveTo(11.11f, 17.256f, 10.9f, 16.893f, 10.9f, 16.5f)
+            moveTo(16.5f, 20.4f)
+            curveTo(16.5f, 19.848f, 16.948f, 19.4f, 17.5f, 19.4f)
+            curveTo(18.052f, 19.4f, 18.5f, 19.848f, 18.5f, 20.4f)
+            curveTo(18.5f, 20.952f, 18.052f, 21.4f, 17.5f, 21.4f)
+            curveTo(16.948f, 21.4f, 16.5f, 20.952f, 16.5f, 20.4f)
             close()
         }
     }.build()
@@ -91,9 +90,9 @@ private fun buildHealthAttentionOutlineMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 19f)
-            curveTo(5f, 12f, 10f, 6f, 19f, 6f)
-            curveTo(19f, 15f, 12f, 19f, 5f, 19f)
+            moveTo(17.5f, 3.5f)
+            curveTo(9.5f, 4f, 4f, 9.5f, 4f, 17.5f)
+            curveTo(12f, 17f, 17f, 11.5f, 17.5f, 3.5f)
             close()
         }
         path(
@@ -102,27 +101,17 @@ private fun buildHealthAttentionOutlineMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 19f)
-            lineTo(14f, 10f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 2.4f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 11.5f)
-            lineTo(12f, 14f)
+            moveTo(17.5f, 14.5f)
+            lineTo(17.5f, 17.9f)
         }
         path(
             fill = SolidColor(Color.Black),
         ) {
-            moveTo(10.9f, 16.5f)
-            curveTo(10.9f, 15.892f, 11.392f, 15.4f, 12f, 15.4f)
-            curveTo(12.608f, 15.4f, 13.1f, 15.892f, 13.1f, 16.5f)
-            curveTo(13.1f, 16.893f, 12.89f, 17.256f, 12.55f, 17.453f)
-            curveTo(12.21f, 17.649f, 11.79f, 17.649f, 11.45f, 17.453f)
-            curveTo(11.11f, 17.256f, 10.9f, 16.893f, 10.9f, 16.5f)
+            moveTo(16.5f, 20.4f)
+            curveTo(16.5f, 19.848f, 16.948f, 19.4f, 17.5f, 19.4f)
+            curveTo(18.052f, 19.4f, 18.5f, 19.848f, 18.5f, 20.4f)
+            curveTo(18.5f, 20.952f, 18.052f, 21.4f, 17.5f, 21.4f)
+            curveTo(16.948f, 21.4f, 16.5f, 20.952f, 16.5f, 20.4f)
             close()
         }
     }.build()
@@ -150,9 +139,9 @@ private fun buildHealthAttentionOutlineDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 19f)
-            curveTo(5f, 12f, 10f, 6f, 19f, 6f)
-            curveTo(19f, 15f, 12f, 19f, 5f, 19f)
+            moveTo(17.5f, 3.5f)
+            curveTo(9.5f, 4f, 4f, 9.5f, 4f, 17.5f)
+            curveTo(12f, 17f, 17f, 11.5f, 17.5f, 3.5f)
             close()
         }
         path(
@@ -161,8 +150,8 @@ private fun buildHealthAttentionOutlineDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 19f)
-            lineTo(14f, 10f)
+            moveTo(7.5f, 14f)
+            lineTo(14f, 7.5f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -170,18 +159,17 @@ private fun buildHealthAttentionOutlineDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(12f, 11.5f)
-            lineTo(12f, 14f)
+            moveTo(17.5f, 14.5f)
+            lineTo(17.5f, 17.9f)
         }
         path(
             fill = SolidColor(Color.Black),
         ) {
-            moveTo(10.9f, 16.5f)
-            curveTo(10.9f, 15.892f, 11.392f, 15.4f, 12f, 15.4f)
-            curveTo(12.608f, 15.4f, 13.1f, 15.892f, 13.1f, 16.5f)
-            curveTo(13.1f, 16.893f, 12.89f, 17.256f, 12.55f, 17.453f)
-            curveTo(12.21f, 17.649f, 11.79f, 17.649f, 11.45f, 17.453f)
-            curveTo(11.11f, 17.256f, 10.9f, 16.893f, 10.9f, 16.5f)
+            moveTo(16.5f, 20.4f)
+            curveTo(16.5f, 19.848f, 16.948f, 19.4f, 17.5f, 19.4f)
+            curveTo(18.052f, 19.4f, 18.5f, 19.848f, 18.5f, 20.4f)
+            curveTo(18.5f, 20.952f, 18.052f, 21.4f, 17.5f, 21.4f)
+            curveTo(16.948f, 21.4f, 16.5f, 20.952f, 16.5f, 20.4f)
             close()
         }
     }.build()
@@ -209,9 +197,9 @@ private fun buildHealthAttentionSolid(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 19f)
-            curveTo(5f, 12f, 10f, 6f, 19f, 6f)
-            curveTo(19f, 15f, 12f, 19f, 5f, 19f)
+            moveTo(17.5f, 3.5f)
+            curveTo(9.5f, 4f, 4f, 9.5f, 4f, 17.5f)
+            curveTo(12f, 17f, 17f, 11.5f, 17.5f, 3.5f)
             close()
         }
         path(
@@ -220,8 +208,8 @@ private fun buildHealthAttentionSolid(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 19f)
-            lineTo(14f, 10f)
+            moveTo(7.5f, 14f)
+            lineTo(14f, 7.5f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -229,18 +217,17 @@ private fun buildHealthAttentionSolid(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(12f, 11.5f)
-            lineTo(12f, 14f)
+            moveTo(17.5f, 14.5f)
+            lineTo(17.5f, 17.9f)
         }
         path(
             fill = SolidColor(Color.Black),
         ) {
-            moveTo(10.9f, 16.5f)
-            curveTo(10.9f, 15.892f, 11.392f, 15.4f, 12f, 15.4f)
-            curveTo(12.608f, 15.4f, 13.1f, 15.892f, 13.1f, 16.5f)
-            curveTo(13.1f, 16.893f, 12.89f, 17.256f, 12.55f, 17.453f)
-            curveTo(12.21f, 17.649f, 11.79f, 17.649f, 11.45f, 17.453f)
-            curveTo(11.11f, 17.256f, 10.9f, 16.893f, 10.9f, 16.5f)
+            moveTo(16.5f, 20.4f)
+            curveTo(16.5f, 19.848f, 16.948f, 19.4f, 17.5f, 19.4f)
+            curveTo(18.052f, 19.4f, 18.5f, 19.848f, 18.5f, 20.4f)
+            curveTo(18.5f, 20.952f, 18.052f, 21.4f, 17.5f, 21.4f)
+            curveTo(16.948f, 21.4f, 16.5f, 20.952f, 16.5f, 20.4f)
             close()
         }
     }.build()
@@ -268,9 +255,9 @@ private fun buildHealthAttentionSolidMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 19f)
-            curveTo(5f, 12f, 10f, 6f, 19f, 6f)
-            curveTo(19f, 15f, 12f, 19f, 5f, 19f)
+            moveTo(17.5f, 3.5f)
+            curveTo(9.5f, 4f, 4f, 9.5f, 4f, 17.5f)
+            curveTo(12f, 17f, 17f, 11.5f, 17.5f, 3.5f)
             close()
         }
         path(
@@ -279,27 +266,17 @@ private fun buildHealthAttentionSolidMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 19f)
-            lineTo(14f, 10f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 3.3f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 11.5f)
-            lineTo(12f, 14f)
+            moveTo(17.5f, 14.5f)
+            lineTo(17.5f, 17.9f)
         }
         path(
             fill = SolidColor(Color.Black),
         ) {
-            moveTo(10.9f, 16.5f)
-            curveTo(10.9f, 15.892f, 11.392f, 15.4f, 12f, 15.4f)
-            curveTo(12.608f, 15.4f, 13.1f, 15.892f, 13.1f, 16.5f)
-            curveTo(13.1f, 16.893f, 12.89f, 17.256f, 12.55f, 17.453f)
-            curveTo(12.21f, 17.649f, 11.79f, 17.649f, 11.45f, 17.453f)
-            curveTo(11.11f, 17.256f, 10.9f, 16.893f, 10.9f, 16.5f)
+            moveTo(16.5f, 20.4f)
+            curveTo(16.5f, 19.848f, 16.948f, 19.4f, 17.5f, 19.4f)
+            curveTo(18.052f, 19.4f, 18.5f, 19.848f, 18.5f, 20.4f)
+            curveTo(18.5f, 20.952f, 18.052f, 21.4f, 17.5f, 21.4f)
+            curveTo(16.948f, 21.4f, 16.5f, 20.952f, 16.5f, 20.4f)
             close()
         }
     }.build()
@@ -327,9 +304,9 @@ private fun buildHealthAttentionSolidDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 19f)
-            curveTo(5f, 12f, 10f, 6f, 19f, 6f)
-            curveTo(19f, 15f, 12f, 19f, 5f, 19f)
+            moveTo(17.5f, 3.5f)
+            curveTo(9.5f, 4f, 4f, 9.5f, 4f, 17.5f)
+            curveTo(12f, 17f, 17f, 11.5f, 17.5f, 3.5f)
             close()
         }
         path(
@@ -338,8 +315,8 @@ private fun buildHealthAttentionSolidDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 19f)
-            lineTo(14f, 10f)
+            moveTo(7.5f, 14f)
+            lineTo(14f, 7.5f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -347,18 +324,17 @@ private fun buildHealthAttentionSolidDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(12f, 11.5f)
-            lineTo(12f, 14f)
+            moveTo(17.5f, 14.5f)
+            lineTo(17.5f, 17.9f)
         }
         path(
             fill = SolidColor(Color.Black),
         ) {
-            moveTo(10.9f, 16.5f)
-            curveTo(10.9f, 15.892f, 11.392f, 15.4f, 12f, 15.4f)
-            curveTo(12.608f, 15.4f, 13.1f, 15.892f, 13.1f, 16.5f)
-            curveTo(13.1f, 16.893f, 12.89f, 17.256f, 12.55f, 17.453f)
-            curveTo(12.21f, 17.649f, 11.79f, 17.649f, 11.45f, 17.453f)
-            curveTo(11.11f, 17.256f, 10.9f, 16.893f, 10.9f, 16.5f)
+            moveTo(16.5f, 20.4f)
+            curveTo(16.5f, 19.848f, 16.948f, 19.4f, 17.5f, 19.4f)
+            curveTo(18.052f, 19.4f, 18.5f, 19.848f, 18.5f, 20.4f)
+            curveTo(18.5f, 20.952f, 18.052f, 21.4f, 17.5f, 21.4f)
+            curveTo(16.948f, 21.4f, 16.5f, 20.952f, 16.5f, 20.4f)
             close()
         }
     }.build()
@@ -386,9 +362,9 @@ private fun buildHealthAttentionDuotone(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 19f)
-            curveTo(5f, 12f, 10f, 6f, 19f, 6f)
-            curveTo(19f, 15f, 12f, 19f, 5f, 19f)
+            moveTo(17.5f, 3.5f)
+            curveTo(9.5f, 4f, 4f, 9.5f, 4f, 17.5f)
+            curveTo(12f, 17f, 17f, 11.5f, 17.5f, 3.5f)
             close()
         }
         path(
@@ -397,8 +373,8 @@ private fun buildHealthAttentionDuotone(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 19f)
-            lineTo(14f, 10f)
+            moveTo(7.5f, 14f)
+            lineTo(14f, 7.5f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -406,19 +382,17 @@ private fun buildHealthAttentionDuotone(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(12f, 11.5f)
-            lineTo(12f, 14f)
+            moveTo(17.5f, 14.5f)
+            lineTo(17.5f, 17.9f)
         }
         path(
             fill = SolidColor(Color.Black),
-            fillAlpha = 0.35f,
         ) {
-            moveTo(10.9f, 16.5f)
-            curveTo(10.9f, 15.892f, 11.392f, 15.4f, 12f, 15.4f)
-            curveTo(12.608f, 15.4f, 13.1f, 15.892f, 13.1f, 16.5f)
-            curveTo(13.1f, 16.893f, 12.89f, 17.256f, 12.55f, 17.453f)
-            curveTo(12.21f, 17.649f, 11.79f, 17.649f, 11.45f, 17.453f)
-            curveTo(11.11f, 17.256f, 10.9f, 16.893f, 10.9f, 16.5f)
+            moveTo(16.5f, 20.4f)
+            curveTo(16.5f, 19.848f, 16.948f, 19.4f, 17.5f, 19.4f)
+            curveTo(18.052f, 19.4f, 18.5f, 19.848f, 18.5f, 20.4f)
+            curveTo(18.5f, 20.952f, 18.052f, 21.4f, 17.5f, 21.4f)
+            curveTo(16.948f, 21.4f, 16.5f, 20.952f, 16.5f, 20.4f)
             close()
         }
     }.build()
@@ -446,9 +420,9 @@ private fun buildHealthAttentionDuotoneMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 19f)
-            curveTo(5f, 12f, 10f, 6f, 19f, 6f)
-            curveTo(19f, 15f, 12f, 19f, 5f, 19f)
+            moveTo(17.5f, 3.5f)
+            curveTo(9.5f, 4f, 4f, 9.5f, 4f, 17.5f)
+            curveTo(12f, 17f, 17f, 11.5f, 17.5f, 3.5f)
             close()
         }
         path(
@@ -457,28 +431,17 @@ private fun buildHealthAttentionDuotoneMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 19f)
-            lineTo(14f, 10f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 2.4f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 11.5f)
-            lineTo(12f, 14f)
+            moveTo(17.5f, 14.5f)
+            lineTo(17.5f, 17.9f)
         }
         path(
             fill = SolidColor(Color.Black),
-            fillAlpha = 0.35f,
         ) {
-            moveTo(10.9f, 16.5f)
-            curveTo(10.9f, 15.892f, 11.392f, 15.4f, 12f, 15.4f)
-            curveTo(12.608f, 15.4f, 13.1f, 15.892f, 13.1f, 16.5f)
-            curveTo(13.1f, 16.893f, 12.89f, 17.256f, 12.55f, 17.453f)
-            curveTo(12.21f, 17.649f, 11.79f, 17.649f, 11.45f, 17.453f)
-            curveTo(11.11f, 17.256f, 10.9f, 16.893f, 10.9f, 16.5f)
+            moveTo(16.5f, 20.4f)
+            curveTo(16.5f, 19.848f, 16.948f, 19.4f, 17.5f, 19.4f)
+            curveTo(18.052f, 19.4f, 18.5f, 19.848f, 18.5f, 20.4f)
+            curveTo(18.5f, 20.952f, 18.052f, 21.4f, 17.5f, 21.4f)
+            curveTo(16.948f, 21.4f, 16.5f, 20.952f, 16.5f, 20.4f)
             close()
         }
     }.build()
@@ -506,9 +469,9 @@ private fun buildHealthAttentionDuotoneDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 19f)
-            curveTo(5f, 12f, 10f, 6f, 19f, 6f)
-            curveTo(19f, 15f, 12f, 19f, 5f, 19f)
+            moveTo(17.5f, 3.5f)
+            curveTo(9.5f, 4f, 4f, 9.5f, 4f, 17.5f)
+            curveTo(12f, 17f, 17f, 11.5f, 17.5f, 3.5f)
             close()
         }
         path(
@@ -517,8 +480,8 @@ private fun buildHealthAttentionDuotoneDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 19f)
-            lineTo(14f, 10f)
+            moveTo(7.5f, 14f)
+            lineTo(14f, 7.5f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -526,19 +489,17 @@ private fun buildHealthAttentionDuotoneDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(12f, 11.5f)
-            lineTo(12f, 14f)
+            moveTo(17.5f, 14.5f)
+            lineTo(17.5f, 17.9f)
         }
         path(
             fill = SolidColor(Color.Black),
-            fillAlpha = 0.35f,
         ) {
-            moveTo(10.9f, 16.5f)
-            curveTo(10.9f, 15.892f, 11.392f, 15.4f, 12f, 15.4f)
-            curveTo(12.608f, 15.4f, 13.1f, 15.892f, 13.1f, 16.5f)
-            curveTo(13.1f, 16.893f, 12.89f, 17.256f, 12.55f, 17.453f)
-            curveTo(12.21f, 17.649f, 11.79f, 17.649f, 11.45f, 17.453f)
-            curveTo(11.11f, 17.256f, 10.9f, 16.893f, 10.9f, 16.5f)
+            moveTo(16.5f, 20.4f)
+            curveTo(16.5f, 19.848f, 16.948f, 19.4f, 17.5f, 19.4f)
+            curveTo(18.052f, 19.4f, 18.5f, 19.848f, 18.5f, 20.4f)
+            curveTo(18.5f, 20.952f, 18.052f, 21.4f, 17.5f, 21.4f)
+            curveTo(16.948f, 21.4f, 16.5f, 20.952f, 16.5f, 20.4f)
             close()
         }
     }.build()
@@ -566,9 +527,9 @@ private fun buildHealthAttentionMulticolor(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 19f)
-            curveTo(5f, 12f, 10f, 6f, 19f, 6f)
-            curveTo(19f, 15f, 12f, 19f, 5f, 19f)
+            moveTo(17.5f, 3.5f)
+            curveTo(9.5f, 4f, 4f, 9.5f, 4f, 17.5f)
+            curveTo(12f, 17f, 17f, 11.5f, 17.5f, 3.5f)
             close()
         }
         path(
@@ -577,8 +538,8 @@ private fun buildHealthAttentionMulticolor(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 19f)
-            lineTo(14f, 10f)
+            moveTo(7.5f, 14f)
+            lineTo(14f, 7.5f)
         }
         path(
             stroke = SolidColor(Color(0xFFF9A825)),
@@ -586,18 +547,17 @@ private fun buildHealthAttentionMulticolor(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(12f, 11.5f)
-            lineTo(12f, 14f)
+            moveTo(17.5f, 14.5f)
+            lineTo(17.5f, 17.9f)
         }
         path(
             fill = SolidColor(Color(0xFFF9A825)),
         ) {
-            moveTo(10.9f, 16.5f)
-            curveTo(10.9f, 15.892f, 11.392f, 15.4f, 12f, 15.4f)
-            curveTo(12.608f, 15.4f, 13.1f, 15.892f, 13.1f, 16.5f)
-            curveTo(13.1f, 16.893f, 12.89f, 17.256f, 12.55f, 17.453f)
-            curveTo(12.21f, 17.649f, 11.79f, 17.649f, 11.45f, 17.453f)
-            curveTo(11.11f, 17.256f, 10.9f, 16.893f, 10.9f, 16.5f)
+            moveTo(16.5f, 20.4f)
+            curveTo(16.5f, 19.848f, 16.948f, 19.4f, 17.5f, 19.4f)
+            curveTo(18.052f, 19.4f, 18.5f, 19.848f, 18.5f, 20.4f)
+            curveTo(18.5f, 20.952f, 18.052f, 21.4f, 17.5f, 21.4f)
+            curveTo(16.948f, 21.4f, 16.5f, 20.952f, 16.5f, 20.4f)
             close()
         }
     }.build()
@@ -625,9 +585,9 @@ private fun buildHealthAttentionMulticolorMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 19f)
-            curveTo(5f, 12f, 10f, 6f, 19f, 6f)
-            curveTo(19f, 15f, 12f, 19f, 5f, 19f)
+            moveTo(17.5f, 3.5f)
+            curveTo(9.5f, 4f, 4f, 9.5f, 4f, 17.5f)
+            curveTo(12f, 17f, 17f, 11.5f, 17.5f, 3.5f)
             close()
         }
         path(
@@ -636,27 +596,17 @@ private fun buildHealthAttentionMulticolorMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 19f)
-            lineTo(14f, 10f)
-        }
-        path(
-            stroke = SolidColor(Color(0xFFF9A825)),
-            strokeLineWidth = 2.4f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 11.5f)
-            lineTo(12f, 14f)
+            moveTo(17.5f, 14.5f)
+            lineTo(17.5f, 17.9f)
         }
         path(
             fill = SolidColor(Color(0xFFF9A825)),
         ) {
-            moveTo(10.9f, 16.5f)
-            curveTo(10.9f, 15.892f, 11.392f, 15.4f, 12f, 15.4f)
-            curveTo(12.608f, 15.4f, 13.1f, 15.892f, 13.1f, 16.5f)
-            curveTo(13.1f, 16.893f, 12.89f, 17.256f, 12.55f, 17.453f)
-            curveTo(12.21f, 17.649f, 11.79f, 17.649f, 11.45f, 17.453f)
-            curveTo(11.11f, 17.256f, 10.9f, 16.893f, 10.9f, 16.5f)
+            moveTo(16.5f, 20.4f)
+            curveTo(16.5f, 19.848f, 16.948f, 19.4f, 17.5f, 19.4f)
+            curveTo(18.052f, 19.4f, 18.5f, 19.848f, 18.5f, 20.4f)
+            curveTo(18.5f, 20.952f, 18.052f, 21.4f, 17.5f, 21.4f)
+            curveTo(16.948f, 21.4f, 16.5f, 20.952f, 16.5f, 20.4f)
             close()
         }
     }.build()
@@ -684,9 +634,9 @@ private fun buildHealthAttentionMulticolorDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 19f)
-            curveTo(5f, 12f, 10f, 6f, 19f, 6f)
-            curveTo(19f, 15f, 12f, 19f, 5f, 19f)
+            moveTo(17.5f, 3.5f)
+            curveTo(9.5f, 4f, 4f, 9.5f, 4f, 17.5f)
+            curveTo(12f, 17f, 17f, 11.5f, 17.5f, 3.5f)
             close()
         }
         path(
@@ -695,8 +645,8 @@ private fun buildHealthAttentionMulticolorDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 19f)
-            lineTo(14f, 10f)
+            moveTo(7.5f, 14f)
+            lineTo(14f, 7.5f)
         }
         path(
             stroke = SolidColor(Color(0xFFF9A825)),
@@ -704,18 +654,17 @@ private fun buildHealthAttentionMulticolorDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(12f, 11.5f)
-            lineTo(12f, 14f)
+            moveTo(17.5f, 14.5f)
+            lineTo(17.5f, 17.9f)
         }
         path(
             fill = SolidColor(Color(0xFFF9A825)),
         ) {
-            moveTo(10.9f, 16.5f)
-            curveTo(10.9f, 15.892f, 11.392f, 15.4f, 12f, 15.4f)
-            curveTo(12.608f, 15.4f, 13.1f, 15.892f, 13.1f, 16.5f)
-            curveTo(13.1f, 16.893f, 12.89f, 17.256f, 12.55f, 17.453f)
-            curveTo(12.21f, 17.649f, 11.79f, 17.649f, 11.45f, 17.453f)
-            curveTo(11.11f, 17.256f, 10.9f, 16.893f, 10.9f, 16.5f)
+            moveTo(16.5f, 20.4f)
+            curveTo(16.5f, 19.848f, 16.948f, 19.4f, 17.5f, 19.4f)
+            curveTo(18.052f, 19.4f, 18.5f, 19.848f, 18.5f, 20.4f)
+            curveTo(18.5f, 20.952f, 18.052f, 21.4f, 17.5f, 21.4f)
+            curveTo(16.948f, 21.4f, 16.5f, 20.952f, 16.5f, 20.4f)
             close()
         }
     }.build()

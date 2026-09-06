@@ -32,8 +32,8 @@ private fun buildStageGrowingOutline(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 20f)
-            lineTo(19f, 20f)
+            moveTo(6f, 21f)
+            lineTo(18f, 21f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -41,17 +41,8 @@ private fun buildStageGrowingOutline(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(12f, 20f)
-            lineTo(12f, 10f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 2f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 15f)
-            curveTo(10.7f, 13.7f, 8.7f, 14f, 8.2f, 15.7f)
+            moveTo(12f, 21f)
+            lineTo(12f, 12f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -60,7 +51,9 @@ private fun buildStageGrowingOutline(): ImageVector =
             strokeLineJoin = StrokeJoin.Round,
         ) {
             moveTo(12f, 15f)
-            curveTo(13.3f, 13.7f, 15.3f, 14f, 15.8f, 15.7f)
+            curveTo(9.7f, 15.4f, 7.2f, 14f, 6.8f, 11.2f)
+            curveTo(9.3f, 10.8f, 11.6f, 12.2f, 12f, 15f)
+            close()
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -69,16 +62,9 @@ private fun buildStageGrowingOutline(): ImageVector =
             strokeLineJoin = StrokeJoin.Round,
         ) {
             moveTo(12f, 12f)
-            curveTo(10.9f, 10.9f, 9.2f, 11.1f, 8.8f, 12.6f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 2f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 12f)
-            curveTo(13.1f, 10.9f, 14.8f, 11.1f, 15.2f, 12.6f)
+            curveTo(14.3f, 12.4f, 16.8f, 11f, 17.2f, 8.2f)
+            curveTo(14.7f, 7.8f, 12.4f, 9.2f, 12f, 12f)
+            close()
         }
     }.build()
 
@@ -105,8 +91,8 @@ private fun buildStageGrowingOutlineMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 20f)
-            lineTo(19f, 20f)
+            moveTo(6f, 21f)
+            lineTo(18f, 21f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -114,17 +100,8 @@ private fun buildStageGrowingOutlineMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(12f, 20f)
-            lineTo(12f, 10f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 2.4f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 15f)
-            curveTo(10.7f, 13.7f, 8.7f, 14f, 8.2f, 15.7f)
+            moveTo(12f, 21f)
+            lineTo(12f, 12f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -133,7 +110,9 @@ private fun buildStageGrowingOutlineMicro(): ImageVector =
             strokeLineJoin = StrokeJoin.Round,
         ) {
             moveTo(12f, 15f)
-            curveTo(13.3f, 13.7f, 15.3f, 14f, 15.8f, 15.7f)
+            curveTo(9.7f, 15.4f, 7.2f, 14f, 6.8f, 11.2f)
+            curveTo(9.3f, 10.8f, 11.6f, 12.2f, 12f, 15f)
+            close()
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -142,16 +121,9 @@ private fun buildStageGrowingOutlineMicro(): ImageVector =
             strokeLineJoin = StrokeJoin.Round,
         ) {
             moveTo(12f, 12f)
-            curveTo(10.9f, 10.9f, 9.2f, 11.1f, 8.8f, 12.6f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 2.4f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 12f)
-            curveTo(13.1f, 10.9f, 14.8f, 11.1f, 15.2f, 12.6f)
+            curveTo(14.3f, 12.4f, 16.8f, 11f, 17.2f, 8.2f)
+            curveTo(14.7f, 7.8f, 12.4f, 9.2f, 12f, 12f)
+            close()
         }
     }.build()
 
@@ -178,8 +150,8 @@ private fun buildStageGrowingOutlineDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 20f)
-            lineTo(19f, 20f)
+            moveTo(6f, 21f)
+            lineTo(18f, 21f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -187,17 +159,8 @@ private fun buildStageGrowingOutlineDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(12f, 20f)
-            lineTo(12f, 10f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 1.6f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 15f)
-            curveTo(10.7f, 13.7f, 8.7f, 14f, 8.2f, 15.7f)
+            moveTo(12f, 21f)
+            lineTo(12f, 12f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -206,7 +169,9 @@ private fun buildStageGrowingOutlineDisplay(): ImageVector =
             strokeLineJoin = StrokeJoin.Round,
         ) {
             moveTo(12f, 15f)
-            curveTo(13.3f, 13.7f, 15.3f, 14f, 15.8f, 15.7f)
+            curveTo(9.7f, 15.4f, 7.2f, 14f, 6.8f, 11.2f)
+            curveTo(9.3f, 10.8f, 11.6f, 12.2f, 12f, 15f)
+            close()
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -215,16 +180,9 @@ private fun buildStageGrowingOutlineDisplay(): ImageVector =
             strokeLineJoin = StrokeJoin.Round,
         ) {
             moveTo(12f, 12f)
-            curveTo(10.9f, 10.9f, 9.2f, 11.1f, 8.8f, 12.6f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 1.6f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 12f)
-            curveTo(13.1f, 10.9f, 14.8f, 11.1f, 15.2f, 12.6f)
+            curveTo(14.3f, 12.4f, 16.8f, 11f, 17.2f, 8.2f)
+            curveTo(14.7f, 7.8f, 12.4f, 9.2f, 12f, 12f)
+            close()
         }
     }.build()
 
@@ -251,8 +209,8 @@ private fun buildStageGrowingSolid(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 20f)
-            lineTo(19f, 20f)
+            moveTo(6f, 21f)
+            lineTo(18f, 21f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -260,17 +218,8 @@ private fun buildStageGrowingSolid(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(12f, 20f)
-            lineTo(12f, 10f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 3.1f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 15f)
-            curveTo(10.7f, 13.7f, 8.7f, 14f, 8.2f, 15.7f)
+            moveTo(12f, 21f)
+            lineTo(12f, 12f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -279,7 +228,9 @@ private fun buildStageGrowingSolid(): ImageVector =
             strokeLineJoin = StrokeJoin.Round,
         ) {
             moveTo(12f, 15f)
-            curveTo(13.3f, 13.7f, 15.3f, 14f, 15.8f, 15.7f)
+            curveTo(9.7f, 15.4f, 7.2f, 14f, 6.8f, 11.2f)
+            curveTo(9.3f, 10.8f, 11.6f, 12.2f, 12f, 15f)
+            close()
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -288,16 +239,9 @@ private fun buildStageGrowingSolid(): ImageVector =
             strokeLineJoin = StrokeJoin.Round,
         ) {
             moveTo(12f, 12f)
-            curveTo(10.9f, 10.9f, 9.2f, 11.1f, 8.8f, 12.6f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 3.1f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 12f)
-            curveTo(13.1f, 10.9f, 14.8f, 11.1f, 15.2f, 12.6f)
+            curveTo(14.3f, 12.4f, 16.8f, 11f, 17.2f, 8.2f)
+            curveTo(14.7f, 7.8f, 12.4f, 9.2f, 12f, 12f)
+            close()
         }
     }.build()
 
@@ -324,8 +268,8 @@ private fun buildStageGrowingSolidMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 20f)
-            lineTo(19f, 20f)
+            moveTo(6f, 21f)
+            lineTo(18f, 21f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -333,17 +277,8 @@ private fun buildStageGrowingSolidMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(12f, 20f)
-            lineTo(12f, 10f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 3.3f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 15f)
-            curveTo(10.7f, 13.7f, 8.7f, 14f, 8.2f, 15.7f)
+            moveTo(12f, 21f)
+            lineTo(12f, 12f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -352,7 +287,9 @@ private fun buildStageGrowingSolidMicro(): ImageVector =
             strokeLineJoin = StrokeJoin.Round,
         ) {
             moveTo(12f, 15f)
-            curveTo(13.3f, 13.7f, 15.3f, 14f, 15.8f, 15.7f)
+            curveTo(9.7f, 15.4f, 7.2f, 14f, 6.8f, 11.2f)
+            curveTo(9.3f, 10.8f, 11.6f, 12.2f, 12f, 15f)
+            close()
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -361,16 +298,9 @@ private fun buildStageGrowingSolidMicro(): ImageVector =
             strokeLineJoin = StrokeJoin.Round,
         ) {
             moveTo(12f, 12f)
-            curveTo(10.9f, 10.9f, 9.2f, 11.1f, 8.8f, 12.6f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 3.3f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 12f)
-            curveTo(13.1f, 10.9f, 14.8f, 11.1f, 15.2f, 12.6f)
+            curveTo(14.3f, 12.4f, 16.8f, 11f, 17.2f, 8.2f)
+            curveTo(14.7f, 7.8f, 12.4f, 9.2f, 12f, 12f)
+            close()
         }
     }.build()
 
@@ -397,8 +327,8 @@ private fun buildStageGrowingSolidDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 20f)
-            lineTo(19f, 20f)
+            moveTo(6f, 21f)
+            lineTo(18f, 21f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -406,17 +336,8 @@ private fun buildStageGrowingSolidDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(12f, 20f)
-            lineTo(12f, 10f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 3.1f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 15f)
-            curveTo(10.7f, 13.7f, 8.7f, 14f, 8.2f, 15.7f)
+            moveTo(12f, 21f)
+            lineTo(12f, 12f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -425,7 +346,9 @@ private fun buildStageGrowingSolidDisplay(): ImageVector =
             strokeLineJoin = StrokeJoin.Round,
         ) {
             moveTo(12f, 15f)
-            curveTo(13.3f, 13.7f, 15.3f, 14f, 15.8f, 15.7f)
+            curveTo(9.7f, 15.4f, 7.2f, 14f, 6.8f, 11.2f)
+            curveTo(9.3f, 10.8f, 11.6f, 12.2f, 12f, 15f)
+            close()
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -434,16 +357,9 @@ private fun buildStageGrowingSolidDisplay(): ImageVector =
             strokeLineJoin = StrokeJoin.Round,
         ) {
             moveTo(12f, 12f)
-            curveTo(10.9f, 10.9f, 9.2f, 11.1f, 8.8f, 12.6f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 3.1f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 12f)
-            curveTo(13.1f, 10.9f, 14.8f, 11.1f, 15.2f, 12.6f)
+            curveTo(14.3f, 12.4f, 16.8f, 11f, 17.2f, 8.2f)
+            curveTo(14.7f, 7.8f, 12.4f, 9.2f, 12f, 12f)
+            close()
         }
     }.build()
 
@@ -469,9 +385,10 @@ private fun buildStageGrowingDuotone(): ImageVector =
             strokeLineWidth = 2f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
+            strokeAlpha = 0.35f,
         ) {
-            moveTo(5f, 20f)
-            lineTo(19f, 20f)
+            moveTo(6f, 21f)
+            lineTo(18f, 21f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -479,17 +396,8 @@ private fun buildStageGrowingDuotone(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(12f, 20f)
-            lineTo(12f, 10f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 2f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 15f)
-            curveTo(10.7f, 13.7f, 8.7f, 14f, 8.2f, 15.7f)
+            moveTo(12f, 21f)
+            lineTo(12f, 12f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -498,7 +406,9 @@ private fun buildStageGrowingDuotone(): ImageVector =
             strokeLineJoin = StrokeJoin.Round,
         ) {
             moveTo(12f, 15f)
-            curveTo(13.3f, 13.7f, 15.3f, 14f, 15.8f, 15.7f)
+            curveTo(9.7f, 15.4f, 7.2f, 14f, 6.8f, 11.2f)
+            curveTo(9.3f, 10.8f, 11.6f, 12.2f, 12f, 15f)
+            close()
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -507,16 +417,9 @@ private fun buildStageGrowingDuotone(): ImageVector =
             strokeLineJoin = StrokeJoin.Round,
         ) {
             moveTo(12f, 12f)
-            curveTo(10.9f, 10.9f, 9.2f, 11.1f, 8.8f, 12.6f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 2f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 12f)
-            curveTo(13.1f, 10.9f, 14.8f, 11.1f, 15.2f, 12.6f)
+            curveTo(14.3f, 12.4f, 16.8f, 11f, 17.2f, 8.2f)
+            curveTo(14.7f, 7.8f, 12.4f, 9.2f, 12f, 12f)
+            close()
         }
     }.build()
 
@@ -542,9 +445,10 @@ private fun buildStageGrowingDuotoneMicro(): ImageVector =
             strokeLineWidth = 2.4f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
+            strokeAlpha = 0.35f,
         ) {
-            moveTo(5f, 20f)
-            lineTo(19f, 20f)
+            moveTo(6f, 21f)
+            lineTo(18f, 21f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -552,17 +456,8 @@ private fun buildStageGrowingDuotoneMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(12f, 20f)
-            lineTo(12f, 10f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 2.4f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 15f)
-            curveTo(10.7f, 13.7f, 8.7f, 14f, 8.2f, 15.7f)
+            moveTo(12f, 21f)
+            lineTo(12f, 12f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -571,7 +466,9 @@ private fun buildStageGrowingDuotoneMicro(): ImageVector =
             strokeLineJoin = StrokeJoin.Round,
         ) {
             moveTo(12f, 15f)
-            curveTo(13.3f, 13.7f, 15.3f, 14f, 15.8f, 15.7f)
+            curveTo(9.7f, 15.4f, 7.2f, 14f, 6.8f, 11.2f)
+            curveTo(9.3f, 10.8f, 11.6f, 12.2f, 12f, 15f)
+            close()
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -580,16 +477,9 @@ private fun buildStageGrowingDuotoneMicro(): ImageVector =
             strokeLineJoin = StrokeJoin.Round,
         ) {
             moveTo(12f, 12f)
-            curveTo(10.9f, 10.9f, 9.2f, 11.1f, 8.8f, 12.6f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 2.4f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 12f)
-            curveTo(13.1f, 10.9f, 14.8f, 11.1f, 15.2f, 12.6f)
+            curveTo(14.3f, 12.4f, 16.8f, 11f, 17.2f, 8.2f)
+            curveTo(14.7f, 7.8f, 12.4f, 9.2f, 12f, 12f)
+            close()
         }
     }.build()
 
@@ -615,9 +505,10 @@ private fun buildStageGrowingDuotoneDisplay(): ImageVector =
             strokeLineWidth = 1.6f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
+            strokeAlpha = 0.35f,
         ) {
-            moveTo(5f, 20f)
-            lineTo(19f, 20f)
+            moveTo(6f, 21f)
+            lineTo(18f, 21f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -625,17 +516,8 @@ private fun buildStageGrowingDuotoneDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(12f, 20f)
-            lineTo(12f, 10f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 1.6f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 15f)
-            curveTo(10.7f, 13.7f, 8.7f, 14f, 8.2f, 15.7f)
+            moveTo(12f, 21f)
+            lineTo(12f, 12f)
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -644,7 +526,9 @@ private fun buildStageGrowingDuotoneDisplay(): ImageVector =
             strokeLineJoin = StrokeJoin.Round,
         ) {
             moveTo(12f, 15f)
-            curveTo(13.3f, 13.7f, 15.3f, 14f, 15.8f, 15.7f)
+            curveTo(9.7f, 15.4f, 7.2f, 14f, 6.8f, 11.2f)
+            curveTo(9.3f, 10.8f, 11.6f, 12.2f, 12f, 15f)
+            close()
         }
         path(
             stroke = SolidColor(Color.Black),
@@ -653,16 +537,9 @@ private fun buildStageGrowingDuotoneDisplay(): ImageVector =
             strokeLineJoin = StrokeJoin.Round,
         ) {
             moveTo(12f, 12f)
-            curveTo(10.9f, 10.9f, 9.2f, 11.1f, 8.8f, 12.6f)
-        }
-        path(
-            stroke = SolidColor(Color.Black),
-            strokeLineWidth = 1.6f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 12f)
-            curveTo(13.1f, 10.9f, 14.8f, 11.1f, 15.2f, 12.6f)
+            curveTo(14.3f, 12.4f, 16.8f, 11f, 17.2f, 8.2f)
+            curveTo(14.7f, 7.8f, 12.4f, 9.2f, 12f, 12f)
+            close()
         }
     }.build()
 
@@ -684,13 +561,13 @@ private fun buildStageGrowingMulticolor(): ImageVector =
         viewportHeight = 24f,
     ).apply {
         path(
-            stroke = SolidColor(Color(0xFF2E7D32)),
+            stroke = SolidColor(Color(0xFF6D4C41)),
             strokeLineWidth = 2f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 20f)
-            lineTo(19f, 20f)
+            moveTo(6f, 21f)
+            lineTo(18f, 21f)
         }
         path(
             stroke = SolidColor(Color(0xFF2E7D32)),
@@ -698,44 +575,30 @@ private fun buildStageGrowingMulticolor(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(12f, 20f)
-            lineTo(12f, 10f)
+            moveTo(12f, 21f)
+            lineTo(12f, 12f)
         }
         path(
-            stroke = SolidColor(Color(0xFF2E7D32)),
+            stroke = SolidColor(Color(0xFF43A047)),
             strokeLineWidth = 2f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
             moveTo(12f, 15f)
-            curveTo(10.7f, 13.7f, 8.7f, 14f, 8.2f, 15.7f)
+            curveTo(9.7f, 15.4f, 7.2f, 14f, 6.8f, 11.2f)
+            curveTo(9.3f, 10.8f, 11.6f, 12.2f, 12f, 15f)
+            close()
         }
         path(
-            stroke = SolidColor(Color(0xFF2E7D32)),
-            strokeLineWidth = 2f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 15f)
-            curveTo(13.3f, 13.7f, 15.3f, 14f, 15.8f, 15.7f)
-        }
-        path(
-            stroke = SolidColor(Color(0xFF2E7D32)),
+            stroke = SolidColor(Color(0xFF43A047)),
             strokeLineWidth = 2f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
             moveTo(12f, 12f)
-            curveTo(10.9f, 10.9f, 9.2f, 11.1f, 8.8f, 12.6f)
-        }
-        path(
-            stroke = SolidColor(Color(0xFF2E7D32)),
-            strokeLineWidth = 2f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 12f)
-            curveTo(13.1f, 10.9f, 14.8f, 11.1f, 15.2f, 12.6f)
+            curveTo(14.3f, 12.4f, 16.8f, 11f, 17.2f, 8.2f)
+            curveTo(14.7f, 7.8f, 12.4f, 9.2f, 12f, 12f)
+            close()
         }
     }.build()
 
@@ -757,13 +620,13 @@ private fun buildStageGrowingMulticolorMicro(): ImageVector =
         viewportHeight = 24f,
     ).apply {
         path(
-            stroke = SolidColor(Color(0xFF2E7D32)),
+            stroke = SolidColor(Color(0xFF6D4C41)),
             strokeLineWidth = 2.4f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 20f)
-            lineTo(19f, 20f)
+            moveTo(6f, 21f)
+            lineTo(18f, 21f)
         }
         path(
             stroke = SolidColor(Color(0xFF2E7D32)),
@@ -771,44 +634,30 @@ private fun buildStageGrowingMulticolorMicro(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(12f, 20f)
-            lineTo(12f, 10f)
+            moveTo(12f, 21f)
+            lineTo(12f, 12f)
         }
         path(
-            stroke = SolidColor(Color(0xFF2E7D32)),
+            stroke = SolidColor(Color(0xFF43A047)),
             strokeLineWidth = 2.4f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
             moveTo(12f, 15f)
-            curveTo(10.7f, 13.7f, 8.7f, 14f, 8.2f, 15.7f)
+            curveTo(9.7f, 15.4f, 7.2f, 14f, 6.8f, 11.2f)
+            curveTo(9.3f, 10.8f, 11.6f, 12.2f, 12f, 15f)
+            close()
         }
         path(
-            stroke = SolidColor(Color(0xFF2E7D32)),
-            strokeLineWidth = 2.4f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 15f)
-            curveTo(13.3f, 13.7f, 15.3f, 14f, 15.8f, 15.7f)
-        }
-        path(
-            stroke = SolidColor(Color(0xFF2E7D32)),
+            stroke = SolidColor(Color(0xFF43A047)),
             strokeLineWidth = 2.4f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
             moveTo(12f, 12f)
-            curveTo(10.9f, 10.9f, 9.2f, 11.1f, 8.8f, 12.6f)
-        }
-        path(
-            stroke = SolidColor(Color(0xFF2E7D32)),
-            strokeLineWidth = 2.4f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 12f)
-            curveTo(13.1f, 10.9f, 14.8f, 11.1f, 15.2f, 12.6f)
+            curveTo(14.3f, 12.4f, 16.8f, 11f, 17.2f, 8.2f)
+            curveTo(14.7f, 7.8f, 12.4f, 9.2f, 12f, 12f)
+            close()
         }
     }.build()
 
@@ -830,13 +679,13 @@ private fun buildStageGrowingMulticolorDisplay(): ImageVector =
         viewportHeight = 24f,
     ).apply {
         path(
-            stroke = SolidColor(Color(0xFF2E7D32)),
+            stroke = SolidColor(Color(0xFF6D4C41)),
             strokeLineWidth = 1.6f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(5f, 20f)
-            lineTo(19f, 20f)
+            moveTo(6f, 21f)
+            lineTo(18f, 21f)
         }
         path(
             stroke = SolidColor(Color(0xFF2E7D32)),
@@ -844,44 +693,30 @@ private fun buildStageGrowingMulticolorDisplay(): ImageVector =
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
-            moveTo(12f, 20f)
-            lineTo(12f, 10f)
+            moveTo(12f, 21f)
+            lineTo(12f, 12f)
         }
         path(
-            stroke = SolidColor(Color(0xFF2E7D32)),
+            stroke = SolidColor(Color(0xFF43A047)),
             strokeLineWidth = 1.6f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
             moveTo(12f, 15f)
-            curveTo(10.7f, 13.7f, 8.7f, 14f, 8.2f, 15.7f)
+            curveTo(9.7f, 15.4f, 7.2f, 14f, 6.8f, 11.2f)
+            curveTo(9.3f, 10.8f, 11.6f, 12.2f, 12f, 15f)
+            close()
         }
         path(
-            stroke = SolidColor(Color(0xFF2E7D32)),
-            strokeLineWidth = 1.6f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 15f)
-            curveTo(13.3f, 13.7f, 15.3f, 14f, 15.8f, 15.7f)
-        }
-        path(
-            stroke = SolidColor(Color(0xFF2E7D32)),
+            stroke = SolidColor(Color(0xFF43A047)),
             strokeLineWidth = 1.6f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
         ) {
             moveTo(12f, 12f)
-            curveTo(10.9f, 10.9f, 9.2f, 11.1f, 8.8f, 12.6f)
-        }
-        path(
-            stroke = SolidColor(Color(0xFF2E7D32)),
-            strokeLineWidth = 1.6f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round,
-        ) {
-            moveTo(12f, 12f)
-            curveTo(13.1f, 10.9f, 14.8f, 11.1f, 15.2f, 12.6f)
+            curveTo(14.3f, 12.4f, 16.8f, 11f, 17.2f, 8.2f)
+            curveTo(14.7f, 7.8f, 12.4f, 9.2f, 12f, 12f)
+            close()
         }
     }.build()
 

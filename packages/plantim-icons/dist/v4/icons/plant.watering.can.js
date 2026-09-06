@@ -1,42 +1,36 @@
 export const PlantWateringCan = {
     "id": "plant.watering.can",
-    "label": "Watering Can",
+    "label": "Watering can",
     "tier": "P2",
     "grades": {
         "micro": {
             "layers": [
                 {
-                    "name": "primary",
+                    "name": "can",
                     "role": "primary",
                     "nodes": [
                         {
                             "type": "path",
                             "attrs": {
-                                "d": "M3 18a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V8H3z"
+                                "d": "M6 11h9a2 2 0 0 1 2 2v4a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3v-5a1 1 0 0 1 1-1Z"
                             }
                         },
                         {
                             "type": "path",
                             "attrs": {
-                                "d": "M15 8h2a2 2 0 0 1 2 2v0"
+                                "d": "M15 12l4-3v6"
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "water",
+                    "role": "accent",
+                    "nodes": [
                         {
                             "type": "path",
                             "attrs": {
-                                "d": "M3 8V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M17 16L21 12"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M17 12L21 16"
+                                "d": "M20.5 18v3"
                             }
                         }
                     ]
@@ -46,37 +40,43 @@ export const PlantWateringCan = {
         "base": {
             "layers": [
                 {
-                    "name": "primary",
+                    "name": "can",
                     "role": "primary",
                     "nodes": [
                         {
                             "type": "path",
                             "attrs": {
-                                "d": "M3 18a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V8H3z"
+                                "d": "M6 11h9a2 2 0 0 1 2 2v4a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3v-5a1 1 0 0 1 1-1Z"
                             }
                         },
                         {
                             "type": "path",
                             "attrs": {
-                                "d": "M15 8h2a2 2 0 0 1 2 2v0"
+                                "d": "M15 12l4-3v6"
                             }
                         },
                         {
                             "type": "path",
                             "attrs": {
-                                "d": "M3 8V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2"
+                                "d": "M8 11V9a2 2 0 0 1 4 0v2"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "water",
+                    "role": "accent",
+                    "nodes": [
+                        {
+                            "type": "path",
+                            "attrs": {
+                                "d": "M20 18v2.5"
                             }
                         },
                         {
                             "type": "path",
                             "attrs": {
-                                "d": "M17 16L21 12"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M17 12L21 16"
+                                "d": "M22 17v2.5"
                             }
                         }
                     ]
@@ -99,11 +99,12 @@ export const PlantWateringCan = {
     "variants": {
         "duotone": {
             "primary": [
-                "primary"
+                "can"
             ]
         },
         "multicolor": {
-            "primary": "water.600"
+            "can": "ink.900",
+            "water": "water.600"
         }
     }
 };

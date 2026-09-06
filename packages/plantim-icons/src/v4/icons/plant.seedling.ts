@@ -1,5 +1,5 @@
 // GENERATED FILE - do not edit by hand.
-// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 8918930f0901ef326303681d0b07a17a8d539f03b71776012e2defbe70af3284).
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 5bb26078101916dcab888a399aaaa4dbef858532ec4bec3fd820d80f7f986011).
 // Regenerate with: npm run icons:v4:package
 import type { PlantimIconV4Definition } from "../index.js";
 
@@ -11,25 +11,49 @@ export const PlantSeedling: PlantimIconV4Definition = {
     "micro": {
       "layers": [
         {
-          "name": "primary",
+          "name": "soil",
+          "role": "container",
+          "nodes": [
+            {
+              "type": "path",
+              "attrs": {
+                "d": "M5 20h14"
+              }
+            }
+          ]
+        },
+        {
+          "name": "stem",
           "role": "primary",
           "nodes": [
             {
               "type": "path",
               "attrs": {
-                "d": "M12 21V10"
+                "d": "M12 20v-6"
               }
-            },
+            }
+          ]
+        },
+        {
+          "name": "leaf",
+          "role": "secondary",
+          "nodes": [
             {
               "type": "path",
               "attrs": {
-                "d": "M7 10c0-4 2.5-6 5-6s5 2 5 6"
+                "d": "M12 14C9.6 14 7.6 12 7.6 9.5C10 9.5 12 11.5 12 14Z"
               }
-            },
+            }
+          ]
+        },
+        {
+          "name": "seed",
+          "role": "accent",
+          "nodes": [
             {
               "type": "path",
               "attrs": {
-                "d": "M7 14c0 0 1-3 5-3"
+                "d": "M9 20c0-1.7 1.3-3 3-3s3 1.3 3 3Z"
               }
             }
           ]
@@ -39,25 +63,49 @@ export const PlantSeedling: PlantimIconV4Definition = {
     "base": {
       "layers": [
         {
-          "name": "primary",
+          "name": "soil",
+          "role": "container",
+          "nodes": [
+            {
+              "type": "path",
+              "attrs": {
+                "d": "M5 20h14"
+              }
+            }
+          ]
+        },
+        {
+          "name": "stem",
           "role": "primary",
           "nodes": [
             {
               "type": "path",
               "attrs": {
-                "d": "M12 21V10"
+                "d": "M12 20v-6"
               }
-            },
+            }
+          ]
+        },
+        {
+          "name": "leaf",
+          "role": "secondary",
+          "nodes": [
             {
               "type": "path",
               "attrs": {
-                "d": "M7 10c0-4 2.5-6 5-6s5 2 5 6"
+                "d": "M12 14C9.6 14 7.6 12 7.6 9.5C10 9.5 12 11.5 12 14Z"
               }
-            },
+            }
+          ]
+        },
+        {
+          "name": "seed",
+          "role": "accent",
+          "nodes": [
             {
               "type": "path",
               "attrs": {
-                "d": "M7 14c0 0 1-3 5-3"
+                "d": "M9 20c0-1.7 1.3-3 3-3s3 1.3 3 3Z"
               }
             }
           ]
@@ -80,11 +128,15 @@ export const PlantSeedling: PlantimIconV4Definition = {
   "variants": {
     "duotone": {
       "primary": [
-        "primary"
+        "stem",
+        "leaf"
       ]
     },
     "multicolor": {
-      "primary": "leaf.700"
+      "soil": "earth.600",
+      "stem": "leaf.700",
+      "leaf": "leaf.500",
+      "seed": "earth.400"
     }
   }
 };

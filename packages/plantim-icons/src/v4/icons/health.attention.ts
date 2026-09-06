@@ -1,5 +1,5 @@
 // GENERATED FILE - do not edit by hand.
-// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 8918930f0901ef326303681d0b07a17a8d539f03b71776012e2defbe70af3284).
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 5bb26078101916dcab888a399aaaa4dbef858532ec4bec3fd820d80f7f986011).
 // Regenerate with: npm run icons:v4:package
 import type { PlantimIconV4Definition } from "../index.js";
 
@@ -11,39 +11,33 @@ export const HealthAttention: PlantimIconV4Definition = {
     "micro": {
       "layers": [
         {
-          "name": "primary",
+          "name": "leaf",
           "role": "primary",
           "nodes": [
             {
               "type": "path",
               "attrs": {
-                "d": "M5 19C5 12 10 6 19 6c0 9-7 13-14 13z"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M5 19 14 10"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M12 11.5L12 14"
+                "d": "M17.5 3.5C9.5 4 4 9.5 4 17.5C12 17 17 11.5 17.5 3.5Z"
               }
             }
           ]
         },
         {
-          "name": "accent",
+          "name": "badge",
           "role": "accent",
           "nodes": [
             {
+              "type": "path",
+              "attrs": {
+                "d": "M17.5 14.5v3.4"
+              }
+            },
+            {
               "type": "circle",
               "attrs": {
-                "cx": "12",
-                "cy": "16.5",
-                "r": "1.1"
+                "cx": "17.5",
+                "cy": "20.4",
+                "r": "1"
               },
               "filled": true
             }
@@ -54,39 +48,39 @@ export const HealthAttention: PlantimIconV4Definition = {
     "base": {
       "layers": [
         {
-          "name": "primary",
+          "name": "leaf",
           "role": "primary",
           "nodes": [
             {
               "type": "path",
               "attrs": {
-                "d": "M5 19C5 12 10 6 19 6c0 9-7 13-14 13z"
+                "d": "M17.5 3.5C9.5 4 4 9.5 4 17.5C12 17 17 11.5 17.5 3.5Z"
               }
             },
             {
               "type": "path",
               "attrs": {
-                "d": "M5 19 14 10"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M12 11.5L12 14"
+                "d": "M7.5 14 14 7.5"
               }
             }
           ]
         },
         {
-          "name": "accent",
+          "name": "badge",
           "role": "accent",
           "nodes": [
             {
+              "type": "path",
+              "attrs": {
+                "d": "M17.5 14.5v3.4"
+              }
+            },
+            {
               "type": "circle",
               "attrs": {
-                "cx": "12",
-                "cy": "16.5",
-                "r": "1.1"
+                "cx": "17.5",
+                "cy": "20.4",
+                "r": "1"
               },
               "filled": true
             }
@@ -110,12 +104,13 @@ export const HealthAttention: PlantimIconV4Definition = {
   "variants": {
     "duotone": {
       "primary": [
-        "primary"
+        "leaf",
+        "badge"
       ]
     },
     "multicolor": {
-      "primary": "status.warning",
-      "accent": "status.warning"
+      "leaf": "status.warning",
+      "badge": "status.warning"
     }
   }
 };

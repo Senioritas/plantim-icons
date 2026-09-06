@@ -1,5 +1,5 @@
 // GENERATED FILE - do not edit by hand.
-// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 8918930f0901ef326303681d0b07a17a8d539f03b71776012e2defbe70af3284).
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 5bb26078101916dcab888a399aaaa4dbef858532ec4bec3fd820d80f7f986011).
 // Regenerate with: npm run icons:v4:package
 import type { PlantimIconV4Definition } from "../index.js";
 
@@ -11,25 +11,25 @@ export const StageMature: PlantimIconV4Definition = {
     "micro": {
       "layers": [
         {
-          "name": "primary",
+          "name": "trunk",
           "role": "primary",
           "nodes": [
             {
               "type": "path",
               "attrs": {
-                "d": "M12 21L12 15"
+                "d": "M12 21v-5"
               }
-            },
+            }
+          ]
+        },
+        {
+          "name": "canopy",
+          "role": "secondary",
+          "nodes": [
             {
               "type": "path",
               "attrs": {
-                "d": "M6.5 15a5.5 5.5 0 1 1 11 0z"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M8.5 21L15.5 21"
+                "d": "M9 16a4 4 0 0 1-2.4-7.2A4.5 4.5 0 0 1 12 3.2a4.5 4.5 0 0 1 5.4 5.6A4 4 0 0 1 15 16Z"
               }
             }
           ]
@@ -39,25 +39,37 @@ export const StageMature: PlantimIconV4Definition = {
     "base": {
       "layers": [
         {
-          "name": "primary",
+          "name": "trunk",
           "role": "primary",
           "nodes": [
             {
               "type": "path",
               "attrs": {
-                "d": "M12 21L12 15"
+                "d": "M12 21v-6"
               }
-            },
+            }
+          ]
+        },
+        {
+          "name": "canopy",
+          "role": "secondary",
+          "nodes": [
             {
               "type": "path",
               "attrs": {
-                "d": "M6.5 15a5.5 5.5 0 1 1 11 0z"
+                "d": "M9 16a4 4 0 0 1-2.4-7.2A4.5 4.5 0 0 1 12 3.2a4.5 4.5 0 0 1 5.4 5.6A4 4 0 0 1 15 16Z"
               }
-            },
+            }
+          ]
+        },
+        {
+          "name": "ground",
+          "role": "container",
+          "nodes": [
             {
               "type": "path",
               "attrs": {
-                "d": "M8.5 21L15.5 21"
+                "d": "M8 21h8"
               }
             }
           ]
@@ -80,11 +92,14 @@ export const StageMature: PlantimIconV4Definition = {
   "variants": {
     "duotone": {
       "primary": [
-        "primary"
+        "canopy",
+        "trunk"
       ]
     },
     "multicolor": {
-      "primary": "leaf.700"
+      "trunk": "earth.600",
+      "canopy": "leaf.700",
+      "ground": "earth.400"
     }
   }
 };
