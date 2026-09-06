@@ -41,6 +41,21 @@
       "import": "./dist/navigation.js",
       "default": "./dist/navigation.js"
     },
+    "./v4": {
+      "types": "./dist/v4/index.d.ts",
+      "import": "./dist/v4/index.js",
+      "default": "./dist/v4/index.js"
+    },
+    "./v4/icons/*": {
+      "types": "./dist/v4/icons/*.d.ts",
+      "import": "./dist/v4/icons/*.js",
+      "default": "./dist/v4/icons/*.js"
+    },
+    "./v4/metadata": {
+      "types": "./dist/v4/metadata.d.ts",
+      "import": "./dist/v4/metadata.js",
+      "default": "./dist/v4/metadata.js"
+    },
     "./package.json": "./package.json"
   },
   "typesVersions": {
@@ -48,6 +63,9 @@
       "vue": ["dist/vue.d.ts"],
       "metadata": ["dist/metadata.d.ts"],
       "navigation": ["dist/navigation.d.ts"],
+      "v4": ["dist/v4/index.d.ts"],
+      "v4/icons/*": ["dist/v4/icons/*.d.ts"],
+      "v4/metadata": ["dist/v4/metadata.d.ts"],
       "*": ["dist/index.d.ts"]
     }
   },
