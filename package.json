@@ -39,7 +39,9 @@
     "icons:v3:html": "node design-tokens/bin/generate-v3-html.mjs",
     "icons:v4": "node design-tokens/bin/generate-v4-icons.mjs && node design-tokens/bin/check-v4-icons.mjs",
     "icons:v4:raster": "node design-tokens/bin/check-v4-raster.mjs",
-    "icons:v4:sheets": "node design-tokens/bin/render-v4-sheets.mjs v4"
+    "icons:v4:sheets": "node design-tokens/bin/render-v4-sheets.mjs v4",
+    "icons:v4:pdf": "node design-tokens/bin/generate-v4-report.mjs && node design-tokens/bin/generate-v4-catalog.mjs",
+    "icons:v4:html": "node design-tokens/bin/generate-v4-html.mjs"
   },
   "devDependencies": {
     "ajv": "^8.17.1",
