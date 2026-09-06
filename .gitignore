@@ -5,3 +5,4 @@ dist/gallery/
 test-results/
 *.tgz
 .DS_Store
+reports/v4-sheets/
