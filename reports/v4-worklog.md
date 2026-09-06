@@ -31,3 +31,25 @@ Branch: `feat/icons-v3-multicolor-sizes`.
   drift in `packages/` (git status clean apart from package.json/lockfile).
 - `diff-icon-registry.mjs` comparison is moot: `registry.json` is not
   regenerated from Lucide by any current script.
+
+## Phase 4 — P0 icons (2026-09-06)
+
+Pipeline: authoring DSL (layers + semantic roles) -> generate-v4-icons.mjs ->
+structural gate -> raster gate (flood-fill counters + silhouette IoU >= 0.9) ->
+contact sheets + iOS/Material tab-bar mocks -> zoomed inspection.
+
+| icon | passes | what changed | verdict |
+|---|---|---|---|
+| plant.sprout | 4 | leaves opened (interior survives 2px stroke at 24), stem lengthened, solids redrawn to stroked footprint | done |
+| plant.growth | 2 | new metaphor: raised bed + two staggered plants (was slashed leaf reading as "prohibited"); junction cleanup | done |
+| calendar.date | 2 | hand redraw; solid got edge-to-edge header slit + smaller date dot (was reading as a robot face) | done |
+| utility.message.circle | 3 | new bubble + typing dots (was question-mark glyph); arc center recomputed so solid disc matches outline exactly | done |
+| utility.activity | 2 | frameless pulse, widened; bold-mode solid | done |
+| account.user | 2 | avatar; multicolor roles hand-assigned (v3 erased the person); solid counters declared 2 (head + shoulders crescent) | done |
+| navigation.home | 3 | closed-shell house (two-stroke roof leaked silhouette), door slimmed to keep IoU while staying legible | done |
+| action.add | 2 | bare plus (toolbar convention; un-collides from plus.circle) | done |
+| utility.plus.circle | 2 | circled plus CTA; solid disc + plus counter | done |
+
+Gate findings that drove rework: fake-open outlines (sprout leaves), silhouette
+leaks (house), arc mis-centering (bubble), undeclared counters (avatar).
+All 9 verified in tab-bar mocks (iOS + M3, light/dark, active/inactive).
