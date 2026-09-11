@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="9.25" fill="none" stroke="#A5D6A7" stroke-width="1.6" data-token="leaf.300" />
+  <path d="M12 19.5V5.5" fill="none" stroke="#43A047" stroke-width="1.6" data-token="leaf.500" />
+  <path d="M10.573 7.071Q9.773 4.227 6.284 5.1Q7.273 8.558 10.136 7.829Z" fill="none" stroke="#43A047" stroke-width="1.6" data-token="leaf.500" />
+  <path d="M13.864 7.829Q16.727 8.558 17.716 5.1Q14.227 4.227 13.427 7.071Z" fill="none" stroke="#43A047" stroke-width="1.6" data-token="leaf.500" />
+  <path d="M10.573 11.271Q9.773 8.427 6.284 9.3Q7.273 12.758 10.136 12.029Z" fill="none" stroke="#43A047" stroke-width="1.6" data-token="leaf.500" />
+  <path d="M13.864 12.029Q16.727 12.758 17.716 9.3Q14.227 8.427 13.427 11.271Z" fill="none" stroke="#43A047" stroke-width="1.6" data-token="leaf.500" />
+  <path d="M10.573 15.471Q9.773 12.627 6.284 13.5Q7.273 16.958 10.136 16.229Z" fill="none" stroke="#43A047" stroke-width="1.6" data-token="leaf.500" />
+  <path d="M13.864 16.229Q16.727 16.958 17.716 13.5Q14.227 12.627 13.427 15.471Z" fill="none" stroke="#43A047" stroke-width="1.6" data-token="leaf.500" />
+</svg>

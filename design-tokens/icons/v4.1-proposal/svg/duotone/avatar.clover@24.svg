@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="9.25" fill="none" stroke="currentColor" stroke-width="2" opacity="0.35" />
+  <path d="M12 11.1C11.1 9.9 9.2 10 9.2 8.4C9.2 7.3 10 6.6 10.9 6.6C11.4 6.6 11.8 6.8 12 7.2C12.2 6.8 12.6 6.6 13.1 6.6C14 6.6 14.8 7.3 14.8 8.4C14.8 10 12.9 9.9 12 11.1Z" fill="none" stroke="currentColor" stroke-width="2" />
+  <path d="M12.9 12C14.1 11.1 14 9.2 15.6 9.2C16.7 9.2 17.4 10 17.4 10.9C17.4 11.4 17.2 11.8 16.8 12C17.2 12.2 17.4 12.6 17.4 13.1C17.4 14 16.7 14.8 15.6 14.8C14 14.8 14.1 12.9 12.9 12Z" fill="none" stroke="currentColor" stroke-width="2" />
+  <path d="M12 12.9C12.9 14.1 14.8 14 14.8 15.6C14.8 16.7 14 17.4 13.1 17.4C12.6 17.4 12.2 17.2 12 16.8C11.8 17.2 11.4 17.4 10.9 17.4C10 17.4 9.2 16.7 9.2 15.6C9.2 14 11.1 14.1 12 12.9Z" fill="none" stroke="currentColor" stroke-width="2" />
+  <path d="M11.1 12C9.9 12.9 10 14.8 8.4 14.8C7.3 14.8 6.6 14 6.6 13.1C6.6 12.6 6.8 12.2 7.2 12C6.8 11.8 6.6 11.4 6.6 10.9C6.6 10 7.3 9.2 8.4 9.2C10 9.2 9.9 11.1 11.1 12Z" fill="none" stroke="currentColor" stroke-width="2" />
+  <path d="M12 16.5v2.8" fill="none" stroke="currentColor" stroke-width="2" />
+</svg>

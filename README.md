@@ -25,6 +25,16 @@ The canonical source is [`design-tokens/icons/registry.json`](design-tokens/icon
 Run `npm run icons:generate` after registry changes. Generated adapters must be
 committed and must have matching version and registry hash metadata.
 
+## v4.1 proposal (review package)
+
+New icons are proposed additively under [`design-tokens/icons/v4.1-proposal`](design-tokens/icons/v4.1-proposal/README.md):
+loading-state placeholders, the specific cases the app works around, and a
+`flag.*` asset class. Review in
+[`reports/plantim-icons-v4.1-proposal-catalog.html`](reports/plantim-icons-v4.1-proposal-catalog.html)
+(decision record) and read
+[`reports/plantim-icons-v4.1-proposal-report.pdf`](reports/plantim-icons-v4.1-proposal-report.pdf).
+Nothing in the proposal changes a shipped id; `npm run icons:proposal` regenerates and gates it.
+
 ## Compatibility
 
 | Consumer or tool | Supported baseline |

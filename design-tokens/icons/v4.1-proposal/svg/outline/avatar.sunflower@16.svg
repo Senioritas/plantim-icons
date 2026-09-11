@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="9.25" fill="none" stroke="currentColor" stroke-width="2.4" />
+  <path d="M12.385 8.6Q14.2 6.845 12 4.7Q9.8 6.845 11.615 8.6Z" fill="none" stroke="currentColor" stroke-width="2.4" />
+  <path d="M14.676 9.868Q17.201 9.91 17.162 6.838Q14.09 6.799 14.132 9.324Z" fill="none" stroke="currentColor" stroke-width="2.4" />
+  <path d="M15.4 12.385Q17.155 14.2 19.3 12Q17.155 9.8 15.4 11.615Z" fill="none" stroke="currentColor" stroke-width="2.4" />
+  <path d="M14.132 14.676Q14.09 17.201 17.162 17.162Q17.201 14.09 14.676 14.132Z" fill="none" stroke="currentColor" stroke-width="2.4" />
+  <path d="M11.615 15.4Q9.8 17.155 12 19.3Q14.2 17.155 12.385 15.4Z" fill="none" stroke="currentColor" stroke-width="2.4" />
+  <path d="M9.324 14.132Q6.799 14.09 6.838 17.162Q9.91 17.201 9.868 14.676Z" fill="none" stroke="currentColor" stroke-width="2.4" />
+  <path d="M8.6 11.615Q6.845 9.8 4.7 12Q6.845 14.2 8.6 12.385Z" fill="none" stroke="currentColor" stroke-width="2.4" />
+  <path d="M9.868 9.324Q9.91 6.799 6.838 6.838Q6.799 9.91 9.324 9.868Z" fill="none" stroke="currentColor" stroke-width="2.4" />
+  <circle cx="12" cy="12" r="2.4" fill="none" stroke="currentColor" stroke-width="2.4" />
+</svg>
