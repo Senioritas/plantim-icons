@@ -94,7 +94,7 @@ export declare const PlantimIconV4: import("vue").DefineComponent<import("vue").
     title: StringConstructor;
     decorative: BooleanConstructor;
 }>> & Readonly<{}>, {
-    decorative: boolean;
-    size: number;
     variant: PlantimIconV4Variant;
+    size: number;
+    decorative: boolean;
 }, {}, {}, {}, string, import("vue").ComponentProvideOptions, true, {}, any>;
