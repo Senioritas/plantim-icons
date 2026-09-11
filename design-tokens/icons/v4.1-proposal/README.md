@@ -24,7 +24,8 @@ v4.1-proposal/
   flags/src/flags.mjs       hand-authored flags in the flag DSL (flag / flagLayer / hStripes / …)
   registry.proposal.json    compiled, self-hashed (generated)
   index.proposal.json       manifest for catalogs/sheets (generated)
-  svg/<variant>/<id>@<size>.svg   generated: 4 × 6 per icon, 2 × 6 per flag
+  svg/<variant>/<id>@<size>.svg   generated: 4 × 6 per icon, 4 × 6 per flag
+                            (flags: color / mono rectangles + circle / circle.mono discs)
 ```
 
 ## Commands
@@ -48,8 +49,10 @@ pre-installed Chromium instead of the Playwright download.
   strokes, 4 × 6 size set, declared counters, token refs) and the raster gate.
 - Status/semantic ids and all flags need a label in **every** locale
   (`locales/*.json` or `locales.proposal.json`).
-- Flags: `color` variant has the clip + hairline border and no `currentColor`;
-  colors are uppercase 6-digit hex; at least one layer survives micro.
+- Flags: every colour shape (`color`, `circle`) has the clip + hairline border
+  and no `currentColor`; colors are uppercase 6-digit hex; at least one layer
+  survives micro. The circular shapes scale the flag to cover a Ø18.5 disc and
+  crop the sides, matching `placeholder.avatar`'s crop.
 - The proposal is pinned to the current `v4Hash`; it must be regenerated after
   any v4 change.
 

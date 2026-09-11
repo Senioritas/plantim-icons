@@ -1,14 +1,1064 @@
 {
   "version": "4.1.0-proposal",
-  "proposalHash": "520b57ace477bc3314f4ebf9efa9b9cb8ae8bac5f9a43e3d88fb49b1a98a4071",
+  "proposalHash": "f08b08dd56234f83112dc3b9fa3a5fc99ec690dca322aa85b59067a17e6c905d",
   "counts": {
-    "icons": 27,
+    "icons": 52,
     "flags": 14,
-    "total": 41,
-    "P1": 31,
+    "total": 66,
+    "P1": 56,
     "P2": 10
   },
   "icons": [
+    {
+      "id": "avatar.aloe",
+      "kind": "icon",
+      "category": "avatar",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Aloe",
+      "files": {
+        "outline": {
+          "16": "svg/outline/avatar.aloe@16.svg",
+          "20": "svg/outline/avatar.aloe@20.svg",
+          "24": "svg/outline/avatar.aloe@24.svg",
+          "32": "svg/outline/avatar.aloe@32.svg",
+          "48": "svg/outline/avatar.aloe@48.svg",
+          "72": "svg/outline/avatar.aloe@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/avatar.aloe@16.svg",
+          "20": "svg/solid/avatar.aloe@20.svg",
+          "24": "svg/solid/avatar.aloe@24.svg",
+          "32": "svg/solid/avatar.aloe@32.svg",
+          "48": "svg/solid/avatar.aloe@48.svg",
+          "72": "svg/solid/avatar.aloe@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/avatar.aloe@16.svg",
+          "20": "svg/duotone/avatar.aloe@20.svg",
+          "24": "svg/duotone/avatar.aloe@24.svg",
+          "32": "svg/duotone/avatar.aloe@32.svg",
+          "48": "svg/duotone/avatar.aloe@48.svg",
+          "72": "svg/duotone/avatar.aloe@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/avatar.aloe@16.svg",
+          "20": "svg/multicolor/avatar.aloe@20.svg",
+          "24": "svg/multicolor/avatar.aloe@24.svg",
+          "32": "svg/multicolor/avatar.aloe@32.svg",
+          "48": "svg/multicolor/avatar.aloe@48.svg",
+          "72": "svg/multicolor/avatar.aloe@72.svg"
+        }
+      }
+    },
+    {
+      "id": "avatar.bamboo",
+      "kind": "icon",
+      "category": "avatar",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Bamboo",
+      "files": {
+        "outline": {
+          "16": "svg/outline/avatar.bamboo@16.svg",
+          "20": "svg/outline/avatar.bamboo@20.svg",
+          "24": "svg/outline/avatar.bamboo@24.svg",
+          "32": "svg/outline/avatar.bamboo@32.svg",
+          "48": "svg/outline/avatar.bamboo@48.svg",
+          "72": "svg/outline/avatar.bamboo@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/avatar.bamboo@16.svg",
+          "20": "svg/solid/avatar.bamboo@20.svg",
+          "24": "svg/solid/avatar.bamboo@24.svg",
+          "32": "svg/solid/avatar.bamboo@32.svg",
+          "48": "svg/solid/avatar.bamboo@48.svg",
+          "72": "svg/solid/avatar.bamboo@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/avatar.bamboo@16.svg",
+          "20": "svg/duotone/avatar.bamboo@20.svg",
+          "24": "svg/duotone/avatar.bamboo@24.svg",
+          "32": "svg/duotone/avatar.bamboo@32.svg",
+          "48": "svg/duotone/avatar.bamboo@48.svg",
+          "72": "svg/duotone/avatar.bamboo@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/avatar.bamboo@16.svg",
+          "20": "svg/multicolor/avatar.bamboo@20.svg",
+          "24": "svg/multicolor/avatar.bamboo@24.svg",
+          "32": "svg/multicolor/avatar.bamboo@32.svg",
+          "48": "svg/multicolor/avatar.bamboo@48.svg",
+          "72": "svg/multicolor/avatar.bamboo@72.svg"
+        }
+      }
+    },
+    {
+      "id": "avatar.bonsai",
+      "kind": "icon",
+      "category": "avatar",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Bonsai",
+      "files": {
+        "outline": {
+          "16": "svg/outline/avatar.bonsai@16.svg",
+          "20": "svg/outline/avatar.bonsai@20.svg",
+          "24": "svg/outline/avatar.bonsai@24.svg",
+          "32": "svg/outline/avatar.bonsai@32.svg",
+          "48": "svg/outline/avatar.bonsai@48.svg",
+          "72": "svg/outline/avatar.bonsai@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/avatar.bonsai@16.svg",
+          "20": "svg/solid/avatar.bonsai@20.svg",
+          "24": "svg/solid/avatar.bonsai@24.svg",
+          "32": "svg/solid/avatar.bonsai@32.svg",
+          "48": "svg/solid/avatar.bonsai@48.svg",
+          "72": "svg/solid/avatar.bonsai@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/avatar.bonsai@16.svg",
+          "20": "svg/duotone/avatar.bonsai@20.svg",
+          "24": "svg/duotone/avatar.bonsai@24.svg",
+          "32": "svg/duotone/avatar.bonsai@32.svg",
+          "48": "svg/duotone/avatar.bonsai@48.svg",
+          "72": "svg/duotone/avatar.bonsai@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/avatar.bonsai@16.svg",
+          "20": "svg/multicolor/avatar.bonsai@20.svg",
+          "24": "svg/multicolor/avatar.bonsai@24.svg",
+          "32": "svg/multicolor/avatar.bonsai@32.svg",
+          "48": "svg/multicolor/avatar.bonsai@48.svg",
+          "72": "svg/multicolor/avatar.bonsai@72.svg"
+        }
+      }
+    },
+    {
+      "id": "avatar.cactus",
+      "kind": "icon",
+      "category": "avatar",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Cactus",
+      "files": {
+        "outline": {
+          "16": "svg/outline/avatar.cactus@16.svg",
+          "20": "svg/outline/avatar.cactus@20.svg",
+          "24": "svg/outline/avatar.cactus@24.svg",
+          "32": "svg/outline/avatar.cactus@32.svg",
+          "48": "svg/outline/avatar.cactus@48.svg",
+          "72": "svg/outline/avatar.cactus@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/avatar.cactus@16.svg",
+          "20": "svg/solid/avatar.cactus@20.svg",
+          "24": "svg/solid/avatar.cactus@24.svg",
+          "32": "svg/solid/avatar.cactus@32.svg",
+          "48": "svg/solid/avatar.cactus@48.svg",
+          "72": "svg/solid/avatar.cactus@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/avatar.cactus@16.svg",
+          "20": "svg/duotone/avatar.cactus@20.svg",
+          "24": "svg/duotone/avatar.cactus@24.svg",
+          "32": "svg/duotone/avatar.cactus@32.svg",
+          "48": "svg/duotone/avatar.cactus@48.svg",
+          "72": "svg/duotone/avatar.cactus@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/avatar.cactus@16.svg",
+          "20": "svg/multicolor/avatar.cactus@20.svg",
+          "24": "svg/multicolor/avatar.cactus@24.svg",
+          "32": "svg/multicolor/avatar.cactus@32.svg",
+          "48": "svg/multicolor/avatar.cactus@48.svg",
+          "72": "svg/multicolor/avatar.cactus@72.svg"
+        }
+      }
+    },
+    {
+      "id": "avatar.calathea",
+      "kind": "icon",
+      "category": "avatar",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Calathea",
+      "files": {
+        "outline": {
+          "16": "svg/outline/avatar.calathea@16.svg",
+          "20": "svg/outline/avatar.calathea@20.svg",
+          "24": "svg/outline/avatar.calathea@24.svg",
+          "32": "svg/outline/avatar.calathea@32.svg",
+          "48": "svg/outline/avatar.calathea@48.svg",
+          "72": "svg/outline/avatar.calathea@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/avatar.calathea@16.svg",
+          "20": "svg/solid/avatar.calathea@20.svg",
+          "24": "svg/solid/avatar.calathea@24.svg",
+          "32": "svg/solid/avatar.calathea@32.svg",
+          "48": "svg/solid/avatar.calathea@48.svg",
+          "72": "svg/solid/avatar.calathea@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/avatar.calathea@16.svg",
+          "20": "svg/duotone/avatar.calathea@20.svg",
+          "24": "svg/duotone/avatar.calathea@24.svg",
+          "32": "svg/duotone/avatar.calathea@32.svg",
+          "48": "svg/duotone/avatar.calathea@48.svg",
+          "72": "svg/duotone/avatar.calathea@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/avatar.calathea@16.svg",
+          "20": "svg/multicolor/avatar.calathea@20.svg",
+          "24": "svg/multicolor/avatar.calathea@24.svg",
+          "32": "svg/multicolor/avatar.calathea@32.svg",
+          "48": "svg/multicolor/avatar.calathea@48.svg",
+          "72": "svg/multicolor/avatar.calathea@72.svg"
+        }
+      }
+    },
+    {
+      "id": "avatar.clover",
+      "kind": "icon",
+      "category": "avatar",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Clover",
+      "files": {
+        "outline": {
+          "16": "svg/outline/avatar.clover@16.svg",
+          "20": "svg/outline/avatar.clover@20.svg",
+          "24": "svg/outline/avatar.clover@24.svg",
+          "32": "svg/outline/avatar.clover@32.svg",
+          "48": "svg/outline/avatar.clover@48.svg",
+          "72": "svg/outline/avatar.clover@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/avatar.clover@16.svg",
+          "20": "svg/solid/avatar.clover@20.svg",
+          "24": "svg/solid/avatar.clover@24.svg",
+          "32": "svg/solid/avatar.clover@32.svg",
+          "48": "svg/solid/avatar.clover@48.svg",
+          "72": "svg/solid/avatar.clover@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/avatar.clover@16.svg",
+          "20": "svg/duotone/avatar.clover@20.svg",
+          "24": "svg/duotone/avatar.clover@24.svg",
+          "32": "svg/duotone/avatar.clover@32.svg",
+          "48": "svg/duotone/avatar.clover@48.svg",
+          "72": "svg/duotone/avatar.clover@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/avatar.clover@16.svg",
+          "20": "svg/multicolor/avatar.clover@20.svg",
+          "24": "svg/multicolor/avatar.clover@24.svg",
+          "32": "svg/multicolor/avatar.clover@32.svg",
+          "48": "svg/multicolor/avatar.clover@48.svg",
+          "72": "svg/multicolor/avatar.clover@72.svg"
+        }
+      }
+    },
+    {
+      "id": "avatar.eucalyptus",
+      "kind": "icon",
+      "category": "avatar",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Eucalyptus",
+      "files": {
+        "outline": {
+          "16": "svg/outline/avatar.eucalyptus@16.svg",
+          "20": "svg/outline/avatar.eucalyptus@20.svg",
+          "24": "svg/outline/avatar.eucalyptus@24.svg",
+          "32": "svg/outline/avatar.eucalyptus@32.svg",
+          "48": "svg/outline/avatar.eucalyptus@48.svg",
+          "72": "svg/outline/avatar.eucalyptus@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/avatar.eucalyptus@16.svg",
+          "20": "svg/solid/avatar.eucalyptus@20.svg",
+          "24": "svg/solid/avatar.eucalyptus@24.svg",
+          "32": "svg/solid/avatar.eucalyptus@32.svg",
+          "48": "svg/solid/avatar.eucalyptus@48.svg",
+          "72": "svg/solid/avatar.eucalyptus@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/avatar.eucalyptus@16.svg",
+          "20": "svg/duotone/avatar.eucalyptus@20.svg",
+          "24": "svg/duotone/avatar.eucalyptus@24.svg",
+          "32": "svg/duotone/avatar.eucalyptus@32.svg",
+          "48": "svg/duotone/avatar.eucalyptus@48.svg",
+          "72": "svg/duotone/avatar.eucalyptus@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/avatar.eucalyptus@16.svg",
+          "20": "svg/multicolor/avatar.eucalyptus@20.svg",
+          "24": "svg/multicolor/avatar.eucalyptus@24.svg",
+          "32": "svg/multicolor/avatar.eucalyptus@32.svg",
+          "48": "svg/multicolor/avatar.eucalyptus@48.svg",
+          "72": "svg/multicolor/avatar.eucalyptus@72.svg"
+        }
+      }
+    },
+    {
+      "id": "avatar.fern",
+      "kind": "icon",
+      "category": "avatar",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Fern",
+      "files": {
+        "outline": {
+          "16": "svg/outline/avatar.fern@16.svg",
+          "20": "svg/outline/avatar.fern@20.svg",
+          "24": "svg/outline/avatar.fern@24.svg",
+          "32": "svg/outline/avatar.fern@32.svg",
+          "48": "svg/outline/avatar.fern@48.svg",
+          "72": "svg/outline/avatar.fern@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/avatar.fern@16.svg",
+          "20": "svg/solid/avatar.fern@20.svg",
+          "24": "svg/solid/avatar.fern@24.svg",
+          "32": "svg/solid/avatar.fern@32.svg",
+          "48": "svg/solid/avatar.fern@48.svg",
+          "72": "svg/solid/avatar.fern@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/avatar.fern@16.svg",
+          "20": "svg/duotone/avatar.fern@20.svg",
+          "24": "svg/duotone/avatar.fern@24.svg",
+          "32": "svg/duotone/avatar.fern@32.svg",
+          "48": "svg/duotone/avatar.fern@48.svg",
+          "72": "svg/duotone/avatar.fern@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/avatar.fern@16.svg",
+          "20": "svg/multicolor/avatar.fern@20.svg",
+          "24": "svg/multicolor/avatar.fern@24.svg",
+          "32": "svg/multicolor/avatar.fern@32.svg",
+          "48": "svg/multicolor/avatar.fern@48.svg",
+          "72": "svg/multicolor/avatar.fern@72.svg"
+        }
+      }
+    },
+    {
+      "id": "avatar.ficus",
+      "kind": "icon",
+      "category": "avatar",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Fiddle-leaf fig",
+      "files": {
+        "outline": {
+          "16": "svg/outline/avatar.ficus@16.svg",
+          "20": "svg/outline/avatar.ficus@20.svg",
+          "24": "svg/outline/avatar.ficus@24.svg",
+          "32": "svg/outline/avatar.ficus@32.svg",
+          "48": "svg/outline/avatar.ficus@48.svg",
+          "72": "svg/outline/avatar.ficus@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/avatar.ficus@16.svg",
+          "20": "svg/solid/avatar.ficus@20.svg",
+          "24": "svg/solid/avatar.ficus@24.svg",
+          "32": "svg/solid/avatar.ficus@32.svg",
+          "48": "svg/solid/avatar.ficus@48.svg",
+          "72": "svg/solid/avatar.ficus@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/avatar.ficus@16.svg",
+          "20": "svg/duotone/avatar.ficus@20.svg",
+          "24": "svg/duotone/avatar.ficus@24.svg",
+          "32": "svg/duotone/avatar.ficus@32.svg",
+          "48": "svg/duotone/avatar.ficus@48.svg",
+          "72": "svg/duotone/avatar.ficus@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/avatar.ficus@16.svg",
+          "20": "svg/multicolor/avatar.ficus@20.svg",
+          "24": "svg/multicolor/avatar.ficus@24.svg",
+          "32": "svg/multicolor/avatar.ficus@32.svg",
+          "48": "svg/multicolor/avatar.ficus@48.svg",
+          "72": "svg/multicolor/avatar.ficus@72.svg"
+        }
+      }
+    },
+    {
+      "id": "avatar.ivy",
+      "kind": "icon",
+      "category": "avatar",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Ivy",
+      "files": {
+        "outline": {
+          "16": "svg/outline/avatar.ivy@16.svg",
+          "20": "svg/outline/avatar.ivy@20.svg",
+          "24": "svg/outline/avatar.ivy@24.svg",
+          "32": "svg/outline/avatar.ivy@32.svg",
+          "48": "svg/outline/avatar.ivy@48.svg",
+          "72": "svg/outline/avatar.ivy@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/avatar.ivy@16.svg",
+          "20": "svg/solid/avatar.ivy@20.svg",
+          "24": "svg/solid/avatar.ivy@24.svg",
+          "32": "svg/solid/avatar.ivy@32.svg",
+          "48": "svg/solid/avatar.ivy@48.svg",
+          "72": "svg/solid/avatar.ivy@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/avatar.ivy@16.svg",
+          "20": "svg/duotone/avatar.ivy@20.svg",
+          "24": "svg/duotone/avatar.ivy@24.svg",
+          "32": "svg/duotone/avatar.ivy@32.svg",
+          "48": "svg/duotone/avatar.ivy@48.svg",
+          "72": "svg/duotone/avatar.ivy@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/avatar.ivy@16.svg",
+          "20": "svg/multicolor/avatar.ivy@20.svg",
+          "24": "svg/multicolor/avatar.ivy@24.svg",
+          "32": "svg/multicolor/avatar.ivy@32.svg",
+          "48": "svg/multicolor/avatar.ivy@48.svg",
+          "72": "svg/multicolor/avatar.ivy@72.svg"
+        }
+      }
+    },
+    {
+      "id": "avatar.lavender",
+      "kind": "icon",
+      "category": "avatar",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Lavender",
+      "files": {
+        "outline": {
+          "16": "svg/outline/avatar.lavender@16.svg",
+          "20": "svg/outline/avatar.lavender@20.svg",
+          "24": "svg/outline/avatar.lavender@24.svg",
+          "32": "svg/outline/avatar.lavender@32.svg",
+          "48": "svg/outline/avatar.lavender@48.svg",
+          "72": "svg/outline/avatar.lavender@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/avatar.lavender@16.svg",
+          "20": "svg/solid/avatar.lavender@20.svg",
+          "24": "svg/solid/avatar.lavender@24.svg",
+          "32": "svg/solid/avatar.lavender@32.svg",
+          "48": "svg/solid/avatar.lavender@48.svg",
+          "72": "svg/solid/avatar.lavender@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/avatar.lavender@16.svg",
+          "20": "svg/duotone/avatar.lavender@20.svg",
+          "24": "svg/duotone/avatar.lavender@24.svg",
+          "32": "svg/duotone/avatar.lavender@32.svg",
+          "48": "svg/duotone/avatar.lavender@48.svg",
+          "72": "svg/duotone/avatar.lavender@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/avatar.lavender@16.svg",
+          "20": "svg/multicolor/avatar.lavender@20.svg",
+          "24": "svg/multicolor/avatar.lavender@24.svg",
+          "32": "svg/multicolor/avatar.lavender@32.svg",
+          "48": "svg/multicolor/avatar.lavender@48.svg",
+          "72": "svg/multicolor/avatar.lavender@72.svg"
+        }
+      }
+    },
+    {
+      "id": "avatar.lotus",
+      "kind": "icon",
+      "category": "avatar",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Lotus",
+      "files": {
+        "outline": {
+          "16": "svg/outline/avatar.lotus@16.svg",
+          "20": "svg/outline/avatar.lotus@20.svg",
+          "24": "svg/outline/avatar.lotus@24.svg",
+          "32": "svg/outline/avatar.lotus@32.svg",
+          "48": "svg/outline/avatar.lotus@48.svg",
+          "72": "svg/outline/avatar.lotus@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/avatar.lotus@16.svg",
+          "20": "svg/solid/avatar.lotus@20.svg",
+          "24": "svg/solid/avatar.lotus@24.svg",
+          "32": "svg/solid/avatar.lotus@32.svg",
+          "48": "svg/solid/avatar.lotus@48.svg",
+          "72": "svg/solid/avatar.lotus@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/avatar.lotus@16.svg",
+          "20": "svg/duotone/avatar.lotus@20.svg",
+          "24": "svg/duotone/avatar.lotus@24.svg",
+          "32": "svg/duotone/avatar.lotus@32.svg",
+          "48": "svg/duotone/avatar.lotus@48.svg",
+          "72": "svg/duotone/avatar.lotus@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/avatar.lotus@16.svg",
+          "20": "svg/multicolor/avatar.lotus@20.svg",
+          "24": "svg/multicolor/avatar.lotus@24.svg",
+          "32": "svg/multicolor/avatar.lotus@32.svg",
+          "48": "svg/multicolor/avatar.lotus@48.svg",
+          "72": "svg/multicolor/avatar.lotus@72.svg"
+        }
+      }
+    },
+    {
+      "id": "avatar.monstera",
+      "kind": "icon",
+      "category": "avatar",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Monstera",
+      "files": {
+        "outline": {
+          "16": "svg/outline/avatar.monstera@16.svg",
+          "20": "svg/outline/avatar.monstera@20.svg",
+          "24": "svg/outline/avatar.monstera@24.svg",
+          "32": "svg/outline/avatar.monstera@32.svg",
+          "48": "svg/outline/avatar.monstera@48.svg",
+          "72": "svg/outline/avatar.monstera@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/avatar.monstera@16.svg",
+          "20": "svg/solid/avatar.monstera@20.svg",
+          "24": "svg/solid/avatar.monstera@24.svg",
+          "32": "svg/solid/avatar.monstera@32.svg",
+          "48": "svg/solid/avatar.monstera@48.svg",
+          "72": "svg/solid/avatar.monstera@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/avatar.monstera@16.svg",
+          "20": "svg/duotone/avatar.monstera@20.svg",
+          "24": "svg/duotone/avatar.monstera@24.svg",
+          "32": "svg/duotone/avatar.monstera@32.svg",
+          "48": "svg/duotone/avatar.monstera@48.svg",
+          "72": "svg/duotone/avatar.monstera@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/avatar.monstera@16.svg",
+          "20": "svg/multicolor/avatar.monstera@20.svg",
+          "24": "svg/multicolor/avatar.monstera@24.svg",
+          "32": "svg/multicolor/avatar.monstera@32.svg",
+          "48": "svg/multicolor/avatar.monstera@48.svg",
+          "72": "svg/multicolor/avatar.monstera@72.svg"
+        }
+      }
+    },
+    {
+      "id": "avatar.oak",
+      "kind": "icon",
+      "category": "avatar",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Oak",
+      "files": {
+        "outline": {
+          "16": "svg/outline/avatar.oak@16.svg",
+          "20": "svg/outline/avatar.oak@20.svg",
+          "24": "svg/outline/avatar.oak@24.svg",
+          "32": "svg/outline/avatar.oak@32.svg",
+          "48": "svg/outline/avatar.oak@48.svg",
+          "72": "svg/outline/avatar.oak@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/avatar.oak@16.svg",
+          "20": "svg/solid/avatar.oak@20.svg",
+          "24": "svg/solid/avatar.oak@24.svg",
+          "32": "svg/solid/avatar.oak@32.svg",
+          "48": "svg/solid/avatar.oak@48.svg",
+          "72": "svg/solid/avatar.oak@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/avatar.oak@16.svg",
+          "20": "svg/duotone/avatar.oak@20.svg",
+          "24": "svg/duotone/avatar.oak@24.svg",
+          "32": "svg/duotone/avatar.oak@32.svg",
+          "48": "svg/duotone/avatar.oak@48.svg",
+          "72": "svg/duotone/avatar.oak@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/avatar.oak@16.svg",
+          "20": "svg/multicolor/avatar.oak@20.svg",
+          "24": "svg/multicolor/avatar.oak@24.svg",
+          "32": "svg/multicolor/avatar.oak@32.svg",
+          "48": "svg/multicolor/avatar.oak@48.svg",
+          "72": "svg/multicolor/avatar.oak@72.svg"
+        }
+      }
+    },
+    {
+      "id": "avatar.orchid",
+      "kind": "icon",
+      "category": "avatar",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Orchid",
+      "files": {
+        "outline": {
+          "16": "svg/outline/avatar.orchid@16.svg",
+          "20": "svg/outline/avatar.orchid@20.svg",
+          "24": "svg/outline/avatar.orchid@24.svg",
+          "32": "svg/outline/avatar.orchid@32.svg",
+          "48": "svg/outline/avatar.orchid@48.svg",
+          "72": "svg/outline/avatar.orchid@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/avatar.orchid@16.svg",
+          "20": "svg/solid/avatar.orchid@20.svg",
+          "24": "svg/solid/avatar.orchid@24.svg",
+          "32": "svg/solid/avatar.orchid@32.svg",
+          "48": "svg/solid/avatar.orchid@48.svg",
+          "72": "svg/solid/avatar.orchid@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/avatar.orchid@16.svg",
+          "20": "svg/duotone/avatar.orchid@20.svg",
+          "24": "svg/duotone/avatar.orchid@24.svg",
+          "32": "svg/duotone/avatar.orchid@32.svg",
+          "48": "svg/duotone/avatar.orchid@48.svg",
+          "72": "svg/duotone/avatar.orchid@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/avatar.orchid@16.svg",
+          "20": "svg/multicolor/avatar.orchid@20.svg",
+          "24": "svg/multicolor/avatar.orchid@24.svg",
+          "32": "svg/multicolor/avatar.orchid@32.svg",
+          "48": "svg/multicolor/avatar.orchid@48.svg",
+          "72": "svg/multicolor/avatar.orchid@72.svg"
+        }
+      }
+    },
+    {
+      "id": "avatar.palm",
+      "kind": "icon",
+      "category": "avatar",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Palm",
+      "files": {
+        "outline": {
+          "16": "svg/outline/avatar.palm@16.svg",
+          "20": "svg/outline/avatar.palm@20.svg",
+          "24": "svg/outline/avatar.palm@24.svg",
+          "32": "svg/outline/avatar.palm@32.svg",
+          "48": "svg/outline/avatar.palm@48.svg",
+          "72": "svg/outline/avatar.palm@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/avatar.palm@16.svg",
+          "20": "svg/solid/avatar.palm@20.svg",
+          "24": "svg/solid/avatar.palm@24.svg",
+          "32": "svg/solid/avatar.palm@32.svg",
+          "48": "svg/solid/avatar.palm@48.svg",
+          "72": "svg/solid/avatar.palm@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/avatar.palm@16.svg",
+          "20": "svg/duotone/avatar.palm@20.svg",
+          "24": "svg/duotone/avatar.palm@24.svg",
+          "32": "svg/duotone/avatar.palm@32.svg",
+          "48": "svg/duotone/avatar.palm@48.svg",
+          "72": "svg/duotone/avatar.palm@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/avatar.palm@16.svg",
+          "20": "svg/multicolor/avatar.palm@20.svg",
+          "24": "svg/multicolor/avatar.palm@24.svg",
+          "32": "svg/multicolor/avatar.palm@32.svg",
+          "48": "svg/multicolor/avatar.palm@48.svg",
+          "72": "svg/multicolor/avatar.palm@72.svg"
+        }
+      }
+    },
+    {
+      "id": "avatar.pilea",
+      "kind": "icon",
+      "category": "avatar",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Pilea",
+      "files": {
+        "outline": {
+          "16": "svg/outline/avatar.pilea@16.svg",
+          "20": "svg/outline/avatar.pilea@20.svg",
+          "24": "svg/outline/avatar.pilea@24.svg",
+          "32": "svg/outline/avatar.pilea@32.svg",
+          "48": "svg/outline/avatar.pilea@48.svg",
+          "72": "svg/outline/avatar.pilea@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/avatar.pilea@16.svg",
+          "20": "svg/solid/avatar.pilea@20.svg",
+          "24": "svg/solid/avatar.pilea@24.svg",
+          "32": "svg/solid/avatar.pilea@32.svg",
+          "48": "svg/solid/avatar.pilea@48.svg",
+          "72": "svg/solid/avatar.pilea@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/avatar.pilea@16.svg",
+          "20": "svg/duotone/avatar.pilea@20.svg",
+          "24": "svg/duotone/avatar.pilea@24.svg",
+          "32": "svg/duotone/avatar.pilea@32.svg",
+          "48": "svg/duotone/avatar.pilea@48.svg",
+          "72": "svg/duotone/avatar.pilea@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/avatar.pilea@16.svg",
+          "20": "svg/multicolor/avatar.pilea@20.svg",
+          "24": "svg/multicolor/avatar.pilea@24.svg",
+          "32": "svg/multicolor/avatar.pilea@32.svg",
+          "48": "svg/multicolor/avatar.pilea@48.svg",
+          "72": "svg/multicolor/avatar.pilea@72.svg"
+        }
+      }
+    },
+    {
+      "id": "avatar.pine",
+      "kind": "icon",
+      "category": "avatar",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Pine",
+      "files": {
+        "outline": {
+          "16": "svg/outline/avatar.pine@16.svg",
+          "20": "svg/outline/avatar.pine@20.svg",
+          "24": "svg/outline/avatar.pine@24.svg",
+          "32": "svg/outline/avatar.pine@32.svg",
+          "48": "svg/outline/avatar.pine@48.svg",
+          "72": "svg/outline/avatar.pine@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/avatar.pine@16.svg",
+          "20": "svg/solid/avatar.pine@20.svg",
+          "24": "svg/solid/avatar.pine@24.svg",
+          "32": "svg/solid/avatar.pine@32.svg",
+          "48": "svg/solid/avatar.pine@48.svg",
+          "72": "svg/solid/avatar.pine@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/avatar.pine@16.svg",
+          "20": "svg/duotone/avatar.pine@20.svg",
+          "24": "svg/duotone/avatar.pine@24.svg",
+          "32": "svg/duotone/avatar.pine@32.svg",
+          "48": "svg/duotone/avatar.pine@48.svg",
+          "72": "svg/duotone/avatar.pine@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/avatar.pine@16.svg",
+          "20": "svg/multicolor/avatar.pine@20.svg",
+          "24": "svg/multicolor/avatar.pine@24.svg",
+          "32": "svg/multicolor/avatar.pine@32.svg",
+          "48": "svg/multicolor/avatar.pine@48.svg",
+          "72": "svg/multicolor/avatar.pine@72.svg"
+        }
+      }
+    },
+    {
+      "id": "avatar.pothos",
+      "kind": "icon",
+      "category": "avatar",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Pothos",
+      "files": {
+        "outline": {
+          "16": "svg/outline/avatar.pothos@16.svg",
+          "20": "svg/outline/avatar.pothos@20.svg",
+          "24": "svg/outline/avatar.pothos@24.svg",
+          "32": "svg/outline/avatar.pothos@32.svg",
+          "48": "svg/outline/avatar.pothos@48.svg",
+          "72": "svg/outline/avatar.pothos@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/avatar.pothos@16.svg",
+          "20": "svg/solid/avatar.pothos@20.svg",
+          "24": "svg/solid/avatar.pothos@24.svg",
+          "32": "svg/solid/avatar.pothos@32.svg",
+          "48": "svg/solid/avatar.pothos@48.svg",
+          "72": "svg/solid/avatar.pothos@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/avatar.pothos@16.svg",
+          "20": "svg/duotone/avatar.pothos@20.svg",
+          "24": "svg/duotone/avatar.pothos@24.svg",
+          "32": "svg/duotone/avatar.pothos@32.svg",
+          "48": "svg/duotone/avatar.pothos@48.svg",
+          "72": "svg/duotone/avatar.pothos@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/avatar.pothos@16.svg",
+          "20": "svg/multicolor/avatar.pothos@20.svg",
+          "24": "svg/multicolor/avatar.pothos@24.svg",
+          "32": "svg/multicolor/avatar.pothos@32.svg",
+          "48": "svg/multicolor/avatar.pothos@48.svg",
+          "72": "svg/multicolor/avatar.pothos@72.svg"
+        }
+      }
+    },
+    {
+      "id": "avatar.rose",
+      "kind": "icon",
+      "category": "avatar",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Rose",
+      "files": {
+        "outline": {
+          "16": "svg/outline/avatar.rose@16.svg",
+          "20": "svg/outline/avatar.rose@20.svg",
+          "24": "svg/outline/avatar.rose@24.svg",
+          "32": "svg/outline/avatar.rose@32.svg",
+          "48": "svg/outline/avatar.rose@48.svg",
+          "72": "svg/outline/avatar.rose@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/avatar.rose@16.svg",
+          "20": "svg/solid/avatar.rose@20.svg",
+          "24": "svg/solid/avatar.rose@24.svg",
+          "32": "svg/solid/avatar.rose@32.svg",
+          "48": "svg/solid/avatar.rose@48.svg",
+          "72": "svg/solid/avatar.rose@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/avatar.rose@16.svg",
+          "20": "svg/duotone/avatar.rose@20.svg",
+          "24": "svg/duotone/avatar.rose@24.svg",
+          "32": "svg/duotone/avatar.rose@32.svg",
+          "48": "svg/duotone/avatar.rose@48.svg",
+          "72": "svg/duotone/avatar.rose@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/avatar.rose@16.svg",
+          "20": "svg/multicolor/avatar.rose@20.svg",
+          "24": "svg/multicolor/avatar.rose@24.svg",
+          "32": "svg/multicolor/avatar.rose@32.svg",
+          "48": "svg/multicolor/avatar.rose@48.svg",
+          "72": "svg/multicolor/avatar.rose@72.svg"
+        }
+      }
+    },
+    {
+      "id": "avatar.sansevieria",
+      "kind": "icon",
+      "category": "avatar",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Snake plant",
+      "files": {
+        "outline": {
+          "16": "svg/outline/avatar.sansevieria@16.svg",
+          "20": "svg/outline/avatar.sansevieria@20.svg",
+          "24": "svg/outline/avatar.sansevieria@24.svg",
+          "32": "svg/outline/avatar.sansevieria@32.svg",
+          "48": "svg/outline/avatar.sansevieria@48.svg",
+          "72": "svg/outline/avatar.sansevieria@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/avatar.sansevieria@16.svg",
+          "20": "svg/solid/avatar.sansevieria@20.svg",
+          "24": "svg/solid/avatar.sansevieria@24.svg",
+          "32": "svg/solid/avatar.sansevieria@32.svg",
+          "48": "svg/solid/avatar.sansevieria@48.svg",
+          "72": "svg/solid/avatar.sansevieria@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/avatar.sansevieria@16.svg",
+          "20": "svg/duotone/avatar.sansevieria@20.svg",
+          "24": "svg/duotone/avatar.sansevieria@24.svg",
+          "32": "svg/duotone/avatar.sansevieria@32.svg",
+          "48": "svg/duotone/avatar.sansevieria@48.svg",
+          "72": "svg/duotone/avatar.sansevieria@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/avatar.sansevieria@16.svg",
+          "20": "svg/multicolor/avatar.sansevieria@20.svg",
+          "24": "svg/multicolor/avatar.sansevieria@24.svg",
+          "32": "svg/multicolor/avatar.sansevieria@32.svg",
+          "48": "svg/multicolor/avatar.sansevieria@48.svg",
+          "72": "svg/multicolor/avatar.sansevieria@72.svg"
+        }
+      }
+    },
+    {
+      "id": "avatar.sprout",
+      "kind": "icon",
+      "category": "avatar",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Sprout",
+      "files": {
+        "outline": {
+          "16": "svg/outline/avatar.sprout@16.svg",
+          "20": "svg/outline/avatar.sprout@20.svg",
+          "24": "svg/outline/avatar.sprout@24.svg",
+          "32": "svg/outline/avatar.sprout@32.svg",
+          "48": "svg/outline/avatar.sprout@48.svg",
+          "72": "svg/outline/avatar.sprout@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/avatar.sprout@16.svg",
+          "20": "svg/solid/avatar.sprout@20.svg",
+          "24": "svg/solid/avatar.sprout@24.svg",
+          "32": "svg/solid/avatar.sprout@32.svg",
+          "48": "svg/solid/avatar.sprout@48.svg",
+          "72": "svg/solid/avatar.sprout@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/avatar.sprout@16.svg",
+          "20": "svg/duotone/avatar.sprout@20.svg",
+          "24": "svg/duotone/avatar.sprout@24.svg",
+          "32": "svg/duotone/avatar.sprout@32.svg",
+          "48": "svg/duotone/avatar.sprout@48.svg",
+          "72": "svg/duotone/avatar.sprout@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/avatar.sprout@16.svg",
+          "20": "svg/multicolor/avatar.sprout@20.svg",
+          "24": "svg/multicolor/avatar.sprout@24.svg",
+          "32": "svg/multicolor/avatar.sprout@32.svg",
+          "48": "svg/multicolor/avatar.sprout@48.svg",
+          "72": "svg/multicolor/avatar.sprout@72.svg"
+        }
+      }
+    },
+    {
+      "id": "avatar.succulent",
+      "kind": "icon",
+      "category": "avatar",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Succulent",
+      "files": {
+        "outline": {
+          "16": "svg/outline/avatar.succulent@16.svg",
+          "20": "svg/outline/avatar.succulent@20.svg",
+          "24": "svg/outline/avatar.succulent@24.svg",
+          "32": "svg/outline/avatar.succulent@32.svg",
+          "48": "svg/outline/avatar.succulent@48.svg",
+          "72": "svg/outline/avatar.succulent@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/avatar.succulent@16.svg",
+          "20": "svg/solid/avatar.succulent@20.svg",
+          "24": "svg/solid/avatar.succulent@24.svg",
+          "32": "svg/solid/avatar.succulent@32.svg",
+          "48": "svg/solid/avatar.succulent@48.svg",
+          "72": "svg/solid/avatar.succulent@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/avatar.succulent@16.svg",
+          "20": "svg/duotone/avatar.succulent@20.svg",
+          "24": "svg/duotone/avatar.succulent@24.svg",
+          "32": "svg/duotone/avatar.succulent@32.svg",
+          "48": "svg/duotone/avatar.succulent@48.svg",
+          "72": "svg/duotone/avatar.succulent@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/avatar.succulent@16.svg",
+          "20": "svg/multicolor/avatar.succulent@20.svg",
+          "24": "svg/multicolor/avatar.succulent@24.svg",
+          "32": "svg/multicolor/avatar.succulent@32.svg",
+          "48": "svg/multicolor/avatar.succulent@48.svg",
+          "72": "svg/multicolor/avatar.succulent@72.svg"
+        }
+      }
+    },
+    {
+      "id": "avatar.sunflower",
+      "kind": "icon",
+      "category": "avatar",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Sunflower",
+      "files": {
+        "outline": {
+          "16": "svg/outline/avatar.sunflower@16.svg",
+          "20": "svg/outline/avatar.sunflower@20.svg",
+          "24": "svg/outline/avatar.sunflower@24.svg",
+          "32": "svg/outline/avatar.sunflower@32.svg",
+          "48": "svg/outline/avatar.sunflower@48.svg",
+          "72": "svg/outline/avatar.sunflower@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/avatar.sunflower@16.svg",
+          "20": "svg/solid/avatar.sunflower@20.svg",
+          "24": "svg/solid/avatar.sunflower@24.svg",
+          "32": "svg/solid/avatar.sunflower@32.svg",
+          "48": "svg/solid/avatar.sunflower@48.svg",
+          "72": "svg/solid/avatar.sunflower@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/avatar.sunflower@16.svg",
+          "20": "svg/duotone/avatar.sunflower@20.svg",
+          "24": "svg/duotone/avatar.sunflower@24.svg",
+          "32": "svg/duotone/avatar.sunflower@32.svg",
+          "48": "svg/duotone/avatar.sunflower@48.svg",
+          "72": "svg/duotone/avatar.sunflower@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/avatar.sunflower@16.svg",
+          "20": "svg/multicolor/avatar.sunflower@20.svg",
+          "24": "svg/multicolor/avatar.sunflower@24.svg",
+          "32": "svg/multicolor/avatar.sunflower@32.svg",
+          "48": "svg/multicolor/avatar.sunflower@48.svg",
+          "72": "svg/multicolor/avatar.sunflower@72.svg"
+        }
+      }
+    },
+    {
+      "id": "avatar.tulip",
+      "kind": "icon",
+      "category": "avatar",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Tulip",
+      "files": {
+        "outline": {
+          "16": "svg/outline/avatar.tulip@16.svg",
+          "20": "svg/outline/avatar.tulip@20.svg",
+          "24": "svg/outline/avatar.tulip@24.svg",
+          "32": "svg/outline/avatar.tulip@32.svg",
+          "48": "svg/outline/avatar.tulip@48.svg",
+          "72": "svg/outline/avatar.tulip@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/avatar.tulip@16.svg",
+          "20": "svg/solid/avatar.tulip@20.svg",
+          "24": "svg/solid/avatar.tulip@24.svg",
+          "32": "svg/solid/avatar.tulip@32.svg",
+          "48": "svg/solid/avatar.tulip@48.svg",
+          "72": "svg/solid/avatar.tulip@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/avatar.tulip@16.svg",
+          "20": "svg/duotone/avatar.tulip@20.svg",
+          "24": "svg/duotone/avatar.tulip@24.svg",
+          "32": "svg/duotone/avatar.tulip@32.svg",
+          "48": "svg/duotone/avatar.tulip@48.svg",
+          "72": "svg/duotone/avatar.tulip@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/avatar.tulip@16.svg",
+          "20": "svg/multicolor/avatar.tulip@20.svg",
+          "24": "svg/multicolor/avatar.tulip@24.svg",
+          "32": "svg/multicolor/avatar.tulip@32.svg",
+          "48": "svg/multicolor/avatar.tulip@48.svg",
+          "72": "svg/multicolor/avatar.tulip@72.svg"
+        }
+      }
+    },
     {
       "id": "calendar.add",
       "kind": "icon",
@@ -1166,6 +2216,22 @@
           "32": "svg/mono/flag.at@32.svg",
           "48": "svg/mono/flag.at@48.svg",
           "72": "svg/mono/flag.at@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.at@16.svg",
+          "20": "svg/circle/flag.at@20.svg",
+          "24": "svg/circle/flag.at@24.svg",
+          "32": "svg/circle/flag.at@32.svg",
+          "48": "svg/circle/flag.at@48.svg",
+          "72": "svg/circle/flag.at@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.at@16.svg",
+          "20": "svg/circle.mono/flag.at@20.svg",
+          "24": "svg/circle.mono/flag.at@24.svg",
+          "32": "svg/circle.mono/flag.at@32.svg",
+          "48": "svg/circle.mono/flag.at@48.svg",
+          "72": "svg/circle.mono/flag.at@72.svg"
         }
       }
     },
@@ -1192,6 +2258,22 @@
           "32": "svg/mono/flag.ch@32.svg",
           "48": "svg/mono/flag.ch@48.svg",
           "72": "svg/mono/flag.ch@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.ch@16.svg",
+          "20": "svg/circle/flag.ch@20.svg",
+          "24": "svg/circle/flag.ch@24.svg",
+          "32": "svg/circle/flag.ch@32.svg",
+          "48": "svg/circle/flag.ch@48.svg",
+          "72": "svg/circle/flag.ch@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.ch@16.svg",
+          "20": "svg/circle.mono/flag.ch@20.svg",
+          "24": "svg/circle.mono/flag.ch@24.svg",
+          "32": "svg/circle.mono/flag.ch@32.svg",
+          "48": "svg/circle.mono/flag.ch@48.svg",
+          "72": "svg/circle.mono/flag.ch@72.svg"
         }
       }
     },
@@ -1218,6 +2300,22 @@
           "32": "svg/mono/flag.de@32.svg",
           "48": "svg/mono/flag.de@48.svg",
           "72": "svg/mono/flag.de@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.de@16.svg",
+          "20": "svg/circle/flag.de@20.svg",
+          "24": "svg/circle/flag.de@24.svg",
+          "32": "svg/circle/flag.de@32.svg",
+          "48": "svg/circle/flag.de@48.svg",
+          "72": "svg/circle/flag.de@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.de@16.svg",
+          "20": "svg/circle.mono/flag.de@20.svg",
+          "24": "svg/circle.mono/flag.de@24.svg",
+          "32": "svg/circle.mono/flag.de@32.svg",
+          "48": "svg/circle.mono/flag.de@48.svg",
+          "72": "svg/circle.mono/flag.de@72.svg"
         }
       }
     },
@@ -1244,6 +2342,22 @@
           "32": "svg/mono/flag.es@32.svg",
           "48": "svg/mono/flag.es@48.svg",
           "72": "svg/mono/flag.es@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.es@16.svg",
+          "20": "svg/circle/flag.es@20.svg",
+          "24": "svg/circle/flag.es@24.svg",
+          "32": "svg/circle/flag.es@32.svg",
+          "48": "svg/circle/flag.es@48.svg",
+          "72": "svg/circle/flag.es@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.es@16.svg",
+          "20": "svg/circle.mono/flag.es@20.svg",
+          "24": "svg/circle.mono/flag.es@24.svg",
+          "32": "svg/circle.mono/flag.es@32.svg",
+          "48": "svg/circle.mono/flag.es@48.svg",
+          "72": "svg/circle.mono/flag.es@72.svg"
         }
       }
     },
@@ -1270,6 +2384,22 @@
           "32": "svg/mono/flag.eu@32.svg",
           "48": "svg/mono/flag.eu@48.svg",
           "72": "svg/mono/flag.eu@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.eu@16.svg",
+          "20": "svg/circle/flag.eu@20.svg",
+          "24": "svg/circle/flag.eu@24.svg",
+          "32": "svg/circle/flag.eu@32.svg",
+          "48": "svg/circle/flag.eu@48.svg",
+          "72": "svg/circle/flag.eu@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.eu@16.svg",
+          "20": "svg/circle.mono/flag.eu@20.svg",
+          "24": "svg/circle.mono/flag.eu@24.svg",
+          "32": "svg/circle.mono/flag.eu@32.svg",
+          "48": "svg/circle.mono/flag.eu@48.svg",
+          "72": "svg/circle.mono/flag.eu@72.svg"
         }
       }
     },
@@ -1296,6 +2426,22 @@
           "32": "svg/mono/flag.fr@32.svg",
           "48": "svg/mono/flag.fr@48.svg",
           "72": "svg/mono/flag.fr@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.fr@16.svg",
+          "20": "svg/circle/flag.fr@20.svg",
+          "24": "svg/circle/flag.fr@24.svg",
+          "32": "svg/circle/flag.fr@32.svg",
+          "48": "svg/circle/flag.fr@48.svg",
+          "72": "svg/circle/flag.fr@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.fr@16.svg",
+          "20": "svg/circle.mono/flag.fr@20.svg",
+          "24": "svg/circle.mono/flag.fr@24.svg",
+          "32": "svg/circle.mono/flag.fr@32.svg",
+          "48": "svg/circle.mono/flag.fr@48.svg",
+          "72": "svg/circle.mono/flag.fr@72.svg"
         }
       }
     },
@@ -1322,6 +2468,22 @@
           "32": "svg/mono/flag.gb@32.svg",
           "48": "svg/mono/flag.gb@48.svg",
           "72": "svg/mono/flag.gb@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.gb@16.svg",
+          "20": "svg/circle/flag.gb@20.svg",
+          "24": "svg/circle/flag.gb@24.svg",
+          "32": "svg/circle/flag.gb@32.svg",
+          "48": "svg/circle/flag.gb@48.svg",
+          "72": "svg/circle/flag.gb@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.gb@16.svg",
+          "20": "svg/circle.mono/flag.gb@20.svg",
+          "24": "svg/circle.mono/flag.gb@24.svg",
+          "32": "svg/circle.mono/flag.gb@32.svg",
+          "48": "svg/circle.mono/flag.gb@48.svg",
+          "72": "svg/circle.mono/flag.gb@72.svg"
         }
       }
     },
@@ -1348,6 +2510,22 @@
           "32": "svg/mono/flag.it@32.svg",
           "48": "svg/mono/flag.it@48.svg",
           "72": "svg/mono/flag.it@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.it@16.svg",
+          "20": "svg/circle/flag.it@20.svg",
+          "24": "svg/circle/flag.it@24.svg",
+          "32": "svg/circle/flag.it@32.svg",
+          "48": "svg/circle/flag.it@48.svg",
+          "72": "svg/circle/flag.it@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.it@16.svg",
+          "20": "svg/circle.mono/flag.it@20.svg",
+          "24": "svg/circle.mono/flag.it@24.svg",
+          "32": "svg/circle.mono/flag.it@32.svg",
+          "48": "svg/circle.mono/flag.it@48.svg",
+          "72": "svg/circle.mono/flag.it@72.svg"
         }
       }
     },
@@ -1374,6 +2552,22 @@
           "32": "svg/mono/flag.nl@32.svg",
           "48": "svg/mono/flag.nl@48.svg",
           "72": "svg/mono/flag.nl@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.nl@16.svg",
+          "20": "svg/circle/flag.nl@20.svg",
+          "24": "svg/circle/flag.nl@24.svg",
+          "32": "svg/circle/flag.nl@32.svg",
+          "48": "svg/circle/flag.nl@48.svg",
+          "72": "svg/circle/flag.nl@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.nl@16.svg",
+          "20": "svg/circle.mono/flag.nl@20.svg",
+          "24": "svg/circle.mono/flag.nl@24.svg",
+          "32": "svg/circle.mono/flag.nl@32.svg",
+          "48": "svg/circle.mono/flag.nl@48.svg",
+          "72": "svg/circle.mono/flag.nl@72.svg"
         }
       }
     },
@@ -1400,6 +2594,22 @@
           "32": "svg/mono/flag.pl@32.svg",
           "48": "svg/mono/flag.pl@48.svg",
           "72": "svg/mono/flag.pl@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.pl@16.svg",
+          "20": "svg/circle/flag.pl@20.svg",
+          "24": "svg/circle/flag.pl@24.svg",
+          "32": "svg/circle/flag.pl@32.svg",
+          "48": "svg/circle/flag.pl@48.svg",
+          "72": "svg/circle/flag.pl@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.pl@16.svg",
+          "20": "svg/circle.mono/flag.pl@20.svg",
+          "24": "svg/circle.mono/flag.pl@24.svg",
+          "32": "svg/circle.mono/flag.pl@32.svg",
+          "48": "svg/circle.mono/flag.pl@48.svg",
+          "72": "svg/circle.mono/flag.pl@72.svg"
         }
       }
     },
@@ -1426,6 +2636,22 @@
           "32": "svg/mono/flag.pt@32.svg",
           "48": "svg/mono/flag.pt@48.svg",
           "72": "svg/mono/flag.pt@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.pt@16.svg",
+          "20": "svg/circle/flag.pt@20.svg",
+          "24": "svg/circle/flag.pt@24.svg",
+          "32": "svg/circle/flag.pt@32.svg",
+          "48": "svg/circle/flag.pt@48.svg",
+          "72": "svg/circle/flag.pt@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.pt@16.svg",
+          "20": "svg/circle.mono/flag.pt@20.svg",
+          "24": "svg/circle.mono/flag.pt@24.svg",
+          "32": "svg/circle.mono/flag.pt@32.svg",
+          "48": "svg/circle.mono/flag.pt@48.svg",
+          "72": "svg/circle.mono/flag.pt@72.svg"
         }
       }
     },
@@ -1452,6 +2678,22 @@
           "32": "svg/mono/flag.tr@32.svg",
           "48": "svg/mono/flag.tr@48.svg",
           "72": "svg/mono/flag.tr@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.tr@16.svg",
+          "20": "svg/circle/flag.tr@20.svg",
+          "24": "svg/circle/flag.tr@24.svg",
+          "32": "svg/circle/flag.tr@32.svg",
+          "48": "svg/circle/flag.tr@48.svg",
+          "72": "svg/circle/flag.tr@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.tr@16.svg",
+          "20": "svg/circle.mono/flag.tr@20.svg",
+          "24": "svg/circle.mono/flag.tr@24.svg",
+          "32": "svg/circle.mono/flag.tr@32.svg",
+          "48": "svg/circle.mono/flag.tr@48.svg",
+          "72": "svg/circle.mono/flag.tr@72.svg"
         }
       }
     },
@@ -1478,6 +2720,22 @@
           "32": "svg/mono/flag.unknown@32.svg",
           "48": "svg/mono/flag.unknown@48.svg",
           "72": "svg/mono/flag.unknown@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.unknown@16.svg",
+          "20": "svg/circle/flag.unknown@20.svg",
+          "24": "svg/circle/flag.unknown@24.svg",
+          "32": "svg/circle/flag.unknown@32.svg",
+          "48": "svg/circle/flag.unknown@48.svg",
+          "72": "svg/circle/flag.unknown@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.unknown@16.svg",
+          "20": "svg/circle.mono/flag.unknown@20.svg",
+          "24": "svg/circle.mono/flag.unknown@24.svg",
+          "32": "svg/circle.mono/flag.unknown@32.svg",
+          "48": "svg/circle.mono/flag.unknown@48.svg",
+          "72": "svg/circle.mono/flag.unknown@72.svg"
         }
       }
     },
@@ -1504,6 +2762,22 @@
           "32": "svg/mono/flag.us@32.svg",
           "48": "svg/mono/flag.us@48.svg",
           "72": "svg/mono/flag.us@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.us@16.svg",
+          "20": "svg/circle/flag.us@20.svg",
+          "24": "svg/circle/flag.us@24.svg",
+          "32": "svg/circle/flag.us@32.svg",
+          "48": "svg/circle/flag.us@48.svg",
+          "72": "svg/circle/flag.us@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.us@16.svg",
+          "20": "svg/circle.mono/flag.us@20.svg",
+          "24": "svg/circle.mono/flag.us@24.svg",
+          "32": "svg/circle.mono/flag.us@32.svg",
+          "48": "svg/circle.mono/flag.us@48.svg",
+          "72": "svg/circle.mono/flag.us@72.svg"
         }
       }
     }

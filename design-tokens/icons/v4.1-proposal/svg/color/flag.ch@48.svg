@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <clipPath id="pf-flag-ch"><rect x="2" y="5" width="20" height="14" rx="2" /></clipPath>
-  <g clip-path="url(#pf-flag-ch)"><g transform="translate(2 5)">
+  <clipPath id="pf-flag-ch-color"><rect x="2" y="5" width="20" height="14" rx="2" /></clipPath>
+  <g clip-path="url(#pf-flag-ch-color)"><g transform="translate(2 5)">
     <g data-layer="field">
-      <rect x="0" y="0" width="20" height="14" fill="#DA291C" />
+        <rect x="0" y="0" width="20" height="14" fill="#DA291C" />
     </g>
     <g data-layer="cross">
-      <rect x="8.5" y="2.5" width="3" height="9" fill="#FFFFFF" />
-      <rect x="5.5" y="5.5" width="9" height="3" fill="#FFFFFF" />
+        <rect x="8.5" y="2.5" width="3" height="9" fill="#FFFFFF" />
+        <rect x="5.5" y="5.5" width="9" height="3" fill="#FFFFFF" />
     </g>
   </g></g>
   <rect x="2.5" y="5.5" width="19" height="13" rx="1.5" fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1" data-role="border" />

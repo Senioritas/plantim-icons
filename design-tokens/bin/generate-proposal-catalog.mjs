@@ -1,7 +1,7 @@
 // Build reports/plantim-icons-v4.1-proposal-catalog.pdf — print catalog of the
 // proposal: per icon all variants at 24 + the 16→48 ramp, the one-line "why"
-// and intended surfaces, grouped by proposal group. Flags show color + mono
-// on light and dark. Rendered via lib/html-to-pdf.mjs.
+// and intended surfaces, grouped by proposal group. Flags show all four
+// shapes plus the circle on dark. Rendered via lib/html-to-pdf.mjs.
 
 import path from "node:path";
 import { htmlToPdf } from "./lib/html-to-pdf.mjs";
@@ -16,9 +16,9 @@ function card(entry) {
   const def = defOf(entry);
   const isFlag = entry.kind === "flag";
   const variants = isFlag
-    ? `${svg(f.color[24], 26)}${svg(f.mono[24], 26)}<span class="dark">${svg(f.color[24], 26)}${svg(f.mono[24], 26)}</span>`
+    ? `${svg(f.color[24], 26)}${svg(f.circle[24], 26)}${svg(f.mono[24], 26)}${svg(f["circle.mono"][24], 26)}<span class="dark">${svg(f.circle[24], 26)}</span>`
     : ["outline", "solid", "duotone", "multicolor"].map((v) => svg(f[v][24], 26)).join("");
-  const ramp = [16, 24, 48].map((s) => svg(f[isFlag ? "color" : "outline"][s], s)).join("");
+  const ramp = [16, 24, 48].map((s) => svg(f[isFlag ? "circle" : "outline"][s], s)).join("");
   const a11y = def.accessibilityLabelKey
     ? `<div class="a11y">${def.accessibility} · ${esc(labelIn("en", def.accessibilityLabelKey) || "existing key")} · ${esc(labelIn("de", def.accessibilityLabelKey) || "—")} · ${esc(labelIn("tr", def.accessibilityLabelKey) || "—")}</div>`
     : "";
@@ -97,8 +97,9 @@ code { display: block; font-size: 8.5px; color: #445468; margin-top: 6px; font-f
 </style></head><body>
 <div class="cover">
   <h1>Plantim Icons <b>v4.1</b> — proposal catalog</h1>
-  <p>${c.icons} new semantic icons (outline / solid / duotone / multicolor × optical sizes 16–72) and ${c.flags} flags (color / mono),
-  proposed additively on top of the shipped v4 set (${registry.derivedFrom.v4}). Nothing here changes an existing id.</p>
+  <p>${c.icons} new semantic icons (outline / solid / duotone / multicolor × optical sizes 16–72) and ${c.flags} flags
+  (rectangular color / mono and circular circle / circle.mono), proposed additively on top of the shipped v4 set
+  (${registry.derivedFrom.v4}). Nothing here changes an existing id.</p>
   <p>Read with the process report (plantim-icons-v4.1-proposal-report.pdf) and decide in the interactive catalog
   (plantim-icons-v4.1-proposal-catalog.html).</p>
   <div class="pairs">${pairs}</div>

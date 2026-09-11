@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="9.25" fill="none" stroke="#90CAF9" stroke-width="1.6" data-token="water.300" />
+  <circle cx="12" cy="10.2" r="5" fill="none" stroke="#2E7D32" stroke-width="1.6" data-token="leaf.700" />
+  <path d="M12 15.5v3.5" fill="none" stroke="#2E7D32" stroke-width="1.6" data-token="leaf.700" />
+  <circle cx="12" cy="10.2" r="1.2" fill="#43A047" stroke="none" data-token="leaf.500" />
+</svg>

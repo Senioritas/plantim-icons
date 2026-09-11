@@ -3,12 +3,56 @@
   "en": {
     "a11y": {
       "icons": {
-        "status": { "pending": "Pending", "offline": "Offline" },
-        "plant": { "petSafe": "Pet safe", "petUnsafe": "Toxic to pets" },
+        "status": {
+          "pending": "Pending",
+          "offline": "Offline"
+        },
+        "plant": {
+          "petSafe": "Pet safe",
+          "petUnsafe": "Toxic to pets"
+        },
         "flag": {
-          "de": "Germany", "tr": "Türkiye", "gb": "United Kingdom", "us": "United States", "eu": "European Union",
-          "at": "Austria", "ch": "Switzerland", "fr": "France", "it": "Italy", "es": "Spain", "nl": "Netherlands",
-          "pl": "Poland", "pt": "Portugal", "unknown": "Region not set"
+          "de": "Germany",
+          "tr": "Türkiye",
+          "gb": "United Kingdom",
+          "us": "United States",
+          "eu": "European Union",
+          "at": "Austria",
+          "ch": "Switzerland",
+          "fr": "France",
+          "it": "Italy",
+          "es": "Spain",
+          "nl": "Netherlands",
+          "pl": "Poland",
+          "pt": "Portugal",
+          "unknown": "Region not set"
+        },
+        "avatar": {
+          "sprout": "Sprout",
+          "monstera": "Monstera",
+          "cactus": "Cactus",
+          "succulent": "Succulent",
+          "fern": "Fern",
+          "pothos": "Pothos",
+          "sansevieria": "Snake plant",
+          "aloe": "Aloe",
+          "palm": "Palm",
+          "orchid": "Orchid",
+          "tulip": "Tulip",
+          "sunflower": "Sunflower",
+          "bonsai": "Bonsai",
+          "clover": "Clover",
+          "lotus": "Lotus",
+          "pine": "Pine",
+          "bamboo": "Bamboo",
+          "calathea": "Calathea",
+          "ficus": "Fiddle-leaf fig",
+          "rose": "Rose",
+          "lavender": "Lavender",
+          "ivy": "Ivy",
+          "pilea": "Pilea",
+          "oak": "Oak",
+          "eucalyptus": "Eucalyptus"
         }
       }
     }
@@ -16,12 +60,56 @@
   "de": {
     "a11y": {
       "icons": {
-        "status": { "pending": "Ausstehend", "offline": "Offline" },
-        "plant": { "petSafe": "Haustiersicher", "petUnsafe": "Giftig für Haustiere" },
+        "status": {
+          "pending": "Ausstehend",
+          "offline": "Offline"
+        },
+        "plant": {
+          "petSafe": "Haustiersicher",
+          "petUnsafe": "Giftig für Haustiere"
+        },
         "flag": {
-          "de": "Deutschland", "tr": "Türkei", "gb": "Vereinigtes Königreich", "us": "Vereinigte Staaten", "eu": "Europäische Union",
-          "at": "Österreich", "ch": "Schweiz", "fr": "Frankreich", "it": "Italien", "es": "Spanien", "nl": "Niederlande",
-          "pl": "Polen", "pt": "Portugal", "unknown": "Region nicht festgelegt"
+          "de": "Deutschland",
+          "tr": "Türkei",
+          "gb": "Vereinigtes Königreich",
+          "us": "Vereinigte Staaten",
+          "eu": "Europäische Union",
+          "at": "Österreich",
+          "ch": "Schweiz",
+          "fr": "Frankreich",
+          "it": "Italien",
+          "es": "Spanien",
+          "nl": "Niederlande",
+          "pl": "Polen",
+          "pt": "Portugal",
+          "unknown": "Region nicht festgelegt"
+        },
+        "avatar": {
+          "sprout": "Sprössling",
+          "monstera": "Monstera",
+          "cactus": "Kaktus",
+          "succulent": "Sukkulente",
+          "fern": "Farn",
+          "pothos": "Efeutute",
+          "sansevieria": "Bogenhanf",
+          "aloe": "Aloe",
+          "palm": "Palme",
+          "orchid": "Orchidee",
+          "tulip": "Tulpe",
+          "sunflower": "Sonnenblume",
+          "bonsai": "Bonsai",
+          "clover": "Klee",
+          "lotus": "Lotus",
+          "pine": "Kiefer",
+          "bamboo": "Bambus",
+          "calathea": "Korbmarante",
+          "ficus": "Geigenfeige",
+          "rose": "Rose",
+          "lavender": "Lavendel",
+          "ivy": "Efeu",
+          "pilea": "Ufopflanze",
+          "oak": "Eiche",
+          "eucalyptus": "Eukalyptus"
         }
       }
     }
@@ -29,12 +117,56 @@
   "tr": {
     "a11y": {
       "icons": {
-        "status": { "pending": "Beklemede", "offline": "Çevrimdışı" },
-        "plant": { "petSafe": "Evcil hayvanlar için güvenli", "petUnsafe": "Evcil hayvanlar için zehirli" },
+        "status": {
+          "pending": "Beklemede",
+          "offline": "Çevrimdışı"
+        },
+        "plant": {
+          "petSafe": "Evcil hayvanlar için güvenli",
+          "petUnsafe": "Evcil hayvanlar için zehirli"
+        },
         "flag": {
-          "de": "Almanya", "tr": "Türkiye", "gb": "Birleşik Krallık", "us": "Amerika Birleşik Devletleri", "eu": "Avrupa Birliği",
-          "at": "Avusturya", "ch": "İsviçre", "fr": "Fransa", "it": "İtalya", "es": "İspanya", "nl": "Hollanda",
-          "pl": "Polonya", "pt": "Portekiz", "unknown": "Bölge seçilmedi"
+          "de": "Almanya",
+          "tr": "Türkiye",
+          "gb": "Birleşik Krallık",
+          "us": "Amerika Birleşik Devletleri",
+          "eu": "Avrupa Birliği",
+          "at": "Avusturya",
+          "ch": "İsviçre",
+          "fr": "Fransa",
+          "it": "İtalya",
+          "es": "İspanya",
+          "nl": "Hollanda",
+          "pl": "Polonya",
+          "pt": "Portekiz",
+          "unknown": "Bölge seçilmedi"
+        },
+        "avatar": {
+          "sprout": "Filiz",
+          "monstera": "Monstera",
+          "cactus": "Kaktüs",
+          "succulent": "Sukulent",
+          "fern": "Eğrelti",
+          "pothos": "Pothos",
+          "sansevieria": "Paşa kılıcı",
+          "aloe": "Aloe",
+          "palm": "Palmiye",
+          "orchid": "Orkide",
+          "tulip": "Lale",
+          "sunflower": "Ayçiçeği",
+          "bonsai": "Bonsai",
+          "clover": "Yonca",
+          "lotus": "Lotus",
+          "pine": "Çam",
+          "bamboo": "Bambu",
+          "calathea": "Kalatea",
+          "ficus": "Keman yapraklı incir",
+          "rose": "Gül",
+          "lavender": "Lavanta",
+          "ivy": "Sarmaşık",
+          "pilea": "Pilea",
+          "oak": "Meşe",
+          "eucalyptus": "Okaliptüs"
         }
       }
     }

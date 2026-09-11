@@ -22,13 +22,22 @@ export const GROUPS = [
       "Same v4 DSL, gates and grades as the shipped set. Siblings reuse v4 geometry verbatim where a pair must match (calendar.add ← calendar.date frame; utility.camera.plus ← utility.camera body; utility.download ← utility.upload tray).",
   },
   {
+    key: "avatars",
+    title: "Plant avatars (profile logos)",
+    categories: ["avatar"],
+    summary:
+      "Twenty-five default profile avatars, each modelled on a real plant the Plantim audience recognises — monstera, saguaro, echeveria, fiddle-leaf fig, snake plant, lavender, … A user without a photo picks one in Profile; the same glyph identifies them in comments, member lists and the social feed.",
+    principle:
+      "One family: the placeholder.avatar ring as the crop, a closed plant silhouette inside it, interior detail strokes that drop at micro. The solid variant is a sticker (disc with the plant punched out), so every silhouette is a declared counter. Foliage stays on the leaf ramp, blooms on bloom/sun, wood on earth; the ring takes a pastel so the picker shows tinted discs. Built for 32–72 px; the 16 px reading is the silhouette alone.",
+  },
+  {
     key: "flags",
     title: "Country flags",
     categories: ["flag"],
     summary:
-      "A locale/region picker needs flags; the web client already ships assets/flags/*.svg outside the registry. Proposed as a new asset class `flag.*` — not semantic icons — with a `color` variant (fixed vexillological colors, clipped 20×14 rounded rect, 12 % hairline border) and a `mono` variant (frame + partition lines in currentColor) for tinted contexts.",
+      "A locale/region picker needs flags; the web client already ships assets/flags/*.svg outside the registry. Proposed as a new asset class `flag.*` — not semantic icons — in two shapes: rectangular (`color` / `mono`) and circular (`circle` / `circle.mono`), the latter cropped into the same Ø18.5 disc the avatars use so a flag sits in a locale chip or next to a profile picture without a shape clash.",
     principle:
-      "Starter set = the three shipped locales (de, en → gb/us, tr), the EU, nine likely-next European regions, and a neutral `flag.unknown`. Icon-size simplification is deliberate (no coats of arms, 7 stripes / 8 stars on US, single-layer saltire on GB): a 16 px flag reads by silhouette and color. Colors are never theme tokens; dark mode is handled by the border, not by re-coloring.",
+      "Starter set = the three shipped locales (de, en → gb/us, tr), the EU, nine likely-next European regions, and a neutral `flag.unknown`. Icon-size simplification is deliberate (no coats of arms, 7 stripes / 8 stars on US, single-layer saltire on GB): a 16 px flag reads by silhouette and color. Colors are never theme tokens; dark mode is handled by the 12 % hairline border, not by re-coloring. The circular shapes scale the flag to cover the disc height and crop the sides — the standard circle-flag treatment.",
   },
 ];
 
@@ -145,6 +154,38 @@ export const RATIONALE = {
     surfaces: ["placement attribute on plants / gardens", "balcony / garden gardens"],
   },
 };
+
+const AVATAR_WHY = {
+  sprout: "the beginner avatar — two seed leaves on a stem in soil",
+  monstera: "lobed leaf with two slits and a midrib",
+  cactus: "saguaro column with two arms",
+  succulent: "echeveria rosette — six pointed leaves around a heart",
+  fern: "one-sided frond with four leaflet lobes",
+  pothos: "heart leaf with a short curling stem",
+  sansevieria: "three upright sword leaves with a pale centre stripe",
+  aloe: "five spiky leaves fanning from a low base",
+  palm: "four fronds drooping from a slim trunk",
+  orchid: "five petals around a small lip",
+  tulip: "cup bloom with three petal tips on a short stem",
+  sunflower: "eight petals around a wide seed disc",
+  bonsai: "cloud canopy on a short trunk in a shallow tray",
+  clover: "four heart leaflets on a stem",
+  lotus: "five petals fanning up from the water line",
+  pine: "three-tier conifer with its trunk",
+  bamboo: "segmented stalk with a leaf on either side",
+  calathea: "oval leaf with paired stripes (prayer plant)",
+  ficus: "fiddle-leaf fig — violin-shaped leaf on a stub stem",
+  rose: "bud from above — round bloom with a spiral",
+  lavender: "spike of florets on a stem with one leaf",
+  ivy: "three-lobed leaf on a stem",
+  pilea: "Chinese money plant — coin leaf on a stalk",
+  oak: "lobed oak leaf with a midrib",
+  eucalyptus: "stem with three pairs of round leaves",
+};
+export function avatarRationale(id) {
+  const name = id.split(".")[1];
+  return { why: AVATAR_WHY[name] ?? "", surfaces: ["Profile: avatar picker (no photo)", "comments, member lists, social feed", "public profile header"] };
+}
 
 export function flagRationale(id) {
   const code = id.split(".")[1];

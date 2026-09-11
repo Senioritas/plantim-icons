@@ -12,6 +12,7 @@ import path from "node:path";
 import crypto from "node:crypto";
 import { spawnSync } from "node:child_process";
 import { pathBounds } from "./lib/svg-path-bounds.mjs";
+import { FLAG_VARIANTS, FLAG_COLOR_VARIANTS, FLAG_MONO_VARIANTS } from "./lib/flag-render.mjs";
 
 const root = path.resolve(import.meta.dirname, "../..");
 const v4Root = path.join(root, "design-tokens/icons/v4");
@@ -73,8 +74,8 @@ const checkSvgFile = (rel, size, variant, solidDef) => {
       if (!svg.includes(`fill-rule="evenodd"`)) err(`${rel}: solid missing evenodd`);
       if (svg.includes("stroke-width")) err(`${rel}: solid must not stroke`);
     }
-  } else if (variant === "color") {
-    if (!svg.includes("<clipPath") || !svg.includes('data-role="border"')) err(`${rel}: flag color variant needs clip + border`);
+  } else if (FLAG_COLOR_VARIANTS.includes(variant)) {
+    if (!svg.includes("<clipPath") || !svg.includes('data-role="border"')) err(`${rel}: flag ${variant} variant needs clip + border`);
     if (svg.includes("currentColor")) err(`${rel}: flag colors are fixed; no currentColor`);
     for (const m of svg.match(/(?:fill|stroke)="#[0-9A-Fa-f]{3,8}"/g) ?? []) {
       if (!/#[0-9A-F]{6}"$/.test(m)) err(`${rel}: non-canonical color ${m}`);
@@ -82,7 +83,10 @@ const checkSvgFile = (rel, size, variant, solidDef) => {
   } else {
     if (!svg.includes(`stroke-width="${sw}"`)) err(`${rel}: stroke-width != ${sw} (grade ${grade})`);
     if (!svg.includes(`stroke-linecap="round"`) || !svg.includes(`stroke-linejoin="round"`)) err(`${rel}: caps/joins not round`);
-    if (variant === "mono" && !svg.includes('stroke="currentColor"')) err(`${rel}: mono flag must stroke currentColor`);
+    if (FLAG_MONO_VARIANTS.includes(variant) && !svg.includes('stroke="currentColor"')) err(`${rel}: mono flag must stroke currentColor`);
+    // A circular mono draws its partitions inside a scaled group, so their
+    // stroke is divided by the scale; the disc itself carries the grade width.
+    if (variant === "circle.mono" && !svg.includes('r="9.25"')) err(`${rel}: circle.mono missing the disc outline`);
   }
 };
 const checkNodes = (id, gname, nodes) => {
@@ -152,7 +156,7 @@ for (const [id, f] of Object.entries(registry.flags)) {
     }
   }
   for (const [gname, nodes] of Object.entries(f.mono)) checkNodes(id, `mono.${gname}`, nodes);
-  for (const variant of ["color", "mono"]) for (const size of sizes) checkSvgFile(path.join("svg", variant, `${id}@${size}.svg`), size, variant);
+  for (const variant of FLAG_VARIANTS) for (const size of sizes) checkSvgFile(path.join("svg", variant, `${id}@${size}.svg`), size, variant);
 }
 
 // 6. index parity

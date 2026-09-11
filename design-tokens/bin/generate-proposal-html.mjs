@@ -61,11 +61,13 @@ function card(entry) {
   const isFlag = entry.kind === "flag";
   const variants = isFlag
     ? `<figure>${svg(f.color[24], 40)}<figcaption>color</figcaption></figure>
+       <figure>${svg(f.circle[24], 40)}<figcaption>circle</figcaption></figure>
        <figure>${svg(f.mono[24], 40)}<figcaption>mono</figcaption></figure>
+       <figure>${svg(f["circle.mono"][24], 40)}<figcaption>circle · mono</figcaption></figure>
        <figure class="on-dark">${svg(f.color[24], 40)}<figcaption>on dark</figcaption></figure>
-       <figure class="on-dark">${svg(f.mono[24], 40)}<figcaption>mono · dark</figcaption></figure>`
+       <figure class="on-dark">${svg(f.circle[24], 40)}<figcaption>circle · dark</figcaption></figure>`
     : ["outline", "solid", "duotone", "multicolor"].map((v) => `<figure>${svg(f[v][24], 40)}<figcaption>${v}</figcaption></figure>`).join("");
-  const rampStyle = isFlag ? "color" : "outline";
+  const rampStyle = isFlag ? "circle" : "outline";
   const ramp = [16, 24, 48].map((s) => svg(f[rampStyle][s], s)).join("");
   const neighbours = (NEIGHBOURS[entry.id] ?? [])
     .map((id) => `<span title="${esc(id)}">${v4svg(id, "outline", 22)}${v4svg(id, "solid", 22)}<small>${esc(id)}</small></span>`)
@@ -113,6 +115,13 @@ const flagsRow = registry.flags
       .map((id) => `<span title="${id}">${svg(`svg/color/${id}@24.svg`, 28)}</span>`)
       .join("")
   : "";
+const avatarRow = Object.keys(registry.icons)
+  .filter((id) => id.startsWith("avatar."))
+  .map((id) => `<span title="${id}">${svg(`svg/multicolor/${id}@24.svg`, 34)}</span>`)
+  .join("");
+const flagsCircleRow = Object.keys(registry.flags)
+  .map((id) => `<span title="${id}">${svg(`svg/circle/${id}@24.svg`, 28)}</span>`)
+  .join("");
 const heroRow = ["placeholder.avatar", "placeholder.text", "placeholder.card", "placeholder.list", "placeholder.plant", "status.loading.dots"]
   .filter((id) => registry.icons[id])
   .map((id) => `<span title="${id}">${svg(`svg/multicolor/${id}@24.svg`, 32)}</span>`)
@@ -337,8 +346,11 @@ const html = `<!doctype html><html lang="en"><head><meta charset="utf-8">
     <div class="stat"><b>${counts.P2}</b><span>P2 · library</span></div>
   </div>
   <div class="demo">
+    <div><h3>Plant avatars — an avatar picker (multicolor)</h3><div class="row">${avatarRow}</div></div>
+    <div><h3>Locale / region row — rectangular and circular</h3><div class="row">${flagsRow}</div><div class="row" style="margin-top:10px">${flagsCircleRow}</div></div>
+  </div>
+  <div class="demo" style="grid-template-columns:1fr">
     <div><h3>Profile loading, before content exists (multicolor)</h3><div class="row">${heroRow}</div></div>
-    <div><h3>Locale / region row (color)</h3><div class="row">${flagsRow}</div></div>
   </div>
 </header>
 <div class="controls">

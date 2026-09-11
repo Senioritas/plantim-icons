@@ -25,6 +25,7 @@ const rationaleMod = await import(pathToFileURL(path.join(propRoot, "rationale.m
 export const GROUPS = rationaleMod.GROUPS;
 export const RATIONALE = rationaleMod.RATIONALE;
 export const flagRationale = rationaleMod.flagRationale;
+export const avatarRationale = rationaleMod.avatarRationale;
 
 export const esc = (s) =>
   String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -52,7 +53,9 @@ export function groupOf(entry) {
   return GROUPS.find((g) => g.categories.includes(entry.category)) ?? GROUPS[1];
 }
 export function rationaleOf(entry) {
-  return entry.kind === "flag" ? flagRationale(entry.id) : (RATIONALE[entry.id] ?? { why: "", surfaces: [] });
+  if (entry.kind === "flag") return flagRationale(entry.id);
+  if (entry.category === "avatar") return avatarRationale(entry.id);
+  return RATIONALE[entry.id] ?? { why: "", surfaces: [] };
 }
 export function defOf(entry) {
   return entry.kind === "flag" ? registry.flags[entry.id] : registry.icons[entry.id];
