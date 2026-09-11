@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="9.25" fill="none" stroke="#A5D6A7" stroke-width="1.6" data-token="leaf.300" />
+  <path d="M12.525 8Q15 6.47 12 4.6Q9 6.47 11.475 8Z" fill="none" stroke="#D81B60" stroke-width="1.6" data-token="bloom.500" />
+  <path d="M15.966 11.263Q18.186 13.144 19.038 9.713Q16.332 7.438 15.642 10.265Z" fill="none" stroke="#D81B60" stroke-width="1.6" data-token="bloom.500" />
+  <path d="M13.926 15.545Q12.823 18.237 16.35 17.987Q17.678 14.711 14.776 14.927Z" fill="none" stroke="#D81B60" stroke-width="1.6" data-token="bloom.500" />
+  <path d="M9.224 14.927Q6.322 14.711 7.65 17.987Q11.177 18.237 10.074 15.545Z" fill="none" stroke="#D81B60" stroke-width="1.6" data-token="bloom.500" />
+  <path d="M8.358 10.265Q7.668 7.438 4.962 9.713Q5.814 13.144 8.034 11.263Z" fill="none" stroke="#D81B60" stroke-width="1.6" data-token="bloom.500" />
+  <path d="M13.047 11.154Q15.017 11.25 14.175 9.007Q11.781 8.899 12.481 10.743Z" fill="none" stroke="#D81B60" stroke-width="1.6" data-token="bloom.500" />
+  <path d="M13.128 12.735Q13.645 14.638 15.519 13.143Q14.882 10.833 13.345 12.069Z" fill="none" stroke="#D81B60" stroke-width="1.6" data-token="bloom.500" />
+  <path d="M11.65 13.3Q10 14.38 12 15.7Q14 14.38 12.35 13.3Z" fill="none" stroke="#D81B60" stroke-width="1.6" data-token="bloom.500" />
+  <path d="M10.655 12.069Q9.118 10.833 8.481 13.143Q10.355 14.638 10.872 12.735Z" fill="none" stroke="#D81B60" stroke-width="1.6" data-token="bloom.500" />
+  <path d="M11.519 10.743Q12.219 8.899 9.825 9.007Q8.983 11.25 10.953 11.154Z" fill="none" stroke="#D81B60" stroke-width="1.6" data-token="bloom.500" />
+  <circle cx="12" cy="12" r="0.9" fill="none" stroke="#F9A825" stroke-width="1.6" data-token="sun.500" />
+</svg>

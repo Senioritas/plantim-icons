@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="9.25" fill="none" stroke="#D81B60" stroke-width="2" data-token="bloom.500" />
+  <path d="M12 5.5c3.3 0 5 3.4 5 7s-1.7 6.5-5 6.5-5-2.9-5-6.5 1.7-7 5-7Z" fill="none" stroke="#2E7D32" stroke-width="2" data-token="leaf.700" />
+  <path d="M12 7v10" fill="none" stroke="#A5D6A7" stroke-width="2" data-token="leaf.300" />
+  <path d="M12 9l-2.5 1.2" fill="none" stroke="#A5D6A7" stroke-width="2" data-token="leaf.300" />
+  <path d="M12 9l2.5 1.2" fill="none" stroke="#A5D6A7" stroke-width="2" data-token="leaf.300" />
+  <path d="M12 12.5l-3 1.4" fill="none" stroke="#A5D6A7" stroke-width="2" data-token="leaf.300" />
+  <path d="M12 12.5l3 1.4" fill="none" stroke="#A5D6A7" stroke-width="2" data-token="leaf.300" />
+  <path d="M12 15.5l-2.2 1" fill="none" stroke="#A5D6A7" stroke-width="2" data-token="leaf.300" />
+  <path d="M12 15.5l2.2 1" fill="none" stroke="#A5D6A7" stroke-width="2" data-token="leaf.300" />
+</svg>

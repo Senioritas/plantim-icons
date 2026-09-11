@@ -6,7 +6,8 @@ let browser, page;
 
 export async function openRaster() {
   const { chromium } = await import("playwright");
-  browser = await chromium.launch();
+  // PLANTIM_CHROMIUM lets a pre-installed Chromium stand in for the Playwright download (same env as html-to-pdf.mjs).
+  browser = await chromium.launch(process.env.PLANTIM_CHROMIUM ? { executablePath: process.env.PLANTIM_CHROMIUM } : {});
   page = await browser.newPage({ viewport: { width: 640, height: 640 } });
 }
 

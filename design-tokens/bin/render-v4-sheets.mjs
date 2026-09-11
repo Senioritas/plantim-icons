@@ -5,6 +5,7 @@
 // Usage:
 //   node design-tokens/bin/render-v4-sheets.mjs v3 [category ...]
 //   node design-tokens/bin/render-v4-sheets.mjs v4 [category ...]
+//   node design-tokens/bin/render-v4-sheets.mjs proposal [category ...]
 //
 // Each sheet shows, per icon: the four styles rendered large (crisp vector at 128px,
 // where stroke defects, tangent collisions and solid-variant gaps are visible), the
@@ -27,6 +28,12 @@ const SETS = {
   v4: {
     dir: path.join(root, "design-tokens/icons/v4"),
     manifest: path.join(root, "design-tokens/icons/v4/index.v4.json"),
+    styles: ["outline", "solid", "duotone", "multicolor"],
+  },
+  // v4.1 proposal: same row layout as v4; flags carry color/mono instead of the four variants.
+  proposal: {
+    dir: path.join(root, "design-tokens/icons/v4.1-proposal"),
+    manifest: path.join(root, "design-tokens/icons/v4.1-proposal/index.proposal.json"),
     styles: ["outline", "solid", "duotone", "multicolor"],
   },
 };
@@ -74,26 +81,31 @@ function fileFor(icon, style, size) {
 }
 
 function iconRow(icon) {
-  const cells = set.styles
+  const rowStyles = icon.files ? Object.keys(icon.files) : set.styles;
+  const cells = rowStyles
     .map((style) => {
       const src = svgData(fileFor(icon, style, 24));
       return `<figure class="cell light"><img src="${src}" width="128" height="128" alt=""><figcaption>${style}</figcaption></figure>`;
     })
     .join("");
-  if (setName === "v4") {
-    const bigCells = set.styles
+  if (setName === "v4" || setName === "proposal") {
+    const styles = icon.files ? Object.keys(icon.files) : set.styles;
+    const outlineStyle = styles.includes("outline") ? "outline" : styles[0];
+    const solidStyle = styles.includes("solid") ? "solid" : styles[styles.length - 1];
+    const darkStyles = styles.includes("multicolor") ? ["solid", "multicolor"] : styles;
+    const bigCells = styles
       .map(
         (style) =>
           `<figure class="cell light ink">${svgInline(fileFor(icon, style, 24), 128)}<figcaption>${style}</figcaption></figure>`,
       )
       .join("");
-    const ramp = [16, 20, 24, 32, 48, 72].map((s) => svgInline(fileFor(icon, "outline", s), s)).join("");
-    const rampDark = [16, 20, 24].map((s) => svgInline(fileFor(icon, "solid", s), s)).join("");
+    const ramp = [16, 20, 24, 32, 48, 72].map((s) => svgInline(fileFor(icon, outlineStyle, s), s)).join("");
+    const rampDark = [16, 20, 24].map((s) => svgInline(fileFor(icon, solidStyle, s), s)).join("");
     return `<div class="row">
     <div class="label"><code>${icon.id}</code><br><small>${icon.tier ?? ""} · ${icon.verdict ?? ""}</small></div>
     ${bigCells}
     <figure class="cell light ink ramp">${ramp}<figcaption>16→72</figcaption></figure>
-    <figure class="cell dark paper">${["solid", "multicolor"].map((v) => svgInline(fileFor(icon, v, 24), 96)).join("")}<figcaption>dark 24</figcaption></figure>
+    <figure class="cell dark paper">${darkStyles.map((v) => svgInline(fileFor(icon, v, 24), 96)).join("")}<figcaption>dark 24</figcaption></figure>
     <figure class="cell dark paper ramp">${rampDark}<figcaption>16-24</figcaption></figure>
   </div>`;
   }
@@ -191,7 +203,7 @@ function sheetHtml(category, page, pageIcons) {
 }
 
 const { chromium } = await import("playwright");
-const browser = await chromium.launch();
+const browser = await chromium.launch(process.env.PLANTIM_CHROMIUM ? { executablePath: process.env.PLANTIM_CHROMIUM } : {});
 const page = await browser.newPage({ deviceScaleFactor: 2, viewport: { width: 1460, height: 900 } });
 
 fs.mkdirSync(path.join(outRoot, setName), { recursive: true });

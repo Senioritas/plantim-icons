@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <clipPath id="pf-flag-nl-circle"><circle cx="12" cy="12" r="9.25" /></clipPath>
+  <g clip-path="url(#pf-flag-nl-circle)"><g transform="translate(12 12) scale(1.321) translate(-10 -7)">
+    <g data-layer="field">
+        <rect x="0" y="0" width="20" height="4.667" fill="#AE1C28" />
+        <rect x="0" y="4.667" width="20" height="4.667" fill="#FFFFFF" />
+        <rect x="0" y="9.333" width="20" height="4.667" fill="#21468B" />
+    </g>
+  </g></g>
+  <circle cx="12" cy="12" r="8.75" fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1" data-role="border" />
+</svg>

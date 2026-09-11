@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <clipPath id="pf-flag-nl-circle-mono"><circle cx="12" cy="12" r="9.25" /></clipPath>
+  <circle cx="12" cy="12" r="9.25" fill="none" stroke="currentColor" stroke-width="2.4" />
+  <g clip-path="url(#pf-flag-nl-circle-mono)"><g transform="translate(12 12) scale(1.321) translate(-12 -12)">
+    <path d="M2 9.667h20" fill="none" stroke="currentColor" stroke-width="1.817" />
+    <path d="M2 14.333h20" fill="none" stroke="currentColor" stroke-width="1.817" />
+  </g></g>
+</svg>
