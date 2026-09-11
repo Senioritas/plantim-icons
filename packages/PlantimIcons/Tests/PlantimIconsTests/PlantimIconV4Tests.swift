@@ -4,7 +4,7 @@ import XCTest
 final class PlantimIconV4Tests: XCTestCase {
     func testCaseCountMatchesGeneratedRegistryCount() {
         XCTAssertEqual(PlantimIconV4Name.allCases.count, PlantimIconsV4Metadata.iconCount)
-        XCTAssertEqual(PlantimIconsV4Metadata.version, "4.0.0")
+        XCTAssertEqual(PlantimIconsV4Metadata.version, "4.1.0")
         XCTAssertEqual(PlantimIconsV4Metadata.registryHash.count, 64)
     }
 

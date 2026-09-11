@@ -1,5 +1,5 @@
 // GENERATED FILE - do not edit by hand.
-// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 9602ac5dc4533c49ba0bd398380a25061d9a06697a3391cb61ca5d1e1319abe7).
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 573a185872b44f38b596f04ea43fd9241a433a2722d278ae1533bc80d82384b1).
 // Regenerate with: npm run icons:v4:package
 import type { PlantimIconV4Definition } from "../index.js";
 
@@ -8,46 +8,6 @@ export const NavCalendarCheck: PlantimIconV4Definition = {
   "label": "Calendar Check",
   "tier": "P2",
   "grades": {
-    "micro": {
-      "layers": [
-        {
-          "name": "primary",
-          "role": "primary",
-          "nodes": [
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M5 4h14a2 2 0 0 1 2 2v13a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-13a2 2 0 0 1 2 -2Z"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M3 9L21 9"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M8 2L8 6"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M16 2L16 6"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M8.5 15.5l2.5 2.5 4.5-5"
-              }
-            }
-          ]
-        }
-      ]
-    },
     "base": {
       "layers": [
         {

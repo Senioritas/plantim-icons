@@ -3,44 +3,6 @@ export const GardenShears = {
     "label": "Shears",
     "tier": "P2",
     "grades": {
-        "micro": {
-            "layers": [
-                {
-                    "name": "primary",
-                    "role": "primary",
-                    "nodes": [
-                        {
-                            "type": "circle",
-                            "attrs": {
-                                "cx": "6",
-                                "cy": "18",
-                                "r": "3"
-                            }
-                        },
-                        {
-                            "type": "circle",
-                            "attrs": {
-                                "cx": "18",
-                                "cy": "18",
-                                "r": "3"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M8.5 16L20 4"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M15.5 16L4 4"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
         "base": {
             "layers": [
                 {

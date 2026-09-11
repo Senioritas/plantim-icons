@@ -3,52 +3,6 @@ export const GenusFern = {
     "label": "Fern",
     "tier": "P2",
     "grades": {
-        "micro": {
-            "layers": [
-                {
-                    "name": "primary",
-                    "role": "primary",
-                    "nodes": [
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M12 17V4"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M12 6c-1.5-1.5-3-2-5-2 0 2 .5 3.5 2 5"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M12 6c1.5-1.5 3-2 5-2 0 2-.5 3.5-2 5"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M12 11c-1.3-1.3-2.6-1.7-4.3-1.7 0 1.7.4 3 1.7 4.3"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M12 11c1.3-1.3 2.6-1.7 4.3-1.7 0 1.7-.4 3-1.7 4.3"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M8 17h8l-1 4H9l-1-4z"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
         "base": {
             "layers": [
                 {

@@ -1,5 +1,5 @@
 // GENERATED FILE - do not edit by hand.
-// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 9602ac5dc4533c49ba0bd398380a25061d9a06697a3391cb61ca5d1e1319abe7).
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 573a185872b44f38b596f04ea43fd9241a433a2722d278ae1533bc80d82384b1).
 // Regenerate with: npm run icons:v4:package
 import type { PlantimIconV4Definition } from "../index.js";
 
@@ -8,52 +8,6 @@ export const NavFeedStream: PlantimIconV4Definition = {
   "label": "Feed Stream",
   "tier": "P2",
   "grades": {
-    "micro": {
-      "layers": [
-        {
-          "name": "primary",
-          "role": "primary",
-          "nodes": [
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M4 5h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1Z"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M9 6.2L21 6.2"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M9 8.4L17 8.4"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M4 14h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1Z"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M9 15.2L21 15.2"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M9 17.4L17 17.4"
-              }
-            }
-          ]
-        }
-      ]
-    },
     "base": {
       "layers": [
         {

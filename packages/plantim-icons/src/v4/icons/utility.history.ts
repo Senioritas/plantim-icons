@@ -1,5 +1,5 @@
 // GENERATED FILE - do not edit by hand.
-// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 9602ac5dc4533c49ba0bd398380a25061d9a06697a3391cb61ca5d1e1319abe7).
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 573a185872b44f38b596f04ea43fd9241a433a2722d278ae1533bc80d82384b1).
 // Regenerate with: npm run icons:v4:package
 import type { PlantimIconV4Definition } from "../index.js";
 
@@ -8,34 +8,6 @@ export const UtilityHistory: PlantimIconV4Definition = {
   "label": "History",
   "tier": "P1",
   "grades": {
-    "micro": {
-      "layers": [
-        {
-          "name": "primary",
-          "role": "primary",
-          "nodes": [
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M3 3v5h5"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M12 7v5l4 2"
-              }
-            }
-          ]
-        }
-      ]
-    },
     "base": {
       "layers": [
         {

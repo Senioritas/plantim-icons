@@ -3,40 +3,6 @@ export const UtilityMoreHorizontal = {
     "label": "More Horizontal",
     "tier": "P1",
     "grades": {
-        "micro": {
-            "layers": [
-                {
-                    "name": "primary",
-                    "role": "primary",
-                    "nodes": [
-                        {
-                            "type": "circle",
-                            "attrs": {
-                                "cx": "12",
-                                "cy": "12",
-                                "r": "1"
-                            }
-                        },
-                        {
-                            "type": "circle",
-                            "attrs": {
-                                "cx": "19",
-                                "cy": "12",
-                                "r": "1"
-                            }
-                        },
-                        {
-                            "type": "circle",
-                            "attrs": {
-                                "cx": "5",
-                                "cy": "12",
-                                "r": "1"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
         "base": {
             "layers": [
                 {

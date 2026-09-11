@@ -3,45 +3,6 @@ export const StatusInfo = {
     "label": "Info",
     "tier": "P1",
     "grades": {
-        "micro": {
-            "layers": [
-                {
-                    "name": "primary",
-                    "role": "primary",
-                    "nodes": [
-                        {
-                            "type": "circle",
-                            "attrs": {
-                                "cx": "12",
-                                "cy": "12",
-                                "r": "10"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M12 16v-4"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "name": "accent",
-                    "role": "accent",
-                    "nodes": [
-                        {
-                            "type": "circle",
-                            "attrs": {
-                                "cx": "12",
-                                "cy": "8",
-                                "r": "1.1"
-                            },
-                            "filled": true
-                        }
-                    ]
-                }
-            ]
-        },
         "base": {
             "layers": [
                 {

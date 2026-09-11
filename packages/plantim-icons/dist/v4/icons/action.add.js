@@ -46,28 +46,6 @@ export const ActionAdd = {
                     ]
                 }
             ]
-        },
-        "display": {
-            "layers": [
-                {
-                    "name": "plus",
-                    "role": "primary",
-                    "nodes": [
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M12 5.5v13"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M5.5 12h13"
-                            }
-                        }
-                    ]
-                }
-            ]
         }
     },
     "solid": {

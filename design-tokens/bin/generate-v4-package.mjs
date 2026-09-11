@@ -76,6 +76,17 @@ function pickGraded(source, transform) {
     const value = transform(source?.[grade]);
     if (value !== undefined) out[grade] = value;
   }
+  // An authored micro/display grade whose geometry is identical to base adds
+  // nothing to the published module: the component resolves
+  // `grades[grade] ?? grades.base` (and the same for solid), so dropping the
+  // copy renders identically and keeps per-icon modules small. The registry
+  // keeps the authored flag either way — this is an emission detail.
+  const base = out.base === undefined ? undefined : JSON.stringify(out.base);
+  if (base !== undefined) {
+    for (const grade of ["micro", "display"]) {
+      if (out[grade] !== undefined && JSON.stringify(out[grade]) === base) delete out[grade];
+    }
+  }
   return out;
 }
 

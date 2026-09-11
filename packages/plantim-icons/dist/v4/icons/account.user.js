@@ -78,44 +78,6 @@ export const AccountUser = {
                     ]
                 }
             ]
-        },
-        "display": {
-            "layers": [
-                {
-                    "name": "ring",
-                    "role": "container",
-                    "nodes": [
-                        {
-                            "type": "circle",
-                            "attrs": {
-                                "cx": "12",
-                                "cy": "12",
-                                "r": "9.25"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "name": "person",
-                    "role": "primary",
-                    "nodes": [
-                        {
-                            "type": "circle",
-                            "attrs": {
-                                "cx": "12",
-                                "cy": "9.6",
-                                "r": "3.3"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M5.9 18.7a7.7 7.7 0 0 1 12.2 0"
-                            }
-                        }
-                    ]
-                }
-            ]
         }
     },
     "solid": {

@@ -1,5 +1,5 @@
 // GENERATED FILE - do not edit by hand.
-// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 9602ac5dc4533c49ba0bd398380a25061d9a06697a3391cb61ca5d1e1319abe7).
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 573a185872b44f38b596f04ea43fd9241a433a2722d278ae1533bc80d82384b1).
 // Regenerate with: npm run icons:v4:package
 import type { PlantimIconV4Definition } from "../index.js";
 
@@ -37,34 +37,6 @@ export const NavigationHome: PlantimIconV4Definition = {
       ]
     },
     "base": {
-      "layers": [
-        {
-          "name": "shell",
-          "role": "primary",
-          "nodes": [
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M3.9 10.4a2 2 0 0 1 .74-1.55l6.1-5a2 2 0 0 1 2.52 0l6.1 5a2 2 0 0 1 .74 1.55V19a2 2 0 0 1-2 2H5.9a2 2 0 0 1-2-2Z"
-              }
-            }
-          ]
-        },
-        {
-          "name": "door",
-          "role": "secondary",
-          "nodes": [
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M10.2 21v-4.3a1.8 1.8 0 0 1 3.6 0V21"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    "display": {
       "layers": [
         {
           "name": "shell",

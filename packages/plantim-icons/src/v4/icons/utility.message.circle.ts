@@ -1,5 +1,5 @@
 // GENERATED FILE - do not edit by hand.
-// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 9602ac5dc4533c49ba0bd398380a25061d9a06697a3391cb61ca5d1e1319abe7).
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 573a185872b44f38b596f04ea43fd9241a433a2722d278ae1533bc80d82384b1).
 // Regenerate with: npm run icons:v4:package
 import type { PlantimIconV4Definition } from "../index.js";
 
@@ -25,55 +25,6 @@ export const UtilityMessageCircle: PlantimIconV4Definition = {
       ]
     },
     "base": {
-      "layers": [
-        {
-          "name": "bubble",
-          "role": "primary",
-          "nodes": [
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M8.1 19.6A8.5 8.5 0 1 0 4.35 15.9L3.1 20.9Z"
-              }
-            }
-          ]
-        },
-        {
-          "name": "dots",
-          "role": "accent",
-          "nodes": [
-            {
-              "type": "circle",
-              "attrs": {
-                "cx": "8.1",
-                "cy": "12",
-                "r": "1.15"
-              },
-              "filled": true
-            },
-            {
-              "type": "circle",
-              "attrs": {
-                "cx": "11.9",
-                "cy": "12",
-                "r": "1.15"
-              },
-              "filled": true
-            },
-            {
-              "type": "circle",
-              "attrs": {
-                "cx": "15.7",
-                "cy": "12",
-                "r": "1.15"
-              },
-              "filled": true
-            }
-          ]
-        }
-      ]
-    },
-    "display": {
       "layers": [
         {
           "name": "bubble",

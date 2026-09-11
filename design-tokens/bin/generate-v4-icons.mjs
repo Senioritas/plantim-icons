@@ -15,6 +15,9 @@ const srcRoot = path.join(v4Root, "src");
 const svgRoot = path.join(v4Root, "svg");
 const verify = process.argv.includes("--verify");
 
+// Registry contract version. Additive ids are a minor bump (design-tokens/icons/governance.md).
+const V4_VERSION = "4.1.0";
+
 const tokens = JSON.parse(fs.readFileSync(path.join(v4Root, "tokens.json"), "utf8"));
 const sizesCfg = JSON.parse(fs.readFileSync(path.join(v4Root, "sizes.json"), "utf8"));
 const v2Registry = JSON.parse(
@@ -100,7 +103,7 @@ for (const def of icons) {
 }
 
 const payload = {
-  version: "4.0.0",
+  version: V4_VERSION,
   derivedFrom: {
     v2: v2Registry.version,
     v2Hash: v2Registry.registryHash,
@@ -138,7 +141,7 @@ for (const def of icons) {
 
 const registryJson = JSON.stringify(registry, null, 2) + "\n";
 const indexJson =
-  JSON.stringify({ version: "4.0.0", v4Hash, counts: registry.counts, icons: indexIcons }, null, 2) + "\n";
+  JSON.stringify({ version: V4_VERSION, v4Hash, counts: registry.counts, icons: indexIcons }, null, 2) + "\n";
 
 if (verify) {
   const existing = fs.existsSync(path.join(v4Root, "registry.v4.json"))

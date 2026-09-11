@@ -1,6 +1,6 @@
 {
   "name": "@plantim/icons",
-  "version": "2.2.1",
+  "version": "2.3.0",
   "private": false,
   "description": "Plantim's tree-shakeable semantic icon library for Vue 3.",
   "keywords": [
@@ -12,7 +12,8 @@
     "vue3",
     "typescript",
     "svg",
-    "plants"
+    "plants",
+    "flags"
   ],
   "license": "MIT",
   "types": "./dist/index.d.ts",
@@ -71,17 +72,55 @@
       "import": "./dist/v4/metadata.js",
       "default": "./dist/v4/metadata.js"
     },
+    "./flags": {
+      "types": "./dist/flags/index.d.ts",
+      "import": "./dist/flags/index.js",
+      "default": "./dist/flags/index.js"
+    },
+    "./flags/metadata": {
+      "types": "./dist/flags/metadata.d.ts",
+      "import": "./dist/flags/metadata.js",
+      "default": "./dist/flags/metadata.js"
+    },
+    "./flags/*": {
+      "types": "./dist/flags/flags/*.d.ts",
+      "import": "./dist/flags/flags/*.js",
+      "default": "./dist/flags/flags/*.js"
+    },
     "./package.json": "./package.json"
   },
   "typesVersions": {
     "*": {
-      "vue": ["dist/vue.d.ts"],
-      "metadata": ["dist/metadata.d.ts"],
-      "navigation": ["dist/navigation.d.ts"],
-      "v4": ["dist/v4/index.d.ts"],
-      "v4/icons/*": ["dist/v4/icons/*.d.ts"],
-      "v4/metadata": ["dist/v4/metadata.d.ts"],
-      "*": ["dist/index.d.ts"]
+      "vue": [
+        "dist/vue.d.ts"
+      ],
+      "metadata": [
+        "dist/metadata.d.ts"
+      ],
+      "navigation": [
+        "dist/navigation.d.ts"
+      ],
+      "v4": [
+        "dist/v4/index.d.ts"
+      ],
+      "v4/icons/*": [
+        "dist/v4/icons/*.d.ts"
+      ],
+      "v4/metadata": [
+        "dist/v4/metadata.d.ts"
+      ],
+      "flags": [
+        "dist/flags/index.d.ts"
+      ],
+      "flags/metadata": [
+        "dist/flags/metadata.d.ts"
+      ],
+      "flags/*": [
+        "dist/flags/flags/*.d.ts"
+      ],
+      "*": [
+        "dist/index.d.ts"
+      ]
     }
   },
   "publishConfig": {

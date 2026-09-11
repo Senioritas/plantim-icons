@@ -1,0 +1,1332 @@
+{
+  "version": "4.1.0",
+  "sizes": {
+    "version": "4.0.0",
+    "grades": {
+      "micro": {
+        "strokeWidth": 2.4,
+        "sizes": [
+          16,
+          20
+        ]
+      },
+      "base": {
+        "strokeWidth": 2,
+        "sizes": [
+          24,
+          32
+        ]
+      },
+      "display": {
+        "strokeWidth": 1.6,
+        "sizes": [
+          48,
+          72
+        ]
+      }
+    },
+    "sizes": {
+      "16": "micro",
+      "20": "micro",
+      "24": "base",
+      "32": "base",
+      "48": "display",
+      "72": "display"
+    },
+    "authoredGradesByTier": {
+      "P0": [
+        "micro",
+        "base",
+        "display"
+      ],
+      "P1": [
+        "micro",
+        "base"
+      ],
+      "P2": [
+        "base"
+      ]
+    }
+  },
+  "variants": [
+    "color",
+    "mono",
+    "circle",
+    "circle.mono"
+  ],
+  "counts": {
+    "total": 14
+  },
+  "flags": {
+    "flag.at": {
+      "id": "flag.at",
+      "kind": "flag",
+      "tier": "P1",
+      "verdict": "new",
+      "category": "flag",
+      "label": "Austria",
+      "keywords": [
+        "at",
+        "austria",
+        "flag",
+        "country",
+        "österreich",
+        "austrian"
+      ],
+      "accessibility": "semantic",
+      "accessibilityLabelKey": "a11y.icons.flag.at",
+      "layers": [
+        {
+          "name": "field",
+          "micro": true,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 0,
+              "w": 20,
+              "h": 4.667,
+              "fill": "#ED2939"
+            },
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 4.667,
+              "w": 20,
+              "h": 4.667,
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 9.333,
+              "w": 20,
+              "h": 4.667,
+              "fill": "#ED2939"
+            }
+          ]
+        }
+      ],
+      "mono": {
+        "base": [
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M2 9.667h20"
+            }
+          },
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M2 14.333h20"
+            }
+          }
+        ]
+      },
+      "geometryHash": "af03816f2315238e106311c37c9aa61f0b9ad4427c2664ccdaf696e02c7c20cf"
+    },
+    "flag.ch": {
+      "id": "flag.ch",
+      "kind": "flag",
+      "tier": "P1",
+      "verdict": "new",
+      "category": "flag",
+      "label": "Switzerland",
+      "keywords": [
+        "ch",
+        "switzerland",
+        "schweiz",
+        "swiss",
+        "flag",
+        "country"
+      ],
+      "accessibility": "semantic",
+      "accessibilityLabelKey": "a11y.icons.flag.ch",
+      "layers": [
+        {
+          "name": "field",
+          "micro": true,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 0,
+              "w": 20,
+              "h": 14,
+              "fill": "#DA291C"
+            }
+          ]
+        },
+        {
+          "name": "cross",
+          "micro": true,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 8.5,
+              "y": 2.5,
+              "w": 3,
+              "h": 9,
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "rect",
+              "x": 5.5,
+              "y": 5.5,
+              "w": 9,
+              "h": 3,
+              "fill": "#FFFFFF"
+            }
+          ]
+        }
+      ],
+      "mono": {
+        "base": [
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M12 8v8"
+            }
+          },
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M8 12h8"
+            }
+          }
+        ]
+      },
+      "geometryHash": "b2e17a1bd2d88abf4edbf846ebbc4ee4213a20131b31c9f0892497c08cf01a2e"
+    },
+    "flag.de": {
+      "id": "flag.de",
+      "kind": "flag",
+      "tier": "P1",
+      "verdict": "new",
+      "category": "flag",
+      "label": "Germany",
+      "keywords": [
+        "de",
+        "germany",
+        "flag",
+        "country",
+        "deutschland",
+        "german"
+      ],
+      "accessibility": "semantic",
+      "accessibilityLabelKey": "a11y.icons.flag.de",
+      "layers": [
+        {
+          "name": "field",
+          "micro": true,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 0,
+              "w": 20,
+              "h": 4.667,
+              "fill": "#000000"
+            },
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 4.667,
+              "w": 20,
+              "h": 4.667,
+              "fill": "#DD0000"
+            },
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 9.333,
+              "w": 20,
+              "h": 4.667,
+              "fill": "#FFCE00"
+            }
+          ]
+        }
+      ],
+      "mono": {
+        "base": [
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M2 9.667h20"
+            }
+          },
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M2 14.333h20"
+            }
+          }
+        ]
+      },
+      "geometryHash": "fd1501a7c41042432ea9afb0c312a1936eb6a9c8e6b323fe0ae53a2015655a35"
+    },
+    "flag.es": {
+      "id": "flag.es",
+      "kind": "flag",
+      "tier": "P1",
+      "verdict": "new",
+      "category": "flag",
+      "label": "Spain",
+      "keywords": [
+        "es",
+        "spain",
+        "españa",
+        "spanish",
+        "flag",
+        "country"
+      ],
+      "accessibility": "semantic",
+      "accessibilityLabelKey": "a11y.icons.flag.es",
+      "layers": [
+        {
+          "name": "field",
+          "micro": true,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 0,
+              "w": 20,
+              "h": 3.5,
+              "fill": "#AA151B"
+            },
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 3.5,
+              "w": 20,
+              "h": 7,
+              "fill": "#F1BF00"
+            },
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 10.5,
+              "w": 20,
+              "h": 3.5,
+              "fill": "#AA151B"
+            }
+          ]
+        }
+      ],
+      "mono": {
+        "base": [
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M2 8.5h20"
+            }
+          },
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M2 15.5h20"
+            }
+          }
+        ]
+      },
+      "geometryHash": "a7dc2bb6c53b89495f4fac7b9cf61765496e4495e4d9d9fda95f6ab112403304"
+    },
+    "flag.eu": {
+      "id": "flag.eu",
+      "kind": "flag",
+      "tier": "P1",
+      "verdict": "new",
+      "category": "flag",
+      "label": "European Union",
+      "keywords": [
+        "eu",
+        "europe",
+        "european union",
+        "flag",
+        "region"
+      ],
+      "accessibility": "semantic",
+      "accessibilityLabelKey": "a11y.icons.flag.eu",
+      "layers": [
+        {
+          "name": "field",
+          "micro": true,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 0,
+              "w": 20,
+              "h": 14,
+              "fill": "#003399"
+            }
+          ]
+        },
+        {
+          "name": "stars",
+          "micro": true,
+          "shapes": [
+            {
+              "type": "circle",
+              "cx": 14,
+              "cy": 7,
+              "r": 0.7,
+              "fill": "#FFCC00"
+            },
+            {
+              "type": "circle",
+              "cx": 13.464,
+              "cy": 9,
+              "r": 0.7,
+              "fill": "#FFCC00"
+            },
+            {
+              "type": "circle",
+              "cx": 12,
+              "cy": 10.464,
+              "r": 0.7,
+              "fill": "#FFCC00"
+            },
+            {
+              "type": "circle",
+              "cx": 10,
+              "cy": 11,
+              "r": 0.7,
+              "fill": "#FFCC00"
+            },
+            {
+              "type": "circle",
+              "cx": 8,
+              "cy": 10.464,
+              "r": 0.7,
+              "fill": "#FFCC00"
+            },
+            {
+              "type": "circle",
+              "cx": 6.536,
+              "cy": 9,
+              "r": 0.7,
+              "fill": "#FFCC00"
+            },
+            {
+              "type": "circle",
+              "cx": 6,
+              "cy": 7,
+              "r": 0.7,
+              "fill": "#FFCC00"
+            },
+            {
+              "type": "circle",
+              "cx": 6.536,
+              "cy": 5,
+              "r": 0.7,
+              "fill": "#FFCC00"
+            },
+            {
+              "type": "circle",
+              "cx": 8,
+              "cy": 3.536,
+              "r": 0.7,
+              "fill": "#FFCC00"
+            },
+            {
+              "type": "circle",
+              "cx": 10,
+              "cy": 3,
+              "r": 0.7,
+              "fill": "#FFCC00"
+            },
+            {
+              "type": "circle",
+              "cx": 12,
+              "cy": 3.536,
+              "r": 0.7,
+              "fill": "#FFCC00"
+            },
+            {
+              "type": "circle",
+              "cx": 13.464,
+              "cy": 5,
+              "r": 0.7,
+              "fill": "#FFCC00"
+            }
+          ]
+        }
+      ],
+      "mono": {
+        "base": [
+          {
+            "type": "circle",
+            "attrs": {
+              "cx": "12",
+              "cy": "12",
+              "r": "3.5"
+            }
+          }
+        ]
+      },
+      "geometryHash": "12a8dc03d9a4bd27a1739d7a1f8ac90a92af8b3a42486aabd2a9384aca5082b0"
+    },
+    "flag.fr": {
+      "id": "flag.fr",
+      "kind": "flag",
+      "tier": "P1",
+      "verdict": "new",
+      "category": "flag",
+      "label": "France",
+      "keywords": [
+        "fr",
+        "france",
+        "flag",
+        "country",
+        "french",
+        "français"
+      ],
+      "accessibility": "semantic",
+      "accessibilityLabelKey": "a11y.icons.flag.fr",
+      "layers": [
+        {
+          "name": "field",
+          "micro": true,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 0,
+              "w": 6.667,
+              "h": 14,
+              "fill": "#0055A4"
+            },
+            {
+              "type": "rect",
+              "x": 6.667,
+              "y": 0,
+              "w": 6.667,
+              "h": 14,
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "rect",
+              "x": 13.333,
+              "y": 0,
+              "w": 6.667,
+              "h": 14,
+              "fill": "#EF4135"
+            }
+          ]
+        }
+      ],
+      "mono": {
+        "base": [
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M8.667 5v14"
+            }
+          },
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M15.333 5v14"
+            }
+          }
+        ]
+      },
+      "geometryHash": "62f493fe760a880146615acf74b3ba9309048978167b736a5893cdb5d30e21f8"
+    },
+    "flag.gb": {
+      "id": "flag.gb",
+      "kind": "flag",
+      "tier": "P1",
+      "verdict": "new",
+      "category": "flag",
+      "label": "United Kingdom",
+      "keywords": [
+        "gb",
+        "uk",
+        "united kingdom",
+        "britain",
+        "english",
+        "flag",
+        "country"
+      ],
+      "accessibility": "semantic",
+      "accessibilityLabelKey": "a11y.icons.flag.gb",
+      "layers": [
+        {
+          "name": "field",
+          "micro": true,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 0,
+              "w": 20,
+              "h": 14,
+              "fill": "#012169"
+            }
+          ]
+        },
+        {
+          "name": "saltire",
+          "micro": false,
+          "shapes": [
+            {
+              "type": "line",
+              "x1": 0,
+              "y1": 0,
+              "x2": 20,
+              "y2": 14,
+              "stroke": "#FFFFFF",
+              "width": 2.8
+            },
+            {
+              "type": "line",
+              "x1": 20,
+              "y1": 0,
+              "x2": 0,
+              "y2": 14,
+              "stroke": "#FFFFFF",
+              "width": 2.8
+            },
+            {
+              "type": "line",
+              "x1": 0,
+              "y1": 0,
+              "x2": 20,
+              "y2": 14,
+              "stroke": "#C8102E",
+              "width": 1
+            },
+            {
+              "type": "line",
+              "x1": 20,
+              "y1": 0,
+              "x2": 0,
+              "y2": 14,
+              "stroke": "#C8102E",
+              "width": 1
+            }
+          ]
+        },
+        {
+          "name": "cross",
+          "micro": true,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 8,
+              "y": 0,
+              "w": 4,
+              "h": 14,
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 5,
+              "w": 20,
+              "h": 4,
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "rect",
+              "x": 8.8,
+              "y": 0,
+              "w": 2.4,
+              "h": 14,
+              "fill": "#C8102E"
+            },
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 5.8,
+              "w": 20,
+              "h": 2.4,
+              "fill": "#C8102E"
+            }
+          ]
+        }
+      ],
+      "mono": {
+        "base": [
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M12 5v14"
+            }
+          },
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M2 12h20"
+            }
+          },
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M2 5l20 14"
+            }
+          },
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M22 5 2 19"
+            }
+          }
+        ],
+        "micro": [
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M12 5v14"
+            }
+          },
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M2 12h20"
+            }
+          }
+        ]
+      },
+      "geometryHash": "86f53b073553f04e1494082a6563a83e8f581e9ee7f39a095a190c2a8be48f31"
+    },
+    "flag.it": {
+      "id": "flag.it",
+      "kind": "flag",
+      "tier": "P1",
+      "verdict": "new",
+      "category": "flag",
+      "label": "Italy",
+      "keywords": [
+        "it",
+        "italy",
+        "flag",
+        "country",
+        "italian",
+        "italia"
+      ],
+      "accessibility": "semantic",
+      "accessibilityLabelKey": "a11y.icons.flag.it",
+      "layers": [
+        {
+          "name": "field",
+          "micro": true,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 0,
+              "w": 6.667,
+              "h": 14,
+              "fill": "#009246"
+            },
+            {
+              "type": "rect",
+              "x": 6.667,
+              "y": 0,
+              "w": 6.667,
+              "h": 14,
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "rect",
+              "x": 13.333,
+              "y": 0,
+              "w": 6.667,
+              "h": 14,
+              "fill": "#CE2B37"
+            }
+          ]
+        }
+      ],
+      "mono": {
+        "base": [
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M8.667 5v14"
+            }
+          },
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M15.333 5v14"
+            }
+          }
+        ]
+      },
+      "geometryHash": "58ca565b0addf6998b0db06fa330395f30637f8676415f391f79d35d89f35fce"
+    },
+    "flag.nl": {
+      "id": "flag.nl",
+      "kind": "flag",
+      "tier": "P1",
+      "verdict": "new",
+      "category": "flag",
+      "label": "Netherlands",
+      "keywords": [
+        "nl",
+        "netherlands",
+        "flag",
+        "country",
+        "dutch",
+        "nederland",
+        "holland"
+      ],
+      "accessibility": "semantic",
+      "accessibilityLabelKey": "a11y.icons.flag.nl",
+      "layers": [
+        {
+          "name": "field",
+          "micro": true,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 0,
+              "w": 20,
+              "h": 4.667,
+              "fill": "#AE1C28"
+            },
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 4.667,
+              "w": 20,
+              "h": 4.667,
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 9.333,
+              "w": 20,
+              "h": 4.667,
+              "fill": "#21468B"
+            }
+          ]
+        }
+      ],
+      "mono": {
+        "base": [
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M2 9.667h20"
+            }
+          },
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M2 14.333h20"
+            }
+          }
+        ]
+      },
+      "geometryHash": "de195002e15fbf60fad631176e9657567f384ffeeeb1114b9786518169148790"
+    },
+    "flag.pl": {
+      "id": "flag.pl",
+      "kind": "flag",
+      "tier": "P1",
+      "verdict": "new",
+      "category": "flag",
+      "label": "Poland",
+      "keywords": [
+        "pl",
+        "poland",
+        "polska",
+        "polish",
+        "flag",
+        "country"
+      ],
+      "accessibility": "semantic",
+      "accessibilityLabelKey": "a11y.icons.flag.pl",
+      "layers": [
+        {
+          "name": "field",
+          "micro": true,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 0,
+              "w": 20,
+              "h": 7,
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 7,
+              "w": 20,
+              "h": 7,
+              "fill": "#DC143C"
+            }
+          ]
+        }
+      ],
+      "mono": {
+        "base": [
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M2 12h20"
+            }
+          }
+        ]
+      },
+      "geometryHash": "663f7e257d8cc2930065f40f990de65ee6875054decb18df57f6eaf785393ef4"
+    },
+    "flag.pt": {
+      "id": "flag.pt",
+      "kind": "flag",
+      "tier": "P1",
+      "verdict": "new",
+      "category": "flag",
+      "label": "Portugal",
+      "keywords": [
+        "pt",
+        "portugal",
+        "portuguese",
+        "flag",
+        "country"
+      ],
+      "accessibility": "semantic",
+      "accessibilityLabelKey": "a11y.icons.flag.pt",
+      "layers": [
+        {
+          "name": "field",
+          "micro": true,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 0,
+              "w": 8,
+              "h": 14,
+              "fill": "#006600"
+            },
+            {
+              "type": "rect",
+              "x": 8,
+              "y": 0,
+              "w": 12,
+              "h": 14,
+              "fill": "#FF0000"
+            }
+          ]
+        },
+        {
+          "name": "sphere",
+          "micro": true,
+          "shapes": [
+            {
+              "type": "circle",
+              "cx": 8,
+              "cy": 7,
+              "r": 2.9,
+              "fill": "#FFE000"
+            },
+            {
+              "type": "circle",
+              "cx": 8,
+              "cy": 7,
+              "r": 2.1,
+              "fill": "#FF0000"
+            }
+          ]
+        },
+        {
+          "name": "shield",
+          "micro": false,
+          "shapes": [
+            {
+              "type": "circle",
+              "cx": 8,
+              "cy": 7,
+              "r": 1.4,
+              "fill": "#FFFFFF"
+            }
+          ]
+        }
+      ],
+      "mono": {
+        "base": [
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M10 5v14"
+            }
+          },
+          {
+            "type": "circle",
+            "attrs": {
+              "cx": "10",
+              "cy": "12",
+              "r": "2.5"
+            }
+          }
+        ]
+      },
+      "geometryHash": "ebd615d0ca929ed9a89451e0cef0fef22e55d301dbd815aa24c69004a634f5cc"
+    },
+    "flag.tr": {
+      "id": "flag.tr",
+      "kind": "flag",
+      "tier": "P1",
+      "verdict": "new",
+      "category": "flag",
+      "label": "Türkiye",
+      "keywords": [
+        "tr",
+        "turkey",
+        "türkiye",
+        "turkish",
+        "flag",
+        "country"
+      ],
+      "accessibility": "semantic",
+      "accessibilityLabelKey": "a11y.icons.flag.tr",
+      "layers": [
+        {
+          "name": "field",
+          "micro": true,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 0,
+              "w": 20,
+              "h": 14,
+              "fill": "#E30A17"
+            }
+          ]
+        },
+        {
+          "name": "crescent",
+          "micro": true,
+          "shapes": [
+            {
+              "type": "circle",
+              "cx": 7.2,
+              "cy": 7,
+              "r": 3.8,
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "circle",
+              "cx": 8.3,
+              "cy": 7,
+              "r": 3,
+              "fill": "#E30A17"
+            }
+          ]
+        },
+        {
+          "name": "star",
+          "micro": true,
+          "shapes": [
+            {
+              "type": "path",
+              "d": "M10.5 7L11.813 6.573L11.813 5.193L12.624 6.31L13.937 5.883L13.126 7L13.937 8.117L12.624 7.69L11.813 8.807L11.813 7.427Z",
+              "fill": "#FFFFFF"
+            }
+          ]
+        }
+      ],
+      "mono": {
+        "base": [
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M11.1 9.06A3.4 3.4 0 1 0 11.1 14.94"
+            }
+          },
+          {
+            "type": "circle",
+            "attrs": {
+              "cx": "14.7",
+              "cy": "12",
+              "r": "1.5"
+            },
+            "filled": true
+          }
+        ]
+      },
+      "geometryHash": "87383404eb5f4fd74b5f9e30fc12ffc67d9a8d88c62f976fa0ae0f81fc379e7d"
+    },
+    "flag.unknown": {
+      "id": "flag.unknown",
+      "kind": "flag",
+      "tier": "P2",
+      "verdict": "new",
+      "category": "flag",
+      "label": "Region not set",
+      "keywords": [
+        "unknown",
+        "placeholder",
+        "no region",
+        "flag",
+        "default"
+      ],
+      "accessibility": "semantic",
+      "accessibilityLabelKey": "a11y.icons.flag.unknown",
+      "layers": [
+        {
+          "name": "field",
+          "micro": true,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 0,
+              "w": 20,
+              "h": 14,
+              "fill": "#CFD8DC"
+            }
+          ]
+        },
+        {
+          "name": "glyph",
+          "micro": true,
+          "shapes": [
+            {
+              "type": "spath",
+              "d": "M8.2 5.2a1.9 1.9 0 0 1 3.6.6c0 1.3-1.8 1.9-1.8 1.9",
+              "stroke": "#607D8B",
+              "width": 1.5
+            },
+            {
+              "type": "circle",
+              "cx": 10,
+              "cy": 10.6,
+              "r": 0.85,
+              "fill": "#607D8B"
+            }
+          ]
+        }
+      ],
+      "mono": {
+        "base": [
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M10.2 10.2a1.9 1.9 0 0 1 3.6.6c0 1.3-1.8 1.9-1.8 1.9"
+            }
+          },
+          {
+            "type": "circle",
+            "attrs": {
+              "cx": "12",
+              "cy": "16.2",
+              "r": "1.5"
+            },
+            "filled": true
+          }
+        ]
+      },
+      "geometryHash": "2c01b87f4b003a32e41793b79e6a4cc03b2e49262fe6ac09811920bc7af0f02c"
+    },
+    "flag.us": {
+      "id": "flag.us",
+      "kind": "flag",
+      "tier": "P1",
+      "verdict": "new",
+      "category": "flag",
+      "label": "United States",
+      "keywords": [
+        "us",
+        "usa",
+        "united states",
+        "america",
+        "english",
+        "flag",
+        "country"
+      ],
+      "accessibility": "semantic",
+      "accessibilityLabelKey": "a11y.icons.flag.us",
+      "layers": [
+        {
+          "name": "stripes",
+          "micro": true,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 0,
+              "w": 20,
+              "h": 2,
+              "fill": "#B22234"
+            },
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 2,
+              "w": 20,
+              "h": 2,
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 4,
+              "w": 20,
+              "h": 2,
+              "fill": "#B22234"
+            },
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 6,
+              "w": 20,
+              "h": 2,
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 8,
+              "w": 20,
+              "h": 2,
+              "fill": "#B22234"
+            },
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 10,
+              "w": 20,
+              "h": 2,
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 12,
+              "w": 20,
+              "h": 2,
+              "fill": "#B22234"
+            }
+          ]
+        },
+        {
+          "name": "canton",
+          "micro": true,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 0,
+              "y": 0,
+              "w": 8,
+              "h": 8,
+              "fill": "#3C3B6E"
+            }
+          ]
+        },
+        {
+          "name": "stars",
+          "micro": false,
+          "shapes": [
+            {
+              "type": "circle",
+              "cx": 1.6,
+              "cy": 1.6,
+              "r": 0.55,
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "circle",
+              "cx": 4,
+              "cy": 1.6,
+              "r": 0.55,
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "circle",
+              "cx": 6.4,
+              "cy": 1.6,
+              "r": 0.55,
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "circle",
+              "cx": 2.8,
+              "cy": 4,
+              "r": 0.55,
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "circle",
+              "cx": 5.2,
+              "cy": 4,
+              "r": 0.55,
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "circle",
+              "cx": 1.6,
+              "cy": 6.4,
+              "r": 0.55,
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "circle",
+              "cx": 4,
+              "cy": 6.4,
+              "r": 0.55,
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "circle",
+              "cx": 6.4,
+              "cy": 6.4,
+              "r": 0.55,
+              "fill": "#FFFFFF"
+            }
+          ]
+        }
+      ],
+      "mono": {
+        "base": [
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M10 5v8H2"
+            }
+          },
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M10 9h12"
+            }
+          },
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M2 15h20"
+            }
+          }
+        ],
+        "micro": [
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M10 5v8H2"
+            }
+          },
+          {
+            "type": "path",
+            "attrs": {
+              "d": "M2 15h20"
+            }
+          }
+        ]
+      },
+      "geometryHash": "e26df8ad037106bdcdc19bf094a1faa60b713d5f549a582a779777479d7feabd"
+    }
+  },
+  "flagsHash": "d1070166f5bf95c2de9e18bd9f3206430864d562ca156a594d34036f87dfc6ee"
+}

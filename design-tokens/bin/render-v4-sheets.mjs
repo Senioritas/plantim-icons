@@ -5,7 +5,7 @@
 // Usage:
 //   node design-tokens/bin/render-v4-sheets.mjs v3 [category ...]
 //   node design-tokens/bin/render-v4-sheets.mjs v4 [category ...]
-//   node design-tokens/bin/render-v4-sheets.mjs proposal [category ...]
+//   node design-tokens/bin/render-v4-sheets.mjs flags
 //
 // Each sheet shows, per icon: the four styles rendered large (crisp vector at 128px,
 // where stroke defects, tangent collisions and solid-variant gaps are visible), the
@@ -30,11 +30,12 @@ const SETS = {
     manifest: path.join(root, "design-tokens/icons/v4/index.v4.json"),
     styles: ["outline", "solid", "duotone", "multicolor"],
   },
-  // v4.1 proposal: same row layout as v4; flags carry color/mono instead of the four variants.
-  proposal: {
-    dir: path.join(root, "design-tokens/icons/v4.1-proposal"),
-    manifest: path.join(root, "design-tokens/icons/v4.1-proposal/index.proposal.json"),
-    styles: ["outline", "solid", "duotone", "multicolor"],
+  // The flag asset class: same row layout, but two shapes x two treatments
+  // instead of the four semantic variants.
+  flags: {
+    dir: path.join(root, "design-tokens/icons/flags"),
+    manifest: path.join(root, "design-tokens/icons/flags/index.flags.json"),
+    styles: ["color", "mono", "circle", "circle.mono"],
   },
 };
 
@@ -42,13 +43,13 @@ const setName = process.argv[2];
 const onlyCategories = process.argv.slice(3);
 const tabbarMode = setName === "v4-tabbar";
 if (!SETS[setName] && !tabbarMode) {
-  console.error("Usage: node design-tokens/bin/render-v4-sheets.mjs <v3|v4|v4-tabbar> [category ...]");
+  console.error("Usage: node design-tokens/bin/render-v4-sheets.mjs <v3|v4|v4-tabbar|flags> [category ...]");
   process.exit(2);
 }
 const set = SETS[tabbarMode ? "v4" : setName];
 
 const manifest = JSON.parse(fs.readFileSync(set.manifest, "utf8"));
-const icons = Array.isArray(manifest.icons) ? manifest.icons : Object.values(manifest.icons);
+const icons = manifest.flags ?? (Array.isArray(manifest.icons) ? manifest.icons : Object.values(manifest.icons));
 
 const byCategory = new Map();
 for (const icon of icons) {
@@ -88,7 +89,7 @@ function iconRow(icon) {
       return `<figure class="cell light"><img src="${src}" width="128" height="128" alt=""><figcaption>${style}</figcaption></figure>`;
     })
     .join("");
-  if (setName === "v4" || setName === "proposal") {
+  if (setName === "v4" || setName === "flags") {
     const styles = icon.files ? Object.keys(icon.files) : set.styles;
     const outlineStyle = styles.includes("outline") ? "outline" : styles[0];
     const solidStyle = styles.includes("solid") ? "solid" : styles[styles.length - 1];

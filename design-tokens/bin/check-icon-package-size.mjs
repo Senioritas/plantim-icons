@@ -25,7 +25,7 @@ const sizeOf = (file) => fs.statSync(path.join(distRoot, file)).size;
 // Legacy (v2) budgets: numbers are frozen and scoped to the legacy dist files
 // only. The additive ./v4 subpath (dist/v4/**) has its own budgets below and
 // must never eat into the legacy allowance.
-const legacyFiles = distFiles.filter((file) => !file.startsWith("v4/"));
+const legacyFiles = distFiles.filter((file) => !file.startsWith("v4/") && !file.startsWith("flags/"));
 const legacyBytes = legacyFiles.reduce((total, file) => total + sizeOf(file), 0);
 
 assert.ok(source.byteLength <= 220 * 1024, `icon entry exceeds 220 KiB: ${source.byteLength} bytes`);
@@ -45,6 +45,18 @@ for (const file of v4Files.filter((name) => name.startsWith("v4/icons/") && name
 const v4Bytes = v4Files.reduce((total, file) => total + sizeOf(file), 0);
 assert.ok(v4Bytes <= 1024 * 1024, `dist/v4 exceeds 1 MiB: ${v4Bytes} bytes`);
 
+// ./flags subpath budgets (additive; fixed-colour assets, no token theming).
+const flagFiles = distFiles.filter((file) => file.startsWith("flags/"));
+assert.ok(flagFiles.includes("flags/index.js"), "missing flags entry: dist/flags/index.js");
+const flagEntryGzip = zlib.gzipSync(fs.readFileSync(path.join(distRoot, "flags/index.js"))).byteLength;
+assert.ok(flagEntryGzip <= 10 * 1024, `gzipped flags entry exceeds 10 KiB: ${flagEntryGzip} bytes`);
+for (const file of flagFiles.filter((name) => name.startsWith("flags/flags/") && name.endsWith(".js"))) {
+  const flagGzip = zlib.gzipSync(fs.readFileSync(path.join(distRoot, file))).byteLength;
+  assert.ok(flagGzip <= 4 * 1024, `gzipped flag module exceeds 4 KiB: ${file} (${flagGzip} bytes)`);
+}
+const flagBytes = flagFiles.reduce((total, file) => total + sizeOf(file), 0);
+assert.ok(flagBytes <= 256 * 1024, `dist/flags exceeds 256 KiB: ${flagBytes} bytes`);
+
 console.log(
-  `Icon package size valid: entry ${source.byteLength} bytes (${gzipBytes} bytes gzip), legacy dist ${legacyBytes} bytes, v4 dist ${v4Bytes} bytes (entry ${v4EntryGzip} bytes gzip).`,
+  `Icon package size valid: entry ${source.byteLength} bytes (${gzipBytes} bytes gzip), legacy dist ${legacyBytes} bytes, v4 dist ${v4Bytes} bytes (entry ${v4EntryGzip} bytes gzip), flags dist ${flagBytes} bytes.`,
 );

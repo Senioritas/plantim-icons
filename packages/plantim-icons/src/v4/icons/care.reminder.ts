@@ -1,5 +1,5 @@
 // GENERATED FILE - do not edit by hand.
-// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 9602ac5dc4533c49ba0bd398380a25061d9a06697a3391cb61ca5d1e1319abe7).
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 573a185872b44f38b596f04ea43fd9241a433a2722d278ae1533bc80d82384b1).
 // Regenerate with: npm run icons:v4:package
 import type { PlantimIconV4Definition } from "../index.js";
 
@@ -8,36 +8,6 @@ export const CareReminder: PlantimIconV4Definition = {
   "label": "Reminder",
   "tier": "P2",
   "grades": {
-    "micro": {
-      "layers": [
-        {
-          "name": "primary",
-          "role": "primary",
-          "nodes": [
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M18 15H6l1.4-2V10a4.6 4.6 0 0 1 9.2 0v3z"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M10.5 18.5a2 2 0 0 0 3 0"
-              }
-            },
-            {
-              "type": "circle",
-              "attrs": {
-                "cx": "17.5",
-                "cy": "6.5",
-                "r": "1.8"
-              }
-            }
-          ]
-        }
-      ]
-    },
     "base": {
       "layers": [
         {

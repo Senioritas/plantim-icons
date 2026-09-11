@@ -7,9 +7,9 @@ import AppKit
 #endif
 
 public enum PlantimIconsV4Metadata {
-    public static let version = "4.0.0"
-    public static let registryHash = "9602ac5dc4533c49ba0bd398380a25061d9a06697a3391cb61ca5d1e1319abe7"
-    public static let iconCount = 237
+    public static let version = "4.1.0"
+    public static let registryHash = "573a185872b44f38b596f04ea43fd9241a433a2722d278ae1533bc80d82384b1"
+    public static let iconCount = 289
 }
 
 public enum PlantimIconV4Name: String, CaseIterable, Sendable {
@@ -19,16 +19,44 @@ public enum PlantimIconV4Name: String, CaseIterable, Sendable {
     case actionDelete = "action.delete"
     case actionEdit = "action.edit"
     case actionSearch = "action.search"
+    case avatarAloe = "avatar.aloe"
+    case avatarBamboo = "avatar.bamboo"
+    case avatarBonsai = "avatar.bonsai"
+    case avatarCactus = "avatar.cactus"
+    case avatarCalathea = "avatar.calathea"
+    case avatarClover = "avatar.clover"
+    case avatarEucalyptus = "avatar.eucalyptus"
+    case avatarFern = "avatar.fern"
+    case avatarFicus = "avatar.ficus"
+    case avatarIvy = "avatar.ivy"
+    case avatarLavender = "avatar.lavender"
+    case avatarLotus = "avatar.lotus"
+    case avatarMonstera = "avatar.monstera"
+    case avatarOak = "avatar.oak"
+    case avatarOrchid = "avatar.orchid"
+    case avatarPalm = "avatar.palm"
+    case avatarPilea = "avatar.pilea"
+    case avatarPine = "avatar.pine"
+    case avatarPothos = "avatar.pothos"
+    case avatarRose = "avatar.rose"
+    case avatarSansevieria = "avatar.sansevieria"
+    case avatarSprout = "avatar.sprout"
+    case avatarSucculent = "avatar.succulent"
+    case avatarSunflower = "avatar.sunflower"
+    case avatarTulip = "avatar.tulip"
+    case calendarAdd = "calendar.add"
     case calendarDate = "calendar.date"
     case calendarTime = "calendar.time"
     case careFertilizing = "care.fertilizing"
     case careFertilizingAlt = "care.fertilizing.alt"
     case careLog = "care.log"
+    case careMisting = "care.misting"
     case carePruning = "care.pruning"
     case carePruningAlt = "care.pruning.alt"
     case careReminder = "care.reminder"
     case careRepotting = "care.repotting"
     case careRepottingAlt = "care.repotting.alt"
+    case careRotating = "care.rotating"
     case careSuggestion = "care.suggestion"
     case careWatering = "care.watering"
     case careWateringAlt = "care.watering.alt"
@@ -77,7 +105,10 @@ public enum PlantimIconV4Name: String, CaseIterable, Sendable {
     case healthAttention = "health.attention"
     case healthCritical = "health.critical"
     case healthHealthy = "health.healthy"
+    case locationIndoor = "location.indoor"
+    case locationOutdoor = "location.outdoor"
     case locationPin = "location.pin"
+    case locationRoom = "location.room"
     case navCalendarCheck = "nav.calendar.check"
     case navCalendarLeaf = "nav.calendar.leaf"
     case navCalendarPlain = "nav.calendar.plain"
@@ -104,8 +135,19 @@ public enum PlantimIconV4Name: String, CaseIterable, Sendable {
     case navigationHome = "navigation.home"
     case navigationNext = "navigation.next"
     case navigationPrevious = "navigation.previous"
+    case placeholderAvatar = "placeholder.avatar"
+    case placeholderCard = "placeholder.card"
+    case placeholderChart = "placeholder.chart"
+    case placeholderList = "placeholder.list"
+    case placeholderPlant = "placeholder.plant"
+    case placeholderText = "placeholder.text"
     case plantAdd = "plant.add"
     case plantGrowth = "plant.growth"
+    case plantHumidity = "plant.humidity"
+    case plantIdentify = "plant.identify"
+    case plantLight = "plant.light"
+    case plantPetSafe = "plant.pet.safe"
+    case plantPetUnsafe = "plant.pet.unsafe"
     case plantPruning = "plant.pruning"
     case plantRelated = "plant.related"
     case plantRemove = "plant.remove"
@@ -121,6 +163,9 @@ public enum PlantimIconV4Name: String, CaseIterable, Sendable {
     case statusError = "status.error"
     case statusInfo = "status.info"
     case statusLoading = "status.loading"
+    case statusLoadingDots = "status.loading.dots"
+    case statusOffline = "status.offline"
+    case statusPending = "status.pending"
     case statusStreak = "status.streak"
     case statusSuccess = "status.success"
     case statusSuccessCircle = "status.success.circle"
@@ -149,6 +194,7 @@ public enum PlantimIconV4Name: String, CaseIterable, Sendable {
     case utilityCalendarClock = "utility.calendar.clock"
     case utilityCalendarDays = "utility.calendar.days"
     case utilityCamera = "utility.camera"
+    case utilityCameraPlus = "utility.camera.plus"
     case utilityCheckCheck = "utility.check.check"
     case utilityChevronsUpDown = "utility.chevrons.up.down"
     case utilityCircle = "utility.circle"
@@ -165,6 +211,9 @@ public enum PlantimIconV4Name: String, CaseIterable, Sendable {
     case utilityCrown = "utility.crown"
     case utilityDatabase = "utility.database"
     case utilityDna = "utility.dna"
+    case utilityDownload = "utility.download"
+    case utilityDragHandle = "utility.drag.handle"
+    case utilityExternalLink = "utility.external.link"
     case utilityEye = "utility.eye"
     case utilityEyeOff = "utility.eye.off"
     case utilityFilter = "utility.filter"
@@ -182,6 +231,7 @@ public enum PlantimIconV4Name: String, CaseIterable, Sendable {
     case utilityImage = "utility.image"
     case utilityInbox = "utility.inbox"
     case utilityKey = "utility.key"
+    case utilityLanguage = "utility.language"
     case utilityLayoutGrid = "utility.layout.grid"
     case utilityLightbulb = "utility.lightbulb"
     case utilityLink = "utility.link"
@@ -204,6 +254,7 @@ public enum PlantimIconV4Name: String, CaseIterable, Sendable {
     case utilityPanelLeftOpen = "utility.panel.left.open"
     case utilityPencilLine = "utility.pencil.line"
     case utilityPlusCircle = "utility.plus.circle"
+    case utilityQrCode = "utility.qr.code"
     case utilityQuote = "utility.quote"
     case utilityRefreshCw = "utility.refresh.cw"
     case utilityRotateCcw = "utility.rotate.ccw"
@@ -219,6 +270,7 @@ public enum PlantimIconV4Name: String, CaseIterable, Sendable {
     case utilitySlidersHorizontal = "utility.sliders.horizontal"
     case utilitySmartphone = "utility.smartphone"
     case utilitySnowflake = "utility.snowflake"
+    case utilitySort = "utility.sort"
     case utilitySparkles = "utility.sparkles"
     case utilitySquare = "utility.square"
     case utilitySquarePen = "utility.square.pen"
@@ -711,6 +763,594 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
         duotonePrimary: ["primary"],
         multicolor: ["primary": .ink900]
     ),
+    .avatarAloe: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M10.417 16.342Q9.169 14.003 5.938 14.1Q7.469 16.947 10.119 16.858Z", false), .path("M11.303 15.693Q11.157 12.14 7.5 9.806Q7.693 14.14 10.697 16.043Z", false), .path("M12.368 15.6Q14.1 12 12 7.6Q9.9 12 11.633 15.6Z", false), .path("M13.303 16.043Q16.307 14.14 16.5 9.806Q12.843 12.14 12.697 15.693Z", false), .path("M13.881 16.858Q16.531 16.947 18.062 14.1Q14.831 14.003 13.583 16.342Z", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M10.417 16.342Q9.169 14.003 5.938 14.1Q7.469 16.947 10.119 16.858Z", false), .path("M11.303 15.693Q11.157 12.14 7.5 9.806Q7.693 14.14 10.697 16.043Z", false), .path("M12.368 15.6Q14.1 12 12 7.6Q9.9 12 11.633 15.6Z", false), .path("M13.303 16.043Q16.307 14.14 16.5 9.806Q12.843 12.14 12.697 15.693Z", false), .path("M13.881 16.858Q16.531 16.947 18.062 14.1Q14.831 14.003 13.583 16.342Z", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M10.417 16.342Q9.169 14.003 5.938 14.1Q7.469 16.947 10.119 16.858Z", false), .path("M11.303 15.693Q11.157 12.14 7.5 9.806Q7.693 14.14 10.697 16.043Z", false), .path("M12.368 15.6Q14.1 12 12 7.6Q9.9 12 11.633 15.6Z", false), .path("M13.303 16.043Q16.307 14.14 16.5 9.806Q12.843 12.14 12.697 15.693Z", false), .path("M13.881 16.858Q16.531 16.947 18.062 14.1Q14.831 14.003 13.583 16.342Z", false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM10.417 16.342Q9.169 14.003 5.938 14.1Q7.469 16.947 10.119 16.858ZM11.303 15.693Q11.157 12.14 7.5 9.806Q7.693 14.14 10.697 16.043ZM12.368 15.6Q14.1 12 12 7.6Q9.9 12 11.633 15.6ZM13.303 16.043Q16.307 14.14 16.5 9.806Q12.843 12.14 12.697 15.693ZM13.881 16.858Q16.531 16.947 18.062 14.1Q14.831 14.003 13.583 16.342Z"]),
+        ],
+        duotonePrimary: ["plant"],
+        multicolor: ["ring": .leaf300, "plant": .leaf500]
+    ),
+    .avatarBamboo: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M10.6 6.4a1.4 1.4 0 0 1 2.8 0v12.2a1.4 1.4 0 0 1-2.8 0Z", false), .path("M14.051 8.973Q17.098 9.789 19.092 6.502Q15.375 5.523 13.749 8.227Z", false), .path("M10.251 13.027Q8.625 10.323 4.908 11.302Q6.902 14.589 9.949 13.773Z", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M10.6 6.4a1.4 1.4 0 0 1 2.8 0v12.2a1.4 1.4 0 0 1-2.8 0Z", false), .path("M14.051 8.973Q17.098 9.789 19.092 6.502Q15.375 5.523 13.749 8.227Z", false), .path("M10.251 13.027Q8.625 10.323 4.908 11.302Q6.902 14.589 9.949 13.773Z", false)]),
+                PlantimV4Layer("detail", [.path("M10.6 10.2h2.8", false), .path("M10.6 15h2.8", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M10.6 6.4a1.4 1.4 0 0 1 2.8 0v12.2a1.4 1.4 0 0 1-2.8 0Z", false), .path("M14.051 8.973Q17.098 9.789 19.092 6.502Q15.375 5.523 13.749 8.227Z", false), .path("M10.251 13.027Q8.625 10.323 4.908 11.302Q6.902 14.589 9.949 13.773Z", false)]),
+                PlantimV4Layer("detail", [.path("M10.6 10.2h2.8", false), .path("M10.6 15h2.8", false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM10.6 6.4a1.4 1.4 0 0 1 2.8 0v12.2a1.4 1.4 0 0 1-2.8 0ZM10.75 10.52L13.25 10.52L13.25 9.88L10.75 9.88ZM10.75 15.32L13.25 15.32L13.25 14.68L10.75 14.68ZM14.051 8.973Q17.098 9.789 19.092 6.502Q15.375 5.523 13.749 8.227ZM10.251 13.027Q8.625 10.323 4.908 11.302Q6.902 14.589 9.949 13.773Z"]),
+        ],
+        duotonePrimary: ["plant"],
+        multicolor: ["ring": .leaf300, "plant": .leaf700, "detail": .leaf300]
+    ),
+    .avatarBonsai: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M6.5 11.5c0-1.8 1.4-2.8 3-2.6C9.8 7.2 11.4 6 13 6.3c2.2.3 3 2 2.8 3.4 1.5.3 2.4 1.4 2.4 2.6 0 1.6-1.4 2.6-3 2.6H9.2c-1.6 0-2.7-1.1-2.7-3.4Z", false), .path("M12 17.5v-2.4", false), .path("M6.5 17.5h11l-.8 2H7.3Z", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M6.5 11.5c0-1.8 1.4-2.8 3-2.6C9.8 7.2 11.4 6 13 6.3c2.2.3 3 2 2.8 3.4 1.5.3 2.4 1.4 2.4 2.6 0 1.6-1.4 2.6-3 2.6H9.2c-1.6 0-2.7-1.1-2.7-3.4Z", false), .path("M12 17.5v-2.4", false), .path("M6.5 17.5h11l-.8 2H7.3Z", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M6.5 11.5c0-1.8 1.4-2.8 3-2.6C9.8 7.2 11.4 6 13 6.3c2.2.3 3 2 2.8 3.4 1.5.3 2.4 1.4 2.4 2.6 0 1.6-1.4 2.6-3 2.6H9.2c-1.6 0-2.7-1.1-2.7-3.4Z", false), .path("M12 17.5v-2.4", false), .path("M6.5 17.5h11l-.8 2H7.3Z", false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM6.5 11.5c0-1.8 1.4-2.8 3-2.6C9.8 7.2 11.4 6 13 6.3c2.2.3 3 2 2.8 3.4 1.5.3 2.4 1.4 2.4 2.6 0 1.6-1.4 2.6-3 2.6H9.2c-1.6 0-2.7-1.1-2.7-3.4ZM11 15.2h2v2.1h-2ZM6.5 17.5h11l-.8 2H7.3Z"]),
+        ],
+        duotonePrimary: ["plant"],
+        multicolor: ["ring": .earth400, "plant": .leaf700]
+    ),
+    .avatarCactus: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M10 18.5V7.5a2 2 0 0 1 4 0v11Z", false), .path("M10 13H8.5A1.5 1.5 0 0 1 7 11.5V9.5", false), .path("M14 11.5h1.5A1.5 1.5 0 0 0 17 10V8", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M10 18.5V7.5a2 2 0 0 1 4 0v11Z", false), .path("M10 13H8.5A1.5 1.5 0 0 1 7 11.5V9.5", false), .path("M14 11.5h1.5A1.5 1.5 0 0 0 17 10V8", false)]),
+                PlantimV4Layer("detail", [.path("M12 9v7", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M10 18.5V7.5a2 2 0 0 1 4 0v11Z", false), .path("M10 13H8.5A1.5 1.5 0 0 1 7 11.5V9.5", false), .path("M14 11.5h1.5A1.5 1.5 0 0 0 17 10V8", false)]),
+                PlantimV4Layer("detail", [.path("M12 9v7", false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM10 18.5V7.5a2 2 0 0 1 4 0v11ZM6.5 9.5h2v2.5h.8v2H8.5a2 2 0 0 1-2-2ZM15.5 8h2v3.5a2 2 0 0 1-2 2h-.8v-2h.8Z"]),
+        ],
+        duotonePrimary: ["plant"],
+        multicolor: ["ring": .sun300, "plant": .leaf700, "detail": .leaf500]
+    ),
+    .avatarCalathea: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 5.5c3.3 0 5 3.4 5 7s-1.7 6.5-5 6.5-5-2.9-5-6.5 1.7-7 5-7Z", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 5.5c3.3 0 5 3.4 5 7s-1.7 6.5-5 6.5-5-2.9-5-6.5 1.7-7 5-7Z", false)]),
+                PlantimV4Layer("detail", [.path("M12 7v10", false), .path("M12 9l-2.5 1.2", false), .path("M12 9l2.5 1.2", false), .path("M12 12.5l-3 1.4", false), .path("M12 12.5l3 1.4", false), .path("M12 15.5l-2.2 1", false), .path("M12 15.5l2.2 1", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 5.5c3.3 0 5 3.4 5 7s-1.7 6.5-5 6.5-5-2.9-5-6.5 1.7-7 5-7Z", false)]),
+                PlantimV4Layer("detail", [.path("M12 7v10", false), .path("M12 9l-2.5 1.2", false), .path("M12 9l2.5 1.2", false), .path("M12 12.5l-3 1.4", false), .path("M12 12.5l3 1.4", false), .path("M12 15.5l-2.2 1", false), .path("M12 15.5l2.2 1", false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM12 5.5c3.3 0 5 3.4 5 7s-1.7 6.5-5 6.5-5-2.9-5-6.5 1.7-7 5-7ZM11.107 8.82L9.507 9.92L9.893 10.48L11.493 9.38ZM12.507 9.38L14.107 10.48L14.493 9.92L12.893 8.82ZM11.108 12.219L9.208 13.519L9.592 14.081L11.492 12.781ZM12.508 12.781L14.408 14.081L14.792 13.519L12.892 12.219ZM11.106 15.22L9.806 16.12L10.194 16.68L11.494 15.78ZM12.506 15.78L13.806 16.68L14.194 16.12L12.894 15.22Z"]),
+        ],
+        duotonePrimary: ["plant"],
+        multicolor: ["ring": .bloom500, "plant": .leaf700, "detail": .leaf300]
+    ),
+    .avatarClover: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 11.1C11.1 9.9 9.2 10 9.2 8.4C9.2 7.3 10 6.6 10.9 6.6C11.4 6.6 11.8 6.8 12 7.2C12.2 6.8 12.6 6.6 13.1 6.6C14 6.6 14.8 7.3 14.8 8.4C14.8 10 12.9 9.9 12 11.1Z", false), .path("M12.9 12C14.1 11.1 14 9.2 15.6 9.2C16.7 9.2 17.4 10 17.4 10.9C17.4 11.4 17.2 11.8 16.8 12C17.2 12.2 17.4 12.6 17.4 13.1C17.4 14 16.7 14.8 15.6 14.8C14 14.8 14.1 12.9 12.9 12Z", false), .path("M12 12.9C12.9 14.1 14.8 14 14.8 15.6C14.8 16.7 14 17.4 13.1 17.4C12.6 17.4 12.2 17.2 12 16.8C11.8 17.2 11.4 17.4 10.9 17.4C10 17.4 9.2 16.7 9.2 15.6C9.2 14 11.1 14.1 12 12.9Z", false), .path("M11.1 12C9.9 12.9 10 14.8 8.4 14.8C7.3 14.8 6.6 14 6.6 13.1C6.6 12.6 6.8 12.2 7.2 12C6.8 11.8 6.6 11.4 6.6 10.9C6.6 10 7.3 9.2 8.4 9.2C10 9.2 9.9 11.1 11.1 12Z", false), .path("M12 16.5v2.8", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 11.1C11.1 9.9 9.2 10 9.2 8.4C9.2 7.3 10 6.6 10.9 6.6C11.4 6.6 11.8 6.8 12 7.2C12.2 6.8 12.6 6.6 13.1 6.6C14 6.6 14.8 7.3 14.8 8.4C14.8 10 12.9 9.9 12 11.1Z", false), .path("M12.9 12C14.1 11.1 14 9.2 15.6 9.2C16.7 9.2 17.4 10 17.4 10.9C17.4 11.4 17.2 11.8 16.8 12C17.2 12.2 17.4 12.6 17.4 13.1C17.4 14 16.7 14.8 15.6 14.8C14 14.8 14.1 12.9 12.9 12Z", false), .path("M12 12.9C12.9 14.1 14.8 14 14.8 15.6C14.8 16.7 14 17.4 13.1 17.4C12.6 17.4 12.2 17.2 12 16.8C11.8 17.2 11.4 17.4 10.9 17.4C10 17.4 9.2 16.7 9.2 15.6C9.2 14 11.1 14.1 12 12.9Z", false), .path("M11.1 12C9.9 12.9 10 14.8 8.4 14.8C7.3 14.8 6.6 14 6.6 13.1C6.6 12.6 6.8 12.2 7.2 12C6.8 11.8 6.6 11.4 6.6 10.9C6.6 10 7.3 9.2 8.4 9.2C10 9.2 9.9 11.1 11.1 12Z", false), .path("M12 16.5v2.8", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 11.1C11.1 9.9 9.2 10 9.2 8.4C9.2 7.3 10 6.6 10.9 6.6C11.4 6.6 11.8 6.8 12 7.2C12.2 6.8 12.6 6.6 13.1 6.6C14 6.6 14.8 7.3 14.8 8.4C14.8 10 12.9 9.9 12 11.1Z", false), .path("M12.9 12C14.1 11.1 14 9.2 15.6 9.2C16.7 9.2 17.4 10 17.4 10.9C17.4 11.4 17.2 11.8 16.8 12C17.2 12.2 17.4 12.6 17.4 13.1C17.4 14 16.7 14.8 15.6 14.8C14 14.8 14.1 12.9 12.9 12Z", false), .path("M12 12.9C12.9 14.1 14.8 14 14.8 15.6C14.8 16.7 14 17.4 13.1 17.4C12.6 17.4 12.2 17.2 12 16.8C11.8 17.2 11.4 17.4 10.9 17.4C10 17.4 9.2 16.7 9.2 15.6C9.2 14 11.1 14.1 12 12.9Z", false), .path("M11.1 12C9.9 12.9 10 14.8 8.4 14.8C7.3 14.8 6.6 14 6.6 13.1C6.6 12.6 6.8 12.2 7.2 12C6.8 11.8 6.6 11.4 6.6 10.9C6.6 10 7.3 9.2 8.4 9.2C10 9.2 9.9 11.1 11.1 12Z", false), .path("M12 16.5v2.8", false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM12 11.1C11.1 9.9 9.2 10 9.2 8.4C9.2 7.3 10 6.6 10.9 6.6C11.4 6.6 11.8 6.8 12 7.2C12.2 6.8 12.6 6.6 13.1 6.6C14 6.6 14.8 7.3 14.8 8.4C14.8 10 12.9 9.9 12 11.1ZM12.9 12C14.1 11.1 14 9.2 15.6 9.2C16.7 9.2 17.4 10 17.4 10.9C17.4 11.4 17.2 11.8 16.8 12C17.2 12.2 17.4 12.6 17.4 13.1C17.4 14 16.7 14.8 15.6 14.8C14 14.8 14.1 12.9 12.9 12ZM12 12.9C12.9 14.1 14.8 14 14.8 15.6C14.8 16.7 14 17.4 13.1 17.4C12.6 17.4 12.2 17.2 12 16.8C11.8 17.2 11.4 17.4 10.9 17.4C10 17.4 9.2 16.7 9.2 15.6C9.2 14 11.1 14.1 12 12.9ZM11.1 12C9.9 12.9 10 14.8 8.4 14.8C7.3 14.8 6.6 14 6.6 13.1C6.6 12.6 6.8 12.2 7.2 12C6.8 11.8 6.6 11.4 6.6 10.9C6.6 10 7.3 9.2 8.4 9.2C10 9.2 9.9 11.1 11.1 12ZM11.2 17.6h1.6v1.8h-1.6Z"]),
+        ],
+        duotonePrimary: ["plant"],
+        multicolor: ["ring": .sun300, "plant": .leaf700]
+    ),
+    .avatarEucalyptus: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 19.5V5.5", false), .path("M10.573 7.071Q9.773 4.227 6.284 5.1Q7.273 8.558 10.136 7.829Z", false), .path("M13.864 7.829Q16.727 8.558 17.716 5.1Q14.227 4.227 13.427 7.071Z", false), .path("M10.573 11.271Q9.773 8.427 6.284 9.3Q7.273 12.758 10.136 12.029Z", false), .path("M13.864 12.029Q16.727 12.758 17.716 9.3Q14.227 8.427 13.427 11.271Z", false), .path("M10.573 15.471Q9.773 12.627 6.284 13.5Q7.273 16.958 10.136 16.229Z", false), .path("M13.864 16.229Q16.727 16.958 17.716 13.5Q14.227 12.627 13.427 15.471Z", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 19.5V5.5", false), .path("M10.573 7.071Q9.773 4.227 6.284 5.1Q7.273 8.558 10.136 7.829Z", false), .path("M13.864 7.829Q16.727 8.558 17.716 5.1Q14.227 4.227 13.427 7.071Z", false), .path("M10.573 11.271Q9.773 8.427 6.284 9.3Q7.273 12.758 10.136 12.029Z", false), .path("M13.864 12.029Q16.727 12.758 17.716 9.3Q14.227 8.427 13.427 11.271Z", false), .path("M10.573 15.471Q9.773 12.627 6.284 13.5Q7.273 16.958 10.136 16.229Z", false), .path("M13.864 16.229Q16.727 16.958 17.716 13.5Q14.227 12.627 13.427 15.471Z", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 19.5V5.5", false), .path("M10.573 7.071Q9.773 4.227 6.284 5.1Q7.273 8.558 10.136 7.829Z", false), .path("M13.864 7.829Q16.727 8.558 17.716 5.1Q14.227 4.227 13.427 7.071Z", false), .path("M10.573 11.271Q9.773 8.427 6.284 9.3Q7.273 12.758 10.136 12.029Z", false), .path("M13.864 12.029Q16.727 12.758 17.716 9.3Q14.227 8.427 13.427 11.271Z", false), .path("M10.573 15.471Q9.773 12.627 6.284 13.5Q7.273 16.958 10.136 16.229Z", false), .path("M13.864 16.229Q16.727 16.958 17.716 13.5Q14.227 12.627 13.427 15.471Z", false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM11.2 5.5h1.6v14h-1.6ZM10.573 7.071Q9.773 4.227 6.284 5.1Q7.273 8.558 10.136 7.829ZM13.864 7.829Q16.727 8.558 17.716 5.1Q14.227 4.227 13.427 7.071ZM10.573 11.271Q9.773 8.427 6.284 9.3Q7.273 12.758 10.136 12.029ZM13.864 12.029Q16.727 12.758 17.716 9.3Q14.227 8.427 13.427 11.271ZM10.573 15.471Q9.773 12.627 6.284 13.5Q7.273 16.958 10.136 16.229ZM13.864 16.229Q16.727 16.958 17.716 13.5Q14.227 12.627 13.427 15.471Z"]),
+        ],
+        duotonePrimary: ["plant"],
+        multicolor: ["ring": .leaf300, "plant": .leaf500]
+    ),
+    .avatarFern: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M11 18.8c-.6-5.2.4-9.8 3.6-13.3.2 1-.1 1.9-.4 2.7 1-.3 1.7-.1 2.2.5-.9.4-1.6 1-2.1 1.8 1 0 1.7.3 2.2.9-.9.5-1.7 1.2-2.3 2 .9.2 1.5.7 1.8 1.4-1 .3-1.9.9-2.6 1.6.7.4 1 1 1.1 1.7-1.2.1-2.3-.1-3.5-.6Z", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M11 18.8c-.6-5.2.4-9.8 3.6-13.3.2 1-.1 1.9-.4 2.7 1-.3 1.7-.1 2.2.5-.9.4-1.6 1-2.1 1.8 1 0 1.7.3 2.2.9-.9.5-1.7 1.2-2.3 2 .9.2 1.5.7 1.8 1.4-1 .3-1.9.9-2.6 1.6.7.4 1 1 1.1 1.7-1.2.1-2.3-.1-3.5-.6Z", false)]),
+                PlantimV4Layer("detail", [.path("M11.8 16.5c-.2-3.5.5-6.8 2.2-9.6", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M11 18.8c-.6-5.2.4-9.8 3.6-13.3.2 1-.1 1.9-.4 2.7 1-.3 1.7-.1 2.2.5-.9.4-1.6 1-2.1 1.8 1 0 1.7.3 2.2.9-.9.5-1.7 1.2-2.3 2 .9.2 1.5.7 1.8 1.4-1 .3-1.9.9-2.6 1.6.7.4 1 1 1.1 1.7-1.2.1-2.3-.1-3.5-.6Z", false)]),
+                PlantimV4Layer("detail", [.path("M11.8 16.5c-.2-3.5.5-6.8 2.2-9.6", false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM11 18.8c-.6-5.2.4-9.8 3.6-13.3.2 1-.1 1.9-.4 2.7 1-.3 1.7-.1 2.2.5-.9.4-1.6 1-2.1 1.8 1 0 1.7.3 2.2.9-.9.5-1.7 1.2-2.3 2 .9.2 1.5.7 1.8 1.4-1 .3-1.9.9-2.6 1.6.7.4 1 1 1.1 1.7-1.2.1-2.3-.1-3.5-.6Z"]),
+        ],
+        duotonePrimary: ["plant"],
+        multicolor: ["ring": .leaf300, "plant": .leaf700, "detail": .leaf500]
+    ),
+    .avatarFicus: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 4.8c1.7 0 2.9 1.2 2.9 2.7 0 1-.5 1.8-1.1 2.3 2 .9 3.4 2.7 3.4 4.9 0 2.9-2.3 4.9-5.2 4.9s-5.2-2-5.2-4.9c0-2.2 1.4-4 3.4-4.9-.6-.5-1.1-1.3-1.1-2.3 0-1.5 1.2-2.7 2.9-2.7Z", false), .path("M12 20.6v-1.6", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 4.8c1.7 0 2.9 1.2 2.9 2.7 0 1-.5 1.8-1.1 2.3 2 .9 3.4 2.7 3.4 4.9 0 2.9-2.3 4.9-5.2 4.9s-5.2-2-5.2-4.9c0-2.2 1.4-4 3.4-4.9-.6-.5-1.1-1.3-1.1-2.3 0-1.5 1.2-2.7 2.9-2.7Z", false), .path("M12 20.6v-1.6", false)]),
+                PlantimV4Layer("detail", [.path("M12 6.6v11.2", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 4.8c1.7 0 2.9 1.2 2.9 2.7 0 1-.5 1.8-1.1 2.3 2 .9 3.4 2.7 3.4 4.9 0 2.9-2.3 4.9-5.2 4.9s-5.2-2-5.2-4.9c0-2.2 1.4-4 3.4-4.9-.6-.5-1.1-1.3-1.1-2.3 0-1.5 1.2-2.7 2.9-2.7Z", false), .path("M12 20.6v-1.6", false)]),
+                PlantimV4Layer("detail", [.path("M12 6.6v11.2", false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM12 4.8c1.7 0 2.9 1.2 2.9 2.7 0 1-.5 1.8-1.1 2.3 2 .9 3.4 2.7 3.4 4.9 0 2.9-2.3 4.9-5.2 4.9s-5.2-2-5.2-4.9c0-2.2 1.4-4 3.4-4.9-.6-.5-1.1-1.3-1.1-2.3 0-1.5 1.2-2.7 2.9-2.7ZM11.1 19.1h1.8v1.6h-1.8Z"]),
+        ],
+        duotonePrimary: ["plant"],
+        multicolor: ["ring": .earth400, "plant": .leaf700, "detail": .leaf500]
+    ),
+    .avatarIvy: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 6c1.2 1.5 2.5 2 4.5 2 .3 1.8-.5 3.2-1.8 4 1.5 1 2 2.8 1.3 4.5-1.8-.2-3.2-1-4-2.3-.8 1.3-2.2 2.1-4 2.3-.7-1.7-.2-3.5 1.3-4.5C8 12 7.2 10.6 7.5 8.8c2-.1 3.3-.5 4.5-2.8Z", false), .path("M12 14.6v4.4", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 6c1.2 1.5 2.5 2 4.5 2 .3 1.8-.5 3.2-1.8 4 1.5 1 2 2.8 1.3 4.5-1.8-.2-3.2-1-4-2.3-.8 1.3-2.2 2.1-4 2.3-.7-1.7-.2-3.5 1.3-4.5C8 12 7.2 10.6 7.5 8.8c2-.1 3.3-.5 4.5-2.8Z", false), .path("M12 14.6v4.4", false)]),
+                PlantimV4Layer("detail", [.path("M12 8.5v5", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 6c1.2 1.5 2.5 2 4.5 2 .3 1.8-.5 3.2-1.8 4 1.5 1 2 2.8 1.3 4.5-1.8-.2-3.2-1-4-2.3-.8 1.3-2.2 2.1-4 2.3-.7-1.7-.2-3.5 1.3-4.5C8 12 7.2 10.6 7.5 8.8c2-.1 3.3-.5 4.5-2.8Z", false), .path("M12 14.6v4.4", false)]),
+                PlantimV4Layer("detail", [.path("M12 8.5v5", false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM12 6c1.2 1.5 2.5 2 4.5 2 .3 1.8-.5 3.2-1.8 4 1.5 1 2 2.8 1.3 4.5-1.8-.2-3.2-1-4-2.3-.8 1.3-2.2 2.1-4 2.3-.7-1.7-.2-3.5 1.3-4.5C8 12 7.2 10.6 7.5 8.8c2-.1 3.3-.5 4.5-2.8ZM11 14.8h2V19h-2Z"]),
+        ],
+        duotonePrimary: ["plant"],
+        multicolor: ["ring": .ink300, "plant": .leaf700, "detail": .leaf500]
+    ),
+    .avatarLavender: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 19v-6.5", false), .path("M11.1 16c-2 .2-3.5-.6-4.3-2.4 2-.2 3.5.6 4.3 2.4Z", false)]),
+                PlantimV4Layer("accent", [.circle(12, 5.6, 1.2, false), .circle(10.5, 7.8, 1.2, false), .circle(13.5, 8.6, 1.2, false), .circle(10.5, 10.4, 1.2, false), .circle(13.5, 11.2, 1.2, false)]),
+            ],
+            .base: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 19v-6.5", false), .path("M11.1 16c-2 .2-3.5-.6-4.3-2.4 2-.2 3.5.6 4.3 2.4Z", false)]),
+                PlantimV4Layer("accent", [.circle(12, 5.6, 1.2, false), .circle(10.5, 7.8, 1.2, false), .circle(13.5, 8.6, 1.2, false), .circle(10.5, 10.4, 1.2, false), .circle(13.5, 11.2, 1.2, false)]),
+            ],
+            .display: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 19v-6.5", false), .path("M11.1 16c-2 .2-3.5-.6-4.3-2.4 2-.2 3.5.6 4.3 2.4Z", false)]),
+                PlantimV4Layer("accent", [.circle(12, 5.6, 1.2, false), .circle(10.5, 7.8, 1.2, false), .circle(13.5, 8.6, 1.2, false), .circle(10.5, 10.4, 1.2, false), .circle(13.5, 11.2, 1.2, false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM11.2 12.5h1.6V19h-1.6ZM11.1 16c-2 .2-3.5-.6-4.3-2.4 2-.2 3.5.6 4.3 2.4ZM10.4 5.6a1.6 1.6 0 1 0 3.2 0a1.6 1.6 0 1 0 -3.2 0ZM8.9 7.8a1.6 1.6 0 1 0 3.2 0a1.6 1.6 0 1 0 -3.2 0ZM11.9 8.6a1.6 1.6 0 1 0 3.2 0a1.6 1.6 0 1 0 -3.2 0ZM8.9 10.4a1.6 1.6 0 1 0 3.2 0a1.6 1.6 0 1 0 -3.2 0ZM11.9 11.2a1.6 1.6 0 1 0 3.2 0a1.6 1.6 0 1 0 -3.2 0Z"]),
+        ],
+        duotonePrimary: ["plant", "accent"],
+        multicolor: ["ring": .sun300, "plant": .leaf700, "accent": .bloom500]
+    ),
+    .avatarLotus: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12.473 12.1Q14.7 9.355 12 6Q9.3 9.355 11.528 12.1Z", false), .path("M13.864 12.931Q16.885 12.412 16.885 8.678Q13.208 9.326 13.221 12.392Z", false), .path("M10.779 12.392Q10.792 9.326 7.115 8.678Q7.115 12.412 10.136 12.931Z", false), .path("M14.428 14.378Q16.566 15.779 18.26 13.169Q15.651 11.475 14.268 13.624Z", false), .path("M9.732 13.624Q8.349 11.475 5.74 13.169Q7.434 15.779 9.572 14.378Z", false), .path("M5.5 18.6h13", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12.473 12.1Q14.7 9.355 12 6Q9.3 9.355 11.528 12.1Z", false), .path("M13.864 12.931Q16.885 12.412 16.885 8.678Q13.208 9.326 13.221 12.392Z", false), .path("M10.779 12.392Q10.792 9.326 7.115 8.678Q7.115 12.412 10.136 12.931Z", false), .path("M14.428 14.378Q16.566 15.779 18.26 13.169Q15.651 11.475 14.268 13.624Z", false), .path("M9.732 13.624Q8.349 11.475 5.74 13.169Q7.434 15.779 9.572 14.378Z", false), .path("M5.5 18.6h13", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12.473 12.1Q14.7 9.355 12 6Q9.3 9.355 11.528 12.1Z", false), .path("M13.864 12.931Q16.885 12.412 16.885 8.678Q13.208 9.326 13.221 12.392Z", false), .path("M10.779 12.392Q10.792 9.326 7.115 8.678Q7.115 12.412 10.136 12.931Z", false), .path("M14.428 14.378Q16.566 15.779 18.26 13.169Q15.651 11.475 14.268 13.624Z", false), .path("M9.732 13.624Q8.349 11.475 5.74 13.169Q7.434 15.779 9.572 14.378Z", false), .path("M5.5 18.6h13", false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM12.473 12.1Q14.7 9.355 12 6Q9.3 9.355 11.528 12.1ZM13.864 12.931Q16.885 12.412 16.885 8.678Q13.208 9.326 13.221 12.392ZM10.779 12.392Q10.792 9.326 7.115 8.678Q7.115 12.412 10.136 12.931ZM14.428 14.378Q16.566 15.779 18.26 13.169Q15.651 11.475 14.268 13.624ZM9.732 13.624Q8.349 11.475 5.74 13.169Q7.434 15.779 9.572 14.378ZM5.5 17.7h13v1.8h-13Z"]),
+        ],
+        duotonePrimary: ["plant"],
+        multicolor: ["ring": .water300, "plant": .bloom500]
+    ),
+    .avatarMonstera: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 5.5c-2.2 0-3.8 1.4-3.8 3.1 0 .8.4 1.5 1 2-.7.5-1.2 1.3-1.2 2.2 0 1.8 1.6 3.2 4 3.5 2.4-.3 4-1.7 4-3.5 0-.9-.5-1.7-1.2-2.2.6-.5 1-1.2 1-2 0-1.7-1.6-3.1-3.8-3.1Z", false), .path("M12 16.6v2.6", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 5.5c-2.2 0-3.8 1.4-3.8 3.1 0 .8.4 1.5 1 2-.7.5-1.2 1.3-1.2 2.2 0 1.8 1.6 3.2 4 3.5 2.4-.3 4-1.7 4-3.5 0-.9-.5-1.7-1.2-2.2.6-.5 1-1.2 1-2 0-1.7-1.6-3.1-3.8-3.1Z", false), .path("M12 16.6v2.6", false)]),
+                PlantimV4Layer("detail", [.path("M12 7.5v7", false), .path("M8.7 10.9l2.4-.5", false), .path("M15.3 13.2l-2.4.5", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 5.5c-2.2 0-3.8 1.4-3.8 3.1 0 .8.4 1.5 1 2-.7.5-1.2 1.3-1.2 2.2 0 1.8 1.6 3.2 4 3.5 2.4-.3 4-1.7 4-3.5 0-.9-.5-1.7-1.2-2.2.6-.5 1-1.2 1-2 0-1.7-1.6-3.1-3.8-3.1Z", false), .path("M12 16.6v2.6", false)]),
+                PlantimV4Layer("detail", [.path("M12 7.5v7", false), .path("M8.7 10.9l2.4-.5", false), .path("M15.3 13.2l-2.4.5", false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM12 5.5c-2.2 0-3.8 1.4-3.8 3.1 0 .8.4 1.5 1 2-.7.5-1.2 1.3-1.2 2.2 0 1.8 1.6 3.2 4 3.5 2.4-.3 4-1.7 4-3.5 0-.9-.5-1.7-1.2-2.2.6-.5 1-1.2 1-2 0-1.7-1.6-3.1-3.8-3.1ZM11 16.6h2v2.6h-2ZM9.791 11.24L11.291 10.89L11.109 10.11L9.609 10.46ZM14.209 12.76L12.709 13.11L12.891 13.89L14.391 13.54Z"]),
+        ],
+        duotonePrimary: ["plant"],
+        multicolor: ["ring": .leaf300, "plant": .leaf700, "detail": .leaf500]
+    ),
+    .avatarOak: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 5.5c1.3.5 2 1.6 1.8 2.8 1.4-.2 2.4.6 2.4 1.8 0 .8-.4 1.4-1 1.8 1.2.4 1.8 1.4 1.5 2.5-.2.9-1 1.5-2 1.6.4 1.4-.4 2.6-1.8 2.9-.3.4-.6.8-.9 1.1-.3-.3-.6-.7-.9-1.1-1.4-.3-2.2-1.5-1.8-2.9-1-.1-1.8-.7-2-1.6-.3-1.1.3-2.1 1.5-2.5-.6-.4-1-1-1-1.8 0-1.2 1-2 2.4-1.8-.2-1.2.5-2.3 1.8-2.8Z", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 5.5c1.3.5 2 1.6 1.8 2.8 1.4-.2 2.4.6 2.4 1.8 0 .8-.4 1.4-1 1.8 1.2.4 1.8 1.4 1.5 2.5-.2.9-1 1.5-2 1.6.4 1.4-.4 2.6-1.8 2.9-.3.4-.6.8-.9 1.1-.3-.3-.6-.7-.9-1.1-1.4-.3-2.2-1.5-1.8-2.9-1-.1-1.8-.7-2-1.6-.3-1.1.3-2.1 1.5-2.5-.6-.4-1-1-1-1.8 0-1.2 1-2 2.4-1.8-.2-1.2.5-2.3 1.8-2.8Z", false)]),
+                PlantimV4Layer("detail", [.path("M12 7.5v9.5", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 5.5c1.3.5 2 1.6 1.8 2.8 1.4-.2 2.4.6 2.4 1.8 0 .8-.4 1.4-1 1.8 1.2.4 1.8 1.4 1.5 2.5-.2.9-1 1.5-2 1.6.4 1.4-.4 2.6-1.8 2.9-.3.4-.6.8-.9 1.1-.3-.3-.6-.7-.9-1.1-1.4-.3-2.2-1.5-1.8-2.9-1-.1-1.8-.7-2-1.6-.3-1.1.3-2.1 1.5-2.5-.6-.4-1-1-1-1.8 0-1.2 1-2 2.4-1.8-.2-1.2.5-2.3 1.8-2.8Z", false)]),
+                PlantimV4Layer("detail", [.path("M12 7.5v9.5", false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM12 5.5c1.3.5 2 1.6 1.8 2.8 1.4-.2 2.4.6 2.4 1.8 0 .8-.4 1.4-1 1.8 1.2.4 1.8 1.4 1.5 2.5-.2.9-1 1.5-2 1.6.4 1.4-.4 2.6-1.8 2.9-.3.4-.6.8-.9 1.1-.3-.3-.6-.7-.9-1.1-1.4-.3-2.2-1.5-1.8-2.9-1-.1-1.8-.7-2-1.6-.3-1.1.3-2.1 1.5-2.5-.6-.4-1-1-1-1.8 0-1.2 1-2 2.4-1.8-.2-1.2.5-2.3 1.8-2.8Z"]),
+        ],
+        duotonePrimary: ["plant"],
+        multicolor: ["ring": .sun300, "plant": .earth600, "detail": .earth400]
+    ),
+    .avatarOrchid: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12.525 9.7Q15 7.495 12 4.8Q9 7.495 11.475 9.7Z", false), .path("M14.35 11.789Q17.212 13.461 18.848 9.775Q15.357 7.755 14.025 10.79Z", false), .path("M12.927 14.169Q12.221 17.408 16.232 17.825Q17.075 13.881 13.777 13.552Z", false), .path("M10.223 13.552Q6.925 13.881 7.768 17.825Q11.779 17.408 11.073 14.169Z", false), .path("M9.975 10.79Q8.643 7.755 5.152 9.775Q6.788 13.461 9.65 11.789Z", false)]),
+                PlantimV4Layer("accent", [.circle(12, 12, 1.5, false)]),
+            ],
+            .base: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12.525 9.7Q15 7.495 12 4.8Q9 7.495 11.475 9.7Z", false), .path("M14.35 11.789Q17.212 13.461 18.848 9.775Q15.357 7.755 14.025 10.79Z", false), .path("M12.927 14.169Q12.221 17.408 16.232 17.825Q17.075 13.881 13.777 13.552Z", false), .path("M10.223 13.552Q6.925 13.881 7.768 17.825Q11.779 17.408 11.073 14.169Z", false), .path("M9.975 10.79Q8.643 7.755 5.152 9.775Q6.788 13.461 9.65 11.789Z", false)]),
+                PlantimV4Layer("accent", [.circle(12, 12, 1.5, false)]),
+            ],
+            .display: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12.525 9.7Q15 7.495 12 4.8Q9 7.495 11.475 9.7Z", false), .path("M14.35 11.789Q17.212 13.461 18.848 9.775Q15.357 7.755 14.025 10.79Z", false), .path("M12.927 14.169Q12.221 17.408 16.232 17.825Q17.075 13.881 13.777 13.552Z", false), .path("M10.223 13.552Q6.925 13.881 7.768 17.825Q11.779 17.408 11.073 14.169Z", false), .path("M9.975 10.79Q8.643 7.755 5.152 9.775Q6.788 13.461 9.65 11.789Z", false)]),
+                PlantimV4Layer("accent", [.circle(12, 12, 1.5, false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM12.525 9.7Q15 7.495 12 4.8Q9 7.495 11.475 9.7ZM14.35 11.789Q17.212 13.461 18.848 9.775Q15.357 7.755 14.025 10.79ZM12.927 14.169Q12.221 17.408 16.232 17.825Q17.075 13.881 13.777 13.552ZM10.223 13.552Q6.925 13.881 7.768 17.825Q11.779 17.408 11.073 14.169ZM9.975 10.79Q8.643 7.755 5.152 9.775Q6.788 13.461 9.65 11.789ZM10.5 12a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0Z"]),
+        ],
+        duotonePrimary: ["plant", "accent"],
+        multicolor: ["ring": .leaf300, "plant": .bloom500, "accent": .sun500]
+    ),
+    .avatarPalm: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M10.109 8.705Q8.266 6.201 5.106 8.284Q7.363 11.322 9.951 9.601Z", false), .path("M11.226 7.601Q11.692 4.527 7.985 3.766Q7.433 7.51 10.48 8.123Z", false), .path("M13.52 8.123Q16.567 7.51 16.015 3.766Q12.308 4.527 12.774 7.601Z", false), .path("M14.049 9.601Q16.637 11.322 18.894 8.284Q15.734 6.201 13.891 8.705Z", false), .path("M12 11.8v7", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M10.109 8.705Q8.266 6.201 5.106 8.284Q7.363 11.322 9.951 9.601Z", false), .path("M11.226 7.601Q11.692 4.527 7.985 3.766Q7.433 7.51 10.48 8.123Z", false), .path("M13.52 8.123Q16.567 7.51 16.015 3.766Q12.308 4.527 12.774 7.601Z", false), .path("M14.049 9.601Q16.637 11.322 18.894 8.284Q15.734 6.201 13.891 8.705Z", false), .path("M12 11.8v7", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M10.109 8.705Q8.266 6.201 5.106 8.284Q7.363 11.322 9.951 9.601Z", false), .path("M11.226 7.601Q11.692 4.527 7.985 3.766Q7.433 7.51 10.48 8.123Z", false), .path("M13.52 8.123Q16.567 7.51 16.015 3.766Q12.308 4.527 12.774 7.601Z", false), .path("M14.049 9.601Q16.637 11.322 18.894 8.284Q15.734 6.201 13.891 8.705Z", false), .path("M12 11.8v7", false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM10.109 8.705Q8.266 6.201 5.106 8.284Q7.363 11.322 9.951 9.601ZM11.226 7.601Q11.692 4.527 7.985 3.766Q7.433 7.51 10.48 8.123ZM13.52 8.123Q16.567 7.51 16.015 3.766Q12.308 4.527 12.774 7.601ZM14.049 9.601Q16.637 11.322 18.894 8.284Q15.734 6.201 13.891 8.705ZM11 11.8h2v7h-2Z"]),
+        ],
+        duotonePrimary: ["plant"],
+        multicolor: ["ring": .sun300, "plant": .leaf700]
+    ),
+    .avatarPilea: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.circle(12, 10.2, 5, false), .path("M12 15.5v3.5", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.circle(12, 10.2, 5, false), .path("M12 15.5v3.5", false)]),
+                PlantimV4Layer("detail", [.circle(12, 10.2, 1.2, true)]),
+            ],
+            .display: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.circle(12, 10.2, 5, false), .path("M12 15.5v3.5", false)]),
+                PlantimV4Layer("detail", [.circle(12, 10.2, 1.2, true)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM7 10.2a5 5 0 1 0 10 0a5 5 0 1 0 -10 0ZM11 15.6h2V19h-2Z"]),
+        ],
+        duotonePrimary: ["plant"],
+        multicolor: ["ring": .water300, "plant": .leaf700, "detail": .leaf500]
+    ),
+    .avatarPine: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 5l4 6h-2.2l3.2 5H13v2.5h-2V16H7l3.2-5H8Z", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 5l4 6h-2.2l3.2 5H13v2.5h-2V16H7l3.2-5H8Z", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 5l4 6h-2.2l3.2 5H13v2.5h-2V16H7l3.2-5H8Z", false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM12 5l4 6h-2.2l3.2 5H13v2.5h-2V16H7l3.2-5H8Z"]),
+        ],
+        duotonePrimary: ["plant"],
+        multicolor: ["ring": .ink300, "plant": .leaf700]
+    ),
+    .avatarPothos: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 8.2C10.6 5.8 6.6 6.3 6.6 9.6c0 3.3 3.4 5.6 5.4 7.4 2-1.8 5.4-4.1 5.4-7.4 0-3.3-4-3.8-5.4-1.4Z", false), .path("M12.6 7.6c.4-1.6 1.6-2.5 3.4-2.4", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 8.2C10.6 5.8 6.6 6.3 6.6 9.6c0 3.3 3.4 5.6 5.4 7.4 2-1.8 5.4-4.1 5.4-7.4 0-3.3-4-3.8-5.4-1.4Z", false), .path("M12.6 7.6c.4-1.6 1.6-2.5 3.4-2.4", false)]),
+                PlantimV4Layer("detail", [.path("M12 9.8v5.2", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 8.2C10.6 5.8 6.6 6.3 6.6 9.6c0 3.3 3.4 5.6 5.4 7.4 2-1.8 5.4-4.1 5.4-7.4 0-3.3-4-3.8-5.4-1.4Z", false), .path("M12.6 7.6c.4-1.6 1.6-2.5 3.4-2.4", false)]),
+                PlantimV4Layer("detail", [.path("M12 9.8v5.2", false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM12 8.2C10.6 5.8 6.6 6.3 6.6 9.6c0 3.3 3.4 5.6 5.4 7.4 2-1.8 5.4-4.1 5.4-7.4 0-3.3-4-3.8-5.4-1.4ZM11.67 10L11.67 15.6L12.33 15.6L12.33 10Z"]),
+        ],
+        duotonePrimary: ["plant"],
+        multicolor: ["ring": .sun300, "plant": .leaf700, "detail": .leaf500]
+    ),
+    .avatarRose: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12.525 8Q15 6.47 12 4.6Q9 6.47 11.475 8Z", false), .path("M15.966 11.263Q18.186 13.144 19.038 9.713Q16.332 7.438 15.642 10.265Z", false), .path("M13.926 15.545Q12.823 18.237 16.35 17.987Q17.678 14.711 14.776 14.927Z", false), .path("M9.224 14.927Q6.322 14.711 7.65 17.987Q11.177 18.237 10.074 15.545Z", false), .path("M8.358 10.265Q7.668 7.438 4.962 9.713Q5.814 13.144 8.034 11.263Z", false), .path("M13.047 11.154Q15.017 11.25 14.175 9.007Q11.781 8.899 12.481 10.743Z", false), .path("M13.128 12.735Q13.645 14.638 15.519 13.143Q14.882 10.833 13.345 12.069Z", false), .path("M11.65 13.3Q10 14.38 12 15.7Q14 14.38 12.35 13.3Z", false), .path("M10.655 12.069Q9.118 10.833 8.481 13.143Q10.355 14.638 10.872 12.735Z", false), .path("M11.519 10.743Q12.219 8.899 9.825 9.007Q8.983 11.25 10.953 11.154Z", false)]),
+                PlantimV4Layer("accent", [.circle(12, 12, 0.9, false)]),
+            ],
+            .base: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12.525 8Q15 6.47 12 4.6Q9 6.47 11.475 8Z", false), .path("M15.966 11.263Q18.186 13.144 19.038 9.713Q16.332 7.438 15.642 10.265Z", false), .path("M13.926 15.545Q12.823 18.237 16.35 17.987Q17.678 14.711 14.776 14.927Z", false), .path("M9.224 14.927Q6.322 14.711 7.65 17.987Q11.177 18.237 10.074 15.545Z", false), .path("M8.358 10.265Q7.668 7.438 4.962 9.713Q5.814 13.144 8.034 11.263Z", false), .path("M13.047 11.154Q15.017 11.25 14.175 9.007Q11.781 8.899 12.481 10.743Z", false), .path("M13.128 12.735Q13.645 14.638 15.519 13.143Q14.882 10.833 13.345 12.069Z", false), .path("M11.65 13.3Q10 14.38 12 15.7Q14 14.38 12.35 13.3Z", false), .path("M10.655 12.069Q9.118 10.833 8.481 13.143Q10.355 14.638 10.872 12.735Z", false), .path("M11.519 10.743Q12.219 8.899 9.825 9.007Q8.983 11.25 10.953 11.154Z", false)]),
+                PlantimV4Layer("accent", [.circle(12, 12, 0.9, false)]),
+            ],
+            .display: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12.525 8Q15 6.47 12 4.6Q9 6.47 11.475 8Z", false), .path("M15.966 11.263Q18.186 13.144 19.038 9.713Q16.332 7.438 15.642 10.265Z", false), .path("M13.926 15.545Q12.823 18.237 16.35 17.987Q17.678 14.711 14.776 14.927Z", false), .path("M9.224 14.927Q6.322 14.711 7.65 17.987Q11.177 18.237 10.074 15.545Z", false), .path("M8.358 10.265Q7.668 7.438 4.962 9.713Q5.814 13.144 8.034 11.263Z", false), .path("M13.047 11.154Q15.017 11.25 14.175 9.007Q11.781 8.899 12.481 10.743Z", false), .path("M13.128 12.735Q13.645 14.638 15.519 13.143Q14.882 10.833 13.345 12.069Z", false), .path("M11.65 13.3Q10 14.38 12 15.7Q14 14.38 12.35 13.3Z", false), .path("M10.655 12.069Q9.118 10.833 8.481 13.143Q10.355 14.638 10.872 12.735Z", false), .path("M11.519 10.743Q12.219 8.899 9.825 9.007Q8.983 11.25 10.953 11.154Z", false)]),
+                PlantimV4Layer("accent", [.circle(12, 12, 0.9, false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM12.525 8Q15 6.47 12 4.6Q9 6.47 11.475 8ZM15.966 11.263Q18.186 13.144 19.038 9.713Q16.332 7.438 15.642 10.265ZM13.926 15.545Q12.823 18.237 16.35 17.987Q17.678 14.711 14.776 14.927ZM9.224 14.927Q6.322 14.711 7.65 17.987Q11.177 18.237 10.074 15.545ZM8.358 10.265Q7.668 7.438 4.962 9.713Q5.814 13.144 8.034 11.263ZM13.047 11.154Q15.017 11.25 14.175 9.007Q11.781 8.899 12.481 10.743ZM13.128 12.735Q13.645 14.638 15.519 13.143Q14.882 10.833 13.345 12.069ZM11.65 13.3Q10 14.38 12 15.7Q14 14.38 12.35 13.3ZM10.655 12.069Q9.118 10.833 8.481 13.143Q10.355 14.638 10.872 12.735ZM11.519 10.743Q12.219 8.899 9.825 9.007Q8.983 11.25 10.953 11.154ZM11.1 12a0.9 0.9 0 1 0 1.8 0a0.9 0.9 0 1 0 -1.8 0Z"]),
+        ],
+        duotonePrimary: ["plant", "accent"],
+        multicolor: ["ring": .leaf300, "plant": .bloom500, "accent": .sun500]
+    ),
+    .avatarSansevieria: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12.85 18.2L12 5L11.15 18.2Z", false), .path("M10.575 17.495L4.801 8.446L9.074 18.293Z", false), .path("M14.926 18.293L19.199 8.446L13.425 17.495Z", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12.85 18.2L12 5L11.15 18.2Z", false), .path("M10.575 17.495L4.801 8.446L9.074 18.293Z", false), .path("M14.926 18.293L19.199 8.446L13.425 17.495Z", false)]),
+                PlantimV4Layer("detail", [.path("M12 8.5v8", false), .path("M8.6 12l.9 4.6", false), .path("M15.4 12l-.9 4.6", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12.85 18.2L12 5L11.15 18.2Z", false), .path("M10.575 17.495L4.801 8.446L9.074 18.293Z", false), .path("M14.926 18.293L19.199 8.446L13.425 17.495Z", false)]),
+                PlantimV4Layer("detail", [.path("M12 8.5v8", false), .path("M8.6 12l.9 4.6", false), .path("M15.4 12l-.9 4.6", false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM12.85 18.2L12 5L11.15 18.2ZM10.575 17.495L4.801 8.446L9.074 18.293ZM14.926 18.293L19.199 8.446L13.425 17.495Z"]),
+        ],
+        duotonePrimary: ["plant"],
+        multicolor: ["ring": .earth400, "plant": .leaf700, "detail": .sun300]
+    ),
+    .avatarSprout: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 12C9.5 12.3 7.2 10.8 6.8 8C9.8 7.8 11.9 9.5 12 12Z", false), .path("M12 12C14.5 12.3 16.8 10.8 17.2 8C14.2 7.8 12.1 9.5 12 12Z", false), .path("M12 12.5v6", false), .path("M8 18.5h8", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 12C9.5 12.3 7.2 10.8 6.8 8C9.8 7.8 11.9 9.5 12 12Z", false), .path("M12 12C14.5 12.3 16.8 10.8 17.2 8C14.2 7.8 12.1 9.5 12 12Z", false), .path("M12 12.5v6", false), .path("M8 18.5h8", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12 12C9.5 12.3 7.2 10.8 6.8 8C9.8 7.8 11.9 9.5 12 12Z", false), .path("M12 12C14.5 12.3 16.8 10.8 17.2 8C14.2 7.8 12.1 9.5 12 12Z", false), .path("M12 12.5v6", false), .path("M8 18.5h8", false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM12 12C9.5 12.3 7.2 10.8 6.8 8C9.8 7.8 11.9 9.5 12 12ZM12 12C14.5 12.3 16.8 10.8 17.2 8C14.2 7.8 12.1 9.5 12 12ZM11 12.6h2v5h4.5v1.8h-11v-1.8H11Z"]),
+        ],
+        duotonePrimary: ["plant"],
+        multicolor: ["ring": .leaf300, "plant": .leaf700]
+    ),
+    .avatarSucculent: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12.455 9.4Q14.6 7.33 12 4.8Q9.4 7.33 11.545 9.4Z", false), .path("M14.479 11.094Q17.344 11.917 18.235 8.4Q14.744 7.413 14.024 10.306Z", false), .path("M14.024 13.694Q14.744 16.587 18.235 15.6Q17.344 12.083 14.479 12.906Z", false), .path("M11.545 14.6Q9.4 16.67 12 19.2Q14.6 16.67 12.455 14.6Z", false), .path("M9.521 12.906Q6.656 12.083 5.765 15.6Q9.256 16.587 9.976 13.694Z", false), .path("M9.976 10.306Q9.256 7.413 5.765 8.4Q6.656 11.917 9.521 11.094Z", false)]),
+                PlantimV4Layer("accent", [.circle(12, 12, 1.6, false)]),
+            ],
+            .base: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12.455 9.4Q14.6 7.33 12 4.8Q9.4 7.33 11.545 9.4Z", false), .path("M14.479 11.094Q17.344 11.917 18.235 8.4Q14.744 7.413 14.024 10.306Z", false), .path("M14.024 13.694Q14.744 16.587 18.235 15.6Q17.344 12.083 14.479 12.906Z", false), .path("M11.545 14.6Q9.4 16.67 12 19.2Q14.6 16.67 12.455 14.6Z", false), .path("M9.521 12.906Q6.656 12.083 5.765 15.6Q9.256 16.587 9.976 13.694Z", false), .path("M9.976 10.306Q9.256 7.413 5.765 8.4Q6.656 11.917 9.521 11.094Z", false)]),
+                PlantimV4Layer("accent", [.circle(12, 12, 1.6, false)]),
+            ],
+            .display: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12.455 9.4Q14.6 7.33 12 4.8Q9.4 7.33 11.545 9.4Z", false), .path("M14.479 11.094Q17.344 11.917 18.235 8.4Q14.744 7.413 14.024 10.306Z", false), .path("M14.024 13.694Q14.744 16.587 18.235 15.6Q17.344 12.083 14.479 12.906Z", false), .path("M11.545 14.6Q9.4 16.67 12 19.2Q14.6 16.67 12.455 14.6Z", false), .path("M9.521 12.906Q6.656 12.083 5.765 15.6Q9.256 16.587 9.976 13.694Z", false), .path("M9.976 10.306Q9.256 7.413 5.765 8.4Q6.656 11.917 9.521 11.094Z", false)]),
+                PlantimV4Layer("accent", [.circle(12, 12, 1.6, false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM12.455 9.4Q14.6 7.33 12 4.8Q9.4 7.33 11.545 9.4ZM14.479 11.094Q17.344 11.917 18.235 8.4Q14.744 7.413 14.024 10.306ZM14.024 13.694Q14.744 16.587 18.235 15.6Q17.344 12.083 14.479 12.906ZM11.545 14.6Q9.4 16.67 12 19.2Q14.6 16.67 12.455 14.6ZM9.521 12.906Q6.656 12.083 5.765 15.6Q9.256 16.587 9.976 13.694ZM9.976 10.306Q9.256 7.413 5.765 8.4Q6.656 11.917 9.521 11.094ZM10.4 12a1.6 1.6 0 1 0 3.2 0a1.6 1.6 0 1 0 -3.2 0Z"]),
+        ],
+        duotonePrimary: ["plant", "accent"],
+        multicolor: ["ring": .water300, "plant": .leaf500, "accent": .leaf700]
+    ),
+    .avatarSunflower: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12.385 8.6Q14.2 6.845 12 4.7Q9.8 6.845 11.615 8.6Z", false), .path("M14.676 9.868Q17.201 9.91 17.162 6.838Q14.09 6.799 14.132 9.324Z", false), .path("M15.4 12.385Q17.155 14.2 19.3 12Q17.155 9.8 15.4 11.615Z", false), .path("M14.132 14.676Q14.09 17.201 17.162 17.162Q17.201 14.09 14.676 14.132Z", false), .path("M11.615 15.4Q9.8 17.155 12 19.3Q14.2 17.155 12.385 15.4Z", false), .path("M9.324 14.132Q6.799 14.09 6.838 17.162Q9.91 17.201 9.868 14.676Z", false), .path("M8.6 11.615Q6.845 9.8 4.7 12Q6.845 14.2 8.6 12.385Z", false), .path("M9.868 9.324Q9.91 6.799 6.838 6.838Q6.799 9.91 9.324 9.868Z", false)]),
+                PlantimV4Layer("accent", [.circle(12, 12, 2.4, false)]),
+            ],
+            .base: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12.385 8.6Q14.2 6.845 12 4.7Q9.8 6.845 11.615 8.6Z", false), .path("M14.676 9.868Q17.201 9.91 17.162 6.838Q14.09 6.799 14.132 9.324Z", false), .path("M15.4 12.385Q17.155 14.2 19.3 12Q17.155 9.8 15.4 11.615Z", false), .path("M14.132 14.676Q14.09 17.201 17.162 17.162Q17.201 14.09 14.676 14.132Z", false), .path("M11.615 15.4Q9.8 17.155 12 19.3Q14.2 17.155 12.385 15.4Z", false), .path("M9.324 14.132Q6.799 14.09 6.838 17.162Q9.91 17.201 9.868 14.676Z", false), .path("M8.6 11.615Q6.845 9.8 4.7 12Q6.845 14.2 8.6 12.385Z", false), .path("M9.868 9.324Q9.91 6.799 6.838 6.838Q6.799 9.91 9.324 9.868Z", false)]),
+                PlantimV4Layer("accent", [.circle(12, 12, 2.4, false)]),
+            ],
+            .display: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M12.385 8.6Q14.2 6.845 12 4.7Q9.8 6.845 11.615 8.6Z", false), .path("M14.676 9.868Q17.201 9.91 17.162 6.838Q14.09 6.799 14.132 9.324Z", false), .path("M15.4 12.385Q17.155 14.2 19.3 12Q17.155 9.8 15.4 11.615Z", false), .path("M14.132 14.676Q14.09 17.201 17.162 17.162Q17.201 14.09 14.676 14.132Z", false), .path("M11.615 15.4Q9.8 17.155 12 19.3Q14.2 17.155 12.385 15.4Z", false), .path("M9.324 14.132Q6.799 14.09 6.838 17.162Q9.91 17.201 9.868 14.676Z", false), .path("M8.6 11.615Q6.845 9.8 4.7 12Q6.845 14.2 8.6 12.385Z", false), .path("M9.868 9.324Q9.91 6.799 6.838 6.838Q6.799 9.91 9.324 9.868Z", false)]),
+                PlantimV4Layer("accent", [.circle(12, 12, 2.4, false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM12.385 8.6Q14.2 6.845 12 4.7Q9.8 6.845 11.615 8.6ZM14.676 9.868Q17.201 9.91 17.162 6.838Q14.09 6.799 14.132 9.324ZM15.4 12.385Q17.155 14.2 19.3 12Q17.155 9.8 15.4 11.615ZM14.132 14.676Q14.09 17.201 17.162 17.162Q17.201 14.09 14.676 14.132ZM11.615 15.4Q9.8 17.155 12 19.3Q14.2 17.155 12.385 15.4ZM9.324 14.132Q6.799 14.09 6.838 17.162Q9.91 17.201 9.868 14.676ZM8.6 11.615Q6.845 9.8 4.7 12Q6.845 14.2 8.6 12.385ZM9.868 9.324Q9.91 6.799 6.838 6.838Q6.799 9.91 9.324 9.868ZM9.6 12a2.4 2.4 0 1 0 4.8 0a2.4 2.4 0 1 0 -4.8 0Z"]),
+        ],
+        duotonePrimary: ["plant", "accent"],
+        multicolor: ["ring": .water300, "plant": .sun500, "accent": .earth600]
+    ),
+    .avatarTulip: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M7.5 8c0 4.6 2 8 4.5 8.5 2.5-.5 4.5-3.9 4.5-8.5-1.2.8-2.2 1.3-3 1.5-.5-.8-1-1.8-1.5-3-.5 1.2-1 2.2-1.5 3-.8-.2-1.8-.7-3-1.5Z", false), .path("M12 17v2.5", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M7.5 8c0 4.6 2 8 4.5 8.5 2.5-.5 4.5-3.9 4.5-8.5-1.2.8-2.2 1.3-3 1.5-.5-.8-1-1.8-1.5-3-.5 1.2-1 2.2-1.5 3-.8-.2-1.8-.7-3-1.5Z", false), .path("M12 17v2.5", false)]),
+                PlantimV4Layer("detail", [.path("M12 10v5.5", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("plant", [.path("M7.5 8c0 4.6 2 8 4.5 8.5 2.5-.5 4.5-3.9 4.5-8.5-1.2.8-2.2 1.3-3 1.5-.5-.8-1-1.8-1.5-3-.5 1.2-1 2.2-1.5 3-.8-.2-1.8-.7-3-1.5Z", false), .path("M12 17v2.5", false)]),
+                PlantimV4Layer("detail", [.path("M12 10v5.5", false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM7.5 8c0 4.6 2 8 4.5 8.5 2.5-.5 4.5-3.9 4.5-8.5-1.2.8-2.2 1.3-3 1.5-.5-.8-1-1.8-1.5-3-.5 1.2-1 2.2-1.5 3-.8-.2-1.8-.7-3-1.5ZM11 17h2v2.5h-2Z"]),
+        ],
+        duotonePrimary: ["plant"],
+        multicolor: ["ring": .sun300, "plant": .bloom500, "detail": .bloom500]
+    ),
+    .calendarAdd: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("frame", [.rect(3.5, 5, 17, 15.5, 3, false), .path("M3.5 10.5h17", false)]),
+                PlantimV4Layer("rings", [.path("M8 3v4", false), .path("M16 3v4", false)]),
+                PlantimV4Layer("plus", [.path("M12 12.5v6", false), .path("M9 15.5h6", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("frame", [.rect(3.5, 5, 17, 15.5, 3, false), .path("M3.5 10.5h17", false)]),
+                PlantimV4Layer("rings", [.path("M8 3v4", false), .path("M16 3v4", false)]),
+                PlantimV4Layer("plus", [.path("M12 13v5", false), .path("M9.5 15.5h5", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("frame", [.rect(3.5, 5, 17, 15.5, 3, false), .path("M3.5 10.5h17", false)]),
+                PlantimV4Layer("rings", [.path("M8 3v4", false), .path("M16 3v4", false)]),
+                PlantimV4Layer("plus", [.path("M12 13v5", false), .path("M9.5 15.5h5", false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M2.5 8a3 3 0 0 1 3-3h13a3 3 0 0 1 3 3v10.5a3 3 0 0 1-3 3h-13a3 3 0 0 1-3-3V8Zm2 3.3a.85.85 0 0 0 0 1.7h15a.85.85 0 0 0 0-1.7h-15Zm6.6 1h1.8v2.3h2.3v1.8h-2.3v2.3h-1.8v-2.3H8.8v-1.8h2.3Z", "M7 2.5a1 1 0 0 1 2 0V7a1 1 0 0 1-2 0V2.5Z", "M15 2.5a1 1 0 0 1 2 0V7a1 1 0 0 1-2 0V2.5Z"]),
+        ],
+        duotonePrimary: ["frame", "plus"],
+        multicolor: ["frame": .ink900, "rings": .ink500, "plus": .leaf500]
+    ),
     .calendarDate: PlantimV4IconData(
         grades: [
             .micro: [
@@ -815,6 +1455,31 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
         duotonePrimary: ["primary"],
         multicolor: ["primary": .ink900]
     ),
+    .careMisting: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("bottle", [.path("M8 11h7v8.5A1.5 1.5 0 0 1 13.5 21h-4A1.5 1.5 0 0 1 8 19.5Z", false), .path("M10.5 11V8h2.5v3", false)]),
+                PlantimV4Layer("head", [.path("M10.5 8H18", false)]),
+                PlantimV4Layer("mist", [.circle(20.8, 5, 1.7, true), .circle(21.2, 9, 1.7, true)]),
+            ],
+            .base: [
+                PlantimV4Layer("bottle", [.path("M8 11h7v8.5A1.5 1.5 0 0 1 13.5 21h-4A1.5 1.5 0 0 1 8 19.5Z", false), .path("M10.5 11V8h2.5v3", false)]),
+                PlantimV4Layer("head", [.path("M10.5 8H18", false), .path("M16 8v3.5", false)]),
+                PlantimV4Layer("mist", [.circle(20.8, 5, 1.5, true), .circle(21.2, 9, 1.5, true)]),
+            ],
+            .display: [
+                PlantimV4Layer("bottle", [.path("M8 11h7v8.5A1.5 1.5 0 0 1 13.5 21h-4A1.5 1.5 0 0 1 8 19.5Z", false), .path("M10.5 11V8h2.5v3", false)]),
+                PlantimV4Layer("head", [.path("M10.5 8H18", false), .path("M16 8v3.5", false)]),
+                PlantimV4Layer("mist", [.circle(20.8, 5, 1.5, true), .circle(21.2, 9, 1.5, true)]),
+            ],
+        ],
+        solid: [
+            .micro: .bold(3.3),
+            .base: .bold(3.1),
+        ],
+        duotonePrimary: ["bottle", "head"],
+        multicolor: ["bottle": .water600, "head": .ink500, "mist": .water300]
+    ),
     .carePruning: PlantimV4IconData(
         grades: [
             .micro: [
@@ -912,6 +1577,28 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
         ],
         duotonePrimary: ["primary"],
         multicolor: ["primary": .earth600]
+    ),
+    .careRotating: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("pot", [.path("M7 14h10l-1.5 7h-7Z", false)]),
+                PlantimV4Layer("arrow", [.path("M4.5 12A7.5 7.5 0 0 1 17.6 6.8", false), .path("M18 3v4h-4", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("pot", [.path("M7 14h10l-1.5 7h-7Z", false)]),
+                PlantimV4Layer("arrow", [.path("M4.5 12A7.5 7.5 0 0 1 17.6 6.8", false), .path("M18 3v4h-4", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("pot", [.path("M7 14h10l-1.5 7h-7Z", false)]),
+                PlantimV4Layer("arrow", [.path("M4.5 12A7.5 7.5 0 0 1 17.6 6.8", false), .path("M18 3v4h-4", false)]),
+            ],
+        ],
+        solid: [
+            .micro: .bold(3.3),
+            .base: .bold(3.1),
+        ],
+        duotonePrimary: ["arrow"],
+        multicolor: ["pot": .earth600, "arrow": .ink500]
     ),
     .careSuggestion: PlantimV4IconData(
         grades: [
@@ -1913,6 +2600,55 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
         duotonePrimary: ["leaf", "badge"],
         multicolor: ["leaf": .statusSuccess, "badge": .statusSuccess]
     ),
+    .locationIndoor: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("frame", [.rect(4, 3, 16, 15, 1.5, false)]),
+                PlantimV4Layer("mullions", [.path("M12 3v15", false), .path("M4 10.5h16", false)]),
+                PlantimV4Layer("sill", [.path("M2 21h20", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("frame", [.rect(4, 3, 16, 15, 1.5, false)]),
+                PlantimV4Layer("mullions", [.path("M12 3v15", false), .path("M4 10.5h16", false)]),
+                PlantimV4Layer("sill", [.path("M2 21h20", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("frame", [.rect(4, 3, 16, 15, 1.5, false)]),
+                PlantimV4Layer("mullions", [.path("M12 3v15", false), .path("M4 10.5h16", false)]),
+                PlantimV4Layer("sill", [.path("M2 21h20", false)]),
+            ],
+        ],
+        solid: [
+            .micro: .bold(3.3),
+            .base: .bold(3.1),
+        ],
+        duotonePrimary: ["frame", "mullions"],
+        multicolor: ["frame": .ink900, "mullions": .ink500, "sill": .earth600]
+    ),
+    .locationOutdoor: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("crown", [.circle(12, 9.5, 6.5, false)]),
+                PlantimV4Layer("trunk", [.path("M12 16v5", false)]),
+                PlantimV4Layer("ground", [.path("M6 21h12", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("crown", [.circle(12, 9.5, 6.5, false)]),
+                PlantimV4Layer("trunk", [.path("M12 16v5", false)]),
+                PlantimV4Layer("ground", [.path("M6 21h12", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("crown", [.circle(12, 9.5, 6.5, false)]),
+                PlantimV4Layer("trunk", [.path("M12 16v5", false)]),
+                PlantimV4Layer("ground", [.path("M6 21h12", false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 2a7.5 7.5 0 1 0 0 15a7.5 7.5 0 1 0 0-15Z", "M11 17h2v3h6v2H5v-2h6Z"]),
+        ],
+        duotonePrimary: ["crown"],
+        multicolor: ["crown": .leaf500, "trunk": .earth600, "ground": .earth400]
+    ),
     .locationPin: PlantimV4IconData(
         grades: [
             .micro: [
@@ -1931,6 +2667,30 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
         ],
         duotonePrimary: ["primary"],
         multicolor: ["primary": .bloom500]
+    ),
+    .locationRoom: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("door", [.path("M4 21V4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v17", false)]),
+                PlantimV4Layer("floor", [.path("M2 21h20", false)]),
+                PlantimV4Layer("knob", [.circle(15.5, 12.5, 1.5, true)]),
+            ],
+            .base: [
+                PlantimV4Layer("door", [.path("M4 21V4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v17", false)]),
+                PlantimV4Layer("floor", [.path("M2 21h20", false)]),
+                PlantimV4Layer("knob", [.circle(15.5, 12.5, 1.5, true)]),
+            ],
+            .display: [
+                PlantimV4Layer("door", [.path("M4 21V4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v17", false)]),
+                PlantimV4Layer("floor", [.path("M2 21h20", false)]),
+                PlantimV4Layer("knob", [.circle(15.5, 12.5, 1.5, true)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M1 22v-2h2V4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v16h2v2ZM15.5 11a1.5 1.5 0 1 0 0 3a1.5 1.5 0 1 0 0-3Z"]),
+        ],
+        duotonePrimary: ["door", "knob"],
+        multicolor: ["door": .earth600, "floor": .ink500, "knob": .sun500]
     ),
     .navCalendarCheck: PlantimV4IconData(
         grades: [
@@ -2459,6 +3219,136 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
         duotonePrimary: ["primary"],
         multicolor: ["primary": .ink900]
     ),
+    .placeholderAvatar: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.4, false)]),
+                PlantimV4Layer("bust", [.circle(12, 8.6, 3.1, false), .path("M5.6 19.4C6.6 15.9 9.1 14.4 12 14.4s5.4 1.5 6.4 5", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("bust", [.circle(12, 8.8, 2.9, false), .path("M5.9 19.2C6.9 15.9 9.2 14.2 12 14.2s5.1 1.7 6.1 5", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("ring", [.circle(12, 12, 9.25, false)]),
+                PlantimV4Layer("bust", [.circle(12, 8.8, 2.9, false), .path("M5.9 19.2C6.9 15.9 9.2 14.2 12 14.2s5.1 1.7 6.1 5", false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM5.8 17.45A8.25 8.25 0 1 1 18.2 17.45C17.2 14.9 14.8 13.4 12 13.4s-5.2 1.5-6.2 4.05ZM12 5.3a3.5 3.5 0 1 0 0 7a3.5 3.5 0 1 0 0-7Z"]),
+        ],
+        duotonePrimary: ["bust"],
+        multicolor: ["ring": .ink300, "bust": .ink500]
+    ),
+    .placeholderCard: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("block", [.rect(3, 3, 18, 9, 2, false)]),
+                PlantimV4Layer("lines", [.path("M4 16h16", false), .path("M4 20h9", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("block", [.rect(3, 3, 18, 9, 2, false)]),
+                PlantimV4Layer("lines", [.path("M4 16h16", false), .path("M4 20h9", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("block", [.rect(3, 3, 18, 9, 2, false)]),
+                PlantimV4Layer("lines", [.path("M4 16h16", false), .path("M4 20h9", false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M5 2h14a3 3 0 0 1 3 3v5a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3Z", "M4.5 14.5h15a1.5 1.5 0 0 1 0 3h-15a1.5 1.5 0 0 1 0-3Z", "M4.5 18.5h8a1.5 1.5 0 0 1 0 3h-8a1.5 1.5 0 0 1 0-3Z"]),
+        ],
+        duotonePrimary: ["block"],
+        multicolor: ["block": .ink300, "lines": .ink500]
+    ),
+    .placeholderChart: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("axes", [.path("M4 4v16h16", false)]),
+                PlantimV4Layer("bars", [.path("M9 17v-5", false), .path("M13.5 17v-9", false), .path("M18 17v-3", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("axes", [.path("M4 4v16h16", false)]),
+                PlantimV4Layer("bars", [.path("M9 17v-5", false), .path("M13.5 17v-9", false), .path("M18 17v-3", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("axes", [.path("M4 4v16h16", false)]),
+                PlantimV4Layer("bars", [.path("M9 17v-5", false), .path("M13.5 17v-9", false), .path("M18 17v-3", false)]),
+            ],
+        ],
+        solid: [
+            .micro: .bold(3.6),
+            .base: .bold(3.4),
+        ],
+        duotonePrimary: ["bars"],
+        multicolor: ["axes": .ink300, "bars": .ink500]
+    ),
+    .placeholderList: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("avatar", [.circle(7, 12, 4, false)]),
+                PlantimV4Layer("lines", [.path("M14 9.5h7", false), .path("M14 14.5h4.5", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("avatar", [.circle(7, 12, 4, false)]),
+                PlantimV4Layer("lines", [.path("M14 9.5h7", false), .path("M14 14.5h4.5", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("avatar", [.circle(7, 12, 4, false)]),
+                PlantimV4Layer("lines", [.path("M14 9.5h7", false), .path("M14 14.5h4.5", false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M7 7a5 5 0 1 0 0 10a5 5 0 1 0 0-10Z", "M14.25 8.25h6.5a1.25 1.25 0 0 1 0 2.5h-6.5a1.25 1.25 0 0 1 0-2.5Z", "M14.25 13.25h4a1.25 1.25 0 0 1 0 2.5h-4a1.25 1.25 0 0 1 0-2.5Z"]),
+        ],
+        duotonePrimary: ["lines"],
+        multicolor: ["avatar": .ink300, "lines": .ink500]
+    ),
+    .placeholderPlant: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("frame", [.rect(3, 3, 18, 18, 2, false)]),
+                PlantimV4Layer("leaf", [.path("M16.5 7.5C10.5 8 7.5 11.5 7.5 16.5C13.5 16 16.5 12.5 16.5 7.5Z", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("frame", [.rect(3, 3, 18, 18, 2, false)]),
+                PlantimV4Layer("leaf", [.path("M16.5 7.5C10.5 8 7.5 11.5 7.5 16.5C13.5 16 16.5 12.5 16.5 7.5Z", false)]),
+                PlantimV4Layer("vein", [.path("M9.5 14.5 14.5 9.5", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("frame", [.rect(3, 3, 18, 18, 2, false)]),
+                PlantimV4Layer("leaf", [.path("M16.5 7.5C10.5 8 7.5 11.5 7.5 16.5C13.5 16 16.5 12.5 16.5 7.5Z", false)]),
+                PlantimV4Layer("vein", [.path("M9.5 14.5 14.5 9.5", false)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M5 2h14a3 3 0 0 1 3 3v14a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3ZM17 7C10.2 7.6 7 11.6 7 17C13.4 16.4 16.6 12.4 17 7Z"]),
+        ],
+        duotonePrimary: ["leaf", "vein"],
+        multicolor: ["frame": .ink300, "leaf": .leaf300, "vein": .leaf300]
+    ),
+    .placeholderText: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("lines", [.path("M4 7h16", false), .path("M4 12h16", false)]),
+                PlantimV4Layer("tail", [.path("M4 17h10", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("lines", [.path("M4 7h16", false), .path("M4 12h16", false)]),
+                PlantimV4Layer("tail", [.path("M4 17h10", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("lines", [.path("M4 7h16", false), .path("M4 12h16", false)]),
+                PlantimV4Layer("tail", [.path("M4 17h10", false)]),
+            ],
+        ],
+        solid: [
+            .micro: .bold(3.6),
+            .base: .bold(3.4),
+        ],
+        duotonePrimary: ["lines"],
+        multicolor: ["lines": .ink500, "tail": .ink300]
+    ),
     .plantAdd: PlantimV4IconData(
         grades: [
             .micro: [
@@ -2511,6 +3401,123 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
         ],
         duotonePrimary: ["stems", "leaves"],
         multicolor: ["bed": .earth600, "stems": .leaf700, "leaves": .leaf500]
+    ),
+    .plantHumidity: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("drop", [.path("M15.5 4.5C12.7 8.3 10.3 11.2 10.3 14.7a5.2 5.2 0 0 0 10.4 0C20.7 11.2 18.3 8.3 15.5 4.5Z", false)]),
+                PlantimV4Layer("droplet", [.path("M5 11.5c-1.6 2.2-2.8 3.8-2.8 5.5a2.8 2.8 0 0 0 5.6 0C7.8 15.3 6.6 13.7 5 11.5Z", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("drop", [.path("M15.5 4.5C12.7 8.3 10.3 11.2 10.3 14.7a5.2 5.2 0 0 0 10.4 0C20.7 11.2 18.3 8.3 15.5 4.5Z", false)]),
+                PlantimV4Layer("droplet", [.path("M5 11.5c-1.6 2.2-2.8 3.8-2.8 5.5a2.8 2.8 0 0 0 5.6 0C7.8 15.3 6.6 13.7 5 11.5Z", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("drop", [.path("M15.5 4.5C12.7 8.3 10.3 11.2 10.3 14.7a5.2 5.2 0 0 0 10.4 0C20.7 11.2 18.3 8.3 15.5 4.5Z", false)]),
+                PlantimV4Layer("droplet", [.path("M5 11.5c-1.6 2.2-2.8 3.8-2.8 5.5a2.8 2.8 0 0 0 5.6 0C7.8 15.3 6.6 13.7 5 11.5Z", false)]),
+            ],
+        ],
+        solid: [
+            .micro: .bold(3.3),
+            .base: .bold(3.1),
+        ],
+        duotonePrimary: ["drop"],
+        multicolor: ["drop": .water600, "droplet": .water300]
+    ),
+    .plantIdentify: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("brackets", [.path("M3 8V5a2 2 0 0 1 2-2h3", false), .path("M16 3h3a2 2 0 0 1 2 2v3", false), .path("M21 16v3a2 2 0 0 1-2 2h-3", false), .path("M8 21H5a2 2 0 0 1-2-2v-3", false)]),
+                PlantimV4Layer("leaf", [.path("M16 8C10.5 8.5 8 11.5 8 16.5C13 16 15.5 13 16 8Z", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("brackets", [.path("M3 8V5a2 2 0 0 1 2-2h3", false), .path("M16 3h3a2 2 0 0 1 2 2v3", false), .path("M21 16v3a2 2 0 0 1-2 2h-3", false), .path("M8 21H5a2 2 0 0 1-2-2v-3", false)]),
+                PlantimV4Layer("leaf", [.path("M16 8C10.5 8.5 8 11.5 8 16.5C13 16 15.5 13 16 8Z", false)]),
+                PlantimV4Layer("vein", [.path("M9.8 14.7 14.2 9.8", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("brackets", [.path("M3 8V5a2 2 0 0 1 2-2h3", false), .path("M16 3h3a2 2 0 0 1 2 2v3", false), .path("M21 16v3a2 2 0 0 1-2 2h-3", false), .path("M8 21H5a2 2 0 0 1-2-2v-3", false)]),
+                PlantimV4Layer("leaf", [.path("M16 8C10.5 8.5 8 11.5 8 16.5C13 16 15.5 13 16 8Z", false)]),
+                PlantimV4Layer("vein", [.path("M9.8 14.7 14.2 9.8", false)]),
+            ],
+        ],
+        solid: [
+            .micro: .bold(3.3),
+            .base: .bold(3.1),
+        ],
+        duotonePrimary: ["leaf", "vein"],
+        multicolor: ["brackets": .ink500, "leaf": .leaf700, "vein": .leaf700]
+    ),
+    .plantLight: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("leaf", [.path("M4 20C4 12.5 9 8.5 14.5 9.5C14 15.5 10 20 4 20Z", false)]),
+                PlantimV4Layer("rays", [.path("M21 5.5V9", false), .path("M18.5 3H15", false), .path("M19.2 4.8l-2.5 2.5", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("leaf", [.path("M4 20C4 12.5 9 8.5 14.5 9.5C14 15.5 10 20 4 20Z", false)]),
+                PlantimV4Layer("vein", [.path("M6 18 11.5 12.5", false)]),
+                PlantimV4Layer("rays", [.path("M21 5.5V9", false), .path("M18.5 3H15", false), .path("M19.2 4.8l-2.5 2.5", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("leaf", [.path("M4 20C4 12.5 9 8.5 14.5 9.5C14 15.5 10 20 4 20Z", false)]),
+                PlantimV4Layer("vein", [.path("M6 18 11.5 12.5", false)]),
+                PlantimV4Layer("rays", [.path("M21 5.5V9", false), .path("M18.5 3H15", false), .path("M19.2 4.8l-2.5 2.5", false)]),
+            ],
+        ],
+        solid: [
+            .micro: .bold(3.3),
+            .base: .bold(3.1),
+        ],
+        duotonePrimary: ["leaf", "vein"],
+        multicolor: ["leaf": .leaf700, "vein": .leaf700, "rays": .sun500]
+    ),
+    .plantPetSafe: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("pad", [.path("M12 21c-2.6 0-5-1.6-5-4 0-1.9 2.2-3.4 5-3.4s5 1.5 5 3.4c0 2.4-2.4 4-5 4Z", false)]),
+                PlantimV4Layer("toes", [.circle(5.5, 10.5, 1.9, true), .circle(9.5, 6.5, 1.9, true), .circle(14.5, 6.5, 1.9, true), .circle(18.5, 10.5, 1.9, true)]),
+            ],
+            .base: [
+                PlantimV4Layer("pad", [.path("M12 21c-2.6 0-5-1.6-5-4 0-1.9 2.2-3.4 5-3.4s5 1.5 5 3.4c0 2.4-2.4 4-5 4Z", false)]),
+                PlantimV4Layer("toes", [.circle(5.5, 10.5, 1.9, true), .circle(9.5, 6.5, 1.9, true), .circle(14.5, 6.5, 1.9, true), .circle(18.5, 10.5, 1.9, true)]),
+            ],
+            .display: [
+                PlantimV4Layer("pad", [.path("M12 21c-2.6 0-5-1.6-5-4 0-1.9 2.2-3.4 5-3.4s5 1.5 5 3.4c0 2.4-2.4 4-5 4Z", false)]),
+                PlantimV4Layer("toes", [.circle(5.5, 10.5, 1.9, true), .circle(9.5, 6.5, 1.9, true), .circle(14.5, 6.5, 1.9, true), .circle(18.5, 10.5, 1.9, true)]),
+            ],
+        ],
+        solid: [
+            .micro: .bold(3.3),
+            .base: .bold(3.1),
+        ],
+        duotonePrimary: ["pad"],
+        multicolor: ["pad": .leaf700, "toes": .leaf500]
+    ),
+    .plantPetUnsafe: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("pad", [.path("M12 21c-2.6 0-5-1.6-5-4 0-1.9 2.2-3.4 5-3.4s5 1.5 5 3.4c0 2.4-2.4 4-5 4Z", false)]),
+                PlantimV4Layer("toes", [.circle(5.5, 10.5, 1.9, true), .circle(9.5, 6.5, 1.9, true), .circle(14.5, 6.5, 1.9, true), .circle(18.5, 10.5, 1.9, true)]),
+                PlantimV4Layer("slash", [.path("M4 4l16 16", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("pad", [.path("M12 21c-2.6 0-5-1.6-5-4 0-1.9 2.2-3.4 5-3.4s5 1.5 5 3.4c0 2.4-2.4 4-5 4Z", false)]),
+                PlantimV4Layer("toes", [.circle(5.5, 10.5, 1.9, true), .circle(9.5, 6.5, 1.9, true), .circle(14.5, 6.5, 1.9, true), .circle(18.5, 10.5, 1.9, true)]),
+                PlantimV4Layer("slash", [.path("M4 4l16 16", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("pad", [.path("M12 21c-2.6 0-5-1.6-5-4 0-1.9 2.2-3.4 5-3.4s5 1.5 5 3.4c0 2.4-2.4 4-5 4Z", false)]),
+                PlantimV4Layer("toes", [.circle(5.5, 10.5, 1.9, true), .circle(9.5, 6.5, 1.9, true), .circle(14.5, 6.5, 1.9, true), .circle(18.5, 10.5, 1.9, true)]),
+                PlantimV4Layer("slash", [.path("M4 4l16 16", false)]),
+            ],
+        ],
+        solid: [
+            .micro: .bold(3.3),
+            .base: .bold(3.1),
+        ],
+        duotonePrimary: ["pad", "slash"],
+        multicolor: ["pad": .ink500, "toes": .ink500, "slash": .statusError]
     ),
     .plantPruning: PlantimV4IconData(
         grades: [
@@ -2848,6 +3855,75 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
         ],
         duotonePrimary: ["primary"],
         multicolor: ["primary": .ink500]
+    ),
+    .statusLoadingDots: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("lead", [.circle(5, 13.5, 1.4, false)]),
+                PlantimV4Layer("mid", [.circle(12, 10.5, 1.4, false)]),
+                PlantimV4Layer("trail", [.circle(19, 13.5, 1.4, false)]),
+            ],
+            .base: [
+                PlantimV4Layer("lead", [.circle(5, 13.5, 1.2, false)]),
+                PlantimV4Layer("mid", [.circle(12, 10.5, 1.2, false)]),
+                PlantimV4Layer("trail", [.circle(19, 13.5, 1.2, false)]),
+            ],
+            .display: [
+                PlantimV4Layer("lead", [.circle(5, 13.5, 1.2, false)]),
+                PlantimV4Layer("mid", [.circle(12, 10.5, 1.2, false)]),
+                PlantimV4Layer("trail", [.circle(19, 13.5, 1.2, false)]),
+            ],
+        ],
+        solid: [
+            .micro: .bold(3.3),
+            .base: .bold(3.1),
+        ],
+        duotonePrimary: ["lead", "mid"],
+        multicolor: ["lead": .ink500, "mid": .ink500, "trail": .ink300]
+    ),
+    .statusOffline: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("cloud", [.path("M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z", false)]),
+                PlantimV4Layer("slash", [.path("M3 3l18 18", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("cloud", [.path("M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z", false)]),
+                PlantimV4Layer("slash", [.path("M3 3l18 18", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("cloud", [.path("M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z", false)]),
+                PlantimV4Layer("slash", [.path("M3 3l18 18", false)]),
+            ],
+        ],
+        solid: [
+            .micro: .bold(3.3),
+            .base: .bold(3.1),
+        ],
+        duotonePrimary: ["cloud", "slash"],
+        multicolor: ["cloud": .ink500, "slash": .statusError]
+    ),
+    .statusPending: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("caps", [.path("M6 3h12", false), .path("M6 21h12", false)]),
+                PlantimV4Layer("glass", [.path("M8 3v3.6c0 1.6 3.2 4.1 3.2 5.4s-3.2 3.8-3.2 5.4V21", false), .path("M16 3v3.6c0 1.6-3.2 4.1-3.2 5.4s3.2 3.8 3.2 5.4V21", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("caps", [.path("M6 3h12", false), .path("M6 21h12", false)]),
+                PlantimV4Layer("glass", [.path("M8 3v3.6c0 1.6 3.2 4.1 3.2 5.4s-3.2 3.8-3.2 5.4V21", false), .path("M16 3v3.6c0 1.6-3.2 4.1-3.2 5.4s3.2 3.8 3.2 5.4V21", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("caps", [.path("M6 3h12", false), .path("M6 21h12", false)]),
+                PlantimV4Layer("glass", [.path("M8 3v3.6c0 1.6 3.2 4.1 3.2 5.4s-3.2 3.8-3.2 5.4V21", false), .path("M16 3v3.6c0 1.6-3.2 4.1-3.2 5.4s3.2 3.8 3.2 5.4V21", false)]),
+            ],
+        ],
+        solid: [
+            .micro: .bold(3.3),
+            .base: .bold(3.1),
+        ],
+        duotonePrimary: ["glass"],
+        multicolor: ["caps": .ink500, "glass": .sun500]
     ),
     .statusStreak: PlantimV4IconData(
         grades: [
@@ -3405,6 +4481,28 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
         duotonePrimary: ["primary"],
         multicolor: ["primary": .ink900]
     ),
+    .utilityCameraPlus: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("body", [.path("M13.997 4a2 2 0 0 1 1.76 1.05l.486.9A2 2 0 0 0 18.003 7H20a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1.997a2 2 0 0 0 1.759-1.048l.489-.904A2 2 0 0 1 10.004 4z", false)]),
+                PlantimV4Layer("plus", [.path("M12 10.5v5", false), .path("M9.5 13h5", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("body", [.path("M13.997 4a2 2 0 0 1 1.76 1.05l.486.9A2 2 0 0 0 18.003 7H20a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1.997a2 2 0 0 0 1.759-1.048l.489-.904A2 2 0 0 1 10.004 4z", false)]),
+                PlantimV4Layer("plus", [.path("M12 10.5v5", false), .path("M9.5 13h5", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("body", [.path("M13.997 4a2 2 0 0 1 1.76 1.05l.486.9A2 2 0 0 0 18.003 7H20a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1.997a2 2 0 0 0 1.759-1.048l.489-.904A2 2 0 0 1 10.004 4z", false)]),
+                PlantimV4Layer("plus", [.path("M12 10.5v5", false), .path("M9.5 13h5", false)]),
+            ],
+        ],
+        solid: [
+            .micro: .bold(3.3),
+            .base: .bold(3.1),
+        ],
+        duotonePrimary: ["body"],
+        multicolor: ["body": .ink900, "plus": .leaf700]
+    ),
     .utilityCheckCheck: PlantimV4IconData(
         grades: [
             .micro: [
@@ -3714,6 +4812,69 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
         ],
         duotonePrimary: ["primary"],
         multicolor: ["primary": .ink900]
+    ),
+    .utilityDownload: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("tray", [.path("M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4", false)]),
+                PlantimV4Layer("arrow", [.path("M7 10l5 5 5-5", false), .path("M12 15V3", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("tray", [.path("M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4", false)]),
+                PlantimV4Layer("arrow", [.path("M7 10l5 5 5-5", false), .path("M12 15V3", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("tray", [.path("M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4", false)]),
+                PlantimV4Layer("arrow", [.path("M7 10l5 5 5-5", false), .path("M12 15V3", false)]),
+            ],
+        ],
+        solid: [
+            .micro: .bold(3.3),
+            .base: .bold(3.1),
+        ],
+        duotonePrimary: ["arrow"],
+        multicolor: ["tray": .water600, "arrow": .water600]
+    ),
+    .utilityDragHandle: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("dots", [.circle(9, 6, 1, false), .circle(9, 12, 1, false), .circle(9, 18, 1, false), .circle(15, 6, 1, false), .circle(15, 12, 1, false), .circle(15, 18, 1, false)]),
+            ],
+            .base: [
+                PlantimV4Layer("dots", [.circle(9, 6, 0.8, false), .circle(9, 12, 0.8, false), .circle(9, 18, 0.8, false), .circle(15, 6, 0.8, false), .circle(15, 12, 0.8, false), .circle(15, 18, 0.8, false)]),
+            ],
+            .display: [
+                PlantimV4Layer("dots", [.circle(9, 6, 0.8, false), .circle(9, 12, 0.8, false), .circle(9, 18, 0.8, false), .circle(15, 6, 0.8, false), .circle(15, 12, 0.8, false), .circle(15, 18, 0.8, false)]),
+            ],
+        ],
+        solid: [
+            .micro: .bold(3.3),
+            .base: .bold(3.1),
+        ],
+        duotonePrimary: ["dots"],
+        multicolor: ["dots": .ink500]
+    ),
+    .utilityExternalLink: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("box", [.path("M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6", false)]),
+                PlantimV4Layer("arrow", [.path("M15 3h6v6", false), .path("M10 14 21 3", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("box", [.path("M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6", false)]),
+                PlantimV4Layer("arrow", [.path("M15 3h6v6", false), .path("M10 14 21 3", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("box", [.path("M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6", false)]),
+                PlantimV4Layer("arrow", [.path("M15 3h6v6", false), .path("M10 14 21 3", false)]),
+            ],
+        ],
+        solid: [
+            .micro: .bold(3.3),
+            .base: .bold(3.1),
+        ],
+        duotonePrimary: ["arrow"],
+        multicolor: ["box": .ink500, "arrow": .ink900]
     ),
     .utilityEye: PlantimV4IconData(
         grades: [
@@ -4043,6 +5204,28 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
         ],
         duotonePrimary: ["primary"],
         multicolor: ["primary": .sun500, "accent": .sun500]
+    ),
+    .utilityLanguage: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("bubble", [.path("M5 3h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-6.5L8 21v-4H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z", false)]),
+                PlantimV4Layer("glyph", [.path("M8.3 14.2l3.7-8.4 3.7 8.4", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("bubble", [.path("M5 3h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-6.5L8 21v-4H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z", false)]),
+                PlantimV4Layer("glyph", [.path("M8.5 14l3.5-8 3.5 8", false), .path("M9.9 11h4.2", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("bubble", [.path("M5 3h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-6.5L8 21v-4H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z", false)]),
+                PlantimV4Layer("glyph", [.path("M8.5 14l3.5-8 3.5 8", false), .path("M9.9 11h4.2", false)]),
+            ],
+        ],
+        solid: [
+            .micro: .bold(3.3),
+            .base: .bold(3.1),
+        ],
+        duotonePrimary: ["glyph"],
+        multicolor: ["bubble": .ink500, "glyph": .leaf700]
     ),
     .utilityLayoutGrid: PlantimV4IconData(
         grades: [
@@ -4476,6 +5659,29 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
         duotonePrimary: ["plus"],
         multicolor: ["ring": .leaf700, "plus": .leaf500]
     ),
+    .utilityQrCode: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("finders", [.rect(3, 3, 7, 7, 1.5, false), .rect(14, 3, 7, 7, 1.5, false), .rect(3, 14, 7, 7, 1.5, false)]),
+                PlantimV4Layer("modules", [.path("M14 14h3v3", false), .circle(20, 20.5, 1.7, true)]),
+            ],
+            .base: [
+                PlantimV4Layer("finders", [.rect(3, 3, 7, 7, 1.5, false), .rect(14, 3, 7, 7, 1.5, false), .rect(3, 14, 7, 7, 1.5, false)]),
+                PlantimV4Layer("eyes", [.circle(6.5, 6.5, 1.5, true), .circle(17.5, 6.5, 1.5, true), .circle(6.5, 17.5, 1.5, true)]),
+                PlantimV4Layer("modules", [.path("M14 14h3v3", false), .path("M21 14v3", false), .path("M14 21h3", false), .circle(20, 20.5, 1.5, true)]),
+            ],
+            .display: [
+                PlantimV4Layer("finders", [.rect(3, 3, 7, 7, 1.5, false), .rect(14, 3, 7, 7, 1.5, false), .rect(3, 14, 7, 7, 1.5, false)]),
+                PlantimV4Layer("eyes", [.circle(6.5, 6.5, 1.5, true), .circle(17.5, 6.5, 1.5, true), .circle(6.5, 17.5, 1.5, true)]),
+                PlantimV4Layer("modules", [.path("M14 14h3v3", false), .path("M21 14v3", false), .path("M14 21h3", false), .circle(20, 20.5, 1.5, true)]),
+            ],
+        ],
+        solid: [
+            .base: .fill(["M4 2h5a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2ZM4 4h5v5H4ZM5.5 5.5h2v2h-2Z", "M15 2h5a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2ZM15 4h5v5h-5ZM16.5 5.5h2v2h-2Z", "M4 13h5a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2ZM4 15h5v5H4ZM5.5 16.5h2v2h-2Z", "M13 13h5v2h-3v3h-2Z", "M20 13h2v5h-2Z", "M13 20h5v2h-5Z", "M20 19a1.5 1.5 0 1 0 0 3a1.5 1.5 0 1 0 0-3Z"]),
+        ],
+        duotonePrimary: ["finders", "eyes"],
+        multicolor: ["finders": .ink900, "eyes": .ink900, "modules": .ink500]
+    ),
     .utilityQuote: PlantimV4IconData(
         grades: [
             .micro: [
@@ -4760,6 +5966,28 @@ private let plantimV4IconData: [PlantimIconV4Name: PlantimV4IconData] = [
         ],
         duotonePrimary: ["primary"],
         multicolor: ["primary": .water300]
+    ),
+    .utilitySort: PlantimV4IconData(
+        grades: [
+            .micro: [
+                PlantimV4Layer("up", [.path("M7 20V4", false), .path("M3 8l4-4 4 4", false)]),
+                PlantimV4Layer("down", [.path("M17 4v16", false), .path("M13 16l4 4 4-4", false)]),
+            ],
+            .base: [
+                PlantimV4Layer("up", [.path("M7 20V4", false), .path("M3 8l4-4 4 4", false)]),
+                PlantimV4Layer("down", [.path("M17 4v16", false), .path("M13 16l4 4 4-4", false)]),
+            ],
+            .display: [
+                PlantimV4Layer("up", [.path("M7 20V4", false), .path("M3 8l4-4 4 4", false)]),
+                PlantimV4Layer("down", [.path("M17 4v16", false), .path("M13 16l4 4 4-4", false)]),
+            ],
+        ],
+        solid: [
+            .micro: .bold(3.3),
+            .base: .bold(3.1),
+        ],
+        duotonePrimary: ["up"],
+        multicolor: ["up": .ink900, "down": .ink500]
     ),
     .utilitySparkles: PlantimV4IconData(
         grades: [
