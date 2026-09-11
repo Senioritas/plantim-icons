@@ -67,6 +67,12 @@ function findChromium() {
  */
 export async function htmlToPdf(html, outPath) {
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
+  // Debug aid: PLANTIM_PDF_HTML_DIR=<dir> also writes the source HTML next to a
+  // matching basename, so a report can be inspected in a browser without a PDF rasterizer.
+  if (process.env.PLANTIM_PDF_HTML_DIR) {
+    fs.mkdirSync(process.env.PLANTIM_PDF_HTML_DIR, { recursive: true });
+    fs.writeFileSync(path.join(process.env.PLANTIM_PDF_HTML_DIR, path.basename(outPath, ".pdf") + ".html"), html);
+  }
 
   // Preferred path: the playwright package (matches how CI already renders galleries).
   // Best-effort — if the package is absent OR its browser build isn't downloaded, fall

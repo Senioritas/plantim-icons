@@ -1,0 +1,1511 @@
+{
+  "version": "4.1.0-proposal",
+  "proposalHash": "520b57ace477bc3314f4ebf9efa9b9cb8ae8bac5f9a43e3d88fb49b1a98a4071",
+  "counts": {
+    "icons": 27,
+    "flags": 14,
+    "total": 41,
+    "P1": 31,
+    "P2": 10
+  },
+  "icons": [
+    {
+      "id": "calendar.add",
+      "kind": "icon",
+      "category": "calendar",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Add event",
+      "files": {
+        "outline": {
+          "16": "svg/outline/calendar.add@16.svg",
+          "20": "svg/outline/calendar.add@20.svg",
+          "24": "svg/outline/calendar.add@24.svg",
+          "32": "svg/outline/calendar.add@32.svg",
+          "48": "svg/outline/calendar.add@48.svg",
+          "72": "svg/outline/calendar.add@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/calendar.add@16.svg",
+          "20": "svg/solid/calendar.add@20.svg",
+          "24": "svg/solid/calendar.add@24.svg",
+          "32": "svg/solid/calendar.add@32.svg",
+          "48": "svg/solid/calendar.add@48.svg",
+          "72": "svg/solid/calendar.add@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/calendar.add@16.svg",
+          "20": "svg/duotone/calendar.add@20.svg",
+          "24": "svg/duotone/calendar.add@24.svg",
+          "32": "svg/duotone/calendar.add@32.svg",
+          "48": "svg/duotone/calendar.add@48.svg",
+          "72": "svg/duotone/calendar.add@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/calendar.add@16.svg",
+          "20": "svg/multicolor/calendar.add@20.svg",
+          "24": "svg/multicolor/calendar.add@24.svg",
+          "32": "svg/multicolor/calendar.add@32.svg",
+          "48": "svg/multicolor/calendar.add@48.svg",
+          "72": "svg/multicolor/calendar.add@72.svg"
+        }
+      }
+    },
+    {
+      "id": "care.misting",
+      "kind": "icon",
+      "category": "care",
+      "tier": "P2",
+      "verdict": "new",
+      "label": "Misting",
+      "files": {
+        "outline": {
+          "16": "svg/outline/care.misting@16.svg",
+          "20": "svg/outline/care.misting@20.svg",
+          "24": "svg/outline/care.misting@24.svg",
+          "32": "svg/outline/care.misting@32.svg",
+          "48": "svg/outline/care.misting@48.svg",
+          "72": "svg/outline/care.misting@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/care.misting@16.svg",
+          "20": "svg/solid/care.misting@20.svg",
+          "24": "svg/solid/care.misting@24.svg",
+          "32": "svg/solid/care.misting@32.svg",
+          "48": "svg/solid/care.misting@48.svg",
+          "72": "svg/solid/care.misting@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/care.misting@16.svg",
+          "20": "svg/duotone/care.misting@20.svg",
+          "24": "svg/duotone/care.misting@24.svg",
+          "32": "svg/duotone/care.misting@32.svg",
+          "48": "svg/duotone/care.misting@48.svg",
+          "72": "svg/duotone/care.misting@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/care.misting@16.svg",
+          "20": "svg/multicolor/care.misting@20.svg",
+          "24": "svg/multicolor/care.misting@24.svg",
+          "32": "svg/multicolor/care.misting@32.svg",
+          "48": "svg/multicolor/care.misting@48.svg",
+          "72": "svg/multicolor/care.misting@72.svg"
+        }
+      }
+    },
+    {
+      "id": "care.rotating",
+      "kind": "icon",
+      "category": "care",
+      "tier": "P2",
+      "verdict": "new",
+      "label": "Rotating",
+      "files": {
+        "outline": {
+          "16": "svg/outline/care.rotating@16.svg",
+          "20": "svg/outline/care.rotating@20.svg",
+          "24": "svg/outline/care.rotating@24.svg",
+          "32": "svg/outline/care.rotating@32.svg",
+          "48": "svg/outline/care.rotating@48.svg",
+          "72": "svg/outline/care.rotating@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/care.rotating@16.svg",
+          "20": "svg/solid/care.rotating@20.svg",
+          "24": "svg/solid/care.rotating@24.svg",
+          "32": "svg/solid/care.rotating@32.svg",
+          "48": "svg/solid/care.rotating@48.svg",
+          "72": "svg/solid/care.rotating@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/care.rotating@16.svg",
+          "20": "svg/duotone/care.rotating@20.svg",
+          "24": "svg/duotone/care.rotating@24.svg",
+          "32": "svg/duotone/care.rotating@32.svg",
+          "48": "svg/duotone/care.rotating@48.svg",
+          "72": "svg/duotone/care.rotating@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/care.rotating@16.svg",
+          "20": "svg/multicolor/care.rotating@20.svg",
+          "24": "svg/multicolor/care.rotating@24.svg",
+          "32": "svg/multicolor/care.rotating@32.svg",
+          "48": "svg/multicolor/care.rotating@48.svg",
+          "72": "svg/multicolor/care.rotating@72.svg"
+        }
+      }
+    },
+    {
+      "id": "location.indoor",
+      "kind": "icon",
+      "category": "location",
+      "tier": "P2",
+      "verdict": "new",
+      "label": "Indoor",
+      "files": {
+        "outline": {
+          "16": "svg/outline/location.indoor@16.svg",
+          "20": "svg/outline/location.indoor@20.svg",
+          "24": "svg/outline/location.indoor@24.svg",
+          "32": "svg/outline/location.indoor@32.svg",
+          "48": "svg/outline/location.indoor@48.svg",
+          "72": "svg/outline/location.indoor@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/location.indoor@16.svg",
+          "20": "svg/solid/location.indoor@20.svg",
+          "24": "svg/solid/location.indoor@24.svg",
+          "32": "svg/solid/location.indoor@32.svg",
+          "48": "svg/solid/location.indoor@48.svg",
+          "72": "svg/solid/location.indoor@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/location.indoor@16.svg",
+          "20": "svg/duotone/location.indoor@20.svg",
+          "24": "svg/duotone/location.indoor@24.svg",
+          "32": "svg/duotone/location.indoor@32.svg",
+          "48": "svg/duotone/location.indoor@48.svg",
+          "72": "svg/duotone/location.indoor@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/location.indoor@16.svg",
+          "20": "svg/multicolor/location.indoor@20.svg",
+          "24": "svg/multicolor/location.indoor@24.svg",
+          "32": "svg/multicolor/location.indoor@32.svg",
+          "48": "svg/multicolor/location.indoor@48.svg",
+          "72": "svg/multicolor/location.indoor@72.svg"
+        }
+      }
+    },
+    {
+      "id": "location.outdoor",
+      "kind": "icon",
+      "category": "location",
+      "tier": "P2",
+      "verdict": "new",
+      "label": "Outdoor",
+      "files": {
+        "outline": {
+          "16": "svg/outline/location.outdoor@16.svg",
+          "20": "svg/outline/location.outdoor@20.svg",
+          "24": "svg/outline/location.outdoor@24.svg",
+          "32": "svg/outline/location.outdoor@32.svg",
+          "48": "svg/outline/location.outdoor@48.svg",
+          "72": "svg/outline/location.outdoor@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/location.outdoor@16.svg",
+          "20": "svg/solid/location.outdoor@20.svg",
+          "24": "svg/solid/location.outdoor@24.svg",
+          "32": "svg/solid/location.outdoor@32.svg",
+          "48": "svg/solid/location.outdoor@48.svg",
+          "72": "svg/solid/location.outdoor@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/location.outdoor@16.svg",
+          "20": "svg/duotone/location.outdoor@20.svg",
+          "24": "svg/duotone/location.outdoor@24.svg",
+          "32": "svg/duotone/location.outdoor@32.svg",
+          "48": "svg/duotone/location.outdoor@48.svg",
+          "72": "svg/duotone/location.outdoor@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/location.outdoor@16.svg",
+          "20": "svg/multicolor/location.outdoor@20.svg",
+          "24": "svg/multicolor/location.outdoor@24.svg",
+          "32": "svg/multicolor/location.outdoor@32.svg",
+          "48": "svg/multicolor/location.outdoor@48.svg",
+          "72": "svg/multicolor/location.outdoor@72.svg"
+        }
+      }
+    },
+    {
+      "id": "location.room",
+      "kind": "icon",
+      "category": "location",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Room",
+      "files": {
+        "outline": {
+          "16": "svg/outline/location.room@16.svg",
+          "20": "svg/outline/location.room@20.svg",
+          "24": "svg/outline/location.room@24.svg",
+          "32": "svg/outline/location.room@32.svg",
+          "48": "svg/outline/location.room@48.svg",
+          "72": "svg/outline/location.room@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/location.room@16.svg",
+          "20": "svg/solid/location.room@20.svg",
+          "24": "svg/solid/location.room@24.svg",
+          "32": "svg/solid/location.room@32.svg",
+          "48": "svg/solid/location.room@48.svg",
+          "72": "svg/solid/location.room@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/location.room@16.svg",
+          "20": "svg/duotone/location.room@20.svg",
+          "24": "svg/duotone/location.room@24.svg",
+          "32": "svg/duotone/location.room@32.svg",
+          "48": "svg/duotone/location.room@48.svg",
+          "72": "svg/duotone/location.room@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/location.room@16.svg",
+          "20": "svg/multicolor/location.room@20.svg",
+          "24": "svg/multicolor/location.room@24.svg",
+          "32": "svg/multicolor/location.room@32.svg",
+          "48": "svg/multicolor/location.room@48.svg",
+          "72": "svg/multicolor/location.room@72.svg"
+        }
+      }
+    },
+    {
+      "id": "placeholder.avatar",
+      "kind": "icon",
+      "category": "placeholder",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Avatar placeholder",
+      "files": {
+        "outline": {
+          "16": "svg/outline/placeholder.avatar@16.svg",
+          "20": "svg/outline/placeholder.avatar@20.svg",
+          "24": "svg/outline/placeholder.avatar@24.svg",
+          "32": "svg/outline/placeholder.avatar@32.svg",
+          "48": "svg/outline/placeholder.avatar@48.svg",
+          "72": "svg/outline/placeholder.avatar@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/placeholder.avatar@16.svg",
+          "20": "svg/solid/placeholder.avatar@20.svg",
+          "24": "svg/solid/placeholder.avatar@24.svg",
+          "32": "svg/solid/placeholder.avatar@32.svg",
+          "48": "svg/solid/placeholder.avatar@48.svg",
+          "72": "svg/solid/placeholder.avatar@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/placeholder.avatar@16.svg",
+          "20": "svg/duotone/placeholder.avatar@20.svg",
+          "24": "svg/duotone/placeholder.avatar@24.svg",
+          "32": "svg/duotone/placeholder.avatar@32.svg",
+          "48": "svg/duotone/placeholder.avatar@48.svg",
+          "72": "svg/duotone/placeholder.avatar@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/placeholder.avatar@16.svg",
+          "20": "svg/multicolor/placeholder.avatar@20.svg",
+          "24": "svg/multicolor/placeholder.avatar@24.svg",
+          "32": "svg/multicolor/placeholder.avatar@32.svg",
+          "48": "svg/multicolor/placeholder.avatar@48.svg",
+          "72": "svg/multicolor/placeholder.avatar@72.svg"
+        }
+      }
+    },
+    {
+      "id": "placeholder.card",
+      "kind": "icon",
+      "category": "placeholder",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Card skeleton",
+      "files": {
+        "outline": {
+          "16": "svg/outline/placeholder.card@16.svg",
+          "20": "svg/outline/placeholder.card@20.svg",
+          "24": "svg/outline/placeholder.card@24.svg",
+          "32": "svg/outline/placeholder.card@32.svg",
+          "48": "svg/outline/placeholder.card@48.svg",
+          "72": "svg/outline/placeholder.card@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/placeholder.card@16.svg",
+          "20": "svg/solid/placeholder.card@20.svg",
+          "24": "svg/solid/placeholder.card@24.svg",
+          "32": "svg/solid/placeholder.card@32.svg",
+          "48": "svg/solid/placeholder.card@48.svg",
+          "72": "svg/solid/placeholder.card@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/placeholder.card@16.svg",
+          "20": "svg/duotone/placeholder.card@20.svg",
+          "24": "svg/duotone/placeholder.card@24.svg",
+          "32": "svg/duotone/placeholder.card@32.svg",
+          "48": "svg/duotone/placeholder.card@48.svg",
+          "72": "svg/duotone/placeholder.card@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/placeholder.card@16.svg",
+          "20": "svg/multicolor/placeholder.card@20.svg",
+          "24": "svg/multicolor/placeholder.card@24.svg",
+          "32": "svg/multicolor/placeholder.card@32.svg",
+          "48": "svg/multicolor/placeholder.card@48.svg",
+          "72": "svg/multicolor/placeholder.card@72.svg"
+        }
+      }
+    },
+    {
+      "id": "placeholder.chart",
+      "kind": "icon",
+      "category": "placeholder",
+      "tier": "P2",
+      "verdict": "new",
+      "label": "Chart skeleton",
+      "files": {
+        "outline": {
+          "16": "svg/outline/placeholder.chart@16.svg",
+          "20": "svg/outline/placeholder.chart@20.svg",
+          "24": "svg/outline/placeholder.chart@24.svg",
+          "32": "svg/outline/placeholder.chart@32.svg",
+          "48": "svg/outline/placeholder.chart@48.svg",
+          "72": "svg/outline/placeholder.chart@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/placeholder.chart@16.svg",
+          "20": "svg/solid/placeholder.chart@20.svg",
+          "24": "svg/solid/placeholder.chart@24.svg",
+          "32": "svg/solid/placeholder.chart@32.svg",
+          "48": "svg/solid/placeholder.chart@48.svg",
+          "72": "svg/solid/placeholder.chart@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/placeholder.chart@16.svg",
+          "20": "svg/duotone/placeholder.chart@20.svg",
+          "24": "svg/duotone/placeholder.chart@24.svg",
+          "32": "svg/duotone/placeholder.chart@32.svg",
+          "48": "svg/duotone/placeholder.chart@48.svg",
+          "72": "svg/duotone/placeholder.chart@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/placeholder.chart@16.svg",
+          "20": "svg/multicolor/placeholder.chart@20.svg",
+          "24": "svg/multicolor/placeholder.chart@24.svg",
+          "32": "svg/multicolor/placeholder.chart@32.svg",
+          "48": "svg/multicolor/placeholder.chart@48.svg",
+          "72": "svg/multicolor/placeholder.chart@72.svg"
+        }
+      }
+    },
+    {
+      "id": "placeholder.list",
+      "kind": "icon",
+      "category": "placeholder",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "List row skeleton",
+      "files": {
+        "outline": {
+          "16": "svg/outline/placeholder.list@16.svg",
+          "20": "svg/outline/placeholder.list@20.svg",
+          "24": "svg/outline/placeholder.list@24.svg",
+          "32": "svg/outline/placeholder.list@32.svg",
+          "48": "svg/outline/placeholder.list@48.svg",
+          "72": "svg/outline/placeholder.list@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/placeholder.list@16.svg",
+          "20": "svg/solid/placeholder.list@20.svg",
+          "24": "svg/solid/placeholder.list@24.svg",
+          "32": "svg/solid/placeholder.list@32.svg",
+          "48": "svg/solid/placeholder.list@48.svg",
+          "72": "svg/solid/placeholder.list@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/placeholder.list@16.svg",
+          "20": "svg/duotone/placeholder.list@20.svg",
+          "24": "svg/duotone/placeholder.list@24.svg",
+          "32": "svg/duotone/placeholder.list@32.svg",
+          "48": "svg/duotone/placeholder.list@48.svg",
+          "72": "svg/duotone/placeholder.list@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/placeholder.list@16.svg",
+          "20": "svg/multicolor/placeholder.list@20.svg",
+          "24": "svg/multicolor/placeholder.list@24.svg",
+          "32": "svg/multicolor/placeholder.list@32.svg",
+          "48": "svg/multicolor/placeholder.list@48.svg",
+          "72": "svg/multicolor/placeholder.list@72.svg"
+        }
+      }
+    },
+    {
+      "id": "placeholder.plant",
+      "kind": "icon",
+      "category": "placeholder",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Plant photo placeholder",
+      "files": {
+        "outline": {
+          "16": "svg/outline/placeholder.plant@16.svg",
+          "20": "svg/outline/placeholder.plant@20.svg",
+          "24": "svg/outline/placeholder.plant@24.svg",
+          "32": "svg/outline/placeholder.plant@32.svg",
+          "48": "svg/outline/placeholder.plant@48.svg",
+          "72": "svg/outline/placeholder.plant@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/placeholder.plant@16.svg",
+          "20": "svg/solid/placeholder.plant@20.svg",
+          "24": "svg/solid/placeholder.plant@24.svg",
+          "32": "svg/solid/placeholder.plant@32.svg",
+          "48": "svg/solid/placeholder.plant@48.svg",
+          "72": "svg/solid/placeholder.plant@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/placeholder.plant@16.svg",
+          "20": "svg/duotone/placeholder.plant@20.svg",
+          "24": "svg/duotone/placeholder.plant@24.svg",
+          "32": "svg/duotone/placeholder.plant@32.svg",
+          "48": "svg/duotone/placeholder.plant@48.svg",
+          "72": "svg/duotone/placeholder.plant@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/placeholder.plant@16.svg",
+          "20": "svg/multicolor/placeholder.plant@20.svg",
+          "24": "svg/multicolor/placeholder.plant@24.svg",
+          "32": "svg/multicolor/placeholder.plant@32.svg",
+          "48": "svg/multicolor/placeholder.plant@48.svg",
+          "72": "svg/multicolor/placeholder.plant@72.svg"
+        }
+      }
+    },
+    {
+      "id": "placeholder.text",
+      "kind": "icon",
+      "category": "placeholder",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Text skeleton",
+      "files": {
+        "outline": {
+          "16": "svg/outline/placeholder.text@16.svg",
+          "20": "svg/outline/placeholder.text@20.svg",
+          "24": "svg/outline/placeholder.text@24.svg",
+          "32": "svg/outline/placeholder.text@32.svg",
+          "48": "svg/outline/placeholder.text@48.svg",
+          "72": "svg/outline/placeholder.text@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/placeholder.text@16.svg",
+          "20": "svg/solid/placeholder.text@20.svg",
+          "24": "svg/solid/placeholder.text@24.svg",
+          "32": "svg/solid/placeholder.text@32.svg",
+          "48": "svg/solid/placeholder.text@48.svg",
+          "72": "svg/solid/placeholder.text@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/placeholder.text@16.svg",
+          "20": "svg/duotone/placeholder.text@20.svg",
+          "24": "svg/duotone/placeholder.text@24.svg",
+          "32": "svg/duotone/placeholder.text@32.svg",
+          "48": "svg/duotone/placeholder.text@48.svg",
+          "72": "svg/duotone/placeholder.text@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/placeholder.text@16.svg",
+          "20": "svg/multicolor/placeholder.text@20.svg",
+          "24": "svg/multicolor/placeholder.text@24.svg",
+          "32": "svg/multicolor/placeholder.text@32.svg",
+          "48": "svg/multicolor/placeholder.text@48.svg",
+          "72": "svg/multicolor/placeholder.text@72.svg"
+        }
+      }
+    },
+    {
+      "id": "plant.humidity",
+      "kind": "icon",
+      "category": "plant",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Humidity",
+      "files": {
+        "outline": {
+          "16": "svg/outline/plant.humidity@16.svg",
+          "20": "svg/outline/plant.humidity@20.svg",
+          "24": "svg/outline/plant.humidity@24.svg",
+          "32": "svg/outline/plant.humidity@32.svg",
+          "48": "svg/outline/plant.humidity@48.svg",
+          "72": "svg/outline/plant.humidity@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/plant.humidity@16.svg",
+          "20": "svg/solid/plant.humidity@20.svg",
+          "24": "svg/solid/plant.humidity@24.svg",
+          "32": "svg/solid/plant.humidity@32.svg",
+          "48": "svg/solid/plant.humidity@48.svg",
+          "72": "svg/solid/plant.humidity@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/plant.humidity@16.svg",
+          "20": "svg/duotone/plant.humidity@20.svg",
+          "24": "svg/duotone/plant.humidity@24.svg",
+          "32": "svg/duotone/plant.humidity@32.svg",
+          "48": "svg/duotone/plant.humidity@48.svg",
+          "72": "svg/duotone/plant.humidity@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/plant.humidity@16.svg",
+          "20": "svg/multicolor/plant.humidity@20.svg",
+          "24": "svg/multicolor/plant.humidity@24.svg",
+          "32": "svg/multicolor/plant.humidity@32.svg",
+          "48": "svg/multicolor/plant.humidity@48.svg",
+          "72": "svg/multicolor/plant.humidity@72.svg"
+        }
+      }
+    },
+    {
+      "id": "plant.identify",
+      "kind": "icon",
+      "category": "plant",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Identify plant",
+      "files": {
+        "outline": {
+          "16": "svg/outline/plant.identify@16.svg",
+          "20": "svg/outline/plant.identify@20.svg",
+          "24": "svg/outline/plant.identify@24.svg",
+          "32": "svg/outline/plant.identify@32.svg",
+          "48": "svg/outline/plant.identify@48.svg",
+          "72": "svg/outline/plant.identify@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/plant.identify@16.svg",
+          "20": "svg/solid/plant.identify@20.svg",
+          "24": "svg/solid/plant.identify@24.svg",
+          "32": "svg/solid/plant.identify@32.svg",
+          "48": "svg/solid/plant.identify@48.svg",
+          "72": "svg/solid/plant.identify@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/plant.identify@16.svg",
+          "20": "svg/duotone/plant.identify@20.svg",
+          "24": "svg/duotone/plant.identify@24.svg",
+          "32": "svg/duotone/plant.identify@32.svg",
+          "48": "svg/duotone/plant.identify@48.svg",
+          "72": "svg/duotone/plant.identify@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/plant.identify@16.svg",
+          "20": "svg/multicolor/plant.identify@20.svg",
+          "24": "svg/multicolor/plant.identify@24.svg",
+          "32": "svg/multicolor/plant.identify@32.svg",
+          "48": "svg/multicolor/plant.identify@48.svg",
+          "72": "svg/multicolor/plant.identify@72.svg"
+        }
+      }
+    },
+    {
+      "id": "plant.light",
+      "kind": "icon",
+      "category": "plant",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Light",
+      "files": {
+        "outline": {
+          "16": "svg/outline/plant.light@16.svg",
+          "20": "svg/outline/plant.light@20.svg",
+          "24": "svg/outline/plant.light@24.svg",
+          "32": "svg/outline/plant.light@32.svg",
+          "48": "svg/outline/plant.light@48.svg",
+          "72": "svg/outline/plant.light@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/plant.light@16.svg",
+          "20": "svg/solid/plant.light@20.svg",
+          "24": "svg/solid/plant.light@24.svg",
+          "32": "svg/solid/plant.light@32.svg",
+          "48": "svg/solid/plant.light@48.svg",
+          "72": "svg/solid/plant.light@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/plant.light@16.svg",
+          "20": "svg/duotone/plant.light@20.svg",
+          "24": "svg/duotone/plant.light@24.svg",
+          "32": "svg/duotone/plant.light@32.svg",
+          "48": "svg/duotone/plant.light@48.svg",
+          "72": "svg/duotone/plant.light@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/plant.light@16.svg",
+          "20": "svg/multicolor/plant.light@20.svg",
+          "24": "svg/multicolor/plant.light@24.svg",
+          "32": "svg/multicolor/plant.light@32.svg",
+          "48": "svg/multicolor/plant.light@48.svg",
+          "72": "svg/multicolor/plant.light@72.svg"
+        }
+      }
+    },
+    {
+      "id": "plant.pet.safe",
+      "kind": "icon",
+      "category": "plant",
+      "tier": "P2",
+      "verdict": "new",
+      "label": "Pet safe",
+      "files": {
+        "outline": {
+          "16": "svg/outline/plant.pet.safe@16.svg",
+          "20": "svg/outline/plant.pet.safe@20.svg",
+          "24": "svg/outline/plant.pet.safe@24.svg",
+          "32": "svg/outline/plant.pet.safe@32.svg",
+          "48": "svg/outline/plant.pet.safe@48.svg",
+          "72": "svg/outline/plant.pet.safe@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/plant.pet.safe@16.svg",
+          "20": "svg/solid/plant.pet.safe@20.svg",
+          "24": "svg/solid/plant.pet.safe@24.svg",
+          "32": "svg/solid/plant.pet.safe@32.svg",
+          "48": "svg/solid/plant.pet.safe@48.svg",
+          "72": "svg/solid/plant.pet.safe@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/plant.pet.safe@16.svg",
+          "20": "svg/duotone/plant.pet.safe@20.svg",
+          "24": "svg/duotone/plant.pet.safe@24.svg",
+          "32": "svg/duotone/plant.pet.safe@32.svg",
+          "48": "svg/duotone/plant.pet.safe@48.svg",
+          "72": "svg/duotone/plant.pet.safe@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/plant.pet.safe@16.svg",
+          "20": "svg/multicolor/plant.pet.safe@20.svg",
+          "24": "svg/multicolor/plant.pet.safe@24.svg",
+          "32": "svg/multicolor/plant.pet.safe@32.svg",
+          "48": "svg/multicolor/plant.pet.safe@48.svg",
+          "72": "svg/multicolor/plant.pet.safe@72.svg"
+        }
+      }
+    },
+    {
+      "id": "plant.pet.unsafe",
+      "kind": "icon",
+      "category": "plant",
+      "tier": "P2",
+      "verdict": "new",
+      "label": "Toxic to pets",
+      "files": {
+        "outline": {
+          "16": "svg/outline/plant.pet.unsafe@16.svg",
+          "20": "svg/outline/plant.pet.unsafe@20.svg",
+          "24": "svg/outline/plant.pet.unsafe@24.svg",
+          "32": "svg/outline/plant.pet.unsafe@32.svg",
+          "48": "svg/outline/plant.pet.unsafe@48.svg",
+          "72": "svg/outline/plant.pet.unsafe@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/plant.pet.unsafe@16.svg",
+          "20": "svg/solid/plant.pet.unsafe@20.svg",
+          "24": "svg/solid/plant.pet.unsafe@24.svg",
+          "32": "svg/solid/plant.pet.unsafe@32.svg",
+          "48": "svg/solid/plant.pet.unsafe@48.svg",
+          "72": "svg/solid/plant.pet.unsafe@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/plant.pet.unsafe@16.svg",
+          "20": "svg/duotone/plant.pet.unsafe@20.svg",
+          "24": "svg/duotone/plant.pet.unsafe@24.svg",
+          "32": "svg/duotone/plant.pet.unsafe@32.svg",
+          "48": "svg/duotone/plant.pet.unsafe@48.svg",
+          "72": "svg/duotone/plant.pet.unsafe@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/plant.pet.unsafe@16.svg",
+          "20": "svg/multicolor/plant.pet.unsafe@20.svg",
+          "24": "svg/multicolor/plant.pet.unsafe@24.svg",
+          "32": "svg/multicolor/plant.pet.unsafe@32.svg",
+          "48": "svg/multicolor/plant.pet.unsafe@48.svg",
+          "72": "svg/multicolor/plant.pet.unsafe@72.svg"
+        }
+      }
+    },
+    {
+      "id": "status.loading.dots",
+      "kind": "icon",
+      "category": "status",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Loading (dots)",
+      "files": {
+        "outline": {
+          "16": "svg/outline/status.loading.dots@16.svg",
+          "20": "svg/outline/status.loading.dots@20.svg",
+          "24": "svg/outline/status.loading.dots@24.svg",
+          "32": "svg/outline/status.loading.dots@32.svg",
+          "48": "svg/outline/status.loading.dots@48.svg",
+          "72": "svg/outline/status.loading.dots@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/status.loading.dots@16.svg",
+          "20": "svg/solid/status.loading.dots@20.svg",
+          "24": "svg/solid/status.loading.dots@24.svg",
+          "32": "svg/solid/status.loading.dots@32.svg",
+          "48": "svg/solid/status.loading.dots@48.svg",
+          "72": "svg/solid/status.loading.dots@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/status.loading.dots@16.svg",
+          "20": "svg/duotone/status.loading.dots@20.svg",
+          "24": "svg/duotone/status.loading.dots@24.svg",
+          "32": "svg/duotone/status.loading.dots@32.svg",
+          "48": "svg/duotone/status.loading.dots@48.svg",
+          "72": "svg/duotone/status.loading.dots@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/status.loading.dots@16.svg",
+          "20": "svg/multicolor/status.loading.dots@20.svg",
+          "24": "svg/multicolor/status.loading.dots@24.svg",
+          "32": "svg/multicolor/status.loading.dots@32.svg",
+          "48": "svg/multicolor/status.loading.dots@48.svg",
+          "72": "svg/multicolor/status.loading.dots@72.svg"
+        }
+      }
+    },
+    {
+      "id": "status.offline",
+      "kind": "icon",
+      "category": "status",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Offline",
+      "files": {
+        "outline": {
+          "16": "svg/outline/status.offline@16.svg",
+          "20": "svg/outline/status.offline@20.svg",
+          "24": "svg/outline/status.offline@24.svg",
+          "32": "svg/outline/status.offline@32.svg",
+          "48": "svg/outline/status.offline@48.svg",
+          "72": "svg/outline/status.offline@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/status.offline@16.svg",
+          "20": "svg/solid/status.offline@20.svg",
+          "24": "svg/solid/status.offline@24.svg",
+          "32": "svg/solid/status.offline@32.svg",
+          "48": "svg/solid/status.offline@48.svg",
+          "72": "svg/solid/status.offline@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/status.offline@16.svg",
+          "20": "svg/duotone/status.offline@20.svg",
+          "24": "svg/duotone/status.offline@24.svg",
+          "32": "svg/duotone/status.offline@32.svg",
+          "48": "svg/duotone/status.offline@48.svg",
+          "72": "svg/duotone/status.offline@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/status.offline@16.svg",
+          "20": "svg/multicolor/status.offline@20.svg",
+          "24": "svg/multicolor/status.offline@24.svg",
+          "32": "svg/multicolor/status.offline@32.svg",
+          "48": "svg/multicolor/status.offline@48.svg",
+          "72": "svg/multicolor/status.offline@72.svg"
+        }
+      }
+    },
+    {
+      "id": "status.pending",
+      "kind": "icon",
+      "category": "status",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Pending",
+      "files": {
+        "outline": {
+          "16": "svg/outline/status.pending@16.svg",
+          "20": "svg/outline/status.pending@20.svg",
+          "24": "svg/outline/status.pending@24.svg",
+          "32": "svg/outline/status.pending@32.svg",
+          "48": "svg/outline/status.pending@48.svg",
+          "72": "svg/outline/status.pending@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/status.pending@16.svg",
+          "20": "svg/solid/status.pending@20.svg",
+          "24": "svg/solid/status.pending@24.svg",
+          "32": "svg/solid/status.pending@32.svg",
+          "48": "svg/solid/status.pending@48.svg",
+          "72": "svg/solid/status.pending@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/status.pending@16.svg",
+          "20": "svg/duotone/status.pending@20.svg",
+          "24": "svg/duotone/status.pending@24.svg",
+          "32": "svg/duotone/status.pending@32.svg",
+          "48": "svg/duotone/status.pending@48.svg",
+          "72": "svg/duotone/status.pending@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/status.pending@16.svg",
+          "20": "svg/multicolor/status.pending@20.svg",
+          "24": "svg/multicolor/status.pending@24.svg",
+          "32": "svg/multicolor/status.pending@32.svg",
+          "48": "svg/multicolor/status.pending@48.svg",
+          "72": "svg/multicolor/status.pending@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.camera.plus",
+      "kind": "icon",
+      "category": "utility",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Add photo",
+      "files": {
+        "outline": {
+          "16": "svg/outline/utility.camera.plus@16.svg",
+          "20": "svg/outline/utility.camera.plus@20.svg",
+          "24": "svg/outline/utility.camera.plus@24.svg",
+          "32": "svg/outline/utility.camera.plus@32.svg",
+          "48": "svg/outline/utility.camera.plus@48.svg",
+          "72": "svg/outline/utility.camera.plus@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/utility.camera.plus@16.svg",
+          "20": "svg/solid/utility.camera.plus@20.svg",
+          "24": "svg/solid/utility.camera.plus@24.svg",
+          "32": "svg/solid/utility.camera.plus@32.svg",
+          "48": "svg/solid/utility.camera.plus@48.svg",
+          "72": "svg/solid/utility.camera.plus@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/utility.camera.plus@16.svg",
+          "20": "svg/duotone/utility.camera.plus@20.svg",
+          "24": "svg/duotone/utility.camera.plus@24.svg",
+          "32": "svg/duotone/utility.camera.plus@32.svg",
+          "48": "svg/duotone/utility.camera.plus@48.svg",
+          "72": "svg/duotone/utility.camera.plus@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/utility.camera.plus@16.svg",
+          "20": "svg/multicolor/utility.camera.plus@20.svg",
+          "24": "svg/multicolor/utility.camera.plus@24.svg",
+          "32": "svg/multicolor/utility.camera.plus@32.svg",
+          "48": "svg/multicolor/utility.camera.plus@48.svg",
+          "72": "svg/multicolor/utility.camera.plus@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.download",
+      "kind": "icon",
+      "category": "utility",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Download",
+      "files": {
+        "outline": {
+          "16": "svg/outline/utility.download@16.svg",
+          "20": "svg/outline/utility.download@20.svg",
+          "24": "svg/outline/utility.download@24.svg",
+          "32": "svg/outline/utility.download@32.svg",
+          "48": "svg/outline/utility.download@48.svg",
+          "72": "svg/outline/utility.download@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/utility.download@16.svg",
+          "20": "svg/solid/utility.download@20.svg",
+          "24": "svg/solid/utility.download@24.svg",
+          "32": "svg/solid/utility.download@32.svg",
+          "48": "svg/solid/utility.download@48.svg",
+          "72": "svg/solid/utility.download@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/utility.download@16.svg",
+          "20": "svg/duotone/utility.download@20.svg",
+          "24": "svg/duotone/utility.download@24.svg",
+          "32": "svg/duotone/utility.download@32.svg",
+          "48": "svg/duotone/utility.download@48.svg",
+          "72": "svg/duotone/utility.download@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/utility.download@16.svg",
+          "20": "svg/multicolor/utility.download@20.svg",
+          "24": "svg/multicolor/utility.download@24.svg",
+          "32": "svg/multicolor/utility.download@32.svg",
+          "48": "svg/multicolor/utility.download@48.svg",
+          "72": "svg/multicolor/utility.download@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.drag.handle",
+      "kind": "icon",
+      "category": "utility",
+      "tier": "P2",
+      "verdict": "new",
+      "label": "Drag handle",
+      "files": {
+        "outline": {
+          "16": "svg/outline/utility.drag.handle@16.svg",
+          "20": "svg/outline/utility.drag.handle@20.svg",
+          "24": "svg/outline/utility.drag.handle@24.svg",
+          "32": "svg/outline/utility.drag.handle@32.svg",
+          "48": "svg/outline/utility.drag.handle@48.svg",
+          "72": "svg/outline/utility.drag.handle@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/utility.drag.handle@16.svg",
+          "20": "svg/solid/utility.drag.handle@20.svg",
+          "24": "svg/solid/utility.drag.handle@24.svg",
+          "32": "svg/solid/utility.drag.handle@32.svg",
+          "48": "svg/solid/utility.drag.handle@48.svg",
+          "72": "svg/solid/utility.drag.handle@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/utility.drag.handle@16.svg",
+          "20": "svg/duotone/utility.drag.handle@20.svg",
+          "24": "svg/duotone/utility.drag.handle@24.svg",
+          "32": "svg/duotone/utility.drag.handle@32.svg",
+          "48": "svg/duotone/utility.drag.handle@48.svg",
+          "72": "svg/duotone/utility.drag.handle@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/utility.drag.handle@16.svg",
+          "20": "svg/multicolor/utility.drag.handle@20.svg",
+          "24": "svg/multicolor/utility.drag.handle@24.svg",
+          "32": "svg/multicolor/utility.drag.handle@32.svg",
+          "48": "svg/multicolor/utility.drag.handle@48.svg",
+          "72": "svg/multicolor/utility.drag.handle@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.external.link",
+      "kind": "icon",
+      "category": "utility",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "External link",
+      "files": {
+        "outline": {
+          "16": "svg/outline/utility.external.link@16.svg",
+          "20": "svg/outline/utility.external.link@20.svg",
+          "24": "svg/outline/utility.external.link@24.svg",
+          "32": "svg/outline/utility.external.link@32.svg",
+          "48": "svg/outline/utility.external.link@48.svg",
+          "72": "svg/outline/utility.external.link@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/utility.external.link@16.svg",
+          "20": "svg/solid/utility.external.link@20.svg",
+          "24": "svg/solid/utility.external.link@24.svg",
+          "32": "svg/solid/utility.external.link@32.svg",
+          "48": "svg/solid/utility.external.link@48.svg",
+          "72": "svg/solid/utility.external.link@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/utility.external.link@16.svg",
+          "20": "svg/duotone/utility.external.link@20.svg",
+          "24": "svg/duotone/utility.external.link@24.svg",
+          "32": "svg/duotone/utility.external.link@32.svg",
+          "48": "svg/duotone/utility.external.link@48.svg",
+          "72": "svg/duotone/utility.external.link@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/utility.external.link@16.svg",
+          "20": "svg/multicolor/utility.external.link@20.svg",
+          "24": "svg/multicolor/utility.external.link@24.svg",
+          "32": "svg/multicolor/utility.external.link@32.svg",
+          "48": "svg/multicolor/utility.external.link@48.svg",
+          "72": "svg/multicolor/utility.external.link@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.language",
+      "kind": "icon",
+      "category": "utility",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Language",
+      "files": {
+        "outline": {
+          "16": "svg/outline/utility.language@16.svg",
+          "20": "svg/outline/utility.language@20.svg",
+          "24": "svg/outline/utility.language@24.svg",
+          "32": "svg/outline/utility.language@32.svg",
+          "48": "svg/outline/utility.language@48.svg",
+          "72": "svg/outline/utility.language@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/utility.language@16.svg",
+          "20": "svg/solid/utility.language@20.svg",
+          "24": "svg/solid/utility.language@24.svg",
+          "32": "svg/solid/utility.language@32.svg",
+          "48": "svg/solid/utility.language@48.svg",
+          "72": "svg/solid/utility.language@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/utility.language@16.svg",
+          "20": "svg/duotone/utility.language@20.svg",
+          "24": "svg/duotone/utility.language@24.svg",
+          "32": "svg/duotone/utility.language@32.svg",
+          "48": "svg/duotone/utility.language@48.svg",
+          "72": "svg/duotone/utility.language@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/utility.language@16.svg",
+          "20": "svg/multicolor/utility.language@20.svg",
+          "24": "svg/multicolor/utility.language@24.svg",
+          "32": "svg/multicolor/utility.language@32.svg",
+          "48": "svg/multicolor/utility.language@48.svg",
+          "72": "svg/multicolor/utility.language@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.qr.code",
+      "kind": "icon",
+      "category": "utility",
+      "tier": "P2",
+      "verdict": "new",
+      "label": "QR code",
+      "files": {
+        "outline": {
+          "16": "svg/outline/utility.qr.code@16.svg",
+          "20": "svg/outline/utility.qr.code@20.svg",
+          "24": "svg/outline/utility.qr.code@24.svg",
+          "32": "svg/outline/utility.qr.code@32.svg",
+          "48": "svg/outline/utility.qr.code@48.svg",
+          "72": "svg/outline/utility.qr.code@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/utility.qr.code@16.svg",
+          "20": "svg/solid/utility.qr.code@20.svg",
+          "24": "svg/solid/utility.qr.code@24.svg",
+          "32": "svg/solid/utility.qr.code@32.svg",
+          "48": "svg/solid/utility.qr.code@48.svg",
+          "72": "svg/solid/utility.qr.code@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/utility.qr.code@16.svg",
+          "20": "svg/duotone/utility.qr.code@20.svg",
+          "24": "svg/duotone/utility.qr.code@24.svg",
+          "32": "svg/duotone/utility.qr.code@32.svg",
+          "48": "svg/duotone/utility.qr.code@48.svg",
+          "72": "svg/duotone/utility.qr.code@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/utility.qr.code@16.svg",
+          "20": "svg/multicolor/utility.qr.code@20.svg",
+          "24": "svg/multicolor/utility.qr.code@24.svg",
+          "32": "svg/multicolor/utility.qr.code@32.svg",
+          "48": "svg/multicolor/utility.qr.code@48.svg",
+          "72": "svg/multicolor/utility.qr.code@72.svg"
+        }
+      }
+    },
+    {
+      "id": "utility.sort",
+      "kind": "icon",
+      "category": "utility",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Sort",
+      "files": {
+        "outline": {
+          "16": "svg/outline/utility.sort@16.svg",
+          "20": "svg/outline/utility.sort@20.svg",
+          "24": "svg/outline/utility.sort@24.svg",
+          "32": "svg/outline/utility.sort@32.svg",
+          "48": "svg/outline/utility.sort@48.svg",
+          "72": "svg/outline/utility.sort@72.svg"
+        },
+        "solid": {
+          "16": "svg/solid/utility.sort@16.svg",
+          "20": "svg/solid/utility.sort@20.svg",
+          "24": "svg/solid/utility.sort@24.svg",
+          "32": "svg/solid/utility.sort@32.svg",
+          "48": "svg/solid/utility.sort@48.svg",
+          "72": "svg/solid/utility.sort@72.svg"
+        },
+        "duotone": {
+          "16": "svg/duotone/utility.sort@16.svg",
+          "20": "svg/duotone/utility.sort@20.svg",
+          "24": "svg/duotone/utility.sort@24.svg",
+          "32": "svg/duotone/utility.sort@32.svg",
+          "48": "svg/duotone/utility.sort@48.svg",
+          "72": "svg/duotone/utility.sort@72.svg"
+        },
+        "multicolor": {
+          "16": "svg/multicolor/utility.sort@16.svg",
+          "20": "svg/multicolor/utility.sort@20.svg",
+          "24": "svg/multicolor/utility.sort@24.svg",
+          "32": "svg/multicolor/utility.sort@32.svg",
+          "48": "svg/multicolor/utility.sort@48.svg",
+          "72": "svg/multicolor/utility.sort@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.at",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Austria",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.at@16.svg",
+          "20": "svg/color/flag.at@20.svg",
+          "24": "svg/color/flag.at@24.svg",
+          "32": "svg/color/flag.at@32.svg",
+          "48": "svg/color/flag.at@48.svg",
+          "72": "svg/color/flag.at@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.at@16.svg",
+          "20": "svg/mono/flag.at@20.svg",
+          "24": "svg/mono/flag.at@24.svg",
+          "32": "svg/mono/flag.at@32.svg",
+          "48": "svg/mono/flag.at@48.svg",
+          "72": "svg/mono/flag.at@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.ch",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Switzerland",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.ch@16.svg",
+          "20": "svg/color/flag.ch@20.svg",
+          "24": "svg/color/flag.ch@24.svg",
+          "32": "svg/color/flag.ch@32.svg",
+          "48": "svg/color/flag.ch@48.svg",
+          "72": "svg/color/flag.ch@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.ch@16.svg",
+          "20": "svg/mono/flag.ch@20.svg",
+          "24": "svg/mono/flag.ch@24.svg",
+          "32": "svg/mono/flag.ch@32.svg",
+          "48": "svg/mono/flag.ch@48.svg",
+          "72": "svg/mono/flag.ch@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.de",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Germany",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.de@16.svg",
+          "20": "svg/color/flag.de@20.svg",
+          "24": "svg/color/flag.de@24.svg",
+          "32": "svg/color/flag.de@32.svg",
+          "48": "svg/color/flag.de@48.svg",
+          "72": "svg/color/flag.de@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.de@16.svg",
+          "20": "svg/mono/flag.de@20.svg",
+          "24": "svg/mono/flag.de@24.svg",
+          "32": "svg/mono/flag.de@32.svg",
+          "48": "svg/mono/flag.de@48.svg",
+          "72": "svg/mono/flag.de@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.es",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Spain",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.es@16.svg",
+          "20": "svg/color/flag.es@20.svg",
+          "24": "svg/color/flag.es@24.svg",
+          "32": "svg/color/flag.es@32.svg",
+          "48": "svg/color/flag.es@48.svg",
+          "72": "svg/color/flag.es@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.es@16.svg",
+          "20": "svg/mono/flag.es@20.svg",
+          "24": "svg/mono/flag.es@24.svg",
+          "32": "svg/mono/flag.es@32.svg",
+          "48": "svg/mono/flag.es@48.svg",
+          "72": "svg/mono/flag.es@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.eu",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "European Union",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.eu@16.svg",
+          "20": "svg/color/flag.eu@20.svg",
+          "24": "svg/color/flag.eu@24.svg",
+          "32": "svg/color/flag.eu@32.svg",
+          "48": "svg/color/flag.eu@48.svg",
+          "72": "svg/color/flag.eu@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.eu@16.svg",
+          "20": "svg/mono/flag.eu@20.svg",
+          "24": "svg/mono/flag.eu@24.svg",
+          "32": "svg/mono/flag.eu@32.svg",
+          "48": "svg/mono/flag.eu@48.svg",
+          "72": "svg/mono/flag.eu@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.fr",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "France",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.fr@16.svg",
+          "20": "svg/color/flag.fr@20.svg",
+          "24": "svg/color/flag.fr@24.svg",
+          "32": "svg/color/flag.fr@32.svg",
+          "48": "svg/color/flag.fr@48.svg",
+          "72": "svg/color/flag.fr@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.fr@16.svg",
+          "20": "svg/mono/flag.fr@20.svg",
+          "24": "svg/mono/flag.fr@24.svg",
+          "32": "svg/mono/flag.fr@32.svg",
+          "48": "svg/mono/flag.fr@48.svg",
+          "72": "svg/mono/flag.fr@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.gb",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "United Kingdom",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.gb@16.svg",
+          "20": "svg/color/flag.gb@20.svg",
+          "24": "svg/color/flag.gb@24.svg",
+          "32": "svg/color/flag.gb@32.svg",
+          "48": "svg/color/flag.gb@48.svg",
+          "72": "svg/color/flag.gb@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.gb@16.svg",
+          "20": "svg/mono/flag.gb@20.svg",
+          "24": "svg/mono/flag.gb@24.svg",
+          "32": "svg/mono/flag.gb@32.svg",
+          "48": "svg/mono/flag.gb@48.svg",
+          "72": "svg/mono/flag.gb@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.it",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Italy",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.it@16.svg",
+          "20": "svg/color/flag.it@20.svg",
+          "24": "svg/color/flag.it@24.svg",
+          "32": "svg/color/flag.it@32.svg",
+          "48": "svg/color/flag.it@48.svg",
+          "72": "svg/color/flag.it@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.it@16.svg",
+          "20": "svg/mono/flag.it@20.svg",
+          "24": "svg/mono/flag.it@24.svg",
+          "32": "svg/mono/flag.it@32.svg",
+          "48": "svg/mono/flag.it@48.svg",
+          "72": "svg/mono/flag.it@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.nl",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Netherlands",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.nl@16.svg",
+          "20": "svg/color/flag.nl@20.svg",
+          "24": "svg/color/flag.nl@24.svg",
+          "32": "svg/color/flag.nl@32.svg",
+          "48": "svg/color/flag.nl@48.svg",
+          "72": "svg/color/flag.nl@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.nl@16.svg",
+          "20": "svg/mono/flag.nl@20.svg",
+          "24": "svg/mono/flag.nl@24.svg",
+          "32": "svg/mono/flag.nl@32.svg",
+          "48": "svg/mono/flag.nl@48.svg",
+          "72": "svg/mono/flag.nl@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.pl",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Poland",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.pl@16.svg",
+          "20": "svg/color/flag.pl@20.svg",
+          "24": "svg/color/flag.pl@24.svg",
+          "32": "svg/color/flag.pl@32.svg",
+          "48": "svg/color/flag.pl@48.svg",
+          "72": "svg/color/flag.pl@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.pl@16.svg",
+          "20": "svg/mono/flag.pl@20.svg",
+          "24": "svg/mono/flag.pl@24.svg",
+          "32": "svg/mono/flag.pl@32.svg",
+          "48": "svg/mono/flag.pl@48.svg",
+          "72": "svg/mono/flag.pl@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.pt",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Portugal",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.pt@16.svg",
+          "20": "svg/color/flag.pt@20.svg",
+          "24": "svg/color/flag.pt@24.svg",
+          "32": "svg/color/flag.pt@32.svg",
+          "48": "svg/color/flag.pt@48.svg",
+          "72": "svg/color/flag.pt@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.pt@16.svg",
+          "20": "svg/mono/flag.pt@20.svg",
+          "24": "svg/mono/flag.pt@24.svg",
+          "32": "svg/mono/flag.pt@32.svg",
+          "48": "svg/mono/flag.pt@48.svg",
+          "72": "svg/mono/flag.pt@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.tr",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "Türkiye",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.tr@16.svg",
+          "20": "svg/color/flag.tr@20.svg",
+          "24": "svg/color/flag.tr@24.svg",
+          "32": "svg/color/flag.tr@32.svg",
+          "48": "svg/color/flag.tr@48.svg",
+          "72": "svg/color/flag.tr@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.tr@16.svg",
+          "20": "svg/mono/flag.tr@20.svg",
+          "24": "svg/mono/flag.tr@24.svg",
+          "32": "svg/mono/flag.tr@32.svg",
+          "48": "svg/mono/flag.tr@48.svg",
+          "72": "svg/mono/flag.tr@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.unknown",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P2",
+      "verdict": "new",
+      "label": "Region not set",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.unknown@16.svg",
+          "20": "svg/color/flag.unknown@20.svg",
+          "24": "svg/color/flag.unknown@24.svg",
+          "32": "svg/color/flag.unknown@32.svg",
+          "48": "svg/color/flag.unknown@48.svg",
+          "72": "svg/color/flag.unknown@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.unknown@16.svg",
+          "20": "svg/mono/flag.unknown@20.svg",
+          "24": "svg/mono/flag.unknown@24.svg",
+          "32": "svg/mono/flag.unknown@32.svg",
+          "48": "svg/mono/flag.unknown@48.svg",
+          "72": "svg/mono/flag.unknown@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.us",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P1",
+      "verdict": "new",
+      "label": "United States",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.us@16.svg",
+          "20": "svg/color/flag.us@20.svg",
+          "24": "svg/color/flag.us@24.svg",
+          "32": "svg/color/flag.us@32.svg",
+          "48": "svg/color/flag.us@48.svg",
+          "72": "svg/color/flag.us@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.us@16.svg",
+          "20": "svg/mono/flag.us@20.svg",
+          "24": "svg/mono/flag.us@24.svg",
+          "32": "svg/mono/flag.us@32.svg",
+          "48": "svg/mono/flag.us@48.svg",
+          "72": "svg/mono/flag.us@72.svg"
+        }
+      }
+    }
+  ]
+}
