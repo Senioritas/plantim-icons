@@ -3,42 +3,6 @@ export const UtilityUserX = {
     "label": "User X",
     "tier": "P1",
     "grades": {
-        "micro": {
-            "layers": [
-                {
-                    "name": "primary",
-                    "role": "primary",
-                    "nodes": [
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M2 21a8 8 0 0 1 11.873-7"
-                            }
-                        },
-                        {
-                            "type": "circle",
-                            "attrs": {
-                                "cx": "10",
-                                "cy": "8",
-                                "r": "5"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "m17 17 5 5"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "m22 17-5 5"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
         "base": {
             "layers": [
                 {

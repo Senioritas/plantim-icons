@@ -1,5 +1,5 @@
 // GENERATED FILE - do not edit by hand.
-// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 9602ac5dc4533c49ba0bd398380a25061d9a06697a3391cb61ca5d1e1319abe7).
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 573a185872b44f38b596f04ea43fd9241a433a2722d278ae1533bc80d82384b1).
 // Regenerate with: npm run icons:v4:package
 export { PLANTIM_ICONS_V4_HASH, PLANTIM_ICONS_V4_VERSION } from "./index.js";
 export type { PlantimIconV4Tier } from "./index.js";
@@ -59,6 +59,188 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "label": "Search",
     "category": "action"
   },
+  "avatar.aloe": {
+    "id": "avatar.aloe",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Aloe",
+    "category": "avatar"
+  },
+  "avatar.bamboo": {
+    "id": "avatar.bamboo",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Bamboo",
+    "category": "avatar"
+  },
+  "avatar.bonsai": {
+    "id": "avatar.bonsai",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Bonsai",
+    "category": "avatar"
+  },
+  "avatar.cactus": {
+    "id": "avatar.cactus",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Cactus",
+    "category": "avatar"
+  },
+  "avatar.calathea": {
+    "id": "avatar.calathea",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Calathea",
+    "category": "avatar"
+  },
+  "avatar.clover": {
+    "id": "avatar.clover",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Clover",
+    "category": "avatar"
+  },
+  "avatar.eucalyptus": {
+    "id": "avatar.eucalyptus",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Eucalyptus",
+    "category": "avatar"
+  },
+  "avatar.fern": {
+    "id": "avatar.fern",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Fern",
+    "category": "avatar"
+  },
+  "avatar.ficus": {
+    "id": "avatar.ficus",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Fiddle-leaf fig",
+    "category": "avatar"
+  },
+  "avatar.ivy": {
+    "id": "avatar.ivy",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Ivy",
+    "category": "avatar"
+  },
+  "avatar.lavender": {
+    "id": "avatar.lavender",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Lavender",
+    "category": "avatar"
+  },
+  "avatar.lotus": {
+    "id": "avatar.lotus",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Lotus",
+    "category": "avatar"
+  },
+  "avatar.monstera": {
+    "id": "avatar.monstera",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Monstera",
+    "category": "avatar"
+  },
+  "avatar.oak": {
+    "id": "avatar.oak",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Oak",
+    "category": "avatar"
+  },
+  "avatar.orchid": {
+    "id": "avatar.orchid",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Orchid",
+    "category": "avatar"
+  },
+  "avatar.palm": {
+    "id": "avatar.palm",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Palm",
+    "category": "avatar"
+  },
+  "avatar.pilea": {
+    "id": "avatar.pilea",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Pilea",
+    "category": "avatar"
+  },
+  "avatar.pine": {
+    "id": "avatar.pine",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Pine",
+    "category": "avatar"
+  },
+  "avatar.pothos": {
+    "id": "avatar.pothos",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Pothos",
+    "category": "avatar"
+  },
+  "avatar.rose": {
+    "id": "avatar.rose",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Rose",
+    "category": "avatar"
+  },
+  "avatar.sansevieria": {
+    "id": "avatar.sansevieria",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Snake plant",
+    "category": "avatar"
+  },
+  "avatar.sprout": {
+    "id": "avatar.sprout",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Sprout",
+    "category": "avatar"
+  },
+  "avatar.succulent": {
+    "id": "avatar.succulent",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Succulent",
+    "category": "avatar"
+  },
+  "avatar.sunflower": {
+    "id": "avatar.sunflower",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Sunflower",
+    "category": "avatar"
+  },
+  "avatar.tulip": {
+    "id": "avatar.tulip",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Tulip",
+    "category": "avatar"
+  },
+  "calendar.add": {
+    "id": "calendar.add",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Add event",
+    "category": "calendar"
+  },
   "calendar.date": {
     "id": "calendar.date",
     "tier": "P0",
@@ -95,6 +277,13 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "label": "Log",
     "category": "care"
   },
+  "care.misting": {
+    "id": "care.misting",
+    "tier": "P2",
+    "verdict": "new",
+    "label": "Misting",
+    "category": "care"
+  },
   "care.pruning": {
     "id": "care.pruning",
     "tier": "P2",
@@ -128,6 +317,13 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "tier": "P2",
     "verdict": "refine",
     "label": "Repotting Alt",
+    "category": "care"
+  },
+  "care.rotating": {
+    "id": "care.rotating",
+    "tier": "P2",
+    "verdict": "new",
+    "label": "Rotating",
     "category": "care"
   },
   "care.suggestion": {
@@ -466,11 +662,32 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "label": "Healthy",
     "category": "health"
   },
+  "location.indoor": {
+    "id": "location.indoor",
+    "tier": "P2",
+    "verdict": "new",
+    "label": "Indoor",
+    "category": "location"
+  },
+  "location.outdoor": {
+    "id": "location.outdoor",
+    "tier": "P2",
+    "verdict": "new",
+    "label": "Outdoor",
+    "category": "location"
+  },
   "location.pin": {
     "id": "location.pin",
     "tier": "P1",
     "verdict": "redraw",
     "label": "Pin",
+    "category": "location"
+  },
+  "location.room": {
+    "id": "location.room",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Room",
     "category": "location"
   },
   "nav.calendar.check": {
@@ -656,6 +873,48 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "label": "Previous",
     "category": "navigation"
   },
+  "placeholder.avatar": {
+    "id": "placeholder.avatar",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Avatar placeholder",
+    "category": "placeholder"
+  },
+  "placeholder.card": {
+    "id": "placeholder.card",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Card skeleton",
+    "category": "placeholder"
+  },
+  "placeholder.chart": {
+    "id": "placeholder.chart",
+    "tier": "P2",
+    "verdict": "new",
+    "label": "Chart skeleton",
+    "category": "placeholder"
+  },
+  "placeholder.list": {
+    "id": "placeholder.list",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "List row skeleton",
+    "category": "placeholder"
+  },
+  "placeholder.plant": {
+    "id": "placeholder.plant",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Plant photo placeholder",
+    "category": "placeholder"
+  },
+  "placeholder.text": {
+    "id": "placeholder.text",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Text skeleton",
+    "category": "placeholder"
+  },
   "plant.add": {
     "id": "plant.add",
     "tier": "P2",
@@ -670,6 +929,41 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "label": "Garden",
     "category": "plant",
     "animation": "gardenSway"
+  },
+  "plant.humidity": {
+    "id": "plant.humidity",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Humidity",
+    "category": "plant"
+  },
+  "plant.identify": {
+    "id": "plant.identify",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Identify plant",
+    "category": "plant"
+  },
+  "plant.light": {
+    "id": "plant.light",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Light",
+    "category": "plant"
+  },
+  "plant.pet.safe": {
+    "id": "plant.pet.safe",
+    "tier": "P2",
+    "verdict": "new",
+    "label": "Pet safe",
+    "category": "plant"
+  },
+  "plant.pet.unsafe": {
+    "id": "plant.pet.unsafe",
+    "tier": "P2",
+    "verdict": "new",
+    "label": "Toxic to pets",
+    "category": "plant"
   },
   "plant.pruning": {
     "id": "plant.pruning",
@@ -775,6 +1069,27 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "tier": "P1",
     "verdict": "keep",
     "label": "Loading",
+    "category": "status"
+  },
+  "status.loading.dots": {
+    "id": "status.loading.dots",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Loading (dots)",
+    "category": "status"
+  },
+  "status.offline": {
+    "id": "status.offline",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Offline",
+    "category": "status"
+  },
+  "status.pending": {
+    "id": "status.pending",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Pending",
     "category": "status"
   },
   "status.streak": {
@@ -974,6 +1289,13 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "label": "Camera",
     "category": "utility"
   },
+  "utility.camera.plus": {
+    "id": "utility.camera.plus",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Add photo",
+    "category": "utility"
+  },
   "utility.check.check": {
     "id": "utility.check.check",
     "tier": "P1",
@@ -1084,6 +1406,27 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "tier": "P1",
     "verdict": "refine",
     "label": "Dna",
+    "category": "utility"
+  },
+  "utility.download": {
+    "id": "utility.download",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Download",
+    "category": "utility"
+  },
+  "utility.drag.handle": {
+    "id": "utility.drag.handle",
+    "tier": "P2",
+    "verdict": "new",
+    "label": "Drag handle",
+    "category": "utility"
+  },
+  "utility.external.link": {
+    "id": "utility.external.link",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "External link",
     "category": "utility"
   },
   "utility.eye": {
@@ -1203,6 +1546,13 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "tier": "P1",
     "verdict": "keep",
     "label": "Key",
+    "category": "utility"
+  },
+  "utility.language": {
+    "id": "utility.language",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Language",
     "category": "utility"
   },
   "utility.layout.grid": {
@@ -1361,6 +1711,13 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "category": "utility",
     "animation": "ctaBloom"
   },
+  "utility.qr.code": {
+    "id": "utility.qr.code",
+    "tier": "P2",
+    "verdict": "new",
+    "label": "QR code",
+    "category": "utility"
+  },
   "utility.quote": {
     "id": "utility.quote",
     "tier": "P1",
@@ -1464,6 +1821,13 @@ export const PLANTIM_ICON_V4_METADATA = Object.freeze({
     "tier": "P1",
     "verdict": "keep",
     "label": "Snowflake",
+    "category": "utility"
+  },
+  "utility.sort": {
+    "id": "utility.sort",
+    "tier": "P1",
+    "verdict": "new",
+    "label": "Sort",
     "category": "utility"
   },
   "utility.sparkles": {

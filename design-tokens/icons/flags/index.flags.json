@@ -1,0 +1,583 @@
+{
+  "version": "4.1.0",
+  "flagsHash": "d1070166f5bf95c2de9e18bd9f3206430864d562ca156a594d34036f87dfc6ee",
+  "counts": {
+    "total": 14
+  },
+  "flags": [
+    {
+      "id": "flag.at",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P1",
+      "label": "Austria",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.at@16.svg",
+          "20": "svg/color/flag.at@20.svg",
+          "24": "svg/color/flag.at@24.svg",
+          "32": "svg/color/flag.at@32.svg",
+          "48": "svg/color/flag.at@48.svg",
+          "72": "svg/color/flag.at@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.at@16.svg",
+          "20": "svg/mono/flag.at@20.svg",
+          "24": "svg/mono/flag.at@24.svg",
+          "32": "svg/mono/flag.at@32.svg",
+          "48": "svg/mono/flag.at@48.svg",
+          "72": "svg/mono/flag.at@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.at@16.svg",
+          "20": "svg/circle/flag.at@20.svg",
+          "24": "svg/circle/flag.at@24.svg",
+          "32": "svg/circle/flag.at@32.svg",
+          "48": "svg/circle/flag.at@48.svg",
+          "72": "svg/circle/flag.at@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.at@16.svg",
+          "20": "svg/circle.mono/flag.at@20.svg",
+          "24": "svg/circle.mono/flag.at@24.svg",
+          "32": "svg/circle.mono/flag.at@32.svg",
+          "48": "svg/circle.mono/flag.at@48.svg",
+          "72": "svg/circle.mono/flag.at@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.ch",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P1",
+      "label": "Switzerland",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.ch@16.svg",
+          "20": "svg/color/flag.ch@20.svg",
+          "24": "svg/color/flag.ch@24.svg",
+          "32": "svg/color/flag.ch@32.svg",
+          "48": "svg/color/flag.ch@48.svg",
+          "72": "svg/color/flag.ch@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.ch@16.svg",
+          "20": "svg/mono/flag.ch@20.svg",
+          "24": "svg/mono/flag.ch@24.svg",
+          "32": "svg/mono/flag.ch@32.svg",
+          "48": "svg/mono/flag.ch@48.svg",
+          "72": "svg/mono/flag.ch@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.ch@16.svg",
+          "20": "svg/circle/flag.ch@20.svg",
+          "24": "svg/circle/flag.ch@24.svg",
+          "32": "svg/circle/flag.ch@32.svg",
+          "48": "svg/circle/flag.ch@48.svg",
+          "72": "svg/circle/flag.ch@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.ch@16.svg",
+          "20": "svg/circle.mono/flag.ch@20.svg",
+          "24": "svg/circle.mono/flag.ch@24.svg",
+          "32": "svg/circle.mono/flag.ch@32.svg",
+          "48": "svg/circle.mono/flag.ch@48.svg",
+          "72": "svg/circle.mono/flag.ch@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.de",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P1",
+      "label": "Germany",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.de@16.svg",
+          "20": "svg/color/flag.de@20.svg",
+          "24": "svg/color/flag.de@24.svg",
+          "32": "svg/color/flag.de@32.svg",
+          "48": "svg/color/flag.de@48.svg",
+          "72": "svg/color/flag.de@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.de@16.svg",
+          "20": "svg/mono/flag.de@20.svg",
+          "24": "svg/mono/flag.de@24.svg",
+          "32": "svg/mono/flag.de@32.svg",
+          "48": "svg/mono/flag.de@48.svg",
+          "72": "svg/mono/flag.de@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.de@16.svg",
+          "20": "svg/circle/flag.de@20.svg",
+          "24": "svg/circle/flag.de@24.svg",
+          "32": "svg/circle/flag.de@32.svg",
+          "48": "svg/circle/flag.de@48.svg",
+          "72": "svg/circle/flag.de@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.de@16.svg",
+          "20": "svg/circle.mono/flag.de@20.svg",
+          "24": "svg/circle.mono/flag.de@24.svg",
+          "32": "svg/circle.mono/flag.de@32.svg",
+          "48": "svg/circle.mono/flag.de@48.svg",
+          "72": "svg/circle.mono/flag.de@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.es",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P1",
+      "label": "Spain",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.es@16.svg",
+          "20": "svg/color/flag.es@20.svg",
+          "24": "svg/color/flag.es@24.svg",
+          "32": "svg/color/flag.es@32.svg",
+          "48": "svg/color/flag.es@48.svg",
+          "72": "svg/color/flag.es@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.es@16.svg",
+          "20": "svg/mono/flag.es@20.svg",
+          "24": "svg/mono/flag.es@24.svg",
+          "32": "svg/mono/flag.es@32.svg",
+          "48": "svg/mono/flag.es@48.svg",
+          "72": "svg/mono/flag.es@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.es@16.svg",
+          "20": "svg/circle/flag.es@20.svg",
+          "24": "svg/circle/flag.es@24.svg",
+          "32": "svg/circle/flag.es@32.svg",
+          "48": "svg/circle/flag.es@48.svg",
+          "72": "svg/circle/flag.es@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.es@16.svg",
+          "20": "svg/circle.mono/flag.es@20.svg",
+          "24": "svg/circle.mono/flag.es@24.svg",
+          "32": "svg/circle.mono/flag.es@32.svg",
+          "48": "svg/circle.mono/flag.es@48.svg",
+          "72": "svg/circle.mono/flag.es@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.eu",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P1",
+      "label": "European Union",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.eu@16.svg",
+          "20": "svg/color/flag.eu@20.svg",
+          "24": "svg/color/flag.eu@24.svg",
+          "32": "svg/color/flag.eu@32.svg",
+          "48": "svg/color/flag.eu@48.svg",
+          "72": "svg/color/flag.eu@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.eu@16.svg",
+          "20": "svg/mono/flag.eu@20.svg",
+          "24": "svg/mono/flag.eu@24.svg",
+          "32": "svg/mono/flag.eu@32.svg",
+          "48": "svg/mono/flag.eu@48.svg",
+          "72": "svg/mono/flag.eu@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.eu@16.svg",
+          "20": "svg/circle/flag.eu@20.svg",
+          "24": "svg/circle/flag.eu@24.svg",
+          "32": "svg/circle/flag.eu@32.svg",
+          "48": "svg/circle/flag.eu@48.svg",
+          "72": "svg/circle/flag.eu@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.eu@16.svg",
+          "20": "svg/circle.mono/flag.eu@20.svg",
+          "24": "svg/circle.mono/flag.eu@24.svg",
+          "32": "svg/circle.mono/flag.eu@32.svg",
+          "48": "svg/circle.mono/flag.eu@48.svg",
+          "72": "svg/circle.mono/flag.eu@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.fr",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P1",
+      "label": "France",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.fr@16.svg",
+          "20": "svg/color/flag.fr@20.svg",
+          "24": "svg/color/flag.fr@24.svg",
+          "32": "svg/color/flag.fr@32.svg",
+          "48": "svg/color/flag.fr@48.svg",
+          "72": "svg/color/flag.fr@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.fr@16.svg",
+          "20": "svg/mono/flag.fr@20.svg",
+          "24": "svg/mono/flag.fr@24.svg",
+          "32": "svg/mono/flag.fr@32.svg",
+          "48": "svg/mono/flag.fr@48.svg",
+          "72": "svg/mono/flag.fr@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.fr@16.svg",
+          "20": "svg/circle/flag.fr@20.svg",
+          "24": "svg/circle/flag.fr@24.svg",
+          "32": "svg/circle/flag.fr@32.svg",
+          "48": "svg/circle/flag.fr@48.svg",
+          "72": "svg/circle/flag.fr@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.fr@16.svg",
+          "20": "svg/circle.mono/flag.fr@20.svg",
+          "24": "svg/circle.mono/flag.fr@24.svg",
+          "32": "svg/circle.mono/flag.fr@32.svg",
+          "48": "svg/circle.mono/flag.fr@48.svg",
+          "72": "svg/circle.mono/flag.fr@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.gb",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P1",
+      "label": "United Kingdom",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.gb@16.svg",
+          "20": "svg/color/flag.gb@20.svg",
+          "24": "svg/color/flag.gb@24.svg",
+          "32": "svg/color/flag.gb@32.svg",
+          "48": "svg/color/flag.gb@48.svg",
+          "72": "svg/color/flag.gb@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.gb@16.svg",
+          "20": "svg/mono/flag.gb@20.svg",
+          "24": "svg/mono/flag.gb@24.svg",
+          "32": "svg/mono/flag.gb@32.svg",
+          "48": "svg/mono/flag.gb@48.svg",
+          "72": "svg/mono/flag.gb@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.gb@16.svg",
+          "20": "svg/circle/flag.gb@20.svg",
+          "24": "svg/circle/flag.gb@24.svg",
+          "32": "svg/circle/flag.gb@32.svg",
+          "48": "svg/circle/flag.gb@48.svg",
+          "72": "svg/circle/flag.gb@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.gb@16.svg",
+          "20": "svg/circle.mono/flag.gb@20.svg",
+          "24": "svg/circle.mono/flag.gb@24.svg",
+          "32": "svg/circle.mono/flag.gb@32.svg",
+          "48": "svg/circle.mono/flag.gb@48.svg",
+          "72": "svg/circle.mono/flag.gb@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.it",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P1",
+      "label": "Italy",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.it@16.svg",
+          "20": "svg/color/flag.it@20.svg",
+          "24": "svg/color/flag.it@24.svg",
+          "32": "svg/color/flag.it@32.svg",
+          "48": "svg/color/flag.it@48.svg",
+          "72": "svg/color/flag.it@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.it@16.svg",
+          "20": "svg/mono/flag.it@20.svg",
+          "24": "svg/mono/flag.it@24.svg",
+          "32": "svg/mono/flag.it@32.svg",
+          "48": "svg/mono/flag.it@48.svg",
+          "72": "svg/mono/flag.it@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.it@16.svg",
+          "20": "svg/circle/flag.it@20.svg",
+          "24": "svg/circle/flag.it@24.svg",
+          "32": "svg/circle/flag.it@32.svg",
+          "48": "svg/circle/flag.it@48.svg",
+          "72": "svg/circle/flag.it@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.it@16.svg",
+          "20": "svg/circle.mono/flag.it@20.svg",
+          "24": "svg/circle.mono/flag.it@24.svg",
+          "32": "svg/circle.mono/flag.it@32.svg",
+          "48": "svg/circle.mono/flag.it@48.svg",
+          "72": "svg/circle.mono/flag.it@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.nl",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P1",
+      "label": "Netherlands",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.nl@16.svg",
+          "20": "svg/color/flag.nl@20.svg",
+          "24": "svg/color/flag.nl@24.svg",
+          "32": "svg/color/flag.nl@32.svg",
+          "48": "svg/color/flag.nl@48.svg",
+          "72": "svg/color/flag.nl@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.nl@16.svg",
+          "20": "svg/mono/flag.nl@20.svg",
+          "24": "svg/mono/flag.nl@24.svg",
+          "32": "svg/mono/flag.nl@32.svg",
+          "48": "svg/mono/flag.nl@48.svg",
+          "72": "svg/mono/flag.nl@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.nl@16.svg",
+          "20": "svg/circle/flag.nl@20.svg",
+          "24": "svg/circle/flag.nl@24.svg",
+          "32": "svg/circle/flag.nl@32.svg",
+          "48": "svg/circle/flag.nl@48.svg",
+          "72": "svg/circle/flag.nl@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.nl@16.svg",
+          "20": "svg/circle.mono/flag.nl@20.svg",
+          "24": "svg/circle.mono/flag.nl@24.svg",
+          "32": "svg/circle.mono/flag.nl@32.svg",
+          "48": "svg/circle.mono/flag.nl@48.svg",
+          "72": "svg/circle.mono/flag.nl@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.pl",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P1",
+      "label": "Poland",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.pl@16.svg",
+          "20": "svg/color/flag.pl@20.svg",
+          "24": "svg/color/flag.pl@24.svg",
+          "32": "svg/color/flag.pl@32.svg",
+          "48": "svg/color/flag.pl@48.svg",
+          "72": "svg/color/flag.pl@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.pl@16.svg",
+          "20": "svg/mono/flag.pl@20.svg",
+          "24": "svg/mono/flag.pl@24.svg",
+          "32": "svg/mono/flag.pl@32.svg",
+          "48": "svg/mono/flag.pl@48.svg",
+          "72": "svg/mono/flag.pl@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.pl@16.svg",
+          "20": "svg/circle/flag.pl@20.svg",
+          "24": "svg/circle/flag.pl@24.svg",
+          "32": "svg/circle/flag.pl@32.svg",
+          "48": "svg/circle/flag.pl@48.svg",
+          "72": "svg/circle/flag.pl@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.pl@16.svg",
+          "20": "svg/circle.mono/flag.pl@20.svg",
+          "24": "svg/circle.mono/flag.pl@24.svg",
+          "32": "svg/circle.mono/flag.pl@32.svg",
+          "48": "svg/circle.mono/flag.pl@48.svg",
+          "72": "svg/circle.mono/flag.pl@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.pt",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P1",
+      "label": "Portugal",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.pt@16.svg",
+          "20": "svg/color/flag.pt@20.svg",
+          "24": "svg/color/flag.pt@24.svg",
+          "32": "svg/color/flag.pt@32.svg",
+          "48": "svg/color/flag.pt@48.svg",
+          "72": "svg/color/flag.pt@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.pt@16.svg",
+          "20": "svg/mono/flag.pt@20.svg",
+          "24": "svg/mono/flag.pt@24.svg",
+          "32": "svg/mono/flag.pt@32.svg",
+          "48": "svg/mono/flag.pt@48.svg",
+          "72": "svg/mono/flag.pt@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.pt@16.svg",
+          "20": "svg/circle/flag.pt@20.svg",
+          "24": "svg/circle/flag.pt@24.svg",
+          "32": "svg/circle/flag.pt@32.svg",
+          "48": "svg/circle/flag.pt@48.svg",
+          "72": "svg/circle/flag.pt@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.pt@16.svg",
+          "20": "svg/circle.mono/flag.pt@20.svg",
+          "24": "svg/circle.mono/flag.pt@24.svg",
+          "32": "svg/circle.mono/flag.pt@32.svg",
+          "48": "svg/circle.mono/flag.pt@48.svg",
+          "72": "svg/circle.mono/flag.pt@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.tr",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P1",
+      "label": "Türkiye",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.tr@16.svg",
+          "20": "svg/color/flag.tr@20.svg",
+          "24": "svg/color/flag.tr@24.svg",
+          "32": "svg/color/flag.tr@32.svg",
+          "48": "svg/color/flag.tr@48.svg",
+          "72": "svg/color/flag.tr@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.tr@16.svg",
+          "20": "svg/mono/flag.tr@20.svg",
+          "24": "svg/mono/flag.tr@24.svg",
+          "32": "svg/mono/flag.tr@32.svg",
+          "48": "svg/mono/flag.tr@48.svg",
+          "72": "svg/mono/flag.tr@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.tr@16.svg",
+          "20": "svg/circle/flag.tr@20.svg",
+          "24": "svg/circle/flag.tr@24.svg",
+          "32": "svg/circle/flag.tr@32.svg",
+          "48": "svg/circle/flag.tr@48.svg",
+          "72": "svg/circle/flag.tr@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.tr@16.svg",
+          "20": "svg/circle.mono/flag.tr@20.svg",
+          "24": "svg/circle.mono/flag.tr@24.svg",
+          "32": "svg/circle.mono/flag.tr@32.svg",
+          "48": "svg/circle.mono/flag.tr@48.svg",
+          "72": "svg/circle.mono/flag.tr@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.unknown",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P2",
+      "label": "Region not set",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.unknown@16.svg",
+          "20": "svg/color/flag.unknown@20.svg",
+          "24": "svg/color/flag.unknown@24.svg",
+          "32": "svg/color/flag.unknown@32.svg",
+          "48": "svg/color/flag.unknown@48.svg",
+          "72": "svg/color/flag.unknown@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.unknown@16.svg",
+          "20": "svg/mono/flag.unknown@20.svg",
+          "24": "svg/mono/flag.unknown@24.svg",
+          "32": "svg/mono/flag.unknown@32.svg",
+          "48": "svg/mono/flag.unknown@48.svg",
+          "72": "svg/mono/flag.unknown@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.unknown@16.svg",
+          "20": "svg/circle/flag.unknown@20.svg",
+          "24": "svg/circle/flag.unknown@24.svg",
+          "32": "svg/circle/flag.unknown@32.svg",
+          "48": "svg/circle/flag.unknown@48.svg",
+          "72": "svg/circle/flag.unknown@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.unknown@16.svg",
+          "20": "svg/circle.mono/flag.unknown@20.svg",
+          "24": "svg/circle.mono/flag.unknown@24.svg",
+          "32": "svg/circle.mono/flag.unknown@32.svg",
+          "48": "svg/circle.mono/flag.unknown@48.svg",
+          "72": "svg/circle.mono/flag.unknown@72.svg"
+        }
+      }
+    },
+    {
+      "id": "flag.us",
+      "kind": "flag",
+      "category": "flag",
+      "tier": "P1",
+      "label": "United States",
+      "files": {
+        "color": {
+          "16": "svg/color/flag.us@16.svg",
+          "20": "svg/color/flag.us@20.svg",
+          "24": "svg/color/flag.us@24.svg",
+          "32": "svg/color/flag.us@32.svg",
+          "48": "svg/color/flag.us@48.svg",
+          "72": "svg/color/flag.us@72.svg"
+        },
+        "mono": {
+          "16": "svg/mono/flag.us@16.svg",
+          "20": "svg/mono/flag.us@20.svg",
+          "24": "svg/mono/flag.us@24.svg",
+          "32": "svg/mono/flag.us@32.svg",
+          "48": "svg/mono/flag.us@48.svg",
+          "72": "svg/mono/flag.us@72.svg"
+        },
+        "circle": {
+          "16": "svg/circle/flag.us@16.svg",
+          "20": "svg/circle/flag.us@20.svg",
+          "24": "svg/circle/flag.us@24.svg",
+          "32": "svg/circle/flag.us@32.svg",
+          "48": "svg/circle/flag.us@48.svg",
+          "72": "svg/circle/flag.us@72.svg"
+        },
+        "circle.mono": {
+          "16": "svg/circle.mono/flag.us@16.svg",
+          "20": "svg/circle.mono/flag.us@20.svg",
+          "24": "svg/circle.mono/flag.us@24.svg",
+          "32": "svg/circle.mono/flag.us@32.svg",
+          "48": "svg/circle.mono/flag.us@48.svg",
+          "72": "svg/circle.mono/flag.us@72.svg"
+        }
+      }
+    }
+  ]
+}

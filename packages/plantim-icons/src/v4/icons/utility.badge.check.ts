@@ -1,5 +1,5 @@
 // GENERATED FILE - do not edit by hand.
-// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 9602ac5dc4533c49ba0bd398380a25061d9a06697a3391cb61ca5d1e1319abe7).
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 573a185872b44f38b596f04ea43fd9241a433a2722d278ae1533bc80d82384b1).
 // Regenerate with: npm run icons:v4:package
 import type { PlantimIconV4Definition } from "../index.js";
 
@@ -8,28 +8,6 @@ export const UtilityBadgeCheck: PlantimIconV4Definition = {
   "label": "Badge Check",
   "tier": "P1",
   "grades": {
-    "micro": {
-      "layers": [
-        {
-          "name": "primary",
-          "role": "primary",
-          "nodes": [
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "m9 12 2 2 4-4"
-              }
-            }
-          ]
-        }
-      ]
-    },
     "base": {
       "layers": [
         {

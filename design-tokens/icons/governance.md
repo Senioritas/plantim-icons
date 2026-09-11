@@ -14,6 +14,15 @@ both platform checks and visual review of the generated galleries.
 4. Use a custom Plantim SVG only when Lucide geometry is not appropriate.
 5. Regenerate adapters, update galleries, and add a changelog entry.
 
+## Asset classes
+
+Not everything that renders in an icon slot is a semantic icon. `flag.*` is a
+separate asset class with its own DSL, registry, gate and npm subpath, because
+its colours are fixed by vexillology and must not re-theme. Add a new asset
+class rather than weakening the icon gates whenever a set cannot honour the
+four-variant, `currentColor`, token-themed contract. See
+[`flags/README.md`](flags/README.md).
+
 ## Versioning
 
 - Patch: documentation, build, or non-contract fixes.

@@ -7,7 +7,56 @@
         "success": "Erfolg",
         "info": "Information",
         "loading": "Wird geladen",
-        "streak": "Serie"
+        "streak": "Serie",
+        "pending": "Ausstehend",
+        "offline": "Offline"
+      },
+      "plant": {
+        "petSafe": "Haustiersicher",
+        "petUnsafe": "Giftig für Haustiere"
+      },
+      "flag": {
+        "de": "Deutschland",
+        "tr": "Türkei",
+        "gb": "Vereinigtes Königreich",
+        "us": "Vereinigte Staaten",
+        "eu": "Europäische Union",
+        "at": "Österreich",
+        "ch": "Schweiz",
+        "fr": "Frankreich",
+        "it": "Italien",
+        "es": "Spanien",
+        "nl": "Niederlande",
+        "pl": "Polen",
+        "pt": "Portugal",
+        "unknown": "Region nicht festgelegt"
+      },
+      "avatar": {
+        "sprout": "Sprössling",
+        "monstera": "Monstera",
+        "cactus": "Kaktus",
+        "succulent": "Sukkulente",
+        "fern": "Farn",
+        "pothos": "Efeutute",
+        "sansevieria": "Bogenhanf",
+        "aloe": "Aloe",
+        "palm": "Palme",
+        "orchid": "Orchidee",
+        "tulip": "Tulpe",
+        "sunflower": "Sonnenblume",
+        "bonsai": "Bonsai",
+        "clover": "Klee",
+        "lotus": "Lotus",
+        "pine": "Kiefer",
+        "bamboo": "Bambus",
+        "calathea": "Korbmarante",
+        "ficus": "Geigenfeige",
+        "rose": "Rose",
+        "lavender": "Lavendel",
+        "ivy": "Efeu",
+        "pilea": "Ufopflanze",
+        "oak": "Eiche",
+        "eucalyptus": "Eukalyptus"
       }
     }
   }

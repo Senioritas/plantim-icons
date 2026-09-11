@@ -3,43 +3,6 @@ export const StatusWarningAlt = {
     "label": "Warning Alt",
     "tier": "P2",
     "grades": {
-        "micro": {
-            "layers": [
-                {
-                    "name": "primary",
-                    "role": "primary",
-                    "nodes": [
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M12 9v4"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "name": "accent",
-                    "role": "accent",
-                    "nodes": [
-                        {
-                            "type": "circle",
-                            "attrs": {
-                                "cx": "12",
-                                "cy": "17",
-                                "r": "1.1"
-                            },
-                            "filled": true
-                        }
-                    ]
-                }
-            ]
-        },
         "base": {
             "layers": [
                 {

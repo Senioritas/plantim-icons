@@ -3,22 +3,6 @@ export const PlantWatering = {
     "label": "Watering",
     "tier": "P1",
     "grades": {
-        "micro": {
-            "layers": [
-                {
-                    "name": "primary",
-                    "role": "primary",
-                    "nodes": [
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M12 3s6.5 6.6 6.5 10.5a6.5 6.5 0 0 1-13 0C5.5 9.6 12 3 12 3Z"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
         "base": {
             "layers": [
                 {

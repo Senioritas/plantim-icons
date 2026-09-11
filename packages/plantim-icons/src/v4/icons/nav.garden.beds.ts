@@ -1,5 +1,5 @@
 // GENERATED FILE - do not edit by hand.
-// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 9602ac5dc4533c49ba0bd398380a25061d9a06697a3391cb61ca5d1e1319abe7).
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 573a185872b44f38b596f04ea43fd9241a433a2722d278ae1533bc80d82384b1).
 // Regenerate with: npm run icons:v4:package
 import type { PlantimIconV4Definition } from "../index.js";
 
@@ -8,56 +8,6 @@ export const NavGardenBeds: PlantimIconV4Definition = {
   "label": "Garden Beds",
   "tier": "P2",
   "grades": {
-    "micro": {
-      "layers": [
-        {
-          "name": "primary",
-          "role": "primary",
-          "nodes": [
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M3 9c3-2 15-2 18 0"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M3 14c3-2 15-2 18 0"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M3 19c3-2 15-2 18 0"
-              }
-            }
-          ]
-        },
-        {
-          "name": "accent",
-          "role": "accent",
-          "nodes": [
-            {
-              "type": "circle",
-              "attrs": {
-                "cx": "8",
-                "cy": "6",
-                "r": "1"
-              }
-            },
-            {
-              "type": "circle",
-              "attrs": {
-                "cx": "16",
-                "cy": "6",
-                "r": "1"
-              }
-            }
-          ]
-        }
-      ]
-    },
     "base": {
       "layers": [
         {

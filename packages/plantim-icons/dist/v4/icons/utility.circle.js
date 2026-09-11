@@ -3,36 +3,6 @@ export const UtilityCircle = {
     "label": "Circle",
     "tier": "P1",
     "grades": {
-        "micro": {
-            "layers": [
-                {
-                    "name": "primary",
-                    "role": "primary",
-                    "nodes": [
-                        {
-                            "type": "circle",
-                            "attrs": {
-                                "cx": "12",
-                                "cy": "12",
-                                "r": "10"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M12 8L12 12"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M12 16L12.01 16"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
         "base": {
             "layers": [
                 {

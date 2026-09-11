@@ -3,54 +3,6 @@ export const CarePruning = {
     "label": "Pruning",
     "tier": "P2",
     "grades": {
-        "micro": {
-            "layers": [
-                {
-                    "name": "primary",
-                    "role": "primary",
-                    "nodes": [
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M5 19C5 12 10 6 18 6c0 8-6 13-13 13z"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M5 19 14 10"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M17 4l-3 3"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M20 7l-3-3"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "name": "accent",
-                    "role": "accent",
-                    "nodes": [
-                        {
-                            "type": "circle",
-                            "attrs": {
-                                "cx": "15.5",
-                                "cy": "5.5",
-                                "r": "0.9"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
         "base": {
             "layers": [
                 {

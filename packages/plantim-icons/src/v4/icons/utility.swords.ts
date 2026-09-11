@@ -1,5 +1,5 @@
 // GENERATED FILE - do not edit by hand.
-// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 9602ac5dc4533c49ba0bd398380a25061d9a06697a3391cb61ca5d1e1319abe7).
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 573a185872b44f38b596f04ea43fd9241a433a2722d278ae1533bc80d82384b1).
 // Regenerate with: npm run icons:v4:package
 import type { PlantimIconV4Definition } from "../index.js";
 
@@ -8,64 +8,6 @@ export const UtilitySwords: PlantimIconV4Definition = {
   "label": "Swords",
   "tier": "P1",
   "grades": {
-    "micro": {
-      "layers": [
-        {
-          "name": "primary",
-          "role": "primary",
-          "nodes": [
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M14.5 17.5L3 6L3 3L6 3L17.5 14.5"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M13 19L19 13"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M16 16L20 20"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M19 21L21 19"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M14.5 6.5L18 3L21 3L21 6L17.5 9.5"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M5 14L9 18"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M7 17L4 20"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M3 19L5 21"
-              }
-            }
-          ]
-        }
-      ]
-    },
     "base": {
       "layers": [
         {

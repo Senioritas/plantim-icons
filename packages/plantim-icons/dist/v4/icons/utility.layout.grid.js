@@ -3,40 +3,6 @@ export const UtilityLayoutGrid = {
     "label": "Layout Grid",
     "tier": "P1",
     "grades": {
-        "micro": {
-            "layers": [
-                {
-                    "name": "primary",
-                    "role": "primary",
-                    "nodes": [
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M4 3h5a1 1 0 0 1 1 1v5a1 1 0 0 1 -1 1h-5a1 1 0 0 1 -1 -1v-5a1 1 0 0 1 1 -1Z"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M15 3h5a1 1 0 0 1 1 1v5a1 1 0 0 1 -1 1h-5a1 1 0 0 1 -1 -1v-5a1 1 0 0 1 1 -1Z"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M15 14h5a1 1 0 0 1 1 1v5a1 1 0 0 1 -1 1h-5a1 1 0 0 1 -1 -1v-5a1 1 0 0 1 1 -1Z"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M4 14h5a1 1 0 0 1 1 1v5a1 1 0 0 1 -1 1h-5a1 1 0 0 1 -1 -1v-5a1 1 0 0 1 1 -1Z"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
         "base": {
             "layers": [
                 {

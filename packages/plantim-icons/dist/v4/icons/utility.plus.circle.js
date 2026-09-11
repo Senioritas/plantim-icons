@@ -74,42 +74,6 @@ export const UtilityPlusCircle = {
                     ]
                 }
             ]
-        },
-        "display": {
-            "layers": [
-                {
-                    "name": "ring",
-                    "role": "container",
-                    "nodes": [
-                        {
-                            "type": "circle",
-                            "attrs": {
-                                "cx": "12",
-                                "cy": "12",
-                                "r": "9.25"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "name": "plus",
-                    "role": "primary",
-                    "nodes": [
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M12 8v8"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M8 12h8"
-                            }
-                        }
-                    ]
-                }
-            ]
         }
     },
     "solid": {

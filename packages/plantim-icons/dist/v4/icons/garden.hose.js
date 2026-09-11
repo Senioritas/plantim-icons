@@ -3,34 +3,6 @@ export const GardenHose = {
     "label": "Hose",
     "tier": "P2",
     "grades": {
-        "micro": {
-            "layers": [
-                {
-                    "name": "coil",
-                    "role": "primary",
-                    "nodes": [
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M11 20a5 5 0 1 1 5-5v-1a3 3 0 0 1 3-3"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "name": "nozzle",
-                    "role": "accent",
-                    "nodes": [
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M18 8l4 3-2.5 2.5L16 11Z"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
         "base": {
             "layers": [
                 {

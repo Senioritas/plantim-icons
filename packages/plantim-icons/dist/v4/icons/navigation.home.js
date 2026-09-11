@@ -58,34 +58,6 @@ export const NavigationHome = {
                     ]
                 }
             ]
-        },
-        "display": {
-            "layers": [
-                {
-                    "name": "shell",
-                    "role": "primary",
-                    "nodes": [
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M3.9 10.4a2 2 0 0 1 .74-1.55l6.1-5a2 2 0 0 1 2.52 0l6.1 5a2 2 0 0 1 .74 1.55V19a2 2 0 0 1-2 2H5.9a2 2 0 0 1-2-2Z"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "name": "door",
-                    "role": "secondary",
-                    "nodes": [
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M10.2 21v-4.3a1.8 1.8 0 0 1 3.6 0V21"
-                            }
-                        }
-                    ]
-                }
-            ]
         }
     },
     "solid": {

@@ -34,22 +34,6 @@ export const UtilityActivity = {
                     ]
                 }
             ]
-        },
-        "display": {
-            "layers": [
-                {
-                    "name": "pulse",
-                    "role": "primary",
-                    "nodes": [
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M2.8 12h3.7L9.3 5.2l5.4 13.6 2.8-6.8h3.7"
-                            }
-                        }
-                    ]
-                }
-            ]
         }
     },
     "solid": {

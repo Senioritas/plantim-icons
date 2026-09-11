@@ -3,40 +3,6 @@ export const GenusPothos = {
     "label": "Pothos",
     "tier": "P2",
     "grades": {
-        "micro": {
-            "layers": [
-                {
-                    "name": "primary",
-                    "role": "primary",
-                    "nodes": [
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M4 4c0 6 3 11 8 16"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M4 8c0-1.5 1-2.5 2.5-2.5S9 6.5 8 8c-1 1.5-2.5 1-4 0z"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M7 14c-.5-1.4.3-2.7 1.7-3S12 11.5 11 13c-1 1.5-2.6 1.4-4 1z"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M12 19c-1-1-1-2.5.2-3.4s2.7-.4 3 1c.3 1.4-1.2 2.7-3.2 2.4z"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
         "base": {
             "layers": [
                 {

@@ -1,5 +1,5 @@
 // GENERATED FILE - do not edit by hand.
-// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 9602ac5dc4533c49ba0bd398380a25061d9a06697a3391cb61ca5d1e1319abe7).
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 573a185872b44f38b596f04ea43fd9241a433a2722d278ae1533bc80d82384b1).
 // Regenerate with: npm run icons:v4:package
 import type { PlantimIconV4Definition } from "../index.js";
 
@@ -8,43 +8,6 @@ export const StatusWarning: PlantimIconV4Definition = {
   "label": "Warning",
   "tier": "P1",
   "grades": {
-    "micro": {
-      "layers": [
-        {
-          "name": "primary",
-          "role": "primary",
-          "nodes": [
-            {
-              "type": "path",
-              "attrs": {
-                "d": "m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M12 9v4"
-              }
-            }
-          ]
-        },
-        {
-          "name": "accent",
-          "role": "accent",
-          "nodes": [
-            {
-              "type": "circle",
-              "attrs": {
-                "cx": "12",
-                "cy": "17",
-                "r": "1.1"
-              },
-              "filled": true
-            }
-          ]
-        }
-      ]
-    },
     "base": {
       "layers": [
         {

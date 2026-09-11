@@ -3,42 +3,6 @@ export const NavFeedWaves = {
     "label": "Feed Waves",
     "tier": "P2",
     "grades": {
-        "micro": {
-            "layers": [
-                {
-                    "name": "primary",
-                    "role": "primary",
-                    "nodes": [
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M5 13a6 6 0 0 1 6 6"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M5 7a12 12 0 0 1 12 12"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "name": "accent",
-                    "role": "accent",
-                    "nodes": [
-                        {
-                            "type": "circle",
-                            "attrs": {
-                                "cx": "5.5",
-                                "cy": "18.5",
-                                "r": "1.4"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
         "base": {
             "layers": [
                 {

@@ -3,30 +3,6 @@ export const StatusSuccessCircleAlt = {
     "label": "Success Circle Alt",
     "tier": "P1",
     "grades": {
-        "micro": {
-            "layers": [
-                {
-                    "name": "primary",
-                    "role": "primary",
-                    "nodes": [
-                        {
-                            "type": "circle",
-                            "attrs": {
-                                "cx": "12",
-                                "cy": "12",
-                                "r": "10"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "m9 12 2 2 4-4"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
         "base": {
             "layers": [
                 {

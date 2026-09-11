@@ -3,56 +3,6 @@ export const NavGardenBeds = {
     "label": "Garden Beds",
     "tier": "P2",
     "grades": {
-        "micro": {
-            "layers": [
-                {
-                    "name": "primary",
-                    "role": "primary",
-                    "nodes": [
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M3 9c3-2 15-2 18 0"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M3 14c3-2 15-2 18 0"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M3 19c3-2 15-2 18 0"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "name": "accent",
-                    "role": "accent",
-                    "nodes": [
-                        {
-                            "type": "circle",
-                            "attrs": {
-                                "cx": "8",
-                                "cy": "6",
-                                "r": "1"
-                            }
-                        },
-                        {
-                            "type": "circle",
-                            "attrs": {
-                                "cx": "16",
-                                "cy": "6",
-                                "r": "1"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
         "base": {
             "layers": [
                 {

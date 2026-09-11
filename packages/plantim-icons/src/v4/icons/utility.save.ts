@@ -1,5 +1,5 @@
 // GENERATED FILE - do not edit by hand.
-// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 9602ac5dc4533c49ba0bd398380a25061d9a06697a3391cb61ca5d1e1319abe7).
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 573a185872b44f38b596f04ea43fd9241a433a2722d278ae1533bc80d82384b1).
 // Regenerate with: npm run icons:v4:package
 import type { PlantimIconV4Definition } from "../index.js";
 
@@ -8,40 +8,6 @@ export const UtilitySave: PlantimIconV4Definition = {
   "label": "Save",
   "tier": "P1",
   "grades": {
-    "micro": {
-      "layers": [
-        {
-          "name": "primary",
-          "role": "primary",
-          "nodes": [
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M10 2v3a1 1 0 0 0 1 1h5"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M18 18v-6a1 1 0 0 0-1-1h-6a1 1 0 0 0-1 1v6"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M18 22H4a2 2 0 0 1-2-2V6"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M8 18a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9.172a2 2 0 0 1 1.414.586l2.828 2.828A2 2 0 0 1 22 6.828V16a2 2 0 0 1-2.01 2z"
-              }
-            }
-          ]
-        }
-      ]
-    },
     "base": {
       "layers": [
         {

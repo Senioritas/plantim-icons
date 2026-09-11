@@ -42,9 +42,12 @@ technology.
 | `@plantim/icons` | Stable semantic Vue icon component and runtime-safe name helpers |
 | `@plantim/icons/metadata` | Accessibility metadata, registry version, and registry hash |
 | `@plantim/icons/navigation` | Shared Feed, Garden, Calendar, Chat, and Profile assignments |
-| `@plantim/icons/v4` | The v4 renderer, variants, tokens, and 237-icon catalogue |
+| `@plantim/icons/v4` | The v4 renderer, variants, tokens, and 289-icon catalogue |
 | `@plantim/icons/v4/icons/<id>` | Tree-shakable v4 icon definitions, for example `plant.sprout` |
 | `@plantim/icons/v4/metadata` | v4 labels, tiers, variants, and animation metadata |
+| `@plantim/icons/flags` | The `PlantimFlag` renderer and flag shapes |
+| `@plantim/icons/flags/<code>` | Tree-shakable flag definitions, for example `de` |
+| `@plantim/icons/flags/metadata` | Flag labels and localized accessibility label keys |
 
 The root entry point is the compatibility surface. The v4 catalogue is
 additive and is intentionally isolated behind `@plantim/icons/v4`.
@@ -94,6 +97,30 @@ import { PlantSprout } from "@plantim/icons/v4/icons/plant.sprout";
 Importing a specific v4 definition keeps unused icon modules out of a modern
 bundler's output. The v4 metadata export is useful for catalogues, diagnostics,
 and approved product pickers; it does not expose raw SVG nodes.
+
+## Country flags
+
+Flags are an asset class rather than semantic icons: their colours are fixed by
+vexillology and must not re-theme, so they live behind `@plantim/icons/flags`
+instead of the icon registry. There is no outline or solid pair; instead there
+are two shapes, each in a colour and a mono treatment.
+
+```vue
+<script setup lang="ts">
+import { PlantimFlag } from "@plantim/icons/flags";
+import FlagDe from "@plantim/icons/flags/de";
+</script>
+
+<template>
+  <PlantimFlag :flag="FlagDe" variant="circle" :size="24" title="Deutschland" />
+</template>
+```
+
+`color` and `mono` render a rounded rectangle; `circle` and `circle.mono` crop
+the same flag into the disc used by the plant avatars, so a flag sits beside a
+profile picture without a shape clash. Per-flag modules are tree-shakable, so an
+app that offers three locales ships three flags. Always pass `title` when the
+flag is the only thing naming the region.
 
 ## Shared navigation
 

@@ -3,34 +3,6 @@ export const GardenCompost = {
     "label": "Compost",
     "tier": "P2",
     "grades": {
-        "micro": {
-            "layers": [
-                {
-                    "name": "primary",
-                    "role": "primary",
-                    "nodes": [
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M4 8h16l-1.5 12H5.5z"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M3 8h18"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M12 17c-2 0-3.5-1.5-3.5-3.5C8.5 11 12 11 12 14c0-3 3.5-3 3.5.5C15.5 15.5 14 17 12 17z"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
         "base": {
             "layers": [
                 {

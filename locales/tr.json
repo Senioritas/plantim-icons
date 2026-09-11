@@ -7,7 +7,56 @@
         "success": "Başarılı",
         "info": "Bilgi",
         "loading": "Yükleniyor",
-        "streak": "Seri"
+        "streak": "Seri",
+        "pending": "Beklemede",
+        "offline": "Çevrimdışı"
+      },
+      "plant": {
+        "petSafe": "Evcil hayvanlar için güvenli",
+        "petUnsafe": "Evcil hayvanlar için zehirli"
+      },
+      "flag": {
+        "de": "Almanya",
+        "tr": "Türkiye",
+        "gb": "Birleşik Krallık",
+        "us": "Amerika Birleşik Devletleri",
+        "eu": "Avrupa Birliği",
+        "at": "Avusturya",
+        "ch": "İsviçre",
+        "fr": "Fransa",
+        "it": "İtalya",
+        "es": "İspanya",
+        "nl": "Hollanda",
+        "pl": "Polonya",
+        "pt": "Portekiz",
+        "unknown": "Bölge seçilmedi"
+      },
+      "avatar": {
+        "sprout": "Filiz",
+        "monstera": "Monstera",
+        "cactus": "Kaktüs",
+        "succulent": "Sukulent",
+        "fern": "Eğrelti",
+        "pothos": "Pothos",
+        "sansevieria": "Paşa kılıcı",
+        "aloe": "Aloe",
+        "palm": "Palmiye",
+        "orchid": "Orkide",
+        "tulip": "Lale",
+        "sunflower": "Ayçiçeği",
+        "bonsai": "Bonsai",
+        "clover": "Yonca",
+        "lotus": "Lotus",
+        "pine": "Çam",
+        "bamboo": "Bambu",
+        "calathea": "Kalatea",
+        "ficus": "Keman yapraklı incir",
+        "rose": "Gül",
+        "lavender": "Lavanta",
+        "ivy": "Sarmaşık",
+        "pilea": "Pilea",
+        "oak": "Meşe",
+        "eucalyptus": "Okaliptüs"
       }
     }
   }

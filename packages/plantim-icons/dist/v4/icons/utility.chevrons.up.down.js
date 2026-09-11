@@ -3,28 +3,6 @@ export const UtilityChevronsUpDown = {
     "label": "Chevrons Up Down",
     "tier": "P1",
     "grades": {
-        "micro": {
-            "layers": [
-                {
-                    "name": "primary",
-                    "role": "primary",
-                    "nodes": [
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "m7 15 5 5 5-5"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "m7 9 5-5 5 5"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
         "base": {
             "layers": [
                 {

@@ -1,5 +1,5 @@
 // GENERATED FILE - do not edit by hand.
-// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 9602ac5dc4533c49ba0bd398380a25061d9a06697a3391cb61ca5d1e1319abe7).
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 573a185872b44f38b596f04ea43fd9241a433a2722d278ae1533bc80d82384b1).
 // Regenerate with: npm run icons:v4:package
 import type { PlantimIconV4Definition } from "../index.js";
 
@@ -8,88 +8,6 @@ export const UtilitySnowflake: PlantimIconV4Definition = {
   "label": "Snowflake",
   "tier": "P1",
   "grades": {
-    "micro": {
-      "layers": [
-        {
-          "name": "primary",
-          "role": "primary",
-          "nodes": [
-            {
-              "type": "path",
-              "attrs": {
-                "d": "m10 20-1.25-2.5L6 18"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M10 4 8.75 6.5 6 6"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "m14 20 1.25-2.5L18 18"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "m14 4 1.25 2.5L18 6"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "m17 21-3-6h-4"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "m17 3-3 6 1.5 3"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M2 12h6.5L10 9"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "m20 10-1.5 2 1.5 2"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M22 12h-6.5L14 15"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "m4 10 1.5 2L4 14"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "m7 21 3-6-1.5-3"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "m7 3 3 6h4"
-              }
-            }
-          ]
-        }
-      ]
-    },
     "base": {
       "layers": [
         {

@@ -3,40 +3,6 @@ export const GardenSpade = {
     "label": "Spade",
     "tier": "P2",
     "grades": {
-        "micro": {
-            "layers": [
-                {
-                    "name": "handle",
-                    "role": "primary",
-                    "nodes": [
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M8 4h8"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M12 4v11"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "name": "blade",
-                    "role": "accent",
-                    "nodes": [
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "M9 15h6l-3 5.5Z"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
         "base": {
             "layers": [
                 {

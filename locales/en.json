@@ -7,7 +7,56 @@
         "success": "Success",
         "info": "Information",
         "loading": "Loading",
-        "streak": "Streak"
+        "streak": "Streak",
+        "pending": "Pending",
+        "offline": "Offline"
+      },
+      "plant": {
+        "petSafe": "Pet safe",
+        "petUnsafe": "Toxic to pets"
+      },
+      "flag": {
+        "de": "Germany",
+        "tr": "Türkiye",
+        "gb": "United Kingdom",
+        "us": "United States",
+        "eu": "European Union",
+        "at": "Austria",
+        "ch": "Switzerland",
+        "fr": "France",
+        "it": "Italy",
+        "es": "Spain",
+        "nl": "Netherlands",
+        "pl": "Poland",
+        "pt": "Portugal",
+        "unknown": "Region not set"
+      },
+      "avatar": {
+        "sprout": "Sprout",
+        "monstera": "Monstera",
+        "cactus": "Cactus",
+        "succulent": "Succulent",
+        "fern": "Fern",
+        "pothos": "Pothos",
+        "sansevieria": "Snake plant",
+        "aloe": "Aloe",
+        "palm": "Palm",
+        "orchid": "Orchid",
+        "tulip": "Tulip",
+        "sunflower": "Sunflower",
+        "bonsai": "Bonsai",
+        "clover": "Clover",
+        "lotus": "Lotus",
+        "pine": "Pine",
+        "bamboo": "Bamboo",
+        "calathea": "Calathea",
+        "ficus": "Fiddle-leaf fig",
+        "rose": "Rose",
+        "lavender": "Lavender",
+        "ivy": "Ivy",
+        "pilea": "Pilea",
+        "oak": "Oak",
+        "eucalyptus": "Eucalyptus"
       }
     }
   }

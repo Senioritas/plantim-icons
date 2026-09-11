@@ -3,34 +3,6 @@ export const UtilityCode = {
     "label": "Code",
     "tier": "P2",
     "grades": {
-        "micro": {
-            "layers": [
-                {
-                    "name": "primary",
-                    "role": "primary",
-                    "nodes": [
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "m18 16 4-4-4-4"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "m6 8-4 4 4 4"
-                            }
-                        },
-                        {
-                            "type": "path",
-                            "attrs": {
-                                "d": "m14.5 4-5 16"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
         "base": {
             "layers": [
                 {

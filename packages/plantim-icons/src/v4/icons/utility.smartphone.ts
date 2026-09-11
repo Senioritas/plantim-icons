@@ -1,5 +1,5 @@
 // GENERATED FILE - do not edit by hand.
-// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 9602ac5dc4533c49ba0bd398380a25061d9a06697a3391cb61ca5d1e1319abe7).
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 573a185872b44f38b596f04ea43fd9241a433a2722d278ae1533bc80d82384b1).
 // Regenerate with: npm run icons:v4:package
 import type { PlantimIconV4Definition } from "../index.js";
 
@@ -8,40 +8,6 @@ export const UtilitySmartphone: PlantimIconV4Definition = {
   "label": "Smartphone",
   "tier": "P1",
   "grades": {
-    "micro": {
-      "layers": [
-        {
-          "name": "primary",
-          "role": "primary",
-          "nodes": [
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M3 6h5a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-5a1 1 0 0 1 -1 -1v-10a1 1 0 0 1 1 -1Z"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M13 8.32a7.43 7.43 0 0 1 0 7.36"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M16.46 6.21a11.76 11.76 0 0 1 0 11.58"
-              }
-            },
-            {
-              "type": "path",
-              "attrs": {
-                "d": "M19.91 4.1a15.91 15.91 0 0 1 .01 15.8"
-              }
-            }
-          ]
-        }
-      ]
-    },
     "base": {
       "layers": [
         {

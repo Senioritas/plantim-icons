@@ -29,7 +29,7 @@
     "gallery:dev": "vite --config gallery/web/vite.config.ts",
     "gallery:build": "vite build --config gallery/web/vite.config.ts",
     "gallery:test": "playwright test gallery/web/gallery.spec.ts",
-    "icons:validate:node": "npm run icons:parity:fixtures && npm run icons:fixtures:check && npm run icons:generate && npm run navigation:check && npm run icons:migrations && npm run icons:check && npm run icons:migrations:check && npm run icons:test && npm run icons:accessibility && npm run icons:galleries && npm run icons:parity && npm run icons:vue:test && npm run icons:compatibility && npm run icons:release:check && npm run icons:proposal:check && npm run icons:package:check && npm run icons:package:api && npm run icons:package:size",
+    "icons:validate:node": "npm run icons:parity:fixtures && npm run icons:fixtures:check && npm run icons:generate && npm run navigation:check && npm run icons:migrations && npm run icons:check && npm run icons:migrations:check && npm run icons:test && npm run icons:accessibility && npm run icons:galleries && npm run icons:parity && npm run icons:vue:test && npm run icons:flags:test && npm run icons:compatibility && npm run icons:release:check && npm run icons:flags:check && npm run icons:package:check && npm run icons:package:api && npm run icons:package:size",
     "icons:validate": "npm run icons:validate:node && swift test --package-path packages/PlantimIcons",
     "ci:docker:build": "docker build --pull -f docker/ci/Dockerfile -t plantim-icons-ci:local .",
     "ci:docker": "docker compose run --rm icons-ci",
@@ -47,12 +47,11 @@
     "icons:v4:lottie": "node design-tokens/bin/generate-v4-lottie.mjs && node design-tokens/bin/check-v4-lottie.mjs",
     "icons:v4:android": "node design-tokens/bin/generate-v4-android.mjs && node design-tokens/bin/check-v4-android.mjs",
     "icons:v4:swift": "node design-tokens/bin/generate-v4-swift-icons.mjs",
-    "icons:proposal": "node design-tokens/bin/generate-proposal-icons.mjs && node design-tokens/bin/check-proposal-icons.mjs",
-    "icons:proposal:check": "node design-tokens/bin/check-proposal-icons.mjs",
-    "icons:proposal:raster": "node design-tokens/bin/check-proposal-icons.mjs --raster",
-    "icons:proposal:sheets": "node design-tokens/bin/render-v4-sheets.mjs proposal",
-    "icons:proposal:html": "node design-tokens/bin/generate-proposal-html.mjs",
-    "icons:proposal:pdf": "node design-tokens/bin/generate-proposal-report.mjs && node design-tokens/bin/generate-proposal-catalog.mjs"
+    "icons:flags": "node design-tokens/bin/generate-flag-icons.mjs && node design-tokens/bin/check-flag-icons.mjs && npm run icons:flags:package",
+    "icons:flags:check": "node design-tokens/bin/check-flag-icons.mjs",
+    "icons:flags:test": "node design-tokens/bin/test-flag-vue-parity.mjs",
+    "icons:flags:package": "node design-tokens/bin/generate-flag-package.mjs && npm --prefix packages/plantim-icons run build",
+    "icons:flags:sheets": "node design-tokens/bin/render-v4-sheets.mjs flags"
   },
   "devDependencies": {
     "@lucide/vue": "1.40.0",

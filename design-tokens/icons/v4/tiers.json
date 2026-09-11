@@ -1,16 +1,18 @@
 {
-  "version": "4.0.0",
+  "version": "4.1.0",
   "source": {
     "app": "reports/v4-app-icon-audit.md",
-    "quality": "reports/v4-v3-audit.md"
+    "quality": "reports/v4-v3-audit.md",
+    "additions": "reports/plantim-icons-v4.1-proposal-report.pdf"
   },
   "counts": {
     "P0": 9,
-    "P1": 134,
-    "P2": 94,
+    "P1": 177,
+    "P2": 103,
     "keep": 103,
     "refine": 63,
-    "redraw": 71
+    "redraw": 71,
+    "new": 52
   },
   "icons": {
     "account.user": {
@@ -37,6 +39,110 @@
       "tier": "P1",
       "verdict": "redraw"
     },
+    "avatar.aloe": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "avatar.bamboo": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "avatar.bonsai": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "avatar.cactus": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "avatar.calathea": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "avatar.clover": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "avatar.eucalyptus": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "avatar.fern": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "avatar.ficus": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "avatar.ivy": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "avatar.lavender": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "avatar.lotus": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "avatar.monstera": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "avatar.oak": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "avatar.orchid": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "avatar.palm": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "avatar.pilea": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "avatar.pine": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "avatar.pothos": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "avatar.rose": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "avatar.sansevieria": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "avatar.sprout": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "avatar.succulent": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "avatar.sunflower": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "avatar.tulip": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "calendar.add": {
+      "tier": "P1",
+      "verdict": "new"
+    },
     "calendar.date": {
       "tier": "P0",
       "verdict": "refine"
@@ -57,6 +163,10 @@
       "tier": "P2",
       "verdict": "refine"
     },
+    "care.misting": {
+      "tier": "P2",
+      "verdict": "new"
+    },
     "care.pruning": {
       "tier": "P2",
       "verdict": "redraw"
@@ -76,6 +186,10 @@
     "care.repotting.alt": {
       "tier": "P2",
       "verdict": "refine"
+    },
+    "care.rotating": {
+      "tier": "P2",
+      "verdict": "new"
     },
     "care.suggestion": {
       "tier": "P2",
@@ -269,9 +383,21 @@
       "tier": "P2",
       "verdict": "redraw"
     },
+    "location.indoor": {
+      "tier": "P2",
+      "verdict": "new"
+    },
+    "location.outdoor": {
+      "tier": "P2",
+      "verdict": "new"
+    },
     "location.pin": {
       "tier": "P1",
       "verdict": "redraw"
+    },
+    "location.room": {
+      "tier": "P1",
+      "verdict": "new"
     },
     "nav.calendar.check": {
       "tier": "P2",
@@ -377,6 +503,30 @@
       "tier": "P1",
       "verdict": "keep"
     },
+    "placeholder.avatar": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "placeholder.card": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "placeholder.chart": {
+      "tier": "P2",
+      "verdict": "new"
+    },
+    "placeholder.list": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "placeholder.plant": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "placeholder.text": {
+      "tier": "P1",
+      "verdict": "new"
+    },
     "plant.add": {
       "tier": "P2",
       "verdict": "redraw"
@@ -384,6 +534,26 @@
     "plant.growth": {
       "tier": "P0",
       "verdict": "redraw"
+    },
+    "plant.humidity": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "plant.identify": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "plant.light": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "plant.pet.safe": {
+      "tier": "P2",
+      "verdict": "new"
+    },
+    "plant.pet.unsafe": {
+      "tier": "P2",
+      "verdict": "new"
     },
     "plant.pruning": {
       "tier": "P1",
@@ -444,6 +614,18 @@
     "status.loading": {
       "tier": "P1",
       "verdict": "keep"
+    },
+    "status.loading.dots": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "status.offline": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "status.pending": {
+      "tier": "P1",
+      "verdict": "new"
     },
     "status.streak": {
       "tier": "P2",
@@ -557,6 +739,10 @@
       "tier": "P1",
       "verdict": "refine"
     },
+    "utility.camera.plus": {
+      "tier": "P1",
+      "verdict": "new"
+    },
     "utility.check.check": {
       "tier": "P1",
       "verdict": "keep"
@@ -620,6 +806,18 @@
     "utility.dna": {
       "tier": "P1",
       "verdict": "refine"
+    },
+    "utility.download": {
+      "tier": "P1",
+      "verdict": "new"
+    },
+    "utility.drag.handle": {
+      "tier": "P2",
+      "verdict": "new"
+    },
+    "utility.external.link": {
+      "tier": "P1",
+      "verdict": "new"
     },
     "utility.eye": {
       "tier": "P1",
@@ -688,6 +886,10 @@
     "utility.key": {
       "tier": "P1",
       "verdict": "keep"
+    },
+    "utility.language": {
+      "tier": "P1",
+      "verdict": "new"
     },
     "utility.layout.grid": {
       "tier": "P1",
@@ -777,6 +979,10 @@
       "tier": "P0",
       "verdict": "keep"
     },
+    "utility.qr.code": {
+      "tier": "P2",
+      "verdict": "new"
+    },
     "utility.quote": {
       "tier": "P1",
       "verdict": "keep"
@@ -836,6 +1042,10 @@
     "utility.snowflake": {
       "tier": "P1",
       "verdict": "keep"
+    },
+    "utility.sort": {
+      "tier": "P1",
+      "verdict": "new"
     },
     "utility.sparkles": {
       "tier": "P1",

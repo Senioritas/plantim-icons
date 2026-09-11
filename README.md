@@ -25,15 +25,21 @@ The canonical source is [`design-tokens/icons/registry.json`](design-tokens/icon
 Run `npm run icons:generate` after registry changes. Generated adapters must be
 committed and must have matching version and registry hash metadata.
 
-## v4.1 proposal (review package)
+## Icons 4.1
 
-New icons are proposed additively under [`design-tokens/icons/v4.1-proposal`](design-tokens/icons/v4.1-proposal/README.md):
-loading-state placeholders, the specific cases the app works around, and a
-`flag.*` asset class. Review in
-[`reports/plantim-icons-v4.1-proposal-catalog.html`](reports/plantim-icons-v4.1-proposal-catalog.html)
-(decision record) and read
-[`reports/plantim-icons-v4.1-proposal-report.pdf`](reports/plantim-icons-v4.1-proposal-report.pdf).
-Nothing in the proposal changes a shipped id; `npm run icons:proposal` regenerates and gates it.
+The v4 set is 289 icons: the original 237 plus loading-state placeholders, 25
+plant profile avatars, and the specific cases the clients previously faked with
+a neighbouring glyph. Flags ship separately as
+[`design-tokens/icons/flags`](design-tokens/icons/flags/README.md) — an asset
+class with fixed colours in rectangular and circular shapes, published as
+`@plantim/icons/flags`.
+
+![Plant avatars and the flag shapes](reports/icons-v4.1-avatars-and-flags.png)
+
+The review that produced these additions is recorded in
+[`reports/plantim-icons-v4.1-proposal-report.pdf`](reports/plantim-icons-v4.1-proposal-report.pdf)
+and its catalog; those artifacts are historical and no longer regenerate, since
+the proposal is now the shipped set.
 
 ## Compatibility
 

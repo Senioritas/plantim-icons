@@ -1,0 +1,87 @@
+// GENERATED FILE - do not edit by hand.
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 573a185872b44f38b596f04ea43fd9241a433a2722d278ae1533bc80d82384b1).
+// Regenerate with: npm run icons:v4:package
+import type { PlantimIconV4Definition } from "../index.js";
+
+export const AvatarAloe: PlantimIconV4Definition = {
+  "id": "avatar.aloe",
+  "label": "Aloe",
+  "tier": "P1",
+  "grades": {
+    "base": {
+      "layers": [
+        {
+          "name": "ring",
+          "role": "container",
+          "nodes": [
+            {
+              "type": "circle",
+              "attrs": {
+                "cx": "12",
+                "cy": "12",
+                "r": "9.25"
+              }
+            }
+          ]
+        },
+        {
+          "name": "plant",
+          "role": "primary",
+          "nodes": [
+            {
+              "type": "path",
+              "attrs": {
+                "d": "M10.417 16.342Q9.169 14.003 5.938 14.1Q7.469 16.947 10.119 16.858Z"
+              }
+            },
+            {
+              "type": "path",
+              "attrs": {
+                "d": "M11.303 15.693Q11.157 12.14 7.5 9.806Q7.693 14.14 10.697 16.043Z"
+              }
+            },
+            {
+              "type": "path",
+              "attrs": {
+                "d": "M12.368 15.6Q14.1 12 12 7.6Q9.9 12 11.633 15.6Z"
+              }
+            },
+            {
+              "type": "path",
+              "attrs": {
+                "d": "M13.303 16.043Q16.307 14.14 16.5 9.806Q12.843 12.14 12.697 15.693Z"
+              }
+            },
+            {
+              "type": "path",
+              "attrs": {
+                "d": "M13.881 16.858Q16.531 16.947 18.062 14.1Q14.831 14.003 13.583 16.342Z"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "solid": {
+    "base": {
+      "paths": [
+        "M12 1.75a10.25 10.25 0 1 0 0 20.5a10.25 10.25 0 1 0 0-20.5ZM10.417 16.342Q9.169 14.003 5.938 14.1Q7.469 16.947 10.119 16.858ZM11.303 15.693Q11.157 12.14 7.5 9.806Q7.693 14.14 10.697 16.043ZM12.368 15.6Q14.1 12 12 7.6Q9.9 12 11.633 15.6ZM13.303 16.043Q16.307 14.14 16.5 9.806Q12.843 12.14 12.697 15.693ZM13.881 16.858Q16.531 16.947 18.062 14.1Q14.831 14.003 13.583 16.342Z"
+      ],
+      "counters": 5
+    }
+  },
+  "variants": {
+    "duotone": {
+      "primary": [
+        "plant"
+      ]
+    },
+    "multicolor": {
+      "ring": "leaf.300",
+      "plant": "leaf.500"
+    }
+  }
+};
+
+export default AvatarAloe;
