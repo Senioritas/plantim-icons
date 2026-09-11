@@ -1,6 +1,6 @@
 import { defineComponent, h } from "vue";
-export const PLANTIM_ICONS_VERSION = "2.1.0";
-export const PLANTIM_ICONS_REGISTRY_HASH = "6e37c9e631574cc64b8172b3c63adafb794e18829adf58b7a72547fb4d0adbd7";
+export const PLANTIM_ICONS_VERSION = "2.2.0";
+export const PLANTIM_ICONS_REGISTRY_HASH = "47e13cd125f050cc14c03c40fc352cf09d63e3240b2d788f79a9c4f2de199820";
 const iconRegistry = {
     "utility.activity": {
         "id": "utility.activity",

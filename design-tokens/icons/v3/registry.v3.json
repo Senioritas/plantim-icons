@@ -1,8 +1,8 @@
 {
   "version": "3.0.0",
-  "derivedFrom": "2.1.0",
+  "derivedFrom": "2.2.0",
   "source": "lucide-and-plantim-custom",
-  "sourceRegistryHash": "6e37c9e631574cc64b8172b3c63adafb794e18829adf58b7a72547fb4d0adbd7",
+  "sourceRegistryHash": "47e13cd125f050cc14c03c40fc352cf09d63e3240b2d788f79a9c4f2de199820",
   "sizes": [
     24,
     48,
@@ -13399,5 +13399,5 @@
       ]
     }
   },
-  "v3Hash": "c0e8cc980517836b517f3e283bf287604ec210c06b65b0e1610ba1dfc37882be"
+  "v3Hash": "398ac3b9056b1d25bdbb02d6bdd096934463a07eb6c579f785796721be586239"
 }

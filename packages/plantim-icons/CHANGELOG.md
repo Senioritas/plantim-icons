@@ -3,6 +3,14 @@
 All notable icon contract changes are recorded here. Geometry changes, removals,
 renames, and accessibility changes require coordinated package releases.
 
+## 2.2.0
+
+- Add the Plantim Icons v4 catalogue and 237-icon cross-platform icon set.
+- Expose tree-shakable `@plantim/icons/v4` and `@plantim/icons/v4/icons/*`
+  entry points with metadata and optical-size variants.
+- Include the coordinated generated Vue and Swift adapter metadata for the
+  v4 registry.
+
 ## 2.1.0
 
 - Add the generated product navigation contract for shared Plantim surfaces.
