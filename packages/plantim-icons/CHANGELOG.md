@@ -3,6 +3,12 @@
 All notable icon contract changes are recorded here. Geometry changes, removals,
 renames, and accessibility changes require coordinated package releases.
 
+## 2.2.1
+
+- Improve npm metadata and package discoverability.
+- Expand the package README with installation, accessibility, v4 catalogue,
+  tree-shaking, diagnostics, and compatibility guidance.
+
 ## 2.2.0
 
 - Add the Plantim Icons v4 catalogue and 237-icon cross-platform icon set.

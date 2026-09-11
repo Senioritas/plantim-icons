@@ -1,8 +1,19 @@
 {
   "name": "@plantim/icons",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "private": false,
-  "description": "Plantim's cross-platform semantic icon library.",
+  "description": "Plantim's tree-shakeable semantic icon library for Vue 3.",
+  "keywords": [
+    "plantim",
+    "icons",
+    "icon-library",
+    "semantic-icons",
+    "vue",
+    "vue3",
+    "typescript",
+    "svg",
+    "plants"
+  ],
   "license": "MIT",
   "types": "./dist/index.d.ts",
   "module": "./dist/index.js",
@@ -11,6 +22,10 @@
     "url": "git+https://github.com/Senioritas/plantim-icons.git",
     "directory": "packages/plantim-icons"
   },
+  "bugs": {
+    "url": "https://github.com/Senioritas/plantim-icons/issues"
+  },
+  "homepage": "https://github.com/Senioritas/plantim-icons#readme",
   "files": [
     "dist",
     "README.md",
