@@ -8,7 +8,7 @@ import AppKit
 
 public enum PlantimIconsV4Metadata {
     public static let version = "4.0.0"
-    public static let registryHash = "f12d51dd066e0493bb460f13ca0d9c957e58542320303fbce9aadf893972be4b"
+    public static let registryHash = "9602ac5dc4533c49ba0bd398380a25061d9a06697a3391cb61ca5d1e1319abe7"
     public static let iconCount = 237
 }
 

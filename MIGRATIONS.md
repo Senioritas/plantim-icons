@@ -1,6 +1,6 @@
 # Icon migrations
 
-Generated from `design-tokens/icons/registry.json` for registry 2.2.0 (47e13cd125f050cc14c03c40fc352cf09d63e3240b2d788f79a9c4f2de199820).
+Generated from `design-tokens/icons/registry.json` for registry 2.2.1 (a438305d701f78733522a68d064ed0849693ba354278d617ccfddc717068fe21).
 
 Semantic IDs are the only supported application API. Aliases are compatibility references for migration tooling and must not be added to new product code.
 
