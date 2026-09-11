@@ -1,8 +1,8 @@
 {
   "version": "4.0.0",
   "derivedFrom": {
-    "v2": "2.1.0",
-    "v2Hash": "6e37c9e631574cc64b8172b3c63adafb794e18829adf58b7a72547fb4d0adbd7"
+    "v2": "2.2.0",
+    "v2Hash": "47e13cd125f050cc14c03c40fc352cf09d63e3240b2d788f79a9c4f2de199820"
   },
   "sizes": {
     "version": "4.0.0",
@@ -37011,5 +37011,5 @@
       "geometryHash": "c8adca5fd52a81c39ce950dbcf50bf48657905eac8cd4fa2138e30c4ed54f3ec"
     }
   },
-  "v4Hash": "5c17109caec158aa49b07c8f61ff61b5c9662d2af484748da61c1ce52112809c"
+  "v4Hash": "f12d51dd066e0493bb460f13ca0d9c957e58542320303fbce9aadf893972be4b"
 }

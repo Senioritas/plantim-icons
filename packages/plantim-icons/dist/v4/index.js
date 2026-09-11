@@ -1,9 +1,9 @@
 // GENERATED FILE - do not edit by hand.
-// Source: design-tokens/icons/v4/registry.v4.json (v4Hash 5c17109caec158aa49b07c8f61ff61b5c9662d2af484748da61c1ce52112809c).
+// Source: design-tokens/icons/v4/registry.v4.json (v4Hash f12d51dd066e0493bb460f13ca0d9c957e58542320303fbce9aadf893972be4b).
 // Regenerate with: npm run icons:v4:package
 import { defineComponent, h } from "vue";
 export const PLANTIM_ICONS_V4_VERSION = "4.0.0";
-export const PLANTIM_ICONS_V4_HASH = "5c17109caec158aa49b07c8f61ff61b5c9662d2af484748da61c1ce52112809c";
+export const PLANTIM_ICONS_V4_HASH = "f12d51dd066e0493bb460f13ca0d9c957e58542320303fbce9aadf893972be4b";
 export const PLANTIM_V4_TOKENS = Object.freeze({
     "bloom.500": {
         "light": "#D81B60",

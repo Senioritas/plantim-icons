@@ -1,6 +1,6 @@
 {
   "$schema": "./registry.schema.json",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "source": "lucide-and-plantim-custom",
   "icons": {
     "Activity": {
@@ -6267,7 +6267,7 @@
       "category": "plant"
     }
   },
-  "registryHash": "6e37c9e631574cc64b8172b3c63adafb794e18829adf58b7a72547fb4d0adbd7",
+  "registryHash": "47e13cd125f050cc14c03c40fc352cf09d63e3240b2d788f79a9c4f2de199820",
   "contractVersion": "2.0",
   "release": {
     "compatibility": "semantic-versioning",

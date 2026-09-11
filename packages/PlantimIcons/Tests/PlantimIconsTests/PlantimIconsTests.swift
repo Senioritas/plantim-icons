@@ -3,7 +3,7 @@ import XCTest
 
 final class PlantimIconsTests: XCTestCase {
     func testGeneratedRegistryMetadataIsPresent() {
-        XCTAssertEqual(PlantimIconsMetadata.version, "2.1.0")
+        XCTAssertEqual(PlantimIconsMetadata.version, "2.2.0")
         XCTAssertEqual(PlantimIconsMetadata.registryHash.count, 64)
     }
 
