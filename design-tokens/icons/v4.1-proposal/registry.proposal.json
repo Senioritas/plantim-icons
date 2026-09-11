@@ -2,7 +2,7 @@
   "version": "4.1.0-proposal",
   "derivedFrom": {
     "v4": "4.0.0",
-    "v4Hash": "f12d51dd066e0493bb460f13ca0d9c957e58542320303fbce9aadf893972be4b"
+    "v4Hash": "9602ac5dc4533c49ba0bd398380a25061d9a06697a3391cb61ca5d1e1319abe7"
   },
   "sizes": {
     "version": "4.0.0",
@@ -11715,5 +11715,5 @@
       "geometryHash": "e26df8ad037106bdcdc19bf094a1faa60b713d5f549a582a779777479d7feabd"
     }
   },
-  "proposalHash": "f08b08dd56234f83112dc3b9fa3a5fc99ec690dca322aa85b59067a17e6c905d"
+  "proposalHash": "f9e75ac65f132b71614ebb16878e75438b3cf0ab7ead8062ad5ae9d24901fb4f"
 }
