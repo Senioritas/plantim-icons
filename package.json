@@ -54,7 +54,7 @@
     "icons:flags:sheets": "node design-tokens/bin/render-v4-sheets.mjs flags"
   },
   "devDependencies": {
-    "@lucide/vue": "1.40.0",
+    "@lucide/vue": "1.43.0",
     "@playwright/test": "1.62.1",
     "@vitejs/plugin-vue": "6.0.8",
     "ajv": "^8.17.1",
