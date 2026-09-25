@@ -2,8 +2,8 @@ import SwiftUI
 import Foundation
 
 public enum PlantimIconsMetadata {
-    public static let version = "2.3.0"
-    public static let registryHash = "4c4f68636fef77ab275509aa7754ad663f5e930803fec5a20deea2f595e37ca2"
+    public static let version = "2.4.0"
+    public static let registryHash = "d8c5059a9d8d19ddddbb5ec01484ad9eeeed5817290aabd486685e839d1cb857"
 }
 
 public enum PlantimIconName: String, CaseIterable, Sendable {

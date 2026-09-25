@@ -1,10 +1,10 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "surfaces": {
-    "feed": { "route": "/feed", "labelKey": "nav.feed", "icon": "utility.activity" },
+    "feed": { "route": "/inbox", "labelKey": "nav.feed", "icon": "utility.activity" },
     "garden": { "route": "/gardens", "labelKey": "nav.gardens", "icon": "plant.growth" },
     "plants": { "route": "/plants", "labelKey": "quickRail.plants", "icon": "plant.sprout" },
-    "calendar": { "route": "/calendar", "labelKey": "nav.careCalendar", "icon": "calendar.date" },
+    "calendar": { "route": "/rhythm", "labelKey": "nav.careCalendar", "icon": "calendar.date" },
     "chat": { "route": "/chat", "labelKey": "nav.plantimChat", "icon": "utility.message.circle" },
     "profile": { "route": "/profile", "labelKey": "nav.tabProfile", "icon": "account.user" }
   }
