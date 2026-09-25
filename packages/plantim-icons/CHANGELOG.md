@@ -3,6 +3,13 @@
 All notable icon contract changes are recorded here. Geometry changes, removals,
 renames, and accessibility changes require coordinated package releases.
 
+## 2.4.0
+
+- Update the shared product navigation contract so the activity surface uses
+  `/inbox` and the care-calendar surface uses `/rhythm`. Existing clients may
+  continue using `/feed` and `/calendar` during the compatibility window;
+  Plantim web keeps redirects while native clients adopt the new routes.
+
 ## 2.3.0
 
 - Grow the v4 icon set from 237 to 289 ids: loading-state placeholders

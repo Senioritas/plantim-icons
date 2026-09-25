@@ -1,6 +1,6 @@
 import type { PlantimIconName } from "./index.js";
-export declare const PLANTIM_PRODUCT_CONTRACT_VERSION: "1.0.0";
-export declare const PLANTIM_PRODUCT_CONTRACT_HASH: "48a78d8df7b06de2f9c77fdb8082c261959fb4ef2fe836ff0cda3adaaeaa3a26";
+export declare const PLANTIM_PRODUCT_CONTRACT_VERSION: "1.1.0";
+export declare const PLANTIM_PRODUCT_CONTRACT_HASH: "372c387c30206a80e6d25da4d00c10d13aed442f7a08aad1945c043c3a458a8a";
 export type PlantimNavigationSurface = "feed" | "garden" | "plants" | "calendar" | "chat" | "profile";
 export type PlantimNavigationItem = {
     readonly id: PlantimNavigationSurface;
@@ -11,7 +11,7 @@ export type PlantimNavigationItem = {
 export declare const PlantimNavigation: Readonly<{
     readonly feed: {
         readonly id: "feed";
-        readonly route: "/feed";
+        readonly route: "/inbox";
         readonly labelKey: "nav.feed";
         readonly icon: "utility.activity";
     };
@@ -29,7 +29,7 @@ export declare const PlantimNavigation: Readonly<{
     };
     readonly calendar: {
         readonly id: "calendar";
-        readonly route: "/calendar";
+        readonly route: "/rhythm";
         readonly labelKey: "nav.careCalendar";
         readonly icon: "calendar.date";
     };

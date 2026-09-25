@@ -3,14 +3,15 @@ import XCTest
 
 final class PlantimIconsTests: XCTestCase {
     func testGeneratedRegistryMetadataIsPresent() {
-        XCTAssertEqual(PlantimIconsMetadata.version, "2.3.0")
+        XCTAssertEqual(PlantimIconsMetadata.version, "2.4.0")
         XCTAssertEqual(PlantimIconsMetadata.registryHash.count, 64)
     }
 
     func testGeneratedNavigationContractUsesOneFeedIcon() {
         XCTAssertEqual(PlantimNavigation.feed.icon, .utilityActivity)
-        XCTAssertEqual(PlantimNavigation.feed.route, "/feed")
+        XCTAssertEqual(PlantimNavigation.feed.route, "/inbox")
         XCTAssertEqual(PlantimNavigation.feed.labelKey, "nav.feed")
+        XCTAssertEqual(PlantimNavigation.calendar.route, "/rhythm")
         XCTAssertEqual(PlantimNavigation.productContractHash.count, 64)
     }
 
