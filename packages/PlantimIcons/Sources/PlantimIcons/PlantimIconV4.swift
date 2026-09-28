@@ -508,7 +508,7 @@ private enum PlantimV4Node: Sendable {
     }
 }
 
-private struct PlantimV4SVGPathParser {
+struct PlantimV4SVGPathParser {
     let tokens: [String]
 
     init(_ value: String) {

@@ -41,6 +41,13 @@ The review that produced these additions is recorded in
 and its catalog; those artifacts are historical and no longer regenerate, since
 the proposal is now the shipped set.
 
+## Brand marks
+
+The Plantim logo and the Google, GitHub and Apple sign-in marks ship as
+[`design-tokens/icons/brand`](design-tokens/icons/brand/README.md), a fixed-colour
+asset class published as `@plantim/icons/brand` and `PlantimBrand` in SwiftUI,
+from 16 to 512 px.
+
 ## Compatibility
 
 | Consumer or tool | Supported baseline |

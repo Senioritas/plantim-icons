@@ -25,7 +25,7 @@ public struct PlantimNavigationItem: Sendable, Equatable {
 
 public enum PlantimNavigation {
     public static let version = "1.1.0"
-    public static let registryHash = "d8c5059a9d8d19ddddbb5ec01484ad9eeeed5817290aabd486685e839d1cb857"
+    public static let registryHash = "9cba448ed6381aa4f290d207271cdcb1a4e5d56c4938da1a08e3b575e8eb13bf"
     public static let productContractHash = "372c387c30206a80e6d25da4d00c10d13aed442f7a08aad1945c043c3a458a8a"
     public static let feed = PlantimNavigationItem(id: .feed, route: "/inbox", labelKey: "nav.feed", icon: .utilityActivity)
     public static let garden = PlantimNavigationItem(id: .garden, route: "/gardens", labelKey: "nav.gardens", icon: .plantGrowth)

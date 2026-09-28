@@ -48,6 +48,9 @@ technology.
 | `@plantim/icons/flags` | The `PlantimFlag` renderer and flag shapes |
 | `@plantim/icons/flags/<code>` | Tree-shakable flag definitions, for example `de` |
 | `@plantim/icons/flags/metadata` | Flag labels and localized accessibility label keys |
+| `@plantim/icons/brand` | The `PlantimBrand` renderer for the Plantim logo and sign-in provider marks |
+| `@plantim/icons/brand/<name>` | Tree-shakable mark definitions: `plantim`, `google`, `github`, `apple` |
+| `@plantim/icons/brand/metadata` | Mark labels, trademark owners and permitted usage |
 
 The root entry point is the compatibility surface. The v4 catalogue is
 additive and is intentionally isolated behind `@plantim/icons/v4`.
@@ -121,6 +124,38 @@ the same flag into the disc used by the plant avatars, so a flag sits beside a
 profile picture without a shape clash. Per-flag modules are tree-shakable, so an
 app that offers three locales ships three flags. Always pass `title` when the
 flag is the only thing naming the region.
+
+## Brand marks
+
+The Plantim logo and the Google, GitHub and Apple sign-in marks live behind
+`@plantim/icons/brand`. Like flags, their colours are fixed by their owners and
+never re-theme through Plantim tokens.
+
+```vue
+<script setup lang="ts">
+import { PlantimBrand } from "@plantim/icons/brand";
+import BrandPlantim from "@plantim/icons/brand/plantim";
+import BrandGithub from "@plantim/icons/brand/github";
+</script>
+
+<template>
+  <PlantimBrand :brand="BrandPlantim" :size="128" title="Plantim" />
+  <PlantimBrand :brand="BrandGithub" :size="20" :theme="isDark ? 'dark' : 'light'" />
+</template>
+```
+
+- `variant="color"` (default) uses the owner's colours. Pass `theme="dark"` on
+  dark surfaces: Apple and GitHub switch to white, Google and Plantim do not
+  change. `variant="mono"` fills every layer with `currentColor`.
+- Sizes run from 16 to 512 px. The Plantim logo has three traced grades: the
+  full artwork from 48 px up, and simplified versions at 24–32 and 16–20 px
+  that keep the leaf, veins and trunk legible.
+- The Google, GitHub and Apple marks are their owners' unmodified artwork and
+  are not MIT-licensed. Use them only in sign-in and linked-account UI; see
+  `TRADEMARKS.md`.
+
+In SwiftUI the same marks ship as `PlantimBrand(.plantim, size: 64)`, resolving
+the dark-surface colours from `colorScheme`.
 
 ## Shared navigation
 

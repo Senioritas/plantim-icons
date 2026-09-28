@@ -25,7 +25,7 @@ const sizeOf = (file) => fs.statSync(path.join(distRoot, file)).size;
 // Legacy (v2) budgets: numbers are frozen and scoped to the legacy dist files
 // only. The additive ./v4 subpath (dist/v4/**) has its own budgets below and
 // must never eat into the legacy allowance.
-const legacyFiles = distFiles.filter((file) => !file.startsWith("v4/") && !file.startsWith("flags/"));
+const legacyFiles = distFiles.filter((file) => !file.startsWith("v4/") && !file.startsWith("flags/") && !file.startsWith("brand/"));
 const legacyBytes = legacyFiles.reduce((total, file) => total + sizeOf(file), 0);
 
 assert.ok(source.byteLength <= 220 * 1024, `icon entry exceeds 220 KiB: ${source.byteLength} bytes`);
@@ -57,6 +57,21 @@ for (const file of flagFiles.filter((name) => name.startsWith("flags/flags/") &&
 const flagBytes = flagFiles.reduce((total, file) => total + sizeOf(file), 0);
 assert.ok(flagBytes <= 256 * 1024, `dist/flags exceeds 256 KiB: ${flagBytes} bytes`);
 
+// ./brand subpath budgets (additive; fixed-colour artwork). The Plantim logo
+// carries three traced grades, so it gets its own allowance; the unmodified
+// third-party marks are small single paths.
+const brandFiles = distFiles.filter((file) => file.startsWith("brand/"));
+assert.ok(brandFiles.includes("brand/index.js"), "missing brand entry: dist/brand/index.js");
+const brandEntryGzip = zlib.gzipSync(fs.readFileSync(path.join(distRoot, "brand/index.js"))).byteLength;
+assert.ok(brandEntryGzip <= 4 * 1024, `gzipped brand entry exceeds 4 KiB: ${brandEntryGzip} bytes`);
+for (const file of brandFiles.filter((name) => name.startsWith("brand/brands/") && name.endsWith(".js"))) {
+  const markGzip = zlib.gzipSync(fs.readFileSync(path.join(distRoot, file))).byteLength;
+  const budget = file === "brand/brands/plantim.js" ? 20 * 1024 : 4 * 1024;
+  assert.ok(markGzip <= budget, `gzipped brand module exceeds ${budget / 1024} KiB: ${file} (${markGzip} bytes)`);
+}
+const brandBytes = brandFiles.reduce((total, file) => total + sizeOf(file), 0);
+assert.ok(brandBytes <= 128 * 1024, `dist/brand exceeds 128 KiB: ${brandBytes} bytes`);
+
 console.log(
-  `Icon package size valid: entry ${source.byteLength} bytes (${gzipBytes} bytes gzip), legacy dist ${legacyBytes} bytes, v4 dist ${v4Bytes} bytes (entry ${v4EntryGzip} bytes gzip), flags dist ${flagBytes} bytes.`,
+  `Icon package size valid: entry ${source.byteLength} bytes (${gzipBytes} bytes gzip), legacy dist ${legacyBytes} bytes, v4 dist ${v4Bytes} bytes (entry ${v4EntryGzip} bytes gzip), flags dist ${flagBytes} bytes, brand dist ${brandBytes} bytes.`,
 );

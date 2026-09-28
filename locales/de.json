@@ -57,6 +57,12 @@
         "pilea": "Ufopflanze",
         "oak": "Eiche",
         "eucalyptus": "Eukalyptus"
+      },
+      "brand": {
+        "apple": "Apple",
+        "github": "GitHub",
+        "google": "Google",
+        "plantim": "Plantim"
       }
     }
   }
