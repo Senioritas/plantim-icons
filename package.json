@@ -60,7 +60,7 @@
     "icons:brand:trace": "node design-tokens/icons/brand/tools/trace-plantim.mjs"
   },
   "devDependencies": {
-    "@lucide/vue": "1.40.0",
+    "@lucide/vue": "1.48.0",
     "@playwright/test": "1.62.1",
     "@vitejs/plugin-vue": "6.0.8",
     "ajv": "^8.17.1",
