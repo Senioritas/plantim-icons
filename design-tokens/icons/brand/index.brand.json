@@ -1,0 +1,197 @@
+{
+  "version": "4.2.0",
+  "brandHash": "e56b034f2b83163acda0c2f8b3507441eee8517e0310b581185abe7cff964685",
+  "counts": {
+    "total": 4
+  },
+  "brands": [
+    {
+      "id": "brand.apple",
+      "kind": "brand",
+      "category": "brand",
+      "label": "Apple",
+      "files": {
+        "color": {
+          "16": "svg/color/brand.apple@16.svg",
+          "20": "svg/color/brand.apple@20.svg",
+          "24": "svg/color/brand.apple@24.svg",
+          "32": "svg/color/brand.apple@32.svg",
+          "48": "svg/color/brand.apple@48.svg",
+          "72": "svg/color/brand.apple@72.svg",
+          "96": "svg/color/brand.apple@96.svg",
+          "128": "svg/color/brand.apple@128.svg",
+          "192": "svg/color/brand.apple@192.svg",
+          "256": "svg/color/brand.apple@256.svg",
+          "512": "svg/color/brand.apple@512.svg"
+        },
+        "color.dark": {
+          "16": "svg/color.dark/brand.apple@16.svg",
+          "20": "svg/color.dark/brand.apple@20.svg",
+          "24": "svg/color.dark/brand.apple@24.svg",
+          "32": "svg/color.dark/brand.apple@32.svg",
+          "48": "svg/color.dark/brand.apple@48.svg",
+          "72": "svg/color.dark/brand.apple@72.svg",
+          "96": "svg/color.dark/brand.apple@96.svg",
+          "128": "svg/color.dark/brand.apple@128.svg",
+          "192": "svg/color.dark/brand.apple@192.svg",
+          "256": "svg/color.dark/brand.apple@256.svg",
+          "512": "svg/color.dark/brand.apple@512.svg"
+        },
+        "mono": {
+          "16": "svg/mono/brand.apple@16.svg",
+          "20": "svg/mono/brand.apple@20.svg",
+          "24": "svg/mono/brand.apple@24.svg",
+          "32": "svg/mono/brand.apple@32.svg",
+          "48": "svg/mono/brand.apple@48.svg",
+          "72": "svg/mono/brand.apple@72.svg",
+          "96": "svg/mono/brand.apple@96.svg",
+          "128": "svg/mono/brand.apple@128.svg",
+          "192": "svg/mono/brand.apple@192.svg",
+          "256": "svg/mono/brand.apple@256.svg",
+          "512": "svg/mono/brand.apple@512.svg"
+        }
+      }
+    },
+    {
+      "id": "brand.github",
+      "kind": "brand",
+      "category": "brand",
+      "label": "GitHub",
+      "files": {
+        "color": {
+          "16": "svg/color/brand.github@16.svg",
+          "20": "svg/color/brand.github@20.svg",
+          "24": "svg/color/brand.github@24.svg",
+          "32": "svg/color/brand.github@32.svg",
+          "48": "svg/color/brand.github@48.svg",
+          "72": "svg/color/brand.github@72.svg",
+          "96": "svg/color/brand.github@96.svg",
+          "128": "svg/color/brand.github@128.svg",
+          "192": "svg/color/brand.github@192.svg",
+          "256": "svg/color/brand.github@256.svg",
+          "512": "svg/color/brand.github@512.svg"
+        },
+        "color.dark": {
+          "16": "svg/color.dark/brand.github@16.svg",
+          "20": "svg/color.dark/brand.github@20.svg",
+          "24": "svg/color.dark/brand.github@24.svg",
+          "32": "svg/color.dark/brand.github@32.svg",
+          "48": "svg/color.dark/brand.github@48.svg",
+          "72": "svg/color.dark/brand.github@72.svg",
+          "96": "svg/color.dark/brand.github@96.svg",
+          "128": "svg/color.dark/brand.github@128.svg",
+          "192": "svg/color.dark/brand.github@192.svg",
+          "256": "svg/color.dark/brand.github@256.svg",
+          "512": "svg/color.dark/brand.github@512.svg"
+        },
+        "mono": {
+          "16": "svg/mono/brand.github@16.svg",
+          "20": "svg/mono/brand.github@20.svg",
+          "24": "svg/mono/brand.github@24.svg",
+          "32": "svg/mono/brand.github@32.svg",
+          "48": "svg/mono/brand.github@48.svg",
+          "72": "svg/mono/brand.github@72.svg",
+          "96": "svg/mono/brand.github@96.svg",
+          "128": "svg/mono/brand.github@128.svg",
+          "192": "svg/mono/brand.github@192.svg",
+          "256": "svg/mono/brand.github@256.svg",
+          "512": "svg/mono/brand.github@512.svg"
+        }
+      }
+    },
+    {
+      "id": "brand.google",
+      "kind": "brand",
+      "category": "brand",
+      "label": "Google",
+      "files": {
+        "color": {
+          "16": "svg/color/brand.google@16.svg",
+          "20": "svg/color/brand.google@20.svg",
+          "24": "svg/color/brand.google@24.svg",
+          "32": "svg/color/brand.google@32.svg",
+          "48": "svg/color/brand.google@48.svg",
+          "72": "svg/color/brand.google@72.svg",
+          "96": "svg/color/brand.google@96.svg",
+          "128": "svg/color/brand.google@128.svg",
+          "192": "svg/color/brand.google@192.svg",
+          "256": "svg/color/brand.google@256.svg",
+          "512": "svg/color/brand.google@512.svg"
+        },
+        "color.dark": {
+          "16": "svg/color.dark/brand.google@16.svg",
+          "20": "svg/color.dark/brand.google@20.svg",
+          "24": "svg/color.dark/brand.google@24.svg",
+          "32": "svg/color.dark/brand.google@32.svg",
+          "48": "svg/color.dark/brand.google@48.svg",
+          "72": "svg/color.dark/brand.google@72.svg",
+          "96": "svg/color.dark/brand.google@96.svg",
+          "128": "svg/color.dark/brand.google@128.svg",
+          "192": "svg/color.dark/brand.google@192.svg",
+          "256": "svg/color.dark/brand.google@256.svg",
+          "512": "svg/color.dark/brand.google@512.svg"
+        },
+        "mono": {
+          "16": "svg/mono/brand.google@16.svg",
+          "20": "svg/mono/brand.google@20.svg",
+          "24": "svg/mono/brand.google@24.svg",
+          "32": "svg/mono/brand.google@32.svg",
+          "48": "svg/mono/brand.google@48.svg",
+          "72": "svg/mono/brand.google@72.svg",
+          "96": "svg/mono/brand.google@96.svg",
+          "128": "svg/mono/brand.google@128.svg",
+          "192": "svg/mono/brand.google@192.svg",
+          "256": "svg/mono/brand.google@256.svg",
+          "512": "svg/mono/brand.google@512.svg"
+        }
+      }
+    },
+    {
+      "id": "brand.plantim",
+      "kind": "brand",
+      "category": "brand",
+      "label": "Plantim",
+      "files": {
+        "color": {
+          "16": "svg/color/brand.plantim@16.svg",
+          "20": "svg/color/brand.plantim@20.svg",
+          "24": "svg/color/brand.plantim@24.svg",
+          "32": "svg/color/brand.plantim@32.svg",
+          "48": "svg/color/brand.plantim@48.svg",
+          "72": "svg/color/brand.plantim@72.svg",
+          "96": "svg/color/brand.plantim@96.svg",
+          "128": "svg/color/brand.plantim@128.svg",
+          "192": "svg/color/brand.plantim@192.svg",
+          "256": "svg/color/brand.plantim@256.svg",
+          "512": "svg/color/brand.plantim@512.svg"
+        },
+        "color.dark": {
+          "16": "svg/color.dark/brand.plantim@16.svg",
+          "20": "svg/color.dark/brand.plantim@20.svg",
+          "24": "svg/color.dark/brand.plantim@24.svg",
+          "32": "svg/color.dark/brand.plantim@32.svg",
+          "48": "svg/color.dark/brand.plantim@48.svg",
+          "72": "svg/color.dark/brand.plantim@72.svg",
+          "96": "svg/color.dark/brand.plantim@96.svg",
+          "128": "svg/color.dark/brand.plantim@128.svg",
+          "192": "svg/color.dark/brand.plantim@192.svg",
+          "256": "svg/color.dark/brand.plantim@256.svg",
+          "512": "svg/color.dark/brand.plantim@512.svg"
+        },
+        "mono": {
+          "16": "svg/mono/brand.plantim@16.svg",
+          "20": "svg/mono/brand.plantim@20.svg",
+          "24": "svg/mono/brand.plantim@24.svg",
+          "32": "svg/mono/brand.plantim@32.svg",
+          "48": "svg/mono/brand.plantim@48.svg",
+          "72": "svg/mono/brand.plantim@72.svg",
+          "96": "svg/mono/brand.plantim@96.svg",
+          "128": "svg/mono/brand.plantim@128.svg",
+          "192": "svg/mono/brand.plantim@192.svg",
+          "256": "svg/mono/brand.plantim@256.svg",
+          "512": "svg/mono/brand.plantim@512.svg"
+        }
+      }
+    }
+  ]
+}

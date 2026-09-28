@@ -21,7 +21,7 @@ separate asset class with its own DSL, registry, gate and npm subpath, because
 its colours are fixed by vexillology and must not re-theme. Add a new asset
 class rather than weakening the icon gates whenever a set cannot honour the
 four-variant, `currentColor`, token-themed contract. See
-[`flags/README.md`](flags/README.md).
+[`flags/README.md`](flags/README.md) and [`brand/README.md`](brand/README.md).
 
 ## Versioning
 

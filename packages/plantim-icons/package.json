@@ -1,6 +1,6 @@
 {
   "name": "@plantim/icons",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "private": false,
   "description": "Plantim's tree-shakeable semantic icon library for Vue 3.",
   "keywords": [
@@ -13,7 +13,9 @@
     "typescript",
     "svg",
     "plants",
-    "flags"
+    "flags",
+    "brand",
+    "logos"
   ],
   "license": "MIT",
   "types": "./dist/index.d.ts",
@@ -87,6 +89,21 @@
       "import": "./dist/flags/flags/*.js",
       "default": "./dist/flags/flags/*.js"
     },
+    "./brand": {
+      "types": "./dist/brand/index.d.ts",
+      "import": "./dist/brand/index.js",
+      "default": "./dist/brand/index.js"
+    },
+    "./brand/metadata": {
+      "types": "./dist/brand/metadata.d.ts",
+      "import": "./dist/brand/metadata.js",
+      "default": "./dist/brand/metadata.js"
+    },
+    "./brand/*": {
+      "types": "./dist/brand/brands/*.d.ts",
+      "import": "./dist/brand/brands/*.js",
+      "default": "./dist/brand/brands/*.js"
+    },
     "./package.json": "./package.json"
   },
   "typesVersions": {
@@ -117,6 +134,15 @@
       ],
       "flags/*": [
         "dist/flags/flags/*.d.ts"
+      ],
+      "brand": [
+        "dist/brand/index.d.ts"
+      ],
+      "brand/metadata": [
+        "dist/brand/metadata.d.ts"
+      ],
+      "brand/*": [
+        "dist/brand/brands/*.d.ts"
       ],
       "*": [
         "dist/index.d.ts"

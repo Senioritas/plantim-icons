@@ -1,0 +1,37 @@
+// GENERATED FILE - do not edit by hand.
+// Source: design-tokens/icons/brand/registry.brand.json (brandHash e56b034f2b83163acda0c2f8b3507441eee8517e0310b581185abe7cff964685).
+// Regenerate with: npm run icons:brand:package
+import type { PlantimBrandDefinition } from "../index.js";
+
+export const BrandGoogle: PlantimBrandDefinition = {
+  "id": "brand.google",
+  "name": "google",
+  "label": "Google",
+  "accessibilityLabelKey": "a11y.icons.brand.google",
+  "grades": {
+    "base": [
+      {
+        "name": "red",
+        "d": "M12 5.958C13.475 5.958 14.796 6.467 15.838 7.458L18.692 4.604C16.958 2.992 14.696 2 12 2C8.092 2 4.713 4.242 3.067 7.508L6.392 10.088C7.179 7.717 9.392 5.958 12 5.958Z",
+        "fill": "#EA4335"
+      },
+      {
+        "name": "blue",
+        "d": "M21.575 12.229C21.575 11.575 21.513 10.942 21.417 10.333L12 10.333L12 14.092L17.392 14.092C17.15 15.325 16.45 16.375 15.4 17.083L18.621 19.583C20.5 17.842 21.575 15.267 21.575 12.229Z",
+        "fill": "#4285F4"
+      },
+      {
+        "name": "yellow",
+        "d": "M6.388 13.913C6.188 13.308 6.071 12.667 6.071 12C6.071 11.333 6.183 10.692 6.388 10.088L3.062 7.508C2.383 8.858 2 10.383 2 12C2 13.617 2.383 15.142 3.067 16.492L6.388 13.913Z",
+        "fill": "#FBBC05"
+      },
+      {
+        "name": "green",
+        "d": "M12 22C14.7 22 16.971 21.113 18.621 19.579L15.4 17.079C14.504 17.683 13.35 18.037 12 18.037C9.392 18.037 7.179 16.279 6.387 13.908L3.062 16.487C4.713 19.758 8.092 22 12 22Z",
+        "fill": "#34A853"
+      }
+    ]
+  }
+};
+
+export default BrandGoogle;

@@ -57,6 +57,12 @@
         "pilea": "Pilea",
         "oak": "Oak",
         "eucalyptus": "Eucalyptus"
+      },
+      "brand": {
+        "apple": "Apple",
+        "github": "GitHub",
+        "google": "Google",
+        "plantim": "Plantim"
       }
     }
   }

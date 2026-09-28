@@ -3,6 +3,18 @@
 All notable icon contract changes are recorded here. Geometry changes, removals,
 renames, and accessibility changes require coordinated package releases.
 
+## 2.5.0
+
+- Add `@plantim/icons/brand` and the `PlantimBrand` SwiftUI view: the Plantim
+  logo plus the Google, GitHub and Apple sign-in marks, as a separate asset
+  class with fixed owner colours (brand registry 4.2.0). Sizes run from 16 to
+  512 px; the Plantim logo is traced from the product artwork with simplified
+  grades for 16–32 px. Third-party marks are unmodified and restricted to
+  sign-in and linked-account UI (see TRADEMARKS.md).
+- Add localized accessibility labels for every brand mark in en, de and tr.
+- The SwiftUI v4 path parser is now module-internal so the brand renderer can
+  share it; no public API changes.
+
 ## 2.4.0
 
 - Update the shared product navigation contract so the activity surface uses
